@@ -1,0 +1,11 @@
+                                        CIRCUITOS DIGITAIS
+
+A tecnologia digital está presente em quase tudo ao nosso redor, desde um simples relógio até sistemas complexos de inteligência artificial. E no centro de todo esse funcionamento, estão os circuitos digitais. Mas, afinal, o que são? Em palavras simples, circuitos digitais são sistemas compostos por componentes eletrônicos projetados para processar e armazenar informações em formato binário, ou seja, usando apenas os números 0 e 1. Essa característica torna o processamento mais preciso e confiável, já que os dados são representados de forma clara.
+
+Diferente dos circuitos analógicos, que trabalham com sinais contínuos, os circuitos digitais utilizam tensões bem definidas para representar os números binários. Normalmente, uma tensão baixa significa 0 e uma tensão alta representa 1. Isso facilita a interpretação dos sinais, tornando-os menos sensíveis a ruídos elétricos e, portanto, mais eficientes para processar dados.
+
+A grande revolução da tecnologia digital foi possibilitar que informações complexas fossem processadas com muita rapidez e precisão. Com circuitos digitais, conseguimos criar sistemas capazes de tomar decisões inteligentes, armazenar grandes volumes de dados e operar em altíssimas velocidades. É por isso que eles são a base de dispositivos como computadores, celulares, videogames e até mesmo sistemas automotivos.
+
+Uma das maiores vantagens dos circuitos digitais é sua escalabilidade. Isso significa que, à medida que combinamos componentes digitais, conseguimos formar circuitos cada vez mais complexos. Isso possibilita criar desde sistemas simples, como contadores digitais, até as máquinas mais poderosas, como os microprocessadores modernos, que são essenciais para o desempenho dos computadores e dispositivos mais avançados.
+
+Por tudo isso, os circuitos digitais são considerados a espinha dorsal da eletrônica moderna. Sua precisão, confiabilidade e capacidade de processar dados rapidamente fazem deles a base para a maioria das tecnologias que usamos no nosso dia a dia. Para entender ainda melhor o papel deles, é interessante compará-los aos circuitos analógicos e perceber por que os digitais acabaram dominando a tecnologia atual.
