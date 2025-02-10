@@ -240,25 +240,60 @@ dispositivos como computadores, celulares e sistemas embarcados não poderiam fu
 
                                  "Tipos de Circuitos Digitais"
 
-Para relembrar, os circuitos digitais são essenciais para o funcionamento de dispositivos eletrônicos modernos, pois são responsáveis por processar informações em sistemas como computadores, celulares e dispositivos embarcados. Eles operam com sinais binários (0s e 1s), utilizando combinações de portas lógicas para executar tarefas específicas. Dependendo de como manipulam as informações, os circuitos digitais podem ser classificados em combinacionais e sequenciais.
+ Para relembrar, os circuitos digitais são essenciais para o funcionamento de dispositivos eletrônicos modernos, 
+pois são responsáveis por processar informações em sistemas como computadores, celulares e dispositivos embarcados. 
+Eles operam com sinais binários (0s e 1s), utilizando combinações de portas lógicas para executar tarefas 
+específicas. Dependendo de como manipulam as informações, os circuitos digitais podem ser classificados em 
+combinacionais e sequenciais.
 
-A principal diferença entre esses dois tipos de circuitos está na memória e na forma como a saída é determinada. Os circuitos combinacionais produzem um resultado imediato, baseado apenas nas entradas atuais, sem levar em conta o que aconteceu antes. Já os circuitos sequenciais possuem a capacidade de armazenar informações, fazendo com que suas saídas dependam não apenas das entradas do momento, mas também de estados anteriores do sistema. Essa distinção é fundamental para compreender como diferentes dispositivos digitais operam no dia a dia.
+ A principal diferença entre esses dois tipos de circuitos está na memória e na forma como a saída é determinada. 
+Os circuitos combinacionais produzem um resultado imediato, baseado apenas nas entradas atuais, sem levar em conta 
+o que aconteceu antes. Já os circuitos sequenciais possuem a capacidade de armazenar informações, fazendo com que 
+suas saídas dependam não apenas das entradas do momento, mas também de estados anteriores do sistema. Essa 
+distinção é fundamental para compreender como diferentes dispositivos digitais operam no dia a dia.
 
-1. Circuitos Digitais Combinacionais
-Os circuitos combinacionais funcionam como uma máquina que responde instantaneamente a comandos, sem a necessidade de lembrar ações passadas. Eles operam seguindo regras bem definidas, onde cada conjunto de entradas resulta sempre na mesma saída correspondente. Isso significa que não há qualquer tipo de armazenamento de informações ou histórico dentro do circuito.
+ * Circuitos Digitais Combinacionais:
 
-Como a saída depende exclusivamente do que está sendo processado no momento, esses circuitos são extremamente rápidos e previsíveis. Sempre que uma nova entrada é fornecida, o circuito recalcula sua resposta sem precisar considerar eventos anteriores. Esse comportamento os torna ideais para tarefas que exigem velocidade e precisão imediata.
+   Os circuitos combinacionais funcionam como uma máquina que responde instantaneamente a comandos, sem a  
+  necessidade de lembrar ações passadas. Eles operam seguindo regras bem definidas, onde cada conjunto de entradas 
+  resulta sempre na mesma saída correspondente. Isso significa que não há qualquer tipo de armazenamento de 
+  informações ou histórico dentro do circuito.
 
-No entanto, essa simplicidade também traz uma limitação: a incapacidade de armazenar dados. Se for necessário reter informações para serem usadas posteriormente, os circuitos combinacionais, por si só, não são suficientes. Para resolver esse problema, entram em cena os circuitos sequenciais, que possuem memória interna e podem "lembrar" estados anteriores.
+   Como a saída depende exclusivamente do que está sendo processado no momento, esses circuitos são extremamente 
+  rápidos e previsíveis. Sempre que uma nova entrada é fornecida, o circuito recalcula sua resposta sem precisar 
+  considerar eventos anteriores. Esse comportamento os torna ideais para tarefas que exigem velocidade e precisão 
+  imediata.
 
-2. Circuitos Digitais Sequenciais
-Diferente dos combinacionais, os circuitos sequenciais possuem um elemento fundamental: a memória. Isso significa que eles não apenas processam as entradas atuais, mas também registram estados anteriores, permitindo que a saída do sistema seja influenciada por informações passadas. Esse comportamento é essencial para dispositivos que precisam armazenar e atualizar dados continuamente.
-
-Para que isso funcione de maneira controlada, os circuitos sequenciais costumam operar em sincronia com um sinal de clock, que determina o momento exato em que novas informações devem ser registradas ou alteradas. Esse mecanismo é o que permite que sistemas digitais avancem em etapas organizadas, garantindo que os dados sejam processados corretamente ao longo do tempo.
-
-Por dependerem de memória, os circuitos sequenciais são mais complexos do que os combinacionais, exigindo maior controle e organização interna. No entanto, essa característica os torna indispensáveis para sistemas que precisam manter um histórico de informações, como armazenar números digitados em uma calculadora, registrar tempo em um relógio digital ou gerenciar o funcionamento de um processador.
+   No entanto, essa simplicidade também traz uma limitação: a incapacidade de armazenar dados. Se for necessário 
+  reter informações para serem usadas posteriormente, os circuitos combinacionais, por si só, não são suficientes. 
+  Para resolver esse problema, entram em cena os circuitos sequenciais, que possuem memória interna e podem 
+  "lembrar" estados anteriores.
 
 
-Em suma, os circuitos combinacionais e sequenciais desempenham papéis complementares dentro da eletrônica digital. Enquanto os combinacionais são rápidos e eficazes para tarefas que exigem cálculos instantâneos e previsíveis, os sequenciais adicionam a capacidade de armazenar e manipular informações ao longo do tempo, tornando possível o funcionamento de sistemas mais complexos.
+ * Circuitos Digitais Sequenciais:
 
-Na prática, os dois tipos trabalham juntos para formar a base de dispositivos eletrônicos modernos. Um computador, por exemplo, usa circuitos combinacionais para processar operações matemáticas em alta velocidade e circuitos sequenciais para armazenar informações e controlar processos de maneira organizada. Essa combinação é o que permite a criação de sistemas digitais poderosos, capazes de lidar com desde as tarefas mais simples até as mais sofisticadas.
+   Diferente dos combinacionais, os circuitos sequenciais possuem um elemento fundamental: a memória. Isso 
+  significa que eles não apenas processam as entradas atuais, mas também registram estados anteriores, permitindo 
+  que a saída do sistema seja influenciada por informações passadas. Esse comportamento é essencial para 
+  dispositivos que precisam armazenar e atualizar dados continuamente.
+
+   Para que isso funcione de maneira controlada, os circuitos sequenciais costumam operar em sincronia com um sinal 
+  de clock, que determina o momento exato em que novas informações devem ser registradas ou alteradas. Esse 
+  mecanismo é o que permite que sistemas digitais avancem em etapas organizadas, garantindo que os dados sejam 
+  processados corretamente ao longo do tempo.
+
+   Por dependerem de memória, os circuitos sequenciais são mais complexos do que os combinacionais, exigindo maior 
+  controle e organização interna. No entanto, essa característica os torna indispensáveis para sistemas que 
+  precisam manter um histórico de informações, como armazenar números digitados em uma calculadora, registrar tempo 
+  em um relógio digital ou gerenciar o funcionamento de um processador.
+
+ Em suma, os circuitos combinacionais e sequenciais desempenham papéis complementares dentro da eletrônica digital. 
+Enquanto os combinacionais são rápidos e eficazes para tarefas que exigem cálculos instantâneos e previsíveis, os 
+sequenciais adicionam a capacidade de armazenar e manipular informações ao longo do tempo, tornando possível o 
+funcionamento de sistemas mais complexos.
+
+ Na prática, os dois tipos trabalham juntos para formar a base de dispositivos eletrônicos modernos. Um computador, 
+por exemplo, usa circuitos combinacionais para processar operações matemáticas em alta velocidade e circuitos 
+sequenciais para armazenar informações e controlar processos de maneira organizada. Essa combinação é o que permite 
+a criação de sistemas digitais poderosos, capazes de lidar com desde as tarefas mais simples até as mais 
+sofisticadas.
