@@ -69,11 +69,11 @@ realização de tarefas incríveis, tudo a partir da alternância entre 1 e 0, o
 
                              "Sinais Digitais versus Sinais Analógicos" 
 
- Os sinais digitais são uma forma de representar informações usando dois valores distintos, geralmente 0 e 1, 
-conhecidos como bits. Esses sinais não variam de forma contínua, como os sinais analógicos, mas são discretos, ou 
-seja, eles saltam de um valor para o outro de maneira clara e definida. Imagine um interruptor de luz: ele pode 
-estar ligado (representando 1) ou desligado (representando 0), mas não tem estados intermediários. Essa 
-simplicidade é o que torna os sinais digitais tão poderosos, pois facilitam o processamento e a transmissão de 
+ Como já sabemos os sinais digitais são uma forma de representar informações usando dois valores distintos, 
+geralmente 0 e 1, conhecidos como bits. Esses sinais não variam de forma contínua, como os sinais analógicos, mas 
+são discretos, ou seja, eles saltam de um valor para o outro de maneira clara e definida. Imagine um interruptor de 
+luz: ele pode estar ligado (representando 1) ou desligado (representando 0), mas não tem estados intermediários. 
+Essa simplicidade é o que torna os sinais digitais tão poderosos, pois facilitam o processamento e a transmissão de 
 informações com uma precisão impressionante.
 
  Por outro lado, os sinais analógicos funcionam de forma diferente. Eles podem assumir uma infinidade de valores ao 
