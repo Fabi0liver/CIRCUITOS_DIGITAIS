@@ -38,17 +38,36 @@ por isso que eles são, sem dúvida, os grandes responsáveis pela revolução d
 
                                         "Sinais Digitais"
 
-Os sinais digitais são essenciais para o funcionamento de muitos dos dispositivos eletrônicos que usamos no dia a dia, como computadores, celulares e até sistemas de controle em carros. Esses sinais têm uma característica muito simples: eles assumem apenas dois valores possíveis, 1 ou 0. Imagine um interruptor de luz, que pode estar ligado ou desligado. No caso dos sinais digitais, o "ligado" é representado pelo número 1 e o "desligado" é o número 0. Esse sistema binário, que só utiliza duas opções, é o que torna os sinais digitais extremamente eficientes e fáceis de processar em circuitos eletrônicos.
+ Os sinais digitais são essenciais para o funcionamento de muitos dos dispositivos eletrônicos que usamos no dia a 
+dia, como computadores, celulares e até sistemas de controle em carros. Esses sinais têm uma característica muito 
+simples: eles assumem apenas dois valores possíveis, 1 ou 0. Imagine um interruptor de luz, que pode estar ligado 
+ou desligado. No caso dos sinais digitais, o "ligado" é representado pelo número 1 e o "desligado" é o número 0. 
+Esse sistema binário, que só utiliza duas opções, é o que torna os sinais digitais extremamente eficientes e fáceis 
+de processar em circuitos eletrônicos.
 
-Para que esses sinais possam ser transmitidos de maneira clara e precisa, eles são representados em forma de ondas de tensão. Quando o sinal digital está no valor 1, isso corresponde a um nível de tensão alto, geralmente de +5V (volts). Já quando o sinal está em 0, ele representa um nível de tensão baixo, ou 0V. Pense nisso como uma luz de semáforo: quando está "verde" (nível alto), a corrente passa livremente, e quando está "vermelho" (nível baixo), a corrente é interrompida. Essa alternância de níveis de tensão ajuda os circuitos digitais a interpretar os sinais com clareza.
+ Para que esses sinais possam ser transmitidos de maneira clara e precisa, eles são representados em forma de ondas 
+de tensão. Quando o sinal digital está no valor 1, isso corresponde a um nível de tensão alto, geralmente de +5 
+volts. Já quando o sinal está em 0, ele representa um nível de tensão baixo, ou 0 volts. Pense nisso como uma luz 
+de semáforo: quando está "verde" (nível alto), a corrente passa livremente, e quando está "vermelho" (nível baixo), 
+a corrente é interrompida. Essa alternância de níveis de tensão ajuda os circuitos digitais a interpretar os sinais 
+com clareza.
 
-Essa representação binária de sinais digitais é uma das principais razões pela qual eles são tão confiáveis. Em vez de lidar com uma infinidade de valores como no caso dos sinais analógicos, os sinais digitais são bem definidos, com apenas dois estados possíveis. Isso torna muito mais fácil para os circuitos identificarem, processarem e transmitirem os dados. Além disso, os sinais digitais são menos vulneráveis a interferências externas, como ruídos elétricos, porque a diferença entre os níveis alto e baixo de tensão é bem grande e fácil de distinguir, mesmo em ambientes com algum grau de distorção.
+ Essa representação binária de sinais digitais é uma das principais razões pela qual eles são tão confiáveis. Em 
+vez de lidar com uma infinidade de valores como no caso dos sinais analógicos, os sinais digitais são bem 
+definidos, com apenas dois estados possíveis. Isso torna muito mais fácil para os circuitos identificarem, 
+processarem e transmitirem os dados. Além disso, os sinais digitais são menos vulneráveis a interferências 
+externas, como ruídos elétricos, porque a diferença entre os níveis alto e baixo de tensão é bem grande e fácil de 
+distinguir, mesmo em ambientes com algum grau de distorção.
 
-Essa simplicidade e robustez dos sinais digitais tornam possível a criação de sistemas extremamente rápidos e precisos. Desde simples operações, como acender uma luz ou contar números, até processos mais complexos, como o processamento de informações em um computador, tudo é feito com esses sinais. Em muitos circuitos digitais, como os de microprocessadores, bilhões de transistores manipulam esses sinais binários a cada segundo, permitindo a realização de tarefas incríveis, tudo a partir da alternância entre 1 e 0, ou ligado e desligado.
+ Essa simplicidade e robustez dos sinais digitais tornam possível a criação de sistemas extremamente rápidos e 
+precisos. Desde simples operações, como acender uma luz ou contar números, até processos mais complexos, como o 
+processamento de informações em um computador, tudo é feito com esses sinais. Em muitos circuitos digitais, como os 
+de microprocessadores, bilhões de transistores manipulam esses sinais binários a cada segundo, permitindo a 
+realização de tarefas incríveis, tudo a partir da alternância entre 1 e 0, ou ligado e desligado.
 
 
 
-                              "Sinais Digitais versus Sinais Analógicos" 
+                             "Sinais Digitais versus Sinais Analógicos" 
 
 Os sinais digitais são uma forma de representar informações usando dois valores distintos, geralmente 0 e 1, conhecidos como bits. Esses sinais não variam de forma contínua, como os sinais analógicos, mas são discretos, ou seja, eles saltam de um valor para o outro de maneira clara e definida. Imagine um interruptor de luz: ele pode estar ligado (representando 1) ou desligado (representando 0), mas não tem estados intermediários. Essa simplicidade é o que torna os sinais digitais tão poderosos, pois facilitam o processamento e a transmissão de informações com uma precisão impressionante.
 
