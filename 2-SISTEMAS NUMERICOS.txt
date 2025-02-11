@@ -103,3 +103,74 @@ ele representa. Mas se esse mesmo número "10" estivesse em uma cédula de 100 r
 completamente diferente, pois o contexto muda. Da mesma forma, o valor de um número em um sistema numérico depende 
 das regras desse sistema e da posição em que ele está. Compreender esse conceito é essencial para avançarmos no 
 estudo dos números e suas aplicações na computação e na matemática.
+
+
+
+                                        "Bases Numéricas"
+
+ Nos sistemas numéricos, um conceito fundamental é o das bases numéricas, que determinam quantos símbolos 
+diferentes podemos usar para formar números e como esses números são organizados. A base de um sistema numérico 
+indica quantos dígitos distintos ele possui antes de precisar começar a reutilizar os mesmos símbolos em uma nova 
+posição. No nosso dia a dia, estamos acostumados ao sistema decimal, que utiliza dez símbolos (0 a 9), mas existem 
+outras bases amplamente usadas, especialmente na computação, como o binário, octal e hexadecimal.
+
+ Cada base numérica tem sua própria lógica de contagem e representação de valores. Se você já viu números que 
+parecem estranhos, cheios de zeros e uns, ou misturando letras e números, é porque esses sistemas são usados em 
+diferentes contextos, principalmente na computação. Para entender como funcionam, basta lembrar que, ao esgotar os 
+símbolos disponíveis em uma base, começamos a reutilizá-los com um novo dígito à esquerda, semelhante ao que 
+fazemos no decimal quando contamos de 9 para 10. Agora, vamos explorar as bases mais importantes.
+
+ * Base Decimal (Base 10):
+
+   A base decimal é a que utilizamos naturalmente no nosso cotidiano. Ela usa dez símbolos (0 a 9) e, quando 
+  chegamos ao número 9, adicionamos um novo dígito e voltamos ao zero, formando 10, 11, 12 e assim por diante. Esse 
+  sistema surgiu porque, historicamente, os seres humanos contavam utilizando os dez dedos das mãos, tornando o uso 
+  de dez símbolos algo intuitivo e prático.
+
+   Um detalhe importante do sistema decimal é que ele é posicional, ou seja, o valor de um dígito depende da 
+  posição em que ele está no número. No número 472, por exemplo, o "4" representa 400, o "7" representa 70 e o "2" 
+  representa apenas 2. Isso acontece porque cada posição representa uma potência de 10 (centenas, dezenas e 
+  unidades).
+
+
+ * Base Binária (Base 2):
+
+   A base binária é o sistema utilizado pelos computadores, pois eles operam com apenas dois estados possíveis: 
+  ligado e desligado (1 e 0). Diferente do sistema decimal, que tem dez símbolos, o binário tem apenas dois. Assim, 
+  a contagem binária segue a lógica: 0, 1, e quando se esgotam os símbolos, adiciona-se um novo dígito, formando 10 
+  (que vale 2 no decimal), 11 (que vale 3), 100 (que vale 4), e assim por diante.
+
+   Esse sistema é perfeito para a eletrônica digital, pois circuitos podem representar informações usando apenas 
+  dois níveis de tensão (baixo para 0 e alto para 1). Tudo o que os computadores fazem, desde armazenar fotos até 
+  rodar programas, é baseado nessa linguagem de uns e zeros. Apesar de parecer estranho à primeira vista, a base 
+  binária é fundamental para a computação e permite que toda a tecnologia moderna funcione.
+
+
+ * Base Octal (Base 8):
+
+   A base octal utiliza oito símbolos (0 a 7), e sua principal utilidade vem da relação direta com o sistema 
+  binário. Como cada dígito octal pode ser representado exatamente por três dígitos binários (por exemplo, 7 no 
+  octal é 111 no binário), esse sistema já foi muito usado na programação de computadores antigos para simplificar 
+  a leitura e escrita de números binários longos.
+
+   Na contagem octal, seguimos o mesmo princípio das outras bases: depois de 7, voltamos ao zero e adicionamos um 
+  novo dígito à esquerda. Por exemplo, em octal, os primeiros números são 0, 1, 2, 3, 4, 5, 6, 7, 10 (que vale 8 no 
+  decimal), 11 (que vale 9), e assim por diante. Embora hoje seja menos comum do que o hexadecimal, a base octal 
+  ainda aparece em algumas aplicações, especialmente na representação de permissões de arquivos no sistema 
+  operacional Unix/Linux.
+
+
+ * Base Hexadecimal (Base 16)
+
+   A base hexadecimal é muito utilizada na computação porque compacta de forma eficiente os números binários. Ela 
+  usa 16 símbolos: os tradicionais 0 a 9 e, como precisamos de mais seis dígitos, usamos as letras A, B, C, D, E e 
+  F, onde A vale 10, B vale 11, e assim por diante até F, que vale 15.
+
+   A vantagem da base hexadecimal é que cada grupo de quatro dígitos binários pode ser representado por um único 
+  dígito hexadecimal, tornando mais fácil a leitura e manipulação de grandes números binários. Por exemplo, o 
+  número binário 1010 1111 pode ser representado simplesmente como AF em hexadecimal. Esse sistema é amplamente 
+  utilizado para representar cores em programação gráfica, endereços de memória e até mesmo códigos de caracteres 
+  em linguagens de programação.
+
+
+As bases numéricas são fundamentais para entender como os números são representados e utilizados, principalmente no mundo da computação. Embora o sistema decimal seja o mais natural para nós, o binário, octal e hexadecimal são essenciais para a tecnologia digital. Cada base tem sua lógica própria e aplicações específicas, mas todas seguem o mesmo princípio: organizar e representar quantidades de maneira eficiente. Compreender esses sistemas é um passo essencial para qualquer pessoa que queira aprofundar seus conhecimentos em ciência da computação e tecnologia.
