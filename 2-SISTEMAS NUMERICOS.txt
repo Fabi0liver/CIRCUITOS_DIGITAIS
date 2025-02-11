@@ -33,3 +33,26 @@ moderno. Nos próximos estudos, aprofundaremos cada aspecto desses sistemas, exp
 aplicações na computação e no cotidiano. Mas, antes de mergulharmos nos detalhes, é importante ter essa visão 
 geral: os sistemas numéricos são uma ferramenta essencial criada pelo homem para entender e organizar o mundo ao 
 seu redor.
+
+
+
+                                     "O que são os Números"
+
+ Os números são a base de qualquer sistema numérico. Eles representam quantidades, posições, medidas e inúmeras 
+outras informações que usamos no dia a dia. No contexto dos sistemas numéricos, um número é uma representação 
+simbólica de uma quantidade, seguindo regras e convenções específicas para sua formação e interpretação. É como se 
+fossem palavras dentro de uma língua: cada número tem um significado e, dependendo do sistema numérico utilizado, 
+ele pode ser escrito e interpretado de maneiras diferentes.
+
+ Para entender melhor, pense nos números como "códigos" organizados dentro de um sistema. Se alguém escreve o 
+número 101, seu significado depende do contexto. No nosso sistema mais comum, o decimal, isso representa cento e 
+um. Mas, em um sistema diferente, como o binário, 101 significa algo completamente diferente: o número cinco. Isso 
+acontece porque os números, dentro de um sistema numérico, seguem regras específicas que determinam seu valor e a 
+forma como são utilizados. Assim, um número não é apenas um conjunto de símbolos; ele é uma construção que ganha 
+sentido a partir do sistema onde está inserido.
+
+ Outra forma de visualizar isso é pensar nos números como "peças" de um jogo. Cada sistema numérico tem suas 
+próprias regras sobre como essas peças podem ser combinadas e interpretadas. Nos sistemas numéricos mais comuns, os 
+números podem ser usados para contar, medir, calcular e organizar informações. Seja em um cálculo matemático, no 
+funcionamento de um computador ou até mesmo na organização do tempo e do espaço, os números são ferramentas 
+essenciais que ajudam a dar sentido ao mundo ao nosso redor.
