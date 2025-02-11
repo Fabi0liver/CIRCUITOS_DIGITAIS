@@ -172,5 +172,8 @@ fazemos no decimal quando contamos de 9 para 10. Agora, vamos explorar as bases 
   utilizado para representar cores em programação gráfica, endereços de memória e até mesmo códigos de caracteres 
   em linguagens de programação.
 
-
-As bases numéricas são fundamentais para entender como os números são representados e utilizados, principalmente no mundo da computação. Embora o sistema decimal seja o mais natural para nós, o binário, octal e hexadecimal são essenciais para a tecnologia digital. Cada base tem sua lógica própria e aplicações específicas, mas todas seguem o mesmo princípio: organizar e representar quantidades de maneira eficiente. Compreender esses sistemas é um passo essencial para qualquer pessoa que queira aprofundar seus conhecimentos em ciência da computação e tecnologia.
+ As bases numéricas são fundamentais para entender como os números são representados e utilizados, principalmente 
+no mundo da computação. Embora o sistema decimal seja o mais natural para nós, o binário, octal e hexadecimal são 
+essenciais para a tecnologia digital. Cada base tem sua lógica própria e aplicações específicas, mas todas seguem o 
+mesmo princípio: organizar e representar quantidades de maneira eficiente. Compreender esses sistemas é um passo 
+essencial para qualquer pessoa que queira aprofundar seus conhecimentos em ciência da computação e tecnologia.
