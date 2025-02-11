@@ -59,7 +59,7 @@ essenciais que ajudam a dar sentido ao mundo ao nosso redor.
 
 
 
-                                    "Algarismos ou Dígitos" 
+                                     "Algarismos ou Dígitos" 
 
  Quando falamos em números dentro de um sistema numérico, estamos lidando com uma sequência organizada de símbolos 
 que representam quantidades. Mas esses símbolos não são criados aleatoriamente, eles seguem um conjunto de regras e 
@@ -79,3 +79,27 @@ sistema que usa apenas dois algarismos (como o sistema binário, usado na comput
 combinação deles permite representar qualquer número, assim como fazemos no sistema decimal. Isso mostra que os 
 algarismos são a base de qualquer sistema numérico, funcionando como os blocos fundamentais para a construção dos 
 números que usamos para medir,contar e calcular.
+
+
+
+                                       "Valor ou Quantidade"
+
+ Quando falamos em valor ou quantidade dentro de um sistema numérico, estamos nos referindo ao significado real de 
+um número, ou seja, o que ele representa no mundo concreto. Um número sozinho, sem contexto, é apenas um símbolo 
+abstrato, mas quando o associamos a uma quantidade específica, ele ganha significado. Por exemplo, o número "5" por 
+si só não diz muita coisa, mas se falarmos em "5 maçãs", "5 cadeiras" ou "5 quilômetros", conseguimos entender 
+exatamente a quantidade envolvida. Assim, o valor de um número é a essência que ele expressa dentro de um sistema 
+de contagem.
+
+ Nos sistemas numéricos, o valor pode ser representado de diferentes maneiras, dependendo das regras do sistema 
+utilizado. Em sistemas posicionais, como o que usamos no dia a dia, a posição de um número dentro de uma sequência 
+influencia seu valor. Por exemplo, no número 325, o "3" não vale simplesmente três unidades, mas sim trezentos, 
+porque está na casa das centenas. Esse princípio permite que possamos representar quantidades muito grandes sem 
+precisar criar um símbolo novo para cada número, tornando os cálculos mais eficientes e práticos.
+
+ Uma boa analogia para entender o valor de um número dentro de um sistema numérico é pensar no dinheiro. Se você 
+tem uma cédula de 10 reais, o número "10" impresso nela tem um valor real que indica quantas unidades daquela moeda 
+ele representa. Mas se esse mesmo número "10" estivesse em uma cédula de 100 reais, o significado seria 
+completamente diferente, pois o contexto muda. Da mesma forma, o valor de um número em um sistema numérico depende 
+das regras desse sistema e da posição em que ele está. Compreender esse conceito é essencial para avançarmos no 
+estudo dos números e suas aplicações na computação e na matemática.
