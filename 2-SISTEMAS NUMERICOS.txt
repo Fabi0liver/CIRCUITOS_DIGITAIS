@@ -1,12 +1,35 @@
                                        SISTEMAS NÚMERICOS
 
 
-Imagine um mundo onde não pudéssemos contar, medir ou representar quantidades. Desde os tempos mais remotos, o ser humano precisou desenvolver formas de registrar números para organizar sua vida, seja para contar animais em um rebanho, medir terras ou calcular trocas comerciais. Foi assim que surgiram os sistemas numéricos, que nada mais são do que convenções criadas para representar números de maneira ordenada e compreensível. Esses sistemas evoluíram ao longo do tempo, adaptando-se às necessidades das civilizações e tornando-se fundamentais para a matemática, a ciência e a computação.
+ Imagine um mundo onde não pudéssemos contar, medir ou representar quantidades. Desde os tempos mais remotos, o ser 
+humano precisou desenvolver formas de registrar números para organizar sua vida, seja para contar animais em um 
+rebanho, medir terras ou calcular trocas comerciais. Foi assim que surgiram os sistemas numéricos, que nada mais 
+são do que convenções criadas para representar números de maneira ordenada e compreensível. Esses sistemas 
+evoluíram ao longo do tempo, adaptando-se às necessidades das civilizações e tornando-se fundamentais para a 
+matemática, a ciência e a computação.
 
-A ideia de representar números começou de forma simples, com marcas em ossos ou pedras, onde cada traço indicava uma unidade. Com o tempo, civilizações antigas como os sumérios, egípcios e romanos desenvolveram seus próprios sistemas de numeração, usando símbolos e regras específicas para facilitar a contagem e os cálculos. O grande avanço veio com os sistemas posicionais, onde o valor de um número passou a depender não apenas do símbolo utilizado, mas também de sua posição dentro do número. Esse conceito revolucionou a forma como lidamos com os números e permitiu a criação de operações matemáticas mais avançadas.
+ A ideia de representar números começou de forma simples, com marcas em ossos ou pedras, onde cada traço indicava 
+uma unidade. Com o tempo, civilizações antigas como os sumérios, egípcios e romanos desenvolveram seus próprios 
+sistemas de numeração, usando símbolos e regras específicas para facilitar a contagem e os cálculos. O grande 
+avanço veio com os sistemas posicionais, onde o valor de um número passou a depender não apenas do símbolo 
+utilizado, mas também de sua posição dentro do número. Esse conceito revolucionou a forma como lidamos com os 
+números e permitiu a criação de operações matemáticas mais avançadas.
 
-A história dos sistemas numéricos está diretamente ligada ao progresso da humanidade. No comércio, por exemplo, era essencial ter formas precisas de registrar quantidades e transações. Já na astronomia e na engenharia, os números permitiram previsões e construções impressionantes, como pirâmides e templos alinhados com eventos astronômicos. Com a invenção da escrita, os sistemas numéricos puderam ser registrados em tábuas de argila, papiros e, mais tarde, em livros, garantindo que o conhecimento fosse passado de geração em geração.
+ A história dos sistemas numéricos está diretamente ligada ao progresso da humanidade. No comércio, por exemplo, 
+era essencial ter formas precisas de registrar quantidades e transações. Já na astronomia e na engenharia, os 
+números permitiram previsões e construções impressionantes, como pirâmides e templos alinhados com eventos 
+astronômicos. Com a invenção da escrita, os sistemas numéricos puderam ser registrados em tábuas de argila, papiros 
+e, mais tarde, em livros, garantindo que o conhecimento fosse passado de geração em geração.
 
-Com o avanço da tecnologia, os sistemas numéricos tornaram-se ainda mais essenciais. Na computação, por exemplo, tudo o que um computador processa está, no fundo, baseado em números. Nossos dispositivos digitais, como celulares e computadores, utilizam sistemas de numeração específicos para armazenar e processar informações. Esse uso moderno dos números mostra como um conceito tão antigo ainda é a base de tecnologias avançadas, provando sua importância em praticamente todas as áreas do conhecimento humano.
+ Com o avanço da tecnologia, os sistemas numéricos tornaram-se ainda mais essenciais. Na computação, por exemplo, 
+tudo o que um computador processa está, no fundo, baseado em números. Nossos dispositivos digitais, como celulares 
+e computadores, utilizam sistemas de numeração específicos para armazenar e processar informações. Esse uso moderno 
+dos números mostra como um conceito tão antigo ainda é a base de tecnologias avançadas, provando sua importância em 
+praticamente todas as áreas do conhecimento humano.
 
-Entender os sistemas numéricos é fundamental para qualquer estudante de tecnologia, engenharia ou matemática. Eles não são apenas um conjunto de regras abstratas, mas sim um alicerce que conecta a história da humanidade ao mundo moderno. Nos próximos estudos, aprofundaremos cada aspecto desses sistemas, explorando suas bases, regras e aplicações na computação e no cotidiano. Mas, antes de mergulharmos nos detalhes, é importante ter essa visão geral: os sistemas numéricos são uma ferramenta essencial criada pelo homem para entender e organizar o mundo ao seu redor.
+ Entender os sistemas numéricos é fundamental para qualquer estudante de tecnologia, engenharia ou matemática. Eles 
+não são apenas um conjunto de regras abstratas, mas sim um alicerce que conecta a história da humanidade ao mundo 
+moderno. Nos próximos estudos, aprofundaremos cada aspecto desses sistemas, explorando suas bases, regras e 
+aplicações na computação e no cotidiano. Mas, antes de mergulharmos nos detalhes, é importante ter essa visão 
+geral: os sistemas numéricos são uma ferramenta essencial criada pelo homem para entender e organizar o mundo ao 
+seu redor.
