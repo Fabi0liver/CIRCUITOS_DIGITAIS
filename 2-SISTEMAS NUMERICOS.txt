@@ -56,3 +56,26 @@ próprias regras sobre como essas peças podem ser combinadas e interpretadas. N
 números podem ser usados para contar, medir, calcular e organizar informações. Seja em um cálculo matemático, no 
 funcionamento de um computador ou até mesmo na organização do tempo e do espaço, os números são ferramentas 
 essenciais que ajudam a dar sentido ao mundo ao nosso redor.
+
+
+
+                                    "Algarismos ou Dígitos" 
+
+ Quando falamos em números dentro de um sistema numérico, estamos lidando com uma sequência organizada de símbolos 
+que representam quantidades. Mas esses símbolos não são criados aleatoriamente, eles seguem um conjunto de regras e 
+possuem uma estrutura bem definida. Os algarismos, também chamados de dígitos, são os símbolos básicos que usamos 
+para formar qualquer número dentro de um determinado sistema. Eles funcionam como peças de um quebra-cabeça: 
+sozinhos representam quantidades simples, mas quando organizados em conjunto, criam números que expressam valores 
+muito maiores e mais complexos.
+
+ Uma boa forma de entender os algarismos é compará-los a letras no alfabeto. Assim como as palavras são formadas 
+por letras combinadas de diferentes formas, os números são formados por algarismos organizados segundo um conjunto 
+de regras. Por exemplo, no sistema decimal (o mais comum no nosso dia a dia), temos dez algarismos possíveis: 0, 1, 
+2, 3, 4, 5, 6, 7, 8 e 9. Qualquer número que escrevemos é composto apenas por essas dez "peças", organizadas de 
+maneira que seu valor dependa tanto do símbolo utilizado quanto da posição em que ele aparece.
+
+ Agora, se pensarmos em sistemas numéricos diferentes, veremos que a quantidade de algarismos pode mudar. Em um 
+sistema que usa apenas dois algarismos (como o sistema binário, usado na computação, que trabalha com 0 e 1), a 
+combinação deles permite representar qualquer número, assim como fazemos no sistema decimal. Isso mostra que os 
+algarismos são a base de qualquer sistema numérico, funcionando como os blocos fundamentais para a construção dos 
+números que usamos para medir,contar e calcular.
