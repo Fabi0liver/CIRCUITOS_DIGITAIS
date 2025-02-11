@@ -326,4 +326,53 @@ funcionamento interno dos computadores, que operam principalmente com o sistema 
 
 
 
+                          "Os Sistemas Numéricos na Computação"
 
+ Os números são a base de tudo o que acontece dentro de um computador. Mesmo quando vemos textos, imagens e vídeos 
+na tela, tudo isso é representado internamente por números. Mas, diferentemente do nosso dia a dia, onde usamos o 
+sistema decimal (base 10), os computadores utilizam um sistema numérico mais adequado ao funcionamento eletrônico: 
+o sistema binário (base 2). Isso ocorre porque os circuitos eletrônicos trabalham com apenas dois estados (ligado 
+(1) e desligado (0))e esses estados são facilmente representados por números binários.
+
+ Dentro da computação, os números não são apenas quantidades, mas também códigos que representam diferentes tipos 
+de dados. Por exemplo, um simples caractere de texto pode ser armazenado como um número usando tabelas como a ASCII 
+ou Unicode. Imagens e sons também são convertidos em sequências numéricas, permitindo que os computadores 
+manipulem, processem e armazenem essas informações com alta precisão. Assim, os sistemas numéricos são a linguagem 
+fundamental que permite a comunicação entre hardware e software.
+
+ Além do sistema binário, a computação também faz uso de outros sistemas numéricos, como o octal (base 8) e o 
+hexadecimal (base 16). Esses sistemas são especialmente úteis para representar grandes sequências de números 
+binários de forma mais compacta e legível para os humanos. Por exemplo, enquanto um número binário longo pode ser 
+difícil de ler e interpretar, sua versão hexadecimal é muito mais compacta e utilizada em programação, endereços de 
+memória e cores em design gráfico.
+
+ Compreender os sistemas numéricos na computação nos ajuda a entender como os computadores armazenam e processam 
+informações. Eles são a base para áreas como arquitetura de computadores, programação, criptografia e redes. Mesmo 
+sem perceber, lidamos com esses sistemas diariamente, desde o funcionamento de aplicativos até a forma como os 
+dados são armazenados em um disco rígido ou na memória do computador. Portanto, ter uma boa noção sobre os sistemas 
+numéricos é essencial para qualquer pessoa que deseja explorar mais a fundo o universo da tecnologia.
+
+
+
+                                  "Conclusão sobre Sistemas Numéricos"
+
+ Os sistemas numéricos são a base da maneira como representamos e organizamos os números, tanto no nosso dia a dia 
+quanto na computação. Eles surgiram da necessidade humana de contar, medir e estruturar informações de forma 
+eficiente. Desde os sistemas antigos, como o romano, até os mais modernos usados em tecnologia, a evolução dos 
+sistemas numéricos foi essencial para o desenvolvimento da matemática e da computação. Compreender esses sistemas 
+nos ajuda a interpretar melhor a forma como os números funcionam e como podem ser aplicados em diferentes 
+contextos.
+
+ A importância dos sistemas numéricos vai muito além da matemática pura. Na computação, eles são fundamentais para 
+o armazenamento e processamento de dados. O sistema decimal é o mais intuitivo para nós, mas os computadores 
+utilizam principalmente o sistema binário, que é mais eficiente para operações eletrônicas. Além disso, os sistemas 
+octal e hexadecimal ajudam a simplificar a leitura e manipulação de grandes quantidades de dados. Cada sistema tem 
+sua utilidade específica e sua compreensão é essencial para quem deseja se aprofundar em tecnologia e ciências 
+exatas.
+
+ Em resumo, vimos que os sistemas numéricos são estruturados por bases, seguem regras de notação posicional e 
+influenciam diretamente a forma como representamos quantidades. Eles permitem a realização de cálculos, a conversão 
+entre diferentes representações e são indispensáveis para a informática moderna. Entender esses conceitos não 
+apenas facilita o aprendizado de matemática e computação, mas também nos dá uma visão mais ampla sobre como a 
+informação é organizada no mundo digital. Assim, os sistemas numéricos são uma peça-chave no conhecimento humano, 
+conectando passado, presente e futuro na forma como lidamos com os números.
