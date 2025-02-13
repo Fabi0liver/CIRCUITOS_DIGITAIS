@@ -298,26 +298,25 @@ No decimal, contamos 0, 1, 2, ..., 9, enquanto no octal contamos 0, 1, ..., 7, e
 
  Agora, vejamos exemplos práticos para entender como isso funciona na prática.
 
- * Base Decimal:Base Decimal: A contagem em decimal segue um padrão onde os números aumentam de 0 a 9 antes de 
-                             avançar para a próxima casa. Assim, após o 9, a contagem continua com 10, 11, 12... 
-                             até 19, depois 20, 21... e assim por diante. Quando todas as combinações de dois 
-                             dígitos são esgotadas (99), a contagem avança para três dígitos (100, 101, 102...) e 
-                             segue o mesmo padrão, sempre respeitando a ordem de progressão baseada na base 10.
+ * Base Decimal: A contagem em decimal segue um padrão onde os números aumentam de 0 a 9 antes de avançar para a 
+                próxima casa. Assim, após o 9, a contagem continua com 10, 11, 12... até 19, depois 20, 21... e 
+                assim por diante. Quando todas as combinações de dois dígitos são esgotadas (99), a contagem avança 
+                para três dígitos (100, 101, 102...) e segue o mesmo padrão, sempre respeitando a ordem de 
+                progressão baseada na base 10.
 
-                              Esse sistema é amplamente utilizado no nosso dia a dia, pois é o formato natural de 
-                             contagem que usamos em diversas situações. Como cada nova casa só avança após todas as  
-                             anteriores completarem de 0 a 9, a lógica da contagem se mantém previsível e 
-                             organizada, o que facilita a compreensão e o uso para representar quantidades de forma 
-                             prática.
+                 Esse sistema é amplamente utilizado no nosso dia a dia, pois é o formato natural de contagem que 
+                usamos em diversas situações. Como cada nova casa só avança após todas as  anteriores completarem      
+                de 0 a 9, a lógica da contagem se mantém previsível e organizada, o que facilita a compreensão e o 
+                uso para representar quantidades de forma prática.
 
-                              Ex: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
-                                 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-                                 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
-                                 30, 31, ..., 99, 100...
+                 Ex: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+                     10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+                     20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+                     30, 31, ..., 99, 100...
 
  
- * Base Binária: A contagem em binário segue um padrão semelhante ao da contagem em hexadecimal, mas com apenas 
-                dois símbolos, 0 e 1. Assim, após o 1, a contagem avança para 10, 11, 100, 101, e assim por diante. 
+ * Base Binária: A contagem em binário segue um padrão semelhante ao da contagem em decimal, mas com apenas dois 
+                símbolos, 0 e 1. Assim, após o 1, a contagem avança para 10, 11, 100, 101, e assim por diante. 
                 A cada novo "1" nas casas mais à esquerda, o número aumenta. Quando todas as combinações de um 
                 dígito binário são esgotadas (1), a contagem avança para dois dígitos (10), e quando os dois 
                 dígitos são esgotados (11), avança para três dígitos (100), e o padrão se repete, sempre 
