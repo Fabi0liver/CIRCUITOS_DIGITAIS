@@ -57,72 +57,150 @@ multiplicando o valor anterior por 10, o que faz com que o sistema decimal seja 
 
 
  
-                                Estrutura do Sistema Decimal
+                                "Estrutura do Sistema Decimal"
 
-Com já vimos, o sistema decimal é uma maneira de representar e manipular números, usando dez símbolos diferentes: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9. Este sistema é amplamente utilizado em nossas atividades diárias e é baseado no conceito de notação posicional, onde o valor de cada dígito depende de sua posição dentro do número. Para entender melhor como ele funciona, vamos explorar sua estrutura, como os números são representados e a importância de alguns conceitos chave.
+ Com já vimos, o sistema decimal é uma maneira de representar e manipular números, usando dez símbolos diferentes: 
+0, 1, 2, 3, 4, 5, 6, 7, 8 e 9. Este sistema é amplamente utilizado em nossas atividades diárias e é baseado no 
+conceito de notação posicional, onde o valor de cada dígito depende de sua posição dentro do número. Para entender 
+melhor como ele funciona, vamos explorar sua estrutura, como os números são representados e a importância de alguns 
+conceitos chave.
 
-Notação Posicional no Sistema Decimal: É o conceito fundamental que define como os números são formados e interpretados. Cada posição em um número tem um valor específico que está relacionado a uma potência de 10. Isso significa que o valor de um número não depende apenas dos dígitos que o compõem, mas também da posição desses dígitos. Em outras palavras, o mesmo número pode representar valores muito diferentes dependendo de onde cada dígito está localizado.
+ * Notação Posicional no Sistema Decimal: É o conceito fundamental que define como os números são formados e 
+  interpretados. Cada posição em um número tem um valor específico que está relacionado a uma potência de 10. Isso 
+  significa que o valor de um número não depende apenas dos dígitos que o compõem, mas também da posição desses 
+  dígitos. Em outras palavras, o mesmo número pode representar valores muito diferentes dependendo de onde cada 
+  dígito está localizado.
 
-Vamos analisar o número 473 para entender isso melhor:
+   Vamos analisar o número 473 para entender isso melhor:
 
-O 3 está na unidade (primeira posição à direita), o que significa que ele representa 3 unidades.
-O 7 está na dezena (segunda posição à direita), o que significa que ele representa 7 dezenas, ou seja, 70.
-O 4 está na centena (terceira posição à direita), o que significa que ele representa 4 centenas, ou seja, 400.
-Agora, somando tudo, temos: 473 = 400 + 70 + 3.
+    O 3 está na unidade (primeira posição à direita), o que significa que ele representa 3 unidades.
 
-Essa lógica de potências de 10 vai se expandindo à medida que movemos para a esquerda. A cada novo dígito, o valor é multiplicado por 10, como se fosse uma escada onde cada degrau representa uma multiplicação por 10. Isso permite que o sistema decimal seja muito flexível, capaz de representar números grandes e pequenos de forma simples e eficiente.
+    O 7 está na dezena (segunda posição à direita), o que significa que ele representa 7 dezenas, ou seja, 70.
 
+    O 4 está na centena (terceira posição à direita), o que significa que ele representa 4 centenas, ou seja, 400.
 
-Potência no Sistema Decimal: No sistema decimal, cada dígito de um número está relacionado a uma potência de 10. Essa relação é fundamental para a estrutura do sistema, e ela nos permite entender como os números são organizados e como seus valores crescem ou diminuem à medida que movemos os dígitos para a esquerda ou para a direita.
+    Agora, somando tudo, temos: 473 = 400 + 70 + 3.
 
-Ao avançarmos para a esquerda, em direção à parte inteira do número, os valores aumentam exponencialmente com as potências positivas de 10. Cada posição à esquerda da vírgula representa uma multiplicação do número base, 10, por uma potência crescente. Por exemplo:
-
-100 = 10² (dez elevado à potência de 2),
-10 = 10¹ (dez elevado à potência de 1),
-1 = 10⁰ (dez elevado à potência de 0).
-
-Ou seja, conforme avançamos da direita para a esquerda, cada casa representa 10 vezes o valor da casa anterior. Assim, 100 é dez vezes maior que 10, e 10 é dez vezes maior que 1.
-
-Por outro lado, quando olhamos para a parte decimal de um número (à direita da vírgula), os valores diminuem, pois estamos lidando com potências negativas de 10. Cada posição à direita representa uma fração do número base, 10, onde a potência negativa reflete a divisão do valor por 10 repetidamente. Por exemplo:
-
-0,1 = 10⁻¹ (dez elevado à potência de -1),
-0,01 = 10⁻² (dez elevado à potência de -2).
-
-Aqui, cada casa decimal é uma fração do valor da casa anterior. Assim, 0,1 é 10 vezes menor que 1, e 0,01 é 10 vezes menor que 0,1.
-
-Dessa forma, a estrutura do sistema decimal é organizada por potências de 10, criando uma escala logarítmica que nos permite representar qualquer número de maneira ordenada, seja ele grande ou pequeno. Quanto mais à esquerda um dígito estiver, mais ele contribui para o valor do número, e quanto mais à direita, menor será sua contribuição. A compreensão dessas potências é essencial para entender como funcionam as operações matemáticas e como manipulamos números no nosso cotidiano.
+   Essa lógica de potências de 10 vai se expandindo à medida que movemos para a esquerda. A cada novo dígito, o 
+  valor é multiplicado por 10, como se fosse uma escada onde cada degrau representa uma multiplicação por 10. Isso 
+  permite que o sistema decimal seja muito flexível, capaz de representar números grandes e pequenos de forma 
+  simples e eficiente.
 
 
+ * Potência no Sistema Decimal: No sistema decimal, cada dígito de um número está relacionado a uma potência de 10. 
+  Essa relação é fundamental para a estrutura do sistema, e ela nos permite entender como os números são 
+  organizados e como seus valores crescem ou diminuem à medida que movemos os dígitos para a esquerda ou para a 
+  direita.
 
-Representação Positiva e Negativa: No sistema decimal, os números podem ser classificados como positivos ou negativos, e essa distinção é crucial para representar diferentes situações, especialmente quando falamos de direções ou quantidades relativas a um ponto de referência, como o zero. Para representar um número negativo, colocamos o símbolo "-" antes do número, como em -7 ou -123. Isso indica que o número está em uma "posição à esquerda" na linha dos números, ou seja, abaixo de zero. É como se estivéssemos contando para trás ou descendo em uma escada, onde cada passo negativo leva você para um nível abaixo de onde começou.
+   Ao avançarmos para a esquerda, em direção à parte inteira do número, os valores aumentam exponencialmente com as 
+  potências positivas de 10. Cada posição à esquerda da vírgula representa uma multiplicação do número base, 10, 
+  por uma potência crescente. 
 
-Já os números positivos, que são os mais comuns em nosso cotidiano, não precisam de qualquer símbolo adicional, exceto o próprio número (como 7 ou 123). Eles representam valores acima de zero, como quando subimos uma escada ou aumentamos uma quantidade. A diferença entre positivos e negativos é fundamental, pois os primeiros indicam progressão ou aumento, enquanto os negativos indicam retrocesso ou diminuição. Essa distinção é especialmente importante em cálculos, como ao lidar com dinheiro, temperatura ou distâncias, onde podemos ter valores acima ou abaixo de uma referência central (como o nível do mar ou a linha do zero).
+   Por exemplo:
+
+    100 = 10² (dez elevado à potência de 2),
+
+    10 = 10¹ (dez elevado à potência de 1),
+
+    1 = 10⁰ (dez elevado à potência de 0).
+
+    Ou seja, conforme avançamos da direita para a esquerda, cada casa representa 10 vezes o valor da casa anterior. 
+   Assim, 100 é dez vezes maior que 10, e 10 é dez vezes maior que 1.
+
+   Por outro lado, quando olhamos para a parte decimal de um número (à direita da vírgula), os valores diminuem,  
+  pois estamos lidando com potências negativas de 10. Cada posição à direita representa uma fração do número base, 
+  10, onde a potência negativa reflete a divisão do valor por 10 repetidamente. Por exemplo:
+
+    0,1 = 10⁻¹ (dez elevado à potência de -1),
+
+    0,01 = 10⁻² (dez elevado à potência de -2).
+
+    Aqui, cada casa decimal é uma fração do valor da casa anterior. Assim, 0,1 é 10 vezes menor que 1, e 0,01 é 10   
+   vezes menor que 0,1.
+
+   Dessa forma, a estrutura do sistema decimal é organizada por potências de 10, criando uma escala logarítmica que 
+  nos permite representar qualquer número de maneira ordenada, seja ele grande ou pequeno. Quanto mais à esquerda 
+  um dígito estiver, mais ele contribui para o valor do número, e quanto mais à direita, menor será sua 
+  contribuição. A compreensão dessas potências é essencial para entender como funcionam as operações matemáticas e 
+  como manipulamos números no nosso cotidiano.
 
 
-O Papel do Zero: O zero desempenha um papel essencial no sistema decimal, funcionando como um "marcador de lugar" que ajuda a manter a ordem e o valor das posições dentro de um número. Sem ele, seria impossível distinguir entre números como 10 e 1, ou 100 e 10, por exemplo. Imagine que você está em um supermercado e alguém te pede para pagar 10 reais, mas sem o zero, como saberíamos se a quantia é 1 ou 10? O zero nos permite ver claramente a diferença de valor entre as dezenas, centenas e outras casas, mantendo a precisão e evitando confusão.
+ * Representação Positiva e Negativa: No sistema decimal, os números podem ser classificados como positivos ou 
+  negativos, e essa distinção é crucial para representar diferentes situações, especialmente quando falamos de 
+  direções ou quantidades relativas a um ponto de referência, como o zero. Para representar um número negativo, 
+  colocamos o símbolo "-" antes do número, como em -7 ou -123. Isso indica que o número está em uma "posição à 
+  esquerda" na linha dos números, ou seja, abaixo de zero. É como se estivéssemos contando para trás ou descendo em 
+  uma escada, onde cada passo negativo leva você para um nível abaixo de onde começou.
 
-Além disso, o zero também é utilizado para representar a ausência de uma quantidade em determinada posição. No número 204, por exemplo, o zero indica que não há nenhuma quantidade de "dezenas", ou seja, não existe o número 20 ali, apenas o 200 e o 4. Esse uso do zero ajuda a organizar a informação de maneira eficiente e clara. Sem ele, teríamos que recorrer a outras formas de representação, que tornariam os cálculos e a leitura dos números muito mais complicados.
-
-O zero também se torna ainda mais relevante quando se trata de números fracionados. Quando vemos algo como 0,75, o zero à esquerda da vírgula tem um papel claro: ele nos mostra que não há unidades inteiras, e que o número que se segue (0,75) se refere a uma fração de unidade. Em outras palavras, o zero nos dá um ponto de referência para entender onde começa a parte decimal de um número, separando a parte inteira da fração de maneira bem definida. Esse conceito é fundamental para representar quantidades menores que 1, como em medições, preços ou proporções.
-
-
-Números Fracionados: O sistema decimal não se limita apenas a números inteiros, mas também lida com números fracionados, que são representações de valores menores que 1. Esses números permitem que possamos expressar quantidades que não podem ser representadas como números inteiros, como 0,5, 0,75 ou 3,25. Eles são essenciais no nosso cotidiano, pois frequentemente lidamos com medições, como dinheiro, tempo e até mesmo temperaturas, onde a precisão é importante.
-
-Os números fracionados no sistema decimal são representados com uma vírgula (ou ponto, dependendo do país) separando a parte inteira da parte decimal. Por exemplo, o número 0,75 pode ser lido como "zero vírgula setenta e cinco" e significa que temos 0 unidades inteiras e 75 centésimos, ou seja, 75/100. Para entender melhor isso, pense na maneira como você divide uma pizza: se a pizza for cortada em 100 pedaços, 75 pedaços representam 75 centésimos da pizza inteira.
-
-Quando nos referimos aos números fracionados, estamos essencialmente dividindo o número inteiro em partes menores. Cada posição à direita da vírgula representa uma potência negativa de 10, ou seja, frações de 10, 100, 1000, e assim por diante. Isso permite uma representação precisa de valores muito menores que 1, que são fundamentais para cálculos mais detalhados.
-
-Aqui estão alguns exemplos dessa estrutura:
-
-0,1 é o mesmo que 1 décimo ou 1/10.
-0,01 é 1 centésimo, ou 1/100.
-0,001 é 1 milésimo, ou 1/1000.
-Podemos visualizar isso como uma escada, onde a cada novo degrau (ou posição à direita da vírgula), o valor diminui por uma ordem de grandeza de 10. Assim, a posição de cada número após a vírgula nos dá o valor exato dessa fração, facilitando a leitura e a representação de números pequenos com grande precisão.
-
-O sistema decimal, ao incorporar esses números fracionados, amplia sua flexibilidade, permitindo expressar uma enorme variedade de quantidades que não são inteiras. Isso é especialmente útil em muitos contextos do dia a dia, como ao pagar por produtos (preços com centavos), medir o tempo em horas, minutos e segundos, ou calcular distâncias em unidades menores, como milímetros e centímetros.
+   Já os números positivos, que são os mais comuns em nosso cotidiano, não precisam de qualquer símbolo adicional, 
+  exceto o próprio número (como 7 ou 123). Eles representam valores acima de zero, como quando subimos uma escada 
+  ou aumentamos uma quantidade. A diferença entre positivos e negativos é fundamental, pois os primeiros indicam 
+  progressão ou aumento, enquanto os negativos indicam retrocesso ou diminuição. Essa distinção é especialmente 
+  importante em cálculos, como ao lidar com dinheiro, temperatura ou distâncias, onde podemos ter valores acima ou 
+  abaixo de uma referência central (como o nível do mar ou a linha do zero).
 
 
-Em suma, o sistema decimal é um sistema poderoso e eficiente de representação de números, baseado na notação posicional e nas potências de 10. Ele nos permite organizar e manipular números de maneira lógica e escalável, desde quantidades inteiras até frações. O uso do zero como separador e a possibilidade de representar números positivos e negativos são apenas alguns dos aspectos que tornam o sistema decimal tão versátil. Compreender como os números são formados e organizados dentro desse sistema é fundamental não apenas para os cálculos, mas também para a nossa vida cotidiana, facilitando tudo, desde uma simples conta no supermercado até as equações mais complexas em áreas como física e economia.
+ * O Papel do Zero: O zero desempenha um papel essencial no sistema decimal, funcionando como um "marcador de 
+  lugar" que ajuda a manter a ordem e o valor das posições dentro de um número. Sem ele, seria impossível 
+  distinguir entre números como 10 e 1, ou 100 e 10, por exemplo. Imagine que você está em um supermercado e alguém 
+  te pede para pagar 10 reais, mas sem o zero, como saberíamos se a quantia é 1 ou 10? O zero nos permite ver 
+  claramente a diferença de valor entre as dezenas, centenas e outras casas, mantendo a precisão e evitando 
+  confusão.
+
+   Além disso, o zero também é utilizado para representar a ausência de uma quantidade em determinada posição. No 
+  número 204, por exemplo, o zero indica que não há nenhuma quantidade de "dezenas", ou seja, não existe o número 
+  20 ali, apenas o 200 e o 4. Esse uso do zero ajuda a organizar a informação de maneira eficiente e clara. Sem 
+  ele, teríamos que recorrer a outras formas de representação, que tornariam os cálculos e a leitura dos números 
+  muito mais complicados.
+
+   O zero também se torna ainda mais relevante quando se trata de números fracionados. Quando vemos algo como 0,75, 
+  o zero à esquerda da vírgula tem um papel claro: ele nos mostra que não há unidades inteiras, e que o número que 
+  se segue (0,75) se refere a uma fração de unidade. Em outras palavras, o zero nos dá um ponto de referência para 
+  entender onde começa a parte decimal de um número, separando a parte inteira da fração de maneira bem definida. 
+  Esse conceito é fundamental para representar quantidades menores que 1, como em medições, preços ou proporções.
+
+
+ * Números Fracionados: O sistema decimal não se limita apenas a números inteiros, mas também lida com números 
+  fracionados, que são representações de valores menores que 1. Esses números permitem que possamos expressar 
+  quantidades que não podem ser representadas como números inteiros, como 0,5, 0,75 ou 3,25. Eles são essenciais no 
+  nosso cotidiano, pois frequentemente lidamos com medições, como dinheiro, tempo e até mesmo temperaturas, onde a 
+  precisão é importante.
+
+   Os números fracionados no sistema decimal são representados com uma vírgula (ou ponto, dependendo do país) 
+  separando a parte inteira da parte decimal. Por exemplo, o número 0,75 pode ser lido como "zero vírgula setenta e 
+  cinco" e significa que temos 0 unidades inteiras e 75 centésimos, ou seja, 75/100. Para entender melhor isso, 
+  pense na maneira como você divide uma pizza: se a pizza for cortada em 100 pedaços, 75 pedaços representam 75 
+  centésimos da pizza inteira.
+
+   Quando nos referimos aos números fracionados, estamos essencialmente dividindo o número inteiro em partes 
+  menores. Cada posição à direita da vírgula representa uma potência negativa de 10, ou seja, frações de 10, 100, 
+  1000, e assim por diante. Isso permite uma representação precisa de valores muito menores que 1, que são 
+  fundamentais para cálculos mais detalhados.
+
+   Aqui estão alguns exemplos dessa estrutura:
+
+    0,1 é o mesmo que 1 décimo ou 1/10.
+
+    0,01 é 1 centésimo, ou 1/100.
+
+    0,001 é 1 milésimo, ou 1/1000.
+
+   Podemos visualizar isso como uma escada, onde a cada novo degrau (ou posição à direita da vírgula), o valor 
+  diminui por uma ordem de grandeza de 10. Assim, a posição de cada número após a vírgula nos dá o valor exato 
+  dessa fração, facilitando a leitura e a representação de números pequenos com grande precisão.
+
+   O sistema decimal, ao incorporar esses números fracionados, amplia sua flexibilidade, permitindo expressar uma 
+  enorme variedade de quantidades que não são inteiras. Isso é especialmente útil em muitos contextos do dia a dia, 
+  como ao pagar por produtos (preços com centavos), medir o tempo em horas, minutos e segundos, ou calcular 
+  distâncias em unidades menores, como milímetros e centímetros.
+
+ Em suma, o sistema decimal é um sistema poderoso e eficiente de representação de números, baseado na notação 
+posicional e nas potências de 10. Ele nos permite organizar e manipular números de maneira lógica e escalável, 
+desde quantidades inteiras até frações. O uso do zero como separador e a possibilidade de representar números 
+positivos e negativos são apenas alguns dos aspectos que tornam o sistema decimal tão versátil. Compreender como os 
+números são formados e organizados dentro desse sistema é fundamental não apenas para os cálculos, mas também para 
+a nossa vida cotidiana, facilitando tudo, desde uma simples conta no supermercado até as equações mais complexas em 
+áreas como física e economia.
 
 
 
@@ -130,22 +208,37 @@ Em suma, o sistema decimal é um sistema poderoso e eficiente de representação
 
 O sistema decimal é a base para a realização das operações matemáticas fundamentais que usamos no nosso dia a dia: adição, subtração, multiplicação e divisão. Essas operações são o alicerce para tudo, desde cálculos simples que fazemos ao fazer compras até os problemas mais complexos que encontramos em diferentes áreas da matemática e ciências. Ao entender como essas operações funcionam, podemos resolver problemas rapidamente e com precisão. Vamos explorar cada uma dessas operações de forma detalhada, com exemplos e analogias que tornam esse processo ainda mais fácil de entender.
 
-Adição: Somando Passo a Passo
+Adição no Sistema Decimal
 
-A adição no sistema decimal é simples e intuitiva. Quando somamos dois números, começamos pela coluna das unidades e avançamos para as colunas à esquerda, caso necessário. Se a soma de uma coluna resultar em um valor superior a 9, transportamos o valor excedente para a coluna seguinte. Esse processo é semelhante ao de preencher um recipiente com água: se o recipiente transbordar, a água extra é despejada em um recipiente maior ao lado.
+A adição no sistema decimal é um processo simples, mas fundamental para o nosso entendimento dos números. Quando somamos dois números, o objetivo é combinar as quantidades de cada posição (unidades, dezenas, centenas, etc.) de maneira que o valor total seja representado corretamente. Para isso, começamos sempre pela coluna das unidades, e se a soma de uma coluna resultar em um valor superior a 9, precisamos fazer o que chamamos de "transporte", que é mover a parte excedente para a coluna seguinte, à esquerda.
 
-Exemplo: Somando 47 e 28:
+Podemos imaginar esse processo de adição como se estivéssemos organizando várias caixas com itens. Quando uma caixa está cheia e não cabe mais nada, você pega o excesso e coloca em outra caixa maior ao lado. Esse "transporte" das unidades é como passar os itens para a caixa maior, para que tudo seja armazenado corretamente.
 
-Unidades: Somamos 7 (unidades de 47) com 8 (unidades de 28), o que dá 15. Colocamos o 5 na coluna das unidades e transportamos o 1 para a coluna das dezenas.
+Exemplo de Adição:   47
+                   + 28
+                   -----
 
-Dezenas: Agora somamos 4 (dezenas de 47) + 2 (dezenas de 28) + 1 (transportado), o que dá 7.
+Na coluna das Unidades:
 
-Assim, 47 + 28 = 75. Esse processo pode ser repetido para números maiores, e, à medida que a complexidade aumenta, o princípio básico de somar de uma coluna para a próxima, com o transporte, permanece o mesmo.
+Começamos somando os valores das unidades. No número 47, temos 7 unidades, e no número 28, temos 8 unidades.
+7 + 8 = 15. Como 15 é maior que 9, colocamos o 5 na coluna das unidades e "transportamos" o 1 para a coluna das dezenas.
+
+A analogia seria: a caixa de unidades não pode guardar 15 itens, então, colocamos o 5 nela e passamos 1 item para a caixa ao lado (dezenas).
 
 
-Subtração: Tomando Emprestado
+Na coluna das Dezenas:
 
-A subtração segue um princípio semelhante ao da adição, mas aqui, precisamos de um recurso importante: o empréstimo. O empréstimo acontece quando precisamos subtrair um número maior de um número menor, ou seja, quando a parte inferior da coluna é maior do que a parte superior. Isso é como pedir algo emprestado de um amigo para completar o que falta.
+Agora, somamos as dezenas. No número 47, temos 4 dezenas, e no número 28, temos 2 dezenas. Não se esqueça do 1 que foi transportado da coluna das unidades.
+
+4 + 2 + 1 = 7.
+
+Nesse caso, não há mais necessidade de transporte, então o 7 é colocado diretamente na coluna das dezenas.
+
+O resultado final da soma é 75. Essa abordagem básica de adicionar números permanece consistente, independentemente de quão grandes os números se tornem. A lógica de trabalhar uma coluna de cada vez e transportar o excesso para a coluna seguinte é sempre a mesma.
+
+
+
+Subtração: A subtração segue um princípio semelhante ao da adição, mas aqui, precisamos de um recurso importante: o empréstimo. O empréstimo acontece quando precisamos subtrair um número maior de um número menor, ou seja, quando a parte inferior da coluna é maior do que a parte superior. Isso é como pedir algo emprestado de um amigo para completar o que falta.
 
 Exemplo: Subtraindo 52 de 86:
 
