@@ -204,112 +204,179 @@ a nossa vida cotidiana, facilitando tudo, desde uma simples conta no supermercad
 
 
 
-                                 Operações Matemáticas no Sistema Decimal
+                                "Operações Matemáticas no Sistema Decimal"
 
-O sistema decimal é a base para a realização das operações matemáticas fundamentais que usamos no nosso dia a dia: adição, subtração, multiplicação e divisão. Essas operações são o alicerce para tudo, desde cálculos simples que fazemos ao fazer compras até os problemas mais complexos que encontramos em diferentes áreas da matemática e ciências. Ao entender como essas operações funcionam, podemos resolver problemas rapidamente e com precisão. Vamos explorar cada uma dessas operações de forma detalhada, com exemplos e analogias que tornam esse processo ainda mais fácil de entender.
-
-
-Adição no Sistema Decimal: É um processo simples, mas fundamental para o nosso entendimento dos números. Quando somamos dois números, o objetivo é combinar as quantidades de cada posição (unidades, dezenas, centenas, etc.) de maneira que o valor total seja representado corretamente. Para isso, começamos sempre pela coluna das unidades, e se a soma de uma coluna resultar em um valor superior a 9, precisamos fazer o que chamamos de "transporte", que é mover a parte excedente para a coluna seguinte, à esquerda.
-
-Podemos imaginar esse processo de adição como se estivéssemos organizando várias caixas com itens. Quando uma caixa está cheia e não cabe mais nada, você pega o excesso e coloca em outra caixa maior ao lado. Esse "transporte" das unidades é como passar os itens para a caixa maior, para que tudo seja armazenado corretamente.
-
-Exemplo de Adição:   47
-                   + 28
-                   -----
-
-Na coluna das Unidades: Começamos somando os valores das unidades. No número 47, temos 7 unidades, e no número 28, temos 8 unidades: 7 + 8 = 15. 
-
-Como 15 é maior que 9, colocamos o 5 na coluna das unidades e "transportamos" o 1 para a coluna das dezenas.
+ O sistema decimal é a base para a realização das operações matemáticas fundamentais que usamos no nosso dia a dia: 
+adição, subtração, multiplicação e divisão. Essas operações são o alicerce para tudo, desde cálculos simples que 
+fazemos ao fazer compras até os problemas mais complexos que encontramos em diferentes áreas da matemática e 
+ciências. Ao entender como essas operações funcionam, podemos resolver problemas rapidamente e com precisão. Vamos 
+explorar cada uma dessas operações de forma detalhada, com exemplos e analogias que tornam esse processo ainda mais 
+fácil de entender.
 
 
-Na coluna das Dezenas: Agora, somamos as dezenas. No número 47, temos 4 dezenas, e no número 28, temos 2 dezenas. Não se esqueça do 1 que foi transportado da coluna das unidades: 4 + 2 + 1 = 7.
+ * Adição no Sistema Decimal: É um processo simples, mas fundamental para o nosso entendimento dos números. Quando 
+  somamos dois números, o objetivo é combinar as quantidades de cada posição (unidades, dezenas, centenas, etc.) de 
+  maneira que o valor total seja representado corretamente. Para isso, começamos sempre pela coluna das unidades, e 
+  se a soma de uma coluna resultar em um valor superior a 9, precisamos fazer o que chamamos de "transporte", que é 
+  mover a parte excedente para a coluna seguinte, à esquerda.
 
-Nesse caso, não há mais necessidade de transporte, então o 7 é colocado diretamente na coluna das dezenas.
+   Podemos imaginar esse processo de adição como se estivéssemos organizando várias caixas com itens. Quando uma 
+  caixa está cheia e não cabe mais nada, você pega o excesso e coloca em outra caixa maior ao lado. Esse 
+  "transporte" das unidades é como passar os itens para a caixa maior, para que tudo seja armazenado corretamente.
 
-O resultado final da soma é 75. 
-
-Essa abordagem básica de adicionar números permanece consistente, independentemente de quão grandes os números se tornem. A lógica de trabalhar uma coluna de cada vez e transportar o excesso para a coluna seguinte é sempre a mesma.
-
-
-Subtração no Sistema Decimal: É um processo essencial que nos permite calcular a diferença entre dois números. Quando realizamos a subtração, o objetivo é retirar a quantidade representada por um número de outro número, coluna por coluna. Para que o cálculo seja feito corretamente, seguimos uma ordem específica e, em algumas situações, precisamos utilizar um recurso importante chamado empréstimo. O empréstimo ocorre quando não podemos subtrair uma quantidade maior de uma menor dentro de uma coluna, o que nos leva a "pedir emprestado" da próxima coluna à esquerda para completar a operação.
-
-Podemos imaginar a subtração como a organização de caixas com itens, onde estamos retirando itens de uma caixa menor para colocar na caixa maior. Se a caixa menor não tem itens suficientes para atender à retirada, pegamos um pouco de outra caixa maior para que a operação seja feita corretamente.
-
-Exemplo de Subtração:  182  
-                     -  57  
+   Exemplo de Adição:   47
+                      + 28
                       -----
 
-Na coluna das unidades: Começamos pelo número 182, que tem 2 unidades, e no número 57, temos 7 unidades. Como 2 é menor que 7, não podemos subtrair diretamente. Então, pedimos emprestado 1 da próxima coluna à esquerda, que são as dezenas.
+                      Na coluna das Unidades: Começamos somando os valores das unidades. No número 47, temos 7 
+                                             unidades, e no número 28, temos 8 unidades: 7 + 8 = 15. 
 
-O 8 nas dezenas de 182 se transforma em 7 (porque emprestamos 1).
+                                              Como 15 é maior que 9, colocamos o 5 na coluna das unidades e 
+                                             "transportamos" o 1 para a coluna das dezenas.
 
-A unidade 2 na coluna das unidades se transforma em 12 (pois agora temos 10 unidades).
-Agora, podemos subtrair: 12 - 7 = 5
+                      Na coluna das Dezenas: Agora, somamos as dezenas. No número 47, temos 4 dezenas, e no número 
+                                            28, temos 2 dezenas. Não se esqueça do 1 que foi transportado da coluna 
+                                            das unidades: 4 + 2 + 1 = 7.
 
-Então, o resultado na coluna das unidades é 5.
+                                             Nesse caso, não há mais necessidade de transporte, então o 7 é 
+                                            colocado diretamente na coluna das dezenas.
 
-Na coluna das dezenas: Após o empréstimo, temos 7 dezenas no número 182 e 5 dezenas no número 57. Como 7 é maior que 5, podemos subtrair diretamente: 7 - 5 = 2
+                      O resultado final da soma é 75. 
 
-Portanto, o resultado na coluna das dezenas é 2.
-
-Na coluna das centenas: Por fim, no número 182, temos 1 centena, e no número 57 não há centenas (equivalente a 0): 1 - 0 = 1
-
-Portanto, o resultado na coluna das centenas é 1.
-
-O resultado final da operação é 125. 
-
-O processo de subtração, mesmo com empréstimo, mantém uma lógica clara e organizada, garantindo que a operação seja feita corretamente e de forma precisa.
+   Essa abordagem básica de adicionar números permanece consistente, independentemente de quão grandes os números 
+  se tornem. A lógica de trabalhar uma coluna de cada vez e transportar o excesso para a coluna seguinte é sempre a 
+  mesma.
 
 
+ * Subtração no Sistema Decimal: É um processo essencial que nos permite calcular a diferença entre dois números. 
+  Quando realizamos a subtração, o objetivo é retirar a quantidade representada por um número de outro número, 
+  coluna por coluna. Para que o cálculo seja feito corretamente, seguimos uma ordem específica e, em algumas 
+  situações, precisamos utilizar um recurso importante chamado empréstimo. O empréstimo ocorre quando não podemos 
+  subtrair uma quantidade maior de uma menor dentro de uma coluna, o que nos leva a "pedir emprestado" da próxima 
+  coluna à esquerda para completar a operação.
 
-Multiplicação no Sistema Decimal: Embora um pouco mais complexa que a adição e subtração, segue a mesma lógica de trabalho por colunas. Quando multiplicamos dois números, estamos basicamente somando várias vezes o mesmo valor, mas distribuído nas diferentes colunas (unidades, dezenas, centenas, etc.). O processo é um pouco mais elaborado, pois envolve multiplicar cada dígito de um número pelo outro e depois somar os resultados parciais de forma organizada.
+   Podemos imaginar a subtração como a organização de caixas com itens, onde estamos retirando itens de uma caixa 
+  menor para colocar na caixa maior. Se a caixa menor não tem itens suficientes para atender à retirada, pegamos um 
+  pouco de outra caixa maior para que a operação seja feita corretamente.
 
-Podemos imaginar a multiplicação como um processo de empacotamento de itens. Digamos que você tenha várias caixas, e em cada uma delas, você precisa colocar um número fixo de itens. O número de caixas vai depender da quantidade de unidades, dezenas, centenas e assim por diante. Então, você começa multiplicando as caixas menores e depois organiza tudo nas caixas maiores, assim como faria ao empacotar itens em diferentes tamanhos de caixas.
+   Exemplo de Subtração:  182  
+                        -  57  
+                        -----
 
-Exemplo de Multiplicação:    23
-                          ×   4
-                          ------
+                        Na coluna das unidades: Começamos pelo número 182, que tem 2 unidades, e no número 57, 
+                                               temos 7 unidades. Como 2 é menor que 7, não podemos subtrair 
+                                               diretamente. Então, pedimos emprestado 1 da próxima coluna à 
+                                               esquerda, que são as dezenas.
 
-Na coluna das unidades: No número 23, temos 3 unidades, que multiplicamos por 4: 3 × 4 = 12.
+                                                O 8 nas dezenas de 182 se transforma em 7 (porque emprestamos 1).
 
-Agora, escrevemos o 2 na coluna das unidades e "transportamos" o 1 para a coluna das dezenas. O conceito de transporte aqui é o mesmo da adição: quando o valor ultrapassa 9, você move o excesso para a próxima coluna.
+                                                A unidade 2 na coluna das unidades se transforma em 12 (pois agora 
+                                               temos 10 unidades).
+                                                 
+                                                Agora, podemos subtrair: 12 - 7 = 5
 
+                                                Então, o resultado na coluna das unidades é 5.
 
-Na coluna das dezenas: No número 23, temos 2 dezenas, que multiplicamos por 4: 2 × 4 = 8.
+                        Na coluna das dezenas: Após o empréstimo, temos 7 dezenas no número 182 e 5 dezenas no 
+                                              número 57. Como 7 é maior que 5, podemos subtrair diretamente: 
+                                              7 - 5 = 2
 
-Não se esqueça do 1 que foi transportado da coluna das unidades. Agora, somamos: 8 + 1 = 9.
+                                               Portanto, o resultado na coluna das dezenas é 2.
 
-Então, o 9 vai para a coluna das dezenas.
+                                               Na coluna das centenas: Por fim, no número 182, temos 1 centena, e 
+                                              no número 57 não há centenas (equivalente a 0): 1 - 0 = 1
 
-O resultado da multiplicação de 23 por 4 é 92. 
+                                               Portanto, o resultado na coluna das centenas é 1.
 
-Essa abordagem de fazer as multiplicações por colunas e depois combinar os resultados permanece consistente, não importa o tamanho dos números envolvidos.
+                        O resultado final da operação é 125. 
 
-
-Divisão no Sistema Decimal
-
-A divisão no sistema decimal é uma operação essencial, mas pode parecer mais complexa do que a adição. Ela envolve a separação de um número em partes iguais, ou seja, dividir um número maior em grupos menores. No entanto, a divisão segue um processo bem estruturado e organizado, onde precisamos distribuir as quantidades de maneira cuidadosa. Em um sentido simples, podemos imaginar a divisão como o processo de repartir uma quantidade de itens entre várias caixas de maneira justa. O número que será dividido é chamado de dividendo, o número pelo qual dividimos é chamado de divisor, e o resultado da operação é o quociente.
-
-Vamos usar uma analogia para entender esse processo: imagine que você tem uma caixa cheia de itens e quer dividi-los igualmente entre outras caixas. A tarefa aqui é distribuir esses itens de maneira que todas as caixas recebam a mesma quantidade, com um possível restante. No caso da divisão, isso seria como repartir os itens de uma caixa maior em várias caixas menores, sendo que algumas caixas podem sobrar com alguns itens extras, chamados de resto.
-
-Exemplo de Divisão: 86 ÷ 4
-
-Dividindo as dezenas: O número 86 tem 8 dezenas e 6 unidades. Começamos com a casa das dezenas. Perguntamos quantas vezes 4 (o divisor) cabe em 8 (o valor da dezena). 
-
-A resposta é 2, porque 4 cabe 2 vezes em 8. Então, colocamos o 2 no quociente.
-
-Agora, multiplicamos 2 por 4 (o divisor) e obtemos 8. Subtraímos 8 de 8, e o resultado é 0. O que significa que não sobrou nenhum valor da casa das dezenas.
-
-Dividindo as unidades: Em seguida, pegamos a casa das unidades, que é 6. Perguntamos quantas vezes 4 cabe em 6. A resposta é 1, porque 4 cabe 1 vez em 6. Colocamos o 1 no quociente.
-
-Agora, multiplicamos 1 por 4 e obtemos 4. Subtraímos 4 de 6, e o resultado é 2. Esse valor 2 será o resto da operação, porque não podemos dividir 2 por 4 de maneira inteira.
-
-O quociente da divisão é 21, e o resto é 2.
-
-Embora o processo de divisão envolva etapas como a multiplicação e a subtração, ele segue uma lógica simples e sistemática, que, quando compreendida, se torna uma ferramenta poderosa para resolver problemas do cotidiano.
+   O processo de subtração, mesmo com empréstimo, mantém uma lógica clara e organizada, garantindo que a operação 
+  seja feita corretamente e de forma precisa.
 
 
-As operações matemáticas no sistema decimal são ferramentas essenciais que usamos para lidar com números e resolver problemas práticos no nosso dia a dia. A adição, subtração, multiplicação e divisão são processos fundamentais para entender e trabalhar com números de forma eficiente. Seja somando, subtraindo, multiplicando ou dividindo, essas operações nos ajudam a resolver problemas, calcular valores e fazer previsões. Com o domínio dessas operações, podemos abordar questões matemáticas de forma confiável e eficaz, facilitando nossas interações com o mundo ao nosso redor.
+ * Multiplicação no Sistema Decimal: Embora um pouco mais complexa que a adição e subtração, segue a mesma lógica 
+  de trabalho por colunas. Quando multiplicamos dois números, estamos basicamente somando várias vezes o mesmo 
+  valor, mas distribuído nas diferentes colunas (unidades, dezenas, centenas, etc.). O processo é um pouco mais 
+  elaborado, pois envolve multiplicar cada dígito de um número pelo outro e depois somar os resultados parciais de 
+  forma organizada.
+
+   Podemos imaginar a multiplicação como um processo de empacotamento de itens. Digamos que você tenha várias 
+  caixas, e em cada uma delas, você precisa colocar um número fixo de itens. O número de caixas vai depender da 
+  quantidade de unidades, dezenas, centenas e assim por diante. Então, você começa multiplicando as caixas menores 
+  e depois organiza tudo nas caixas maiores, assim como faria ao empacotar itens em diferentes tamanhos de caixas.
+
+   Exemplo de Multiplicação:    23
+                             ×   4
+                             ------
+
+                             Na coluna das unidades: No número 23, temos 3 unidades, que multiplicamos por 4: 
+                                                    3 × 4 = 12.
+
+                                                     Agora, escrevemos o 2 na coluna das unidades e "transportamos" 
+                                                    o 1 para a coluna das dezenas. O conceito de transporte aqui é 
+                                                    o mesmo da adição: quando o valor ultrapassa 9, você move o 
+                                                    excesso para a próxima coluna.
+
+
+                             Na coluna das dezenas: No número 23, temos 2 dezenas, que multiplicamos por 4:            
+                                                   2 × 4 = 8.
+
+                                                    Não se esqueça do 1 que foi transportado da coluna das  
+                                                   unidades. Agora, somamos: 8 + 1 = 9.
+
+                                                    Então, o 9 vai para a coluna das dezenas.
+
+                             O resultado da multiplicação de 23 por 4 é 92. 
+
+   Essa abordagem de fazer as multiplicações por colunas e depois combinar os resultados permanece consistente, não 
+  importa o tamanho dos números envolvidos.
+
+
+ * Divisão no Sistema Decimal: A divisão no sistema decimal é uma operação essencial, mas pode parecer mais 
+  complexa do que a adição. Ela envolve a separação de um número em partes iguais, ou seja, dividir um número maior 
+  em grupos menores. No entanto, a divisão segue um processo bem estruturado e organizado, onde precisamos 
+  distribuir as quantidades de maneira cuidadosa. Em um sentido simples, podemos imaginar a divisão como o processo 
+  de repartir uma quantidade de itens entre várias caixas de maneira justa. O número que será dividido é chamado de 
+  dividendo, o número pelo qual dividimos é chamado de divisor, e o resultado da operação é o quociente.
+
+   Vamos usar uma analogia para entender esse processo: imagine que você tem uma caixa cheia de itens e quer 
+  dividi-los igualmente entre outras caixas. A tarefa aqui é distribuir esses itens de maneira que todas as caixas 
+  recebam a mesma quantidade, com um possível restante. No caso da divisão, isso seria como repartir os itens de 
+  uma caixa maior em várias caixas menores, sendo que algumas caixas podem sobrar com alguns itens extras, chamados 
+  de resto.
+
+   Exemplo de Divisão: 86 ÷ 4
+
+                       Dividindo as dezenas: O número 86 tem 8 dezenas e 6 unidades. Começamos com a casa das 
+                                            dezenas. Perguntamos quantas vezes 4 (o divisor) cabe em 8 (o valor da 
+                                            dezena). 
+
+                                             A resposta é 2, porque 4 cabe 2 vezes em 8. Então, colocamos o 2 no 
+                                            quociente.
+
+                                             Agora, multiplicamos 2 por 4 (o divisor) e obtemos 8. Subtraímos 8 de 
+                                            8, e o resultado é 0. O que significa que não sobrou nenhum valor da      
+                                            casa das dezenas.
+
+                       Dividindo as unidades: Em seguida, pegamos a casa das unidades, que é 6. Perguntamos quantas 
+                                             vezes 4 cabe em 6. A resposta é 1, porque 4 cabe 1 vez em 6. Colocamos 
+                                             o 1 no quociente.
+
+                                              Agora, multiplicamos 1 por 4 e obtemos 4. Subtraímos 4 de 6, e o 
+                                             resultado é 2. Esse valor 2 será o resto da operação, porque não 
+                                             podemos dividir 2 por 4 de maneira inteira.
+
+                       O quociente da divisão é 21, e o resto é 2.
+
+   Embora o processo de divisão envolva etapas como a multiplicação e a subtração, ele segue uma lógica simples e 
+  sistemática, que, quando compreendida, se torna uma ferramenta poderosa para resolver problemas do cotidiano.
+
+ As operações matemáticas no sistema decimal são ferramentas essenciais que usamos para lidar com números e 
+resolver problemas práticos no nosso dia a dia. A adição, subtração, multiplicação e divisão são processos 
+fundamentais para entender e trabalhar com números de forma eficiente. Seja somando, subtraindo, multiplicando ou 
+dividindo, essas operações nos ajudam a resolver problemas, calcular valores e fazer previsões. Com o domínio 
+dessas operações, podemos abordar questões matemáticas de forma confiável e eficaz, facilitando nossas interações 
+com o mundo ao nosso redor.
 
 
 
