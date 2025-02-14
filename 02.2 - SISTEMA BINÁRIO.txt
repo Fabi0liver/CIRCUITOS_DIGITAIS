@@ -1,12 +1,29 @@
                                              SISTEMA BINÁRIO
 
-O sistema binário é a base da computação moderna, sendo o idioma que os computadores usam para representar e analisar informações. Diferente do sistema decimal, que usamos no dia a dia e conta com dez dígitos (0 a 9), o binário trabalha apenas com dois símbolos: 0 e 1. Isso ocorre porque os computadores operam com circuitos eletrônicos, que funcionam com dois estados distintos, como ligados e desligados, representados justamente por esses dois números. Essa simplicidade torna o sistema binário ideal para o funcionamento de dispositivos digitais.
+ 
+ O sistema binário é a base da computação moderna, sendo o idioma que os computadores usam para representar e 
+analisar informações. Diferente do sistema decimal, que usamos no dia a dia e conta com dez dígitos (0 a 9), o 
+binário trabalha apenas com dois símbolos: 0 e 1. Isso ocorre porque os computadores operam com circuitos 
+eletrônicos, que funcionam com dois estados distintos, como ligados e desligados, representados justamente por 
+esses dois números. Essa simplicidade torna o sistema binário ideal para o funcionamento de dispositivos digitais.
 
-Podemos pensar no sistema binário como uma série de interruptores de luz. Cada interruptor pode estar apenas em dois estados: ligado ou desligado. Se imaginarmos vários interruptores corretos, podemos criar modificações diferentes de acessos e apagados, formando padrões únicos. No mundo dos computadores, esses padrões são usados ​​para representar números, letras, imagens e até vídeos, tudo convertido para uma sequência de 0s e 1s que a máquina consegue interpretar.
+ Podemos pensar no sistema binário como uma série de interruptores de luz. Cada interruptor pode estar apenas em 
+dois estados: ligado ou desligado. Se imaginarmos vários interruptores corretos, podemos criar modificações 
+diferentes de acessos e apagados, formando padrões únicos. No mundo dos computadores, esses padrões são usados ​​para 
+representar números, letras, imagens e até vídeos, tudo convertido para uma sequência de 0s e 1s que a máquina 
+consegue interpretar.
 
-Embora o sistema binário pareça distante da nossa realidade cotidiana, ele está presente em tudo que envolve a tecnologia digital. Quando digitamos em um teclado, abrimos um aplicativo ou assistimos a um vídeo, estamos interagindo com informações que foram convertidas e processadas em código binário. Essa conversão acontece por meio de regras matemáticas bem definidas, garantindo que qualquer dado do mundo real possa ser traduzido para a linguagem dos computadores.
+ Embora o sistema binário pareça distante da nossa realidade cotidiana, ele está presente em tudo que envolve a 
+tecnologia digital. Quando digitamos em um teclado, abrimos um aplicativo ou assistimos a um vídeo, estamos 
+interagindo com informações que foram convertidas e processadas em código binário. Essa conversão acontece por meio 
+de regras matemáticas bem definidas, garantindo que qualquer dado do mundo real possa ser traduzido para a 
+linguagem dos computadores.
 
-Compreender o sistema binário é essencial para quem deseja aprender sobre computação, pois ele é a base de tudo que envolve processamento digital. Mesmo que no dia a dia os programadores lidem com linguagens mais amigáveis, no final das contas, tudo é transformado em sequências binárias para que o computador entenda e execute as tarefas corretamente. Esse conhecimento não só ajuda a entender como a tecnologia funciona, mas também abre portas para explorar áreas como programação, eletrônica digital e arquitetura de computadores.
+ Compreender o sistema binário é essencial para quem deseja aprender sobre computação, pois ele é a base de tudo 
+que envolve processamento digital. Mesmo que no dia a dia os programadores lidem com linguagens mais amigáveis, no 
+final das contas, tudo é transformado em sequências binárias para que o computador entenda e execute as tarefas 
+corretamente. Esse conhecimento não só ajuda a entender como a tecnologia funciona, mas também abre portas para 
+explorar áreas como programação, eletrônica digital e arquitetura de computadores.
 
 
 
