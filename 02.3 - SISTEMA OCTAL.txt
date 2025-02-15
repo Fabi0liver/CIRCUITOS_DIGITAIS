@@ -59,3 +59,78 @@ com que os números cresçam rapidamente, mas de forma estruturada. Embora possa
 octal já foi amplamente utilizado na computação, pois permite representar números binários de maneira mais compacta 
 e legível. Assim, aprender a contar no sistema octal ajuda a compreender melhor como os sistemas numéricos 
 funcionam e como diferentes bases podem ser usadas para facilitar cálculos e representações digitais.
+
+
+
+                                    "Estrutura do Sistema Octal"
+
+ O sistema octal é um método de representar números utilizando oito símbolos distintos: 0, 1, 2, 3, 4, 5, 6 e 7. 
+Esse sistema é menos comum no dia a dia, mas tem grande importância em áreas como a computação, especialmente para 
+representar valores binários de forma mais compacta. Assim como os sistemas decimal e binário, o octal segue o 
+conceito de notação posicional, onde o valor de cada dígito depende da sua posição dentro do número. Para entender 
+melhor seu funcionamento, vamos explorar sua estrutura e como os números são representados.
+
+ * Notação Posicional no Sistema Octal: A notação posicional é o princípio que define como os números octais são 
+  formados e interpretados. Cada posição dentro do número tem um valor específico baseado em potências de 8. Isso 
+  significa que o valor de um número octal depende tanto dos dígitos que o compõem quanto da posição de cada um 
+  deles. Assim como no sistema decimal multiplicamos por 10 e no binário multiplicamos por 2, no octal cada casa 
+  representa uma multiplicação por 8.
+
+   Vamos analisar o número octal 725₈ para entender melhor essa estrutura:
+
+    - O 5 está na unidade (primeira posição à direita), o que significa que ele representa 5 × 8⁰ = 5.
+
+    - O 2 está na posição seguinte, que corresponde a 8¹, o que significa que ele representa 2 × 8¹ = 16.
+
+    - O 7 está na terceira posição, que equivale a 8², o que significa que ele representa 7 × 8² = 448.
+
+   Agora, somando tudo, temos:
+
+    725₈ = (7 × 8²) + (2 × 8¹) + (5 × 8⁰) = 448 + 16 + 5 = 469₁₀
+
+   Essa lógica de potências de 8 continua se expandindo conforme adicionamos mais dígitos à esquerda. A cada nova 
+  posição, o valor do número cresce por um fator de 8, funcionando como uma escada onde cada degrau representa uma 
+  multiplicação por 8. Esse método torna o sistema octal útil para representar grandes valores binários de maneira 
+  mais compacta e organizada, facilitando certas operações na computação.
+
+
+ * Potências no Sistema Octal: No sistema octal, cada dígito de um número está relacionado a uma potência de 8.   
+  Essa relação é fundamental para a estrutura do sistema e permite entender como os números crescem ou diminuem à 
+  medida que os dígitos mudam de posição.
+
+   Ao avançarmos para a esquerda dentro do número octal, os valores aumentam exponencialmente com as potências de 
+  8. Cada posição à esquerda representa uma multiplicação do número base (8) por uma potência crescente.
+
+   Por exemplo:
+
+    - 1 = 8⁰ (oito elevado à potência de 0)
+
+    - 8 = 8¹ (oito elevado à potência de 1)
+
+    - 64 = 8² (oito elevado à potência de 2)
+  
+    - 512 = 8³ (oito elevado à potência de 3)
+
+   Ou seja, conforme avançamos para a esquerda, cada casa representa oito vezes o valor da anterior. Assim, 64 é  
+  oito vezes maior que 8, e 8 é oito vezes maior que 1.
+
+   Por outro lado, quando lidamos com frações octais (números após um ponto octal, equivalente à vírgula decimal), 
+  os valores diminuem, pois estamos lidando com potências negativas de 8. Cada posição à direita representa uma 
+  fração do número base (8), onde a potência negativa reflete a divisão do valor por 8 repetidamente.
+
+   Por exemplo:
+
+    - 0,1₈ = 8⁻¹ (oito elevado à potência de -1)
+
+    - 0,01₈ = 8⁻² (oito elevado à potência de -2)
+
+    - 0,001₈ = 8⁻³ (oito elevado à potência de -3)
+
+   Aqui, cada casa decimal octal representa 1/8 do valor da anterior. Assim, 0,1₈ (que equivale a 0,125) é oito 
+  vezes maior que 0,01₈ (aproximadamente 0,0156).
+
+   Essa estrutura baseada em potências de 8 permite que os números sejam representados de maneira organizada e 
+  eficiente. O sistema octal foi amplamente utilizado em computação, especialmente em sistemas mais antigos, porque 
+  sua base é uma potência de 2 (8 = 2³), o que facilita a conversão entre octal e binário. Dessa forma, compreender 
+  as potências do sistema octal é essencial para entender como ele é estruturado e sua aplicação prática, tanto na 
+  matemática quanto na computação.
