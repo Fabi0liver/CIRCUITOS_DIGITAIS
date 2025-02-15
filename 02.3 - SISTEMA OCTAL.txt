@@ -2,27 +2,60 @@
 
 
  O sistema numérico octal é um dos sistemas de numeração posicional que, apesar de não ser tão utilizado atualmente 
-quanto o binário ou o decimal, tem sua importância histórica e prática dentro da computação. Ele é baseado no número 
-oito, ou seja, utiliza apenas os dígitos de 0 a 7 para representar valores. Essa característica faz dele uma ponte 
-interessante entre o binário, que é a linguagem nativa dos computadores, e sistemas mais amigáveis para os humanos, 
-como o decimal.
+quanto o binário ou o decimal, tem sua importância histórica e prática dentro da computação. Ele é baseado no 
+número oito, ou seja, utiliza apenas os dígitos de 0 a 7 para representar valores. Essa característica faz dele uma 
+ponte interessante entre o binário, que é a linguagem nativa dos computadores, e sistemas mais amigáveis para os 
+humanos, como o decimal.
 
- Uma forma simples de entender o octal é pensar nele como uma maneira compacta de representar números binários. Como 
-cada dígito octal pode ser diretamente convertido em um grupo de três bits binários, esse sistema já foi bastante 
-útil para programadores que precisavam interpretar dados binários de forma mais legível antes da popularização do 
-sistema hexadecimal. Imagine que você tem um longo código escrito em binário – em vez de lidar com sequências 
-extensas de zeros e uns, o octal permite uma escrita mais curta e organizada, sem perder a essência do valor 
-representado.
+ Uma forma simples de entender o octal é pensar nele como uma maneira compacta de representar números binários. 
+Como cada dígito octal pode ser diretamente convertido em um grupo de três bits binários, esse sistema já foi 
+bastante útil para programadores que precisavam interpretar dados binários de forma mais legível antes da 
+popularização do sistema hexadecimal. Imagine que você tem um longo código escrito em binário – em vez de lidar com 
+sequências extensas de zeros e uns, o octal permite uma escrita mais curta e organizada, sem perder a essência do 
+valor representado.
 
- Historicamente, o octal teve grande aplicação em sistemas computacionais mais antigos, especialmente na programação 
-de computadores como o PDP-8, um dos pioneiros da computação moderna. Sua simplicidade operacional facilitava 
-cálculos manuais e a leitura de endereços de memória, algo que era crucial na época. Hoje, embora o hexadecimal tenha 
-assumido essa função devido à sua maior eficiência na conversão com binário, o octal ainda aparece em alguns 
-contextos, como nas permissões de arquivos no sistema Unix, onde cada conjunto de três bits define os direitos de 
-leitura, escrita e execução.
+ Historicamente, o octal teve grande aplicação em sistemas computacionais mais antigos, especialmente na 
+programação de computadores como o PDP-8, um dos pioneiros da computação moderna. Sua simplicidade operacional 
+facilitava cálculos manuais e a leitura de endereços de memória, algo que era crucial na época. Hoje, embora o 
+hexadecimal tenha assumido essa função devido à sua maior eficiência na conversão com binário, o octal ainda 
+aparece em alguns contextos, como nas permissões de arquivos no sistema Unix, onde cada conjunto de três bits 
+define os direitos de leitura, escrita e execução.
 
  Entender o sistema octal ajuda a ampliar a visão sobre como os computadores lidam com diferentes formas de 
 representação numérica. Ele mostra que os sistemas de numeração são ferramentas flexíveis, escolhidas conforme a 
-necessidade da aplicação. Embora seu uso não seja tão comum hoje, compreender seu funcionamento proporciona uma base 
-sólida para explorar conceitos mais avançados em computação, como sistemas de codificação, armazenamento de dados e 
-organização de memória.
+necessidade da aplicação. Embora seu uso não seja tão comum hoje, compreender seu funcionamento proporciona uma 
+base sólida para explorar conceitos mais avançados em computação, como sistemas de codificação, armazenamento de 
+dados e organização de memória.
+
+
+
+                                 "Como Se Conta No Sistema Octal"  
+
+ Contar no sistema octal pode parecer diferente no início, mas sua lógica segue um padrão semelhante ao dos 
+sistemas decimal e binário. O octal é baseado em oito dígitos: 0, 1, 2, 3, 4, 5, 6 e 7. Quando chegamos ao número 
+7, em vez de avançarmos para 8 (como no decimal), voltamos a contar a partir de 0 e criamos uma nova "casa", da 
+mesma forma que ocorre nos outros sistemas de numeração. Essa estrutura torna o octal uma forma compacta e 
+eficiente de representar números, especialmente em computação.  
+
+ Podemos imaginar o sistema octal como um contador de tempo que só avança até o 7 antes de mudar para a próxima 
+unidade. No decimal, cada casa representa uma potência de 10; no octal, cada casa representa uma potência de 8. 
+Isso significa que, sempre que atingimos o maior número disponível (7), criamos uma nova casa e reiniciamos a 
+contagem. Se no decimal passamos de 9 para 10, no octal passamos de 7 para 10 (que equivale ao 8 decimal). Esse 
+padrão se mantém ao longo da contagem, facilitando a organização dos números.  
+
+ Se começarmos a contar no sistema octal, teremos a seguinte sequência:  
+
+ - 0, 1, 2, 3, 4, 5, 6, 7. Quando chegamos ao 7, avançamos para:  
+
+ - 10, 11, 12, 13, 14, 15, 16, 17. Depois, passamos para a casa das dezenas (no octal):  
+
+ - 20, 21, 22, ..., 27, seguido por 30, 31, 32..., até que esgotemos todas as combinações de dois dígitos
+  octais (77). Quando isso acontece, avançamos para três dígitos:  
+
+ - 100, 101, 102..., e assim sucessivamente, sempre respeitando a base 8.  
+
+ Esse processo segue uma lógica previsível e organizada. Cada nova casa representa uma multiplicação por 8, fazendo 
+com que os números cresçam rapidamente, mas de forma estruturada. Embora possa parecer incomum à primeira vista, o 
+octal já foi amplamente utilizado na computação, pois permite representar números binários de maneira mais compacta 
+e legível. Assim, aprender a contar no sistema octal ajuda a compreender melhor como os sistemas numéricos 
+funcionam e como diferentes bases podem ser usadas para facilitar cálculos e representações digitais.
