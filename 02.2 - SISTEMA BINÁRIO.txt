@@ -27,25 +27,37 @@ explorar áreas como programação, eletrônica digital e arquitetura de computa
 
 
 
-                                    "Como Se Conta No Sistema Binário"
+                                 "Como Se Conta No Sistema Binário"
 
-Contar no sistema binário pode parecer um pouco estranho no começo, mas, na realidade, a lógica por trás dele é bem simples e segue um padrão semelhante ao que usamos no sistema decimal. No sistema binário, em vez de usarmos os 10 dígitos do sistema decimal (0 a 9), ganhamos apenas com dois: 0 e 1. Quando chegamos ao 1, em vez de continuar com o número 2, o sistema avança para o próximo nível, criando uma nova "casa" e voltando a contar a partir de 0. Esse processo é o que torna o sistema binário eficiente para os computadores.
+ Contar no sistema binário pode parecer um pouco estranho no começo, mas, na realidade, a lógica por trás dele é 
+bem simples e segue um padrão semelhante ao que usamos no sistema decimal. No sistema binário, em vez de usarmos os 
+10 dígitos do sistema decimal (0 a 9), ganhamos apenas com dois: 0 e 1. Quando chegamos ao 1, em vez de continuar 
+com o número 2, o sistema avança para o próximo nível, criando uma nova "casa" e voltando a contar a partir de 0. 
+Esse processo é o que torna o sistema binário eficiente para os computadores.
 
-Podemos imaginar o sistema binário como um conjunto de interruptores. Cada interruptor pode ser ligado (1) ou desligado (0), e à medida que adicionamos mais interruptores, o número de transferências possíveis vai crescendo. Assim como no sistema decimal, a cada vez que atingimos o valor máximo possível em uma "casa" (no caso, 1), criamos uma nova casa e reiniciamos a contagem. Por exemplo, após o 1, saiu para o próximo nível, que é 10. Esse padrão de contagem segue até que a capacidade de duas casas fique esgotada, e então avançamos para três casas, e assim por diante.
+ Podemos imaginar o sistema binário como um conjunto de interruptores. Cada interruptor pode ser ligado (1) ou 
+desligado (0), e à medida que adicionamos mais interruptores, o número de transferências possíveis vai crescendo. 
+Assim como no sistema decimal, a cada vez que atingimos o valor máximo possível em uma "casa" (no caso, 1), criamos 
+uma nova casa e reiniciamos a contagem. Por exemplo, após o 1, saiu para o próximo nível, que é 10. Esse padrão de 
+contagem segue até que a capacidade de duas casas fique esgotada, e então avançamos para três casas, e assim por 
+diante.
 
-Se começarmos a contar no sistema binário, teremos a seguinte sequência:
+ Se começarmos a contar no sistema binário, teremos a seguinte sequência:
 
-  0, 1. Quando chegamos ao 1, avançamos para:
+ - 0, 1. Quando chegamos ao 1, avançamos para:
 
-  10, 11. Depois, começamos para a casa das "duas casas" (ou os "dois bits"):
+ - 10, 11. Depois, começamos para a casa das "duas casas" (ou os "dois bits"):
 
-  100, 101, 110, 111, e assim por diante. Quando esgotamos as transferências de três dígitos (até 111), avançamos  
- para o próximo nível:
+ - 100, 101, 110, 111, e assim por diante. Quando esgotamos as transferências de três dígitos (até 111), avançamos  
+  para o próximo nível:
 
-  1000, 1001, 1010, e a contagem contínua, sempre seguindo esse mesmo padrão de organização, onde cada "casa" 
- reflete uma potência de 2.
+ - 1000, 1001, 1010, e a contagem contínua, sempre seguindo esse mesmo padrão de organização, onde cada "casa" 
+  reflete uma potência de 2.
 
-Esse processo de contagem segue uma lógica simples e organizada, mas com um crescimento mais rápido que no decimal. Cada nova casa representa uma multiplicação por 2, o que faz com que os números cresçam exponencialmente. Embora pareça menos intuitiva no início, essa estrutura é extremamente eficiente para os computadores, pois permite que toda a informação digital seja armazenada e processada usando apenas duas possibilidades: 0 e 1.
+ Esse processo de contagem segue uma lógica simples e organizada, mas com um crescimento mais rápido que no 
+decimal. Cada nova casa representa uma multiplicação por 2, o que faz com que os números cresçam exponencialmente. 
+Embora pareça menos intuitiva no início, essa estrutura é extremamente eficiente para os computadores, pois permite 
+que toda a informação digital seja armazenada e processada usando apenas duas possibilidades: 0 e 1.
 
 
 
