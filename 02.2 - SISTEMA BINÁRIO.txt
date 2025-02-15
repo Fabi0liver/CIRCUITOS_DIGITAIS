@@ -595,9 +595,23 @@ tudo o que envolve tecnologia, conectando pessoas e tornando o mundo mais digita
 
                                  "Conclusão sobre o Sistema Binário"
 
-O sistema binário é a base fundamental da computação e da tecnologia digital. Ele opera através da notação posicional, onde cada dígito (0 ou 1) tem um valor determinado por sua posição e se organiza em potências de dois. Essa simplicidade matemática permite representar qualquer informação de maneira eficiente, desde números e textos até imagens e sons, servindo como a linguagem universal dos computadores. Podemos imaginar o sistema binário como um conjunto de interruptores, onde cada posição ligada (1) ou desligada (0) contribui para formar informações complexas.
+ O sistema binário é a base fundamental da computação e da tecnologia digital. Ele opera através da notação 
+posicional, onde cada dígito (0 ou 1) tem um valor determinado por sua posição e se organiza em potências de dois. 
+Essa simplicidade matemática permite representar qualquer informação de maneira eficiente, desde números e textos 
+até imagens e sons, servindo como a linguagem universal dos computadores. Podemos imaginar o sistema binário como 
+um conjunto de interruptores, onde cada posição ligada (1) ou desligada (0) contribui para formar informações 
+complexas.
 
-Além disso, as operações matemáticas dentro do sistema binário, como adição, subtração, multiplicação e divisão, seguem regras precisas que garantem a consistência dos cálculos. O conceito de transporte na adição e o processo de divisão binária são fundamentais para que processadores realizem bilhões de operações por segundo, tornando possível tudo o que vemos em dispositivos digitais. Assim como no sistema decimal, essas operações estruturam as informações de forma organizada e eficiente, permitindo que os computadores realizem cálculos, armazenem dados e executem programas com precisão.
+ Além disso, as operações matemáticas dentro do sistema binário, como adição, subtração, multiplicação e divisão, 
+seguem regras precisas que garantem a consistência dos cálculos. O conceito de transporte na adição e o processo de 
+divisão binária são fundamentais para que processadores realizem bilhões de operações por segundo, tornando 
+possível tudo o que vemos em dispositivos digitais. Assim como no sistema decimal, essas operações estruturam as 
+informações de forma organizada e eficiente, permitindo que os computadores realizem cálculos, armazenem dados e 
+executem programas com precisão.
 
-No fim das contas, o sistema binário não é apenas uma curiosidade matemática, mas a espinha dorsal da era digital. Seja em smartphones, videogames, sistemas de navegação ou inteligência artificial, estamos constantemente interagindo com informações processadas em binário, muitas vezes sem perceber. Compreender esse sistema é essencial para quem deseja aprofundar seus conhecimentos em computação e tecnologia, pois ele é o alicerce sobre o qual toda a informática moderna é construída.
+ No fim das contas, o sistema binário não é apenas uma curiosidade matemática, mas a espinha dorsal da era digital. 
+Seja em smartphones, videogames, sistemas de navegação ou inteligência artificial, estamos constantemente 
+interagindo com informações processadas em binário, muitas vezes sem perceber. Compreender esse sistema é essencial 
+para quem deseja aprofundar seus conhecimentos em computação e tecnologia, pois ele é o alicerce sobre o qual toda 
+a informática moderna é construída.
 
