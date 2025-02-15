@@ -27,7 +27,7 @@ explorar áreas como programação, eletrônica digital e arquitetura de computa
 
 
 
-                                 "Como Se Conta No Sistema Binário"
+                                    "Como Se Conta No Sistema Binário"
 
  Contar no sistema binário pode parecer um pouco estranho no começo, mas, na realidade, a lógica por trás dele é 
 bem simples e segue um padrão semelhante ao que usamos no sistema decimal. No sistema binário, em vez de usarmos os 
@@ -246,7 +246,7 @@ computação e entender como as máquinas interpretam e processam informações 
 
 
 
-                            "Operações Matemáticas no Sistema Binário"
+                              "Operações Matemáticas no Sistema Binário"
 
  O sistema binário é fundamental para o funcionamento dos computadores e de todos os dispositivos digitais. Nele, a 
 única informação que pode ser representada é 0 ou 1, também conhecida como "desligado" ou "ligado", que depende dos 
@@ -541,7 +541,7 @@ mundo digital em que vivemos.
 
 
 
-                                 "A Importância do Sistema Binário"
+                                   "A Importância do Sistema Binário"
 
  O sistema binário é a base de toda a computação moderna e da era digital. Embora não seja o sistema de numeração 
 que usamos no dia a dia, ele é essencial para o funcionamento de computadores, dispositivos eletrônicos e 
@@ -593,7 +593,7 @@ tudo o que envolve tecnologia, conectando pessoas e tornando o mundo mais digita
 
 
 
-                                 "Conclusão sobre o Sistema Binário"
+                                  "Conclusão sobre o Sistema Binário"
 
  O sistema binário é a base fundamental da computação e da tecnologia digital. Ele opera através da notação 
 posicional, onde cada dígito (0 ou 1) tem um valor determinado por sua posição e se organiza em potências de dois. 
