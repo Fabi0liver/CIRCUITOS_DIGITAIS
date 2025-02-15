@@ -310,6 +310,119 @@ operações de forma detalhada, com analogias e exemplos para facilitar o entend
   maneira fácil e intuitiva.
 
 
+ * Subtração no Sistema Octal: Quando realizamos a subtração no sistema octal, o processo segue uma lógica 
+  semelhante à do sistema decimal, mas com a diferença de que agora trabalhamos com a base 8. Ou seja, quando o 
+  valor de uma coluna é menor do que o valor a ser subtraído, precisamos "emprestar" da próxima posição à esquerda, 
+  respeitando a base 8.
+
+   Imagine que você está retirando itens de caixas numeradas de 0 a 7. Quando uma caixa não tem itens suficientes 
+  para retirar, você precisa pegar emprestado da caixa ao lado. Esse "empréstimo" é a chave para que a subtração 
+  seja feita corretamente.
+
+   Exemplo de Subtração Octal:  56₈ (equivalente a 46 em decimal)
+                              - 32₈ (equivalente a 26 em decimal)
+                              ------
+
+                               Primeiro Passo: Começamos subtraindo os dois números da direita para a esquerda, ou  
+                                              seja, começamos pela "primeira coluna" (8⁰).
+
+                                               No número 56₈, temos o 6 na primeira coluna, e no número 32₈, temos 
+                                              o 2.
+
+                                               Subtraímos: 6 - 2 = 4.
+
+                                               Como o resultado é 4, não precisamos fazer nenhum "empréstimo", e  
+                                              colocamos 4 na "primeira coluna" do resultado.
+
+
+                               Segundo Passo: Agora, vamos para a segunda coluna (8¹), à esquerda do que subtraímos 
+                                             anteriormente.
+
+                                              No número 56₈, temos 5 na segunda coluna, e no número 32₈, temos 3.
+
+                                              Subtraímos: 5 - 3 = 2.
+
+                                              Como o resultado é 2, também não precisamos fazer nenhum 
+                                             "empréstimo", e colocamos 2 na "segunda coluna" do resultado.
+
+                               Resultado Final: Assim, subtraindo as colunas, obtemos:  
+                                                         56₈ (equivalente a 46 em decimal)
+                                                       - 32₈ (equivalente a 26 em decimal)
+                                                       -----
+                                                         24₈ (equivalente a 20 em decimal)
+
+                               Portanto, a subtração de 56 e 32 no sistema octal resulta em 24 no sistema octal. Em  
+                              decimal, isso seria igual a 20.
+
+   Esse processo de subtração no sistema octal é bastante simples e segue a mesma lógica da subtração em outros 
+  sistemas numéricos. O importante é sempre lembrar que, quando o valor a ser subtraído é maior que o valor da 
+  coluna, fazemos o "empréstimo" para garantir que o resultado esteja correto na base 8. Com essa compreensão, 
+  podemos lidar com subtrações em octal de maneira fácil e intuitiva.
+
+
+ * Multiplicação no Sistema Octal: Quando realizamos a multiplicação no sistema octal, seguimos uma lógica 
+  semelhante à do sistema decimal, mas considerando que a base agora é 8. Isso significa que, ao multiplicarmos 
+  dois números octais, precisamos garantir que os produtos intermediários e o resultado final estejam corretos 
+  dentro dessa base. Caso um produto ultrapasse 7, devemos convertê-lo para a base 8, fazendo o "transporte" para a 
+  próxima posição.
+
+   Imagine que você está multiplicando grupos de itens organizados em pacotes numerados de 0 a 7. Se um grupo 
+  exceder essa quantidade, você precisa dividir o excesso e movê-lo para a próxima posição à esquerda. Essa 
+  conversão é fundamental para garantir um resultado correto na base 8.
+
+   Exemplo de Multiplicação Octal: 24₈ (equivalente a 20 em decimal)
+                                  x 3₈ (equivalente a 3 em decimal)
+                                  -----
+
+                                   Primeiro Passo: Multiplicação da Primeira Coluna (8⁰):
+
+                                                   Multiplicamos o dígito da "primeira coluna" (8⁰) de 24₈ pelo 
+                                                  número 3₈.
+
+                                                   Multiplicando em octal: 4 × 3 = 14₈
+
+                                                   14₈ significa que colocamos 4 na "primeira coluna" e 
+                                                  transportamos 1 para a próxima posição.
+
+
+                                   Segundo Passo: Multiplicação da Segunda Coluna (8¹):
+
+                                                  Agora, multiplicamos o dígito da "segunda coluna" (8¹) de 24₈ 
+                                                 pelo número 3₈, lembrando de somar o transporte do passo anterior.
+
+                                                  Multiplicando em octal: 2 × 3 = 6₈
+
+                                                  Agora, somamos o transporte de 1 do passo anterior: 6₈ + 1₈ = 7₈
+
+                                                  Como 7₈ não ultrapassa a base, colocamos esse valor diretamente.
+
+
+                                   Resultado Final: Agora organizamos os valores obtidos: 
+                                                                                    24₈ 
+                                                                                   x 3₈
+                                                                                   -----
+                                                                                    74₈ (equivalente a 60 decimal).
+
+                                   Portanto, a multiplicação de 24₈ por 3₈ resulta em 74₈ no sistema octal. Em 
+                                  decimal, isso equivale a 60.
+
+   Esse processo de multiplicação no sistema octal segue a mesma lógica da multiplicação em outros sistemas 
+  numéricos, com a diferença de que a base é 8. O importante é lembrar que quando o produto de uma coluna 
+  ultrapassa 7, realizamos o "transporte" para garantir que o resultado esteja correto na base 8. Com essa 
+  compreensão, podemos lidar com multiplicações em octal de maneira fácil e intuitiva.
+
+
+
+​
+
+
+​
+
+
+
+​
+
+
 
 
 
