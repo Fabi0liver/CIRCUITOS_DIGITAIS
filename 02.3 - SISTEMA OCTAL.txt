@@ -1,0 +1,28 @@
+                                          SISTEMA OCTAL
+
+
+ O sistema numérico octal é um dos sistemas de numeração posicional que, apesar de não ser tão utilizado atualmente 
+quanto o binário ou o decimal, tem sua importância histórica e prática dentro da computação. Ele é baseado no número 
+oito, ou seja, utiliza apenas os dígitos de 0 a 7 para representar valores. Essa característica faz dele uma ponte 
+interessante entre o binário, que é a linguagem nativa dos computadores, e sistemas mais amigáveis para os humanos, 
+como o decimal.
+
+ Uma forma simples de entender o octal é pensar nele como uma maneira compacta de representar números binários. Como 
+cada dígito octal pode ser diretamente convertido em um grupo de três bits binários, esse sistema já foi bastante 
+útil para programadores que precisavam interpretar dados binários de forma mais legível antes da popularização do 
+sistema hexadecimal. Imagine que você tem um longo código escrito em binário – em vez de lidar com sequências 
+extensas de zeros e uns, o octal permite uma escrita mais curta e organizada, sem perder a essência do valor 
+representado.
+
+ Historicamente, o octal teve grande aplicação em sistemas computacionais mais antigos, especialmente na programação 
+de computadores como o PDP-8, um dos pioneiros da computação moderna. Sua simplicidade operacional facilitava 
+cálculos manuais e a leitura de endereços de memória, algo que era crucial na época. Hoje, embora o hexadecimal tenha 
+assumido essa função devido à sua maior eficiência na conversão com binário, o octal ainda aparece em alguns 
+contextos, como nas permissões de arquivos no sistema Unix, onde cada conjunto de três bits define os direitos de 
+leitura, escrita e execução.
+
+ Entender o sistema octal ajuda a ampliar a visão sobre como os computadores lidam com diferentes formas de 
+representação numérica. Ele mostra que os sistemas de numeração são ferramentas flexíveis, escolhidas conforme a 
+necessidade da aplicação. Embora seu uso não seja tão comum hoje, compreender seu funcionamento proporciona uma base 
+sólida para explorar conceitos mais avançados em computação, como sistemas de codificação, armazenamento de dados e 
+organização de memória.
