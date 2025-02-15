@@ -181,3 +181,48 @@ melhor seu funcionamento, vamos explorar sua estrutura e como os números são r
   números, ajudando a evitar ambiguidades e permitindo cálculos mais claros e organizados. Ele é uma peça-chave 
   para manter a lógica do sistema posicional e facilitar a representação tanto de números inteiros quanto 
   fracionários.
+
+Números Fracionados no Sistema Octal: Assim como no sistema decimal e no binário, o sistema octal também pode representar números fracionados, permitindo expressar valores menores que 1. Isso é essencial para diversas aplicações, como medições, cálculos científicos e até mesmo operações computacionais que envolvem bases numéricas diferentes.
+
+A principal diferença entre os sistemas é a base utilizada. No sistema decimal, usamos potências de 10 para definir o valor de cada posição decimal. No sistema binário, utilizamos potências de 2. Já no sistema octal, a base é 8, o que significa que cada casa decimal representa uma fração de uma potência de 8.
+
+Para entender como os números fracionados funcionam no octal, vejamos alguns exemplos:
+
+0,1₈ (zero vírgula um na base oito):
+Aqui, o 1 está na posição de 8⁻¹, ou seja, 1 dividido por 8:
+
+0,1₈= 1×8⁻¹ = 1/8 = 0,125₁₀ 
+
+0,01₈ (zero vírgula zero um na base oito):
+Neste caso, o 1 ocupa a posição de 8⁻², ou seja, 1 dividido por 8² (64):
+
+0,01₈ = 1×8⁻² = 1/64 = 0,015625₁₀ 
+
+0,45₈ (zero vírgula quatro cinco na base oito):
+Aqui, cada dígito é multiplicado pela sua respectiva potência negativa de 8:
+
+0,45₈ = 4×8⁻¹ + 5×8⁻²
+
+Como 8⁻¹ = 1/8 = 0,125₁₀  e 8⁻² = 1/64 = 0,015625₁₀ , temos: 
+ 
+4 × 0,125₁₀ + 5 × 0,015625₁₀ = 0,5₁₀ + 0,078125₁₀ = 0,578125₁₀
+
+Ou seja, 0,45₈ equivale a aproximadamente 0,578125 na base 10.
+
+Os números fracionados no sistema octal seguem uma lógica semelhante à do sistema decimal e binário. A diferença é que, em vez de dividir por 10 (como no decimal) ou por 2 (como no binário), aqui a divisão ocorre por 8 a cada casa decimal adicionada.
+
+Isso significa que cada nova posição à direita do ponto octal representa uma fração menor, dividindo sempre por 8. Esse método de divisão contínua possibilita uma representação precisa de números menores que 1, permitindo cálculos detalhados e organizados.
+
+O sistema octal, apesar de ser menos comum no uso cotidiano, tem importância em diversas áreas, especialmente em computação e sistemas digitais, onde facilita a conversão entre binário e outras bases. Seu método de representação de números fracionados amplia sua aplicabilidade e mostra como diferentes bases numéricas podem ser utilizadas para expressar valores com precisão.
+
+
+
+
+
+
+
+
+
+​
+
+
