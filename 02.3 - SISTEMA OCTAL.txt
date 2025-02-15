@@ -237,6 +237,77 @@ ferramenta importante para áreas como programação, design de sistemas e otimi
 
 
 
+                            "Operações Matemáticas no Sistema Octal"
+
+ O sistema octal, baseado na notação posicional e nas potências de 8, oferece uma forma eficiente de representar 
+números, especialmente no contexto de computação. Embora não seja tão utilizado no nosso dia a dia quanto o sistema 
+decimal ou binário, ele é muito importante no mundo digital, especialmente em programação e no processamento de 
+dados. No sistema octal, as operações matemáticas fundamentais – adição, subtração, multiplicação e divisão – 
+seguem a mesma lógica básica que conhecemos dos sistemas decimal e binário, mas com a base 8. Vamos explorar essas 
+operações de forma detalhada, com analogias e exemplos para facilitar o entendimento.
+
+ * Adição no Sistema Octal: Quando somamos números no sistema octal, o processo segue uma lógica semelhante à do 
+  sistema decimal, mas com a diferença de que agora trabalhamos com a base 8. Ou seja, quando a soma de uma coluna 
+  ultrapassa 7, precisamos "transportar" o valor excedente para a próxima posição à esquerda.
+  
+   Imagine que você está empacotando itens em caixas numeradas de 0 a 7. Quando uma caixa está cheia, você pega o 
+  excesso e coloca na próxima caixa à esquerda. Esse "transporte" é a chave para que a soma seja feita   
+  corretamente.
+
+
+   Exemplo de Adição Octal:  56₈ (equivalente á 46 em decimal)
+                           + 32₈ (equivalente á 26 em decimal)
+                           -----
+
+                            Primeiro Passo: Começamos somando os dois números da direita para a esquerda, ou seja, 
+                                           começamos pela "primeira coluna"(8⁰).
+
+                                            No número 56 em octal, temos o 6 na primeira coluna, e no número 32 em 
+                                           octal, temos o 2.
+
+                                            Somamos esses dois valores: 6 + 2 = 8.
+
+                                            Como 8 é maior que 7, precisamos "transportar" 1 para a próxima coluna  
+                                           à esquerda. 
+
+                                            Colocamos 0 na "primeira coluna" e levamos 1 para a próxima posição.
+
+
+                            Segundo Passo: Agora somamos os valores da segunda coluna(8¹), à esquerda do que 
+                                          somamos anteriormente.
+
+                                           No número 56, temos 5 na segunda coluna e no número 32, temos 3. Não se 
+                                          esqueça do 1 que "transportamos" da primeira coluna.
+
+                                           Somamos: 5 + 3 + 1 = 9.
+
+                                           Como 9 é maior que 7, precisamos fazer outro "transporte", levando 1                  
+                                          para a próxima posição, e colocando 1 na segunda coluna.
+
+
+                            Terceiro Passo: Como nos dois números não à valores na terceira coluna(8²) da direita 
+                                           para a esquerda:
+
+                                            Não se esqueça do 1 que "transportamos" da primeira coluna:
+
+                                            Então somamos: 0 + 0 + 1 = 1
+
+                                            Como o 1 não é maior que a base , só o colocamos no resultado da 
+                                           terceira coluna.
+
+                            Resultado Final: Assim, somando todas as colunas, obtemos:  
+                                                            56₈ (equivalente á 46 em decimal)
+                                                          + 32₈ (equivalente á 26 em decimal)
+                                                          -----
+                                                           110₈ (equivalente á 72 em decimal) 
+
+                           Portanto, a soma de 56 e 32  resulta em 110 no sistema octal. Em decimal, isso seria 
+                          igual a 72.
+
+   Esse processo de adição no sistema octal é bastante simples e segue a mesma lógica da adição em outros sistemas 
+  numéricos. O importante é sempre lembrar que, quando o valor somado ultrapassa 7, fazemos o "transporte" para 
+  garantir que o resultado esteja correto na base 8. Com essa compreensão, podemos lidar com operações em octal de 
+  maneira fácil e intuitiva.
 
 
 
