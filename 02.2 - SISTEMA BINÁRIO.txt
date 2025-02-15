@@ -489,24 +489,55 @@ manipulam e processam informações, permitindo-nos explorar o mundo digital de 
 
 
 
-                                        "Aplicações do Sistema Binário"
+                                      "Aplicações do Sistema Binário"
 
-Como já entendemos, o sistema binário é a base de toda a computação moderna e está presente em praticamente todas as tecnologias digitais que usamos no dia a dia. Ele utiliza apenas dois dígitos, 0 e 1, para representar informações e realizar cálculos, o que o torna perfeito para sistemas eletrônicos e dispositivos digitais. Embora não seja tão intuitivo para nós quanto o sistema decimal, o binário é extremamente eficiente para máquinas, permitindo a operação de computadores, smartphones e até sistemas inteligentes.
+ Como já entendemos, o sistema binário é a base de toda a computação moderna e está presente em praticamente todas 
+as tecnologias digitais que usamos no dia a dia. Ele utiliza apenas dois dígitos, 0 e 1, para representar 
+informações e realizar cálculos, o que o torna perfeito para sistemas eletrônicos e dispositivos digitais. Embora 
+não seja tão intuitivo para nós quanto o sistema decimal, o binário é extremamente eficiente para máquinas, 
+permitindo a operação de computadores, smartphones e até sistemas inteligentes.
 
-Agora, vamos explorar algumas das principais aplicações do sistema binário e entender por que ele é tão essencial para a tecnologia atual:
+ Agora, vamos explorar algumas das principais aplicações do sistema binário e entender por que ele é tão essencial 
+para a tecnologia atual:
 
-Fundamento da Computação: Os computadores funcionam através de circuitos eletrônicos que reconhecem apenas dois estados: ligado e desligado. O sistema binário se encaixa perfeitamente nesse modelo, pois os números 0 e 1 podem representar esses dois estados de forma clara e precisa. Cada operação que realizamos em um computador (desde abrir um aplicativo até assistir a um vídeo) depende de milhões de cálculos binários sendo processados rapidamente.
+ * Fundamento da Computação: Os computadores funcionam através de circuitos eletrônicos que reconhecem apenas dois 
+                            estados: ligado e desligado. O sistema binário se encaixa perfeitamente nesse modelo, 
+                            pois os números 0 e 1 podem representar esses dois estados de forma clara e precisa. 
+                            Cada operação que realizamos em um computador (desde abrir um aplicativo até assistir a 
+                            um vídeo) depende de milhões de cálculos binários sendo processados rapidamente.
 
-Armazenamento e Processamento de Dados: Tudo o que armazenamos em dispositivos digitais, como textos, imagens, músicas e vídeos, é codificado em binário. Cada caractere de um texto, por exemplo, tem uma representação binária específica dentro do computador. Arquivos de áudio e vídeo também são convertidos para binário para serem lidos e reproduzidos corretamente pelos dispositivos. Sem essa conversão, a tecnologia moderna simplesmente não existiria.
+ * Armazenamento e Processamento de Dados: Tudo o que armazenamos em dispositivos digitais, como textos, imagens, 
+                                          músicas e vídeos, é codificado em binário. Cada caractere de um texto, 
+                                          por exemplo, tem uma representação binária específica dentro do 
+                                          computador. Arquivos de áudio e vídeo também são convertidos para binário 
+                                          para serem lidos e reproduzidos corretamente pelos dispositivos. Sem essa 
+                                          conversão, a tecnologia moderna simplesmente não existiria.
 
-Comunicação Digital: A internet e as redes de telecomunicação dependem do sistema binário para transmitir dados. Sempre que enviamos uma mensagem ou fazemos uma ligação, as informações são convertidas em sequências de 0s e 1s para serem transmitidas por cabos, ondas de rádio ou fibras ópticas. É graças ao sistema binário que conseguimos acessar informações de qualquer parte do mundo em questão de segundos.
+ * Comunicação Digital: A internet e as redes de telecomunicação dependem do sistema binário para transmitir dados. 
+                       Sempre que enviamos uma mensagem ou fazemos uma ligação, as informações são convertidas em 
+                       sequências de 0s e 1s para serem transmitidas por cabos, ondas de rádio ou fibras ópticas. É 
+                       graças ao sistema binário que conseguimos acessar informações de qualquer parte do mundo em 
+                       questão de segundos.
 
-Segurança e Criptografia: O sistema binário também é fundamental para proteger informações. A criptografia, usada em transações bancárias, senhas e segurança digital, se baseia em operações binárias complexas para codificar dados e evitar que sejam acessados por pessoas não autorizadas. Dessa forma, mesmo que um hacker tente interceptar uma mensagem, ele não conseguirá entender seu conteúdo sem a chave correta para decodificá-la.
+ * Segurança e Criptografia: O sistema binário também é fundamental para proteger informações. A criptografia, 
+                            usada em transações bancárias, senhas e segurança digital, se baseia em operações 
+                            binárias complexas para codificar dados e evitar que sejam acessados por pessoas não 
+                            autorizadas. Dessa forma, mesmo que um hacker tente interceptar uma mensagem, ele não 
+                            conseguirá entender seu conteúdo sem a chave correta para decodificá-la.
 
-Inteligência Artificial e Processamento de Sinais: Sistemas de inteligência artificial, aprendizado de máquina e reconhecimento de padrões utilizam operações binárias para analisar grandes quantidades de dados e tomar decisões. Desde assistentes virtuais até diagnósticos médicos baseados em IA, todos esses avanços tecnológicos são possíveis porque os computadores conseguem processar informações binárias com extrema rapidez e precisão.
+ * Inteligência Artificial e Processamento de Sinais: Sistemas de inteligência artificial, aprendizado de máquina e 
+                                         reconhecimento de padrões utilizam operações binárias para analisar 
+                                         grandes quantidades de dados e tomar decisões. Desde assistentes virtuais 
+                                         até diagnósticos médicos baseados em IA, todos esses avanços tecnológicos 
+                                         são possíveis porque os computadores conseguem processar informações 
+                                         binárias com extrema rapidez e precisão.
 
-
-Em resumo, o sistema binário é muito mais do que apenas um conceito matemático, ele é a base sobre a qual a tecnologia moderna foi construída. Sua simplicidade permite que computadores e dispositivos eletrônicos operem de maneira eficiente, garantindo o armazenamento, a transmissão e o processamento de informações de forma rápida e confiável. Mesmo sem percebermos, interagimos com o sistema binário o tempo todo, seja ao enviar uma mensagem, assistir a um vídeo ou até mesmo ao utilizar inteligência artificial. Ele é a linguagem invisível que sustenta o mundo digital em que vivemos.
+ Em resumo, o sistema binário é muito mais do que apenas um conceito matemático, ele é a base sobre a qual a 
+tecnologia moderna foi construída. Sua simplicidade permite que computadores e dispositivos eletrônicos operem de 
+maneira eficiente, garantindo o armazenamento, a transmissão e o processamento de informações de forma rápida e 
+confiável. Mesmo sem percebermos, interagimos com o sistema binário o tempo todo, seja ao enviar uma mensagem, 
+assistir a um vídeo ou até mesmo ao utilizar inteligência artificial. Ele é a linguagem invisível que sustenta o 
+mundo digital em que vivemos.
 
 
 
