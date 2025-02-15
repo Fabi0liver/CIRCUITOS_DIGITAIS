@@ -134,3 +134,29 @@ melhor seu funcionamento, vamos explorar sua estrutura e como os números são r
   sua base é uma potência de 2 (8 = 2³), o que facilita a conversão entre octal e binário. Dessa forma, compreender 
   as potências do sistema octal é essencial para entender como ele é estruturado e sua aplicação prática, tanto na 
   matemática quanto na computação.
+
+
+ * Representação Positiva e Negativa no Sistema Octal: Assim como em outros sistemas numéricos, os números podem 
+  ser classificados como positivos ou negativos. Essa distinção é essencial para representar diferentes quantidades 
+  em relação a um ponto de referência, que normalmente é o zero. A ideia por trás dos números negativos e positivos  
+  no sistema octal segue o mesmo princípio do sistema decimal, mas a forma de representação pode variar dependendo 
+  do contexto e do sistema computacional.
+
+   Para indicar um número negativo no sistema octal, utilizamos o símbolo "-" antes do número, assim como fazemos 
+  no sistema decimal. Por exemplo, -7₈ ou -123₈ indicam que esses valores estão abaixo de zero. Podemos imaginar 
+  isso como uma escada onde cada número negativo representa um degrau descendo, enquanto os positivos representam 
+  degraus subindo.
+
+   Os números positivos, por outro lado, não precisam de nenhum símbolo adicional. Apenas o próprio número já 
+  indica que ele está acima de zero. Por exemplo, 7₈ ou 123₈ são números positivos, indicando quantidades 
+  crescentes.
+
+   Nos computadores, a representação de números negativos em octal geralmente segue padrões específicos, como o uso 
+  de Complemento de Dois, que é um método comum para armazenar números negativos de forma eficiente. Esse método 
+  permite que a subtração e outras operações matemáticas sejam feitas diretamente sem a necessidade de regras 
+  adicionais.
+
+   Assim, entender a representação de números positivos e negativos no sistema octal é fundamental, especialmente 
+  na computação e em cálculos matemáticos. Isso permite trabalhar com valores que representam ganhos e perdas, 
+  deslocamentos para frente e para trás ou variações acima e abaixo de um ponto de referência, como ocorre em 
+  diversas aplicações do mundo real.
