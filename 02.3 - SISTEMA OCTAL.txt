@@ -412,8 +412,49 @@ operações de forma detalhada, com analogias e exemplos para facilitar o entend
   compreensão, podemos lidar com multiplicações em octal de maneira fácil e intuitiva.
 
 
+ * Divisão no Sistema Octal: A divisão no sistema octal segue o mesmo princípio da divisão no sistema decimal, mas 
+  operando com a base 8. Isso significa que, ao dividir, devemos garantir que os quocientes e restos estejam sempre 
+  dentro do intervalo de 0 a 7.
 
-​
+   Imagine que você está distribuindo itens em grupos, onde cada grupo pode conter no máximo 7 itens antes de 
+  precisar "transportar" o restante para a próxima etapa. Essa lógica nos ajuda a entender como a divisão octal 
+  funciona.
+
+   Exemplo de Divisão Octal: 144₈ (equivalente a 100 decimal)
+                             ÷ 3₈ (equivalente a 3 decimal)
+                            ------ 
+
+
+​                            Passo 1: Consideramos o Primeiro Dígito
+
+                                     Começamos pegando o primeiro dígito do dividendo 144₈, que é 1. Como 1 é menor 
+                                    que 3, precisamos pegar o próximo dígito, formando 14₈.
+
+                                     Agora dividimos: 14₈ ÷ 3₈, que dá 4₈ exato (sem resto).
+
+
+                             Passo 2: Baixamos o Próximo Dígito
+
+                                     Agora baixamos o próximo dígito do dividendo, que é 4₈, formando 4₈.
+
+                                     Agora dividimos 4₈ ÷ 3₈, que dá 1₈, com resto 1₈.
+
+
+                             Resultado Final: Agora organizamos os valores obtidos: 
+                                                       144₈ (equivalente a 100 decimal)
+                                                       ÷ 3₈ (equivalente a 3 decimal)
+                                                      ------ 
+                                                        41₈ (equivalente a 33 decimal)
+                                               com resto 1₈ (equivalente a 1 decimal)  
+
+                             Portanto, a divisão de 144₈ por 3₈ resulta em 41₈, com um resto de 1₈. Em decimal, 
+                            isso equivale a 33 com resto 1.
+
+   Esse processo de divisão no sistema octal segue a mesma lógica da divisão em outros sistemas numéricos, com a 
+  diferença de que devemos sempre manter os resultados intermediários dentro da base 8. O importante é lembrar que, 
+  ao dividir, cada etapa deve respeitar os valores da base, garantindo que o quociente e o resto estejam 
+  corretamente representados. Com essa compreensão, podemos lidar com divisões em octal de maneira fácil e 
+  intuitiva.
 
 
 ​
