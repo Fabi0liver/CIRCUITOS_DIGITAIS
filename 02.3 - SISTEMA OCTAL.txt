@@ -517,6 +517,36 @@ moderna, especialmente em sistemas operacionais e configurações de permissões
 ainda é valorizada.
 
 
+
+                                 "Conclusão sobre o Sistema Octal"
+
+ O sistema octal, apesar de não ser tão utilizado quanto o binário ou o decimal, teve um papel fundamental na 
+história da computação. Ele surgiu como uma forma mais compacta e eficiente de representar números binários, 
+reduzindo a complexidade das operações para programadores e engenheiros da época. Como cada dígito octal representa 
+exatamente três bits binários, ele facilitou a leitura e a manipulação de dados em sistemas computacionais antigos, 
+tornando-se uma ferramenta essencial em diversas aplicações.
+
+ Além de sua importância histórica, o sistema octal ainda possui usos práticos hoje em dia. Um exemplo claro está 
+nas permissões de arquivos em sistemas Unix e Linux, onde ele simplifica a forma como os usuários e administradores 
+definem quem pode ler, escrever ou executar um arquivo. Essa aplicação moderna mostra como o octal continua 
+relevante, mesmo em um mundo onde o hexadecimal assumiu a maior parte das representações numéricas. Assim, ele se 
+mantém como um conhecimento valioso, especialmente para aqueles que trabalham diretamente com sistemas 
+computacionais.
+
+ Se compararmos os sistemas numéricos a diferentes formas de medir distâncias, podemos pensar no binário como medir 
+em milímetros (muito detalhado e extenso), no octal como centímetros (mais resumido, mas ainda preciso) e no 
+hexadecimal como metros (ainda mais compacto e prático). Durante um período, o octal foi a melhor opção para 
+representar grandes números binários sem perder precisão. Seu papel na evolução da computação foi crucial, ajudando 
+a tornar a programação e o desenvolvimento de hardware mais acessíveis e eficientes.
+
+ Em resumo, o sistema octal pode não ser tão popular atualmente, mas sua contribuição para a computação foi 
+significativa. Ele serviu como uma ponte entre a complexidade do binário e a praticidade de sistemas numéricos mais 
+compactos, como o hexadecimal. Ainda hoje, seu uso em algumas aplicações demonstra que ele não foi esquecido, sendo 
+uma ferramenta útil para quem deseja entender melhor a organização de dados nos computadores. Assim, conhecer o 
+sistema octal não é apenas aprender sobre um formato numérico, mas compreender um pedaço importante da história da 
+computação.
+
+
 ​
 
 
