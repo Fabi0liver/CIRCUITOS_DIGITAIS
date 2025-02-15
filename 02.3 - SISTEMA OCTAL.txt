@@ -227,6 +227,14 @@ melhor seu funcionamento, vamos explorar sua estrutura e como os números são r
   representação de números fracionados amplia sua aplicabilidade e mostra como diferentes bases numéricas podem ser 
   utilizadas para expressar valores com precisão.
 
+ Em suma, o sistema octal é uma base numérica estruturada pela notação posicional e pelas potências de 8. Ele nos 
+permite representar números inteiros e fracionados de maneira eficiente, especialmente em contextos relacionados à 
+computação e sistemas digitais. A utilização das potências de 8 torna esse sistema mais compacto e facilita a 
+conversão com o sistema binário, o que é fundamental para a arquitetura dos computadores. Compreender a estrutura 
+octal e como ela funciona, tanto para números inteiros quanto fracionados, é essencial para quem deseja explorar o 
+funcionamento dos sistemas computacionais e a manipulação de dados em níveis mais baixos. Essa base é uma 
+ferramenta importante para áreas como programação, design de sistemas e otimização de processos digitais.
+
 
 
 
