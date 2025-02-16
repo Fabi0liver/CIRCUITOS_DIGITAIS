@@ -234,7 +234,14 @@ utilizado e sua relação com o sistema binário.
   facilita a conversão entre binário e outras bases, oferecendo uma forma compacta e organizada de representar 
   informações numéricas.
 
-Em suma, o sistema hexadecimal é um sistema numérico baseado na notação posicional e nas potências de 16. Ele permite representar números inteiros e fracionados de forma eficiente, tornando-se uma ferramenta poderosa, especialmente na computação e sistemas digitais. Por ser uma base numérica mais compacta do que o sistema binário, o hexadecimal facilita a leitura e a manipulação de números em computadores, tornando-o ideal para representar valores binários de maneira mais legível.
+ Em suma, o sistema hexadecimal é um sistema numérico baseado na notação posicional e nas potências de 16. Ele 
+permite representar números inteiros e fracionados de forma eficiente, tornando-se uma ferramenta poderosa, 
+especialmente na computação e sistemas digitais. Por ser uma base numérica mais compacta do que o sistema binário, 
+o hexadecimal facilita a leitura e a manipulação de números em computadores, tornando-o ideal para representar 
+valores binários de maneira mais legível.
 
-Assim, entender como o sistema hexadecimal funciona, tanto para números inteiros quanto fracionados, é essencial para quem deseja trabalhar com programação, arquitetura de computadores e análise de sistemas digitais. Sua estrutura baseada em potências de 16 facilita conversões com o binário, proporcionando uma forma eficaz de lidar com dados de forma mais concisa e legível.
+ Assim, entender como o sistema hexadecimal funciona, tanto para números inteiros quanto fracionados, é essencial 
+para quem deseja trabalhar com programação, arquitetura de computadores e análise de sistemas digitais. Sua 
+estrutura baseada em potências de 16 facilita conversões com o binário, proporcionando uma forma eficaz de lidar 
+com dados de forma mais concisa e legível.
 
