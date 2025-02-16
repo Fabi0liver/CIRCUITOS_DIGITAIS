@@ -59,25 +59,41 @@ estrutura binária que os computadores utilizam.
 
                                 "Estrutura do Sistema Hexadecimal"
 
-Como já vimos, o sistema hexadecimal é um método de representação numérica que utiliza uma base 16, composta pelos dígitos de 0 a 9 e pelas letras de A a F, onde cada símbolo representa um valor específico (A = 10, B = 11, ..., F = 15). Ele é estruturado de forma posicional, onde cada dígito ocupa uma posição que corresponde a uma potência de 16, semelhante ao sistema decimal, mas permitindo representar valores maiores com menos caracteres. Essa estrutura torna o hexadecimal extremamente útil na computação, especialmente na representação de endereços de memória, códigos de cores e instruções de baixo nível, pois permite uma conversão direta e simplificada com o sistema binário, agrupando quatro bits em um único dígito hexadecimal. Além disso, sua utilização facilita a leitura e manipulação de grandes volumes de dados, reduzindo a complexidade na interpretação de valores binários extensos.
+ Como já vimos, o sistema hexadecimal é um método de representação numérica que utiliza uma base 16, composta pelos 
+dígitos de 0 a 9 e pelas letras de A a F, onde cada símbolo representa um valor específico (A = 10, B = 11, ..., F 
+= 15). Ele é estruturado de forma posicional, onde cada dígito ocupa uma posição que corresponde a uma potência de 
+16, semelhante ao sistema decimal, mas permitindo representar valores maiores com menos caracteres. Essa estrutura 
+torna o hexadecimal extremamente útil na computação, especialmente na representação de endereços de memória, 
+códigos de cores e instruções de baixo nível, pois permite uma conversão direta e simplificada com o sistema 
+binário, agrupando quatro bits em um único dígito hexadecimal. Além disso, sua utilização facilita a leitura e 
+manipulação de grandes volumes de dados, reduzindo a complexidade na interpretação de valores binários extensos.
 
-Para entender melhor como o sistema hexadecimal funciona, vamos explorar a estrutura desse sistema, como ele é utilizado e sua relação com o sistema binário.
+ Para entender melhor como o sistema hexadecimal funciona, vamos explorar a estrutura desse sistema, como ele é 
+utilizado e sua relação com o sistema binário.
 
-Notação Posicional no Sistema Hexadecimal: Assim como no sistema decimal, que é baseado em potências de 10, o sistema hexadecimal segue a mesma lógica, mas com base 16. Ou seja, cada posição dentro de um número hexadecimal é multiplicada por uma potência de 16. Isso significa que a posição de cada dígito no número define seu valor, mas, em vez de multiplicar por potências de 10 ou 2, como estamos acostumados no sistema decimal ou binário, no hexadecimal, multiplicamos por potências de 16.
+ * Notação Posicional no Sistema Hexadecimal: Assim como no sistema decimal, que é baseado em potências de 10, o 
+  sistema hexadecimal segue a mesma lógica, mas com base 16. Ou seja, cada posição dentro de um número hexadecimal 
+  é multiplicada por uma potência de 16. Isso significa que a posição de cada dígito no número define seu valor, 
+  mas, em vez de multiplicar por potências de 10 ou 2, como estamos acostumados no sistema decimal ou binário, no 
+  hexadecimal, multiplicamos por potências de 16.
 
-Por exemplo, vamos analisar o número hexadecimal 2F3₁₆ para entender melhor sua estrutura:
+   Por exemplo, vamos analisar o número hexadecimal 2F3₁₆ para entender melhor sua estrutura:
 
-O 3 está na unidade (primeira posição à direita), o que significa que ele representa 3 × 16⁰ = 3.
+    - O 3 está na unidade (primeira posição à direita), o que significa que ele representa 3 × 16⁰ = 3.
 
-O F está na posição seguinte, que corresponde a 16¹. O F no sistema hexadecimal é equivalente a 15 no sistema decimal, então ele representa 15 × 16¹ = 240.
+    - O F está na posição seguinte, que corresponde a 16¹. O F no sistema hexadecimal é equivalente a 15 no sistema        
+     decimal, então ele representa 15 × 16¹ = 240.
 
-O 2 está na terceira posição, que equivale a 16², o que significa que ele representa 2 × 16² = 512.
+    - O 2 está na terceira posição, que equivale a 16², o que significa que ele representa 2 × 16² = 512.
 
-Agora, somando tudo, temos:
+    - Agora, somando tudo, temos:
 
-2F3₁₆ = (2 × 16²) + (15 × 16¹) + (3 × 16⁰) = 512 + 240 + 3 = 755₁₀
+         2F3₁₆ = (2 × 16²) + (15 × 16¹) + (3 × 16⁰) = 512 + 240 + 3 = 755₁₀
 
-Essa lógica de multiplicar cada dígito por potências de 16 continua se expandindo conforme adicionamos mais dígitos à esquerda. A cada nova posição, o valor do número cresce por um fator de 16. É como se fosse uma escada onde cada degrau representa uma multiplicação por 16, ajudando a representar valores grandes de maneira mais compacta.
+   Essa lógica de multiplicar cada dígito por potências de 16 continua se expandindo conforme adicionamos mais 
+  dígitos à esquerda. A cada nova posição, o valor do número cresce por um fator de 16. É como se fosse uma escada 
+  onde cada degrau representa uma multiplicação por 16, ajudando a representar valores grandes de maneira mais 
+  compacta.
 
 
 Potência no Sistema Hexadecimal: No sistema hexadecimal, cada dígito de um número está relacionado a uma potência de 16. Essa estrutura é essencial para entender como os números são organizados e como seus valores aumentam ou diminuem à medida que os dígitos se movem para a esquerda ou para a direita dentro de um número.
@@ -105,6 +121,15 @@ Por exemplo:
 Aqui, cada casa decimal é uma fração do valor da casa anterior. Assim, 0,0625 é 16 vezes menor que 1, e 0,0039 é 16 vezes menor que 0,0625. Para entender isso melhor, imagine que você está diluindo uma tinta: a cada nova posição decimal, você mistura o líquido com 16 vezes mais água, tornando a cor cada vez mais fraca.
 
 Dessa forma, a estrutura do sistema hexadecimal se baseia em potências de 16, criando uma escala numérica que permite representar números de maneira eficiente, seja em grandes quantidades ou em pequenas frações. Quanto mais à esquerda um dígito estiver, maior será sua contribuição para o valor do número; quanto mais à direita, menor será sua influência. Essa organização é essencial para o funcionamento da computação, pois permite que números binários extensos sejam representados de forma mais compacta e legível.
+
+
+Representação Positiva e Negativa no Sistema Hexadecimal: Assim como em outros sistemas numéricos, os números no sistema hexadecimal podem ser classificados como positivos ou negativos. Essa distinção é essencial para representar diferentes quantidades em relação a um ponto de referência, que normalmente é o zero. A ideia por trás dos números negativos e positivos no sistema hexadecimal segue o mesmo princípio do sistema decimal, mas a forma de representação pode variar dependendo do contexto e do sistema computacional.
+
+Para indicar um número negativo no sistema hexadecimal, utilizamos o símbolo "-" antes do número, assim como fazemos no sistema decimal. Por exemplo, -A3₁₆ ou -2F₁₆ indicam valores abaixo de zero. Podemos imaginar isso como uma conta bancária: números positivos representam dinheiro disponível, enquanto números negativos indicam dívida. Se sua conta está com A3₁₆ (163 em decimal), significa que há saldo positivo. Mas se for -A3₁₆, você está devendo esse valor. Os números positivos, por outro lado, não precisam de nenhum símbolo adicional. Apenas o próprio número já indica que ele está acima de zero. Por exemplo, A3₁₆ ou 2F₁₆ são números positivos, indicando quantidades crescentes.
+
+Nos computadores, a representação de números negativos em hexadecimal geralmente segue padrões específicos, como o uso do Complemento de Dois, um método comum para armazenar números negativos de forma eficiente. Esse método permite que a subtração e outras operações matemáticas sejam feitas diretamente, sem necessidade de regras adicionais complicadas. Podemos pensar nisso como um velocímetro de carro: quando o ponteiro aponta para frente, temos velocidades positivas. Se o velocímetro pudesse girar para trás, indicaríamos velocidades negativas da mesma forma, mas usando uma escala diferente internamente.
+
+Assim, entender a representação de números positivos e negativos no sistema hexadecimal é fundamental, especialmente na computação e em cálculos matemáticos. Esse conhecimento permite trabalhar com valores que representam ganhos e perdas, deslocamentos para frente e para trás, ou variações acima e abaixo de um ponto de referência, sendo aplicado em diversas áreas como gráficos de computadores, endereçamento de memória e programação de sistemas.
 
 
 
