@@ -415,3 +415,93 @@ tudo mais simples de entender.
   na base 16. Com essa compreensão, podemos lidar com multiplicações em hexadecimal de maneira fácil e intuitiva.
 
 
+ * Divisão no Sistema Hexadecimal: A divisão no sistema hexadecimal segue o mesmo princípio da divisão no sistema 
+  decimal, mas agora operamos com a base 16. Isso significa que, ao dividir, precisamos garantir que os quocientes 
+  e restos estejam sempre dentro do intervalo de 0 a 15. No caso do sistema hexadecimal, os números de 10 a 15 são 
+  representados pelas letras A, B, C, D, E e F.
+
+   Imagine que você está distribuindo itens em grupos, onde cada grupo pode conter no máximo 15 itens antes de 
+  precisar "transportar" o restante para a próxima etapa. Essa lógica ajuda a entender como a divisão hexadecimal 
+  funciona, assim como nos outros sistemas numéricos.
+
+   Exemplo de Divisão Hexadecimal: 1A8₁₆ (equivalente a 424 decimal) 
+                                  ÷  7₁₆ (equivalente a 7 decimal)
+                                  -----
+
+                                   Passo 1: Começamos pegando o primeiro dígito do dividendo 1A8₁₆, que é 1. Como           
+                                           1₁₆ é menor que 7₁₆, precisamos pegar o próximo dígito, formando 1A₁₆.
+
+                                            Agora dividimos: 1A₁₆ ÷ 7₁₆ = 3₁₆
+ 
+                                            Para isso, sabemos que 1A₁₆ = 26₁₀ e 7₁₆ = 7₁₀. Então, é  equivalente a 
+                                           26 dividido por 7, que o resultado é 3₁₀, que é 3₁₆.
+
+
+                                   Passo 2: Multiplicamos o quociente pelo divisor: 
+
+                                             3₁₆ x 7₁₆ = 15₁₆ (Que é equivalente a 3 x 7 = 21 na base 10)
+
+                                            E subtraímos o resultado dessa multiplicação do dividendo para saber o 
+                                           resto: 
+    
+                                             1A₁₆ - 15₁₆ = 5₁₆ (Que é equivalente a 26 - 21 = 5 na base 10)
+
+                                            Para isso, sabemos que 1A8₁₆ ÷ 7₁₆ e igual a 3₁₆, com resto 5₁₆
+
+
+                                   Passo 3: Agora baixamos o próximo dígito do dividendo, que é 8₁₆ e juntamos com 
+                                           o resto 5₁₆. que fica 58₁₆
+
+                                            Dividimos 58₁₆ ÷ 7₁₆ = C₁₆ 
+
+                                            Sabemos que 58₁₆ = 88₁₀ e 7₁₆ = 7₁₀. Então, é  equivalente a 88 
+                                           dividido por 7, que o resultado é 12₁₀.
+
+
+                                   Passo 4: Multiplicamos o quociente pelo divisor novamente: 
+
+                                             C₁₆ x 7₁₆ = 54₁₆ (Que é equivalente a 12 x 7 = 84 na base 10)
+
+                                            E subtraímos o resultado dessa multiplicação do dividendo para saber o 
+                                           resto:
+
+                                             58₁₆ - 54₁₆ = 5₁₆ (Que é equivalente a 88 - 84 = 4 na base 10)
+
+                                            Para isso, sabemos que 58₁₆ ÷ 7₁₆ e igual a C₁₆, com resto 4₁₆
+
+
+                                   Resultado Final: Agora organizamos os valores obtidos: 
+                                                       1A8₁₆ (equivalente a 424 decimal) 
+                                                      ÷  7₁₆ (equivalente a 7 decimal)
+                                                      ------
+                                                        3C₁₆ (equivalente a 60 decimal)
+                                               com resto 4₁₆ (equivalente a 4 decimal)
+
+
+                                   Ou seja, a divisão de 1A8₁₆ por 7₁₆ resulta em 3C₁₆, com um resto de 4₁₆. Em 
+                                  decimal, isso equivale a 424 dividido por 7, que dá 60, com resto 4.
+
+   Esse processo de divisão no sistema hexadecimal segue a mesma lógica da divisão em outros sistemas numéricos, 
+  com a diferença de que devemos sempre manter os resultados intermediários dentro da base 16. Ou seja, a cada 
+  passo, devemos garantir que o quociente e o resto sejam representados corretamente dentro do intervalo de 0 a F. 
+  A chave para entender a divisão hexadecimal é manter esse foco na base 16, garantindo que todos os valores sejam 
+  manipulados de forma ordenada e correta. Com essa compreensão, podemos fazer divisões em hexadecimal de maneira 
+  tranquila e eficiente.
+
+ Em suma, as operações matemáticas no sistema hexadecimal são essenciais para diversas áreas da computação e 
+aplicações digitais. A adição, subtração, multiplicação e divisão no hexadecimal seguem os mesmos princípios das 
+operações no sistema decimal, mas adaptadas para a base 16. Como os valores vão de 0 a F (onde A vale 10, B vale 11 
+e assim por diante até F = 15), é importante ter atenção especial ao "transporte" e à conversão ao lidar com 
+números que ultrapassam F.
+
+ Embora possa parecer um pouco diferente no início, a lógica fundamental das operações permanece a mesma: somamos, 
+subtraímos, multiplicamos e dividimos como no decimal, apenas considerando que cada "casa" representa uma potência 
+de 16. Com esse entendimento, conseguimos enxergar como diferentes bases numéricas são aplicadas na computação, 
+facilitando desde a representação de cores em gráficos digitais até o armazenamento e processamento eficiente de 
+dados. Dominar as operações no sistema hexadecimal é como aprender uma nova linguagem numérica, permitindo explorar 
+melhor o universo da computação de forma mais estruturada e intuitiva.
+
+
+
+
+
