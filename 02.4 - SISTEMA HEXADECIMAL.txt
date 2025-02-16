@@ -1,13 +1,26 @@
                                        SISTEMA HEXADECIMAL
 
 
-O sistema de numeração hexadecimal é uma das maneiras pelas quais representamos números em nosso cotidiano, mas com um foco mais específico no mundo da computação. Em vez de utilizar apenas os dez dígitos de 0 a 9, como no sistema decimal (que usamos normalmente), o sistema hexadecimal utiliza 16 símbolos diferentes. Esses símbolos são os números de 0 a 9 e as letras A, B, C, D, E e F, onde as letras representam os valores de 10 a 15. É como se fosse uma forma expandida do sistema decimal, mas com "letras" para ajudar a expressar valores maiores.
+ O sistema de numeração hexadecimal é uma das maneiras pelas quais representamos números em nosso cotidiano, mas 
+com um foco mais específico no mundo da computação. Em vez de utilizar apenas os dez dígitos de 0 a 9, como no 
+sistema decimal (que usamos normalmente), o sistema hexadecimal utiliza 16 símbolos diferentes. Esses símbolos são 
+os números de 0 a 9 e as letras A, B, C, D, E e F, onde as letras representam os valores de 10 a 15. É como se 
+fosse uma forma expandida do sistema decimal, mas com "letras" para ajudar a expressar valores maiores.
 
-Por que usar esse sistema? Em computadores, a representação dos números em hexadecimal é mais compacta e fácil de manipular do que a forma binária, que usa apenas 0s e 1s. Enquanto o binário pode ser extremamente longo e difícil de ler para nós, humanos, o hexadecimal torna essa tarefa mais simples, pois condensa informações de forma mais eficiente. Um número binário de 8 bits, por exemplo, pode ser representado por apenas dois dígitos hexadecimais.
+ Por que usar esse sistema? Em computadores, a representação dos números em hexadecimal é mais compacta e fácil de 
+manipular do que a forma binária, que usa apenas 0s e 1s. Enquanto o binário pode ser extremamente longo e difícil 
+de ler para nós, humanos, o hexadecimal torna essa tarefa mais simples, pois condensa informações de forma mais 
+eficiente. Um número binário de 8 bits, por exemplo, pode ser representado por apenas dois dígitos hexadecimais.
 
-Essa "compactação" é uma das razões pelas quais o hexadecimal é amplamente usado em áreas como programação, design de software e até no processamento de imagens e vídeos. Ele serve como uma ponte entre o mundo digital (com seus 0s e 1s) e as formas que conseguimos entender com mais facilidade. Por exemplo, cores em sites e aplicativos muitas vezes são descritas em hexadecimal, como #FF5733, para representar um tom específico de vermelho.
+ Essa "compactação" é uma das razões pelas quais o hexadecimal é amplamente usado em áreas como programação, design 
+de software e até no processamento de imagens e vídeos. Ele serve como uma ponte entre o mundo digital (com seus 0s 
+e 1s) e as formas que conseguimos entender com mais facilidade. Por exemplo, cores em sites e aplicativos muitas 
+vezes são descritas em hexadecimal, como #FF5733, para representar um tom específico de vermelho.
 
-Em resumo, o sistema hexadecimal é um método eficiente e legível para representar números, especialmente no contexto da tecnologia. Ele combina a simplicidade dos números com a capacidade de expressar valores mais complexos de forma compacta e intuitiva. Ao dominar o hexadecimal, você ganha uma ferramenta poderosa para entender como os computadores "pensam" e como os dados são manipulados dentro do mundo digital.
+ Em resumo, o sistema hexadecimal é um método eficiente e legível para representar números, especialmente no 
+contexto da tecnologia. Ele combina a simplicidade dos números com a capacidade de expressar valores mais complexos 
+de forma compacta e intuitiva. Ao dominar o hexadecimal, você ganha uma ferramenta poderosa para entender como os 
+computadores "pensam" e como os dados são manipulados dentro do mundo digital.
 
 
 
