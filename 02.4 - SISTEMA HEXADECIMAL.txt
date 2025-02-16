@@ -96,31 +96,47 @@ utilizado e sua relação com o sistema binário.
   compacta.
 
 
-Potência no Sistema Hexadecimal: No sistema hexadecimal, cada dígito de um número está relacionado a uma potência de 16. Essa estrutura é essencial para entender como os números são organizados e como seus valores aumentam ou diminuem à medida que os dígitos se movem para a esquerda ou para a direita dentro de um número.
+ * Potência no Sistema Hexadecimal: No sistema hexadecimal, cada dígito de um número está relacionado a uma 
+  potência de 16. Essa estrutura é essencial para entender como os números são organizados e como seus valores 
+  aumentam ou diminuem à medida que os dígitos se movem para a esquerda ou para a direita dentro de um número.
 
-Quando avançamos para a esquerda, em direção à parte inteira do número, os valores crescem exponencialmente com as potências positivas de 16. Cada posição à esquerda representa uma multiplicação do número base, 16, por uma potência crescente.
+   Quando avançamos para a esquerda, em direção à parte inteira do número, os valores crescem exponencialmente com 
+  as potências positivas de 16. Cada posição à esquerda representa uma multiplicação do número base, 16, por uma 
+  potência crescente.
 
-Por exemplo:
+   Por exemplo:
 
-256 = 16² (16 elevado à potência de 2),
+   - 256 = 16² (16 elevado à potência de 2),
 
-16 = 16¹ (16 elevado à potência de 1),
+   - 16 = 16¹ (16 elevado à potência de 1),
 
-1 = 16⁰ (16 elevado à potência de 0).
+   - 1 = 16⁰ (16 elevado à potência de 0).
 
-Ou seja, conforme avançamos da direita para a esquerda, cada casa representa 16 vezes o valor da casa anterior. Assim, 256 é 16 vezes maior que 16, e 16 é 16 vezes maior que 1. Se fizermos uma analogia com caixas de armazenamento, cada casa decimal no sistema comum pode guardar até 10 objetos antes de precisar abrir uma nova caixa maior. No sistema hexadecimal, cada caixa pode guardar 16 objetos, tornando-o mais eficiente para armazenar grandes números.
+   Ou seja, conforme avançamos da direita para a esquerda, cada casa representa 16 vezes o valor da casa anterior.  
+  Assim, 256 é 16 vezes maior que 16, e 16 é 16 vezes maior que 1. Se fizermos uma analogia com caixas de 
+  armazenamento, cada casa decimal no sistema comum pode guardar até 10 objetos antes de precisar abrir uma nova 
+  caixa maior. No sistema hexadecimal, cada caixa pode guardar 16 objetos, tornando-o mais eficiente para armazenar 
+  grandes números.
 
-Por outro lado, quando olhamos para a parte fracionária de um número (à direita da vírgula), os valores diminuem, pois estamos lidando com potências negativas de 16. Cada posição à direita representa uma fração do número base, onde a potência negativa indica que estamos dividindo o valor por 16 repetidamente.
+   Por outro lado, quando olhamos para a parte fracionária de um número (à direita da vírgula), os valores  
+  diminuem, pois estamos lidando com potências negativas de 16. Cada posição à direita representa uma fração do 
+  número base, onde a potência negativa indica que estamos dividindo o valor por 16 repetidamente.
 
-Por exemplo:
+   Por exemplo:
 
-0,0625 = 16⁻¹ (16 elevado à potência de -1),
+   - 0,0625 = 16⁻¹ (16 elevado à potência de -1),
 
-0,0039 = 16⁻² (16 elevado à potência de -2).
+   - 0,0039 = 16⁻² (16 elevado à potência de -2).
 
-Aqui, cada casa decimal é uma fração do valor da casa anterior. Assim, 0,0625 é 16 vezes menor que 1, e 0,0039 é 16 vezes menor que 0,0625. Para entender isso melhor, imagine que você está diluindo uma tinta: a cada nova posição decimal, você mistura o líquido com 16 vezes mais água, tornando a cor cada vez mais fraca.
+   Aqui, cada casa decimal é uma fração do valor da casa anterior. Assim, 0,0625 é 16 vezes menor que 1, e 0,0039 é 
+  16 vezes menor que 0,0625. Para entender isso melhor, imagine que você está diluindo uma tinta: a cada nova 
+  posição decimal, você mistura o líquido com 16 vezes mais água, tornando a cor cada vez mais fraca.
 
-Dessa forma, a estrutura do sistema hexadecimal se baseia em potências de 16, criando uma escala numérica que permite representar números de maneira eficiente, seja em grandes quantidades ou em pequenas frações. Quanto mais à esquerda um dígito estiver, maior será sua contribuição para o valor do número; quanto mais à direita, menor será sua influência. Essa organização é essencial para o funcionamento da computação, pois permite que números binários extensos sejam representados de forma mais compacta e legível.
+   Dessa forma, a estrutura do sistema hexadecimal se baseia em potências de 16, criando uma escala numérica que 
+  permite representar números de maneira eficiente, seja em grandes quantidades ou em pequenas frações. Quanto mais 
+  à esquerda um dígito estiver, maior será sua contribuição para o valor do número; quanto mais à direita, menor 
+  será sua influência. Essa organização é essencial para o funcionamento da computação, pois permite que números 
+  binários extensos sejam representados de forma mais compacta e legível.
 
 
 Representação Positiva e Negativa no Sistema Hexadecimal: Assim como em outros sistemas numéricos, os números no sistema hexadecimal podem ser classificados como positivos ou negativos. Essa distinção é essencial para representar diferentes quantidades em relação a um ponto de referência, que normalmente é o zero. A ideia por trás dos números negativos e positivos no sistema hexadecimal segue o mesmo princípio do sistema decimal, mas a forma de representação pode variar dependendo do contexto e do sistema computacional.
@@ -131,6 +147,14 @@ Nos computadores, a representação de números negativos em hexadecimal geralme
 
 Assim, entender a representação de números positivos e negativos no sistema hexadecimal é fundamental, especialmente na computação e em cálculos matemáticos. Esse conhecimento permite trabalhar com valores que representam ganhos e perdas, deslocamentos para frente e para trás, ou variações acima e abaixo de um ponto de referência, sendo aplicado em diversas áreas como gráficos de computadores, endereçamento de memória e programação de sistemas.
 
+
+O Papel do Zero no Sistema Hexadecimal: O zero tem um papel fundamental no sistema hexadecimal, assim como em qualquer outro sistema numérico. Ele atua como um "marcador de lugar", garantindo que os números sejam representados corretamente dentro da estrutura posicional. Sem o zero, diferenciar números como 10₁₆ e 1₁₆, ou 100₁₆ e 10₁₆, seria impossível. Imagine tentar escrever um endereço sem os zeros em lugares importantes—poderia causar confusão, tornando a leitura e os cálculos muito mais complicados.
+
+Além de diferenciar valores, o zero também indica a ausência de uma quantidade em determinada posição. No número 20A₁₆, por exemplo, o zero mostra que não há "dezenas" na contagem hexadecimal. Isso significa que o número representa 2×16² + 0×16¹ + A×16⁰, que equivale a 522₁₀ no sistema decimal. Se o zero fosse omitido, o valor do número mudaria completamente, e sua interpretação ficaria ambígua.
+
+O zero também é essencial para representar frações hexadecimais. Em um número como 0.C₁₆, que equivale a 0,75₁₀, o zero antes da vírgula indica que não há unidades inteiras, apenas uma fração de 1. Sem esse zero, poderia ser difícil entender onde começa a parte fracionária, o que tornaria a leitura e a interpretação do número confusas.
+
+Dessa forma, o zero no sistema hexadecimal desempenha um papel essencial para manter a precisão na escrita dos números, evitando ambiguidades e facilitando cálculos organizados. Ele é uma peça-chave para manter a lógica do sistema posicional, garantindo que números inteiros e fracionários sejam representados de maneira clara e compreensível.
 
 
 
