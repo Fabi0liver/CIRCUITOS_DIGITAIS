@@ -245,3 +245,18 @@ para quem deseja trabalhar com programação, arquitetura de computadores e aná
 estrutura baseada em potências de 16 facilita conversões com o binário, proporcionando uma forma eficaz de lidar 
 com dados de forma mais concisa e legível.
 
+
+
+                           "Operações Matemáticas no Sistema Hexadecimal"
+
+ O sistema hexadecimal, assim como os sistemas decimal e binário, segue a lógica de notação posicional, mas com a 
+base 16, o que influencia diretamente nas operações matemáticas. Embora não seja tão comum no dia a dia quanto o 
+sistema decimal, o hexadecimal é amplamente utilizado em computação, especialmente em programação e processamento 
+de dados, devido à sua capacidade de representar números binários de forma mais compacta e legível. No contexto das 
+operações matemáticas – como adição, subtração, multiplicação e divisão – as regras são semelhantes às que seguimos 
+nos outros sistemas, com a diferença de que agora trabalhamos com a base 16, utilizando os dígitos de 0 a 9 e as 
+letras A a F para representar os valores de 10 a 15. 
+
+ Vamos entender como essas operações funcionam no sistema hexadecimal com exemplos práticos e analogias que tornam 
+tudo mais simples de entender.
+
