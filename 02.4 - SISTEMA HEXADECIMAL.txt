@@ -312,5 +312,52 @@ tudo mais simples de entender.
   maneira fácil e intuitiva.
 
 
+ * Subtração no Sistema Hexadecimal: Segue uma lógica semelhante à subtração no sistema decimal, mas com a 
+  diferença de que trabalhamos com a base 16. Ou seja, quando o valor de uma coluna é menor do que o valor a ser 
+  subtraído, precisamos "emprestar" da próxima posição à esquerda, respeitando a base 16.
+
+   Imagine que você tem uma caixa numerada de 0 a 15 (no sistema hexadecimal, usamos os números 0 a 9 e as letras 
+  A, B, C, D, E, F para representar os valores de 10 a 15). Se uma caixa não tem itens suficientes para retirar, 
+  você precisa pegar emprestado da caixa ao lado. Esse "empréstimo" é fundamental para que a subtração aconteça 
+  corretamente.
+
+   Exemplo de Subtração Hexadecimal:  B4₁₆ (equivalente a 180 em decimal)
+                                    - A2₁₆ (equivalente a 162 em decimal)
+                                    ------
+
+                                     Primeiro Passo: Começamos subtraindo os dois números da direita para a 
+                                                    esquerda, ou seja, começamos pela "primeira coluna" (16⁰).
+
+                                                     No número B4₁₆, temos 4 na primeira coluna, e no número A2₁₆, 
+                                                    temos 2.
+
+                                                     Subtraímos: 4 - 2 = 2.
+
+                                                     Como o resultado é 2, não precisamos fazer nenhum 
+                                                    "empréstimo", e colocamos 2 na "primeira coluna" do resultado.
+
+
+                                     Segundo Passo: Agora, vamos para a segunda coluna (16¹), à esquerda do que 
+                                                   subtraímos anteriormente.
+
+                                                    No número B4₁₆, temos B na segunda coluna, que é igual a 11 em 
+                                                   decimal. E no número A2₁₆, temos A, que é igual a 10 em decimal.
+
+                                                    Subtraímos: 11 - 10 = 1.
+
+
+                                     Resultado Final: Assim, subtraindo as colunas, obtemos:  
+                                                         B4₁₆ (equivalente a 180 em decimal)
+                                                       - A2₁₆ (equivalente a 162 em decimal)
+                                                       ------
+                                                         12₁₆ (equivalente a 18 em decimal)
+
+                                     Portanto, a subtração de B4₁₆ e A2₁₆ no sistema hexadecimal resulta em 12₁₆.             
+                                    Em decimal, isso seria igual a 18.
+
+   Esse processo de subtração no sistema hexadecimal é bastante simples e segue a mesma lógica de subtração dos 
+  outros sistemas numéricos. O mais importante é sempre lembrar que, quando o valor a ser subtraído é maior que o 
+  valor da coluna, fazemos o "empréstimo" para garantir que o resultado esteja correto na base 16. Com essa 
+  compreensão, podemos lidar com subtrações em hexadecimal de forma fácil e intuitiva.
 
 
