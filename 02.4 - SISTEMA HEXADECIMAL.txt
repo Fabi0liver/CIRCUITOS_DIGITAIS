@@ -260,3 +260,57 @@ letras A a F para representar os valores de 10 a 15.
  Vamos entender como essas operações funcionam no sistema hexadecimal com exemplos práticos e analogias que tornam 
 tudo mais simples de entender.
 
+
+ * Adição no Sistema Hexadecimal: Quando somamos números no sistema hexadecimal, o processo é muito semelhante ao 
+  da adição no sistema decimal, mas com a diferença de que trabalhamos com a base 16. Isso significa que, quando a 
+  soma de uma coluna ultrapassa 15, precisamos "transportar" o valor excedente para a próxima posição à esquerda.
+
+   Imagine que você está organizando suas tarefas diárias e, para cada tarefa que você concluir, você coloca uma 
+  marcação em um quadro de 16 espaços. Quando você atinge a 16ª marcação, precisa mover para a próxima linha, 
+  começando de novo. Esse "transporte" é o que garante que a soma seja feita corretamente.
+
+   Exemplo de Adição Hexadecimal:  1A₁₆ (equivalente a 26 em decimal)
+                                 + 2C₁₆ (equivalente a 44 em decimal)
+                                 ------
+
+                                  Primeiro Passo: Começamos somando os dois números da direita para a esquerda, ou 
+                                                 seja, começamos pela "primeira coluna" (16⁰).
+
+                                                  No número 1A em hexadecimal, temos o A (que vale 10) na primeira 
+                                                 coluna, e no número 2C, temos o C (que vale 12).
+
+                                                  Somamos esses dois valores: 10 + 12  = 22.
+
+                                                  Como 22 é maior que 15, precisamos "transportar" 1 para a próxima 
+                                                 coluna à esquerda. Colocamos 6 na "primeira coluna" e levamos 1  
+                                                 para a próxima posição.
+
+
+                                  Segundo Passo: Agora, somamos os valores da segunda coluna (16¹), à esquerda do 
+                                                que somamos anteriormente.
+
+                                                 No número 1A, temos 1 na segunda coluna, e no número 2C, temos 2. 
+                                                Não se esqueça do 1 que "transportamos" da primeira coluna.
+
+                                                  Somamos: 1 + 2 + 1 = 4.
+
+                                                 O 4 é menor que 16, então colocamos 4 na segunda coluna, sem 
+                                                precisar fazer outro "transporte".
+
+
+                                  Resultado Final: Somando todas as colunas, obtemos:  
+                                                     1A₁₆ (equivalente a 26 em decimal)
+                                                   + 2C₁₆ (equivalente a 44 em decimal)
+                                                   ------
+                                                     46₁₆ (equivalente a 70 em decimal)
+
+                                   Portanto, a soma de 1A e 2C resulta em 46₁₆. Em decimal, isso seria igual a 70.
+
+   Esse processo de adição no sistema hexadecimal segue a mesma lógica da adição em outros sistemas numéricos. O 
+  importante é lembrar que, quando o valor somado ultrapassa 15 (a base 16), fazemos o "transporte" para garantir 
+  que o resultado esteja correto na base 16. Com essa compreensão, você pode lidar com operações em hexadecimal de 
+  maneira fácil e intuitiva.
+
+
+
+
