@@ -361,3 +361,57 @@ tudo mais simples de entender.
   compreensão, podemos lidar com subtrações em hexadecimal de forma fácil e intuitiva.
 
 
+ * Multiplicação no Sistema Hexadecimal: Quando realizamos a multiplicação no sistema hexadecimal, seguimos uma 
+  lógica semelhante à do sistema decimal, mas com a base 16. Isso significa que, ao multiplicarmos dois números 
+  hexadecimais, precisamos garantir que os produtos intermediários e o resultado final estejam corretos dentro 
+  dessa base. Caso um produto ultrapasse 15 (o valor máximo que pode ser representado com um único dígito 
+  hexadecimal), precisamos convertê-lo para a base 16, fazendo o "transporte" para a próxima posição.
+
+   Imagine que você está multiplicando grupos de itens organizados em pacotes numerados de 0 a 15. Se um grupo 
+  exceder esse número, você precisa dividir o excesso e movê-lo para a próxima posição à esquerda. Essa conversão é 
+  fundamental para garantir um resultado correto na base 16.
+
+   Exemplo de Multiplicação Hexadecimal: 2A₁₆ (equivalente a 42 em decimal)
+                                        x 3₁₆ (equivalente a 3 em decimal)
+                                        -----
+
+                                         Primeiro Passo: Multiplicamos o dígito da "primeira coluna" (16⁰) de 2A₁₆ 
+                                                        que é o A, pelo número 3₁₆.
+
+                                                         Multiplicando em hexadecimal: A × 3 = 1E₁₆
+
+                                                         Aqui, o "A" no sistema hexadecimal é equivalente a 10 no 
+                                                        sistema decimal. Então, multiplicamos 10 × 3, o que resulta 
+                                                        em 30. Em hexadecimal, 30 é representado por "1E", ou seja, 
+                                                        colocamos "E" na "primeira coluna" e transportamos 1 para a 
+                                                        próxima posição.
+
+                                          Segundo Passo: Agora, multiplicamos o dígito da "segunda coluna" (16¹) de 
+                                                        2A₁₆ que é o 2, pelo número 3₁₆, lembrando de somar o 
+                                                        transporte do passo anterior.
+
+
+                                                         Multiplicando em hexadecimal: 2 × 3 = 6₁₆
+
+                                                         Agora, somamos o transporte de 1 do passo anterior: 
+                                                                         6₁₆ + 1₁₆ = 7₁₆
+
+                                                         Como 7₁₆ não ultrapassa a base, colocamos esse valor 
+                                                        diretamente.
+
+
+                                          Resultado Final: Agora organizamos os valores obtidos:  
+                                                                2A₁₆ (equivalente a 42 em decimal)
+                                                              ×  3₁₆ (equivalente a 3 em decimal)
+                                                              -------
+                                                                7E₁₆ (equivalente a 126 em decimal)
+ 
+                                          Portanto, a multiplicação de 2A por 3 resulta em 7E₁₆. Em decimal, isso 
+                                         equivale a 126.
+
+   Esse processo de multiplicação no sistema hexadecimal segue a mesma lógica da multiplicação em outros sistemas 
+  numéricos, com a diferença de que a base é 16. O importante é lembrar que, quando o produto de uma coluna 
+  ultrapassa 15 (F no sistema hexadecimal), realizamos o "transporte" para garantir que o resultado esteja correto 
+  na base 16. Com essa compreensão, podemos lidar com multiplicações em hexadecimal de maneira fácil e intuitiva.
+
+
