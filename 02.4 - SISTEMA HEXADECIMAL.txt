@@ -139,13 +139,32 @@ utilizado e sua relação com o sistema binário.
   binários extensos sejam representados de forma mais compacta e legível.
 
 
-Representação Positiva e Negativa no Sistema Hexadecimal: Assim como em outros sistemas numéricos, os números no sistema hexadecimal podem ser classificados como positivos ou negativos. Essa distinção é essencial para representar diferentes quantidades em relação a um ponto de referência, que normalmente é o zero. A ideia por trás dos números negativos e positivos no sistema hexadecimal segue o mesmo princípio do sistema decimal, mas a forma de representação pode variar dependendo do contexto e do sistema computacional.
+ * Representação Positiva e Negativa no Sistema Hexadecimal: Assim como em outros sistemas numéricos, os números no 
+  sistema hexadecimal podem ser classificados como positivos ou negativos. Essa distinção é essencial para 
+  representar diferentes quantidades em relação a um ponto de referência, que normalmente é o zero. A ideia por 
+  trás dos números negativos e positivos no sistema hexadecimal segue o mesmo princípio do sistema decimal, mas a 
+  forma de representação pode variar dependendo do contexto e do sistema computacional.
 
-Para indicar um número negativo no sistema hexadecimal, utilizamos o símbolo "-" antes do número, assim como fazemos no sistema decimal. Por exemplo, -A3₁₆ ou -2F₁₆ indicam valores abaixo de zero. Podemos imaginar isso como uma conta bancária: números positivos representam dinheiro disponível, enquanto números negativos indicam dívida. Se sua conta está com A3₁₆ (163 em decimal), significa que há saldo positivo. Mas se for -A3₁₆, você está devendo esse valor. Os números positivos, por outro lado, não precisam de nenhum símbolo adicional. Apenas o próprio número já indica que ele está acima de zero. Por exemplo, A3₁₆ ou 2F₁₆ são números positivos, indicando quantidades crescentes.
+   Para indicar um número negativo no sistema hexadecimal, utilizamos o símbolo "-" antes do número, assim como 
+  fazemos no sistema decimal. Por exemplo, -A3₁₆ ou -2F₁₆ indicam valores abaixo de zero. Podemos imaginar isso 
+  como uma conta bancária: números positivos representam dinheiro disponível, enquanto números negativos indicam 
+  dívida. Se sua conta está com A3₁₆ (163 em decimal), significa que há saldo positivo. Mas se for -A3₁₆, você está 
+  devendo esse valor. Os números positivos, por outro lado, não precisam de nenhum símbolo adicional. Apenas o 
+  próprio número já indica que ele está acima de zero. Por exemplo, A3₁₆ ou 2F₁₆ são números positivos, indicando 
+  quantidades crescentes.
 
-Nos computadores, a representação de números negativos em hexadecimal geralmente segue padrões específicos, como o uso do Complemento de Dois, um método comum para armazenar números negativos de forma eficiente. Esse método permite que a subtração e outras operações matemáticas sejam feitas diretamente, sem necessidade de regras adicionais complicadas. Podemos pensar nisso como um velocímetro de carro: quando o ponteiro aponta para frente, temos velocidades positivas. Se o velocímetro pudesse girar para trás, indicaríamos velocidades negativas da mesma forma, mas usando uma escala diferente internamente.
+   Nos computadores, a representação de números negativos em hexadecimal geralmente segue padrões específicos, como 
+  o uso do Complemento de Dois, um método comum para armazenar números negativos de forma eficiente. Esse método 
+  permite que a subtração e outras operações matemáticas sejam feitas diretamente, sem necessidade de regras 
+  adicionais complicadas. Podemos pensar nisso como um velocímetro de carro: quando o ponteiro aponta para frente, 
+  temos velocidades positivas. Se o velocímetro pudesse girar para trás, indicaríamos velocidades negativas da 
+  mesma forma, mas usando uma escala diferente internamente.
 
-Assim, entender a representação de números positivos e negativos no sistema hexadecimal é fundamental, especialmente na computação e em cálculos matemáticos. Esse conhecimento permite trabalhar com valores que representam ganhos e perdas, deslocamentos para frente e para trás, ou variações acima e abaixo de um ponto de referência, sendo aplicado em diversas áreas como gráficos de computadores, endereçamento de memória e programação de sistemas.
+   Assim, entender a representação de números positivos e negativos no sistema hexadecimal é fundamental, 
+  especialmente na computação e em cálculos matemáticos. Esse conhecimento permite trabalhar com valores que 
+  representam ganhos e perdas, deslocamentos para frente e para trás, ou variações acima e abaixo de um ponto de 
+  referência, sendo aplicado em diversas áreas como gráficos de computadores, endereçamento de memória e 
+  programação de sistemas.
 
 
 O Papel do Zero no Sistema Hexadecimal: O zero tem um papel fundamental no sistema hexadecimal, assim como em qualquer outro sistema numérico. Ele atua como um "marcador de lugar", garantindo que os números sejam representados corretamente dentro da estrutura posicional. Sem o zero, diferenciar números como 10₁₆ e 1₁₆, ou 100₁₆ e 10₁₆, seria impossível. Imagine tentar escrever um endereço sem os zeros em lugares importantes—poderia causar confusão, tornando a leitura e os cálculos muito mais complicados.
