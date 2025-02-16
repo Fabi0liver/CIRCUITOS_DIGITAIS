@@ -545,15 +545,3 @@ compactos, como o hexadecimal. Ainda hoje, seu uso em algumas aplicações demon
 uma ferramenta útil para quem deseja entender melhor a organização de dados nos computadores. Assim, conhecer o 
 sistema octal não é apenas aprender sobre um formato numérico, mas compreender um pedaço importante da história da 
 computação.
-
-
-​
-
-
-
-
-
-
-​
-
-
