@@ -188,35 +188,51 @@ utilizado e sua relação com o sistema binário.
   compreensível.
 
 
-Números Fracionados no Sistema Hexadecimal: Assim como nos sistemas decimal, binário e octal, o sistema hexadecimal também pode representar números fracionados, permitindo expressar valores menores que 1. Isso é essencial para diversas aplicações, como medições precisas, cálculos científicos e operações computacionais que envolvem diferentes bases numéricas.
+ * Números Fracionados no Sistema Hexadecimal: Assim como nos sistemas decimal, binário e octal, o sistema 
+  hexadecimal também pode representar números fracionados, permitindo expressar valores menores que 1. Isso é 
+  essencial para diversas aplicações, como medições precisas, cálculos científicos e operações computacionais que 
+  envolvem diferentes bases numéricas.
 
-A principal diferença entre os sistemas numéricos está na base utilizada. No sistema decimal, usamos potências de 10 para definir o valor de cada posição decimal. No sistema binário, utilizamos potências de 2, e no sistema octal, potências de 8. Já no sistema hexadecimal, a base é 16, o que significa que cada casa decimal representa uma fração de uma potência negativa de 16.
+   A principal diferença entre os sistemas numéricos está na base utilizada. No sistema decimal, usamos potências 
+  de 10 para definir o valor de cada posição decimal. No sistema binário, utilizamos potências de 2, e no sistema 
+  octal, potências de 8. Já no sistema hexadecimal, a base é 16, o que significa que cada casa decimal representa 
+  uma fração de uma potência negativa de 16.
 
-Para entender como os números fracionados funcionam no sistema hexadecimal, vejamos alguns exemplos:
+   Para entender como os números fracionados funcionam no sistema hexadecimal, vejamos alguns exemplos:
 
-0,1₁₆ (zero vírgula um na base 16): Aqui, o 1 está na posição de 16⁻¹, ou seja, 1 dividido por 16:
+   - 0,1₁₆ (zero vírgula um na base 16): Aqui, o 1 está na posição de 16⁻¹, ou seja, 1 dividido por 16:
 
-          0,1₁₆ = 1 × 16⁻¹ = 1/16 = 0,0625₁₀ 
+                    0,1₁₆ = 1 × 16⁻¹ = 1/16 = 0,0625₁₀ 
 
-0,01₁₆ (zero vírgula zero um na base 16): Neste caso, o 1 ocupa a posição de 16⁻², ou seja, 1 dividido por 16² (256):
+   - 0,01₁₆ (zero vírgula zero um na base 16): Neste caso, o 1 ocupa a posição de 16⁻², ou seja, 1 dividido 
+     por 16² (256):
 
-         0,01₁₆ = 1 × 16⁻² = 1/256 = 0,00390625₁₀  
+                    0,01₁₆ = 1 × 16⁻² = 1/256 = 0,00390625₁₀  
 
-0,A3₁₆ (zero vírgula A três na base 16): Aqui, cada dígito é multiplicado pela sua respectiva potência negativa de 16. Lembre-se de que, no hexadecimal, A representa o número decimal 10:
+   - 0,A3₁₆ (zero vírgula A três na base 16): Aqui, cada dígito é multiplicado pela sua respectiva potência 
+     negativa de 16. Lembre-se de que, no hexadecimal, A representa o número decimal 10:
 
-         0,A3₁₆ = A × 16⁻¹ + 3 × 16⁻²  
+                    0,A3₁₆ = A × 16⁻¹ + 3 × 16⁻²  
 
-Como 16⁻¹ = 1/16 = 0,0625₁₀ e 16⁻² = 1/256 = 0,00390625₁₀, temos:
+   - Como 16⁻¹ = 1/16 = 0,0625₁₀ e 16⁻² = 1/256 = 0,00390625₁₀, temos:
 
-         (10 × 0,0625₁₀) + (3 × 0,00390625₁₀) = 0,625₁₀ + 0,01171875₁₀ = 0,63671875₁₀
+             (10 × 0,0625₁₀) + (3 × 0,00390625₁₀) = 0,625₁₀ + 0,01171875₁₀ = 0,63671875₁₀
 
-Ou seja, 0,A3₁₆ equivale a aproximadamente 0,63671875 na base 10.
+     Ou seja, 0,A3₁₆ equivale a aproximadamente 0,63671875 na base 10.
 
-Os números fracionados no sistema hexadecimal seguem uma lógica semelhante à dos outros sistemas numéricos. A principal diferença é que, em vez de dividir por 10 (como no decimal), por 2 (como no binário) ou por 8 (como no octal), a divisão ocorre por 16 a cada nova casa decimal adicionada.
+   Os números fracionados no sistema hexadecimal seguem uma lógica semelhante à dos outros sistemas numéricos. A 
+  principal diferença é que, em vez de dividir por 10 (como no decimal), por 2 (como no binário) ou por 8 (como no 
+  octal), a divisão ocorre por 16 a cada nova casa decimal adicionada.
 
-Para entender melhor, imagine que cada casa decimal no sistema decimal é como fatiar uma pizza em 10 pedaços. No sistema hexadecimal, a mesma pizza seria cortada em 16 pedaços, resultando em fatias menores e mais precisas. Isso permite representar valores fracionários de maneira mais eficiente e detalhada.
+   Para entender melhor, imagine que cada casa decimal no sistema decimal é como fatiar uma pizza em 10 pedaços. No 
+  sistema hexadecimal, a mesma pizza seria cortada em 16 pedaços, resultando em fatias menores e mais precisas. 
+  Isso permite representar valores fracionários de maneira mais eficiente e detalhada.
 
-Esse método de divisão contínua possibilita uma representação mais precisa de números menores que 1, permitindo cálculos detalhados em computação, gráficos digitais e até mesmo em representações de cores em sistemas RGB. Apesar de não ser amplamente usado no dia a dia, o sistema hexadecimal é essencial para a computação, já que facilita a conversão entre binário e outras bases, oferecendo uma forma compacta e organizada de representar informações numéricas.
+   Esse método de divisão contínua possibilita uma representação mais precisa de números menores que 1, permitindo 
+  cálculos detalhados em computação, gráficos digitais e até mesmo em representações de cores em sistemas RGB. 
+  Apesar de não ser amplamente usado no dia a dia, o sistema hexadecimal é essencial para a computação, já que 
+  facilita a conversão entre binário e outras bases, oferecendo uma forma compacta e organizada de representar 
+  informações numéricas.
 
 Em suma, o sistema hexadecimal é um sistema numérico baseado na notação posicional e nas potências de 16. Ele permite representar números inteiros e fracionados de forma eficiente, tornando-se uma ferramenta poderosa, especialmente na computação e sistemas digitais. Por ser uma base numérica mais compacta do que o sistema binário, o hexadecimal facilita a leitura e a manipulação de números em computadores, tornando-o ideal para representar valores binários de maneira mais legível.
 
