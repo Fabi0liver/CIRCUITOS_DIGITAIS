@@ -113,7 +113,7 @@ funcionamento do hardware até a programação de software.
 
 
 
-                             "Conversão da Base 10 para Outras Bases"
+                              "Conversão da Base 10 para Outras Bases"
 
  O sistema decimal (base 10) é a forma natural como lidamos com números no dia a dia. Ele utiliza dez símbolos (0 a 
 9) e é intuitivo para os seres humanos porque, historicamente, foi baseado na contagem com os dedos. No entanto, os 
@@ -228,41 +228,62 @@ realizar essas conversões.
   binários com mais facilidade no dia a dia da computação! 
 
 
-Conversão da Base 10 para Base 8 (Octal):
+ * Conversão da Base 10 para Base 8 (Octal):
 
-A conversão de números da base decimal para a base octal é um processo fundamental para a computação, especialmente em sistemas embarcados e representações compactas de dados binários. A base octal é útil porque simplifica a escrita de números grandes, agrupando dígitos binários em blocos de três, tornando a leitura e manipulação mais práticas. Esse sistema utiliza apenas os dígitos de 0 a 7, o que o torna mais compacto que a base decimal e mais legível que a base binária.
+   A conversão de números da base decimal para a base octal é um processo fundamental para a computação, 
+  especialmente em sistemas embarcados e representações compactas de dados binários. A base octal é útil porque 
+  simplifica a escrita de números grandes, agrupando dígitos binários em blocos de três, tornando a leitura e 
+  manipulação mais práticas. Esse sistema utiliza apenas os dígitos de 0 a 7, o que o torna mais compacto que a 
+  base decimal e mais legível que a base binária.
 
-Embora o sistema decimal seja intuitivo para nós, pois estamos acostumados a contar em múltiplos de 10, os computadores trabalham de forma diferente. Eles usam a base 2, e o octal surge como uma forma intermediária eficiente para representar valores binários de maneira mais condensada. Isso é especialmente útil em programação de baixo nível e sistemas digitais. Para converter um número decimal para octal, podemos utilizar dois métodos principais: o método da divisão sucessiva, que é o mais prático e utilizado, e o método das potências de 8, que ajuda a visualizar como os números octais são formados. Vamos explorar cada um desses métodos.
+   Embora o sistema decimal seja intuitivo para nós, pois estamos acostumados a contar em múltiplos de 10, os 
+  computadores trabalham de forma diferente. Eles usam a base 2, e o octal surge como uma forma intermediária 
+  eficiente para representar valores binários de maneira mais condensada. Isso é especialmente útil em programação 
+  de baixo nível e sistemas digitais. Para converter um número decimal para octal, podemos utilizar  o método da 
+   divisão sucessiva, que é o mais prático e utilizado.  Vamos explorar os detalhes desse  método.
 
-Método da Divisão Sucessiva
-Esse método consiste em dividir repetidamente o número decimal por 8, registrando os restos de cada divisão. No final, ao lermos os restos de baixo para cima, obtemos a representação octal do número. O processo funciona porque cada divisão separa os valores correspondentes a cada posição do número octal, da menos significativa (direita) até a mais significativa (esquerda).
+  * Método da Divisão Sucessiva: Esse método consiste em dividir repetidamente o número decimal por 8, registrando 
+   os restos de cada divisão. No final, ao lermos os restos de baixo para cima, obtemos a representação octal do 
+   número. O processo funciona porque cada divisão separa os valores correspondentes a cada posição do número 
+   octal, da menos significativa (direita) até a mais significativa (esquerda).
 
-Passo a Passo do Método da Divisão Sucessiva:
+     Passo a Passo do Método da Divisão Sucessiva:
 
-1- Divida o número decimal por 8 e anote o quociente e o resto. O resto será um valor entre 0 e 7, pois estamos dividindo por 8.
+       1- Divida o número decimal por 8 e anote o quociente e o resto. O resto será um valor entre 0 e 7, pois 
+         estamos dividindo por 8.
 
-2- Pegue o quociente obtido e divida novamente por 8, repetindo o processo até que o quociente se torne 0.
+       2- Pegue o quociente obtido e divida novamente por 8, repetindo o processo até que o quociente se torne 0.
 
-3- Registre todos os restos gerados ao longo do processo, pois eles representam os dígitos do número octal final.
+       3- Registre todos os restos gerados ao longo do processo, pois eles representam os dígitos do número octal 
+         final.
 
-4- Leia os restos na ordem inversa (de baixo para cima). O primeiro resto encontrado corresponde à posição menos significativa (direita), enquanto o último resto encontrado será a posição mais significativa (esquerda).
+       4- Leia os restos na ordem inversa (de baixo para cima). O primeiro resto encontrado corresponde à posição 
+         menos significativa (direita), enquanto o último resto encontrado será a posição mais significativa 
+         (esquerda).
 
 
-Exemplo: Converter 345 para octal
+     Exemplo: Converter 345 para octal
 
-  Divisão   | Quociente | Resto
---------------------------------
-  345 ÷ 8   | 43        | 1
-  43 ÷ 8    | 5         | 3
-  5 ÷ 8     | 0         | 5
+               Divisão   | Quociente | Resto
+              --------------------------------
+               345 ÷ 8   | 43        | 1
+               43 ÷ 8    | 5         | 3
+               5 ÷ 8     | 0         | 5
 
-Agora, lendo os restos de baixo para cima, obtemos: 345₁₀ = 531₈
+              Agora, lendo os restos de baixo para cima, obtemos: 345₁₀ = 531₈
 
-Dica Prática: Pense na conversão como se estivesse separando um número grande em pequenos grupos, como dividir um bolo em fatias de tamanho fixo. Cada resto representa uma parte do número em base octal, e ao juntar todas as fatias na ordem inversa, temos o número final convertido.
+     Dica Prática: Pense na conversão como se estivesse separando um número grande em pequenos grupos, como dividir 
+                  um bolo em fatias de tamanho fixo. Cada resto representa uma parte do número em base octal, e ao 
+                  juntar todas as fatias na ordem inversa, temos o número final convertido.
 
-Em suma, a conversão da base decimal para a base octal é uma ferramenta essencial na computação, especialmente para representações compactas de valores binários. O método da divisão sucessiva é rápido e eficiente, tornando-o ideal para conversões práticas. Já o método das potências de 8 proporciona uma compreensão mais profunda sobre como os números octais são formados.
+   Em suma, a conversão da base decimal para a base octal é uma ferramenta essencial na computação, especialmente 
+  para representações compactas de valores binários. O método da divisão sucessiva é rápido e eficiente, tornando-o 
+  ideal para conversões práticas. Já o método das potências de 8 proporciona uma compreensão mais profunda sobre 
+  como os números octais são formados.
 
-Dominar essas conversões facilita a leitura de dados em sistemas digitais, linguagens de programação e arquiteturas de computadores. Com um pouco de prática, entender e trabalhar com números octais se torna intuitivo e natural para quem estuda computação.
+   Dominar essas conversões facilita a leitura de dados em sistemas digitais, linguagens de programação e 
+  arquiteturas de computadores. Com um pouco de prática, entender e trabalhar com números octais se torna intuitivo 
+  e natural para quem estuda computação.
 
 
 Conversão da Base 10 para Base 16 (Hexadecimal):
