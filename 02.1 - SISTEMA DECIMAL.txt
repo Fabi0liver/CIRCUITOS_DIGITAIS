@@ -1,5 +1,4 @@
-                                         SISTEMA DECIMAL OU BASE 10
- 
+                                         SISTEMA DECIMAL  
 
   O sistema decimal (base10) é a base da nossa vida cotidiana, mesmo que nem sempre percebamos. Desde contar o 
 troco  no mercado até medir distâncias ou verificar as horas, estamos constantemente lidando com números 
