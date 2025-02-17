@@ -242,12 +242,12 @@ realizar essas conversões.
   de baixo nível e sistemas digitais. Para converter um número decimal para octal, podemos utilizar  o método da 
    divisão sucessiva, que é o mais prático e utilizado.  Vamos explorar os detalhes desse  método.
 
-  * Método da Divisão Sucessiva: Esse método consiste em dividir repetidamente o número decimal por 8, registrando 
-   os restos de cada divisão. No final, ao lermos os restos de baixo para cima, obtemos a representação octal do 
-   número. O processo funciona porque cada divisão separa os valores correspondentes a cada posição do número 
-   octal, da menos significativa (direita) até a mais significativa (esquerda).
+   * Método da Divisão Sucessiva: Esse método consiste em dividir repetidamente o número decimal por 8, registrando 
+    os restos de cada divisão. No final, ao lermos os restos de baixo para cima, obtemos a representação octal do 
+    número. O processo funciona porque cada divisão separa os valores correspondentes a cada posição do número 
+    octal, da menos significativa (direita) até a mais significativa (esquerda).
 
-      Passo a Passo do Método da Divisão Sucessiva:
+     Passo a Passo do Método da Divisão Sucessiva:
 
        1- Divida o número decimal por 8 e anote o quociente e o resto. O resto será um valor entre 0 e 7, pois 
          estamos dividindo por 8.
@@ -370,3 +370,95 @@ programação e em sistemas de baixo nível, como endereçamento de memória, po
 e eficiente de representar grandes números binários. Vamos, então, explorar como fazer essas conversões e entender 
 suas aplicações de forma mais detalhada.
 
+ * Conversão da base 2 para Base 10 (Decimal):
+
+   A conversão de números da base 2 (binário) para a base 10 (decimal) é um processo crucial para quem trabalha com 
+  computação e programação. Isso ocorre porque, enquanto os computadores lidam com dados em binário, nós, seres 
+  humanos, usamos a base 10 no nosso cotidiano. A conversão permite que possamos interpretar números binários de 
+  uma maneira mais compreensível, traduzindo-os para o sistema que estamos acostumados. Mas como transformar esses 
+  números compostos apenas por 0s e 1s em valores que podemos facilmente reconhecer?
+
+   Existem dois métodos principais para realizar a conversão de binário para decimal: o Método das Potências de 2 e 
+  o Método da Tabela. Ambos são ferramentas eficazes, mas se aplicam de maneiras diferentes. Vamos dar uma olhada 
+  em cada um deles para entender como funcionam e como podemos utilizá-los para converter números binários em 
+  decimais de forma simples e eficiente.
+
+   * Método das Potências de 2: Esse método se baseia na ideia de que cada posição em um número binário corresponde 
+   a uma potência de 2. A posição mais à direita, ou seja, o bit menos significativo, representa 2⁰ (que é 1), a 
+   próxima à esquerda representa 2¹ (que é 2), depois 2² (que é 4), e assim por diante, dobrando o valor a cada 
+   nova posição. Em outras palavras, à medida que você se move da direita para a esquerda no número binário, os 
+   valores das potências de 2 aumentam de forma exponencial. 
+
+     Passo a Passo do Método de Conversão Potências de 2:
+
+       1- Comece do lado direito do número binário e atribua a cada posição uma potência de 2, começando de 2⁰ (que 
+         é 1). À medida que você move para a esquerda, a potência de 2 aumenta (2¹, 2², 2³, etc.).
+
+       2- Para cada dígito binário, multiplique o valor do dígito pelo valor da potência correspondente de 2.
+
+       3- Se o dígito for 1, o valor correspondente da potência de 2 será adicionado ao total; se for 0, não será   
+         adicionado nada.
+
+       4- No final, some todos os valores obtidos para encontrar o número decimal.
+
+     Exemplo: Converter o número binário 1101 para decimal:
+
+                1101₂ = (1 × 2³) + (1 × 2²) + (0 × 2¹) + (1 × 2⁰)
+
+              Somando tudo: 8 + 4 + 0 + 1 = 13
+
+              Ou seja, o número 1101₂ é igual a 13 na base decimal.
+
+     Dica Prática: Imagine que você está fazendo uma "pesquisa" para saber o valor de cada dígito. Cada vez que   
+                  você se move para a esquerda, você aumenta o "peso" de cada dígito, assim como se estivesse 
+                  escalando uma montanha: quanto mais alto você vai, mais "potente" fica a força (potência de 2) 
+                  que aquele dígito tem. A soma das forças de cada posição é o total do seu número decimal!
+
+
+   * Método da Tabela: A conversão de binário para decimal pode ser feita de forma ainda mais visual e organizada, 
+    usando o método da tabela. Esse método é uma maneira simples e eficaz de ver claramente como cada dígito 
+    binário contribui para o valor final do número decimal. A ideia é associar cada posição de um número binário a 
+    uma potência de 2 e, em seguida, somar os valores das potências que têm dígitos 1.
+
+     Passo a Passo do Método da Tabela:
+
+       1- Criando a tabela de potências de 2: Em uma linha, você coloca as potências de 2, começando da maior (à 
+         esquerda) e indo até a menor (à direita), para cada posição do número binário. Por exemplo, para um número 
+         de 7 dígitos binários, você começa com 2⁶ e vai até 2⁰.
+
+       2- Escrevendo os dígitos binários: Abaixo das potências de 2, você escreve os dígitos do número binário,           
+         começando da direita para a esquerda. A ideia é que cada dígito binário corresponde a uma potência de 2.
+
+       3- Somando os valores: Depois de preencher a tabela, você soma os valores das potências de 2 que 
+         correspondem a 1. Se o dígito binário for 0, esse valor não é somado.
+
+     Exemplo: Vamos converter o número binário 1101 para decimal usando a tabela:
+
+                 8  |  4  |  2  |  1  
+                ---------------------
+                 1  |  1  |  0  |  1  
+
+              Agora, somamos as potências de 2 que têm o dígito 1 embaixo:
+
+                - Na coluna do 8, temos 1 
+                - Na coluna do 4, temos 1 
+                - Na coluna do 2, temos 0  (não somamos)
+                - Na coluna do 1, temos 1 
+
+              Então somamos: 8 + 4 + 1 = 13
+        
+              Portanto, o número 1101₂ é igual a 13 em decimal.
+
+     Dica Prática: Imagine que cada coluna da tabela é como uma "caixa" que pode conter valores. Se o número 
+                  binário tiver 1 naquela posição, você coloca o valor da "caixa" dentro do seu total. Se for 0, a 
+                  "caixa" fica vazia. Assim, ao juntar as "caixas" que têm valores, você obtém o número decimal!
+
+   Em suma, a conversão de binário para decimal é uma habilidade essencial na computação, permitindo entender   
+  números binários de forma mais acessível, como traduzir um código secreto para uma linguagem compreensível. Os 
+  métodos que vimos (a Tabela e a Soma das Potências de 2) são eficazes, cada um com seu estilo único de abordagem. 
+  Se você gosta de ver as potências de 2, a tabela é útil; se prefere ser direto, a soma das potências é mais 
+  rápida.
+
+   Dominar esses métodos facilita o trabalho com números binários, aplicável em programação e sistemas digitais. 
+  Com prática, a conversão entre binário e decimal se torna natural, tornando o processo mais intuitivo e 
+  compreensível, tanto no mundo da computação quanto no dia a dia.
