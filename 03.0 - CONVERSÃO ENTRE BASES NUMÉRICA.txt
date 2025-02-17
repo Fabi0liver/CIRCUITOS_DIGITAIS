@@ -654,7 +654,6 @@ e entender melhor suas aplicações práticas.
 
               Portanto, 256₈ é equivalente a 174₁₀.
 
-
      Dica Prática: Imagine que você tem um sistema de armazenamento onde cada prateleira pode conter até 8 caixas. 
                   Para descobrir quantas caixas no total existem no sistema, você conta quantas estão em cada 
                  prateleira e multiplica pelo "peso" da posição. No caso do sistema octal, cada posição tem um peso 
@@ -789,4 +788,11 @@ e entender melhor suas aplicações práticas.
   conversão intermediária para binário, que permite uma transição estruturada e sem erros. Esse processo é muito 
   utilizado em computação, especialmente na manipulação de dados e endereços de memória, tornando-se uma ferramenta 
   essencial para programadores e engenheiros de software.
+
+ Em resumo, compreender a conversão da base 8 para outras bases é essencial para a manipulação eficiente de dados 
+em diversos contextos da computação. Embora o octal seja uma forma compacta de representar números binários, a 
+conversão para bases como decimal e hexadecimal permite tornar a informação mais acessível e estruturada, 
+facilitando seu uso em programação, armazenamento e processamento digital. Esse conhecimento não apenas melhora a 
+interpretação dos dados, mas também amplia a compreensão das representações numéricas utilizadas nos sistemas 
+computacionais, contribuindo para um trabalho mais preciso e otimizado no desenvolvimento de software e hardware.
          
