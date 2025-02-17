@@ -1,4 +1,4 @@
-                                       SISTEMA HEXADECIMAL
+                                         SISTEMA HEXADECIMAL
 
 
  O sistema de numeração hexadecimal é uma das maneiras pelas quais representamos números em nosso cotidiano, mas 
@@ -24,7 +24,7 @@ computadores "pensam" e como os dados são manipulados dentro do mundo digital.
 
 
 
-                          "Como Se Conta No Sistema Hexadecimal"
+                                "Como Se Conta No Sistema Hexadecimal"
 
  Contar no sistema hexadecimal é um pouco diferente do que estamos acostumados no sistema decimal, mas a lógica 
 ainda é bastante simples e organizada. O sistema hexadecimal, assim como o decimal, é baseado em uma progressão de 
@@ -57,7 +57,7 @@ estrutura binária que os computadores utilizam.
 
 
 
-                                "Estrutura do Sistema Hexadecimal"
+                                   "Estrutura do Sistema Hexadecimal"
 
  Como já vimos, o sistema hexadecimal é um método de representação numérica que utiliza uma base 16, composta pelos 
 dígitos de 0 a 9 e pelas letras de A a F, onde cada símbolo representa um valor específico (A = 10, B = 11, ..., F 
@@ -503,7 +503,7 @@ melhor o universo da computação de forma mais estruturada e intuitiva.
 
 
 
-                                "Aplicações do Sistema Hexadecimal"
+                                  "Aplicações do Sistema Hexadecimal"
 
  Agora que entendemos o sistema hexadecimal, podemos explorar suas aplicações e compreender onde ele é utilizado. 
 Embora não seja tão comum no uso cotidiano quanto o sistema decimal, o hexadecimal desempenha um papel crucial na 
@@ -569,17 +569,31 @@ entre a linguagem das máquinas (binário) e a linguagem dos desenvolvedores e e
 
 
 
-                           "Conclusão sobre o Sistema Hexadecimal"
+                                "Conclusão sobre o Sistema Hexadecimal"
 
-O sistema hexadecimal, apesar de não ser tão intuitivo para o público em geral quanto o decimal, tornou-se essencial na computação. Ele surgiu como uma forma mais eficiente e compacta de representar números binários, reduzindo a quantidade de dígitos necessários e tornando as operações mais simples para programadores e engenheiros. Como cada dígito hexadecimal representa exatamente quatro bits binários, ele facilitou a manipulação e leitura de dados em sistemas computacionais, tornando-se a escolha ideal para representar endereços de memória, cores e instruções de baixo nível.
+ O sistema hexadecimal, apesar de não ser tão intuitivo para o público em geral quanto o decimal, tornou-se 
+essencial na computação. Ele surgiu como uma forma mais eficiente e compacta de representar números binários, 
+reduzindo a quantidade de dígitos necessários e tornando as operações mais simples para programadores e 
+engenheiros. Como cada dígito hexadecimal representa exatamente quatro bits binários, ele facilitou a manipulação e 
+leitura de dados em sistemas computacionais, tornando-se a escolha ideal para representar endereços de memória, 
+cores e instruções de baixo nível.
 
-Além de sua importância na organização da computação, o sistema hexadecimal continua sendo amplamente utilizado. Um dos exemplos mais comuns está na representação de cores em sistemas digitais, como no design gráfico e na programação web, onde códigos como #FF5733 definem tonalidades específicas. Além disso, ele é fundamental em linguagens de programação e engenharia de software, onde facilita a visualização e a depuração de dados armazenados na memória. Essa aplicação prática mostra como o hexadecimal permanece relevante e indispensável em um mundo digital.
+ Além de sua importância na organização da computação, o sistema hexadecimal continua sendo amplamente utilizado. 
+Um dos exemplos mais comuns está na representação de cores em sistemas digitais, como no design gráfico e na 
+programação web, onde códigos como #FF5733 definem tonalidades específicas. Além disso, ele é fundamental em 
+linguagens de programação e engenharia de software, onde facilita a visualização e a depuração de dados armazenados 
+na memória. Essa aplicação prática mostra como o hexadecimal permanece relevante e indispensável em um mundo 
+digital.
 
-Se compararmos os sistemas numéricos a diferentes unidades de medida, podemos pensar no binário como contar em grãos de areia (preciso, mas trabalhoso), o octal como contar em pedrinhas (um pouco mais resumido), e o hexadecimal como medir em blocos de concreto (compacto e eficiente). Enquanto o octal foi útil em sistemas antigos, o hexadecimal se destacou como a melhor opção para representar grandes quantidades de dados de maneira organizada e prática. Seu papel na computação moderna é inegável, sendo uma das bases para o funcionamento de processadores, redes e sistemas embarcados.
+ Se compararmos os sistemas numéricos a diferentes unidades de medida, podemos pensar no binário como contar em 
+grãos de areia (preciso, mas trabalhoso), o octal como contar em pedrinhas (um pouco mais resumido), e o 
+hexadecimal como medir em blocos de concreto (compacto e eficiente). Enquanto o octal foi útil em sistemas antigos, 
+o hexadecimal se destacou como a melhor opção para representar grandes quantidades de dados de maneira organizada e 
+prática. Seu papel na computação moderna é inegável, sendo uma das bases para o funcionamento de processadores, 
+redes e sistemas embarcados.
 
-Em resumo, o sistema hexadecimal é uma peça fundamental no mundo da tecnologia. Ele não apenas tornou mais fácil a comunicação entre humanos e máquinas, mas também continua sendo essencial em diversas áreas da computação. Para quem deseja se aprofundar no funcionamento interno dos computadores, compreender o sistema hexadecimal é mais do que um conhecimento técnico — é uma chave para entender como os dados são organizados e processados no mundo digital.
-
-
-
-
-
+ Em resumo, o sistema hexadecimal é uma peça fundamental no mundo da tecnologia. Ele não apenas tornou mais fácil a 
+comunicação entre humanos e máquinas, mas também continua sendo essencial em diversas áreas da computação. Para 
+quem deseja se aprofundar no funcionamento interno dos computadores, compreender o sistema hexadecimal é mais do 
+que um conhecimento técnico — é uma chave para entender como os dados são organizados e processados no mundo 
+digital.
