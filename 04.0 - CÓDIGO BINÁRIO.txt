@@ -33,8 +33,8 @@ digital, tornando o uso dos computadores mais acessível e intuitivo. Essa base 
 que sustenta toda a complexidade da tecnologia que usamos diariamente.
 
 
-
-                            "Representações do Código Binário"
+ 
+                               "Representações do Código Binário"
 
  O código binário é a base da computação, e sua estrutura segue um modelo organizado para representar e armazenar 
 informações de forma eficiente. Como os computadores trabalham apenas com os números 0 e 1, é necessário um sistema 
@@ -127,7 +127,7 @@ digitais, tornando a interação com a tecnologia mais clara e intuitiva.
 
 
 
-                                "Codificação e Tipos de Codificação"
+                                 "Codificação e Tipos de Codificação"
 
  A codificação é um processo fundamental na computação, pois é responsável por transformar informações de um 
 formato para outro, utilizando regras e convenções específicas. Na prática, ela permite que computadores e sistemas 
@@ -232,7 +232,7 @@ podemos otimizar e proteger nossos dados.
  
 
 
-                              "Aplicações dos Códigos Binários"
+                                "Aplicações dos Códigos Binários"
 
 
  Como já sabemos, os códigos binários, compostos por sequências de 0s e 1s, são fundamentais para o funcionamento 
@@ -307,7 +307,7 @@ vida digital.
 
 
 
-                              "Conclusão Sobre Código  Binário"
+                                 "Conclusão Sobre Código  Binário"
 
  O código binário, com sua simplicidade de representar informações através de apenas dois símbolos (0 e 1) é o 
 alicerce sobre o qual toda a tecnologia digital repousa. Desde os primeiros computadores até os dispositivos 
