@@ -235,7 +235,8 @@ podemos otimizar e proteger nossos dados.
                               "Aplicações dos Códigos Binários"
 
 
- Como já sabemos, os códigos binários, compostos por sequências de 0s e 1s, são fundamentais para o funcionamento de todos os sistemas computacionais modernos. Eles representam a base de como as informações são armazenadas, 
+ Como já sabemos, os códigos binários, compostos por sequências de 0s e 1s, são fundamentais para o funcionamento 
+de todos os sistemas computacionais modernos. Eles representam a base de como as informações são armazenadas, 
 processadas e transmitidas em dispositivos eletrônicos. De computadores a smartphones, passando por redes de 
 comunicação, os códigos binários são a linguagem que os sistemas digitais entendem e utilizam para realizar suas 
 funções. A simplicidade do sistema binário, com apenas dois estados possíveis (0 e 1), é o que torna os circuitos 
