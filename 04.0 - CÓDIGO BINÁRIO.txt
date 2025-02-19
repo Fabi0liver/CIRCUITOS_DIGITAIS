@@ -189,7 +189,7 @@ digitais, tornando a interação com a tecnologia mais clara e intuitiva.
 
 
 
-                            "Códigos Ponderados e Não Ponderados"
+                                 "Códigos Ponderados e Não Ponderados"
 
  Os códigos binários são a base da computação e da eletrônica digital, sendo responsáveis pela representação e 
 manipulação de informações nos sistemas digitais. Dentro desse universo, os códigos podem ser classificados de 
@@ -341,7 +341,7 @@ podemos otimizar e proteger nossos dados.
  
 
 
-                                "Aplicações dos Códigos Binários"
+                                 "Aplicações dos Códigos Binários"
 
 
  Como já sabemos, os códigos binários, compostos por sequências de 0s e 1s, são fundamentais para o funcionamento 
