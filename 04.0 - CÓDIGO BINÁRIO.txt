@@ -63,6 +63,41 @@ o sistema binário revelou-se a maneira ideal de codificar instruções e dados.
 antes finalmente encontrou sua aplicação prática, tornando-se a base da era digital e de todas as tecnologias que 
 utilizamos hoje.
 
+
+
+                    "Funcionamento do Código Binário em Sistemas Computacionais"
+
+ Nos sistemas computacionais, o código binário é a base do funcionamento dos circuitos eletrônicos. Cada bit, 
+representado por 0 ou 1, é armazenado e processado por componentes eletrônicos chamados transistores. Esses 
+pequenos interruptores microscópicos controlam o fluxo de corrente elétrica dentro dos chips do computador. Quando 
+um transistor está ligado, é representado por "1", e quando está desligado, é  representado por "0". Essa 
+alternância entre dois estados elétricos permite que o computador realize operações complexas a partir de uma 
+estrutura extremamente simples.
+
+ Para que esses bits sejam manipulados e façam sentido dentro do sistema, eles são processados por portas lógicas, 
+que são circuitos eletrônicos capazes de combinar diferentes sinais binários e produzir novos resultados. As portas 
+lógicas, como AND, OR e NOT, seguem regras matemáticas chamadas de álgebra booleana. Por exemplo, uma porta AND só 
+retorna "1" se todas as suas entradas forem "1", enquanto uma porta OR retorna "1" se pelo menos uma das entradas 
+for "1". Essa lógica básica é utilizada para formar operações mais complexas, como somas, comparações e tomadas de 
+decisão dentro do processador.
+
+ Dentro do microprocessador, milhões de transistores e portas lógicas trabalham juntos para interpretar e executar 
+instruções. Cada operação, desde a soma de dois números até a renderização de gráficos em um jogo, é traduzida para 
+sequências de bits que circulam entre diferentes partes do sistema. Essas operações ocorrem em velocidades 
+impressionantes, com processadores modernos executando bilhões de instruções por segundo. É como se um conjunto de 
+pequenas engrenagens digitais estivesse girando constantemente para transformar comandos simples em tarefas 
+sofisticadas.
+
+ Toda essa estrutura baseada em código binário é o que permite que um computador funcione de maneira confiável e 
+previsível. A simplicidade do sistema binário facilita o design dos circuitos eletrônicos, tornando os dispositivos 
+mais rápidos e eficientes. Assim, desde o momento em que você pressiona uma tecla no teclado até a exibição de 
+imagens na tela, tudo acontece por meio da conversão e manipulação de bilhões de pequenos impulsos elétricos 
+representados em código binário.
+
+
+
+
+
  
 
                                "Representações do Código Binário"
