@@ -33,7 +33,38 @@ digital, tornando o uso dos computadores mais acessível e intuitivo. Essa base 
 que sustenta toda a complexidade da tecnologia que usamos diariamente.
 
 
+
+                                 "Origem Histórica do Código Binário"
+
+ A história do sistema binário moderno remonta ao século XVII, quando o matemático alemão Gottfried Wilhelm Leibniz 
+desenvolveu uma forma de representar números utilizando apenas dois dígitos: 0 e 1. Para Leibniz, esse sistema era 
+uma maneira eficiente de simplificar operações matemáticas e lógicas, já que permitia representar qualquer número 
+ou cálculo com um conjunto mínimo de símbolos. Ele percebeu que a matemática poderia ser reduzida a combinações de 
+dois estados, uma ideia revolucionária para a época e que mais tarde se tornaria essencial para a computação 
+moderna.
+
+ Leibniz encontrou inspiração no I Ching, um antigo texto filosófico chinês que usava combinações de linhas 
+contínuas e interrompidas para representar diferentes conceitos e estados. Ele percebeu que essas representações 
+eram semelhantes ao sistema binário, pois cada linha poderia ser interpretada como um estado de "tudo" ou "nada", 
+"sim" ou "não", o que, de certa forma, antecipava o princípio da lógica binária. Essa conexão entre filosofia e 
+matemática mostra como o pensamento abstrato pode influenciar avanços científicos, criando pontes entre culturas e 
+diferentes formas de conhecimento.
+
+ Apesar da genialidade da ideia, o sistema binário proposto por Leibniz permaneceu, por muito tempo, como uma 
+curiosidade matemática sem aplicação prática. A tecnologia da época não permitia sua implementação eficiente, pois 
+os cálculos ainda eram feitos manualmente ou com mecanismos analógicos, que não se beneficiavam desse modelo 
+simplificado de numeração. Foi apenas no século XX, com o advento da eletrônica digital, que o binário ganhou um 
+papel central, graças à invenção dos transistores, que operam alternando entre dois estados distintos, ligado e 
+desligado, ou seja, 1 e 0.
+
+ Com a chegada dos computadores eletrônicos, a lógica binária tornou-se essencial para processar e armazenar 
+informações de forma confiável e eficiente. Como os circuitos elétricos trabalham com estados ligados e desligados, 
+o sistema binário revelou-se a maneira ideal de codificar instruções e dados. Assim, uma ideia concebida séculos 
+antes finalmente encontrou sua aplicação prática, tornando-se a base da era digital e de todas as tecnologias que 
+utilizamos hoje.
+
  
+
                                "Representações do Código Binário"
 
  O código binário é a base da computação, e sua estrutura segue um modelo organizado para representar e armazenar 
