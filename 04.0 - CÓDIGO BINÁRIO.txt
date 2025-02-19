@@ -96,10 +96,6 @@ representados em código binário.
 
 
 
-
-
- 
-
                                "Representações do Código Binário"
 
  O código binário é a base da computação, e sua estrutura segue um modelo organizado para representar e armazenar 
@@ -190,6 +186,53 @@ essa organização possibilita a evolução da tecnologia e o desenvolvimento de
  Entender essas unidades é essencial para compreender como os computadores funcionam e como gerenciam dados. Essa 
 base de conhecimento nos ajuda a interpretar melhor o armazenamento, o processamento e a transmissão de informações 
 digitais, tornando a interação com a tecnologia mais clara e intuitiva.
+
+
+
+                            "Códigos Ponderados e Não Ponderados"
+
+ Os códigos binários são a base da computação e da eletrônica digital, sendo responsáveis pela representação e 
+manipulação de informações nos sistemas digitais. Dentro desse universo, os códigos podem ser classificados de 
+diferentes maneiras, dependendo da forma como os valores binários são interpretados e utilizados. Duas dessas 
+classificações são os códigos ponderados e não ponderados, que determinam se cada posição do número binário possui 
+ou não um peso associado a ela. Essa distinção é essencial porque influencia diretamente a forma como os números e 
+dados são processados, transmitidos e armazenados nos dispositivos digitais.
+
+ Os códigos ponderados seguem um sistema onde cada posição do número possui um valor fixo e pré-determinado, que 
+contribui para o valor final do número representado. Já os códigos não ponderados não seguem essa lógica de pesos 
+fixos, sendo projetados para outras finalidades, como a simplificação da eletrônica ou a detecção de erros. Ambos 
+os tipos são amplamente utilizados em aplicações computacionais, desde a simples representação de números até 
+sistemas mais complexos, como circuitos eletrônicos e redes de comunicação digital.
+
+ * Códigos Ponderados: São aqueles em que cada posição do número binário tem um peso específico associado a ela. 
+  Esse peso segue uma regra fixa e, ao somar os valores das posições ativadas (1s), obtemos o número decimal 
+  equivalente. O exemplo mais comum desse tipo de código é o Sistema de Numeração Binária Padrão, onde os pesos 
+  seguem potências de 2 (1, 2, 4, 8, 16...). Isso significa que, ao converter um número binário para decimal, cada 
+  dígito binário (bit) tem um peso correspondente que influencia diretamente no valor final.
+
+   Outro exemplo clássico de código ponderado é o Código BCD (Binary-Coded Decimal), que representa números 
+  decimais usando blocos de quatro bits. Nesse caso, cada grupo de quatro bits representa um dígito decimal (0 a 
+  9). Esse tipo de codificação é útil em aplicações como calculadoras eletrônicas e relógios digitais, pois permite 
+  a conversão direta entre números decimais e binários, sem precisar de operações matemáticas complexas.
+
+
+ * Códigos Não Ponderados: Diferente dos ponderados, os códigos binários não ponderados não seguem um esquema fixo 
+  de pesos para cada posição do número. Isso significa que a conversão entre binário e decimal não pode ser feita 
+  apenas somando valores de posições específicas. Esses códigos são projetados para atender a necessidades 
+  específicas, como facilitar a comunicação de dados ou garantir maior confiabilidade na transmissão e 
+  armazenamento.
+
+   Um exemplo comum de código não ponderado é o Código Gray, utilizado principalmente para evitar erros em sistemas 
+  de comunicação e sensores. No Código Gray, cada número é representado de forma que apenas um bit muda de uma 
+  posição para outra, reduzindo erros em leituras digitais. Outro exemplo é o Código de Paridade, que adiciona um 
+  bit extra para indicar se o número tem uma quantidade par ou ímpar de bits "1", ajudando na detecção de erros em 
+  transmissões de dados.
+
+ Em suma, os códigos binários ponderados e não ponderados são fundamentais para a computação e a eletrônica 
+digital, cada um atendendo a propósitos distintos. Enquanto os ponderados são mais previsíveis e utilizados para 
+representar valores numéricos, os não ponderados são úteis para aplicações específicas, como a detecção de erros e 
+a simplificação de circuitos eletrônicos. Entender essas diferenças permite compreender melhor como os sistemas 
+digitais funcionam e como a informação é tratada no mundo da computação.
 
 
 
