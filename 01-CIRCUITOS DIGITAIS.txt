@@ -238,7 +238,7 @@ dispositivos como computadores, celulares e sistemas embarcados não poderiam fu
 
 
 
-                                  "Tipos de Circuitos Digitais"
+                                   "Tipos de Circuitos Digitais"
 
  Para relembrar, os circuitos digitais são essenciais para o funcionamento de dispositivos eletrônicos modernos, 
 pois são responsáveis por processar informações em sistemas como computadores, celulares e dispositivos embarcados. 
@@ -349,10 +349,3 @@ digitais funcionem de forma coordenada e eficiente.
 para o armazenamento, processamento e controle de informações de maneira clara e precisa. Seu funcionamento lógico 
 e estruturado é essencial para a evolução tecnológica, tornando possíveis sistemas rápidos, confiáveis e capazes de 
 realizar operações complexas.
-
-
-
-
-
-
-
