@@ -1,4 +1,4 @@
-                                             SINAL ANALÓGICO
+                                        SINAL ANALÓGICO
 
 Imagine que você está ouvindo uma música tocando em um vinil ou assistindo a um filme em uma fita cassete. Esses são exemplos clássicos do uso de sinais analógicos, que representam informações de forma contínua, sem saltos ou interrupções. Diferente dos sinais digitais, que funcionam como uma sequência de números discretos, os sinais analógicos fluem suavemente, variando em intensidade e tempo, assim como as ondas sonoras no ar ou as oscilações da corrente elétrica.
 
@@ -19,4 +19,24 @@ A onda senoidal é considerada uma das formas de onda mais puras porque descreve
 A razão pela qual as ondas senoidais são tão importantes é que qualquer outro tipo de sinal analógico mais complexo pode ser decomposto em várias ondas senoidais combinadas. Isso significa que, ao estudar esse tipo de onda, conseguimos entender e manipular praticamente qualquer sinal analógico. Por exemplo, a voz humana é composta por várias ondas senoidais de diferentes frequências e intensidades, e os sistemas de áudio utilizam esse princípio para transmitir sons com qualidade e fidelidade.
 
 A equação matemática mais comum para representar um sinal analógico é a seguinte:
+
+                                      V(t) = A ⋅ sen(2πft + ϕ)
+
+Essa equação expressa como a amplitude de um sinal varia ao longo do tempo. Vamos entender melhor cada um de seus componentes e o que eles representam:
+
+V(t): Representa o valor da amplitude do sinal em um determinado instante de tempo t. No caso de um sinal de áudio, por exemplo, V(t) pode representar a variação da pressão do ar em função do tempo. Para um sinal elétrico, pode indicar a tensão em um circuito.
+
+A (Amplitude): É o valor máximo que o sinal pode atingir, determinando sua intensidade. No caso de ondas sonoras, uma maior amplitude significa um som mais alto. Em ondas de rádio, significa um sinal mais forte.
+
+sen (Seno): A função seno é responsável pelo formato oscilatório da onda. Essa função descreve um movimento repetitivo, como o de um pêndulo ou das ondas no mar. O valor do seno varia continuamente entre -1 e 1, o que dá ao sinal analógico sua característica de variação suave e sem interrupções.
+
+2π: Esse fator aparece porque a função seno trabalha com ângulos em radianos, e uma volta completa no ciclo da onda equivale a 2π radianos (aproximadamente 6,28). Ele garante que a frequência seja corretamente expressa em ciclos por segundo (Hertz).
+
+f (Frequência): Representa quantas oscilações completas a onda faz por segundo, medida em Hertz (Hz). No caso de um som, uma frequência mais baixa corresponde a um tom grave, enquanto uma frequência mais alta gera um tom agudo.
+
+t (Tempo): Indica o instante em que estamos medindo o valor da amplitude do sinal. Como o sinal analógico varia continuamente, t é essencial para saber qual o valor de V(t) em qualquer momento.
+
+ϕ (Fase): Define o ponto inicial da onda no tempo. Se a fase for zero, a onda começa do ponto central do ciclo. Se a fase for diferente de zero, significa que a onda está deslocada no tempo. Isso é muito importante em sistemas onde múltiplos sinais precisam estar sincronizados, como nas telecomunicações.
+
+Essa equação mostra que o sinal analógico tem um comportamento periódico e contínuo, sendo amplamente utilizada para modelar fenômenos físicos e sistemas eletrônicos. A partir dela, podemos manipular sinais, prever seu comportamento e entender como eles interagem em diversas aplicações, desde música até comunicações via satélite. Além disso, combinações de ondas senoidais podem representar sinais mais complexos, o que leva ao conceito da análise de Fourier, essencial no processamento de sinais.
 
