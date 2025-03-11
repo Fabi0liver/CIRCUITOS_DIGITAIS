@@ -1,0 +1,22 @@
+                                             SINAL ANALÓGICO
+
+Imagine que você está ouvindo uma música tocando em um vinil ou assistindo a um filme em uma fita cassete. Esses são exemplos clássicos do uso de sinais analógicos, que representam informações de forma contínua, sem saltos ou interrupções. Diferente dos sinais digitais, que funcionam como uma sequência de números discretos, os sinais analógicos fluem suavemente, variando em intensidade e tempo, assim como as ondas sonoras no ar ou as oscilações da corrente elétrica.
+
+O sinal analógico é qualquer tipo de informação que varia de maneira contínua no tempo. Pense, por exemplo, na temperatura ao longo do dia: ela não pula diretamente de 20°C para 25°C, mas aumenta ou diminui gradualmente. Da mesma forma, um sinal analógico pode assumir qualquer valor dentro de um intervalo, sem divisões rígidas. Essa característica torna os sinais analógicos extremamente próximos das formas naturais de transmissão de informação, como a voz humana, as imagens que vemos e os sons que ouvimos.
+
+Esse tipo de sinal é amplamente utilizado em diversas aplicações, como áudio, vídeo, telecomunicações e sensores. Microfones, por exemplo, capturam o som de forma analógica, transformando as vibrações do ar em variações elétricas contínuas. O mesmo acontece com televisores antigos, que recebiam imagens por meio de ondas eletromagnéticas analógicas, variando a intensidade e a cor de forma contínua para compor a imagem na tela. Essas aplicações mostram como os sinais analógicos fazem parte do nosso dia a dia, mesmo com o avanço das tecnologias digitais.
+
+Embora a tecnologia digital tenha se tornado dominante em muitas áreas, os sinais analógicos ainda são essenciais em diversas aplicações, especialmente quando se trata de captar informações do mundo real, que é naturalmente analógico. Dispositivos como sensores de temperatura, sinais de rádio AM e até mesmo instrumentos musicais elétricos continuam dependendo desse tipo de sinal para operar. Portanto, entender os sinais analógicos é fundamental para compreender melhor como a tecnologia interage com o ambiente à nossa volta.
+
+
+
+                         "Representação Matemática do Sinal Analógico"
+
+A representação matemática de um sinal analógico nos permite descrever seu comportamento ao longo do tempo com precisão. Em muitas situações, esses sinais assumem a forma de ondas senoidais, que são essenciais na eletrônica, telecomunicações e no estudo de fenômenos naturais como o som e a luz. Mas o que exatamente é uma onda senoidal? Imagine o movimento de um balanço ou de um pêndulo de relógio: ele oscila suavemente para frente e para trás em um padrão repetitivo. Esse tipo de movimento é justamente o que caracteriza uma onda senoidal—uma oscilação suave e contínua que segue um ciclo regular, subindo e descendo de maneira previsível.
+
+A onda senoidal é considerada uma das formas de onda mais puras porque descreve variações periódicas de maneira extremamente suave, sem mudanças bruscas ou saltos. Se olharmos para um gráfico de uma onda senoidal, veremos um desenho em formato de “S” deitado, que se repete indefinidamente. Esse comportamento é encontrado em muitos aspectos da natureza: as ondas sonoras que chegam aos nossos ouvidos, as oscilações elétricas que percorrem circuitos eletrônicos e até mesmo as variações de temperatura ao longo do dia podem ser modeladas com base nessa forma de onda.
+
+A razão pela qual as ondas senoidais são tão importantes é que qualquer outro tipo de sinal analógico mais complexo pode ser decomposto em várias ondas senoidais combinadas. Isso significa que, ao estudar esse tipo de onda, conseguimos entender e manipular praticamente qualquer sinal analógico. Por exemplo, a voz humana é composta por várias ondas senoidais de diferentes frequências e intensidades, e os sistemas de áudio utilizam esse princípio para transmitir sons com qualidade e fidelidade.
+
+A equação matemática mais comum para representar um sinal analógico é a seguinte:
+
