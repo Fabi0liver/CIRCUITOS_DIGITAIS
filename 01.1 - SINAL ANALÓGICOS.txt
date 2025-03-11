@@ -1,0 +1,14 @@
+                                             SINAL ANALÓGICOS
+
+Imagine que você está ouvindo uma música tocando em um vinil ou assistindo a um filme em uma fita cassete. Esses são exemplos clássicos do uso de sinais analógicos, que representam informações de forma contínua, sem saltos ou interrupções. Diferente dos sinais digitais, que funcionam como uma sequência de números discretos, os sinais analógicos fluem suavemente, variando em intensidade e tempo, assim como as ondas sonoras no ar ou as oscilações da corrente elétrica.
+
+O sinal analógico é qualquer tipo de informação que varia de maneira contínua no tempo. Pense, por exemplo, na temperatura ao longo do dia: ela não pula diretamente de 20°C para 25°C, mas aumenta ou diminui gradualmente. Da mesma forma, um sinal analógico pode assumir qualquer valor dentro de um intervalo, sem divisões rígidas. Essa característica torna os sinais analógicos extremamente próximos das formas naturais de transmissão de informação, como a voz humana, as imagens que vemos e os sons que ouvimos.
+
+Esse tipo de sinal é amplamente utilizado em diversas aplicações, como áudio, vídeo, telecomunicações e sensores. Microfones, por exemplo, capturam o som de forma analógica, transformando as vibrações do ar em variações elétricas contínuas. O mesmo acontece com televisores antigos, que recebiam imagens por meio de ondas eletromagnéticas analógicas, variando a intensidade e a cor de forma contínua para compor a imagem na tela. Essas aplicações mostram como os sinais analógicos fazem parte do nosso dia a dia, mesmo com o avanço das tecnologias digitais.
+
+Embora a tecnologia digital tenha se tornado dominante em muitas áreas, os sinais analógicos ainda são essenciais em diversas aplicações, especialmente quando se trata de captar informações do mundo real, que é naturalmente analógico. Dispositivos como sensores de temperatura, sinais de rádio AM e até mesmo instrumentos musicais elétricos continuam dependendo desse tipo de sinal para operar. Portanto, entender os sinais analógicos é fundamental para compreender melhor como a tecnologia interage com o ambiente à nossa volta.
+
+
+
+
+
