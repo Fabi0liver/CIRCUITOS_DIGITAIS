@@ -26,7 +26,7 @@ fundamental para compreender melhor como a tecnologia interage com o ambiente à
 
 
 
-                               "A Natureza Contínua do Sinal Analógico"
+                                "A Natureza Contínua do Sinal Analógico"
 
  A principal característica do sinal analógico é sua natureza contínua, o que significa que ele não apresenta 
 interrupções ou saltos abruptos em seus valores. Se pudéssemos observar um sinal analógico em um gráfico, veríamos 
@@ -60,7 +60,7 @@ optam pela digitalização, que oferece maior resistência a distorções.
 
 
 
-                                  "Elementos do Sinal Analógico"
+                                    "Elementos do Sinal Analógico"
 
  Quando pensamos em um sinal analógico, muitas vezes imaginamos uma onda fluindo, como as ondas do mar, que estão 
 sempre se movendo de forma contínua e suave. Esse comportamento contínuo e fluido é crucial para a transmissão de 
@@ -131,7 +131,7 @@ eficácia nas mais diversas aplicações tecnológicas.
 
 
 
-                            "Representação Matemática do Sinal Analógico"
+                             "Representação Matemática do Sinal Analógico"
 
  A representação matemática de um sinal analógico nos permite descrever seu comportamento ao longo do tempo com 
 precisão. Em muitas situações, esses sinais assumem a forma de ondas senoidais, que são essenciais na eletrônica, 
@@ -190,7 +190,7 @@ Em suma, essa equação mostra que o sinal analógico tem um comportamento peri�
 
 
 
-                      "As Principais Características do Sinal Analógico"
+                           "As Principais Características do Sinal Analógico"
 
  Quando falamos sobre sinais analógicos, estamos nos referindo a sinais que possuem uma série de características 
 únicas, que os tornam ideais para representar fenômenos naturais de forma precisa e contínua. Essas características 
@@ -242,7 +242,7 @@ tecnológicas.
 
 
 
-                     "Diferenças Entre o Sinal Analógico e o Sinal Digital"
+                        "Diferenças Entre o Sinal Analógico e o Sinal Digital"
 
  Quando comparamos o sinal analógico com o sinal digital, a primeira grande diferença que notamos é a forma como 
 cada um representa as informações. O sinal analógico é contínuo, ou seja, ele pode assumir um número infinito de 
@@ -278,7 +278,7 @@ sinais têm seu papel e são escolhidos dependendo das necessidades da aplicaç�
 
 
 
-                                  "Aplicações dos Sinais Analógicos"
+                                    "Aplicações dos Sinais Analógicos"
 
  Os sinais analógicos desempenham um papel fundamental em diversas tecnologias e sistemas que continuam sendo 
 amplamente utilizados, apesar do crescimento das tecnologias digitais. Esses sinais são especialmente importantes 
@@ -342,7 +342,7 @@ tornando mais comuns, os analógicos ainda desempenham um papel insubstituível 
 
 
 
-                               "Perspectiva Futura do Sinal Analógico" 
+                                 "Perspectiva Futura do Sinal Analógico" 
 
  Embora a tecnologia digital tenha se tornado dominante em muitas áreas, os sinais analógicos ainda têm um papel 
 importante no cenário atual e futuro. Em muitas aplicações, a natureza contínua e fluida dos sinais analógicos 
@@ -385,7 +385,7 @@ avanço tecnológico.
 
 
 
-                                "Conclusão Sobre O Sinal Analógico"
+                                 "Conclusão Sobre O Sinal Analógico"
 
  O sinal analógico, com sua capacidade única de representar informações de forma contínua, tem sido uma das 
 fundações sobre as quais muitas tecnologias foram construídas. Sua flexibilidade e a habilidade de capturar 
