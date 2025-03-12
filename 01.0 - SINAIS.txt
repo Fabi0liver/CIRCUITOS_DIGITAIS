@@ -341,18 +341,18 @@ necessidades do sistema.
   enquanto a imagem digital é clara e estável, pode não capturar toda a riqueza de tons e sombras que um filme 
   fotográfico analógico poderia registrar.
 
- - Comparação entre Sinais Analógicos e Digitais: Sinais analógicos e digitais têm suas vantagens e limitações 
-  dependendo do contexto de aplicação. A principal diferença entre os dois é a forma como os dados são 
-  representados. Sinais analógicos são contínuos e podem capturar informações de maneira mais precisa e detalhada, 
-  o que é útil para representar fenômenos naturais, como som e luz. No entanto, eles são mais suscetíveis a 
-  interferências e ruídos, o que pode afetar a qualidade da informação transmitida.
+- Comparação entre Sinais Analógicos e Digitais: Sinais analógicos e digitais têm suas vantagens e limitações 
+ dependendo do contexto de aplicação. A principal diferença entre os dois é a forma como os dados são  
+ representados. Sinais analógicos são contínuos e podem capturar informações de maneira mais precisa e detalhada, o 
+ que é útil para representar fenômenos naturais, como som e luz. No entanto, eles são mais suscetíveis a 
+ interferências e ruídos, o que pode afetar a qualidade da informação transmitida.
 
-   Já os sinais digitais, com sua representação em 0s e 1s, são mais resistentes a ruídos e são ideais para 
-  sistemas de computação e comunicação de dados. A precisão na manipulação de sinais digitais é alta, e a 
-  transmissão de informações digitais permite maior eficiência e maior capacidade de processamento. Por outro lado, 
-  os sinais digitais podem não capturar todas as nuances de fenômenos naturais tão fielmente quanto os sinais 
-  analógicos, o que pode ser uma limitação em algumas áreas, como a gravação de música em alta fidelidade ou na 
-  representação de imagens e sons de maneira totalmente contínua.
+  Já os sinais digitais, com sua representação em 0s e 1s, são mais resistentes a ruídos e são ideais para sistemas 
+ de computação e comunicação de dados. A precisão na manipulação de sinais digitais é alta, e a transmissão de 
+ informações digitais permite maior eficiência e maior capacidade de processamento. Por outro lado, os sinais 
+ digitais podem não capturar todas as nuances de fenômenos naturais tão fielmente quanto os sinais analógicos, o 
+ que pode ser uma limitação em algumas áreas, como a gravação de música em alta fidelidade ou na representação de 
+ imagens e sons de maneira totalmente contínua.
 
  Assim entender a diferença entre sinais analógicos e digitais é fundamental para compreender como os sistemas de 
 comunicação e processamento de dados funcionam. Ambos os tipos de sinais desempenham papéis importantes em 
