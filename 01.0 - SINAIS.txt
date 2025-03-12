@@ -520,7 +520,7 @@ transmissão de dados em alta velocidade, com confiabilidade e clareza.
 
 
 
-                                "Ruído e Distorção em Sinais"
+                                  "Ruído e Distorção em Sinais"
 
  Ao lidarmos com a transmissão e recepção de sinais, seja para comunicação de dados, áudio ou vídeo, é inevitável 
 que o sinal original sofra modificações ao longo do caminho. Essas modificações podem ocorrer devido a 
