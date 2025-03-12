@@ -560,8 +560,8 @@ confiabilidade dos sistemas de comunicação.
    A distorção é uma alteração no sinal que ocorre quando ele sofre modificações durante sua transmissão, de forma 
   que a forma original da onda seja alterada. Isso pode acontecer devido a limitações do meio de transmissão, como 
   cabos de baixa qualidade ou interferência de outros sinais. Em sistemas analógicos, a distorção pode ocorrer por 
-  uma variação indesejada nas características da onda, como sua amplitude, frequência ou fase. Em sistemas 
-  digitais, a distorção pode resultar em uma modificação dos dados, gerando erros na reconstrução do sinal 
+  uma variação indesejada nas características da onda, como sua amplitude, frequência ou fase. Em sistemas  
+  digitais, a distorção pode resultar em uma modificação dos dados, gerando erros na reconstrução do sinal  
   original.
 
    Existem diferentes tipos de distorção, como a distorção de amplitude, onde as variações de amplitude do sinal 
