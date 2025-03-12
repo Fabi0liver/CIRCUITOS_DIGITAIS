@@ -180,8 +180,7 @@ rápidas, confiáveis e eficazes para um mundo cada vez mais conectado.
  Quando observamos qualquer tipo de sinal, seja ele um som, uma transmissão de rádio ou uma onda elétrica em um 
 circuito, percebemos que ele tem características próprias. Algumas dessas características determinam sua 
 intensidade, sua velocidade de variação e como ele se propaga no tempo e no espaço. Essas propriedades são chamadas 
-de parâmetros fundamentais dos sinais, e seu entendimento é essencial para diversas aplicações, desde a comunicação 
-digital até o funcionamento de dispositivos eletrônicos e sensores.
+de parâmetros dos sinais, e seu entendimento é essencial para diversas aplicações, desde a comunicação digital até o funcionamento de dispositivos eletrônicos e sensores.
 
  Imagine que um sinal seja como uma onda no oceano. Algumas ondas são mais altas e intensas, outras são mais 
 rápidas e frequentes, enquanto algumas chegam antes ou depois dependendo da corrente marítima. Da mesma forma, os 
@@ -269,14 +268,14 @@ de dados, melhoria na qualidade do som e redução de interferências.
   de dados. A velocidade de propagação também afeta a latência de comunicação: quanto mais rápido um sinal viaja, 
   menor será o atraso (latência) no envio e recebimento de dados.
 
- Em suma, os parâmetros fundamentais dos sinais são essenciais para entender como eles se comportam, se propagam e 
-interagem com diferentes sistemas. Cada um desses parâmetros desempenha um papel específico na forma como os sinais 
-são transmitidos e recebidos, seja em um simples fone de ouvido ou em complexas redes de telecomunicações.
+ Em suma, os parâmetros dos sinais são essenciais para entender como eles se comportam, se propagam e interagem com 
+diferentes sistemas. Cada um desses parâmetros desempenha um papel específico na forma como os sinais são 
+transmitidos e recebidos, seja em um simples fone de ouvido ou em complexas redes de telecomunicações.
 
  Compreender esses conceitos permite otimizar sistemas eletrônicos e de comunicação, garantindo maior eficiência e 
 qualidade. Seja ajustando a frequência de um transmissor de rádio, calibrando a amplitude de um alto-falante ou 
-configurando a largura de banda de uma conexão de internet, os parâmetros fundamentais dos sinais estão sempre 
-presentes, moldando a maneira como interagimos com o mundo digital e físico.
+configurando a largura de banda de uma conexão de internet, os parâmetros dos sinais estão sempre presentes, 
+moldando a maneira como interagimos com o mundo digital e físico.
 
 
 
