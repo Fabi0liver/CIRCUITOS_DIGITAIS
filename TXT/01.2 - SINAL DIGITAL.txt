@@ -492,10 +492,24 @@ continuará evoluindo, mas também se tornará ainda mais essencial para o mundo
 
                                 "Conclusão Sobre o Sinal Digital"
 
-O sinal digital é a espinha dorsal da era tecnológica em que vivemos. Ele permite que informações sejam transmitidas, processadas e armazenadas com alta precisão e confiabilidade. Desde os computadores e smartphones até sistemas avançados de comunicação e inteligência artificial, tudo depende do sinal digital para funcionar corretamente. Essa transformação digital trouxe inúmeras vantagens, tornando os dispositivos mais rápidos, eficientes e acessíveis para todos.
+ O sinal digital é a espinha dorsal da era tecnológica em que vivemos. Ele permite que informações sejam 
+transmitidas, processadas e armazenadas com alta precisão e confiabilidade. Desde os computadores e smartphones até 
+sistemas avançados de comunicação e inteligência artificial, tudo depende do sinal digital para funcionar 
+corretamente. Essa transformação digital trouxe inúmeras vantagens, tornando os dispositivos mais rápidos, 
+eficientes e acessíveis para todos.
 
-Uma das maiores forças do sinal digital é sua resistência a interferências e sua capacidade de manter a qualidade da informação ao longo do tempo. Diferente dos sinais analógicos, que podem sofrer distorções e degradação, o sinal digital mantém sua integridade, garantindo que os dados sejam sempre interpretados da maneira correta. Podemos compará-lo a um livro impresso: enquanto a tinta no papel pode permanecer legível por muitos anos sem alteração, um manuscrito feito a lápis pode desbotar e perder sua clareza com o tempo.
+ Uma das maiores forças do sinal digital é sua resistência a interferências e sua capacidade de manter a qualidade 
+da informação ao longo do tempo. Diferente dos sinais analógicos, que podem sofrer distorções e degradação, o sinal 
+digital mantém sua integridade, garantindo que os dados sejam sempre interpretados da maneira correta. Podemos 
+compará-lo a um livro impresso: enquanto a tinta no papel pode permanecer legível por muitos anos sem alteração, um 
+manuscrito feito a lápis pode desbotar e perder sua clareza com o tempo.
 
-Além de sua confiabilidade, o sinal digital possibilita inovação contínua. A cada avanço tecnológico, novos métodos de processamento, transmissão e armazenamento surgem, permitindo que dispositivos se tornem mais inteligentes e interconectados. Da automação industrial à comunicação sem fio, o mundo digital se expande rapidamente, moldando o futuro e abrindo portas para possibilidades que antes pareciam inatingíveis.
+ Além de sua confiabilidade, o sinal digital possibilita inovação contínua. A cada avanço tecnológico, novos 
+métodos de processamento, transmissão e armazenamento surgem, permitindo que dispositivos se tornem mais 
+inteligentes e interconectados. Da automação industrial à comunicação sem fio, o mundo digital se expande 
+rapidamente, moldando o futuro e abrindo portas para possibilidades que antes pareciam inatingíveis.
 
-Portanto, entender o sinal digital não é apenas um exercício técnico, mas um caminho para compreender como a tecnologia funciona e como ela evolui. Seu impacto é tão profundo que, mesmo sem perceber, dependemos dele em praticamente todos os aspectos da vida moderna. E à medida que a tecnologia avança, o sinal digital continuará sendo um dos pilares da inovação, nos conduzindo para um futuro cada vez mais interconectado e eficiente.
+ Portanto, entender o sinal digital não é apenas um exercício técnico, mas um caminho para compreender como a 
+tecnologia funciona e como ela evolui. Seu impacto é tão profundo que, mesmo sem perceber, dependemos dele em 
+praticamente todos os aspectos da vida moderna. E à medida que a tecnologia avança, o sinal digital continuará 
+sendo um dos pilares da inovação, nos conduzindo para um futuro cada vez mais interconectado e eficiente.
