@@ -281,8 +281,8 @@ você possa entender como cada componente contribui para o funcionamento dos sin
  Em suma, a representação do sinal digital é uma parte fundamental de como a tecnologia moderna funciona. Ela não 
 só permite a codificação de informações em sequências de 0s e 1s, mas também estabelece as bases para a criação de 
 circuitos lógicos que processam e manipulam esses dados de maneira eficiente e confiável. Cada elemento dessa 
-representação — como a codificação, os níveis de tensão e as portas lógicas — contribui para que os sistemas 
-digitais funcionem de forma robusta e sem erros, mesmo em ambientes sujeitos a interferências externas.
+representação (como a codificação, os níveis de tensão e as portas lógicas) contribui para que os sistemas digitais 
+funcionem de forma robusta e sem erros, mesmo em ambientes sujeitos a interferências externas.
 
  Ao entender como a informação é representada no mundo digital, podemos compreender melhor o funcionamento dos 
 dispositivos e sistemas que usamos no nosso dia a dia. Esses princípios básicos são a chave para a construção de 
