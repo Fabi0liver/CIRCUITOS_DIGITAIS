@@ -35,13 +35,31 @@ passo para compreender a base de toda a tecnologia digital que nos rodeia.
 
                                "A Natureza Discreta do Sinal Digital"
 
-A principal característica do sinal digital é sua natureza discreta, ou seja, ele não varia de forma contínua, mas sim em valores bem definidos e distintos. Isso significa que, em vez de apresentar uma transição suave entre diferentes estados, como ocorre em um dimmer de luz que permite ajustar a intensidade de forma gradual, o sinal digital funciona como um interruptor que só pode estar ligado ou desligado, sem valores intermediários. Esse comportamento é o que garante a precisão e a confiabilidade dos sistemas digitais, pois reduz a chance de erros e interferências.
+ A principal característica do sinal digital é sua natureza discreta, ou seja, ele não varia de forma contínua, mas 
+sim em valores bem definidos e distintos. Isso significa que, em vez de apresentar uma transição suave entre 
+diferentes estados, como ocorre em um dimmer de luz que permite ajustar a intensidade de forma gradual, o sinal 
+digital funciona como um interruptor que só pode estar ligado ou desligado, sem valores intermediários. Esse 
+comportamento é o que garante a precisão e a confiabilidade dos sistemas digitais, pois reduz a chance de erros e 
+interferências.
 
-Essa natureza discreta se reflete na forma como os dados são armazenados e transmitidos. Em um sistema digital, a informação é codificada em uma sequência de números binários, compostos apenas por 0s e 1s, como se fosse um alfabeto extremamente reduzido, mas incrivelmente eficiente. Essa simplificação permite que os dispositivos interpretem e processem os dados com rapidez e exatidão, algo fundamental para computadores, redes de comunicação e dispositivos eletrônicos modernos.
+ Essa natureza discreta se reflete na forma como os dados são armazenados e transmitidos. Em um sistema digital, a 
+informação é codificada em uma sequência de números binários, compostos apenas por 0s e 1s, como se fosse um 
+alfabeto extremamente reduzido, mas incrivelmente eficiente. Essa simplificação permite que os dispositivos 
+interpretem e processem os dados com rapidez e exatidão, algo fundamental para computadores, redes de comunicação e 
+dispositivos eletrônicos modernos.
 
-Outra vantagem da discrição do sinal digital é a imunidade ao ruído. No mundo real, qualquer tipo de transmissão está sujeita a interferências, como eletricidade estática ou variações na energia elétrica. No caso de sinais analógicos, essas interferências podem degradar a qualidade da informação, tornando-a mais difícil de interpretar. Já no sinal digital, como só existem dois estados possíveis, pequenas variações externas dificilmente afetam a integridade dos dados. Isso é semelhante a ler um texto impresso em fonte grande e bem definida, onde uma pequena mancha na página não impede a leitura das palavras.
+ Outra vantagem da discrição do sinal digital é a imunidade ao ruído. No mundo real, qualquer tipo de transmissão 
+está sujeita a interferências, como eletricidade estática ou variações na energia elétrica. No caso de sinais 
+analógicos, essas interferências podem degradar a qualidade da informação, tornando-a mais difícil de interpretar. 
+Já no sinal digital, como só existem dois estados possíveis, pequenas variações externas dificilmente afetam a 
+integridade dos dados. Isso é semelhante a ler um texto impresso em fonte grande e bem definida, onde uma pequena 
+mancha na página não impede a leitura das palavras.
 
-Além disso, essa característica discreta permite que os sinais digitais sejam facilmente corrigidos e restaurados. Como os valores transmitidos são fixos e bem definidos, é possível detectar e corrigir erros durante a transmissão, garantindo que a informação chegue ao destino com precisão. Essa capacidade de correção e restauração faz com que sistemas digitais sejam altamente confiáveis e duradouros, sendo a base para praticamente todas as formas modernas de comunicação e processamento de dados.
+ Além disso, essa característica discreta permite que os sinais digitais sejam facilmente corrigidos e restaurados. 
+Como os valores transmitidos são fixos e bem definidos, é possível detectar e corrigir erros durante a transmissão, 
+garantindo que a informação chegue ao destino com precisão. Essa capacidade de correção e restauração faz com que 
+sistemas digitais sejam altamente confiáveis e duradouros, sendo a base para praticamente todas as formas modernas 
+de comunicação e processamento de dados.
 
 
 
