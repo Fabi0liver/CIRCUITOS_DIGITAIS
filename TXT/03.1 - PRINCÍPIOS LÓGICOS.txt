@@ -35,12 +35,32 @@ fundamentadas.
 
                                         "Conceito de Lógica"
 
-A lógica é a arte de pensar com clareza e coerência. Ela nos ajuda a organizar ideias, analisar informações e tirar conclusões de forma estruturada, evitando contradições e falhas no raciocínio. Podemos compará-la a uma bússola mental que nos guia para distinguir argumentos válidos de pensamentos confusos. Sempre que tomamos decisões baseadas em fatos ou tentamos convencer alguém com argumentos bem construídos, estamos aplicando a lógica, mesmo sem perceber.
+ A lógica é a arte de pensar com clareza e coerência. Ela nos ajuda a organizar ideias, analisar informações e 
+tirar conclusões de forma estruturada, evitando contradições e falhas no raciocínio. Podemos compará-la a uma 
+bússola mental que nos guia para distinguir argumentos válidos de pensamentos confusos. Sempre que tomamos decisões 
+baseadas em fatos ou tentamos convencer alguém com argumentos bem construídos, estamos aplicando a lógica, mesmo 
+sem perceber.
 
-O estudo da lógica remonta à Grécia Antiga, quando filósofos começaram a se perguntar como podiam garantir que um raciocínio era correto. Aristóteles (384–322 a.C.) foi um dos primeiros a sistematizar o pensamento lógico, criando regras para analisar argumentos e identificar conclusões corretas a partir de premissas bem definidas. Seu trabalho serviu como base para o que hoje chamamos de lógica clássica. Para Aristóteles, pensar logicamente era como montar um quebra-cabeça: se as peças (premissas) estivessem corretas e bem encaixadas, a imagem final (conclusão) faria sentido.
+ O estudo da lógica remonta à Grécia Antiga, quando filósofos começaram a se perguntar como podiam garantir que um 
+raciocínio era correto. Aristóteles (384–322 a.C.) foi um dos primeiros a sistematizar o pensamento lógico, criando 
+regras para analisar argumentos e identificar conclusões corretas a partir de premissas bem definidas. Seu trabalho 
+serviu como base para o que hoje chamamos de lógica clássica. Para Aristóteles, pensar logicamente era como montar 
+um quebra-cabeça: se as peças (premissas) estivessem corretas e bem encaixadas, a imagem final (conclusão) faria 
+sentido.
 
-Ao longo dos séculos, a lógica evoluiu e ganhou novas aplicações. Durante a Idade Média, estudiosos como Santo Tomás de Aquino adaptaram os princípios aristotélicos ao pensamento teológico e filosófico. Já no século XIX, matemáticos como George Boole desenvolveram a lógica matemática, criando um sistema de símbolos e regras que serviram de base para a computação moderna. É graças a essa evolução que, hoje, computadores podem processar informações de forma estruturada e eficiente, pois seguem regras lógicas rigorosas, assim como um ser humano seguiria um raciocínio bem fundamentado.
+ Ao longo dos séculos, a lógica evoluiu e ganhou novas aplicações. Durante a Idade Média, estudiosos como Santo 
+Tomás de Aquino adaptaram os princípios aristotélicos ao pensamento teológico e filosófico. Já no século XIX, 
+matemáticos como George Boole desenvolveram a lógica matemática, criando um sistema de símbolos e regras que 
+serviram de base para a computação moderna. É graças a essa evolução que, hoje, computadores podem processar 
+informações de forma estruturada e eficiente, pois seguem regras lógicas rigorosas, assim como um ser humano 
+seguiria um raciocínio bem fundamentado.
 
-Além do campo acadêmico, a lógica está presente em diversas áreas da nossa vida. Ela é usada na ciência para testar hipóteses, na tecnologia para programar softwares, no direito para construir argumentos jurídicos e até mesmo no dia a dia, quando avaliamos se um raciocínio faz sentido ou não. Sempre que analisamos uma informação com senso crítico, perguntando "isso realmente faz sentido?", estamos exercitando a lógica.
+ Além do campo acadêmico, a lógica está presente em diversas áreas da nossa vida. Ela é usada na ciência para 
+testar hipóteses, na tecnologia para programar softwares, no direito para construir argumentos jurídicos e até 
+mesmo no dia a dia, quando avaliamos se um raciocínio faz sentido ou não. Sempre que analisamos uma informação com 
+senso crítico, perguntando "isso realmente faz sentido?", estamos exercitando a lógica.
 
-Entender o conceito de lógica é como aprender a ler um mapa: com prática, conseguimos navegar melhor pelo mundo das ideias e tomar decisões mais seguras. Ela não nos diz o que pensar, mas nos ensina como pensar de maneira estruturada e eficiente. Esse conhecimento é valioso para qualquer área do conhecimento e pode transformar a forma como interpretamos informações, resolvemos problemas e nos comunicamos com o mundo ao nosso redor.
+ Entender o conceito de lógica é como aprender a ler um mapa: com prática, conseguimos navegar melhor pelo mundo 
+das ideias e tomar decisões mais seguras. Ela não nos diz o que pensar, mas nos ensina como pensar de maneira 
+estruturada e eficiente. Esse conhecimento é valioso para qualquer área do conhecimento e pode transformar a forma 
+como interpretamos informações, resolvemos problemas e nos comunicamos com o mundo ao nosso redor.
