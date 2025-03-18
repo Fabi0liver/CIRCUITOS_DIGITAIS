@@ -142,10 +142,26 @@ estruturada.
 
                                           "O que é Proposições"
 
-As proposições são um dos conceitos mais importantes dentro da lógica, e podemos entendê-las como afirmações ou declarações que podem ser classificadas como verdadeiras ou falsas. Ou seja, uma proposição sempre carrega uma ideia completa e objetiva, que permite essa verificação de valor. Imagine que a proposição é como uma "caixinha de informações" que você pode abrir e perguntar: "Isso aqui é verdade ou é mentira?". Se for possível responder a essa pergunta, então você tem uma proposição nas mãos.
+ As proposições são um dos conceitos mais importantes dentro da lógica, e podemos entendê-las como afirmações ou 
+declarações que podem ser classificadas como verdadeiras ou falsas. Ou seja, uma proposição sempre carrega uma 
+ideia completa e objetiva, que permite essa verificação de valor. Imagine que a proposição é como uma "caixinha de 
+informações" que você pode abrir e perguntar: "Isso aqui é verdade ou é mentira?". Se for possível responder a essa 
+pergunta, então você tem uma proposição nas mãos.
 
-Um bom exemplo de proposição é a frase "O sol nasce no leste". Essa é uma informação clara, direta e que pode ser verificada, e sim, é verdadeira. Agora, se alguém disser "Que dia lindo!", apesar de ser uma frase, ela não é uma proposição, porque não dá pra afirmar se é verdadeira ou falsa, isso depende da opinião de cada um. Por isso, na lógica, trabalhamos apenas com aquelas frases que possuem um valor lógico definido: ou são verdadeiras ou são falsas, sem meio-termo ou espaço para subjetividade.
+ Um bom exemplo de proposição é a frase "O sol nasce no leste". Essa é uma informação clara, direta e que pode ser 
+verificada, e sim, é verdadeira. Agora, se alguém disser "Que dia lindo!", apesar de ser uma frase, ela não é uma 
+proposição, porque não dá pra afirmar se é verdadeira ou falsa, isso depende da opinião de cada um. Por isso, na 
+lógica, trabalhamos apenas com aquelas frases que possuem um valor lógico definido: ou são verdadeiras ou são 
+falsas, sem meio-termo ou espaço para subjetividade.
 
-As proposições são como os blocos de montar de um raciocínio lógico. A partir delas, conseguimos construir estruturas mais complexas, como fazer comparações, criar hipóteses ou chegar a conclusões. Assim como você precisa de tijolos para levantar uma parede, na lógica você precisa das proposições para construir um argumento sólido. E é justamente manipulando essas proposições, com suas verdades e falsidades, que conseguimos testar se uma ideia se sustenta ou não.
+ As proposições são como os blocos de montar de um raciocínio lógico. A partir delas, conseguimos construir 
+estruturas mais complexas, como fazer comparações, criar hipóteses ou chegar a conclusões. Assim como você precisa 
+de tijolos para levantar uma parede, na lógica você precisa das proposições para construir um argumento sólido. E é 
+justamente manipulando essas proposições, com suas verdades e falsidades, que conseguimos testar se uma ideia se 
+sustenta ou não.
 
-Por isso, ao estudar proposições, é importante lembrar sempre dessa função básica: elas servem como peças fundamentais de qualquer raciocínio lógico. Seja numa conversa, numa prova de matemática ou até mesmo quando estamos programando um software, estamos, o tempo todo, lidando com proposições, mesmo sem perceber. E quanto mais familiaridade você tiver com elas, mais natural vai ficar analisar, questionar e entender o mundo ao seu redor de forma lógica e organizada.
+ Por isso, ao estudar proposições, é importante lembrar sempre dessa função básica: elas servem como peças 
+fundamentais de qualquer raciocínio lógico. Seja numa conversa, numa prova de matemática ou até mesmo quando 
+estamos programando um software, estamos, o tempo todo, lidando com proposições, mesmo sem perceber. E quanto mais 
+familiaridade você tiver com elas, mais natural vai ficar analisar, questionar e entender o mundo ao seu redor de 
+forma lógica e organizada.
