@@ -165,3 +165,32 @@ fundamentais de qualquer raciocínio lógico. Seja numa conversa, numa prova de 
 estamos programando um software, estamos, o tempo todo, lidando com proposições, mesmo sem perceber. E quanto mais 
 familiaridade você tiver com elas, mais natural vai ficar analisar, questionar e entender o mundo ao seu redor de 
 forma lógica e organizada.
+
+
+
+                             "Proposições Simples e Proposições Compostas"
+
+Quando mergulhamos um pouco mais no estudo das proposições dentro da lógica, percebemos que elas podem se apresentar de formas diferentes, dependendo da complexidade da informação transmitida. Nem sempre uma proposição é direta e simples, às vezes, ela se torna mais elaborada, combinando outras ideias para formar uma estrutura maior. Essa diferença é essencial para entendermos como a lógica organiza o pensamento e nos ajuda a raciocinar de maneira mais estruturada.
+
+Por isso, dentro desse universo das proposições, surge a necessidade de classificá-las em dois grandes grupos: as proposições simples e as proposições compostas. Essa divisão facilita muito na hora de analisar, resolver problemas e até construir argumentos mais robustos. 
+
+A partir de agora, vamos explorar cada um desses dois tipos de proposições, entendendo como funcionam e como aparecem nas situações do dia a dia.
+
+
+Proposições Simples: As proposições simples são aquelas que transmitem uma única ideia completa e objetiva, sem a necessidade de conectar com outras informações para fazer sentido. Elas são diretas, como uma frase curta e clara que você lê e já entende de imediato o que está sendo dito. Um exemplo clássico seria: "A terra é redonda". Essa é uma afirmação completa, e podemos classificá-la como verdadeira ou falsa sem depender de mais nada.
+
+Um bom jeito de imaginar a proposição simples é pensar nela como um pedaço único de um quebra-cabeça: ele tem sua imagem completa, não precisa se encaixar em outro para fazer sentido. Frases como "Está chovendo", "Maria é professora" ou "O cachorro late" são exemplos de proposições simples porque possuem um único sentido e não há nenhum tipo de ligação entre duas ou mais ideias nelas.
+
+As proposições simples são a base da lógica, o ponto de partida de qualquer raciocínio. Elas são importantes porque nos ajudam a praticar o olhar analítico, ou seja, treinar o cérebro a identificar o que realmente está sendo afirmado ou negado de forma objetiva. Ao dominarmos esse tipo de proposição, ganhamos mais clareza para avançar na lógica e lidar com raciocínios mais complexos.
+
+
+Proposições Compostas: Já as proposições compostas são aquelas formadas pela união de duas ou mais proposições simples, conectadas por palavras como "e", "ou", "se... então", entre outras. Essas palavrinhas, chamadas de conectivos lógicos, são responsáveis por ligar as ideias e dar um novo significado ao todo. Por exemplo: "Está chovendo e está frio". Aqui, temos duas informações juntas, unidas pelo "e", formando uma proposição composta.
+
+Uma forma de imaginar as proposições compostas é pensar nelas como um combo de pedidos em um restaurante: você não pediu só um hambúrguer, mas o combo que vem com batata frita e refrigerante. Tudo faz parte do mesmo pedido, mas cada item tem sua função ali. Na proposição composta, cada parte tem um valor lógico e o conjunto vai depender dessa junção para definir se tudo é verdadeiro ou falso.
+
+As proposições compostas são fundamentais para trabalhar o raciocínio mais elaborado. É com elas que conseguimos montar argumentos mais robustos, fazer comparações ou criar condições para algo acontecer. Aprender a identificá-las e interpretá-las é um passo importante para lidar com problemas lógicos, situações do cotidiano e até mesmo na hora de programar ou criar algoritmos.
+
+
+Em suma, entender a diferença entre proposições simples e compostas é como aprender a diferenciar uma peça de LEGO avulsa de uma construção feita com várias peças encaixadas. Ambas são importantes e têm suas funções, mas saber quando estamos lidando com uma ou outra ajuda muito na hora de organizar o pensamento e resolver problemas de forma lógica e eficiente.
+
+Ao longo do tempo, essa percepção vai se tornando natural e você vai perceber o quanto a lógica está presente nas situações do dia a dia, desde uma conversa trivial até na análise de um contrato ou na escrita de um código de programação. Por isso, conhecer e dominar esses dois tipos de proposições é um passo essencial para quem está começando a explorar o fascinante mundo da lógica.
