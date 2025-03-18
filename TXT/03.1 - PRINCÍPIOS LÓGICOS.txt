@@ -228,82 +228,140 @@ começando a explorar o fascinante mundo da lógica.
 
                                          "Conectivos Lógicos"
 
-Ao avançarmos no estudo da lógica e das proposições, começamos a perceber que, muitas vezes, as ideias não aparecem de forma isolada. Na maioria das situações do nosso cotidiano, estamos lidando com frases que ligam duas ou mais informações, criando um sentido maior e mais completo. Essa ligação entre as partes da frase é feita pelos chamados conectivos lógicos, que são verdadeiros "elos" dentro do raciocínio lógico, dando forma e estrutura ao que queremos comunicar.
+ Ao avançarmos no estudo da lógica e das proposições, começamos a perceber que, muitas vezes, as ideias não 
+aparecem de forma isolada. Na maioria das situações do nosso cotidiano, estamos lidando com frases que ligam duas ou mais informações, criando um sentido maior e mais completo. Essa ligação entre as partes da frase é feita pelos 
+chamados conectivos lógicos, que são verdadeiros "elos" dentro do raciocínio lógico, dando forma e estrutura ao que 
+queremos comunicar.
 
-Os conectivos lógicos são essenciais para qualquer tipo de análise lógica, pois nos ajudam a construir sentenças mais sofisticadas e a testar se essas construções fazem sentido dentro das regras da lógica. Como uma receita de bolo, onde você tem os ingredientes principais, mas precisa de um "modo de preparo" para juntar tudo da forma certa, os conectivos lógicos fazem esse papel de juntar as ideias de maneira organizada. 
+ Os conectivos lógicos são essenciais para qualquer tipo de análise lógica, pois nos ajudam a construir sentenças 
+mais sofisticadas e a testar se essas construções fazem sentido dentro das regras da lógica. Como uma receita de 
+bolo, onde você tem os ingredientes principais, mas precisa de um "modo de preparo" para juntar tudo da forma 
+certa, os conectivos lógicos fazem esse papel de juntar as ideias de maneira organizada. 
 
-Vamos então conhecer os diferentes tipos de conectivos lógicos e entender como cada um deles age para formar proposições compostas.
+ Vamos então conhecer os diferentes tipos de conectivos lógicos e entender como cada um deles age para formar 
+proposições compostas.
 
-Conectivo "E" (Conjunção): Esse conectivo é usado para conectar duas proposições que devem ser verdadeiras ao mesmo tempo para que a proposição composta também seja verdadeira. Pense no conectivo "E" como um porteiro que só deixa passar quem está com os dois convites. Ou seja, ambas as condições precisam ser verdadeiras. Um exemplo seria a proposição: "Está chovendo e está frio". Para que essa proposição composta seja verdadeira, ambas as afirmações (de que está chovendo e de que está frio) precisam ser verdadeiras.
+ * Conectivo "E" (Conjunção): Esse conectivo é usado para conectar duas proposições que devem ser verdadeiras ao 
+  mesmo tempo para que a proposição composta também seja verdadeira. Pense no conectivo "E" como um porteiro que só 
+  deixa passar quem está com os dois convites. Ou seja, ambas as condições precisam ser verdadeiras. Um exemplo 
+  seria a proposição: "Está chovendo e está frio". Para que essa proposição composta seja verdadeira, ambas as 
+  afirmações (de que está chovendo e de que está frio) precisam ser verdadeiras.
 
-Por exemplo, se a proposição "Está chovendo" for verdadeira e "Está frio" também for verdadeira, então a proposição composta será verdadeira. Mas, se qualquer uma das proposições for falsa, a proposição composta será falsa. Isso porque o conectivo "E" exige que ambas as partes da sentença sejam verdadeiras para que o conjunto seja considerado verdadeiro.
+   Por exemplo, se a proposição "Está chovendo" for verdadeira e "Está frio" também for verdadeira, então a 
+  proposição composta será verdadeira. Mas, se qualquer uma das proposições for falsa, a proposição composta será 
+  falsa. Isso porque o conectivo "E" exige que ambas as partes da sentença sejam verdadeiras para que o conjunto  
+  seja considerado verdadeiro.
 
-Em termos formais, podemos representá-lo como:
+   Em termos formais, podemos representá-lo como:
 
-P ∧ Q, onde P e Q são as proposições. A proposição composta só será verdadeira quando tanto P quanto Q forem verdadeiras.
+    - P ∧ Q, onde P e Q são as proposições. A proposição composta só será verdadeira quando tanto P quanto Q forem 
+     verdadeiras.
 
- O conectivo "E" é essencial para situações onde precisamos de uma conjunção, ou seja, quando queremos afirmar que duas condições devem ser verdadeiras simultaneamente para que a proposição composta seja verdadeira.
-
-
-Conectivo "OU" (Disjunção Inclusiva): Esse outro conectivo é utilizado quando queremos dizer que pelo menos uma das proposições precisa ser verdadeira para que a proposição composta seja verdadeira. Ele funciona como uma escolha, onde basta que uma das opções seja verdadeira para que o todo seja verdadeiro. Um exemplo de proposição seria: 
-"Você estuda, ou você joga videogame". Nesse caso, para que a proposição composta seja verdadeira, é suficiente que uma das partes seja verdadeira.
-
-Se "Você estuda" for verdadeira, então a proposição composta será verdadeira, mesmo que a outra parte, "Você joga videogame", seja falsa. E, por outro lado, se "Você joga videogame" for verdadeira, a proposição também será verdadeira, mesmo que você não esteja estudando. A única maneira da proposição composta ser falsa é se ambas as proposições forem falsas.
-
-Em termos formais, podemos representá-lo como:
-
-P ∨ Q, onde P e Q são as proposições. A proposição composta será falsa somente quando P e Q forem ambas falsas.
-
-O conectivo "OU" é fundamental quando queremos dar uma opção entre proposições, onde qualquer uma das opções pode ser verdadeira, tornando a proposição composta verdadeira.
-
-
-Conectivo "SE... ENTÃO" (Condicional): Esse conectivo  é utilizado quando queremos estabelecer uma relação de causa e efeito entre duas proposições. Ele pode ser entendido como um se acontecer a primeira coisa, então a segunda acontecerá. Um exemplo de proposição seria: "Se chover, então eu vou levar o guarda-chuva". Nesse caso, a proposição condicional nos diz que, caso a primeira proposição seja verdadeira (chover), a segunda proposição (levar o guarda-chuva) será verdadeira também.
-
-É importante notar que a proposição não diz que se não chover, então você não levará o guarda-chuva. O conectivo "SE... ENTÃO" só nos importa quando a primeira parte (a causa) é verdadeira. Se a primeira proposição for falsa, a proposição condicional é considerada verdadeira, independentemente da segunda parte.
-
-Em termos formais, representamos esse conectivo como:
-
-P → Q, onde P é a causa e Q é o efeito. A proposição composta será verdadeira em todos os casos, exceto quando P for verdadeira e Q for falsa.
-
- O conectivo "SE... ENTÃO" é crucial quando queremos afirmar uma relação causal entre as proposições, dizendo que a segunda depende da primeira para ser verdadeira.
+   O conectivo "E" é essencial para situações onde precisamos de uma conjunção, ou seja, quando queremos afirmar 
+  que duas condições devem ser verdadeiras simultaneamente para que a proposição composta seja verdadeira.
 
 
-Conectivo "SE E SOMENTE SE" (Bicondicional): É um conectivo especial que estabelece uma relação de equivalência entre duas proposições. Ele diz que uma proposição é verdadeira se e somente se a outra também for verdadeira. Ou seja, as duas proposições precisam ser verdadeiras ou ambas falsas para que a proposição composta seja verdadeira. Um exemplo seria: "Você vai ao cinema se e somente se terminar o trabalho".
+ * Conectivo "OU" (Disjunção Inclusiva): Esse outro conectivo é utilizado quando queremos dizer que pelo menos uma 
+  das proposições precisa ser verdadeira para que a proposição composta seja verdadeira. Ele funciona como uma 
+  escolha, onde basta que uma das opções seja verdadeira para que o todo seja verdadeiro. Um exemplo de proposição 
+  seria: "Você estuda, ou você joga videogame". Nesse caso, para que a proposição composta seja verdadeira, é 
+  suficiente que uma das partes seja verdadeira.
 
-Essa proposição implica que, para você ir ao cinema, é necessário que termine o trabalho, e, caso o trabalho não seja terminado, você não irá ao cinema. O bicondicional estabelece uma relação mútua de dependência entre as proposições. Ele é mais restritivo que o "SE... ENTÃO", pois exige que as duas partes sejam verdadeiras ou falsas simultaneamente.
+   Se "Você estuda" for verdadeira, então a proposição composta será verdadeira, mesmo que a outra parte, "Você 
+  joga videogame", seja falsa. E, por outro lado, se "Você joga videogame" for verdadeira, a proposição também será 
+  verdadeira, mesmo que você não esteja estudando. A única maneira da proposição composta ser falsa é se ambas as 
+  proposições forem falsas.
 
-Em termos formais, podemos representá-lo como:
+   Em termos formais, podemos representá-lo como:
 
-P ↔ Q, onde P e Q precisam ter o mesmo valor lógico: ambas verdadeiras ou ambas falsas.
+    - P ∨ Q, onde P e Q são as proposições. A proposição composta será falsa somente quando P e Q forem ambas 
+     falsas.
 
- O conectivo "SE E SOMENTE SE" cria uma equivalência entre duas proposições, onde ambas precisam ter o mesmo valor lógico para que a proposição composta seja verdadeira.
-
-
-Conectivo "OU ... ou" (Disjunção Exclusiva): Conectivo usado quando queremos afirmar que uma proposição será verdadeira se, e somente se, uma das opções for verdadeira, mas não ambas. É como dizer "Ou você escolhe A, ou escolhe B, mas não pode escolher os dois ao mesmo tempo". Um exemplo de proposição seria: "Ou você me ajuda, ou você paga a conta". Aqui, uma das opções deve ser verdadeira, mas se as duas forem verdadeiras, a proposição composta será falsa.
-
-Em termos simples, o conectivo "OU ... ou" nos ajuda a restringir nossas escolhas, criando uma situação em que apenas uma das proposições pode ser verdadeira de cada vez. Isso o torna diferente da disjunção simples, onde ambas podem ser verdadeiras simultaneamente.
-
-Em termos formais, podemos representá-lo como:
-
-P ⊕ Q, onde P e Q são proposições, e a proposição composta é verdadeira se apenas uma das duas for verdadeira.
-
-O conectivo "OU ... ou" restringe as opções possíveis, permitindo que apenas uma das proposições seja verdadeira de cada vez, o que é útil quando queremos garantir exclusividade.
+   O conectivo "OU" é fundamental quando queremos dar uma opção entre proposições, onde qualquer uma das opções 
+  pode ser verdadeira, tornando a proposição composta verdadeira.
 
 
-Conectivo "NÃO" (Negação): É um dos conectivos mais simples, mas igualmente importantes. Ele serve para inverter o valor lógico de uma proposição. Se uma proposição é verdadeira, o conectivo "NÃO" a torna falsa, e vice-versa. Um exemplo seria: "Não está chovendo". Aqui, a negação transforma a proposição "Está chovendo" em "Não está chovendo", ou seja, inverte o valor de verdade da proposição original.
+ * Conectivo "SE... ENTÃO" (Condicional): Esse conectivo  é utilizado quando queremos estabelecer uma relação de 
+  causa e efeito entre duas proposições. Ele pode ser entendido como um se acontecer a primeira coisa, então a 
+  segunda acontecerá. Um exemplo de proposição seria: "Se chover, então eu vou levar o guarda-chuva". Nesse caso, a 
+  proposição condicional nos diz que, caso a primeira proposição seja verdadeira (chover), a segunda proposição 
+  (levar o guarda-chuva) será verdadeira também.
 
-A negação é essencial porque nos permite afirmar a falsidade de algo, ou criar proposições alternativas. Ela é muitas vezes usada em situações em que estamos tentando provar que algo não é verdade, ou quando queremos explorar as possíveis exceções ou contradições.
+   É importante notar que a proposição não diz que se não chover, então você não levará o guarda-chuva. O conectivo 
+  "SE... ENTÃO" só nos importa quando a primeira parte (a causa) é verdadeira. Se a primeira proposição for falsa, 
+  a proposição condicional é considerada verdadeira, independentemente da segunda parte.
 
-Em termos formais, podemos representá-lo como:
+   Em termos formais, representamos esse conectivo como:
 
-¬P, onde P é a proposição original, e ¬P é a negação de P. Se P for verdadeira, ¬P será falsa, e vice-versa.
+    - P → Q, onde P é a causa e Q é o efeito. A proposição composta será verdadeira em todos os casos, exceto 
+     quando P for verdadeira e Q for falsa.
 
- O conectivo "NÃO" é fundamental para inverter o valor lógico de uma proposição, oferecendo uma forma poderosa de modificar e explorar o raciocínio lógico.
+   O conectivo "SE... ENTÃO" é crucial quando queremos afirmar uma relação causal entre as proposições, dizendo que 
+  a segunda depende da primeira para ser verdadeira.
 
 
-Em suma, os conectivos lógicos são como as ferramentas de um artesão, cada uma com uma função específica, mas todas trabalhando juntas para construir uma estrutura lógica mais sólida e organizada. Eles permitem que possamos combinar proposições simples e criar raciocínios complexos, essenciais para a resolução de problemas lógicos e até na construção de argumentos convincentes no nosso dia a dia.
+ * Conectivo "SE E SOMENTE SE" (Bicondicional): É um conectivo especial que estabelece uma relação de equivalência 
+  entre duas proposições. Ele diz que uma proposição é verdadeira se e somente se a outra também for verdadeira. Ou 
+  seja, as duas proposições precisam ser verdadeiras ou ambas falsas para que a proposição composta seja 
+  verdadeira. Um exemplo seria: "Você vai ao cinema se e somente se terminar o trabalho".
 
-Agora que conhecemos os principais conectivos, podemos ver como eles são fundamentais para a estrutura da lógica. Eles nos ajudam a entender a relação entre diferentes afirmações, a testar a validade de argumentos e a explorar as possibilidades dentro de um raciocínio lógico. Quanto mais familiarizados ficamos com eles, mais fáceis se tornam as tarefas de análise e construção de argumentos claros e consistentes.
+   Essa proposição implica que, para você ir ao cinema, é necessário que termine o trabalho, e, caso o trabalho não 
+  seja terminado, você não irá ao cinema. O bicondicional estabelece uma relação mútua de dependência entre as 
+  proposições. Ele é mais restritivo que o "SE... ENTÃO", pois exige que as duas partes sejam verdadeiras ou falsas 
+  simultaneamente.
+
+   Em termos formais, podemos representá-lo como:
+
+    - P ↔ Q, onde P e Q precisam ter o mesmo valor lógico: ambas verdadeiras ou ambas falsas.
+
+   O conectivo "SE E SOMENTE SE" cria uma equivalência entre duas proposições, onde ambas precisam ter o mesmo 
+  valor lógico para que a proposição composta seja verdadeira.
+
+
+ * Conectivo "OU ... ou" (Disjunção Exclusiva): Conectivo usado quando queremos afirmar que uma proposição será 
+  verdadeira se, e somente se, uma das opções for verdadeira, mas não ambas. É como dizer "Ou você escolhe A, ou 
+  escolhe B, mas não pode escolher os dois ao mesmo tempo". Um exemplo de proposição seria: "Ou você me ajuda, ou 
+  você paga a conta". Aqui, uma das opções deve ser verdadeira, mas se as duas forem verdadeiras, a proposição 
+  composta será falsa.
+
+   Em termos simples, o conectivo "OU ... ou" nos ajuda a restringir nossas escolhas, criando uma situação em que 
+  apenas uma das proposições pode ser verdadeira de cada vez. Isso o torna diferente da disjunção simples, onde 
+  ambas podem ser verdadeiras simultaneamente.
+
+   Em termos formais, podemos representá-lo como:
+
+    - P ⊕ Q, onde P e Q são proposições, e a proposição composta é verdadeira se apenas uma das duas for 
+     verdadeira.
+
+   O conectivo "OU ... ou" restringe as opções possíveis, permitindo que apenas uma das proposições seja verdadeira 
+  de cada vez, o que é útil quando queremos garantir exclusividade.
+
+
+ - Conectivo "NÃO" (Negação): É um dos conectivos mais simples, mas igualmente importantes. Ele serve para inverter 
+  o valor lógico de uma proposição. Se uma proposição é verdadeira, o conectivo "NÃO" a torna falsa, e vice-versa. 
+  Um exemplo seria: "Não está chovendo". Aqui, a negação transforma a proposição "Está chovendo" em "Não está 
+  chovendo", ou seja, inverte o valor de verdade da proposição original.
+
+   A negação é essencial porque nos permite afirmar a falsidade de algo, ou criar proposições alternativas. Ela é 
+  muitas vezes usada em situações em que estamos tentando provar que algo não é verdade, ou quando queremos 
+  explorar as possíveis exceções ou contradições.
+
+   Em termos formais, podemos representá-lo como:
+
+    - ¬P, onde P é a proposição original, e ¬P é a negação de P. Se P for verdadeira, ¬P será falsa, e vice-versa.
+
+   O conectivo "NÃO" é fundamental para inverter o valor lógico de uma proposição, oferecendo uma forma poderosa de 
+  modificar e explorar o raciocínio lógico.
+
+ Em suma, os conectivos lógicos são como as ferramentas de um artesão, cada uma com uma função específica, mas 
+todas trabalhando juntas para construir uma estrutura lógica mais sólida e organizada. Eles permitem que possamos 
+combinar proposições simples e criar raciocínios complexos, essenciais para a resolução de problemas lógicos e até 
+na construção de argumentos convincentes no nosso dia a dia.
+
+ Agora que conhecemos os principais conectivos, podemos ver como eles são fundamentais para a estrutura da lógica. 
+Eles nos ajudam a entender a relação entre diferentes afirmações, a testar a validade de argumentos e a explorar as 
+possibilidades dentro de um raciocínio lógico. Quanto mais familiarizados ficamos com eles, mais fáceis se tornam  
+as tarefas de análise e construção de argumentos claros e consistentes.
 
 
 
