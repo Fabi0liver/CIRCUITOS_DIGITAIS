@@ -140,7 +140,7 @@ estruturada.
 
 
 
-                                          "O que é Proposições"
+                                          "O que são Proposições"
 
  As proposições são um dos conceitos mais importantes dentro da lógica, e podemos entendê-las como afirmações ou 
 declarações que podem ser classificadas como verdadeiras ou falsas. Ou seja, uma proposição sempre carrega uma 
