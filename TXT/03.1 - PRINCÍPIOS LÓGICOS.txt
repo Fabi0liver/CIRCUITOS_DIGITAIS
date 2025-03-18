@@ -245,7 +245,8 @@ P ∧ Q, onde P e Q são as proposições. A proposição composta só será ver
  O conectivo "E" é essencial para situações onde precisamos de uma conjunção, ou seja, quando queremos afirmar que duas condições devem ser verdadeiras simultaneamente para que a proposição composta seja verdadeira.
 
 
-Conectivo "OU" (Disjunção): Esse outro conectivo é utilizado quando queremos dizer que pelo menos uma das proposições precisa ser verdadeira para que a proposição composta seja verdadeira. Ele funciona como uma escolha, onde basta que uma das opções seja verdadeira para que o todo seja verdadeiro. Um exemplo de proposição seria: "Ou você estuda, ou você joga videogame". Nesse caso, para que a proposição composta seja verdadeira, é suficiente que uma das partes seja verdadeira.
+Conectivo "OU" (Disjunção Inclusiva): Esse outro conectivo é utilizado quando queremos dizer que pelo menos uma das proposições precisa ser verdadeira para que a proposição composta seja verdadeira. Ele funciona como uma escolha, onde basta que uma das opções seja verdadeira para que o todo seja verdadeiro. Um exemplo de proposição seria: 
+"Você estuda, ou você joga videogame". Nesse caso, para que a proposição composta seja verdadeira, é suficiente que uma das partes seja verdadeira.
 
 Se "Você estuda" for verdadeira, então a proposição composta será verdadeira, mesmo que a outra parte, "Você joga videogame", seja falsa. E, por outro lado, se "Você joga videogame" for verdadeira, a proposição também será verdadeira, mesmo que você não esteja estudando. A única maneira da proposição composta ser falsa é se ambas as proposições forem falsas.
 
@@ -278,15 +279,15 @@ P ↔ Q, onde P e Q precisam ter o mesmo valor lógico: ambas verdadeiras ou amb
  O conectivo "SE E SOMENTE SE" cria uma equivalência entre duas proposições, onde ambas precisam ter o mesmo valor lógico para que a proposição composta seja verdadeira.
 
 
-Conectivo "OU Exclusivo" (Disjunção Exclusiva): Conectivo usado quando queremos afirmar que uma proposição será verdadeira se, e somente se, uma das opções for verdadeira, mas não ambas. É como dizer "Ou você escolhe A, ou escolhe B, mas não pode escolher os dois ao mesmo tempo". Um exemplo de proposição seria: "Ou você me ajuda, ou você paga a conta". Aqui, uma das opções deve ser verdadeira, mas se as duas forem verdadeiras, a proposição composta será falsa.
+Conectivo "OU ... ou" (Disjunção Exclusiva): Conectivo usado quando queremos afirmar que uma proposição será verdadeira se, e somente se, uma das opções for verdadeira, mas não ambas. É como dizer "Ou você escolhe A, ou escolhe B, mas não pode escolher os dois ao mesmo tempo". Um exemplo de proposição seria: "Ou você me ajuda, ou você paga a conta". Aqui, uma das opções deve ser verdadeira, mas se as duas forem verdadeiras, a proposição composta será falsa.
 
-Em termos simples, o conectivo "OU Exclusivo" nos ajuda a restringir nossas escolhas, criando uma situação em que apenas uma das proposições pode ser verdadeira de cada vez. Isso o torna diferente da disjunção simples, onde ambas podem ser verdadeiras simultaneamente.
+Em termos simples, o conectivo "OU ... ou" nos ajuda a restringir nossas escolhas, criando uma situação em que apenas uma das proposições pode ser verdadeira de cada vez. Isso o torna diferente da disjunção simples, onde ambas podem ser verdadeiras simultaneamente.
 
 Em termos formais, podemos representá-lo como:
 
 P ⊕ Q, onde P e Q são proposições, e a proposição composta é verdadeira se apenas uma das duas for verdadeira.
 
-O conectivo "OU Exclusivo" restringe as opções possíveis, permitindo que apenas uma das proposições seja verdadeira de cada vez, o que é útil quando queremos garantir exclusividade.
+O conectivo "OU ... ou" restringe as opções possíveis, permitindo que apenas uma das proposições seja verdadeira de cada vez, o que é útil quando queremos garantir exclusividade.
 
 
 Conectivo "NÃO" (Negação): É um dos conectivos mais simples, mas igualmente importantes. Ele serve para inverter o valor lógico de uma proposição. Se uma proposição é verdadeira, o conectivo "NÃO" a torna falsa, e vice-versa. Um exemplo seria: "Não está chovendo". Aqui, a negação transforma a proposição "Está chovendo" em "Não está chovendo", ou seja, inverte o valor de verdade da proposição original.
