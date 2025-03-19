@@ -655,27 +655,31 @@ tecnologias que nos ajudam no cotidiano.
 
                                         "Lógica na Computação"
 
-Na computação, a lógica é fundamental para o desenvolvimento de sistemas que funcionam de maneira eficiente e correta. Ela está presente em diversos aspectos do nosso cotidiano digital, desde os algoritmos até a construção de circuitos eletrônicos. O papel da lógica é garantir que as instruções e comandos dentro dos sistemas computacionais sejam executados de maneira clara e precisa. Isso permite que computadores, por exemplo, tomem decisões baseadas em informações previamente fornecidas, em um processo que pode ser tanto simples quanto extremamente complexo.
+ Na computação, a lógica é fundamental para o desenvolvimento de sistemas que funcionam de maneira eficiente e 
+correta. Ela está presente em diversos aspectos do nosso cotidiano digital, desde os algoritmos até a construção de 
+circuitos eletrônicos. O papel da lógica é garantir que as instruções e comandos dentro dos sistemas computacionais 
+sejam executados de maneira clara e precisa. Isso permite que computadores, por exemplo, tomem decisões baseadas em 
+informações previamente fornecidas, em um processo que pode ser tanto simples quanto extremamente complexo.
 
-Uma das formas mais simples de ver a lógica na computação é através de estruturas de decisão, como as instruções "se... então" que são comuns na programação. Esses tipos de raciocínio lógico permitem que os programas determinem qual caminho seguir em função de dados de entrada, garantindo que o programa funcione como esperado. Se um valor atender a determinada condição, a ação é executada, caso contrário, uma outra ação pode ser tomada. Isso é como escolher uma rota em um mapa, onde sua decisão depende das condições do caminho à frente.
+ Uma das formas mais simples de ver a lógica na computação é através de estruturas de decisão, como as instruções 
+"se... então" que são comuns na programação. Esses tipos de raciocínio lógico permitem que os programas determinem 
+qual caminho seguir em função de dados de entrada, garantindo que o programa funcione como esperado. Se um valor 
+atender a determinada condição, a ação é executada, caso contrário, uma outra ação pode ser tomada. Isso é como 
+escolher uma rota em um mapa, onde sua decisão depende das condições do caminho à frente.
 
-Além disso, a lógica também é essencial no design de circuitos eletrônicos e no funcionamento das unidades de processamento, como os processadores de computadores. Através de operações lógicas simples, como "E", "OU" e "NÃO", os circuitos podem realizar cálculos complexos e tomar decisões baseadas em múltiplas condições. Esses circuitos são a base de tudo, desde uma simples calculadora até sistemas de inteligência artificial que buscam aprender e tomar decisões cada vez mais sofisticadas.
+ Além disso, a lógica também é essencial no design de circuitos eletrônicos e no funcionamento das unidades de 
+processamento, como os processadores de computadores. Através de operações lógicas simples, como "E", "OU" e "NÃO", 
+os circuitos podem realizar cálculos complexos e tomar decisões baseadas em múltiplas condições. Esses circuitos 
+são a base de tudo, desde uma simples calculadora até sistemas de inteligência artificial que buscam aprender e  
+tomar decisões cada vez mais sofisticadas.
 
-Outro ponto importante é o papel da lógica na segurança digital. As operações lógicas são essenciais para a construção de sistemas criptográficos e protocolos de segurança, permitindo que informações sejam transmitidas de maneira segura. A codificação de dados, a verificação de integridade e a autenticação de usuários dependem de lógica para garantir que apenas as pessoas ou sistemas autorizados possam acessar determinados recursos.
+ Outro ponto importante é o papel da lógica na segurança digital. As operações lógicas são essenciais para a 
+construção de sistemas criptográficos e protocolos de segurança, permitindo que informações sejam transmitidas de 
+maneira segura. A codificação de dados, a verificação de integridade e a autenticação de usuários dependem de 
+lógica para garantir que apenas as pessoas ou sistemas autorizados possam acessar determinados recursos.
 
-Em resumo, a lógica na computação não é apenas uma ferramenta técnica, mas um alicerce sobre o qual tudo se constrói. Ela é vital para garantir que as máquinas entendam o que precisamos que elas façam e, mais importante, para que elas façam isso corretamente. Ao entender a lógica, podemos criar sistemas mais eficientes, seguros e inteligentes, tornando o mundo digital cada vez mais funcional e acessível. A lógica não é apenas uma parte essencial da computação, mas também uma chave para entender o comportamento e as capacidades dos computadores.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ Em resumo, a lógica na computação não é apenas uma ferramenta técnica, mas um alicerce sobre o qual tudo se 
+constrói. Ela é vital para garantir que as máquinas entendam o que precisamos que elas façam e, mais importante, 
+para que elas façam isso corretamente. Ao entender a lógica, podemos criar sistemas mais eficientes, seguros e 
+inteligentes, tornando o mundo digital cada vez mais funcional e acessível. A lógica não é apenas uma parte 
+essencial da computação, mas também uma chave para entender o comportamento e as capacidades dos computadores.
