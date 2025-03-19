@@ -558,57 +558,98 @@ capacidade de resolver problemas de forma mais eficiente.
 
 
 
-                                           "Tipos de Lógica"
+                                        "Tipos de Lógica"
 
-Quando ouvimos a palavra "lógica", logo pensamos em algo relacionado ao raciocínio correto ou à maneira certa de pensar. Mas o universo da lógica vai muito além disso, sendo um campo vasto e cheio de ramificações, cada uma dedicada a estudar diferentes formas de raciocínio e argumentação. Desde os tempos antigos até o mundo moderno da computação e da inteligência artificial, a lógica sempre esteve presente como ferramenta fundamental para entender o funcionamento das ideias, das palavras e até dos circuitos eletrônicos.
+ Quando ouvimos a palavra "lógica", logo pensamos em algo relacionado ao raciocínio correto ou à maneira certa de 
+pensar. Mas o universo da lógica vai muito além disso, sendo um campo vasto e cheio de ramificações, cada uma 
+dedicada a estudar diferentes formas de raciocínio e argumentação. Desde os tempos antigos até o mundo moderno da 
+computação e da inteligência artificial, a lógica sempre esteve presente como ferramenta fundamental para entender 
+o funcionamento das ideias, das palavras e até dos circuitos eletrônicos.
 
-Conforme a humanidade evoluiu, diferentes tipos de lógica foram surgindo para atender às necessidades de diversas áreas do conhecimento. Assim, a lógica se adaptou para tratar desde conversas cotidianas até cálculos matemáticos complexos ou decisões de máquinas. Por isso, é essencial conhecer os principais tipos de lógica e entender como cada um funciona e para que serve. 
+ Conforme a humanidade evoluiu, diferentes tipos de lógica foram surgindo para atender às necessidades de diversas 
+áreas do conhecimento. Assim, a lógica se adaptou para tratar desde conversas cotidianas até cálculos matemáticos 
+complexos ou decisões de máquinas. Por isso, é essencial conhecer os principais tipos de lógica e entender como 
+cada um funciona e para que serve. 
 
-Agora, vamos seguir para essa jornada e conhecer cada um deles:
+ Agora, vamos seguir para essa jornada e conhecer cada um deles:
 
-Lógica Formal: É aquela que se preocupa com a estrutura dos argumentos, sem se importar se o conteúdo é verdadeiro ou não. Ela quer saber se a forma como as ideias foram organizadas faz sentido e se o raciocínio é válido. Por exemplo, "Se todos os homens são mortais e Sócrates é homem, então Sócrates é mortal", esse é um clássico da Lógica Formal.
+ * Lógica Formal: É aquela que se preocupa com a estrutura dos argumentos, sem se importar se o conteúdo é 
+  verdadeiro ou não. Ela quer saber se a forma como as ideias foram organizadas faz sentido e se o raciocínio é 
+  válido. Por exemplo, "Se todos os homens são mortais e Sócrates é homem, então Sócrates é mortal", esse é um 
+  clássico da Lógica Formal.
 
-Esse tipo de lógica é muito usado em filosofia, matemática e direito, pois permite analisar a validade de qualquer argumento independentemente do assunto. O foco é sempre na forma da argumentação, o que garante rigor e clareza ao raciocínio. Por isso, ela é uma base importante para o estudo da lógica em geral.
-
-
-Lógica Informal: Já a Lógica Informal é aquela que lidamos no dia a dia, nas conversas, debates e redações. Ela não se preocupa tanto com as fórmulas ou símbolos, mas sim com a clareza, a coerência e a persuasão dos argumentos. Um exemplo é quando avaliamos se um político está sendo coerente em seu discurso ou se uma propaganda faz sentido.
-
-Ela é muito útil para desenvolver o pensamento crítico e ajuda a perceber quando alguém está tentando nos convencer usando falácias ou argumentos fracos. Na prática, a Lógica Informal é uma aliada para entender melhor o mundo ao nosso redor e tomar decisões mais conscientes.
-
-
-Lógica Matemática: Como o nome já diz, se conecta diretamente com a matemática e usa símbolos, números e operações para analisar proposições e construir raciocínios. Ela é a base para várias áreas como a teoria dos conjuntos, a computação e a inteligência artificial.
-
-Por exemplo, quando dizemos "Se A então B" e analisamos todas as possibilidades para A e B serem verdadeiros ou falsos, estamos usando a Lógica Matemática. Ela é essencial para quem quer seguir na área de exatas, pois ajuda a montar algoritmos e resolver problemas complexos de forma organizada.
-
-
-Lógica Booleana: É um braço da Lógica Matemática, mas tão importante que merece destaque. Criada por George Boole, ela trabalha com dois valores principais: verdadeiro (1) e falso (0). É como o "sim" e o "não" do mundo digital.
-
-Essa lógica está presente nos circuitos eletrônicos e na programação de computadores. Por exemplo, quando um sistema precisa decidir entre "ligar" ou "não ligar" um dispositivo, a lógica booleana entra em ação. Ela também está por trás dos mecanismos de busca do Google e de filtros em redes sociais.
+   Esse tipo de lógica é muito usado em filosofia, matemática e direito, pois permite analisar a validade de 
+  qualquer argumento independentemente do assunto. O foco é sempre na forma da argumentação, o que garante rigor e 
+  clareza ao raciocínio. Por isso, ela é uma base importante para o estudo da lógica em geral.
 
 
-Lógica de Predicados: A Lógica de Predicados é uma evolução da Lógica Proposicional, trazendo mais detalhes para as análises. Ela não analisa só se uma frase é verdadeira ou falsa, mas também quem ou o quê está envolvido na ação. Por exemplo: "Todos os gatos são mamíferos" envolve um sujeito (os gatos) e um predicado (ser mamífero).
+ * Lógica Informal: Já a Lógica Informal é aquela que lidamos no dia a dia, nas conversas, debates e redações. Ela 
+  não se preocupa tanto com as fórmulas ou símbolos, mas sim com a clareza, a coerência e a persuasão dos 
+  argumentos. Um exemplo é quando avaliamos se um político está sendo coerente em seu discurso ou se uma propaganda 
+  faz sentido.
 
-Essa lógica é usada principalmente na matemática, filosofia e na programação de inteligências artificiais, pois permite criar raciocínios mais complexos e detalhados sobre o mundo real.
-
-
-Lógica Modal: A Lógica Modal vai além do "é ou não é" e acrescenta elementos como possibilidade, necessidade e obrigação ao raciocínio lógico. Por exemplo: "É possível que chova amanhã" ou "É necessário estudar para passar".
-
-Esse tipo de lógica é muito usado em filosofia, direito e linguística, porque permite lidar com as incertezas e nuances que a linguagem humana traz. Ela ajuda a entender o que é possível, impossível, obrigatório ou permitido.
-
-
-Lógica Fuzzy (ou Lógica Nebulosa): A Lógica Fuzzy quebra a ideia de que tudo precisa ser 100% verdadeiro ou falso. Ela trabalha com graus de verdade, permitindo respostas como "mais ou menos", "quase sempre" ou "em parte". Um exemplo fácil: "O dia está quente" pode variar de pessoa para pessoa e de temperatura para temperatura.
-
-Essa lógica é muito usada em inteligência artificial, controle de máquinas e eletrodomésticos como ar-condicionado, que precisa decidir se vai aumentar ou diminuir a temperatura de forma gradual.
+   Ela é muito útil para desenvolver o pensamento crítico e ajuda a perceber quando alguém está tentando nos 
+  convencer usando falácias ou argumentos fracos. Na prática, a Lógica Informal é uma aliada para entender melhor o 
+  mundo ao nosso redor e tomar decisões mais conscientes.
 
 
-Lógica Paraconsistente: Surge para lidar com situações em que há contradições, mas mesmo assim precisamos continuar o raciocínio. Na lógica tradicional, uma contradição anula tudo. Mas na Paraconsistente, a contradição é aceita e trabalhada.
+ * Lógica Matemática: Como o nome já diz, se conecta diretamente com a matemática e usa símbolos, números e 
+  operações para analisar proposições e construir raciocínios. Ela é a base para várias áreas como a teoria dos 
+  conjuntos, a computação e a inteligência artificial.
 
-Ela é útil, por exemplo, na análise de bancos de dados com informações desencontradas ou em decisões jurídicas onde há provas que se contradizem, mas mesmo assim é preciso chegar a uma conclusão.
+   Por exemplo, quando dizemos "Se A então B" e analisamos todas as possibilidades para A e B serem verdadeiros ou 
+  falsos, estamos usando a Lógica Matemática. Ela é essencial para quem quer seguir na área de exatas, pois ajuda a 
+  montar algoritmos e resolver problemas complexos de forma organizada.
 
 
-Em suma, os diferentes tipos de lógica servem para lidar com as várias formas de raciocínio que usamos no dia a dia, nas ciências e na tecnologia. Cada uma delas tem sua função específica, seja analisando a estrutura dos argumentos, ajudando nas decisões ou até programando computadores.
+ * Lógica Booleana: É um braço da Lógica Matemática, mas tão importante que merece destaque. Criada por George 
+  Boole, ela trabalha com dois valores principais: verdadeiro (1) e falso (0). É como o "sim" e o "não" do mundo 
+  digital.
 
-Entender essas variações nos dá uma visão mais ampla e crítica sobre como pensamos, argumentamos e interagimos com o mundo. Com isso, conseguimos fazer escolhas melhores, criar soluções mais inteligentes e até desenvolver tecnologias que nos ajudam no cotidiano.
+   Essa lógica está presente nos circuitos eletrônicos e na programação de computadores. Por exemplo, quando um 
+  sistema precisa decidir entre "ligar" ou "não ligar" um dispositivo, a lógica booleana entra em ação. Ela também 
+  está por trás dos mecanismos de busca do Google e de filtros em redes sociais.
+
+
+ * Lógica de Predicados: A Lógica de Predicados é uma evolução da Lógica Proposicional, trazendo mais detalhes para 
+  as análises. Ela não analisa só se uma frase é verdadeira ou falsa, mas também quem ou o quê está envolvido na 
+  ação. Por exemplo: "Todos os gatos são mamíferos" envolve um sujeito (os gatos) e um predicado (ser mamífero).
+
+   Essa lógica é usada principalmente na matemática, filosofia e na programação de inteligências artificiais, pois 
+  permite criar raciocínios mais complexos e detalhados sobre o mundo real.
+
+
+ * Lógica Modal: A Lógica Modal vai além do "é ou não é" e acrescenta elementos como possibilidade, necessidade e 
+  obrigação ao raciocínio lógico. Por exemplo: "É possível que chova amanhã" ou "É necessário estudar para passar".
+
+   Esse tipo de lógica é muito usado em filosofia, direito e linguística, porque permite lidar com as incertezas e 
+  nuances que a linguagem humana traz. Ela ajuda a entender o que é possível, impossível, obrigatório ou permitido.
+
+
+ * Lógica Fuzzy (ou Lógica Nebulosa): A Lógica Fuzzy quebra a ideia de que tudo precisa ser 100% verdadeiro ou 
+  falso. Ela trabalha com graus de verdade, permitindo respostas como "mais ou menos", "quase sempre" ou "em 
+  parte". Um exemplo fácil: "O dia está quente" pode variar de pessoa para pessoa e de temperatura para 
+  temperatura.
+
+   Essa lógica é muito usada em inteligência artificial, controle de máquinas e eletrodomésticos como ar-
+  condicionado, que precisa decidir se vai aumentar ou diminuir a temperatura de forma gradual.
+
+
+ * Lógica Paraconsistente: Surge para lidar com situações em que há contradições, mas mesmo assim precisamos 
+  continuar o raciocínio. Na lógica tradicional, uma contradição anula tudo. Mas na Paraconsistente, a contradição 
+  é aceita e trabalhada.
+
+   Ela é útil, por exemplo, na análise de bancos de dados com informações desencontradas ou em decisões jurídicas 
+  onde há provas que se contradizem, mas mesmo assim é preciso chegar a uma conclusão.
+
+
+ Em suma, os diferentes tipos de lógica servem para lidar com as várias formas de raciocínio que usamos no dia a 
+dia, nas ciências e na tecnologia. Cada uma delas tem sua função específica, seja analisando a estrutura dos 
+argumentos, ajudando nas decisões ou até programando computadores.
+
+ Entender essas variações nos dá uma visão mais ampla e crítica sobre como pensamos, argumentamos e interagimos com 
+o mundo. Com isso, conseguimos fazer escolhas melhores, criar soluções mais inteligentes e até desenvolver 
+tecnologias que nos ajudam no cotidiano.
 
 
 
