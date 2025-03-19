@@ -67,7 +67,59 @@ como interpretamos informações, resolvemos problemas e nos comunicamos com o m
 
 
 
-                                   "Os Tipos de Raciocínio Lógico"
+                                  "Argumentos e Validade Lógica"
+
+Quando falamos de lógica, um dos conceitos mais importantes que surgem é o de argumento . Um argumento nada mais é do que um conjunto de ideias organizadas para defender uma conclusão. No dia a dia, usamos argumentos o tempo todo, seja para explicar uma opinião, convencer alguém ou até mesmo fundamentar nossas ações. Em termos lógicos, o argumento tem uma estrutura clara: ele parte de premissas (afirmações iniciais) que sustentam uma conclusão .
+
+Agora, dentro da lógica, não basta ter um argumento, ele precisa ser válido. A validade lógica não está relacionada a ser verdadeira ou falsa, mas sim a como o argumento foi construído. Um argumento válido é aquele em que, se todas as colocações forem verdadeiras, a conclusão também será verdadeira obrigatoriamente. É como montar um quebra-cabeça: se as peças se encaixam direitinho, o desenho final aparece como esperado. Caso contrário, algo está errado e o argumento perde sua força.
+
+
+ O que é um argumento lógico?
+
+Um argumento lógico é como uma ponte que liga o ponto A (as propostas) ao ponto B (a conclusão). Ele serviu justamente para mostrar por que aquela conclusão faz sentido diante das informações apresentadas. Um exemplo simples:
+
+  Premissa 1: Todos os gatos são mamíferos.
+  
+  Premissa 2: Garfield é um gato.
+  
+  Conclusão: Logo, Garfield é um mamífero.
+
+Nesse caso, o argumento está bem estruturado, e a conclusão é realmente correta das propostas. Não há como discordar logicamente do resultado, porque ele é consequência direta do que foi afirmado antes.
+
+Pensar em argumento dessa forma ajuda a entender que nem toda opinião é um argumento . Para ser um argumento, é preciso ter uma justificativa que conduza logicamente a uma conclusão. É o que diferencia um "achismo" de um raciocínio bem construído.
+
+
+O que é Validade Lógica?
+
+Agora, falando da validade lógica , é importante lembrar que um argumento pode ser válido mesmo que suas propostas não sejam verdadeiras — o que importa é a forma, a estrutura do raciocínio. Por exemplo:
+
+  Premissa 1: Todos os peixes voam.
+
+  Premissa 2: O Nemo é um peixe.
+
+  Conclusão: Logo, o Nemo voa.
+
+Esse argumento é válido do ponto de vista da lógica, porque se as propostas fossem verdadeiras, a conclusão também seria. Mas, na vida real, sabemos que a posição 1 é falsa, os peixes não voam. Ou seja, validade não garante verdade . Ela garante apenas que a certeza respeita o caminho traçado pelas instalações.
+
+Pensar nisso é como analisar um trilho de trem: se o trilho está bem colocado, o trem chega ao destino. Agora, se a carga (as posições) for falsa ou errada, o destino (a conclusão) não será verdadeiro, mas o caminho (a lógica) ainda estará correto.
+
+
+Como Saber se um Argumento é Válido?
+
+Para testar a validade de um argumento, podemos usar tabelas verdadeiras, regras da lógica ou simplesmente analisar se existe alguma situação onde as propostas sejam verdadeiras e a conclusão falsa, se existir, o argumento é inválido.
+
+Um teste prático é o da contradição : se for impossível que as propostas sejam verdadeiras e a concluir falsa ao mesmo tempo, o argumento é válido. Por isso, treine a personalidade dessas estruturas nos ajuda muito, principalmente em provas e situações que desativem o raciocínio lógico, como concursos ou debates.
+
+Uma dica legal é sempre pensar: "Se eu acreditar que tudo o que foi dito nas premissas é verdade, a concluir tem que ser verdade também?" Se a resposta for sim, o argumento é válido.
+
+
+Em suma, entender que são argumentos e que significa validade lógica é fundamental para desenvolver um raciocínio crítico e sólido. Um argumento válido tem uma estrutura que garante a conclusão a partir das situações, mesmo que essas situações não sejam verdadeiras na vida real. O segredo da lógica está justamente aí: avaliar o caminho do julgamento, não apenas o conteúdo.
+
+Ao esses conceitos, você passa a perceber como muitas conversas, debates ou dominar textos por aí falham justamente na estrutura lógica dos argumentos. E isso te dá uma vantagem enorme para pensar com clareza, questionar melhor o que ouve e até construir suas ideias com mais força e segurança.
+
+
+
+                                  "Os Tipos de Raciocínio Lógico"
 
  Ao longo da nossa vida, usamos a lógica para tomar decisões, resolver problemas e até mesmo para formar nossas 
 opiniões. Mas o que muitos não percebem é que existem diferentes maneiras de raciocinar logicamente. Esses caminhos 
