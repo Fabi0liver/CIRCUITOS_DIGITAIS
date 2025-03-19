@@ -69,39 +69,76 @@ como interpretamos informações, resolvemos problemas e nos comunicamos com o m
 
                                    "Os Tipos de Raciocínio Lógico"
 
-Ao longo da nossa vida, usamos a lógica para tomar decisões, resolver problemas e até mesmo para formar nossas opiniões. Mas o que muitos não percebem é que existem diferentes maneiras de raciocinar logicamente. Esses caminhos são chamados de tipos de raciocínio lógico e cada um possui uma forma distinta de organizar o pensamento e chegar a conclusões. Conhecer esses tipos de raciocínio nos ajuda a entender como construímos ideias e argumentações, além de melhorar nossa capacidade de resolver questões de maneira mais clara e estruturada.
+ Ao longo da nossa vida, usamos a lógica para tomar decisões, resolver problemas e até mesmo para formar nossas 
+opiniões. Mas o que muitos não percebem é que existem diferentes maneiras de raciocinar logicamente. Esses caminhos 
+são chamados de tipos de raciocínio lógico e cada um possui uma forma distinta de organizar o pensamento e chegar a 
+conclusões. Conhecer esses tipos de raciocínio nos ajuda a entender como construímos ideias e argumentações, além 
+de melhorar nossa capacidade de resolver questões de maneira mais clara e estruturada.
 
-Dentro do estudo da lógica, esses tipos de raciocínio são fundamentais para diversas áreas, como a filosofia, a matemática, a ciência e até mesmo para o nosso dia a dia. Eles nos ajudam a compreender a diferença entre um argumento que parte de uma certeza, um que busca padrões ou um que tenta achar a melhor explicação para um fato. 
+ Dentro do estudo da lógica, esses tipos de raciocínio são fundamentais para diversas áreas, como a filosofia, a 
+matemática, a ciência e até mesmo para o nosso dia a dia. Eles nos ajudam a compreender a diferença entre um 
+argumento que parte de uma certeza, um que busca padrões ou um que tenta achar a melhor explicação para um fato. 
 
-Agora que você já sabe da importância de entender os diferentes caminhos que o raciocínio lógico pode seguir, vamos conhecer cada um deles mais de perto: 
+ Agora que você já sabe da importância de entender os diferentes caminhos que o raciocínio lógico pode seguir, 
+vamos conhecer cada um deles mais de perto: 
 
-Raciocínio Dedutivo: É raciocínio dedutivo é aquele que parte de uma verdade geral para chegar a uma conclusão específica e certeira. Funciona como uma escada onde, a partir de degraus sólidos (as premissas), a gente desce diretamente até o resultado. Um exemplo bem simples: "Todos os humanos são mortais. Sócrates é humano. Logo, Sócrates é mortal." Aqui, a conclusão é inevitável, pois ela decorre diretamente das premissas que já sabemos serem verdadeiras.
+ * Raciocínio Dedutivo: O raciocínio dedutivo é aquele que parte de uma verdade geral para chegar a uma conclusão 
+  específica e certeira. Funciona como uma escada onde, a partir de degraus sólidos (as premissas), a gente desce 
+  diretamente até o resultado. Um exemplo bem simples: "Todos os humanos são mortais. Sócrates é humano. Logo, 
+  Sócrates é mortal." Aqui, a conclusão é inevitável, pois ela decorre diretamente das premissas que já sabemos 
+  serem verdadeiras.
 
-Esse tipo de raciocínio é muito usado na matemática e na lógica formal, porque ele não admite meio-termo ou incerteza, se as premissas forem verdadeiras, a conclusão também será verdadeira, sem margem para dúvidas. É como uma receita de bolo bem específica: se você seguir todos os passos certinhos, o bolo vai sair exatamente como o esperado.
+   Esse tipo de raciocínio é muito usado na matemática e na lógica formal, porque ele não admite meio-termo ou 
+  incerteza, se as premissas forem verdadeiras, a conclusão também será verdadeira, sem margem para dúvidas. É como 
+  uma receita de bolo bem específica: se você seguir todos os passos certinhos, o bolo vai sair exatamente como o 
+  esperado.
 
-O raciocínio dedutivo é o mais "certeiro" dos três, porque sempre parte de verdades já estabelecidas para chegar a uma conclusão garantida. Ele é fundamental quando precisamos de resultados exatos, como na matemática ou na construção de argumentos sólidos.
-
-
-Raciocínio Indutivo: Já o raciocínio indutivo funciona ao contrário: ele parte de observações específicas para tentar chegar a uma conclusão geral. É como observar que todos os dias o Sol nasceu e concluir que o Sol sempre vai nascer. Aqui, a gente percebe padrões e tenta generalizar a partir deles, o que é muito comum na ciência e no nosso dia a dia.
-
-O grande detalhe da indução é que ela não garante 100% de certeza na conclusão, mas oferece uma boa probabilidade de estar certa. Isso acontece porque estamos nos baseando em experiências passadas para prever o futuro. Por exemplo: "Todos os cisnes que eu vi até hoje são brancos. Logo, todos os cisnes são brancos." Aí mora o perigo da indução: basta aparecer um cisne negro para derrubar a nossa conclusão.
-
- O raciocínio indutivo é extremamente útil, especialmente nas ciências, para criar hipóteses e teorias. Mas ele exige cuidado, já que as generalizações podem nem sempre refletir a realidade completa. É um raciocínio mais "exploratório", ideal para levantar possibilidades.
-
-
-Raciocínio Abdutivo: Por fim, temos o raciocínio abdutivo, que é o mais "investigativo" dos três. Ele funciona como o raciocínio de um detetive: diante de um fato ou uma evidência, a gente tenta achar a melhor explicação possível. A abdução não garante uma verdade absoluta, mas propõe uma hipótese plausível que pode ser testada depois.
-
-Um exemplo clássico: "Ouço um barulho no telhado à noite. Pode ser um gato." Aqui, o raciocínio abdutivo não tem como garantir que é um gato, mas sugere essa hipótese porque é a explicação mais provável. Usamos esse tipo de raciocínio o tempo todo, principalmente quando não temos todas as informações, mas precisamos agir ou tirar uma conclusão rápida.
-
- O raciocínio abdutivo é essencial para situações que exigem uma resposta rápida baseada em poucas informações. É muito usado em diagnósticos médicos, investigações policiais ou mesmo em decisões do cotidiano, quando buscamos a explicação mais razoável para o que está acontecendo.
-
-Em suma, compreender os três principais tipos de raciocínio lógico — dedutivo, indutivo e abdutivo — é como aprender três ferramentas diferentes para analisar o mundo e resolver problemas. Cada um deles serve a um propósito e pode ser mais adequado a diferentes situações: o dedutivo para certezas, o indutivo para generalizações e o abdutivo para hipóteses rápidas.
-
-Ao conhecer e praticar esses tipos de raciocínio, ganhamos mais clareza na hora de argumentar, tomar decisões ou investigar uma situação. É como ter uma caixa de ferramentas para o pensamento: cada uma tem sua função, e quanto mais dominarmos cada uma delas, melhor será a nossa capacidade de raciocinar de forma lógica, crítica e eficiente.
+   O raciocínio dedutivo é o mais "certeiro" dos três, porque sempre parte de verdades já estabelecidas para chegar 
+  a uma conclusão garantida. Ele é fundamental quando precisamos de resultados exatos, como na matemática ou na 
+  construção de argumentos sólidos.
 
 
+ * Raciocínio Indutivo: Já o raciocínio indutivo funciona ao contrário: ele parte de observações específicas para 
+  tentar chegar a uma conclusão geral. É como observar que todos os dias o Sol nasceu e concluir que o Sol sempre 
+  vai nascer. Aqui, a gente percebe padrões e tenta generalizar a partir deles, o que é muito comum na ciência e no 
+  nosso dia a dia.
 
-                                "Os Princípios Fundamentais da Lógica"
+   O grande detalhe da indução é que ela não garante 100% de certeza na conclusão, mas oferece uma boa 
+  probabilidade de estar certa. Isso acontece porque estamos nos baseando em experiências passadas para prever o 
+  futuro. Por exemplo: "Todos os cisnes que eu vi até hoje são brancos. Logo, todos os cisnes são brancos." Aí mora 
+  o perigo da indução: basta aparecer um cisne negro para derrubar a nossa conclusão.
+
+   O raciocínio indutivo é extremamente útil, especialmente nas ciências, para criar hipóteses e teorias. Mas ele 
+  exige cuidado, já que as generalizações podem nem sempre refletir a realidade completa. É um raciocínio mais 
+  "exploratório", ideal para levantar possibilidades.
+
+
+ * Raciocínio Abdutivo: Por fim, temos o raciocínio abdutivo, que é o mais "investigativo" dos três. Ele funciona 
+  como o raciocínio de um detetive: diante de um fato ou uma evidência, a gente tenta achar a melhor explicação 
+  possível. A abdução não garante uma verdade absoluta, mas propõe uma hipótese plausível que pode ser testada 
+  depois.
+
+   Um exemplo clássico: "Ouço um barulho no telhado à noite. Pode ser um gato." Aqui, o raciocínio abdutivo não tem 
+  como garantir que é um gato, mas sugere essa hipótese porque é a explicação mais provável. Usamos esse tipo de 
+  raciocínio o tempo todo, principalmente quando não temos todas as informações, mas precisamos agir ou tirar uma 
+  conclusão rápida.
+
+   O raciocínio abdutivo é essencial para situações que exigem uma resposta rápida baseada em poucas informações. É 
+  muito usado em diagnósticos médicos, investigações policiais ou mesmo em decisões do cotidiano, quando buscamos a 
+  explicação mais razoável para o que está acontecendo.
+
+ Em suma, compreender os três principais tipos de raciocínio lógico (dedutivo, indutivo e abdutivo) é como aprender 
+três ferramentas diferentes para analisar o mundo e resolver problemas. Cada um deles serve a um propósito e pode 
+ser mais adequado a diferentes situações: o dedutivo para certezas, o indutivo para generalizações e o abdutivo 
+para hipóteses rápidas.
+
+ Ao conhecer e praticar esses tipos de raciocínio, ganhamos mais clareza na hora de argumentar, tomar decisões ou 
+investigar uma situação. É como ter uma caixa de ferramentas para o pensamento: cada uma tem sua função, e quanto 
+mais dominarmos cada uma delas, melhor será a nossa capacidade de raciocinar de forma lógica, crítica e eficiente.
+
+
+
+                                 "Os Princípios Fundamentais da Lógica"
 
  Ao longo da história, grandes pensadores buscaram compreender como o raciocínio humano funciona e o que torna um 
 argumento válido ou inválido. Foi nesse esforço que surgiram os princípios fundamentais da lógica, responsáveis por 
