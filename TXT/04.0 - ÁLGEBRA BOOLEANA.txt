@@ -9,3 +9,22 @@ O interessante da Álgebra Booleana é que ela não serve apenas para quem traba
 Uma das grandes vantagens de estudar Álgebra Booleana é perceber como ela simplifica problemas complexos. Com ela, você aprende a olhar para um monte de condições e encontrar a forma mais simples e eficiente de resolver aquilo, o que, na prática, significa menos custo, menos erros e mais eficiência em projetos. É como desmontar uma máquina complicada e perceber que, lá no fundo, ela funciona só com alguns poucos botões bem organizados.
 
 Ao longo dos estudos, você vai ver que a Álgebra Booleana é quase como aprender uma nova língua da lógica, onde combinamos ideias usando operações específicas para chegar a respostas certeiras. E o melhor: quanto mais você pratica, mais natural essa forma de pensar vai ficando. Com o tempo, o que parecia abstrato começa a fazer todo sentido, e você começa a enxergar a lógica booleana escondida em muitas situações do cotidiano; da programação de um aplicativo até o funcionamento da sua calculadora. 
+
+
+
+                                     "Origem da Álgebra Booleana"
+
+A história da Álgebra Booleana começa lá no século XIX, quando um matemático e filósofo britânico chamado George Boole decidiu encarar um desafio ousado para a época: transformar o raciocínio lógico (algo que parecia tão abstrato e filosófico) em um sistema matemático, com regras claras e operações bem definidas. Em 1854, Boole publicou sua obra mais famosa, “An Investigation of the Laws of Thought” (“Uma Investigação das Leis do Pensamento”), onde apresentou esse novo sistema algébrico que levava seu nome. A grande sacada dele foi perceber que o raciocínio lógico podia ser tratado como uma conta matemática, só que ao invés de lidar com números, ele trabalharia com conceitos como verdadeiro e falso.
+
+Curiosamente, quando Boole criou sua álgebra, ele nem imaginava que um dia ela se tornaria a base da computação moderna. Naquele tempo, seu trabalho era visto mais como uma curiosidade matemática ou uma proposta filosófica sobre como pensamos e tomamos decisões. Mas, como acontece com muitas ideias revolucionárias, só alguns anos depois é que outros estudiosos começaram a enxergar o verdadeiro potencial prático daquilo. Era como se Boole tivesse inventado uma engrenagem perfeita, mas ainda faltasse alguém para colocá-la dentro de uma máquina.
+
+Esse papel de “colocar a engrenagem para funcionar” veio algumas décadas depois com outro gênio: Claude Shannon, considerado o pai da teoria da informação. Em 1937, já no século XX, Shannon fez sua pesquisa de mestrado e percebeu que a Álgebra Booleana era perfeita para descrever o funcionamento de circuitos elétricos com chaves liga/desliga. Foi aí que a ligação entre matemática, lógica e eletrônica aconteceu de forma definitiva. Shannon mostrou que qualquer circuito lógico poderia ser modelado usando a álgebra de Boole, e isso abriu as portas para o nascimento dos computadores como conhecemos hoje.
+
+A partir desse momento, a Álgebra Booleana deixou de ser apenas uma curiosidade teórica e passou a ser aplicada diretamente no desenvolvimento da eletrônica digital. Se hoje temos processadores, memórias, redes de comunicação e até inteligência artificial funcionando, muito disso devemos à visão pioneira de Boole e à genialidade de Shannon em conectar aquela teoria abstrata com o mundo real. A história da Álgebra Booleana é um grande exemplo de como a ciência funciona como um jogo de construção: alguém coloca a base, outro percebe uma aplicação, e juntos constroem algo grandioso que transforma o mundo.
+
+
+
+
+
+
+
