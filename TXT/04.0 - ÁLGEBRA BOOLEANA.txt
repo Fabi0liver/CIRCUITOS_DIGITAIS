@@ -65,13 +65,34 @@ algo grandioso que transforma o mundo.
 
                             "Álgebra Booleana e a Álgebra Convencional"
 
-Quando a gente compara a Álgebra Booleana com a Álgebra Convencional (aquela que aprendemos na escola e usamos no dia a dia para lidar com números), a primeira grande diferença que salta aos olhos é o universo de valores com que cada uma trabalha. Enquanto na álgebra comum lidamos com uma infinidade de números (positivos, negativos, inteiros, decimais, frações), na Álgebra Booleana temos um universo bem mais enxuto: tudo se resume a dois estados possíveis, geralmente representados como 0 e 1, ou falso e verdadeiro. É como se, na álgebra comum, tivéssemos um balde cheio de peças de vários tamanhos e cores, e na booleana, apenas duas pecinhas; e ainda assim, com essas duas, conseguimos construir sistemas inteiros.
+ Quando a gente compara a Álgebra Booleana com a Álgebra Convencional (aquela que aprendemos na escola e usamos no 
+dia a dia para lidar com números), a primeira grande diferença que salta aos olhos é o universo de valores com que 
+cada uma trabalha. Enquanto na álgebra comum lidamos com uma infinidade de números (positivos, negativos, inteiros, 
+decimais, frações), na Álgebra Booleana temos um universo bem mais enxuto: tudo se resume a dois estados possíveis, 
+geralmente representados como 0 e 1, ou falso e verdadeiro. É como se, na álgebra comum, tivéssemos um balde cheio 
+de peças de vários tamanhos e cores, e na booleana, apenas duas pecinhas; e ainda assim, com essas duas, 
+conseguimos construir sistemas inteiros.
 
-Outra diferença muito importante está nas operações básicas de cada uma. Na Álgebra Convencional, trabalhamos com soma, subtração, multiplicação, divisão, potências... Já na Álgebra Booleana, as operações são voltadas para a lógica e o raciocínio condicional: temos o AND (E), o OR (OU) e o NOT (NÃO) como principais. Essas operações booleana funcionam mais como interruptores de um circuito elétrico, determinando se a corrente passa ou não, dependendo da combinação das entradas. É como se, na álgebra tradicional, cada operação servisse para transformar quantidades, e na booleana, elas servissem para definir o caminho das decisões.
+ Outra diferença muito importante está nas operações básicas de cada uma. Na Álgebra Convencional, trabalhamos com 
+soma, subtração, multiplicação, divisão, potências... Já na Álgebra Booleana, as operações são voltadas para a 
+lógica e o raciocínio condicional: temos o AND (E), o OR (OU) e o NOT (NÃO) como principais. Essas operações 
+booleanas funcionam mais como interruptores de um circuito elétrico, determinando se a corrente passa ou não, 
+dependendo da combinação das entradas. É como se, na álgebra tradicional, cada operação servisse para transformar 
+quantidades, e na booleana, elas servissem para definir o caminho das decisões.
 
-Um ponto que costuma confundir quem começa é a forma como essas operações se comportam. Por exemplo, na Álgebra Convencional, somar dois números sempre aumenta o valor: 2 + 3 = 5. Já na Booleana, o OR (OU) de dois valores pode resultar no mesmo valor que um deles, porque o objetivo não é somar quantidades, mas sim verificar condições. Da mesma forma, na álgebra dos números, multiplicar por zero zera tudo; na booleana, o AND (E) só retorna verdadeiro se todas as condições forem verdadeiras. É como se o "peso" das operações fosse outro, muito mais voltado para a lógica de ligar e desligar, do que para o cálculo de quantidades.
+ Um ponto que costuma confundir quem começa é a forma como essas operações se comportam. Por exemplo, na Álgebra 
+Convencional, somar dois números sempre aumenta o valor: 2 + 3 = 5. Já na Booleana, o OR (OU) de dois valores pode 
+resultar no mesmo valor que um deles, porque o objetivo não é somar quantidades, mas sim verificar condições. Da 
+mesma forma, na álgebra dos números, multiplicar por zero zera tudo; na booleana, o AND (E) só retorna verdadeiro 
+se todas as condições forem verdadeiras. É como se o "peso" das operações fosse outro, muito mais voltado para a 
+lógica de ligar e desligar, do que para o cálculo de quantidades.
 
-Por fim, a aplicação prática das duas também deixa clara essa diferença de propósito. A Álgebra Convencional é a base para resolvermos problemas de áreas como física, economia, engenharia, onde precisamos calcular distâncias, pesos, valores. Já a Álgebra Booleana brilha quando o assunto é tomada de decisão, especialmente em sistemas digitais e eletrônicos. Ela serve como o cérebro das máquinas, decidindo quais caminhos seguir a cada condição. Enquanto a álgebra comum faz as contas da vida, a booleana organiza a lógica por trás dos circuitos e dos programas que usamos todos os dias.
+ Por fim, a aplicação prática das duas também deixa clara essa diferença de propósito. A Álgebra Convencional é a 
+base para resolvermos problemas de áreas como física, economia, engenharia, onde precisamos calcular distâncias, 
+pesos, valores. Já a Álgebra Booleana brilha quando o assunto é tomada de decisão, especialmente em sistemas 
+digitais e eletrônicos. Ela serve como o cérebro das máquinas, decidindo quais caminhos seguir a cada condição. 
+Enquanto a álgebra comum faz as contas da vida, a booleana organiza a lógica por trás dos circuitos e dos programas 
+que usamos todos os dias.
 
 
 
