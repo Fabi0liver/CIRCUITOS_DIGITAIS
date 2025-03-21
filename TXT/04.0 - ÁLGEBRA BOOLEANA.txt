@@ -164,6 +164,10 @@ Perceba como as Tabelas Verdade são fundamentais para enxergar o comportamento 
 No fundo, a Tabela Verdade é aquela ferramenta que tira a lógica do mundo abstrato e coloca na nossa frente, quase como uma receita de bolo: siga as entradas e você sempre chegará ao mesmo resultado. Por isso, dominar a leitura e a construção dessas tabelas é um passo essencial para quem quer entender de verdade como funcionam os sistemas digitais e a base da computação.
 
 
+Em suma, entender as variáveis booleanas, os operadores básicos e as tabelas verdade é como aprender o alfabeto de um novo idioma; o idioma das máquinas e dos sistemas digitais. Cada operador tem sua função específica, e juntos, eles constroem a base da lógica de qualquer sistema computacional, desde um simples semáforo até uma inteligência artificial.
+
+Essa parte da Álgebra Booleana é fundamental porque permite visualizar o funcionamento interno dos circuitos e programas. Quando compreendemos essas engrenagens básicas, conseguimos projetar, analisar e até otimizar sistemas lógicos com muito mais clareza e segurança. E o mais interessante é perceber que, mesmo sendo conceitos tão simples, eles sustentam toda a tecnologia que usamos no nosso dia a dia.
+
 
 
 
