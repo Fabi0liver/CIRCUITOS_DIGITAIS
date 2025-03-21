@@ -130,6 +130,40 @@ Em resumo, os operadores booleanos básicos (AND, OR e NOT ) são como as ferram
 O mais interessante é perceber como esses três operadores, tão simples em sua essência, são capazes de descrever qualquer tomada de decisão binária, seja dentro de um circuito elétrico, de um sistema digital ou até mesmo nas regras de um programa de computador. Eles formam a base de tudo que envolve lógica computacional e, entendendo bem cada um, você já estará dando um grande passo para dominar o raciocínio lógico e os fundamentos da computação.
 
 
+Tabelas Verdade: São como um mapa ou uma bússola da Álgebra Booleana, guiando a gente por todas as possibilidades que uma operação lógica pode ter. Elas organizam de forma clara e visual todos os resultados possíveis de uma operação, a partir das combinações de entradas — sempre variando entre 0 (falso) e 1 (verdadeiro). Essa ferramenta é essencial porque elimina o "achismo" e mostra exatamente o que acontece em cada cenário possível.
+
+Imagine que você está projetando um circuito digital ou programando uma condição num sistema: a Tabela Verdade funciona como um manual técnico, detalhando o comportamento lógico da operação. 
+
+ - Por exemplo, se olharmos para o operador AND, a tabela mostra que só teremos o resultado 1 se todas as entradas forem 1. Qualquer outro caso leva ao 0:
+
+         | A | B | A · B |
+         |---|---|-------|
+         | 0 | 0 |   0   |
+         | 0 | 1 |   0   |
+         | 1 | 0 |   0   |
+         | 1 | 1 |   1   |
+
+ - Já para o OR, o comportamento muda: basta uma das entradas ser 1 para o resultado ser 1. A tabela deixa isso visível e fácil de memorizar:
+
+         | A | B | A + B |
+         |---|---|-------|
+         | 0 | 0 |   0   |
+         | 0 | 1 |   1   |
+         | 1 | 0 |   1   |
+         | 1 | 1 |   1   |
+
+ - E por fim, o operador NOT é o mais direto: ele sempre inverte o valor da entrada, como uma chave reversora. Se entra 0, sai 1; se entra 1, sai 0.
+
+           | A | ¬A  |
+           |---|-----|
+           | 0 |  1  |
+           | 1 |  0  |
+
+Perceba como as Tabelas Verdade são fundamentais para enxergar o comportamento real de cada operação lógica, funcionando como um raio-x da lógica booleana. Elas ajudam tanto iniciantes quanto profissionais a validar o funcionamento de circuitos digitais, condições de software e algoritmos, sempre com a certeza de como cada situação será tratada.
+
+No fundo, a Tabela Verdade é aquela ferramenta que tira a lógica do mundo abstrato e coloca na nossa frente, quase como uma receita de bolo: siga as entradas e você sempre chegará ao mesmo resultado. Por isso, dominar a leitura e a construção dessas tabelas é um passo essencial para quem quer entender de verdade como funcionam os sistemas digitais e a base da computação.
+
+
 
 
 
