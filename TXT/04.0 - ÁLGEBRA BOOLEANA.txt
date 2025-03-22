@@ -309,112 +309,153 @@ desenvolver soluções criativas para problemas lógicos.
 
                                "Propriedades da Álgebra Booleana"
 
-Quando falamos em propriedades da Álgebra Booleana, estamos entrando na parte prática dos axiomas e postulados. Essas propriedades são como as engrenagens que fazem todo o sistema lógico funcionar de maneira previsível e organizada. Elas não apenas garantem a consistência das operações, mas também oferecem um caminho para simplificar expressões complexas e facilitar o projeto de sistemas digitais, como circuitos e algoritmos.
+ Quando falamos em propriedades da Álgebra Booleana, estamos entrando na parte prática dos axiomas e postulados. 
+Essas propriedades são como as engrenagens que fazem todo o sistema lógico funcionar de maneira previsível e 
+organizada. Elas não apenas garantem a consistência das operações, mas também oferecem um caminho para simplificar 
+expressões complexas e facilitar o projeto de sistemas digitais, como circuitos e algoritmos.
 
-Imagine que você está montando um quebra-cabeça. As peças só se encaixam se seguirem certas formas e regras, é justamente isso que as propriedades fazem no mundo da lógica. Elas te dão a segurança de que, não importa o caminho que você escolha para resolver uma expressão, o resultado final será sempre o mesmo. 
+ Imagine que você está montando um quebra-cabeça. As peças só se encaixam se seguirem certas formas e regras, é 
+justamente isso que as propriedades fazem no mundo da lógica. Elas te dão a segurança de que, não importa o caminho 
+que você escolha para resolver uma expressão, o resultado final será sempre o mesmo. 
 
-Agora, vamos explorar cada uma delas de forma simples e objetiva.
+ Agora, vamos explorar cada uma delas de forma simples e objetiva.
 
- Propriedade de Identidade: Essa propriedade trabalha com os elementos neutros da lógica. No AND, o neutro é o 1, e no OR, o 0. Aplicar o neutro não altera o resultado da variável.
+ * Propriedade de Identidade: Essa propriedade trabalha com os elementos neutros da lógica. No AND, o neutro é o 1, 
+  e no OR, o 0. Aplicar o neutro não altera o resultado da variável.
 
-Expressões:
+   Expressões:
 
-            A · 1 = A
+               A · 1 = A
 
-            A + 0 = A
+               A + 0 = A
 
-Funciona como o espelho da matemática tradicional: multiplicar por 1 ou somar zero mantém tudo como está. Pense nisso como um atleta correndo em uma pista, quando ele passa pela linha de apoio (representada pelo neutro), o ritmo dele não muda. Essa propriedade é vital porque mostra que certos elementos não afetam a operação, e reconhecer isso ajuda a eliminar partes desnecessárias das expressões.
-
-
- Propriedade do Complemento: O complemento é o oposto lógico de uma variável. Ao operar uma variável com seu complemento, temos o resultado extremo: zero para AND e um para OR.
-
-Expressões:
-
-            A · A' = 0
-
-            A + A' = 1
-
-Isso é como ter um interruptor e seu anti-interruptor: se um liga, o outro desliga, e juntos anulam a ação. É a lógica do "tudo ou nada". Essa propriedade é a base para a lógica de controle: quando queremos garantir que uma situação e o seu contrário não coexistam, ou que ao menos um dos caminhos sempre seja verdadeiro. Essencial para o design de circuitos de decisão.
+   Funciona como o espelho da matemática tradicional: multiplicar por 1 ou somar zero mantém tudo como está. Pense 
+  nisso como um atleta correndo em uma pista, quando ele passa pela linha de apoio (representada pelo neutro), o 
+  ritmo dele não muda. Essa propriedade é vital porque mostra que certos elementos não afetam a operação, e 
+  reconhecer isso ajuda a eliminar partes desnecessárias das expressões.
 
 
- Propriedade de Idempotência: Quando repetimos a mesma variável em uma operação AND ou OR com ela mesma, o resultado continua o mesmo. Aplicar a mesma variável mais de uma vez não muda nada.
+ * Propriedade do Complemento: O complemento é o oposto lógico de uma variável. Ao operar uma variável com seu 
+  complemento, temos o resultado extremo: zero para AND e um para OR.
 
-Expressões:
+   Expressões:
 
-            A · A = A
+               A · A' = 0
 
-            A + A = A
+               A + A' = 1
 
-É como pedir para um porteiro conferir duas vezes o mesmo nome na lista — se ele já confirmou uma vez, a segunda conferência é redundante. Essa propriedade nos ajuda a enxugar expressões que têm repetições desnecessárias, tornando o circuito mais limpo e eficiente.
-
-
- Propriedade Comutativa: Essa propriedade garante que a ordem das variáveis não interfere no resultado da operação, tanto para o AND quanto para o OR. Seja A · B ou B · A, o efeito é o mesmo; o mesmo vale para A + B e B + A. Essa propriedade traz flexibilidade para trabalhar e rearranjar expressões.
-
-Expressões:
-
-            A · B = B · A
-
-            A + B = B + A
-
-Quando pensamos nessa propriedade, é como misturar dois líquidos compatíveis, como água e suco: não importa se você joga o suco na água ou a água no suco, no final, o sabor será o mesmo. A Comutativa tem uma importância enorme porque ela nos permite reordenar termos durante uma simplificação, deixando o trabalho mais fluido e lógico. Ela mostra que, no mundo binário, o que importa são os ingredientes e não a ordem em que foram misturados.
+   Isso é como ter um interruptor e seu anti-interruptor: se um liga, o outro desliga, e juntos anulam a ação. É a 
+  lógica do "tudo ou nada". Essa propriedade é a base para a lógica de controle: quando queremos garantir que uma 
+  situação e o seu contrário não coexistam, ou que ao menos um dos caminhos sempre seja verdadeiro. Essencial para 
+  o design de circuitos de decisão.
 
 
- Propriedade Associativa: A Associatividade nos diz que o modo como agrupamos os termos não altera o resultado final. Isso vale tanto para o AND quanto para o OR. Podemos colocar ou retirar parênteses sem nos preocupar com mudanças no resultado.
+ * Propriedade de Idempotência: Quando repetimos a mesma variável em uma operação AND ou OR com ela mesma, o 
+  resultado continua o mesmo. Aplicar a mesma variável mais de uma vez não muda nada.
 
-Expressões:
+   Expressões:
 
-            (A · B) · C = A · (B · C)
+               A · A = A
 
-            (A + B) + C = A + (B + C)
+               A + A = A
 
-Aqui, imagine três amigos formando uma roda para brincar de passar uma bola. A bola vai circular da mesma forma, independentemente de quem começa ou termina segurando-a. A importância da Associatividade é que ela permite que a gente escolha o melhor jeito de agrupar termos para facilitar a simplificação, deixando o raciocínio mais leve e estruturado. Isso dá ao projetista liberdade para atacar primeiro os blocos mais vantajosos.
-
-
- Propriedade Distributiva: É a propriedade que permite expandir ou fatorar expressões booleanas, muito usada para abrir ou reduzir termos complexos. Ela diz que o AND distribui sobre o OR e o OR distribui sobre o AND.
-
-Expressões:
-
-            A · (B + C) = (A · B) + (A · C)
-
-            A + (B · C) = (A + B) · (A + C)
-
-Se você imaginar um vendedor oferecendo um combo: "Quem comprar A ganha B ou C", a distributiva permite calcular exatamente quantos prêmios cada cliente leva, individualizando cada opção. Na prática, ela é essencial para organizar as expressões de maneira que facilite a análise e o projeto de circuitos. Permite tanto abrir quanto enxugar expressões, uma habilidade fundamental em otimização.
+   É como pedir para um porteiro conferir duas vezes o mesmo nome na lista — se ele já confirmou uma vez, a 
+  segunda conferência é redundante. Essa propriedade nos ajuda a enxugar expressões que têm repetições 
+  desnecessárias, tornando o circuito mais limpo e eficiente.
 
 
-Propriedade de Absorção: A absorção permite eliminar partes redundantes de uma expressão, onde uma variável já garante o resultado e o termo extra não acrescenta nada.
+ * Propriedade Comutativa: Essa propriedade garante que a ordem das variáveis não interfere no resultado da  
+  operação, tanto para o AND quanto para o OR. Seja A · B ou B · A, o efeito é o mesmo; o mesmo vale para A + B e B 
+  + A. Essa propriedade traz flexibilidade para trabalhar e rearranjar expressões.
 
-Expressões:
+   Expressões:
 
-            A + (A · B) = A
+               A · B = B · A
 
-            A · (A + B) = A
+               A + B = B + A
 
-Pense num chefe dizendo: "Se o João vem trabalhar, ou o João e o Pedro vêm juntos, o que importa é o João ter vindo". A presença do João já basta, o Pedro não muda o resultado. Essa propriedade é poderosa na hora de enxugar expressões, reduzindo complexidade e melhorando o desempenho dos circuitos.
-
-
- Propriedade da Negação Dupla: Negar uma variável duas vezes faz com que ela volte ao seu valor original. É o famoso "não do não é sim".
-
-Expressão:
-
-            (A')' = A
-
-É como alguém te dizer "não é mentira", o que significa que é verdade. A negação dupla é muito útil para clarear expressões, lembrando sempre que negações excessivas podem ser cortadas para simplificar o raciocínio.
+   Quando pensamos nessa propriedade, é como misturar dois líquidos compatíveis, como água e suco: não importa se 
+  você joga o suco na água ou a água no suco, no final, o sabor será o mesmo. A Comutativa tem uma importância 
+  enorme porque ela nos permite reordenar termos durante uma simplificação, deixando o trabalho mais fluido e 
+  lógico. Ela mostra que, no mundo binário, o que importa são os ingredientes e não a ordem em que foram 
+  misturados.
 
 
-Propriedade da Dominância (com 0 e 1): Essa propriedade mostra que alguns valores são tão fortes que "dominam" a operação inteira. No AND, o 0 domina; no OR, é o 1 que manda.
+ * Propriedade Associativa: A Associatividade nos diz que o modo como agrupamos os termos não altera o resultado final. Isso vale tanto para o AND quanto para o OR. Podemos colocar ou retirar parênteses sem nos preocupar com mudanças no resultado.
 
-Expressões:
+   Expressões:
 
-            A · 0 = 0
+               (A · B) · C = A · (B · C)
 
-            A + 1 = 1
+               (A + B) + C = A + (B + C)
 
-Imagine um jogo de futebol onde, se um time não comparece (0), o jogo termina por W.O. Já no OR, é como um alarme: se qualquer sensor disparar (1), o sistema inteiro é ativado. Essa propriedade é essencial para detectar rapidamente situações onde o resultado já está determinado, economizando processamento.
+   Aqui, imagine três amigos formando uma roda para brincar de passar uma bola. A bola vai circular da mesma forma, 
+  independentemente de quem começa ou termina segurando-a. A importância da Associatividade é que ela permite que a 
+  gente escolha o melhor jeito de agrupar termos para facilitar a simplificação, deixando o raciocínio mais leve e 
+  estruturado. Isso dá ao projetista liberdade para atacar primeiro os blocos mais vantajosos.
 
 
-Em suma, as propriedades da Álgebra Booleana são, na prática, o verdadeiro "manual de instruções" para mexer nas expressões lógicas sem medo de errar. Elas permitem que a gente reescreva, simplifique e entenda sistemas que, à primeira vista, podem parecer complexos — tudo com a segurança de que o comportamento lógico se manterá o mesmo.
+ * Propriedade Distributiva: É a propriedade que permite expandir ou fatorar expressões booleanas, muito usada para 
+  abrir ou reduzir termos complexos. Ela diz que o AND distribui sobre o OR e o OR distribui sobre o AND.
 
-Dominar essas propriedades é como aprender a linguagem secreta dos circuitos e algoritmos. Elas são a ponte que liga a teoria ao mundo real da computação, da eletrônica digital e até da programação. Saber usá-las torna qualquer estudante ou profissional muito mais preparado para raciocinar com clareza, economizar recursos e construir sistemas inteligentes de forma eficiente.
+   Expressões:
+
+               A · (B + C) = (A · B) + (A · C)
+
+               A + (B · C) = (A + B) · (A + C)
+
+   Se você imaginar um vendedor oferecendo um combo: "Quem comprar A ganha B ou C", a distributiva permite calcular 
+  exatamente quantos prêmios cada cliente leva, individualizando cada opção. Na prática, ela é essencial para 
+  organizar as expressões de maneira que facilite a análise e o projeto de circuitos. Permite tanto abrir quanto 
+  enxugar expressões, uma habilidade fundamental em otimização.
+
+
+ * Propriedade de Absorção: A absorção permite eliminar partes redundantes de uma expressão, onde uma variável já 
+  garante o resultado e o termo extra não acrescenta nada.
+
+   Expressões:
+
+               A + (A · B) = A
+
+               A · (A + B) = A
+
+   Pense num chefe dizendo: "Se o João vem trabalhar, ou o João e o Pedro vêm juntos, o que importa é o João ter 
+  vindo". A presença do João já basta, o Pedro não muda o resultado. Essa propriedade é poderosa na hora de enxugar 
+  expressões, reduzindo complexidade e melhorando o desempenho dos circuitos.
+
+
+ * Propriedade da Negação Dupla: Negar uma variável duas vezes faz com que ela volte ao seu valor original. É o 
+  famoso "não do não é sim".
+
+   Expressão:
+
+              (A')' = A
+
+   É como alguém te dizer "não é mentira", o que significa que é verdade. A negação dupla é muito útil para clarear 
+  expressões, lembrando sempre que negações excessivas podem ser cortadas para simplificar o raciocínio.
+
+
+ * Propriedade da Dominância (com 0 e 1): Essa propriedade mostra que alguns valores são tão fortes que "dominam" a 
+  operação inteira. No AND, o 0 domina; no OR, é o 1 que manda.
+
+   Expressões:
+
+               A · 0 = 0
+
+               A + 1 = 1
+
+   Imagine um jogo de futebol onde, se um time não comparece (0), o jogo termina por W.O. Já no OR, é como um 
+  alarme: se qualquer sensor disparar (1), o sistema inteiro é ativado. Essa propriedade é essencial para detectar 
+  rapidamente situações onde o resultado já está determinado, economizando processamento.
+
+ Em suma, as propriedades da Álgebra Booleana são, na prática, o verdadeiro "manual de instruções" para mexer nas 
+expressões lógicas sem medo de errar. Elas permitem que a gente reescreva, simplifique e entenda sistemas que, à 
+primeira vista, podem parecer complexos, tudo com a segurança de que o comportamento lógico se manterá o mesmo.
+
+ Dominar essas propriedades é como aprender a linguagem secreta dos circuitos e algoritmos. Elas são a ponte que 
+liga a teoria ao mundo real da computação, da eletrônica digital e até da programação. Saber usá-las torna qualquer 
+estudante ou profissional muito mais preparado para raciocinar com clareza, economizar recursos e construir 
+sistemas inteligentes de forma eficiente.
 
 
 
