@@ -243,30 +243,67 @@ simples, eles sustentam toda a tecnologia que usamos no nosso dia a dia.
 
                              "O que são os Axiomas e Postulados?"
 
-A Álgebra Booleana é uma ferramenta fundamental para a lógica digital e sistemas computacionais, sendo a base para o desenvolvimento de circuitos e algoritmos lógicos. Para que a manipulação de expressões booleanas seja possível de forma consistente e confiável, a Álgebra Booleana se apoia em dois conceitos essenciais: axiomas e postulados. Esses conceitos representam regras e princípios que são considerados verdades fundamentais dentro dessa lógica, e são os alicerces que tornam a Álgebra Booleana uma linguagem poderosa para a construção e análise de sistemas digitais. Os axiomas, em particular, definem propriedades básicas e universais das operações lógicas, enquanto os postulados ajudam a expandir essas regras e a construir teoremas mais complexos.
+ A Álgebra Booleana é uma ferramenta fundamental para a lógica digital e sistemas computacionais, sendo a base para 
+o desenvolvimento de circuitos e algoritmos lógicos. Para que a manipulação de expressões booleanas seja possível 
+de forma consistente e confiável, a Álgebra Booleana se apoia em dois conceitos essenciais: axiomas e postulados. 
+Esses conceitos representam regras e princípios que são considerados verdades fundamentais dentro dessa lógica, e 
+são os alicerces que tornam a Álgebra Booleana uma linguagem poderosa para a construção e análise de sistemas 
+digitais. Os axiomas, em particular, definem propriedades básicas e universais das operações lógicas, enquanto os 
+postulados ajudam a expandir essas regras e a construir teoremas mais complexos.
 
-Em resumo, os axiomas e postulados formam a espinha dorsal da Álgebra Booleana, permitindo que qualquer expressão lógica seja manipulada de maneira sistemática e sem contradições. Eles estabelecem as propriedades das operações fundamentais, como AND, OR e NOT, além de fornecerem uma base sólida para o raciocínio lógico e a simplificação de expressões booleanas. 
+ Em resumo, os axiomas e postulados formam a espinha dorsal da Álgebra Booleana, permitindo que qualquer expressão 
+lógica seja manipulada de maneira sistemática e sem contradições. Eles estabelecem as propriedades das operações 
+fundamentais, como AND, OR e NOT, além de fornecerem uma base sólida para o raciocínio lógico e a simplificação de expressões booleanas. 
 
-Vamos detalhar, a seguir, o que são os axiomas e postulados, e como eles são aplicados na prática.
+ Vamos detalhar, a seguir, o que são os axiomas e postulados, e como eles são aplicados na prática.
+
+ * Axiomas: Na Álgebra Booleana os axiomas são verdades universais que definem as propriedades essenciais das 
+  operações lógicas. Eles são afirmativas fundamentais que não precisam de provas, pois são aceitas como 
+  verdadeiras dentro da lógica booleana. Esses axiomas formam a base para todas as outras propriedades e teoremas, 
+  funcionando como regras primárias para manipulação de variáveis booleanas.
+
+   Por exemplo, o Axioma da Identidade afirma que qualquer operação AND com 1 ou qualquer operação OR com 0 não 
+  altera o valor da variável envolvida. Em termos práticos, isso significa que, no operador AND, a variável "A" 
+  será sempre igual a "A" quando combinada com 1 (A ⋅ 1 = A). Já no operador OR, a variável "A" será igual a "A" 
+  quando combinada com 0 (A + 0 = A). Essas propriedades tornam as operações booleanas simples e eficientes, o que 
+  é crucial em circuitos digitais, onde decisões lógicas são feitas rapidamente e com baixo custo.
+
+   Outros axiomas importantes incluem o Axioma da Anulação, que estabelece que qualquer operação AND com 0 ou 
+  qualquer operação OR com 1 resulta em 0 ou 1, respectivamente (A ⋅ 0 = 0 e A + 1 = 1). O Axioma da Idempotência 
+  afirma que uma variável operada consigo mesma não altera seu valor (A ⋅ A = A e A + A = A). Essas regras simples 
+  mas poderosas garantem que as operações booleanas sejam feitas de maneira consistente, facilitando a 
+  simplificação e a resolução de problemas.
 
 
-Axiomas: Na Álgebra Booleana os axiomas são verdades universais que definem as propriedades essenciais das operações lógicas. Eles são afirmativas fundamentais que não precisam de provas, pois são aceitas como verdadeiras dentro da lógica booleana. Esses axiomas formam a base para todas as outras propriedades e teoremas, funcionando como regras primárias para manipulação de variáveis booleanas.
+ * Postulados: Por sua vez os postulados são proposições que não são universalmente demonstradas como os axiomas, 
+  mas são fundamentais para deduções e para a construção de teoremas dentro da Álgebra Booleana. Eles funcionam 
+  como pontos de partida para se obter novas propriedades e simplificações lógicas.
 
-Por exemplo, o Axioma da Identidade afirma que qualquer operação AND com 1 ou qualquer operação OR com 0 não altera o valor da variável envolvida. Em termos práticos, isso significa que, no operador AND, a variável "A" será sempre igual a "A" quando combinada com 1 (A ⋅ 1 = A). Já no operador OR, a variável "A" será igual a "A" quando combinada com 0 (A + 0 = A). Essas propriedades tornam as operações booleanas simples e eficientes, o que é crucial em circuitos digitais, onde decisões lógicas são feitas rapidamente e com baixo custo.
+   O Postulado da Comutatividade afirma que a ordem das variáveis não altera o resultado da operação booleana. Isso 
+  vale tanto para o operador AND quanto para o operador OR. No caso do AND, a troca de variáveis não altera o valor 
+  da operação (A ⋅ B = B ⋅ A), e o mesmo vale para o operador OR (A + B = B + A). Esse postulado facilita a 
+  manipulação de expressões booleanas, pois permite reorganizar os termos sem alterar o resultado.
 
-Outros axiomas importantes incluem o Axioma da Anulação, que estabelece que qualquer operação AND com 0 ou qualquer operação OR com 1 resulta em 0 ou 1, respectivamente (A ⋅ 0 = 0 e A + 1 = 1). O Axioma da Idempotência afirma que uma variável operada consigo mesma não altera seu valor (A ⋅ A = A e A + A = A). Essas regras simples mas poderosas garantem que as operações booleanas sejam feitas de maneira consistente, facilitando a simplificação e a resolução de problemas.
+   Outro postulado importante é o Postulado da Associatividade, que permite agrupar as variáveis de qualquer 
+  maneira sem afetar o resultado da operação. No caso do AND, podemos reordenar as variáveis sem problemas (A ⋅ (B ⋅ 
+  C) = (A ⋅ B) ⋅ C), assim como para o operador OR ( A + (B + C) = ( A + B ) + C). Além disso, o Postulado da 
+  Distributividade estabelece que o AND pode ser distribuído sobre o OR e vice-versa, de maneira semelhante à 
+  distributividade da multiplicação sobre a adição na álgebra convencional. Esses postulados tornam a Álgebra 
+  Booleana mais flexível e poderosa, facilitando a simplificação de expressões e a implementação de circuitos 
+  digitais.
 
+ Em resumo, os axiomas e postulados são pilares da Álgebra Booleana, permitindo que a lógica booleana seja aplicada 
+de maneira consistente e confiável em circuitos digitais e sistemas computacionais. Os axiomas fornecem as regras 
+fundamentais que governam as operações booleanas, enquanto os postulados permitem que a Álgebra Booleana seja 
+expandida, levando a novas propriedades e teoremas. Juntos, eles tornam possível simplificar expressões booleanas e 
+projetar sistemas lógicos eficientes, essenciais para a computação moderna.
 
-Postulados: Por sua vez os postulados são proposições que não são universalmente demonstradas como os axiomas, mas são fundamentais para deduções e para a construção de teoremas dentro da Álgebra Booleana. Eles funcionam como pontos de partida para se obter novas propriedades e simplificações lógicas.
-
-O Postulado da Comutatividade afirma que a ordem das variáveis não altera o resultado da operação booleana. Isso vale tanto para o operador AND quanto para o operador OR. No caso do AND, a troca de variáveis não altera o valor da operação (A ⋅ B = B ⋅ A), e o mesmo vale para o operador OR (A + B = B + A). Esse postulado facilita a manipulação de expressões booleanas, pois permite reorganizar os termos sem alterar o resultado.
-
-Outro postulado importante é o Postulado da Associatividade, que permite agrupar as variáveis de qualquer maneira sem afetar o resultado da operação. No caso do AND, podemos reordenar as variáveis sem problemas (A ⋅ (B ⋅ C) = (A ⋅ B) ⋅ C), assim como para o operador OR ( A + (B + C) = ( A + B ) + C). Além disso, o Postulado da Distributividade estabelece que o AND pode ser distribuído sobre o OR e vice-versa, de maneira semelhante à distributividade da multiplicação sobre a adição na álgebra convencional. Esses postulados tornam a Álgebra Booleana mais flexível e poderosa, facilitando a simplificação de expressões e a implementação de circuitos digitais.
-
-
-Em resumo, os axiomas e postulados são pilares da Álgebra Booleana, permitindo que a lógica booleana seja aplicada de maneira consistente e confiável em circuitos digitais e sistemas computacionais. Os axiomas fornecem as regras fundamentais que governam as operações booleanas, enquanto os postulados permitem que a Álgebra Booleana seja expandida, levando a novas propriedades e teoremas. Juntos, eles tornam possível simplificar expressões booleanas e projetar sistemas lógicos eficientes, essenciais para a computação moderna.
-
-Entender e dominar os axiomas e postulados é crucial para quem deseja trabalhar com lógica digital, programação de circuitos ou até mesmo desenvolvimento de software que envolva tomada de decisões lógicas. Esses conceitos são fundamentais para construir uma base sólida na álgebra booleana e garantir que todas as operações lógicas realizadas sejam precisas e sem erros. Assim, ao aprender a trabalhar com esses princípios, você adquire as ferramentas necessárias para enfrentar desafios mais complexos em sistemas computacionais, otimizar projetos e desenvolver soluções criativas para problemas lógicos.
+ Entender e dominar os axiomas e postulados é crucial para quem deseja trabalhar com lógica digital, programação de 
+circuitos ou até mesmo desenvolvimento de software que envolva tomada de decisões lógicas. Esses conceitos são 
+fundamentais para construir uma base sólida na álgebra booleana e garantir que todas as operações lógicas 
+realizadas sejam precisas e sem erros. Assim, ao aprender a trabalhar com esses princípios, você adquire as 
+ferramentas necessárias para enfrentar desafios mais complexos em sistemas computacionais, otimizar projetos e 
+desenvolver soluções criativas para problemas lógicos.
 
 
 
