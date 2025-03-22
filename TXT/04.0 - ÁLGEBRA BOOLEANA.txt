@@ -337,6 +337,17 @@ Expressões:
 Isso é como ter um interruptor e seu anti-interruptor: se um liga, o outro desliga, e juntos anulam a ação. É a lógica do "tudo ou nada". Essa propriedade é a base para a lógica de controle: quando queremos garantir que uma situação e o seu contrário não coexistam, ou que ao menos um dos caminhos sempre seja verdadeiro. Essencial para o design de circuitos de decisão.
 
 
+ Propriedade de Idempotência: Quando repetimos a mesma variável em uma operação AND ou OR com ela mesma, o resultado continua o mesmo. Aplicar a mesma variável mais de uma vez não muda nada.
+
+Expressões:
+
+            A · A = A
+
+            A + A = A
+
+É como pedir para um porteiro conferir duas vezes o mesmo nome na lista — se ele já confirmou uma vez, a segunda conferência é redundante. Essa propriedade nos ajuda a enxugar expressões que têm repetições desnecessárias, tornando o circuito mais limpo e eficiente.
+
+
  Propriedade Comutativa: Essa propriedade garante que a ordem das variáveis não interfere no resultado da operação, tanto para o AND quanto para o OR. Seja A · B ou B · A, o efeito é o mesmo; o mesmo vale para A + B e B + A. Essa propriedade traz flexibilidade para trabalhar e rearranjar expressões.
 
 Expressões:
@@ -370,17 +381,42 @@ Expressões:
 Se você imaginar um vendedor oferecendo um combo: "Quem comprar A ganha B ou C", a distributiva permite calcular exatamente quantos prêmios cada cliente leva, individualizando cada opção. Na prática, ela é essencial para organizar as expressões de maneira que facilite a análise e o projeto de circuitos. Permite tanto abrir quanto enxugar expressões, uma habilidade fundamental em otimização.
 
 
-Propriedade de Idempotência
-Descrição:
-Quando repetimos a mesma variável em uma operação AND ou OR com ela mesma, o resultado continua o mesmo. Aplicar a mesma variável mais de uma vez não muda nada.
+Propriedade de Absorção: A absorção permite eliminar partes redundantes de uma expressão, onde uma variável já garante o resultado e o termo extra não acrescenta nada.
 
 Expressões:
 
-A · A = A
+            A + (A · B) = A
 
-A + A = A
+            A · (A + B) = A
 
-É como pedir para um porteiro conferir duas vezes o mesmo nome na lista — se ele já confirmou uma vez, a segunda conferência é redundante. Essa propriedade nos ajuda a enxugar expressões que têm repetições desnecessárias, tornando o circuito mais limpo e eficiente.
+Pense num chefe dizendo: "Se o João vem trabalhar, ou o João e o Pedro vêm juntos, o que importa é o João ter vindo". A presença do João já basta, o Pedro não muda o resultado. Essa propriedade é poderosa na hora de enxugar expressões, reduzindo complexidade e melhorando o desempenho dos circuitos.
+
+
+ Propriedade da Negação Dupla: Negar uma variável duas vezes faz com que ela volte ao seu valor original. É o famoso "não do não é sim".
+
+Expressão:
+
+            (A')' = A
+
+É como alguém te dizer "não é mentira", o que significa que é verdade. A negação dupla é muito útil para clarear expressões, lembrando sempre que negações excessivas podem ser cortadas para simplificar o raciocínio.
+
+
+Propriedade da Dominância (com 0 e 1): Essa propriedade mostra que alguns valores são tão fortes que "dominam" a operação inteira. No AND, o 0 domina; no OR, é o 1 que manda.
+
+Expressões:
+
+            A · 0 = 0
+
+            A + 1 = 1
+
+Imagine um jogo de futebol onde, se um time não comparece (0), o jogo termina por W.O. Já no OR, é como um alarme: se qualquer sensor disparar (1), o sistema inteiro é ativado. Essa propriedade é essencial para detectar rapidamente situações onde o resultado já está determinado, economizando processamento.
+
+
+Em suma, as propriedades da Álgebra Booleana são, na prática, o verdadeiro "manual de instruções" para mexer nas expressões lógicas sem medo de errar. Elas permitem que a gente reescreva, simplifique e entenda sistemas que, à primeira vista, podem parecer complexos — tudo com a segurança de que o comportamento lógico se manterá o mesmo.
+
+Dominar essas propriedades é como aprender a linguagem secreta dos circuitos e algoritmos. Elas são a ponte que liga a teoria ao mundo real da computação, da eletrônica digital e até da programação. Saber usá-las torna qualquer estudante ou profissional muito mais preparado para raciocinar com clareza, economizar recursos e construir sistemas inteligentes de forma eficiente.
+
+
 
 
 
