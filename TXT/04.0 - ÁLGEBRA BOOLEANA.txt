@@ -323,11 +323,12 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
  * Propriedade de Identidade: Essa propriedade trabalha com os elementos neutros da lógica. No AND, o neutro é o 1, 
   e no OR, o 0. Aplicar o neutro não altera o resultado da variável.
 
-   Expressões:
+   Expressões:       A · 1 = A                          A + 0 = A
 
-               A · 1 = A
-
-               A + 0 = A
+                 | A | 1 | A · 1 |                  | A | 0 | A + 0 |                                                                                                                           
+                 |---|---|-------|                  |---|---|-------|
+                 | 0 | 1 |   0   |                  | 0 | 0 |   0   |
+                 | 1 | 1 |   1   |                  | 1 | 0 |   1   |
 
    Funciona como o espelho da matemática tradicional: multiplicar por 1 ou somar zero mantém tudo como está. Pense 
   nisso como um atleta correndo em uma pista, quando ele passa pela linha de apoio (representada pelo neutro), o 
@@ -338,11 +339,12 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
  * Propriedade do Complemento: O complemento é o oposto lógico de uma variável. Ao operar uma variável com seu 
   complemento, temos o resultado extremo: zero para AND e um para OR.
 
-   Expressões:
+   Expressões:      A · A' = 0                          A + A' = 1
 
-               A · A' = 0
-
-               A + A' = 1
+                | A | A' | A · A' |                 | A | A' | A + A' |
+                |---|----|--------|                 |---|----|--------|
+                | 0 |  1 |   0    |                 | 0 |  1 |   1    |
+                | 1 |  0 |   0    |                 | 1 |  0 |   1    |
 
    Isso é como ter um interruptor e seu anti-interruptor: se um liga, o outro desliga, e juntos anulam a ação. É a 
   lógica do "tudo ou nada". Essa propriedade é a base para a lógica de controle: quando queremos garantir que uma 
@@ -353,11 +355,13 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
  * Propriedade de Idempotência: Quando repetimos a mesma variável em uma operação AND ou OR com ela mesma, o 
   resultado continua o mesmo. Aplicar a mesma variável mais de uma vez não muda nada.
 
-   Expressões:
+   Expressões:    A · A = A                           A + A = A
 
-               A · A = A
+                | A | A · A |                       | A | A + A |
+                |---|-------|                       |---|-------|
+                | 0 |   0   |                       | 0 |   0   |
+                | 1 |   1   |                       | 1 |   1   |
 
-               A + A = A
 
    É como pedir para um porteiro conferir duas vezes o mesmo nome na lista — se ele já confirmou uma vez, a 
   segunda conferência é redundante. Essa propriedade nos ajuda a enxugar expressões que têm repetições 
