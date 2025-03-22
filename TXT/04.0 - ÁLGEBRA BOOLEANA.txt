@@ -372,11 +372,14 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
   operação, tanto para o AND quanto para o OR. Seja A · B ou B · A, o efeito é o mesmo; o mesmo vale para A + B e B 
   + A. Essa propriedade traz flexibilidade para trabalhar e rearranjar expressões.
 
-   Expressões:
+   Expressões:        A · B = B · A                           A + B = B + A
 
-               A · B = B · A
-
-               A + B = B + A
+                 | A | B | A · B | B · A |              | A | B | A + B | B + A |
+                 |---|---|-------|-------|              |---|---|-------|-------|
+                 | 0 | 0 |   0   |   0   |              | 0 | 0 |   0   |   0   |
+                 | 0 | 1 |   0   |   0   |              | 0 | 1 |   1   |   1   |
+                 | 1 | 0 |   0   |   0   |              | 1 | 0 |   1   |   1   |
+                 | 1 | 1 |   1   |   1   |              | 1 | 1 |   1   |   1   |
 
    Quando pensamos nessa propriedade, é como misturar dois líquidos compatíveis, como água e suco: não importa se 
   você joga o suco na água ou a água no suco, no final, o sabor será o mesmo. A Comutativa tem uma importância 
@@ -387,11 +390,18 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
 
  * Propriedade Associativa: A Associatividade nos diz que o modo como agrupamos os termos não altera o resultado final. Isso vale tanto para o AND quanto para o OR. Podemos colocar ou retirar parênteses sem nos preocupar com mudanças no resultado.
 
-   Expressões:
+   Expressões:        (A · B) · C = A · (B · C)                            (A + B) + C = A + (B + C)
 
-               (A · B) · C = A · (B · C)
-
-               (A + B) + C = A + (B + C)
+               | A | B | C | (A · B) · C |  A · (B · C) |         | A | B | C | (A + B) + C | A + (B + C) |
+               |---|---|---|-------------|--------------|         |---|---|---|-------------|-------------|
+               | 0 | 0 | 0 |      0      |      0       |         | 0 | 0 | 0 |      0      |      0      |
+               | 0 | 0 | 1 |      0      |      0       |         | 0 | 0 | 1 |      1      |      1      |
+               | 0 | 1 | 0 |      0      |      0       |         | 0 | 1 | 0 |      1      |      1      |
+               | 0 | 1 | 1 |      0      |      0       |         | 0 | 1 | 1 |      1      |      1      |
+               | 1 | 0 | 0 |      0      |      0       |         | 1 | 0 | 0 |      1      |      1      |
+               | 1 | 0 | 1 |      0      |      0       |         | 1 | 0 | 1 |      1      |      1      |
+               | 1 | 1 | 0 |      0      |      0       |         | 1 | 1 | 0 |      1      |      1      |
+               | 1 | 1 | 1 |      1      |      1       |         | 1 | 1 | 1 |      1      |      1      |
 
    Aqui, imagine três amigos formando uma roda para brincar de passar uma bola. A bola vai circular da mesma forma, 
   independentemente de quem começa ou termina segurando-a. A importância da Associatividade é que ela permite que a 
@@ -402,11 +412,19 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
  * Propriedade Distributiva: É a propriedade que permite expandir ou fatorar expressões booleanas, muito usada para 
   abrir ou reduzir termos complexos. Ela diz que o AND distribui sobre o OR e o OR distribui sobre o AND.
 
-   Expressões:
+   Expressões:   A · (B + C) = (A · B) + (A · C)                        A + (B · C) = (A + B) · (A + C)
 
-               A · (B + C) = (A · B) + (A · C)
+              | A | B | C | A · (B + C) | (A · B) + (A · C) |    | A | B | C | A + (B · C) | (A + B) · (A + C) |
+              |---|---|---|-------------|-------------------|    |---|---|---|-------------|-------------------|
+              | 0 | 0 | 0 |      0      |         0         |    | 0 | 0 | 0 |      0      |         0         |
+              | 0 | 0 | 1 |      0      |         0         |    | 0 | 0 | 1 |      1      |         1         |
+              | 0 | 1 | 0 |      0      |         0         |    | 0 | 1 | 0 |      0      |         0         |
+              | 0 | 1 | 1 |      1      |         1         |    | 0 | 1 | 1 |      1      |         1         |
+              | 1 | 0 | 0 |      0      |         0         |    | 1 | 0 | 0 |      1      |         1         |
+              | 1 | 0 | 1 |      1      |         1         |    | 1 | 0 | 1 |      1      |         1         |
+              | 1 | 1 | 0 |      1      |         1         |    | 1 | 1 | 0 |      1      |         1         |
+              | 1 | 1 | 1 |      1      |         1         |    | 1 | 1 | 1 |      1      |         1         |
 
-               A + (B · C) = (A + B) · (A + C)
 
    Se você imaginar um vendedor oferecendo um combo: "Quem comprar A ganha B ou C", a distributiva permite calcular 
   exatamente quantos prêmios cada cliente leva, individualizando cada opção. Na prática, ela é essencial para 
@@ -417,11 +435,15 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
  * Propriedade de Absorção: A absorção permite eliminar partes redundantes de uma expressão, onde uma variável já 
   garante o resultado e o termo extra não acrescenta nada.
 
-   Expressões:
+   Expressões:        A + (A · B) = A                           A · (A + B) = A
+ 
+                | A | B | A · B | A + (A · B) |         | A | B | A + B | A · (A + B) | 
+                |---|---|-------|-------------|         |---|---|-------|-------------|
+                | 0 | 0 |   0   |      0      |         | 0 | 0 |   0   |      0      | 
+                | 0 | 1 |   0   |      0      |         | 0 | 1 |   1   |      0      | 
+                | 1 | 0 |   0   |      1      |         | 1 | 0 |   1   |      1      | 
+                | 1 | 1 |   1   |      1      |         | 1 | 1 |   1   |      1      | 
 
-               A + (A · B) = A
-
-               A · (A + B) = A
 
    Pense num chefe dizendo: "Se o João vem trabalhar, ou o João e o Pedro vêm juntos, o que importa é o João ter 
   vindo". A presença do João já basta, o Pedro não muda o resultado. Essa propriedade é poderosa na hora de enxugar 
