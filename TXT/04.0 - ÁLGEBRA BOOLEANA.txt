@@ -486,6 +486,13 @@ duas leis fundamentais e explorar como elas funcionam e por que são tão úteis
 
    Escrito matematicamente, temos: ¬(A ∧ B) = ¬A ∨ ¬B
 
+                                   | A | B | A ∧ B | ¬(A ∧ B) | ¬A | ¬B | ¬A ∨ ¬B |
+                                   |---|---|-------|----------|----|----|---------|
+                                   | 0 | 0 |   0   |     1    |  1 |  1 |    1    |
+                                   | 0 | 1 |   0   |     1    |  1 |  0 |    1    |
+                                   | 1 | 0 |   0   |     1    |  0 |  1 |    1    |
+                                   | 1 | 1 |   1   |     0    |  0 |  0 |    0    |
+
    Vamos pensar na operação AND como uma porta trancada com duas fechaduras: só dá para passar se as duas chaves 
   forem inseridas corretamente. Se colocamos um "não" na frente dessa porta (ou seja, negamos a operação), o efeito 
   é o mesmo que dizer: "Você será barrado se qualquer uma das chaves faltar". É aí que o AND vira OR, porque agora 
@@ -504,6 +511,13 @@ duas leis fundamentais e explorar como elas funcionam e por que são tão úteis
   negar cada variável individualmente e trocar o OR por um AND. 
 
    Representada assim: ¬(A ∨ B) = ¬A ∧ ¬B
+
+                       | A | B | A ∨ B | ¬(A ∨ B) | ¬A | ¬B | ¬A ∧ ¬B |
+                       |---|---|-------|----------|----|----|---------|
+                       | 0 | 0 |   0   |    1     |  1 |  1 |    1    |
+                       | 0 | 1 |   1   |    0     |  1 |  0 |    0    |
+                       | 1 | 0 |   1   |    0     |  0 |  1 |    0    |
+                       | 1 | 1 |   1   |    0     |  0 |  0 |    0    |
 
    Agora, imagine o OR como um sistema de alarme: ele toca se qualquer um dos sensores for ativado. Ao negarmos 
   esse sistema, dizemos: "O alarme não deve tocar", o que só acontece se nenhum sensor for disparado. Ou seja, 
