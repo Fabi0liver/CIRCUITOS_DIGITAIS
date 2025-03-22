@@ -453,9 +453,12 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
  * Propriedade da Negação Dupla: Negar uma variável duas vezes faz com que ela volte ao seu valor original. É o 
   famoso "não do não é sim".
 
-   Expressão:
+   Expressão:         (A')' = A
 
-              (A')' = A
+                 | A | A' | (A')' |
+                 |---|----|-------|
+                 | 0 |  1 |   0   |
+                 | 1 |  0 |   1   |
 
    É como alguém te dizer "não é mentira", o que significa que é verdade. A negação dupla é muito útil para clarear 
   expressões, lembrando sempre que negações excessivas podem ser cortadas para simplificar o raciocínio.
@@ -464,11 +467,12 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
  * Propriedade da Dominância (com 0 e 1): Essa propriedade mostra que alguns valores são tão fortes que "dominam" a 
   operação inteira. No AND, o 0 domina; no OR, é o 1 que manda.
 
-   Expressões:
+   Expressões:        A · 0 = 0                  A + 1 = 1
 
-               A · 0 = 0
-
-               A + 1 = 1
+                 | A | 0 | A · 0 |           | A | 1 | A + 1 |
+                 |---|---|-------|           |---|---|-------|
+                 | 0 | 0 |   0   |           | 0 | 1 |   1   |
+                 | 1 | 0 |   0   |           | 1 | 1 |   1   |
 
    Imagine um jogo de futebol onde, se um time não comparece (0), o jogo termina por W.O. Já no OR, é como um 
   alarme: se qualquer sensor disparar (1), o sistema inteiro é ativado. Essa propriedade é essencial para detectar 
