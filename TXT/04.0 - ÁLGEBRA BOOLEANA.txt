@@ -676,59 +676,93 @@ engenheiro ou cientista da computação, prontos para tornar qualquer sistema ma
 
                               "Aplicações Práticas da Álgebra Booleana"
 
-A Álgebra Booleana vai muito além dos livros e das lousas das salas de aula. Ela está presente em quase tudo que usamos no dia a dia, mesmo que a gente nem perceba. Isso acontece porque ela oferece a base lógica para o funcionamento dos sistemas digitais; e tudo que envolve decisões binárias, onde as respostas são "sim ou não", "ligado ou desligado", "0 ou 1", está sob o domínio dessa álgebra.
+ A Álgebra Booleana vai muito além dos livros e das lousas das salas de aula. Ela está presente em quase tudo que 
+usamos no dia a dia, mesmo que a gente nem perceba. Isso acontece porque ela oferece a base lógica para o 
+funcionamento dos sistemas digitais; e tudo que envolve decisões binárias, onde as respostas são "sim ou não", 
+"ligado ou desligado", "0 ou 1", está sob o domínio dessa álgebra.
 
-Do simples ato de ligar o computador até as decisões que um sistema de inteligência artificial toma, a Álgebra Booleana está lá, guiando as escolhas. É como se ela fosse o “sinal de trânsito” que organiza o fluxo de dados e decisões nos circuitos eletrônicos e nos programas que usamos. 
+ Do simples ato de ligar o computador até as decisões que um sistema de inteligência artificial toma, a Álgebra 
+Booleana está lá, guiando as escolhas. É como se ela fosse o “sinal de trânsito” que organiza o fluxo de dados e 
+decisões nos circuitos eletrônicos e nos programas que usamos. 
 
-Agora, vamos explorar algumas das principais aplicações práticas dessa poderosa ferramenta.
+ Agora, vamos explorar algumas das principais aplicações práticas dessa poderosa ferramenta.
 
- Circuitos Lógicos Digitais: Sem dúvida, o campo mais clássico da aplicação da Álgebra Booleana são os circuitos lógicos digitais. Toda a base dos computadores, calculadoras, celulares e qualquer aparelho eletrônico programável depende desses circuitos.
+ * Circuitos Lógicos Digitais: Sem dúvida, o campo mais clássico da aplicação da Álgebra Booleana são os circuitos 
+  lógicos digitais. Toda a base dos computadores, calculadoras, celulares e qualquer aparelho eletrônico
+  programável depende desses circuitos.
 
-Esses circuitos são formados por portas lógicas como AND, OR e NOT, que nada mais são do que representações físicas das operações booleanas. A combinação dessas portas cria sistemas que realizam desde operações simples, como somar dois números, até funções complexas, como processar uma imagem ou rodar um jogo.
+   Esses circuitos são formados por portas lógicas como AND, OR e NOT, que nada mais são do que representações 
+  físicas das operações booleanas. A combinação dessas portas cria sistemas que realizam desde operações simples, 
+  como somar dois números, até funções complexas, como processar uma imagem ou rodar um jogo.
 
-Pense nos circuitos como uma grande estrada onde cada cruzamento tem um semáforo (as portas lógicas) que define por onde o carro (o sinal elétrico) pode ou não passar, dependendo das condições. É essa rede de decisões que faz o computador executar qualquer tarefa.
-
-
- Sistemas de Computação e Processadores: Nos processadores, a Álgebra Booleana está literalmente rodando o tempo todo. Ela é usada para comparar dados, realizar operações aritméticas, definir condições em comandos de programação e até tomar decisões lógicas.
-
- Dentro da Unidade Lógica e Aritmética (ULA) de um processador, tudo funciona com base em combinações lógicas booleanas. Cada instrução de máquina processada envolve verificar se algo é verdadeiro ou falso e agir de acordo — como decidir se um número é maior que outro ou se duas variáveis são iguais.
-
- É como se o processador fosse um enorme tribunal, onde a Álgebra Booleana atua como o juiz que ouve os dados apresentados, avalia as condições e sempre dá um veredito binário: "sim ou não".
-
-
-Programação de Software e Inteligência Artificial: Na programação, a Álgebra Booleana também é essencial. Todo "if" (se) que você encontra num código é uma aplicação direta da lógica booleana. Os programas dependem dessas condições para decidir o fluxo de execução, por exemplo: se o usuário clicou, faça isso; senão, faça aquilo.
-
-Além disso, sistemas de Inteligência Artificial (IA) e Machine Learning utilizam a Álgebra Booleana para fazer seleções, classificações e avaliações de condições. Um chatbot, por exemplo, avalia diversas condições booleanas para decidir qual resposta dar ao usuário.
-
- Imagine que o software é como um jogo de perguntas e respostas, onde cada escolha leva a um caminho diferente. A Álgebra Booleana é quem lê as respostas e escolhe o caminho correto.
+   Pense nos circuitos como uma grande estrada onde cada cruzamento tem um semáforo (as portas lógicas) que define 
+  por onde o carro (o sinal elétrico) pode ou não passar, dependendo das condições. É essa rede de decisões que 
+  faz o computador executar qualquer tarefa.
 
 
-Redes, Roteadores e Segurança da Informação: Na área de redes de computadores, a Álgebra Booleana é usada para construir filtros e regras de roteamento. Firewalls, por exemplo, tomam decisões com base em condições booleanas: se o pacote vem de tal IP e é da porta tal, bloqueie; caso contrário, permita.
+ * Sistemas de Computação e Processadores: Nos processadores, a Álgebra Booleana está literalmente rodando o tempo 
+  todo. Ela é usada para comparar dados, realizar operações aritméticas, definir condições em comandos de 
+  programação e até tomar decisões lógicas.
 
-Na segurança da informação, as condições booleanas definem quem pode ou não acessar determinados recursos, protegendo sistemas inteiros de invasões ou acessos indevidos.
+   Dentro da Unidade Lógica e Aritmética (ULA) de um processador, tudo funciona com base em combinações lógicas 
+  booleanas. Cada instrução de máquina processada envolve verificar se algo é verdadeiro ou falso e agir de   
+  acordo, como decidir se um número é maior que outro ou se duas variáveis são iguais.
 
-Imagine um segurança de um prédio que só deixa entrar quem cumpre todas as condições necessárias. Esse "checklist" de permissões é, na prática, um sistema booleando funcionando.
-
-
-Sistemas de Controle e Automação Industrial:
-
-Na indústria, sistemas de controle usam a Álgebra Booleana para ligar e desligar máquinas, regular temperaturas ou até controlar linhas inteiras de produção. Tudo baseado em sensores que geram sinais digitais interpretados por controladores lógicos programáveis (CLPs).
-
-Esses CLPs tomam decisões a cada segundo: se o sensor de temperatura detectar mais de 80ºC, desligue o aquecedor. Tudo isso é Álgebra Booleana pura, transformando sinais em ações físicas.
-
-É como se o chão de fábrica fosse cheio de “interruptores inteligentes” que só ligam ou desligam máquinas se determinadas condições forem cumpridas.
+   É como se o processador fosse um enorme tribunal, onde a Álgebra Booleana atua como o juiz que ouve os dados 
+  apresentados, avalia as condições e sempre dá um veredito binário: "sim ou não".
 
 
-Buscadores e Sistemas de Pesquisa: Quando você usa um buscador, como o Google, muitas vezes por trás da cortina rodam operações booleanas. Ao digitar "computador AND barato", o sistema faz exatamente o que a álgebra manda: procura páginas que contenham obrigatoriamente as duas palavras.
+ * Programação de Software e Inteligência Artificial: Na programação, a Álgebra Booleana também é essencial. Todo 
+  "if" (se) que você encontra num código é uma aplicação direta da lógica booleana. Os programas dependem dessas 
+  condições para decidir o fluxo de execução, por exemplo: se o usuário clicou, faça isso; senão, faça aquilo.
 
-Sistemas de busca, bancos de dados e filtros de informação dependem dessas operações para refinar resultados e entregar o que realmente importa.
+   Além disso, sistemas de Inteligência Artificial (IA) e Machine Learning utilizam a Álgebra Booleana para fazer 
+  seleções, classificações e avaliações de condições. Um chatbot, por exemplo, avalia diversas condições booleanas 
+  para decidir qual resposta dar ao usuário.
 
- É como procurar livros numa biblioteca usando uma lupa inteligente que só ilumina os livros que atendem exatamente aos critérios que você definiu.
+   Imagine que o software é como um jogo de perguntas e respostas, onde cada escolha leva a um caminho diferente. A 
+  Álgebra Booleana é quem lê as respostas e escolhe o caminho correto.
 
 
-Por fim deu pra percebe como a Álgebra Booleana está profundamente enraizada em praticamente tudo o que envolve tecnologia e decisão binária. Ela é a linguagem invisível dos sistemas digitais, tornando possível desde o clique de um botão até o processamento de informações complexas em tempo real.
+ * Redes, Roteadores e Segurança da Informação: Na área de redes de computadores, a Álgebra Booleana é usada para 
+  construir filtros e regras de roteamento. Firewalls, por exemplo, tomam decisões com base em condições booleanas: 
+  se o pacote vem de tal IP e é da porta tal, bloqueie; caso contrário, permita.
 
-Compreender essas aplicações não só ajuda a enxergar o quanto a Álgebra Booleana é importante, mas também amplia o olhar para as possibilidades da computação e da tecnologia. Saber usá-la é como dominar o "idioma nativo" dos computadores; um verdadeiro superpoder para quem quer trabalhar ou entender o mundo digital.
+   Na segurança da informação, as condições booleanas definem quem pode ou não acessar determinados recursos, 
+  protegendo sistemas inteiros de invasões ou acessos indevidos.
+
+   Imagine um segurança de um prédio que só deixa entrar quem cumpre todas as condições necessárias. Esse 
+  "checklist" de permissões é, na prática, um sistema booleando funcionando.
+
+
+ * Sistemas de Controle e Automação Industrial: Na indústria, sistemas de controle usam a Álgebra Booleana para 
+  ligar e desligar máquinas, regular temperaturas ou até controlar linhas inteiras de produção. Tudo baseado em 
+  sensores que geram sinais digitais interpretados por controladores lógicos programáveis (CLPs).
+
+   Esses CLPs tomam decisões a cada segundo: se o sensor de temperatura detectar mais de 80ºC, desligue o  
+  aquecedor. Tudo isso é Álgebra Booleana pura, transformando sinais em ações físicas.
+
+   É como se o chão de fábrica fosse cheio de “interruptores inteligentes” que só ligam ou desligam máquinas se 
+  determinadas condições forem cumpridas.
+
+
+ * Buscadores e Sistemas de Pesquisa: Quando você usa um buscador, como o Google, muitas vezes por trás da cortina 
+  rodam operações booleanas. Ao digitar "computador AND barato", o sistema faz exatamente o que a álgebra manda: 
+  procura páginas que contenham obrigatoriamente as duas palavras.
+
+   Sistemas de busca, bancos de dados e filtros de informação dependem dessas operações para refinar resultados e 
+  entregar o que realmente importa.
+
+   É como procurar livros numa biblioteca usando uma lupa inteligente que só ilumina os livros que atendem 
+  exatamente aos critérios que você definiu.
+
+ Por fim deu pra percebe como a Álgebra Booleana está profundamente enraizada em praticamente tudo o que envolve 
+tecnologia e decisão binária. Ela é a linguagem invisível dos sistemas digitais, tornando possível desde o clique 
+de um botão até o processamento de informações complexas em tempo real.
+
+ Compreender essas aplicações não só ajuda a enxergar o quanto a Álgebra Booleana é importante, mas também amplia o 
+olhar para as possibilidades da computação e da tecnologia. Saber usá-la é como dominar o "idioma nativo" dos 
+computadores; um verdadeiro superpoder para quem quer trabalhar ou entender o mundo digital.
 
 
 
