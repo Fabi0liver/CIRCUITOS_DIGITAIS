@@ -1,5 +1,6 @@
                                            ÁLGEBRA BOOLEANA
 
+
  A Álgebra Booleana é um daqueles assuntos fundamentais que, à primeira vista, pode parecer um bicho de sete 
 cabeças, mas, na verdade, é uma ferramenta poderosa e muito mais presente no nosso dia a dia do que imaginamos. Ela 
 está por trás de praticamente tudo que envolve tecnologia e sistemas digitais, desde os circuitos dentro do seu 
@@ -31,7 +32,7 @@ um aplicativo até o funcionamento da sua calculadora.
 
 
 
-                                     "Origem da Álgebra Booleana"
+                                    "Origem da Álgebra Booleana"
 
  A história da Álgebra Booleana começa lá no século XIX, quando um matemático e filósofo britânico chamado George 
 Boole decidiu encarar um desafio ousado para a época: transformar o raciocínio lógico (algo que parecia tão 
@@ -63,7 +64,7 @@ algo grandioso que transforma o mundo.
 
 
 
-                            "Álgebra Booleana e a Álgebra Convencional"
+                             "Álgebra Booleana e a Álgebra Convencional"
 
  Quando a gente compara a Álgebra Booleana com a Álgebra Convencional (aquela que aprendemos na escola e usamos no 
 dia a dia para lidar com números), a primeira grande diferença que salta aos olhos é o universo de valores com que 
@@ -96,7 +97,7 @@ que usamos todos os dias.
 
 
 
-                               "Variáveis e Operações Básicas"
+                                "Variáveis e Operações Básicas"
 
  Ao adentrarmos no universo da Álgebra Booleana, um dos primeiros conceitos que encontramos são as variáveis 
 booleanas e suas operações básicas. Essa parte é essencial porque é a base sobre a qual construímos toda a lógica 
@@ -241,7 +242,7 @@ simples, eles sustentam toda a tecnologia que usamos no nosso dia a dia.
 
 
 
-                             "O que são os Axiomas e Postulados?"
+                                "O que são os Axiomas e Postulados?"
 
  A Álgebra Booleana é uma ferramenta fundamental para a lógica digital e sistemas computacionais, sendo a base para 
 o desenvolvimento de circuitos e algoritmos lógicos. Para que a manipulação de expressões booleanas seja possível 
@@ -307,7 +308,7 @@ desenvolver soluções criativas para problemas lógicos.
 
 
 
-                               "Propriedades da Álgebra Booleana"
+                                 "Propriedades da Álgebra Booleana"
 
  Quando falamos em propriedades da Álgebra Booleana, estamos entrando na parte prática dos axiomas e postulados. 
 Essas propriedades são como as engrenagens que fazem todo o sistema lógico funcionar de maneira previsível e 
@@ -489,7 +490,7 @@ sistemas inteligentes de forma eficiente.
 
 
 
-                                    "Leis de De Morgan"
+                                          "Leis de De Morgan"
 
  Dentro da Álgebra Booleana, somos constantemente desafiados a manipular expressões lógicas formadas por variáveis, 
 operações e negações. É nesse cenário que surgem as Leis de De Morgan, como verdadeiras pontes que facilitam a 
@@ -571,7 +572,7 @@ contribuição segue viva, moldando o jeito como as máquinas pensam, e como nó
 
 
 
-                                "Simplificação em Expressões Booleanas"
+                                 "Simplificação em Expressões Booleanas"
 
  No mundo da lógica digital e dos circuitos eletrônicos, trabalhar com expressões booleanas é como construir uma 
 estrada: quanto mais direta e bem planejada, menos material e esforço são necessários. Quando uma expressão 
@@ -674,7 +675,7 @@ engenheiro ou cientista da computação, prontos para tornar qualquer sistema ma
 
 
 
-                              "Aplicações Práticas da Álgebra Booleana"
+                               "Aplicações Práticas da Álgebra Booleana"
 
  A Álgebra Booleana vai muito além dos livros e das lousas das salas de aula. Ela está presente em quase tudo que 
 usamos no dia a dia, mesmo que a gente nem perceba. Isso acontece porque ela oferece a base lógica para o 
@@ -764,7 +765,7 @@ computadores; um verdadeiro superpoder para quem quer trabalhar ou entender o mu
 
 
 
-                                  "Conclusão sobre  Álgebra Booleana"
+                                   "Conclusão sobre  Álgebra Booleana"
 
  Encerrar um estudo sobre Álgebra Booleana é como sair de uma sala de máquinas e finalmente enxergar o quanto todos 
 aqueles mecanismos silenciosos sustentam o funcionamento de um imenso sistema. Ao entender a lógica binária por 
