@@ -94,7 +94,7 @@ simples e brilhante sobre o qual construímos todo o nosso mundo digital.
 
 
 
-                               "Conceitos Básicos da Lógica Digital"
+                                 "Conceitos Básicos da Lógica Digital"
 
  Quando começamos a explorar o universo da lógica digital, é fundamental entender que tudo o que acontece dentro de 
 um computador, ou em qualquer outro dispositivo eletrônico, obedece a um conjunto de conceitos básicos que dão 
@@ -195,50 +195,100 @@ totalmente novo, onde tudo funciona com a precisão de um relógio e a simplicid
 
                                           "Portas Lógicas"
 
- Quando falamos em lógica digital, um dos elementos mais fundamentais para o funcionamento dos sistemas digitais são as portas lógicas. Elas podem ser vistas como os pequenos "pontos de decisão" que ajudam a máquina a realizar operações e processar informações de forma eficiente. Em outras palavras, as portas lógicas são responsáveis por decidir o que acontece com os sinais digitais, determinando o comportamento dos circuitos eletrônicos. Cada porta tem uma função simples, mas quando combinadas, elas são capazes de realizar tarefas muito complexas.
+ Quando falamos em lógica digital, um dos elementos mais fundamentais para o funcionamento dos sistemas digitais 
+são as portas lógicas. Elas podem ser vistas como os pequenos "pontos de decisão" que ajudam a máquina a realizar 
+operações e processar informações de forma eficiente. Em outras palavras, as portas lógicas são responsáveis por 
+decidir o que acontece com os sinais digitais, determinando o comportamento dos circuitos eletrônicos. Cada porta 
+tem uma função simples, mas quando combinadas, elas são capazes de realizar tarefas muito complexas.
 
- Essas portas trabalham com base em operações lógicas, onde as entradas podem ser combinadas de diferentes maneiras para gerar um resultado. Assim como as escolhas que fazemos em uma fila, onde podemos decidir entre diferentes caminhos, as portas lógicas fazem essas escolhas de maneira rápida e precisa. 
+ Essas portas trabalham com base em operações lógicas, onde as entradas podem ser combinadas de diferentes maneiras 
+para gerar um resultado. Assim como as escolhas que fazemos em uma fila, onde podemos decidir entre diferentes 
+caminhos, as portas lógicas fazem essas escolhas de maneira rápida e precisa. 
 
-Vamos agora entender como elas funcionam detalhadamente e como cada tipo de porta lógica desempenha seu papel único dentro da lógica digital.
+ Vamos agora entender como elas funcionam detalhadamente e como cada tipo de porta lógica desempenha seu papel 
+único dentro da lógica digital.
 
-- Porta AND: É uma das portas lógicas mais simples e mais utilizadas. Ela funciona com base na regra de que a saída só será 1 quando todas as entradas forem 1. Caso contrário, a saída será 0. Imagine que você tem dois interruptores de luz. A porta AND só acende a luz quando ambos os interruptores estão na posição "ligado" (1). Se qualquer um dos interruptores estiver na posição "desligado" (0), a luz não acende.
+ * Porta AND: É uma das portas lógicas mais simples e mais utilizadas. Ela funciona com base na regra de que a 
+  saída só será 1 quando todas as entradas forem 1. Caso contrário, a saída será 0. Imagine que você tem dois 
+  interruptores de luz. A porta AND só acende a luz quando ambos os interruptores estão na posição "ligado" (1). Se 
+  qualquer um dos interruptores estiver na posição "desligado" (0), a luz não acende.
 
-Essa característica torna a porta AND útil quando queremos que um evento aconteça apenas se todas as condições forem verdadeiras. Por exemplo, em um sistema de segurança, podemos ter várias condições para disparar um alarme, como a detecção de movimento e a abertura de uma porta. A porta AND garantirá que o alarme só seja ativado se ambas as condições forem atendidas.
-
-
-- Porta OR: Essa porta lógica tem um comportamento um pouco mais flexível que a AND. Ela gera uma saída 1 se pelo menos uma das entradas for 1. Se ambas as entradas forem 0, a saída será 0. Voltando à analogia dos interruptores de luz, a porta OR acende a luz se qualquer um dos interruptores estiver "ligado". A luz só ficará apagada quando ambos os interruptores estiverem "desligados".
-
-A porta OR é usada quando queremos que uma ação ocorra quando ao menos uma das condições seja verdadeira. No caso do sistema de segurança, por exemplo, o alarme poderia ser acionado se a porta se abrir ou se houver detecção de movimento, sem precisar que ambos os eventos aconteçam simultaneamente.
-
-
-- Porta NOT: Também conhecida como inversor, tem uma função simples, mas poderosa: ela inverte o valor de entrada. Se a entrada for 1, a saída será 0, e se a entrada for 0, a saída será 1. Podemos pensar nela como um interruptor que inverte o estado de um circuito. Se algo estiver ligado, a porta NOT vai desligar; se estiver desligado, ela ligará.
-
-Essa operação de inversão é essencial para muitos circuitos digitais. Ela pode ser usada em situações em que queremos mudar o comportamento de um sistema com base em uma condição oposta. Por exemplo, se queremos que um sistema de iluminação desligue ao detectar ausência de movimento, a porta NOT pode inverter o sinal do sensor de movimento para controlar o estado da luz.
-
-
-- Porta XOR (Exclusive OR): É uma operação que resulta em 1 quando apenas uma das entradas for 1, mas não ambas. Ou seja, ela só dá 1 quando as entradas são diferentes, e 0 quando são iguais. Vamos imaginar dois interruptores de luz novamente, mas com uma diferença: a luz só acende se um e apenas um dos interruptores estiver ligado. Se ambos os interruptores estiverem ligados ou desligados, a luz ficará apagada.
-
-A porta XOR é útil em situações em que queremos que uma condição seja verdadeira apenas quando as entradas são diferentes. Um exemplo prático disso é em sistemas de comparação, onde queremos saber se dois valores são diferentes. Essa porta também é fundamental para a criação de operações de somadores e circuitos de paridade.
+   Essa característica torna a porta AND útil quando queremos que um evento aconteça apenas se todas as condições 
+  forem verdadeiras. Por exemplo, em um sistema de segurança, podemos ter várias condições para disparar um alarme, 
+  como a detecção de movimento e a abertura de uma porta. A porta AND garantirá que o alarme só seja ativado se 
+  ambas as condições forem atendidas.
 
 
-- Porta NAND: É a porta lógica inversa da porta AND. Ela gera uma saída 0 apenas quando todas as entradas são 1; em todos os outros casos, a saída será 1. Se voltarmos à analogia dos interruptores de luz, a porta NAND só apagará a luz quando todos os interruptores estiverem "ligados". Se qualquer um dos interruptores estiver "desligado", a luz ficará acesa.
+ * Porta OR: Essa porta lógica tem um comportamento um pouco mais flexível que a AND. Ela gera uma saída 1 se pelo 
+  menos uma das entradas for 1. Se ambas as entradas forem 0, a saída será 0. Voltando à analogia dos interruptores 
+  de luz, a porta OR acende a luz se qualquer um dos interruptores estiver "ligado". A luz só ficará apagada quando 
+  ambos os interruptores estiverem "desligados".
 
-A porta NAND é uma das portas mais utilizadas em circuitos digitais porque, ao contrário da AND, sua inversão (NAND) pode ser combinada para criar qualquer outra operação lógica, tornando-a versátil. Em muitos sistemas, circuitos inteiros podem ser construídos usando apenas portas NAND.
-
-
-- Porta NOR: A é a porta lógica inversa da porta OR. Ela gera uma saída 1 apenas quando todas as entradas são 0; caso contrário, a saída será 0. Ou seja, a luz só acende quando todos os interruptores estão "desligados". Se qualquer interruptor estiver "ligado", a luz se apagará.
-
-Assim como a porta NAND, a porta NOR é extremamente útil por sua versatilidade. Usando apenas portas NOR, é possível construir qualquer outro tipo de porta lógica. Ela é comumente usada em sistemas que requerem a combinação de múltiplas condições de forma inversa ao que seria esperado em um circuito OR.
-
-
-Porta XNOR (Exclusive NOR): Ela resulta em 1 quando as entradas são iguais (ou seja, ambas 0 ou ambas 1) e 0 quando as entradas são diferentes. Voltando à nossa analogia dos interruptores, a porta XNOR acende a luz apenas quando ambos os interruptores estão na mesma posição, seja ambos ligados (1) ou ambos desligados (0). Se um estiver ligado e o outro desligado, a luz se apagará.
-
-A porta XNOR é muito útil em situações em que queremos verificar se duas condições são idênticas ou se dois valores são iguais. Um exemplo prático disso é quando usamos a porta XNOR para operações de igualdade em circuitos digitais, onde precisamos saber se duas entradas são iguais. Em algumas aplicações, a porta XNOR também é usada para criar sistemas de paridade, que ajudam a detectar e corrigir erros em sistemas de comunicação digital.
+   A porta OR é usada quando queremos que uma ação ocorra quando ao menos uma das condições seja verdadeira. No 
+  caso do sistema de segurança, por exemplo, o alarme poderia ser acionado se a porta se abrir ou se houver 
+  detecção de movimento, sem precisar que ambos os eventos aconteçam simultaneamente.
 
 
-Em suma, as portas lógicas são os blocos de construção essenciais de todos os circuitos digitais. Elas podem parecer simples à primeira vista, mas combinadas de maneiras inteligentes, elas formam a base de sistemas digitais muito mais complexos, como computadores, celulares e sistemas de controle. Cada tipo de porta tem uma função única e útil, e, ao entender como elas funcionam, podemos começar a projetar e entender os circuitos que nos cercam.
+ * Porta NOT: Também conhecida como inversor, tem uma função simples, mas poderosa: ela inverte o valor de entrada. 
+  Se a entrada for 1, a saída será 0, e se a entrada for 0, a saída será 1. Podemos pensar nela como um interruptor 
+  que inverte o estado de um circuito. Se algo estiver ligado, a porta NOT vai desligar; se estiver desligado, ela 
+  ligará.
 
-Com essa compreensão, você pode começar a ver como essas portas lógicas são fundamentais para a construção de algoritmos e circuitos, seja para resolver problemas simples ou para criar soluções inovadoras em tecnologia digital. As portas lógicas são como peças de lego que, quando combinadas de maneira adequada, formam qualquer coisa que você possa imaginar no mundo digital.
+   Essa operação de inversão é essencial para muitos circuitos digitais. Ela pode ser usada em situações em que 
+  queremos mudar o comportamento de um sistema com base em uma condição oposta. Por exemplo, se queremos que um 
+  sistema de iluminação desligue ao detectar ausência de movimento, a porta NOT pode inverter o sinal do sensor de 
+  movimento para controlar o estado da luz.
+
+
+ * Porta XOR (Exclusive OR): É uma operação que resulta em 1 quando apenas uma das entradas for 1, mas não ambas. 
+  Ou seja, ela só dá 1 quando as entradas são diferentes, e 0 quando são iguais. Vamos imaginar dois interruptores 
+  de luz novamente, mas com uma diferença: a luz só acende se um e apenas um dos interruptores estiver ligado. Se 
+  ambos os interruptores estiverem ligados ou desligados, a luz ficará apagada.
+
+   A porta XOR é útil em situações em que queremos que uma condição seja verdadeira apenas quando as entradas são 
+  diferentes. Um exemplo prático disso é em sistemas de comparação, onde queremos saber se dois valores são 
+  diferentes. Essa porta também é fundamental para a criação de operações de somadores e circuitos de paridade.
+
+
+ * Porta NAND: É a porta lógica inversa da porta AND. Ela gera uma saída 0 apenas quando todas as entradas são 1; 
+  em todos os outros casos, a saída será 1. Se voltarmos à analogia dos interruptores de luz, a porta NAND só 
+  apagará a luz quando todos os interruptores estiverem "ligados". Se qualquer um dos interruptores estiver 
+  "desligado", a luz ficará acesa.
+
+   A porta NAND é uma das portas mais utilizadas em circuitos digitais porque, ao contrário da AND, sua inversão 
+  (NAND) pode ser combinada para criar qualquer outra operação lógica, tornando-a versátil. Em muitos sistemas, 
+  circuitos inteiros podem ser construídos usando apenas portas NAND.
+
+
+ * Porta NOR: A é a porta lógica inversa da porta OR. Ela gera uma saída 1 apenas quando todas as entradas são 0; 
+  caso contrário, a saída será 0. Ou seja, a luz só acende quando todos os interruptores estão "desligados". Se 
+  qualquer interruptor estiver "ligado", a luz se apagará.
+
+   Assim como a porta NAND, a porta NOR é extremamente útil por sua versatilidade. Usando apenas portas NOR, é 
+  possível construir qualquer outro tipo de porta lógica. Ela é comumente usada em sistemas que requerem a 
+  combinação de múltiplas condições de forma inversa ao que seria esperado em um circuito OR.
+
+
+ * Porta XNOR (Exclusive NOR): Ela resulta em 1 quando as entradas são iguais (ou seja, ambas 0 ou ambas 1) e 0 
+  quando as entradas são diferentes. Voltando à nossa analogia dos interruptores, a porta XNOR acende a luz apenas 
+  quando ambos os interruptores estão na mesma posição, seja ambos ligados (1) ou ambos desligados (0). Se um 
+  estiver ligado e o outro desligado, a luz se apagará.
+
+   A porta XNOR é muito útil em situações em que queremos verificar se duas condições são idênticas ou se dois 
+  valores são iguais. Um exemplo prático disso é quando usamos a porta XNOR para operações de igualdade em 
+  circuitos digitais, onde precisamos saber se duas entradas são iguais. Em algumas aplicações, a porta XNOR também 
+  é usada para criar sistemas de paridade, que ajudam a detectar e corrigir erros em sistemas de comunicação 
+  digital.
+
+ Em suma, as portas lógicas são os blocos de construção essenciais de todos os circuitos digitais. Elas podem 
+parecer simples à primeira vista, mas combinadas de maneiras inteligentes, elas formam a base de sistemas digitais 
+muito mais complexos, como computadores, celulares e sistemas de controle. Cada tipo de porta tem uma função única 
+e útil, e, ao entender como elas funcionam, podemos começar a projetar e entender os circuitos que nos cercam.
+
+ Com essa compreensão, você pode começar a ver como essas portas lógicas são fundamentais para a construção de 
+algoritmos e circuitos, seja para resolver problemas simples ou para criar soluções inovadoras em tecnologia 
+digital. As portas lógicas são como peças de lego que, quando combinadas de maneira adequada, formam qualquer coisa 
+que você possa imaginar no mundo digital.
 
 
 
