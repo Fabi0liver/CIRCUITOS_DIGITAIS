@@ -193,7 +193,7 @@ totalmente novo, onde tudo funciona com a precisão de um relógio e a simplicid
 
 
 
-                                          "Portas Lógicas"
+                                            "Portas Lógicas"
 
  Quando falamos em lógica digital, um dos elementos mais fundamentais para o funcionamento dos sistemas digitais 
 são as portas lógicas. Elas podem ser vistas como os pequenos "pontos de decisão" que ajudam a máquina a realizar 
@@ -292,7 +292,7 @@ que você possa imaginar no mundo digital.
 
 
 
-                                       "Álgebra Booleana"
+                                           "Álgebra Booleana"
 
  A Álgebra Booleana é uma parte fundamental da lógica digital, pois fornece as ferramentas matemáticas necessárias 
 para modelar e simplificar circuitos lógicos. Assim como uma receita de bolo organiza os ingredientes de forma 
@@ -384,7 +384,7 @@ tecnologia.
 
 
 
-                                     "Circuitos Combinacionais"
+                                      "Circuitos Combinacionais"
 
  Os circuitos combinacionais são componentes fundamentais em sistemas digitais, e eles desempenham um papel crucial 
 na maneira como processamos informações de forma instantânea e eficiente. Esses circuitos operam de maneira que sua 
@@ -461,7 +461,7 @@ maneira eficiente e precisa.
 
 
 
-                                      "Circuitos Sequenciais"
+                                        "Circuitos Sequenciais"
 
  Os circuitos sequenciais são uma parte crucial da lógica digital, pois, ao contrário dos circuitos combinacionais, 
 eles não dependem apenas das entradas atuais, mas também do histórico das entradas passadas. Em outras palavras, os 
@@ -540,7 +540,7 @@ respondem de maneira mais complexa e eficiente a diferentes condições e requis
 
 
 
-                          "Implementação e Tecnologias da Lógica Digital"
+                             "Implementação e Tecnologias da Lógica Digital"
 
  A implementação da lógica digital é como construir o cérebro de um dispositivo eletrônico. Ela envolve a criação 
 de sistemas que fazem decisões rápidas e precisas com base em entradas binárias – ou seja, sinais de 0s e 1s. Esses 
@@ -663,7 +663,7 @@ cada vez mais conectado e inteligente.
 
 
 
-                                 "Conclusão Sobre a Lógica Digital"
+                                   "Conclusão Sobre a Lógica Digital"
 
  A lógica digital é como a fundação invisível sobre a qual todas as tecnologias modernas estão construídas. Sem 
 ela, nada do que usamos em nosso dia a dia funcionaria da maneira que esperamos. Ela pode ser comparada a uma 
