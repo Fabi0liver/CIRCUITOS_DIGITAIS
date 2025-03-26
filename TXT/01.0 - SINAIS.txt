@@ -180,7 +180,8 @@ rápidas, confiáveis e eficazes para um mundo cada vez mais conectado.
  Quando observamos qualquer tipo de sinal, seja ele um som, uma transmissão de rádio ou uma onda elétrica em um 
 circuito, percebemos que ele tem características próprias. Algumas dessas características determinam sua 
 intensidade, sua velocidade de variação e como ele se propaga no tempo e no espaço. Essas propriedades são chamadas 
-de parâmetros dos sinais, e seu entendimento é essencial para diversas aplicações, desde a comunicação digital até o funcionamento de dispositivos eletrônicos e sensores.
+de parâmetros dos sinais, e seu entendimento é essencial para diversas aplicações, desde a comunicação digital até 
+o funcionamento de dispositivos eletrônicos e sensores.
 
  Imagine que um sinal seja como uma onda no oceano. Algumas ondas são mais altas e intensas, outras são mais 
 rápidas e frequentes, enquanto algumas chegam antes ou depois dependendo da corrente marítima. Da mesma forma, os 
