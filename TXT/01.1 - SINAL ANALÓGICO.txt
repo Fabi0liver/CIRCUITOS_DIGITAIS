@@ -186,7 +186,11 @@ componentes e o que eles representam:
   Se a fase for diferente de zero, significa que a onda está deslocada no tempo. Isso é muito importante em 
   sistemas onde múltiplos sinais precisam estar sincronizados, como nas telecomunicações.
 
-Em suma, essa equação mostra que o sinal analógico tem um comportamento periódico e contínuo, sendo amplamente utilizada para modelar fenômenos físicos e sistemas eletrônicos. A partir dela, podemos manipular sinais, prever seu comportamento e entender como eles interagem em diversas aplicações, desde música até comunicações via satélite. Além disso, combinações de ondas senoidais podem representar sinais mais complexos, o que leva ao conceito da análise de Fourier, essencial no processamento de sinais.
+Em suma, essa equação mostra que o sinal analógico tem um comportamento periódico e contínuo, sendo amplamente 
+utilizada para modelar fenômenos físicos e sistemas eletrônicos. A partir dela, podemos manipular sinais, prever
+seu comportamento e entender como eles interagem em diversas aplicações, desde música até comunicações via satélite. 
+Além disso, combinações de ondas senoidais podem representar sinais mais complexos, o que leva ao conceito da análise
+de Fourier, essencial no processamento de sinais.
 
 
 
