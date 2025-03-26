@@ -3,7 +3,8 @@
 
  A conversão entre sinais analógicos e digitais é um dos processos fundamentais da eletrônica e da computação, 
 permitindo que dispositivos eletrônicos interajam com o mundo real. Como os sinais analógicos são contínuos e podem 
-assumir infinitos valores, enquanto os sinais digitais trabalham com valores discretos representados por números binários, é necessário um meio de transformar um tipo de sinal no outro. Esse processo é feito por dois tipos 
+assumir infinitos valores, enquanto os sinais digitais trabalham com valores discretos representados por números 
+binários, é necessário um meio de transformar um tipo de sinal no outro. Esse processo é feito por dois tipos 
 principais de conversores: ADC (Analog-to-Digital Converter) e DAC (Digital-to-Analog Converter).
 
  O ADC é responsável por converter um sinal analógico em um formato digital. Isso acontece, por exemplo, quando um 
