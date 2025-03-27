@@ -390,7 +390,9 @@ que você escolha para resolver uma expressão, o resultado final será sempre o
   misturados.
 
 
- * Propriedade Associativa: A Associatividade nos diz que o modo como agrupamos os termos não altera o resultado final. Isso vale tanto para o AND quanto para o OR. Podemos colocar ou retirar parênteses sem nos preocupar com mudanças no resultado.
+ * Propriedade Associativa: A Associatividade nos diz que o modo como agrupamos os termos não altera o resultado 
+final. Isso vale tanto para o AND quanto para o OR. Podemos colocar ou retirar parênteses sem nos preocupar com 
+mudanças no resultado.
 
    Expressões:        (A · B) · C = A · (B · C)                            (A + B) + C = A + (B + C)
 
