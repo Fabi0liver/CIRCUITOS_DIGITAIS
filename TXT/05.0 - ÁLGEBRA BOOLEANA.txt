@@ -254,7 +254,8 @@ postulados ajudam a expandir essas regras e a construir teoremas mais complexos.
 
  Em resumo, os axiomas e postulados formam a espinha dorsal da Álgebra Booleana, permitindo que qualquer expressão 
 lógica seja manipulada de maneira sistemática e sem contradições. Eles estabelecem as propriedades das operações 
-fundamentais, como AND, OR e NOT, além de fornecerem uma base sólida para o raciocínio lógico e a simplificação de expressões booleanas. 
+fundamentais, como AND, OR e NOT, além de fornecerem uma base sólida para o raciocínio lógico e a simplificação de 
+expressões booleanas. 
 
  Vamos detalhar, a seguir, o que são os axiomas e postulados, e como eles são aplicados na prática.
 
