@@ -377,7 +377,8 @@ começando a explorar o fascinante mundo da lógica.
                                           "Conectivos Lógicos"
 
  Ao avançarmos no estudo da lógica e das proposições, começamos a perceber que, muitas vezes, as ideias não 
-aparecem de forma isolada. Na maioria das situações do nosso cotidiano, estamos lidando com frases que ligam duas ou mais informações, criando um sentido maior e mais completo. Essa ligação entre as partes da frase é feita pelos 
+aparecem de forma isolada. Na maioria das situações do nosso cotidiano, estamos lidando com frases que ligam duas 
+ou mais informações, criando um sentido maior e mais completo. Essa ligação entre as partes da frase é feita pelos 
 chamados conectivos lógicos, que são verdadeiros "elos" dentro do raciocínio lógico, dando forma e estrutura ao que 
 queremos comunicar.
 
