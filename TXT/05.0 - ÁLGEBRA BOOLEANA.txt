@@ -760,7 +760,9 @@ decisões nos circuitos eletrônicos e nos programas que usamos.
    É como procurar livros numa biblioteca usando uma lupa inteligente que só ilumina os livros que atendem 
   exatamente aos critérios que você definiu.
 
- Deu pra percebe como a Álgebra Booleana está profundamente enraizada em praticamente tudo o que envolve tecnologia e decisão binária. Ela é a linguagem invisível dos sistemas digitais, tornando possível desde o clique de um botão até o processamento de informações complexas em tempo real.
+ Deu pra percebe como a Álgebra Booleana está profundamente enraizada em praticamente tudo o que envolve tecnologia 
+e decisão binária. Ela é a linguagem invisível dos sistemas digitais, tornando possível desde o clique de um botão
+até o processamento de informações complexas em tempo real.
 
  Compreender essas aplicações não só ajuda a enxergar o quanto a Álgebra Booleana é importante, mas também amplia o 
 olhar para as possibilidades da computação e da tecnologia. Saber usá-la é como dominar o "idioma nativo" dos 
