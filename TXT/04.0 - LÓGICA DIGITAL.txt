@@ -1,7 +1,8 @@
                                            LÓGICA DIGITAL
 
 
- Quando pensamos em como os computadores, celulares e até os eletrodomésticos modernos funcionam, é fácil imaginar que tudo isso acontece de forma mágica, ou que existe algum tipo de inteligência escondida dentro desses aparelhos. 
+ Quando pensamos em como os computadores, celulares e até os eletrodomésticos modernos funcionam, é fácil imaginar
+que tudo isso acontece de forma mágica, ou que existe algum tipo de inteligência escondida dentro desses aparelhos. 
 Mas, por trás de toda essa tecnologia, existe uma base muito bem estruturada chamada lógica digital. Ela é como a 
 linguagem secreta que as máquinas usam para tomar decisões, fazer cálculos e até mesmo acender uma simples luz no 
 momento certo. Essa lógica não lida com ideias abstratas como nós, seres humanos, mas sim com certezas: algo está 
