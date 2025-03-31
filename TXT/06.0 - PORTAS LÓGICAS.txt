@@ -64,4 +64,6 @@ Dentro das Portas lógica, existem estruturas fundamentais que permitem a tomada
 
 Estas estruturas seguem princípios bem definidos, baseados na Álgebra Booleana, e são capazes de realizar operações essenciais para o funcionamento de qualquer sistema digital. Podemos comparar as pequenas engrenagens dentro de uma máquina maior: cada uma tem uma função específica, mas quando combinadas, possibilitam o funcionamento de algo muito mais sofisticado. Desde operações matemáticas simples até decisões automatizadas, essas unidades básicas são os alicerces da tecnologia digital moderna.
 
-Para entender como essas estruturas funcionam na prática, precisamos conhecer seus diferentes tipos e características. Cada uma delas possui um comportamento específico e desempenha um papel crucial na construção de circuitos e sistemas computacionais. Agora, vamos explorar essas portas lógicas básicas, analisando seu funcionamento e sua importância dentro da lógica digital.
+Para entender como essas estruturas funcionam na prática, precisamos conhecer seus diferentes tipos e características. Cada uma delas possui um comportamento específico e desempenha um papel crucial na construção de circuitos e sistemas computacionais. 
+
+Agora, vamos explorar essas portas lógicas básicas, analisando seu funcionamento e sua importância dentro da lógica digital.
