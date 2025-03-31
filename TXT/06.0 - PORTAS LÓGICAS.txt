@@ -102,7 +102,7 @@ Esse símbolo é amplamente utilizado em projetos de hardware, desde pequenos ci
 Essa padronização ANSI é essencial para a interpretação rápida e eficiente dos circuitos digitais, permitindo que engenheiros, técnicos e estudantes compreendam esquemas elétricos de forma universal. Graças a essa representação gráfica, projetar e analisar circuitos lógicos se torna mais intuitivo, garantindo que o funcionamento dos sistemas seja organizado de maneira clara e precisa.
 
 
- - Expressão Booleana da Porta AND: A lógica por trás da porta AND pode ser expressa matematicamente por meio da Álgebra Booleana, um sistema que utiliza operações lógicas para representar o funcionamento dos circuitos digitais. Essa operação segue um padrão específico para indicar que a saída depende de todas as entradas simultaneamente. Existem diferentes formas de escrever essa expressão, dependendo do contexto em que é aplicada:
+ - Expressão Booleana: A lógica por trás da porta AND pode ser expressa matematicamente por meio da Álgebra Booleana, um sistema que utiliza operações lógicas para representar o funcionamento dos circuitos digitais. Essa operação segue um padrão específico para indicar que a saída depende de todas as entradas simultaneamente. Existem diferentes formas de escrever essa expressão, dependendo do contexto em que é aplicada:
 
 A AND B → Representação escrita por extenso, comum em explicações didáticas.
 
