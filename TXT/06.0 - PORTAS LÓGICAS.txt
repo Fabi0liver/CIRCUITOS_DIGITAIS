@@ -281,3 +281,85 @@ A importância das portas lógicas compostas está na sua capacidade de realizar
 Compreender as portas lógicas compostas é essencial para quem deseja aprofundar seus conhecimentos em eletrônica digital. Cada uma delas tem uma aplicação específica e desempenha um papel importante na automação, no processamento de dados e na construção de arquiteturas computacionais. 
 
 Agora, vamos explorar mais a fundo os diferentes tipos de portas lógicas compostas e entender como elas contribuem para o funcionamento dos circuitos digitais.
+
+
+
+* Porta Lógica NAND ( NOT AND - NÃO E - Negação da Conjunção)
+
+Se há um elemento que se destaca na construção de circuitos eletrônicos modernos, é a porta lógica NAND. Presente em praticamente todos os dispositivos digitais, essa porta desempenha um papel essencial no funcionamento de sistemas computacionais. Seu nome vem da junção das palavras “NOT” e “AND”, refletindo sua relação com a porta AND, mas com uma particularidade que a torna extremamente versátil. Sua importância vai além de uma simples operação lógica: ela é a base estrutural de muitos componentes eletrônicos, tornando-se indispensável na criação de circuitos digitais eficientes e funcionais.
+
+A versatilidade da porta NAND é tão notável que, com sua combinação, é possível criar qualquer outra porta lógica, tornando-a uma peça-chave no design de hardware. Essa característica a coloca no centro do desenvolvimento de microprocessadores, memórias e diversos sistemas eletrônicos. Seu uso se estende desde dispositivos simples até computadores avançados, garantindo que as operações digitais sejam realizadas com confiabilidade e precisão.
+
+
+ - Funcionamento Básico: A porta NAND segue a lógica da conjunção negada. Isso significa que ela opera de maneira semelhante à porta AND, mas com um detalhe crucial: sua saída será falsa somente quando todas as entradas forem verdadeiras. Se qualquer uma das entradas for falsa, a saída será verdadeira. Essa inversão da lógica tradicional faz com que a NAND seja extremamente útil em diversas aplicações.
+
+Para entender melhor, imagine um sistema de segurança em que uma porta só deve permanecer trancada se todas as fechaduras estiverem destrancadas ao mesmo tempo. No momento em que qualquer uma delas for trancada, a porta será aberta. Esse princípio ilustra como a porta NAND funciona: enquanto houver pelo menos uma condição "desfavorável" (falsa), a saída será verdadeira, garantindo seu funcionamento peculiar.
+
+
+ - Tabela Verdade : A maneira mais clara de visualizar o comportamento da porta NAND é por meio de sua tabela verdade. Para uma porta com duas entradas, temos o seguinte esquema:
+
+         Entrada A | Entrada B | Saída
+        -------------------------------
+             0     |     0     |   1
+             0     |     1     |   1
+             1     |     0     |   1
+             1     |     1     |   0
+
+A tabela mostra que a saída só será 0 quando ambas as entradas forem 1. Em qualquer outro caso, a saída será 1. Esse comportamento faz com que a porta NAND seja frequentemente usada para criar circuitos de decisão e controle, já que sua resposta lógica permite definir condições inversas com facilidade.
+
+Caso a porta NAND tenha mais de duas entradas, a lógica continua a mesma: a saída só será 0 se todas as entradas forem 1 ao mesmo tempo. Para qualquer outra combinação de entradas, a saída será 1.
+
+
+ - Representação Gráfica (Simbologia): Na porta NAND, o símbolo gráfico usado é semelhante ao da porta AND, sendo representado por um meio círculo com duas ou mais entradas convergindo para uma única saída. No entanto, a principal diferença está em um pequeno círculo posicionado na saída, que simboliza a inversão do sinal.
+
+Esse círculo na saída indica que o resultado da operação lógica será sempre o oposto do que uma porta AND tradicional produziria. Essa representação facilita a identificação da porta em esquemas eletrônicos, tornando mais intuitivo o entendimento de seu funcionamento. Esse símbolo segue padrões como o ANSI, garantindo uma leitura clara e precisa dos circuitos digitais em qualquer contexto técnico.
+
+
+ - Expressão Booleana: A operação da porta NAND pode ser representada por meio da Álgebra Booleana, um sistema matemático usado para descrever circuitos lógicos de forma simplificada. Diferentes notações podem ser utilizadas para expressar essa operação:
+
+NOT(A AND B) → Representação escrita por extenso.
+
+NÃO (A E B) → Forma em português, reforçando a ideia de negação da conjunção.
+
+¬(A ∧ B) → Uso do símbolo de negação (¬), comum na lógica matemática.
+
+~(A ∧ B) → Alternativa com o til (~), usado em algumas linguagens de programação.
+
+(A . B)’ → Representação com ponto e apóstrofo, comum na eletrônica digital.
+
+A ⊙ B → Outra notação simbólica para representar a operação NAND.
+
+A̅B̅   → Forma visualmente explicativa, destacando a inversão da conjunção.
+
+Independentemente da notação escolhida, todas expressam o mesmo conceito: a saída só será 0 quando todas as entradas forem 1.
+
+
+ - Múltiplas Entradas na Porta NAND: Assim como outras portas lógicas, a NAND pode operar com um número maior de entradas, ampliando suas possibilidades dentro dos circuitos digitais. O comportamento se mantém: a saída só será falsa quando todas as entradas forem verdadeiras simultaneamente.
+
+Veja a tabela verdade para uma porta NAND com três entradas:
+
+           Entrada A | Entrada B | Entrada C | Saída
+          -------------------------------------------
+               0     |     0     |     0     |   1
+               0     |     0     |     1     |   1
+               0     |     1     |     0     |   1
+               0     |     1     |     1     |   1
+               1     |     0     |     0     |   1
+               1     |     0     |     1     |   1
+               1     |     1     |     0     |   1
+               1     |     1     |     1     |   0
+
+Quanto mais entradas uma porta NAND tiver, mais difícil será alcançar um 0 na saída, pois todas as entradas precisarão ser 1 ao mesmo tempo. Esse tipo de configuração é frequentemente usado em circuitos de validação e controle de condições.
+
+
+Aplicações Práticas : A porta NAND está presente em uma infinidade de aplicações tecnológicas. Uma de suas principais utilizações é na construção de memórias digitais, como as utilizadas em dispositivos de armazenamento e microprocessadores. A memória NAND Flash, encontrada em pendrives e SSDs, recebeu esse nome justamente por sua relação com essa porta lógica.
+
+Além disso, a NAND é amplamente utilizada para criar outras portas lógicas. Devido à sua versatilidade, qualquer outra porta lógica pode ser construída utilizando apenas combinações de portas NAND, o que a torna uma peça essencial no design de circuitos digitais. Isso a transforma em uma das portas mais utilizadas em componentes eletrônicos modernos.
+
+
+Em suma, a porta lógica NAND desempenha um papel fundamental no mundo da eletrônica digital, sendo muito mais do que uma simples operação lógica. Sua capacidade de inverter a conjunção permite aplicações estratégicas na construção de circuitos eficientes e funcionais.
+
+Seu impacto pode ser visto desde os circuitos mais básicos até sistemas complexos, como processadores e memórias. A possibilidade de criar qualquer outra porta lógica usando apenas NAND reforça sua importância dentro da computação.
+
+Por isso, ao estudar lógica digital e eletrônica, compreender a porta NAND é essencial para entender como os circuitos modernos são projetados e otimizados. Seu papel vai além da teoria – está presente no dia a dia de qualquer dispositivo eletrônico que utilizamos.
+
