@@ -324,9 +324,7 @@ NÃO (A E B) → Forma em português, reforçando a ideia de negação da conjun
 
 (A . B)’ → Representação com ponto e apóstrofo, comum na eletrônica digital.
 
-A ⊙ B → Outra notação simbólica para representar a operação NAND.
-
-A̅B̅   → Forma visualmente explicativa, destacando a inversão da conjunção.
+A̅B̅ → Forma visualmente explicativa, destacando a inversão da conjunção.
 
 Independentemente da notação escolhida, todas expressam o mesmo conceito: a saída só será 0 quando todas as entradas forem 1.
 
@@ -359,4 +357,88 @@ Em suma, a porta lógica NAND desempenha um papel fundamental no mundo da eletr�
 Seu impacto pode ser visto desde os circuitos mais básicos até sistemas complexos, como processadores e memórias. A possibilidade de criar qualquer outra porta lógica usando apenas NAND reforça sua importância dentro da computação.
 
 Por isso, ao estudar lógica digital e eletrônica, compreender a porta NAND é essencial para entender como os circuitos modernos são projetados e otimizados. Seu papel vai além da teoria – está presente no dia a dia de qualquer dispositivo eletrônico que utilizamos.
+
+
+
+* Porta Lógica NOR (NOT OR – NÃO OU – Negação da Disjunção):
+
+Entre os blocos fundamentais da eletrônica digital, a porta lógica NOR se destaca por sua versatilidade e importância nos circuitos computacionais. Essa porta combina dois conceitos essenciais da lógica booleana: a disjunção (OR) e a negação (NOT), resultando em uma operação que inverte o comportamento da porta OR. Em outras palavras, sua saída só será verdadeira se todas as entradas forem falsas.
+
+Mais do que uma simples operação lógica, a NOR é classificada como uma porta universal, o que significa que, com ela, podemos construir qualquer outra porta lógica existente. Isso a torna uma peça-chave no desenvolvimento de microprocessadores, memórias e diversos sistemas eletrônicos. Seja em dispositivos simples ou em computadores avançados, a NOR desempenha um papel essencial na confiabilidade e eficiência das operações digitais.
+
+
+ - Funcionamento Básico da Porta Lógica NOR: A porta NOR segue o princípio da "disjunção negada", ou seja, ela opera como uma porta OR, mas com um detalhe crucial: sua saída será verdadeira somente quando todas as entradas forem falsas. Se pelo menos uma das entradas for verdadeira, a saída será falsa.
+
+Para entender melhor esse conceito, imagine um sistema de alarme que só deve permanecer desligado caso nenhum sensor detecte movimento. Se qualquer sensor ativar (indicando movimento), o alarme será acionado. Esse princípio reflete o comportamento da porta NOR: enquanto todas as condições forem "desfavoráveis" (falsas), a saída será verdadeira, mas basta uma única condição "favorável" (verdadeira) para que o resultado mude para falso.
+
+
+ - Tabela Verdade da Porta Lógica NOR: A melhor forma de visualizar como a NOR funciona é observando sua tabela verdade. Para uma porta com duas entradas, temos:
+
+             Entrada A | Entrada B | Saída
+            -------------------------------
+                 0     |     0     |   1  
+                 0     |     1     |   0  
+                 1     |     0     |   0  
+                 1     |     1     |   0  
+
+A tabela deixa claro que a saída só será 1 quando todas as entradas forem 0. Se qualquer entrada for 1, a saída será 0. Essa característica torna a NOR útil em aplicações onde precisamos garantir que determinada condição só seja atendida se nenhuma outra for ativada.
+
+Caso a porta NOR possua mais de duas entradas, o princípio continua o mesmo: a saída só será verdadeira se todas as entradas forem falsas simultaneamente.
+
+
+ - Representação Gráfica (Simbologia) da Porta Lógica NOR: A porta NOR tem um símbolo visual bem característico, que ajuda a diferenciá-la de outras portas. Ela se parece com a porta OR, sendo representada por uma curva com duas ou mais entradas que convergem para uma única saída. O que a torna única é a presença de um pequeno círculo na saída, conhecido como "bolha de inversão", que indica a negação do resultado.
+
+Esse detalhe visual facilita a interpretação dos circuitos, pois o pequeno círculo destaca que a NOR produz um resultado oposto ao da porta OR. Em diagramas eletrônicos, esse símbolo permite que engenheiros e técnicos identifiquem rapidamente sua função e comportamento, garantindo uma leitura clara dos circuitos digitais.
+
+
+Expressão Booleana da Porta Lógica NOR: Na Álgebra Booleana, a operação NOR pode ser representada de diversas formas, dependendo do contexto e da notação utilizada. Algumas das maneiras de expressar essa operação são:
+
+NOT(A OR B) → Representação por extenso.
+
+NÃO (A OU B) → Forma em português, destacando a negação da disjunção.
+
+¬(A ∨ B) → Uso do símbolo de negação (¬), comum na lógica matemática.
+
+~(A + B) → Alternativa com o til (~), usada em algumas linguagens de programação.
+
+(A + B)’ → Representação comum na eletrônica digital, com apóstrofo indicando a negação.
+
+(A+B)̅  → Forma visual que destaca a inversão de cada entrada antes da soma lógica.
+
+Independentemente da notação usada, todas expressam o mesmo conceito: a saída será verdadeira apenas quando todas as entradas forem falsas.
+
+
+Múltiplas Entradas na Porta NOR: Assim como outras portas lógicas, a NOR pode operar com mais de duas entradas, ampliando suas possibilidades dentro dos circuitos digitais. O comportamento permanece o mesmo: a saída só será 1 se todas as entradas forem 0 ao mesmo tempo.
+
+Aqui está a tabela verdade para uma porta NOR com três entradas:
+
+             Entrada A | Entrada B | Entrada C | Saída
+            -------------------------------------------
+                 0     |     0     |     0     |   1  
+                 0     |     0     |     1     |   0 
+                 0     |     1     |     0     |   0  
+                 0     |     1     |     1     |   0  
+                 1     |     0     |     0     |   0  
+                 1     |     0     |     1     |   0  
+                 1     |     1     |     0     |   0  
+                 1     |     1     |     1     |   0
+
+Quanto mais entradas a porta NOR possuir, mais difícil será obter uma saída verdadeira, pois todas as entradas devem ser 0 simultaneamente para que isso aconteça. Esse tipo de configuração é frequentemente usado para garantir que um sistema só atue quando nenhuma condição for atendida.
+
+
+ - Aplicações Práticas da Porta Lógica NOR: A porta NOR desempenha um papel fundamental em diversos sistemas eletrônicos. Ela é amplamente utilizada em circuitos de controle e decisão, onde é necessário garantir que nenhuma das condições monitoradas esteja ativa antes de tomar uma ação.
+
+Além disso, a NOR, assim como a NAND, é uma porta lógica universal, o que significa que qualquer outra porta pode ser construída a partir de combinações de portas NOR. Essa característica a torna indispensável no design de hardware, pois permite a criação de circuitos eficientes com um número reduzido de componentes.
+
+Uma de suas aplicações mais famosas está em sistemas de armazenamento e processamento de dados. Por exemplo, algumas arquiteturas de memória utilizam circuitos baseados na NOR para realizar operações de leitura e escrita de forma confiável.  
+
+
+Em suma, a porta lógica NOR é um dos pilares da eletrônica digital, sendo muito mais do que uma simples operação lógica. Sua capacidade de negar a disjunção lógica a torna extremamente útil para o controle de condições e tomadas de decisão dentro de circuitos digitais.
+
+Seu impacto vai desde circuitos básicos até sistemas altamente sofisticados, como processadores e memórias. O fato de ser uma porta universal reforça sua importância na computação, permitindo que qualquer outra porta lógica seja construída a partir dela.
+
+Por isso, ao estudar lógica digital e eletrônica, compreender a NOR é essencial para entender como os circuitos modernos são projetados e otimizados. Seu papel transcende a teoria – está presente nos dispositivos eletrônicos que usamos diariamente, garantindo que os sistemas funcionem com precisão e eficiência.
+
+
+
 
