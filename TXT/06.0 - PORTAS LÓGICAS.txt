@@ -269,3 +269,13 @@ Assim concluimos, que as portas lógicas básicas são a base da computação di
 Combinando essas portas em diferentes configurações, podemos construir circuitos complexos que realizam desde operações matemáticas até controle de sistemas sofisticados. A lógica digital se baseia nesses blocos fundamentais, permitindo que engenheiros e programadores criem soluções inteligentes para diversos problemas.
 
 Dominar o conceito dessas portas é essencial para qualquer pessoa que deseja se aprofundar em ciência da computação, eletrônica digital e programação lógica. A partir delas, é possível explorar portas compostas, circuitos mais avançados e entender melhor a base do funcionamento dos dispositivos eletrônicos modernos.
+
+
+
+                                   "Portas Lógicas  Compostas"
+
+As portas lógicas derivadas compostas, são combinações de portas lógicas básicas que formam estruturas mais complexas e versáteis dentro dos circuitos digitais. Elas não apenas executam operações fundamentais, mas também ampliam as possibilidades de processamento lógico, permitindo a criação de sistemas eletrônicos mais sofisticados e eficientes. Essas portas surgem da necessidade de otimizar o funcionamento dos circuitos, combinando múltiplas operações em uma única unidade lógica.
+
+Podemos imaginar essas portas como ingredientes que, quando combinados, resultam em novas receitas com funcionalidades distintas. Assim como na culinária, onde a mistura de diferentes temperos pode criar um novo sabor, as portas lógicas compostas unem operações fundamentais para atender a requisitos específicos de um sistema. Essa abordagem possibilita a criação de circuitos que realizam verificações, cálculos e controles automáticos de maneira mais eficiente, reduzindo a necessidade de componentes extras.
+
+O uso das portas lógicas derivadas é essencial para o desenvolvimento de sistemas computacionais modernos, pois permite a construção de circuitos mais compactos, rápidos e otimizados. Elas estão presentes em processadores, memórias e dispositivos eletrônicos de diversas áreas, garantindo que os dados sejam manipulados de maneira precisa e confiável. Para entender melhor como essas portas compostas são formadas e como elas operam, primeiro é importante revisar os fundamentos das portas lógicas básicas, que servem como blocos de construção para estruturas mais avançadas.
