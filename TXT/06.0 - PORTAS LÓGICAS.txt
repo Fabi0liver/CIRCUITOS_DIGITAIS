@@ -92,9 +92,9 @@ Para entender melhor, imagine que você está em um elevador que só pode subir 
 Essa tabela mostra que a saída só será 1 (verdadeira) quando ambas as entradas forem 1 . Para qualquer outra combinação, a saída será 0 (falsa). Caso a porta E tenha mais de duas entradas, a lógica se mantém: a saída só será verdadeira se todas as entradas forem verdadeiras ao mesmo tempo.
 
 
- - Representação Gráfica (Simbologia) da Porta Lógica AND: Assim como os sinais de trânsito usam símbolos para indicar ações específicas, os circuitos digitais utilizam representações gráficas padronizadas para facilitar a leitura e a compreensão do seu funcionamento. No padrão ANSI (American National Standards Institute) , que é amplamente utilizado na eletrônica digital, a porta AND é representada por um meio círculo (ou semicircunferência) com duas ou mais entradas convergindo para uma única saída . Esse design destaca visualmente o princípio da conjunção lógica: todas as entradas precisam estar ativas para que a saída também esteja ativa.
+ - Representação Gráfica da Porta Lógica AND (Simbologia): A porta lógica AND é representada graficamente por um símbolo que se assemelha a um "meio círculo" ou semicircunferência, com as entradas convergindo para uma única saída. Esse design é simples, mas muito eficaz para expressar o princípio básico dessa porta lógica: a necessidade de todas as entradas estarem ativas para que a saída também seja. Visualmente, esse formato reforça a ideia de que a conexão entre as entradas precisa ser completa, assim como um interruptor que só liga a luz quando todas as condições estão atendidas.
 
-Essa padronização ANSI é essencial para a interpretação rápida e eficiente dos circuitos digitais, permitindo que engenheiros, técnicos e estudantes compreendam esquemas elétricos de forma universal. Graças a essa representação gráfica, projetar e analisar circuitos lógicos se torna mais intuitivo, garantindo que o funcionamento dos sistemas seja organizado de maneira clara e precisa.
+A simplicidade e clareza dessa representação gráfica ajudam na interpretação dos esquemas de circuitos digitais. Apesar de seu design simples, ele comunica de forma eficiente o comportamento fundamental da porta AND. Essa simbologia segue o padrão ANSI (American National Standards Institute), garantindo que engenheiros e técnicos possam rapidamente compreender e projetar circuitos, sem a necessidade de explicações longas, facilitando o trabalho com sistemas digitais de maneira universal e intuitiva.
 
 
  - Expressão Booleana da Porta Lógica AND: A lógica por trás da porta AND pode ser expressa matematicamente por meio da Álgebra Booleana, um sistema que utiliza operações lógicas para representar o funcionamento dos circuitos digitais. Essa operação segue um padrão específico para indicar que a saída depende de todas as entradas simultaneamente. Existem diferentes formas de escrever essa expressão, dependendo do contexto em que é aplicada:
@@ -164,9 +164,9 @@ Para ilustrar melhor, imagine um sistema de alarme em que existem dois sensores:
 Essa tabela mostra que a saída será 1 (verdadeira) sempre que pelo menos uma das entradas for 1. Somente quando todas as entradas forem 0, a saída será 0. Se a porta OR tiver mais de duas entradas, a regra continua a mesma: basta que qualquer uma delas seja ativada para que a saída também seja ativada.
 
 
- - Representação Gráfica (Simbologia) da Porta Lógica OR: Assim como os sinais de trânsito utilizam símbolos padronizados para indicar ações específicas, os circuitos digitais também possuem representações gráficas que facilitam a leitura e o entendimento de seu funcionamento. No padrão ANSI (American National Standards Institute), amplamente utilizado na eletrônica digital, a porta OR é representada por uma curva que lembra a forma de um escudo voltado para a saída, com duas ou mais entradas convergindo para um único ponto.
+ - Representação Gráfica da Porta Lógica OR (Simbologia): A representação gráfica da porta lógica OR é projetada para ser simples e intuitiva, facilitando a compreensão do seu funcionamento nos circuitos digitais. O símbolo dessa porta tem a forma de um escudo com uma curva voltada para a saída, com as entradas convergindo para o lado oposto. Essa curva e o formato característico são usados para transmitir visualmente a ideia de que a saída será ativada por qualquer uma das entradas, refletindo o comportamento de disjunção lógica, onde basta que uma das entradas seja verdadeira para que a saída também seja.
 
-Esse formato visual destaca a ideia de que qualquer uma das entradas pode ativar a saída, reforçando o conceito de disjunção lógica. A padronização ANSI é essencial para que engenheiros, técnicos e estudantes possam interpretar diagramas de circuitos de maneira rápida e eficiente, garantindo que os projetos eletrônicos sigam uma convenção universal e compreensível.
+Embora a simbologia possa parecer simples, ela carrega o conceito de forma clara: a entrada ativa a saída de maneira inclusiva, ou seja, ao contrário de outras portas lógicas, a OR não exige que todas as entradas sejam verdadeiras, mas apenas uma. Essa representação visual segue o padrão ANSI, garantindo que engenheiros e estudantes possam entender rapidamente os diagramas, independentemente do contexto ou aplicação, mantendo a consistência e clareza na interpretação de circuitos.
 
 
  - Expressão Booleana da Porta OR: A porta OR pode ser representada matematicamente através da Álgebra Booleana, um sistema que permite modelar operações lógicas de maneira precisa. Para expressar sua função, utilizamos diferentes formas de notação, dependendo do contexto de aplicação:
@@ -211,7 +211,9 @@ Embora seu conceito seja simples, sua aplicação é extremamente ampla e indisp
 
 
 
-* Porta Lógica NOT (NÃO - Negação): No mundo da lógica digital, cada componente tem uma função específica na construção de circuitos e sistemas inteligentes. Entre eles, a porta NOT ocupa um lugar único, sendo a única das portas lógicas fundamentais que opera com apenas uma entrada. Sua presença é indispensável em projetos eletrônicos e computacionais, pois permite modificar sinais de maneira estratégica, garantindo que os circuitos se comportem conforme o esperado.
+* Porta Lógica NOT (NÃO - Negação): 
+
+No mundo da lógica digital, cada componente tem uma função específica na construção de circuitos e sistemas inteligentes. Entre eles, a porta NOT ocupa um lugar único, sendo a única das portas lógicas fundamentais que opera com apenas uma entrada. Sua presença é indispensável em projetos eletrônicos e computacionais, pois permite modificar sinais de maneira estratégica, garantindo que os circuitos se comportem conforme o esperado.
 
 Mais do que apenas um elemento técnico, a porta NOT pode ser vista como um mecanismo de inversão dentro de um sistema lógico. Sua função é simples, mas seu impacto é profundo, influenciando desde operações básicas até a lógica de controle de dispositivos complexos. Em aplicações que exigem ajustes automáticos de estados ou complementação de informações, essa porta lógica se torna essencial, mostrando como até mesmo os conceitos mais simples podem ter um papel crucial na construção da tecnologia digital.
 
@@ -231,12 +233,12 @@ Para facilitar a compreensão, imagine um sistema de iluminação automática em
 Isso significa que qualquer valor binário que entrar na porta será invertido. Esse princípio é fundamental para diversas aplicações, como a criação de operações lógicas complementares, sinais de controle e sistemas de tomada de decisão.
 
 
-Representação Gráfica (Simbologia) da Porta Lógica NOT: Nos circuitos digitais, cada porta lógica tem um símbolo gráfico que facilita sua identificação e interpretação. No padrão ANSI (American National Standards Institute), que é amplamente utilizado na eletrônica digital, a porta NOT é representada por um triângulo apontado para a saída, com um pequeno círculo na ponta. Esse círculo simboliza a inversão do sinal, indicando que a saída será sempre o oposto da entrada.
+Representação Gráfica da Porta Lógica NOT (Simbologia): Nos circuitos digitais, a porta NOT possui um símbolo característico que reflete sua função de inversão. Sua representação gráfica consiste em um triângulo apontado para a saída, simbolizando o fluxo do sinal, e um pequeno círculo na extremidade, indicando a inversão do valor lógico. Esse círculo é essencial, pois destaca visualmente que a saída sempre será o oposto da entrada.
 
-Essa padronização facilita o entendimento dos circuitos, pois permite que engenheiros e técnicos reconheçam rapidamente a função de cada componente em um diagrama. A simbologia bem definida da porta NOT é essencial para manter a clareza e a organização nos projetos eletrônicos, tornando mais intuitivo o design de sistemas lógicos e sua análise funcional.
+A simplicidade desse símbolo torna a identificação da porta NOT imediata em diagramas eletrônicos, permitindo que engenheiros e técnicos compreendam rapidamente seu papel dentro de um circuito. Seguindo o padrão ANSI, essa notação gráfica garante uniformidade na representação dos circuitos lógicos, facilitando o design e a análise de sistemas digitais.
 
 
-Expressão Booleana da Porta Lógica NOT: A operação da porta NOT pode ser representada matematicamente por meio da Álgebra Booleana, que descreve como os circuitos digitais processam informações. Essa operação segue um princípio simples, mas essencial: inverter o valor lógico da entrada. Dependendo do contexto e da notação utilizada, essa inversão pode ser escrita de diferentes formas:
+ - Expressão Booleana da Porta Lógica NOT: A operação da porta NOT pode ser representada matematicamente por meio da Álgebra Booleana, que descreve como os circuitos digitais processam informações. Essa operação segue um princípio simples, mas essencial: inverter o valor lógico da entrada. Dependendo do contexto e da notação utilizada, essa inversão pode ser escrita de diferentes formas:
 
 NOT A → Representação escrita por extenso, utilizada em explicações didáticas.
 
@@ -307,7 +309,7 @@ A tabela mostra que a saída só será 0 quando ambas as entradas forem 1. Em qu
 Caso a porta NAND tenha mais de duas entradas, a lógica continua a mesma: a saída só será 0 se todas as entradas forem 1 ao mesmo tempo. Para qualquer outra combinação de entradas, a saída será 1.
 
 
- - Representação Gráfica (Simbologia) da Porta Lógica NAND: Na porta NAND, o símbolo gráfico usado é semelhante ao da porta AND, sendo representado por um meio círculo com duas ou mais entradas convergindo para uma única saída. No entanto, a principal diferença está em um pequeno círculo posicionado na saída, que simboliza a inversão do sinal.
+ - Representação Gráfica da Porta Lógica NAND (Simbologia): Na porta NAND, o símbolo gráfico usado é semelhante ao da porta AND, sendo representado por um meio círculo com duas ou mais entradas convergindo para uma única saída. No entanto, a principal diferença está em um pequeno círculo posicionado na saída, que simboliza a inversão do sinal.
 
 Esse círculo na saída indica que o resultado da operação lógica será sempre o oposto do que uma porta AND tradicional produziria. Essa representação facilita a identificação da porta em esquemas eletrônicos, tornando mais intuitivo o entendimento de seu funcionamento. Esse símbolo segue padrões como o ANSI, garantindo uma leitura clara e precisa dos circuitos digitais em qualquer contexto técnico.
 
@@ -384,12 +386,12 @@ A tabela deixa claro que a saída só será 1 quando todas as entradas forem 0. 
 Caso a porta NOR possua mais de duas entradas, o princípio continua o mesmo: a saída só será verdadeira se todas as entradas forem falsas simultaneamente.
 
 
- - Representação Gráfica (Simbologia) da Porta Lógica NOR: A porta NOR tem um símbolo visual bem característico, que ajuda a diferenciá-la de outras portas. Ela se parece com a porta OR, sendo representada por uma curva com duas ou mais entradas que convergem para uma única saída. O que a torna única é a presença de um pequeno círculo na saída, conhecido como "bolha de inversão", que indica a negação do resultado.
+ - Representação Gráfica da Porta Lógica NOR (Simbologia): A porta NOR tem um símbolo visual bem característico, que ajuda a diferenciá-la de outras portas. Ela se parece com a porta OR, sendo representada por uma curva com duas ou mais entradas que convergem para uma única saída. O que a torna única é a presença de um pequeno círculo na saída, conhecido como "bolha de inversão", que indica a negação do resultado.
 
 Esse detalhe visual facilita a interpretação dos circuitos, pois o pequeno círculo destaca que a NOR produz um resultado oposto ao da porta OR. Em diagramas eletrônicos, esse símbolo permite que engenheiros e técnicos identifiquem rapidamente sua função e comportamento, garantindo uma leitura clara dos circuitos digitais.
 
 
-Expressão Booleana da Porta Lógica NOR: Na Álgebra Booleana, a operação NOR pode ser representada de diversas formas, dependendo do contexto e da notação utilizada. Algumas das maneiras de expressar essa operação são:
+ - Expressão Booleana da Porta Lógica NOR: Na Álgebra Booleana, a operação NOR pode ser representada de diversas formas, dependendo do contexto e da notação utilizada. Algumas das maneiras de expressar essa operação são:
 
 NOT(A OR B) → Representação por extenso.
 
@@ -406,7 +408,7 @@ NÃO (A OU B) → Forma em português, destacando a negação da disjunção.
 Independentemente da notação usada, todas expressam o mesmo conceito: a saída será verdadeira apenas quando todas as entradas forem falsas.
 
 
-Múltiplas Entradas na Porta NOR: Assim como outras portas lógicas, a NOR pode operar com mais de duas entradas, ampliando suas possibilidades dentro dos circuitos digitais. O comportamento permanece o mesmo: a saída só será 1 se todas as entradas forem 0 ao mesmo tempo.
+ - Múltiplas Entradas na Porta NOR: Assim como outras portas lógicas, a NOR pode operar com mais de duas entradas, ampliando suas possibilidades dentro dos circuitos digitais. O comportamento permanece o mesmo: a saída só será 1 se todas as entradas forem 0 ao mesmo tempo.
 
 Aqui está a tabela verdade para uma porta NOR com três entradas:
 
@@ -461,7 +463,7 @@ Para ilustrar esse conceito, imagine um controle de acesso onde duas chaves prec
 A principal característica dessa porta é que a saída só será 1 quando as entradas forem diferentes. Esse comportamento a torna extremamente útil para operações lógicas que dependem da comparação entre bits.
 
 
- - Representação Gráfica (Simbologia) da Porta Lógica XOR: Nos circuitos digitais, a simbologia da porta XOR se assemelha à da porta OR, mas com um detalhe importante: uma linha curva extra antes da entrada. Esse traço adicional indica que a operação realizada pela porta é exclusiva, diferenciando-a da OR tradicional.
+ - Representação Gráfica da Porta Lógica XOR (Simbologia): Nos circuitos digitais, a simbologia da porta XOR se assemelha à da porta OR, mas com um detalhe importante: uma linha curva extra antes da entrada. Esse traço adicional indica que a operação realizada pela porta é exclusiva, diferenciando-a da OR tradicional.
 
 Esse símbolo segue padrões internacionais e é essencial para que engenheiros e técnicos reconheçam rapidamente a presença da XOR em esquemas eletrônicos. Sua representação visual contribui para uma melhor organização e interpretação dos circuitos digitais.
 
@@ -513,6 +515,7 @@ Em suma, a porta lógica XOR é um elemento fundamental nos circuitos digitais, 
 Compreender o funcionamento da porta XOR é crucial para qualquer pessoa que deseje se aprofundar no estudo de circuitos digitais. Seu papel é central para o entendimento dos sistemas lógicos que formam a base da computação moderna. A familiaridade com essa porta é um passo importante para se tornar proficiente na criação e análise de soluções lógicas no universo da eletrônica e da computação.
 
 
+
 * Porta Lógica XNOR (Exclusive NOR - OU Exclusivo Negado - Igualdade Lógica):
 
 No vasto universo da eletrônica digital, algumas operações lógicas possuem um papel estratégico na construção de circuitos eficientes e inteligentes. Entre elas, a porta XNOR se destaca por sua capacidade única de validar semelhanças entre sinais de entrada, sendo amplamente utilizada em sistemas que precisam identificar padrões e garantir coerência nos dados processados. Seu nome deriva da expressão "Exclusive NOR" (OU Exclusivo Negado), refletindo sua função essencial: produzir um resultado verdadeiro quando os valores de entrada forem iguais.
@@ -537,7 +540,7 @@ Para ilustrar, imagine um sistema de autenticação baseado em um código secret
 O detalhe fundamental dessa lógica é que a saída será 1 apenas quando ambas as entradas forem iguais. Isso torna a XNOR uma ferramenta valiosa para sistemas que necessitam identificar correspondências exatas entre valores lógicos.
 
 
- - Representação Gráfica (Simbologia) da Porta Lógica XNOR: Nos diagramas de circuitos digitais, a porta XNOR tem uma simbologia semelhante à porta OR, mas com duas particularidades: um traço curvo adicional antes das entradas, indicando que se trata de uma operação exclusiva, e um pequeno círculo na saída, que representa a negação do resultado da XOR.
+ - Representação Gráfica da Porta Lógica XNOR  (Simbologia): Nos diagramas de circuitos digitais, a porta XNOR tem uma simbologia semelhante à porta OR, mas com duas particularidades: um traço curvo adicional antes das entradas, indicando que se trata de uma operação exclusiva, e um pequeno círculo na saída, que representa a negação do resultado da XOR.
 
 Esse símbolo segue padrões internacionais e facilita a interpretação de esquemas eletrônicos, permitindo que engenheiros e técnicos identifiquem rapidamente sua presença em um circuito.
 
