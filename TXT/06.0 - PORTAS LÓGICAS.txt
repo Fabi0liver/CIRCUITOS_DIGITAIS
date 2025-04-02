@@ -526,11 +526,18 @@ lógica digital.
   continua sendo uma peça-chave no design de circuitos e na automação de processos digitais.
 
 
-Assim concluimos, que as portas lógicas básicas são a base da computação digital e da eletrônica moderna. Elas operam seguindo regras lógicas precisas, permitindo que circuitos tomem decisões e processem informações de maneira eficiente. Sem essas portas, não teríamos os sistemas digitais que conhecemos hoje, desde computadores e celulares até sensores inteligentes e automação industrial.
+ Assim concluimos, que as portas lógicas básicas são a base da computação digital e da eletrônica moderna. Elas 
+operam seguindo regras lógicas precisas, permitindo que circuitos tomem decisões e processem informações de maneira 
+eficiente. Sem essas portas, não teríamos os sistemas digitais que conhecemos hoje, desde computadores e celulares 
+até sensores inteligentes e automação industrial.
 
-Combinando essas portas em diferentes configurações, podemos construir circuitos complexos que realizam desde operações matemáticas até controle de sistemas sofisticados. A lógica digital se baseia nesses blocos fundamentais, permitindo que engenheiros e programadores criem soluções inteligentes para diversos problemas.
+ Combinando essas portas em diferentes configurações, podemos construir circuitos complexos que realizam desde 
+operações matemáticas até controle de sistemas sofisticados. A lógica digital se baseia nesses blocos fundamentais, 
+permitindo que engenheiros e programadores criem soluções inteligentes para diversos problemas.
 
-Dominar o conceito dessas portas é essencial para qualquer pessoa que deseja se aprofundar em ciência da computação, eletrônica digital e programação lógica. A partir delas, é possível explorar portas compostas, circuitos mais avançados e entender melhor a base do funcionamento dos dispositivos eletrônicos modernos.
+ Dominar o conceito dessas portas é essencial para qualquer pessoa que deseja se aprofundar em ciência da 
+computação, eletrônica digital e programação lógica. A partir delas, é possível explorar portas compostas, 
+circuitos mais avançados e entender melhor a base do funcionamento dos dispositivos eletrônicos modernos.
 
 
 
