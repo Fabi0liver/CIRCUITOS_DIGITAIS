@@ -432,56 +432,98 @@ lógica digital.
 
 
 
-* Porta Lógica NOT (NÃO - Negação): 
+ * Porta Lógica NOT (NÃO - Negação): 
 
-No mundo da lógica digital, cada componente tem uma função específica na construção de circuitos e sistemas inteligentes. Entre eles, a porta NOT ocupa um lugar único, sendo a única das portas lógicas fundamentais que opera com apenas uma entrada. Sua presença é indispensável em projetos eletrônicos e computacionais, pois permite modificar sinais de maneira estratégica, garantindo que os circuitos se comportem conforme o esperado.
+   No mundo da lógica digital, cada componente tem uma função específica na construção de circuitos e sistemas 
+  inteligentes. Entre eles, a porta NOT ocupa um lugar único, sendo a única das portas lógicas fundamentais que 
+  opera com apenas uma entrada. Sua presença é indispensável em projetos eletrônicos e computacionais, pois permite 
+  modificar sinais de maneira estratégica, garantindo que os circuitos se comportem conforme o esperado.
 
-Mais do que apenas um elemento técnico, a porta NOT pode ser vista como um mecanismo de inversão dentro de um sistema lógico. Sua função é simples, mas seu impacto é profundo, influenciando desde operações básicas até a lógica de controle de dispositivos complexos. Em aplicações que exigem ajustes automáticos de estados ou complementação de informações, essa porta lógica se torna essencial, mostrando como até mesmo os conceitos mais simples podem ter um papel crucial na construção da tecnologia digital.
-
-
- - Funcionamento Básico da Porta NOT: A lógica por trás da porta NOT é bastante simples: ela sempre produz o oposto do que recebe. Se a entrada for 1 (verdadeiro), a saída será 0 (falso). Se a entrada for 0, a saída será 1. Essa operação é conhecida como negação ou complementação, pois altera completamente o estado lógico do sinal de entrada.
-
-Para facilitar a compreensão, imagine um sistema de iluminação automática em um teatro. Quando a cortina sobe (entrada = 1), as luzes do palco se apagam (saída = 0). Quando a cortina desce (entrada = 0), as luzes se acendem (saída = 1). Esse comportamento inverso é exatamente o que acontece com a porta NOT, garantindo que determinados circuitos ajam sempre de forma oposta à entrada recebida.
-
-
- - Tabela Verdade da Porta Lógica NOT: A tabela verdade é uma forma visual de representar o comportamento de uma porta lógica em todas as suas possíveis entradas e saídas. Como a porta NOT opera apenas com uma única entrada, sua tabela verdade é bem simples:
-
-                  Entrada | Saída  
-                 ----------------- 
-                     0    |   1  
-                     1    |   0  
-
-Isso significa que qualquer valor binário que entrar na porta será invertido. Esse princípio é fundamental para diversas aplicações, como a criação de operações lógicas complementares, sinais de controle e sistemas de tomada de decisão.
+   Mais do que apenas um elemento técnico, a porta NOT pode ser vista como um mecanismo de inversão dentro de um 
+  sistema lógico. Sua função é simples, mas seu impacto é profundo, influenciando desde operações básicas até a 
+  lógica de controle de dispositivos complexos. Em aplicações que exigem ajustes automáticos de estados ou 
+  complementação de informações, essa porta lógica se torna essencial, mostrando como até mesmo os conceitos mais 
+  simples podem ter um papel crucial na construção da tecnologia digital.
 
 
-Representação Gráfica da Porta Lógica NOT (Simbologia): Nos circuitos digitais, a porta NOT possui um símbolo característico que reflete sua função de inversão. Sua representação gráfica consiste em um triângulo apontado para a saída, simbolizando o fluxo do sinal, e um pequeno círculo na extremidade, indicando a inversão do valor lógico. Esse círculo é essencial, pois destaca visualmente que a saída sempre será o oposto da entrada.
+   - Funcionamento Básico da Porta NOT: A lógica por trás da porta NOT é bastante simples: ela sempre produz o 
+    oposto do que recebe. Se a entrada for 1 (verdadeiro), a saída será 0 (falso). Se a entrada for 0, a saída será 
+    1. Essa operação é conhecida como negação ou complementação, pois altera completamente o estado lógico do sinal 
+    de entrada.
 
-A simplicidade desse símbolo torna a identificação da porta NOT imediata em diagramas eletrônicos, permitindo que engenheiros e técnicos compreendam rapidamente seu papel dentro de um circuito. Seguindo o padrão ANSI, essa notação gráfica garante uniformidade na representação dos circuitos lógicos, facilitando o design e a análise de sistemas digitais.
-
-
- - Expressão Booleana da Porta Lógica NOT: A operação da porta NOT pode ser representada matematicamente por meio da Álgebra Booleana, que descreve como os circuitos digitais processam informações. Essa operação segue um princípio simples, mas essencial: inverter o valor lógico da entrada. Dependendo do contexto e da notação utilizada, essa inversão pode ser escrita de diferentes formas:
-
-NOT A → Representação escrita por extenso, utilizada em explicações didáticas.
-
-NÃO A → Representação textual que enfatiza o conceito de negação em linguagem natural.
-
-¬A → Representação com o símbolo de negação, amplamente usada em lógica matemática.
-
-A' → Representação com apóstrofo, comum em circuitos digitais e tabelas verdade.
-
-A̅  → Representação com uma barra sobre a variável, padrão em diagramas eletrônicos.
-
-Independentemente da notação utilizada, todas essas expressões transmitem a mesma ideia: a saída sempre será o inverso da entrada. Esse conceito é fundamental na construção de circuitos que necessitam modificar sinais ou criar operações lógicas mais sofisticadas, sendo amplamente aplicado em sistemas eletrônicos e programação digital.
+     Para facilitar a compreensão, imagine um sistema de iluminação automática em um teatro. Quando a cortina sobe   
+    (entrada = 1), as luzes do palco se apagam (saída = 0). Quando a cortina desce (entrada = 0), as luzes se 
+    acendem (saída = 1). Esse comportamento inverso é exatamente o que acontece com a porta NOT, garantindo que 
+    determinados circuitos ajam sempre de forma oposta à entrada recebida.
 
 
- - Aplicações Práticas da Porta NOT: A porta NOT é amplamente utilizada em diversas áreas da tecnologia digital. Um exemplo clássico são os sensores de presença em alarmes de segurança. Se o sensor detecta movimento (entrada = 1), o sistema de alarme permanece desligado (saída = 0). Se não houver movimento (entrada = 0), o alarme é ativado (saída = 1). Essa lógica de inversão garante que o alarme só dispare quando não houver atividade esperada.
+   - Tabela Verdade da Porta Lógica NOT: A tabela verdade é uma forma visual de representar o comportamento de uma 
+    porta lógica em todas as suas possíveis entradas e saídas. Como a porta NOT opera apenas com uma única entrada, 
+    sua tabela verdade é bem simples:
 
-Outra aplicação importante está nos circuitos lógicos de computadores. A porta NOT é usada para gerar sinais de controle complementares e realizar operações binárias como o Cálculo do Complemento de 1, fundamental para representações de números negativos em sistemas digitais. Além disso, na programação, operadores de negação baseados na lógica da porta NOT são amplamente utilizados para inverter condições e criar instruções condicionais eficientes.
+               Entrada | Saída  
+              ----------------- 
+                  0    |   1  
+                  1    |   0  
+
+     Isso significa que qualquer valor binário que entrar na porta será invertido. Esse princípio é fundamental 
+    para diversas aplicações, como a criação de operações lógicas complementares, sinais de controle e sistemas de 
+    tomada de decisão.
 
 
-Em suma, a porta NOT pode parecer simples à primeira vista, mas sua importância na lógica digital é enorme. Sua função de inversão de sinais é essencial para o funcionamento de diversos sistemas eletrônicos, desde circuitos básicos até processadores avançados. Sem essa operação, seria impossível implementar certos tipos de lógica binária necessários para computação e controle eletrônico.
+   - Representação Gráfica da Porta Lógica NOT (Simbologia): Nos circuitos digitais, a porta NOT possui um símbolo 
+    característico que reflete sua função de inversão. Sua representação gráfica consiste em um triângulo apontado 
+    para a saída, simbolizando o fluxo do sinal, e um pequeno círculo na extremidade, indicando a inversão do valor 
+    lógico. Esse círculo é essencial, pois destaca visualmente que a saída sempre será o oposto da entrada.
 
-Compreender o funcionamento da porta NOT abre caminho para a exploração de conceitos mais avançados na eletrônica digital. Essa pequena, mas poderosa operação lógica, é um dos pilares fundamentais da computação e continua sendo uma peça-chave no design de circuitos e na automação de processos digitais.
+     A simplicidade desse símbolo torna a identificação da porta NOT imediata em diagramas eletrônicos, permitindo 
+    que engenheiros e técnicos compreendam rapidamente seu papel dentro de um circuito. Seguindo o padrão ANSI, 
+    essa notação gráfica garante uniformidade na representação dos circuitos lógicos, facilitando o design e a 
+    análise de sistemas digitais.
+
+
+   - Expressão Booleana da Porta Lógica NOT: A operação da porta NOT pode ser representada matematicamente por meio 
+    da Álgebra Booleana, que descreve como os circuitos digitais processam informações. Essa operação segue um 
+    princípio simples, mas essencial: inverter o valor lógico da entrada. Dependendo do contexto e da notação 
+    utilizada, essa inversão pode ser escrita de diferentes formas:
+
+       NOT A → Representação escrita por extenso, utilizada em explicações didáticas.
+
+       NÃO A → Representação textual que enfatiza o conceito de negação em linguagem natural.
+
+       ¬A → Representação com o símbolo de negação, amplamente usada em lógica matemática.
+
+       A' → Representação com apóstrofo, comum em circuitos digitais e tabelas verdade.
+
+       A̅  → Representação com uma barra sobre a variável, padrão em diagramas eletrônicos.
+
+     Independentemente da notação utilizada, todas essas expressões transmitem a mesma ideia: a saída sempre será o 
+    inverso da entrada. Esse conceito é fundamental na construção de circuitos que necessitam modificar sinais ou 
+    criar operações lógicas mais sofisticadas, sendo amplamente aplicado em sistemas eletrônicos e programação 
+    digital.
+
+
+   - Aplicações Práticas da Porta NOT: A porta NOT é amplamente utilizada em diversas áreas da tecnologia digital. 
+    Um exemplo clássico são os sensores de presença em alarmes de segurança. Se o sensor detecta movimento 
+    (entrada = 1), o sistema de alarme permanece desligado (saída = 0). Se não houver movimento (entrada = 0), o 
+    alarme é ativado (saída = 1). Essa lógica de inversão garante que o alarme só dispare quando não houver 
+    atividade esperada.
+
+     Outra aplicação importante está nos circuitos lógicos de computadores. A porta NOT é usada para gerar sinais 
+    de controle complementares e realizar operações binárias como o Cálculo do Complemento de 1, fundamental para 
+    representações de números negativos em sistemas digitais. Além disso, na programação, operadores de negação 
+    baseados na lógica da porta NOT são amplamente utilizados para inverter condições e criar instruções 
+    condicionais eficientes.
+
+
+   Em suma, a porta NOT pode parecer simples à primeira vista, mas sua importância na lógica digital é enorme. Sua 
+  função de inversão de sinais é essencial para o funcionamento de diversos sistemas eletrônicos, desde circuitos 
+  básicos até processadores avançados. Sem essa operação, seria impossível implementar certos tipos de lógica 
+  binária necessários para computação e controle eletrônico.
+
+   Compreender o funcionamento da porta NOT abre caminho para a exploração de conceitos mais avançados na 
+  eletrônica digital. Essa pequena, mas poderosa operação lógica, é um dos pilares fundamentais da computação e 
+  continua sendo uma peça-chave no design de circuitos e na automação de processos digitais.
 
 
 Assim concluimos, que as portas lógicas básicas são a base da computação digital e da eletrônica moderna. Elas operam seguindo regras lógicas precisas, permitindo que circuitos tomem decisões e processem informações de maneira eficiente. Sem essas portas, não teríamos os sistemas digitais que conhecemos hoje, desde computadores e celulares até sensores inteligentes e automação industrial.
