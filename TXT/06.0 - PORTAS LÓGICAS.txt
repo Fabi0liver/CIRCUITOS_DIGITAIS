@@ -1151,14 +1151,29 @@ complexos de maneira eficiente mostra o impacto duradouro e a importância das p
 
 
 
-                                "Conclusão Sobre as Portas Lógicas"
+                                   "Conclusão Sobre as Portas Lógicas"
 
-As portas lógicas são a base de tudo o que conhecemos no mundo digital. Desde os circuitos mais simples até os processadores mais avançados, elas formam o alicerce sobre o qual a tecnologia moderna é construída. Por mais que pareçam conceitos abstratos ou meramente matemáticos, na prática, são elas que transformam sinais elétricos em operações inteligentes, permitindo que dispositivos tomem decisões e realizem tarefas com precisão.
+ As portas lógicas são a base de tudo o que conhecemos no mundo digital. Desde os circuitos mais simples até os 
+processadores mais avançados, elas formam o alicerce sobre o qual a tecnologia moderna é construída. Por mais que 
+pareçam conceitos abstratos ou meramente matemáticos, na prática, são elas que transformam sinais elétricos em 
+operações inteligentes, permitindo que dispositivos tomem decisões e realizem tarefas com precisão.
 
-Quando olhamos para a tecnologia ao nosso redor, nem sempre percebemos o papel essencial das portas lógicas. Elas trabalham nos bastidores, garantindo que nossos computadores funcionem, que nossos celulares processem informações e até que sistemas automáticos tomem decisões em frações de segundo. Sem elas, a era digital simplesmente não existiria, e o avanço da computação seria impossível.
+ Quando olhamos para a tecnologia ao nosso redor, nem sempre percebemos o papel essencial das portas lógicas. Elas 
+trabalham nos bastidores, garantindo que nossos computadores funcionem, que nossos celulares processem informações 
+e até que sistemas automáticos tomem decisões em frações de segundo. Sem elas, a era digital simplesmente não 
+existiria, e o avanço da computação seria impossível.
 
-O mais fascinante é que, a partir de regras simples de funcionamento, podemos criar sistemas incrivelmente complexos. Esse é um dos grandes encantos da eletrônica digital: com poucos elementos básicos, conseguimos construir máquinas poderosas, capazes de resolver problemas, armazenar informações e facilitar a vida de milhões de pessoas.
+ O mais fascinante é que, a partir de regras simples de funcionamento, podemos criar sistemas incrivelmente 
+complexos. Esse é um dos grandes encantos da eletrônica digital: com poucos elementos básicos, conseguimos 
+construir máquinas poderosas, capazes de resolver problemas, armazenar informações e facilitar a vida de milhões de 
+pessoas.
 
-Por isso, entender as portas lógicas não é apenas uma questão técnica, mas também um passo essencial para compreender como o mundo digital funciona. Seja para quem está começando na área da tecnologia ou para aqueles que já trabalham com desenvolvimento e engenharia, conhecer esses fundamentos abre portas para uma infinidade de possibilidades e aplicações inovadoras.
+ Por isso, entender as portas lógicas não é apenas uma questão técnica, mas também um passo essencial para 
+compreender como o mundo digital funciona. Seja para quem está começando na área da tecnologia ou para aqueles que 
+já trabalham com desenvolvimento e engenharia, conhecer esses fundamentos abre portas para uma infinidade de 
+possibilidades e aplicações inovadoras.
 
-Ao final, fica claro que as portas lógicas não são apenas elementos da eletrônica, mas sim a linguagem fundamental da era digital. Elas representam a conexão entre o pensamento humano e a capacidade das máquinas, tornando possível um mundo onde a tecnologia não apenas executa comandos, mas interage, evolui e transforma a realidade ao nosso redor.
+ Ao final, fica claro que as portas lógicas não são apenas elementos da eletrônica, mas sim a linguagem fundamental 
+da era digital. Elas representam a conexão entre o pensamento humano e a capacidade das máquinas, tornando possível 
+um mundo onde a tecnologia não apenas executa comandos, mas interage, evolui e transforma a realidade ao nosso 
+redor.
