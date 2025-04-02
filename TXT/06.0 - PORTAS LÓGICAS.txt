@@ -249,15 +249,15 @@ lógica digital.
     entradas simultaneamente. Existem diferentes formas de escrever essa expressão, dependendo do contexto em que é 
     aplicada:
 
-        A AND B → Representação escrita por extenso, comum em explicações didáticas.
+       A AND B → Representação escrita por extenso, comum em explicações didáticas.
 
-        A E B → Representação em português, reforçando a ideia de conjunção.
+       A E B → Representação em português, reforçando a ideia de conjunção.
 
-        A . B → Representação com ponto, amplamente usada na lógica digital.
+       A . B → Representação com ponto, amplamente usada na lógica digital.
 
-        A ∧ B → Representação com o símbolo de conjunção, comum em lógica matemática.
+       A ∧ B → Representação com o símbolo de conjunção, comum em lógica matemática.
 
-        AB → Representação simplificada, onde a ausência de operador indica a conjunção.
+       AB → Representação simplificada, onde a ausência de operador indica a conjunção.
 
      Independentemente da notação escolhida, todas essas expressões seguem a mesma lógica: a saída será 1 apenas 
     quando todas as entradas forem 1. Esse conceito é essencial tanto na construção de circuitos eletrônicos quanto 
@@ -311,73 +311,124 @@ lógica digital.
 
 
 
-* Porta OR (OU - Disjunção)
+ * Porta OR (OU - Disjunção)
 
-Entre os blocos fundamentais da lógica digital, a porta OR ocupa um papel essencial na construção de circuitos eletrônicos e sistemas computacionais. Seu nome deriva da palavra inglesa OR, que significa “OU”, indicando sua principal característica: trabalhar com múltiplas possibilidades e permitir que diferentes condições levem a um mesmo resultado. Essa porta lógica é amplamente utilizada em projetos eletrônicos, processamento de dados e até mesmo em algoritmos computacionais, tornando-se indispensável para diversas aplicações tecnológicas.
+   Entre os blocos fundamentais da lógica digital, a porta OR ocupa um papel essencial na construção de circuitos 
+  eletrônicos e sistemas computacionais. Seu nome deriva da palavra inglesa OR, que significa “OU”, indicando sua 
+  principal característica: trabalhar com múltiplas possibilidades e permitir que diferentes condições levem a um 
+  mesmo resultado. Essa porta lógica é amplamente utilizada em projetos eletrônicos, processamento de dados e até 
+  mesmo em algoritmos computacionais, tornando-se indispensável para diversas aplicações tecnológicas.
 
-A flexibilidade da porta OR faz dela um componente chave na tomada de decisões automáticas dentro dos circuitos digitais. Em um sistema onde múltiplos eventos podem desencadear uma ação, essa porta garante que o resultado desejado ocorra sempre que pelo menos uma das condições for atendida. Seu conceito pode ser encontrado em diversas áreas, desde sistemas de segurança até inteligência artificial, possibilitando que dispositivos e programas reajam a diferentes cenários de forma eficiente e dinâmica.
+   A flexibilidade da porta OR faz dela um componente chave na tomada de decisões automáticas dentro dos circuitos 
+  digitais. Em um sistema onde múltiplos eventos podem desencadear uma ação, essa porta garante que o resultado 
+  desejado ocorra sempre que pelo menos uma das condições for atendida. Seu conceito pode ser encontrado em 
+  diversas áreas, desde sistemas de segurança até inteligência artificial, possibilitando que dispositivos e 
+  programas reajam a diferentes cenários de forma eficiente e dinâmica.
 
- - Funcionamento Básico da Porta OR: A porta OR opera com base no princípio da disjunção, ou seja, sua saída será verdadeira se pelo menos uma de suas entradas for verdadeira. Somente no caso em que todas as entradas forem falsas, a saída será falsa. Isso significa que essa porta lógica funciona como uma opção flexível, permitindo que diferentes condições acionem um mesmo resultado.
+   - Funcionamento Básico da Porta OR: A porta OR opera com base no princípio da disjunção, ou seja, sua saída será 
+    verdadeira se pelo menos uma de suas entradas for verdadeira. Somente no caso em que todas as entradas forem 
+    falsas, a saída será falsa. Isso significa que essa porta lógica funciona como uma opção flexível, permitindo 
+    que diferentes condições acionem um mesmo resultado.
 
-Para ilustrar melhor, imagine um sistema de alarme em que existem dois sensores: um na porta da frente e outro na porta dos fundos. Se qualquer uma das portas for aberta, o alarme dispara. Apenas quando ambas permanecerem fechadas, o sistema permanece inativo. Esse é o princípio de funcionamento da porta OR, que permite uma resposta positiva sempre que pelo menos uma das condições seja satisfeita. Esse comportamento é amplamente utilizado em circuitos digitais para permitir acionamentos alternativos e garantir maior flexibilidade na lógica dos sistemas eletrônicos.
-
-
- - Tabela Verdade da Porta Lógica OR: A tabela verdade é a forma mais clara de visualizar o funcionamento da porta OR. Ela exibe todas as combinações possíveis de entrada e suas respectivas saídas. Para uma porta OR com duas entradas, temos:
-
-             Entrada A | Entrada B | Saída
-            -------------------------------
-                 0     |     0     |   0  
-                 0     |     1     |   1  
-                 1     |     0     |   1  
-                 1     |     1     |   1  
-
-Essa tabela mostra que a saída será 1 (verdadeira) sempre que pelo menos uma das entradas for 1. Somente quando todas as entradas forem 0, a saída será 0. Se a porta OR tiver mais de duas entradas, a regra continua a mesma: basta que qualquer uma delas seja ativada para que a saída também seja ativada.
-
-
- - Representação Gráfica da Porta Lógica OR (Simbologia): A representação gráfica da porta lógica OR é projetada para ser simples e intuitiva, facilitando a compreensão do seu funcionamento nos circuitos digitais. O símbolo dessa porta tem a forma de um escudo com uma curva voltada para a saída, com as entradas convergindo para o lado oposto. Essa curva e o formato característico são usados para transmitir visualmente a ideia de que a saída será ativada por qualquer uma das entradas, refletindo o comportamento de disjunção lógica, onde basta que uma das entradas seja verdadeira para que a saída também seja.
-
-Embora a simbologia possa parecer simples, ela carrega o conceito de forma clara: a entrada ativa a saída de maneira inclusiva, ou seja, ao contrário de outras portas lógicas, a OR não exige que todas as entradas sejam verdadeiras, mas apenas uma. Essa representação visual segue o padrão ANSI, garantindo que engenheiros e estudantes possam entender rapidamente os diagramas, independentemente do contexto ou aplicação, mantendo a consistência e clareza na interpretação de circuitos.
-
-
- - Expressão Booleana da Porta OR: A porta OR pode ser representada matematicamente através da Álgebra Booleana, um sistema que permite modelar operações lógicas de maneira precisa. Para expressar sua função, utilizamos diferentes formas de notação, dependendo do contexto de aplicação:
-
-A OR B → Representação escrita por extenso, usada em explicações didáticas.
-
-A OU B → Representação em português, reforçando a ideia de alternativa.
-
-A + B → Representação com o símbolo de soma, amplamente usada em circuitos digitais.
-
-A ∨ B → Representação com o operador de disjunção, comum em lógica matemática.
-
-Independentemente da notação utilizada, o princípio é o mesmo: a saída será 1 sempre que pelo menos uma das entradas for 1. Esse conceito é fundamental tanto para a construção de circuitos eletrônicos quanto para o desenvolvimento de lógica de programação, permitindo criar sistemas que respondam a múltiplas condições de maneira eficiente.
+     Para ilustrar melhor, imagine um sistema de alarme em que existem dois sensores: um na porta da frente e outro 
+    na porta dos fundos. Se qualquer uma das portas for aberta, o alarme dispara. Apenas quando ambas permanecerem 
+    fechadas, o sistema permanece inativo. Esse é o princípio de funcionamento da porta OR, que permite uma 
+    resposta positiva sempre que pelo menos uma das condições seja satisfeita. Esse comportamento é amplamente 
+    utilizado em circuitos digitais para permitir acionamentos alternativos e garantir maior flexibilidade na 
+    lógica dos sistemas eletrônicos.
 
 
- - Múltiplas Entradas na Porta OR: Uma das características mais úteis da porta OR é sua capacidade de operar com mais de duas entradas. Isso significa que, ao invés de apenas duas condições possíveis, podemos ter três, quatro ou até mais entradas atuando ao mesmo tempo. O princípio continua o mesmo: se qualquer uma das entradas for verdadeira, a saída será verdadeira.
+   - Tabela Verdade da Porta Lógica OR: A tabela verdade é a forma mais clara de visualizar o funcionamento da 
+    porta OR. Ela exibe todas as combinações possíveis de entrada e suas respectivas saídas. Para uma porta OR com 
+    duas entradas, temos:
 
-Por exemplo, veja como funciona a tabela verdade para uma porta OR com três entradas:
+               Entrada A | Entrada B | Saída
+              -------------------------------
+                   0     |     0     |   0  
+                   0     |     1     |   1  
+                   1     |     0     |   1  
+                   1     |     1     |   1  
 
-             Entrada A | Entrada B | Entrada C | Saída
-            -------------------------------------------
-                 0     |     0     |     0     |   0  
-                 0     |     0     |     1     |   1  
-                 0     |     1     |     0     |   1  
-                 0     |     1     |     1     |   1  
-                 1     |     0     |     0     |   1  
-                 1     |     0     |     1     |   1  
-                 1     |     1     |     0     |   1  
-                 1     |     1     |     1     |   1  
-
-Quanto mais entradas uma porta OR tiver, mais flexível ela se torna, permitindo que qualquer uma das condições seja suficiente para gerar uma resposta positiva. Esse comportamento é extremamente útil para sistemas que precisam lidar com múltiplos acionadores ou sensores ao mesmo tempo.
+     Essa tabela mostra que a saída será 1 (verdadeira) sempre que pelo menos uma das entradas for 1. Somente 
+    quando todas as entradas forem 0, a saída será 0. Se a porta OR tiver mais de duas entradas, a regra continua a 
+    mesma: basta que qualquer uma delas seja ativada para que a saída também seja ativada.
 
 
-Aplicações Práticas da Porta OR: A porta OR está presente em diversos sistemas eletrônicos e computacionais. Um exemplo comum é o sistema de segurança em prédios: se um alarme pode ser ativado tanto por um detector de fumaça quanto por um sensor de calor, então ele deve disparar se pelo menos um dos sensores for acionado. Esse tipo de lógica garante uma resposta rápida mesmo quando diferentes tipos de eventos podem ocorrer.
+   - Representação Gráfica da Porta Lógica OR (Simbologia): A representação gráfica da porta lógica OR é projetada 
+    para ser simples e intuitiva, facilitando a compreensão do seu funcionamento nos circuitos digitais. O símbolo 
+    dessa porta tem a forma de um escudo com uma curva voltada para a saída, com as entradas convergindo para o 
+    lado oposto. Essa curva e o formato característico são usados para transmitir visualmente a ideia de que a 
+    saída será ativada por qualquer uma das entradas, refletindo o comportamento de disjunção lógica, onde basta 
+    que uma das entradas seja verdadeira para que a saída também seja.
 
-Outro exemplo prático está na lógica de programação e no funcionamento dos circuitos internos dos computadores. Microprocessadores utilizam portas OR para processar decisões condicionais, garantindo que múltiplos fatores possam influenciar o fluxo das operações. Além disso, em sistemas eletrônicos simples, como controles remotos, essa porta lógica pode ser usada para permitir que um comando seja acionado por diferentes botões.
+     Embora a simbologia possa parecer simples, ela carrega o conceito de forma clara: a entrada ativa a saída de 
+    maneira inclusiva, ou seja, ao contrário de outras portas lógicas, a OR não exige que todas as entradas sejam 
+    verdadeiras, mas apenas uma. Essa representação visual segue o padrão ANSI, garantindo que engenheiros e 
+    estudantes possam entender rapidamente os diagramas, independentemente do contexto ou aplicação, mantendo a 
+    consistência e clareza na interpretação de circuitos.
 
 
-Em suma, a porta OR desempenha um papel crucial na lógica digital, pois permite que sistemas eletrônicos tomem decisões baseadas em qualquer uma das condições possíveis, tornando os circuitos mais flexíveis e eficientes. Sua capacidade de operar com múltiplas entradas garante que diversas situações possam ser analisadas ao mesmo tempo, o que a torna essencial para o funcionamento de sistemas computacionais, dispositivos eletrônicos e automação industrial.
+   - Expressão Booleana da Porta OR: A porta OR pode ser representada matematicamente através da Álgebra Booleana, 
+    um sistema que permite modelar operações lógicas de maneira precisa. Para expressar sua função, utilizamos 
+    diferentes formas de notação, dependendo do contexto de aplicação:
 
-Embora seu conceito seja simples, sua aplicação é extremamente ampla e indispensável no mundo da eletrônica e da computação. Compreender o funcionamento da porta OR abre caminho para o entendimento de circuitos mais complexos, permitindo o desenvolvimento de soluções inovadoras e altamente funcionais dentro da tecnologia digital.
+       A OR B → Representação escrita por extenso, usada em explicações didáticas.
+
+       A OU B → Representação em português, reforçando a ideia de alternativa.
+
+       A + B → Representação com o símbolo de soma, amplamente usada em circuitos digitais.
+
+       A ∨ B → Representação com o operador de disjunção, comum em lógica matemática.
+
+     Independentemente da notação utilizada, o princípio é o mesmo: a saída será 1 sempre que pelo menos uma das 
+    entradas for 1. Esse conceito é fundamental tanto para a construção de circuitos eletrônicos quanto para o 
+    desenvolvimento de lógica de programação, permitindo criar sistemas que respondam a múltiplas condições de 
+    maneira eficiente.
+
+
+   - Múltiplas Entradas na Porta OR: Uma das características mais úteis da porta OR é sua capacidade de operar com 
+    mais de duas entradas. Isso significa que, ao invés de apenas duas condições possíveis, podemos ter três, 
+    quatro ou até mais entradas atuando ao mesmo tempo. O princípio continua o mesmo: se qualquer uma das entradas 
+    for verdadeira, a saída será verdadeira.
+
+     Por exemplo, veja como funciona a tabela verdade para uma porta OR com três entradas:
+
+               Entrada A | Entrada B | Entrada C | Saída
+              -------------------------------------------
+                   0     |     0     |     0     |   0  
+                   0     |     0     |     1     |   1  
+                   0     |     1     |     0     |   1  
+                   0     |     1     |     1     |   1  
+                   1     |     0     |     0     |   1  
+                   1     |     0     |     1     |   1  
+                   1     |     1     |     0     |   1  
+                   1     |     1     |     1     |   1  
+
+     Quanto mais entradas uma porta OR tiver, mais flexível ela se torna, permitindo que qualquer uma das condições 
+    seja suficiente para gerar uma resposta positiva. Esse comportamento é extremamente útil para sistemas que 
+    precisam lidar com múltiplos acionadores ou sensores ao mesmo tempo.
+
+
+   - Aplicações Práticas da Porta OR: A porta OR está presente em diversos sistemas eletrônicos e computacionais. 
+    Um exemplo comum é o sistema de segurança em prédios: se um alarme pode ser ativado tanto por um detector de 
+    fumaça quanto por um sensor de calor, então ele deve disparar se pelo menos um dos sensores for acionado. Esse 
+    tipo de lógica garante uma resposta rápida mesmo quando diferentes tipos de eventos podem ocorrer.
+
+     Outro exemplo prático está na lógica de programação e no funcionamento dos circuitos internos dos 
+    computadores. Microprocessadores utilizam portas OR para processar decisões condicionais, garantindo que 
+    múltiplos fatores possam influenciar o fluxo das operações. Além disso, em sistemas eletrônicos simples, como 
+    controles remotos, essa porta lógica pode ser usada para permitir que um comando seja acionado por diferentes 
+    botões.
+
+   Em suma, a porta OR desempenha um papel crucial na lógica digital, pois permite que sistemas eletrônicos tomem 
+  decisões baseadas em qualquer uma das condições possíveis, tornando os circuitos mais flexíveis e eficientes. Sua 
+  capacidade de operar com múltiplas entradas garante que diversas situações possam ser analisadas ao mesmo tempo, 
+  o que a torna essencial para o funcionamento de sistemas computacionais, dispositivos eletrônicos e automação 
+  industrial.
+
+   Embora seu conceito seja simples, sua aplicação é extremamente ampla e indispensável no mundo da eletrônica e da 
+  computação. Compreender o funcionamento da porta OR abre caminho para o entendimento de circuitos mais complexos, 
+  permitindo o desenvolvimento de soluções inovadoras e altamente funcionais dentro da tecnologia digital.
 
 
 
