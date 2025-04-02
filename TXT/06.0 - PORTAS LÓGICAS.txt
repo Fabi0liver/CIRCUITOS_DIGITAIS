@@ -914,87 +914,143 @@ para o funcionamento dos circuitos digitais.
 
 
 
-* Porta Lógica XNOR (Exclusive NOR - OU Exclusivo Negado - Igualdade Lógica):
+ * Porta Lógica XNOR (Exclusive NOR - OU Exclusivo Negado - Igualdade Lógica):
 
-No vasto universo da eletrônica digital, algumas operações lógicas possuem um papel estratégico na construção de circuitos eficientes e inteligentes. Entre elas, a porta XNOR se destaca por sua capacidade única de validar semelhanças entre sinais de entrada, sendo amplamente utilizada em sistemas que precisam identificar padrões e garantir coerência nos dados processados. Seu nome deriva da expressão "Exclusive NOR" (OU Exclusivo Negado), refletindo sua função essencial: produzir um resultado verdadeiro quando os valores de entrada forem iguais.
+   No vasto universo da eletrônica digital, algumas operações lógicas possuem um papel estratégico na construção de 
+  circuitos eficientes e inteligentes. Entre elas, a porta XNOR se destaca por sua capacidade única de validar 
+  semelhanças entre sinais de entrada, sendo amplamente utilizada em sistemas que precisam identificar padrões e 
+  garantir coerência nos dados processados. Seu nome deriva da expressão "Exclusive NOR" (OU Exclusivo Negado), 
+  refletindo sua função essencial: produzir um resultado verdadeiro quando os valores de entrada forem iguais.
 
-Esse comportamento a torna indispensável em diversas aplicações, desde circuitos aritméticos até sistemas de verificação e controle. Diferente de outras portas que apenas combinam valores binários, a XNOR opera como um validador lógico de identidade, garantindo que somente entradas idênticas resultem em um sinal ativo. Essa característica faz dela um componente fundamental na construção de dispositivos que exigem precisão e confiabilidade na tomada de decisões digitais.
-
-
- - Funcionamento Básico da Porta Lógica XNOR: A lógica da XNOR segue um princípio direto: a saída será 1 quando todas as entradas forem iguais e 0 quando forem diferentes. Em termos simples, podemos enxergá-la como um "verificador de coincidências". Se as entradas forem ambas 0 ou ambas 1, a saída será 1; mas se uma for 0 e a outra for 1, a saída será 0.
-
-Para ilustrar, imagine um sistema de autenticação baseado em um código secreto. Se o código inserido for idêntico ao código armazenado, o acesso é concedido (saída 1). Mas se houver qualquer divergência, o acesso é negado (saída 0). Essa analogia reflete bem o funcionamento da XNOR, pois ela opera como um comparador lógico entre dois valores.
-
-
- - Tabela Verdade da Porta Lógica XNOR: A maneira mais clara de visualizar o comportamento da porta XNOR é através da tabela verdade. Com duas entradas e uma saída, o funcionamento segue este padrão:
-
-              Entrada A | Entrada B | Saída
-            -------------------------------
-                 0     |     0     |   1  
-                 0     |     1     |   0  
-                 1     |     0     |   0 
-                 1     |     1     |   1
-
-O detalhe fundamental dessa lógica é que a saída será 1 apenas quando ambas as entradas forem iguais. Isso torna a XNOR uma ferramenta valiosa para sistemas que necessitam identificar correspondências exatas entre valores lógicos.
+   Esse comportamento a torna indispensável em diversas aplicações, desde circuitos aritméticos até sistemas de 
+  verificação e controle. Diferente de outras portas que apenas combinam valores binários, a XNOR opera como um 
+  validador lógico de identidade, garantindo que somente entradas idênticas resultem em um sinal ativo. Essa 
+  característica faz dela um componente fundamental na construção de dispositivos que exigem precisão e 
+  confiabilidade na tomada de decisões digitais.
 
 
- - Representação Gráfica da Porta Lógica XNOR  (Simbologia): Nos diagramas de circuitos digitais, a porta XNOR tem uma simbologia semelhante à porta OR, mas com duas particularidades: um traço curvo adicional antes das entradas, indicando que se trata de uma operação exclusiva, e um pequeno círculo na saída, que representa a negação do resultado da XOR.
+   - Funcionamento Básico da Porta Lógica XNOR: A lógica da XNOR segue um princípio direto: a saída será 1 quando 
+    todas as entradas forem iguais e 0 quando forem diferentes. Em termos simples, podemos enxergá-la como um 
+    "verificador de coincidências". Se as entradas forem ambas 0 ou ambas 1, a saída será 1; mas se uma for 0 e a 
+    outra for 1, a saída será 0.
 
-Esse símbolo segue padrões internacionais e facilita a interpretação de esquemas eletrônicos, permitindo que engenheiros e técnicos identifiquem rapidamente sua presença em um circuito.
-
-
- - Expressão Booleana da Porta Lógica XNOR: A operação da XNOR pode ser representada de diferentes formas dentro da Álgebra Booleana. Cada notação destaca um aspecto do seu funcionamento:
-
-(A AND B) OR (NOT A AND NOT B) → Essa expressão demonstra que a saída será verdadeira quando ambas as entradas forem 1 ou ambas forem 0.
-
-(A E B) OU (NÃO A E NÃO B) → Expressão equivalente escrita de forma descritiva para facilitar a compreensão.
-
-(A ⋅ B) + (A̅ ⋅ B̅) → Aqui, a equação mostra claramente que a operação retorna 1 quando as entradas são idênticas.
-
-A ⊙ B → Forma reduzida que representa a operação XNOR de maneira simplificada.
-
-Independentemente da notação utilizada, todas essas expressões demonstram a mesma ideia: a saída da XNOR será 1 apenas quando as entradas forem iguais.
+     Para ilustrar, imagine um sistema de autenticação baseado em um código secreto. Se o código inserido for 
+    idêntico ao código armazenado, o acesso é concedido (saída 1). Mas se houver qualquer divergência, o acesso é 
+    negado (saída 0). Essa analogia reflete bem o funcionamento da XNOR, pois ela opera como um comparador lógico 
+    entre dois valores.
 
 
- - Múltiplas Entradas na Porta XNOR: Embora a XNOR seja mais conhecida com duas entradas, ela também pode operar com três ou mais. Nesse caso, seu funcionamento segue a lógica sequencial da versão binária.
+   - Tabela Verdade da Porta Lógica XNOR: A maneira mais clara de visualizar o comportamento da porta XNOR é 
+    através da tabela verdade. Com duas entradas e uma saída, o funcionamento segue este padrão:
 
-Matematicamente, para três entradas A, B e C, podemos expressar a XNOR assim: (A ⊙ B)⊙ C
+               Entrada A | Entrada B | Saída
+              -------------------------------
+                   0     |     0     |   1  
+                   0     |     1     |   0  
+                   1     |     0     |   0 
+                   1     |     1     |   1
 
-Isso significa que a operação ocorre em etapas: primeiro, a XNOR é aplicada entre A e B. O resultado dessa operação é então combinado com C por meio de outra XNOR, e assim sucessivamente.
-
-A saída final será 1 se o número total de bits em nível alto (1) for par, e 0 se for ímpar.
-
-Veja a tabela verdade para uma XNOR com três entradas:
-
-             Entrada A | Entrada B | Entrada C | Saída
-            -------------------------------------------
-                 0     |     0     |     0     |   1  
-                 0     |     0     |     1     |   0  
-                 0     |     1     |     0     |   0  
-                 0     |     1     |     1     |   1  
-                 1     |     0     |     0     |   0  
-                 1     |     0     |     1     |   1  
-                 1     |     1     |     0     |   1  
-                 1     |     1     |     1     |   0  
-
-Essa característica faz com que a XNOR seja amplamente utilizada em circuitos de verificação de paridade e outras aplicações onde é essencial garantir consistência nos valores de entrada.
+     O detalhe fundamental dessa lógica é que a saída será 1 apenas quando ambas as entradas forem iguais. Isso 
+    torna a XNOR uma ferramenta valiosa para sistemas que necessitam identificar correspondências exatas entre 
+    valores lógicos.
 
 
- - Aplicações Práticas da Porta XNOR: A porta XNOR é amplamente utilizada em circuitos digitais, sendo essencial para sistemas que precisam verificar igualdade entre valores binários. Uma de suas aplicações mais importantes está nos comparadores digitais, onde determina se dois números são idênticos ao comparar seus bits. Quando todos os bits coincidem, a saída do comparador é 1, indicando igualdade. Esse princípio é fundamental para sistemas de controle e validação de dados.
+   - Representação Gráfica da Porta Lógica XNOR  (Simbologia): Nos diagramas de circuitos digitais, a porta XNOR 
+    tem uma simbologia semelhante à porta OR, mas com duas particularidades: um traço curvo adicional antes das 
+    entradas, indicando que se trata de uma operação exclusiva, e um pequeno círculo na saída, que representa a 
+    negação do resultado da XOR.
 
-Além disso, a XNOR desempenha um papel relevante na detecção de erros em transmissões de dados, sendo usada em sistemas de paridade para identificar alterações inesperadas. Sua capacidade de retornar 1 quando há um número par de bits 1 permite validar a integridade das informações enviadas. Além do uso em comunicação digital, a XNOR também aparece em redes neurais e aprendizado de máquina, auxiliando no ajuste de pesos e reconhecimento de padrões, tornando-se uma ferramenta valiosa para otimização de algoritmos preditivos.
+     Esse símbolo segue padrões internacionais e facilita a interpretação de esquemas eletrônicos, permitindo que 
+    engenheiros e técnicos identifiquem rapidamente sua presença em um circuito.
 
 
-Em suma, a porta lógica XNOR é uma ferramenta poderosa no mundo dos circuitos digitais, funcionando como uma espécie de “guardião” da igualdade entre os valores de entrada. Sua simplicidade, porém, esconde uma grande versatilidade, sendo capaz de realizar operações complexas de comparação de maneira eficaz. Como um espelho que reflete apenas as semelhanças, a XNOR garante que a saída seja verdadeira quando suas entradas são iguais, criando um comportamento altamente previsível e confiável.
+   - Expressão Booleana da Porta Lógica XNOR: A operação da XNOR pode ser representada de diferentes formas dentro 
+    da Álgebra Booleana. Cada notação destaca um aspecto do seu funcionamento:
 
-Com sua característica de comparar a igualdade, a porta XNOR desempenha um papel essencial em diversos contextos digitais. Ela destaca-se por sua capacidade de simplificar certos tipos de operações lógicas, oferecendo uma maneira intuitiva e eficaz de tratar e comparar valores em circuitos eletrônicos. Sua compreensão é fundamental para o entendimento das lógicas mais complexas que formam a base de sistemas computacionais modernos.
+       (A AND B) OR (NOT A AND NOT B) → Essa expressão demonstra que a saída será verdadeira quando ambas as 
+                                        entradas forem 1 ou ambas forem 0.
+
+       (A E B) OU (NÃO A E NÃO B) → Expressão equivalente escrita de forma descritiva para facilitar a 
+                                    compreensão.
+
+       (A ⋅ B) + (A̅ ⋅ B̅) → Aqui, a equação mostra claramente que a operação retorna 1 quando as entradas são 
+                          idênticas.
+
+       A ⊙ B → Forma reduzida que representa a operação XNOR de maneira simplificada.
+
+     Independentemente da notação utilizada, todas essas expressões demonstram a mesma ideia: a saída da XNOR será 
+    1 apenas quando as entradas forem iguais.
 
 
-Em conclusão, as portas lógicas compostas são uma evolução natural da lógica digital, permitindo a combinação de operações mais complexas a partir das portas básicas. Elas são como "ferramentas multifuncionais" que nos permitem realizar várias tarefas lógicas em um único passo, sem precisar de muitos componentes. Isso facilita o design e otimiza o funcionamento dos circuitos, garantindo soluções mais eficientes e rápidas para os sistemas que dependem da lógica binária.
+   - Múltiplas Entradas na Porta XNOR: Embora a XNOR seja mais conhecida com duas entradas, ela também pode operar 
+    com três ou mais. Nesse caso, seu funcionamento segue a lógica sequencial da versão binária.
 
-Essas portas compostas, ao simplificarem o trabalho de construir circuitos mais sofisticados, têm um impacto profundo no desenvolvimento de toda a tecnologia que usamos no dia a dia. Elas nos ajudam a resolver problemas complexos de forma mais direta, de modo que, quando conectamos essas portas de maneira inteligente, conseguimos construir desde circuitos simples até sistemas inteiros que operam com alta precisão e eficiência. É como montar um quebra-cabeça onde cada peça tem um papel específico, mas quando unidas, formam algo muito mais poderoso.
+     Matematicamente, para três entradas A, B e C, podemos expressar a XNOR assim:
 
-Portanto, entender como as portas lógicas compostas funcionam e como elas se conectam é essencial para quem quer se aprofundar no estudo da eletrônica e da computação. Elas são fundamentais para o avanço dos circuitos digitais e abrem portas para tecnologias mais complexas e inovadoras. Ao aprender sobre essas portas, não estamos apenas aprendendo sobre circuitos, mas também sobre como transformar ideias em soluções práticas que impactam diretamente nosso mundo.
+                                         (A ⊙ B)⊙ C
+
+     Isso significa que a operação ocorre em etapas: primeiro, a XNOR é aplicada entre A e B. O resultado dessa 
+    operação é então combinado com C por meio de outra XNOR, e assim sucessivamente.
+
+     A saída final será 1 se o número total de bits em nível alto (1) for par, e 0 se for ímpar.
+
+     Veja a tabela verdade para uma XNOR com três entradas:
+
+               Entrada A | Entrada B | Entrada C | Saída
+              -------------------------------------------
+                   0     |     0     |     0     |   1  
+                   0     |     0     |     1     |   0  
+                   0     |     1     |     0     |   0  
+                   0     |     1     |     1     |   1  
+                   1     |     0     |     0     |   0  
+                   1     |     0     |     1     |   1  
+                   1     |     1     |     0     |   1  
+                   1     |     1     |     1     |   0  
+
+     Essa característica faz com que a XNOR seja amplamente utilizada em circuitos de verificação de paridade e 
+    outras aplicações onde é essencial garantir consistência nos valores de entrada.
+
+
+   - Aplicações Práticas da Porta XNOR: A porta XNOR é amplamente utilizada em circuitos digitais, sendo essencial 
+    para sistemas que precisam verificar igualdade entre valores binários. Uma de suas aplicações mais importantes 
+    está nos comparadores digitais, onde determina se dois números são idênticos ao comparar seus bits. Quando 
+    todos os bits coincidem, a saída do comparador é 1, indicando igualdade. Esse princípio é fundamental para 
+    sistemas de controle e validação de dados.
+
+     Além disso, a XNOR desempenha um papel relevante na detecção de erros em transmissões de dados, sendo usada em 
+    sistemas de paridade para identificar alterações inesperadas. Sua capacidade de retornar 1 quando há um número 
+    par de bits 1 permite validar a integridade das informações enviadas. Além do uso em comunicação digital, a 
+    XNOR também aparece em redes neurais e aprendizado de máquina, auxiliando no ajuste de pesos e reconhecimento 
+    de padrões, tornando-se uma ferramenta valiosa para otimização de algoritmos preditivos.
+
+   Em suma, a porta lógica XNOR é uma ferramenta poderosa no mundo dos circuitos digitais, funcionando como uma 
+  espécie de “guardião” da igualdade entre os valores de entrada. Sua simplicidade, porém, esconde uma grande 
+  versatilidade, sendo capaz de realizar operações complexas de comparação de maneira eficaz. Como um espelho que 
+  reflete apenas as semelhanças, a XNOR garante que a saída seja verdadeira quando suas entradas são iguais, 
+  criando um comportamento altamente previsível e confiável.
+
+   Com sua característica de comparar a igualdade, a porta XNOR desempenha um papel essencial em diversos contextos 
+  digitais. Ela destaca-se por sua capacidade de simplificar certos tipos de operações lógicas, oferecendo uma 
+  maneira intuitiva e eficaz de tratar e comparar valores em circuitos eletrônicos. Sua compreensão é fundamental 
+  para o entendimento das lógicas mais complexas que formam a base de sistemas computacionais modernos.
+
+ Em conclusão, as portas lógicas compostas são uma evolução natural da lógica digital, permitindo a combinação de 
+operações mais complexas a partir das portas básicas. Elas são como "ferramentas multifuncionais" que nos permitem 
+realizar várias tarefas lógicas em um único passo, sem precisar de muitos componentes. Isso facilita o design e 
+otimiza o funcionamento dos circuitos, garantindo soluções mais eficientes e rápidas para os sistemas que dependem 
+da lógica binária.
+
+ Essas portas compostas, ao simplificarem o trabalho de construir circuitos mais sofisticados, têm um impacto 
+profundo no desenvolvimento de toda a tecnologia que usamos no dia a dia. Elas nos ajudam a resolver problemas 
+complexos de forma mais direta, de modo que, quando conectamos essas portas de maneira inteligente, conseguimos 
+construir desde circuitos simples até sistemas inteiros que operam com alta precisão e eficiência. É como montar um 
+quebra-cabeça onde cada peça tem um papel específico, mas quando unidas, formam algo muito mais poderoso.
+
+ Portanto, entender como as portas lógicas compostas funcionam e como elas se conectam é essencial para quem quer 
+se aprofundar no estudo da eletrônica e da computação. Elas são fundamentais para o avanço dos circuitos digitais e 
+abrem portas para tecnologias mais complexas e inovadoras. Ao aprender sobre essas portas, não estamos apenas 
+aprendendo sobre circuitos, mas também sobre como transformar ideias em soluções práticas que impactam diretamente 
+nosso mundo.
 
   
 
