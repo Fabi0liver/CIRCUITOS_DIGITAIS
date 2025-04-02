@@ -525,7 +525,6 @@ lógica digital.
   eletrônica digital. Essa pequena, mas poderosa operação lógica, é um dos pilares fundamentais da computação e 
   continua sendo uma peça-chave no design de circuitos e na automação de processos digitais.
 
-
  Assim concluimos, que as portas lógicas básicas são a base da computação digital e da eletrônica moderna. Elas 
 operam seguindo regras lógicas precisas, permitindo que circuitos tomem decisões e processem informações de maneira 
 eficiente. Sem essas portas, não teríamos os sistemas digitais que conhecemos hoje, desde computadores e celulares 
@@ -540,16 +539,27 @@ computação, eletrônica digital e programação lógica. A partir delas, é po
 circuitos mais avançados e entender melhor a base do funcionamento dos dispositivos eletrônicos modernos.
 
 
+ 
+                                    "Portas Lógicas  Compostas"
 
-                                   "Portas Lógicas  Compostas"
+ Além das portas lógicas básicas, que servem como blocos básicos na construção de circuitos digitais, existem 
+também as chamadas portas lógicas compostas. Elas surgem da combinação de duas ou mais portas básicas, resultando 
+em comportamentos mais sofisticados e adaptáveis às necessidades dos sistemas computacionais. Se as portas básicas 
+são como letras de um alfabeto, as portas compostas podem ser vistas como palavras que trazem significados mais 
+elaborados e funcionais dentro da linguagem dos circuitos eletrônicos.
 
-Além das portas lógicas básicas, que servem como blocos básicos na construção de circuitos digitais, existem também as chamadas portas lógicas compostas. Elas surgem da combinação de duas ou mais portas básicas, resultando em comportamentos mais sofisticados e adaptáveis às necessidades dos sistemas computacionais. Se as portas básicas são como letras de um alfabeto, as portas compostas podem ser vistas como palavras que trazem significados mais elaborados e funcionais dentro da linguagem dos circuitos eletrônicos.
+ A importância das portas lógicas compostas está na sua capacidade de realizar operações mais complexas sem a 
+necessidade de múltiplas conexões individuais. Ao integrar diferentes funções em uma única estrutura, elas tornam 
+os circuitos mais eficientes, reduzindo o número de componentes e simplificando o design de hardware. Essa 
+otimização é fundamental em sistemas modernos, desde microcontroladores em dispositivos simples até processadores 
+avançados usados em computadores e smartphones.
 
-A importância das portas lógicas compostas está na sua capacidade de realizar operações mais complexas sem a necessidade de múltiplas conexões individuais. Ao integrar diferentes funções em uma única estrutura, elas tornam os circuitos mais eficientes, reduzindo o número de componentes e simplificando o design de hardware. Essa otimização é fundamental em sistemas modernos, desde microcontroladores em dispositivos simples até processadores avançados usados em computadores e smartphones.
+ Compreender as portas lógicas compostas é essencial para quem deseja aprofundar seus conhecimentos em eletrônica 
+digital. Cada uma delas tem uma aplicação específica e desempenha um papel importante na automação, no 
+processamento de dados e na construção de arquiteturas computacionais. 
 
-Compreender as portas lógicas compostas é essencial para quem deseja aprofundar seus conhecimentos em eletrônica digital. Cada uma delas tem uma aplicação específica e desempenha um papel importante na automação, no processamento de dados e na construção de arquiteturas computacionais. 
-
-Agora, vamos explorar mais a fundo os diferentes tipos de portas lógicas compostas e entender como elas contribuem para o funcionamento dos circuitos digitais.
+ Agora, vamos explorar mais a fundo os diferentes tipos de portas lógicas compostas e entender como elas contribuem 
+para o funcionamento dos circuitos digitais.
 
 
 
