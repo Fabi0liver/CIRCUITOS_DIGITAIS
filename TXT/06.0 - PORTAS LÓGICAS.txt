@@ -32,7 +32,7 @@ embarcar juntos nessa jornada pelo universo da lógica digital!
 
 
 
-                                "Contexto Histórico das Portas Lógicas"
+                                 "Contexto Histórico das Portas Lógicas"
 
  O conceito de portas lógicas tem suas raízes na matemática e na lógica, e sua origem está diretamente ligada a uma 
 revolução do pensamento que aconteceu no século XIX. Em 1847, o matemático inglês George Boole introduziu a Álgebra 
@@ -63,7 +63,7 @@ usamos para resolver problemas cada vez mais complexos.
 
 
 
-                                 "Onde as Portas Lógicas são Uteis?"
+                                   "Onde as Portas Lógicas são Uteis?"
 
  As portas lógicas desempenham um papel fundamental em diversas áreas da ciência e da engenharia, conectando 
 conceitos teóricos à prática cotidiana de forma crucial. Elas são as bases de várias tecnologias e sistemas que 
@@ -166,7 +166,7 @@ eficiência.
 
 
 
-                                        "Portas Lógicas Básicas"
+                                       "Portas Lógicas Básicas"
 
  Dentro das Portas lógicas, existem estruturas fundamentais que permitem a tomada de decisões dentro dos circuitos. 
 Elas operam de maneira previsível e são combinadas para formar sistemas mais complexos, especificamente como base 
@@ -515,7 +515,6 @@ lógica digital.
     baseados na lógica da porta NOT são amplamente utilizados para inverter condições e criar instruções 
     condicionais eficientes.
 
-
    Em suma, a porta NOT pode parecer simples à primeira vista, mas sua importância na lógica digital é enorme. Sua 
   função de inversão de sinais é essencial para o funcionamento de diversos sistemas eletrônicos, desde circuitos 
   básicos até processadores avançados. Sem essa operação, seria impossível implementar certos tipos de lógica 
@@ -561,7 +560,7 @@ processamento de dados e na construção de arquiteturas computacionais.
  Agora, vamos explorar mais a fundo os diferentes tipos de portas lógicas compostas e entender como elas contribuem 
 para o funcionamento dos circuitos digitais.
 
- * Porta Lógica NAND ( NOT AND - NÃO E - Negação da Conjunção):
+ * Porta Lógica NAND (NOT AND - NÃO E - Negação da Conjunção):
 
    Se há um elemento que se destaca na construção de circuitos eletrônicos modernos, é a porta lógica NAND. 
   Presente em praticamente todos os dispositivos digitais, essa porta desempenha um papel essencial no 
@@ -1054,7 +1053,7 @@ nosso mundo.
 
   
 
-                                  "Implementação Física das Portas Lógicas"
+                                "Implementação Física das Portas Lógicas"
 
  A implementação física das portas lógicas é o que transforma os conceitos abstratos da lógica digital em algo real 
 e funcional dentro dos circuitos eletrônicos. Em termos simples, essas portas são construídas a partir de 
@@ -1083,7 +1082,7 @@ ultrafinos até sistemas inteligentes de última geração.
 
 
 
-                               "Aplicações das Portas Lógicas"
+                                    "Aplicações das Portas Lógicas"
 
  Como já sabemos, as portas lógicas desempenham um papel fundamental na criação de sistemas e dispositivos 
 eletrônicos modernos, sendo essenciais para a construção de circuitos digitais que processam informações binárias. 
