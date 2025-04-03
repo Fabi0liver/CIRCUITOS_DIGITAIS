@@ -32,7 +32,7 @@ um aplicativo até o funcionamento da sua calculadora.
 
 
 
-                                    "Origem da Álgebra Booleana"
+                                      "Origem da Álgebra Booleana"
 
  A história da Álgebra Booleana começa lá no século XIX, quando um matemático e filósofo britânico chamado George 
 Boole decidiu encarar um desafio ousado para a época: transformar o raciocínio lógico (algo que parecia tão 
@@ -64,7 +64,7 @@ algo grandioso que transforma o mundo.
 
 
 
-                             "Álgebra Booleana e a Álgebra Convencional"
+                              "Álgebra Booleana e a Álgebra Convencional"
 
  Quando a gente compara a Álgebra Booleana com a Álgebra Convencional (aquela que aprendemos na escola e usamos no 
 dia a dia para lidar com números), a primeira grande diferença que salta aos olhos é o universo de valores com que 
@@ -97,7 +97,7 @@ que usamos todos os dias.
 
 
 
-                                "Variáveis e Operações Básicas"
+                                   "Variáveis e Operações Básicas"
 
  Ao adentrarmos no universo da Álgebra Booleana, um dos primeiros conceitos que encontramos são as variáveis 
 booleanas e suas operações básicas. Essa parte é essencial porque é a base sobre a qual construímos toda a lógica 
@@ -242,7 +242,7 @@ simples, eles sustentam toda a tecnologia que usamos no nosso dia a dia.
 
 
 
-                                "O que são os Axiomas e Postulados?"
+                                  "O que são os Axiomas e Postulados?"
 
  A Álgebra Booleana é uma ferramenta fundamental para a lógica digital e sistemas computacionais, sendo a base para 
 o desenvolvimento de circuitos e algoritmos lógicos. Para que a manipulação de expressões booleanas seja possível 
