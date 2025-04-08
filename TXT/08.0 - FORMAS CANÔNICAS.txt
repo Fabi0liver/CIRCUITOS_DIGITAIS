@@ -67,7 +67,7 @@ Ao longo da nossa conversa sobre mintermos, vamos entender por que eles são tã
 
    Quando falamos de tabela verdade, estamos basicamente criando um painel onde conseguimos ver, de forma clara, todas as possíveis combinações das variáveis booleanas e como cada uma delas gera um mintermo diferente. Cada linha dessa tabela representa uma única “situação lógica” e mostra qual mintermo está associado a ela. É como se estivéssemos listando todas as senhas possíveis para ver qual delas destrava o sistema em cada caso.
 
- Exemplo da Tabela Verdade dos Mintermos com 3 variáveis ( A, B, C):
+ Vamos visualizar isso com um exemplo prático usando três variáveis (A, B, C). Com isso, teremos 8 linhas, e cada linha trará um Mintermos diferente:
 
           Linha |  A  |  B  |  C  |  Mintermo | Nº do Mintermo
          ------------------------------------------------------
