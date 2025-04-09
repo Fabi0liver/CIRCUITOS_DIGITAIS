@@ -246,6 +246,19 @@ Ela é ótima para documentos técnicos, provas ou quando você precisa expressa
 Em suma, saber representar uma expressão SoP de diferentes maneiras é como dominar vários idiomas para dizer a mesma ideia. Às vezes queremos clareza, outras vezes praticidade, ou até compactação, e cada forma atende a uma dessas necessidades. Com o tempo e a prática, você vai perceber que essas representações se complementam, tornando o seu raciocínio lógico mais versátil e afiado. E o melhor: com essa base sólida, você pode seguir com mais confiança para qualquer caminho da computação que desejar trilhar.
 
 
+ * Como construir uma expressão SoP?
+
+ Construir uma expressão na Forma Canônica Soma de Produtos é como preparar uma “mensagem perfeita” para que um robô saiba exatamente em quais situações apertar o botão. É como montar um jogo de tabuleiro em que cada casa representa um cenário diferente, e a gente precisa destacar apenas aquelas em que a luz deve acender. O legal é que esse processo tem um caminho bem claro a seguir, quase como uma receita de bolo: primeiro organizamos os ingredientes, depois escolhemos as medidas certas e, no final, temos a lógica toda servida de forma precisa.
+
+ E agora que já estamos com a bancada pronta, que tal começarmos a explorar esse passo a passo juntinhos, de forma leve e bem explicadinha? Vamos lá! 
+
+ - Identifique as variáveis da função: Antes de qualquer construção, precisamos entender com o que estamos lidando. Identificar as variáveis da função é como escolher os ingredientes antes de fazer uma receita: sem eles, não tem como cozinhar! Em lógica, cada variável representa uma entrada possível do sistema ou circuito lógico. Normalmente, elas são representadas por letras maiúsculas (como A, B, C...), e a quantidade de variáveis define quantas combinações diferentes existirão para a função.
+
+   Exemplo: Digamos que queremos construir uma função lógica com três entradas: A, B e C. Essas são nossas variáveis. Isso quer dizer que para cada possível valor de A, B e C (0 ou 1), a função terá um comportamento específico.
+
+  Com as variáveis identificadas, já temos o alicerce da nossa construção. Agora sabemos quais são os elementos que influenciam a saída da função, como as peças de um quebra-cabeça que vamos começar a montar.
+
+
  
 
 
