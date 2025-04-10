@@ -515,7 +515,7 @@ Exemplo: Seguindo a tabela do passo anterior, sabemos que F = 0 nas seguintes li
 
 Exemplo:
 
-          Linha 2 (A = 0, B = 0, C = 1): A + B + C̅
+       Linha 2 (A = 0, B = 0, C = 1): A + B + C̅
     
           Linha 4 (A = 0, B = 1, C = 1): A + B̅ + C̅
     
@@ -572,6 +572,51 @@ Em suma, entender a Forma Canônica Produto de Somas é como descobrir uma nova 
 Ela nos mostra que excluir possibilidades é tão importante quanto confirmar verdades, quase como definir limites num jogo para garantir que tudo siga como planejado. Com o tempo, essa forma deixa de parecer técnica demais e se torna uma aliada prática e confiável.
 
 Dominar a PoS é como aprender mais uma chave para decifrar o comportamento dos circuitos. Com ela, ganhamos clareza, controle e mais liberdade para pensar, criar e até simplificar funções com segurança.
+
+
+
+                                    "Conversão entre as  Formas"
+
+ Imagine que temos dois jeitos diferentes de contar como uma função booleana se comporta: um dizendo quando ela vale 1 (SoP) e o outro dizendo quando ela vale 0 (PoS). Ambos falam da mesma função, só que sob ângulos diferentes,  como duas versões de uma mesma música: uma animada (SoP) e outra mais lenta e reflexiva (PoS), mas com a mesma letra no fundo.
+
+ Converter entre SoP e PoS é como trocar a lente com a qual você olha para a função. Em vez de focar nas combinações que fazem a função ser verdadeira (SoP), você passa a olhar para as que a fazem ser falsa (PoS). Isso é super útil quando você tem apenas uma forma, mas precisa da outra, seja para análise, implementação ou simplificação de circuitos.
+
+ A melhor maneira de fazer essa conversão é passando pela tabela-verdade. Ela funciona como um mapa completo da função: mostra todos os caminhos possíveis e o que acontece em cada um. Com isso, conseguimos tanto os mintermos (para SoP) quanto os maxtermos (para PoS).
+
+ Exemplo prático: Vamos pegar uma função que está em SoP.
+
+                      F(A,B) = A̅.B + A.B
+
+                  Nosso objetivo é convertê-la para PoS.
+
+                  - Monte a Tabela-Verdade: Como temos duas variáveis (A e B), temos 4 combinações possíveis.
+ 
+                           A | B || F(A,B)
+                          ----------------
+                           0 | 0 ||   0
+                           0 | 1 ||   1
+                           1 | 0 ||   0
+                           1 | 1 ||   1
+
+                  - Identifique as linhas onde F = 0: Essas são as entradas que fazem a função ser falsa, e é com elas que construímos a forma PoS.
+
+                        Linha 1: A = 0, B = 0
+
+                        Linha 3: A = 1, B = 0
+
+                  - Crie os Maxtermos correspondentes: Membrando que os maxtermos são somas (OR) com variáveis afirmadas ou negadas, mas com sinal invertido em relação ao valor da variável.
+
+                         Linha 1: (A=0, B=0) → (A + B)
+
+                         Linha 3:  (A=1, B=0) → (A̅ + B)
+
+                   - Passo 4 – Junte com produto (AND): Agora unimos os maxtermos com AND (multiplicação booleana).
+
+                          F(A, B) = (A + B) . (A̅ + B)
+
+ Em suma, converter entre formas é como trocar de idioma: você está dizendo a mesma coisa, só que com outra estrutura. E ao aprender isso, você ganha fluência na linguagem da lógica, o que é fundamental para analisar e construir circuitos com precisão e eficiência.
+
+ Além disso, o fato de podermos ir e voltar entre formas, nos dá um domínio completo sobre o comportamento lógico da função. E esse domínio é o que diferencia quem apenas copia fórmulas de quem realmente entende o que está fazendo.
 
 
 
