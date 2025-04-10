@@ -557,6 +557,13 @@ Temos três formas comuns de escrever essa expressão, e cada uma tem seu estilo
  Em suma, construir a expressão final da Forma Canônica Produto de Somas é como montar um filtro lógico bem afinado, que só deixa passar os cenários em que a função deve ser falsa. Cada termo soma que criamos é uma forma de “bloquear” uma combinação indesejada, como se estivéssemos levantando pequenas barreiras nos caminhos errados. E o mais fascinante nesse processo é perceber como a lógica digital ganha forma concreta e organizada, quase como um idioma que só os circuitos entendem , mas que agora você também fala. Depois de passar por esse passo a passo com calma, fica muito mais tranquilo interpretar, montar ou até otimizar expressões no mundo da lógica booleana.
 
 
+ * Diferença entre PoS Canônica e Não Canônica:
+
+ Imagina que você está montando um quebra-cabeça daqueles bem específicos, onde cada pecinha tem que se encaixar perfeitamente no lugar certo. A PoS Canônica funciona exatamente assim: ela lista todas as situações exatas em que a função não deve funcionar (quando o resultado é zero). Cada maxtermo que aparece é como uma peça do quebra-cabeça que tem encaixe único: todas as variáveis estão lá, afirmadas ou negadas, pra garantir que a combinação seja bem específica. Por exemplo: F(A, B, C) = (A + B + C̅) · (A + B̅ + C), onde cada parêntese mostra uma situação bem delimitada que precisa ser bloqueada.
+
+Agora, a PoS Não Canônica é como montar o mesmo quebra-cabeça, mas com algumas peças já agrupadas ou com bordas mais simples. Você ainda chega à imagem final, mas não precisa encaixar peça por peça de forma tão detalhada. Essa forma traz a função de uma maneira mais enxuta, mais simplificada. Em vez de mostrar cada caminho que gera zero, ela agrupa cenários parecidos ou elimina variáveis desnecessárias. Um exemplo seria: F(A, B, C) = (A + C̅), onde a lógica está preservada, mas com menos "peso" visual e menos informação explícita.
+
+Então, o que muda entre uma forma e outra é o nível de detalhamento. A PoS Canônica é completa, descritiva, quase como uma planilha minuciosa. Já a PoS Não Canônica é mais prática e enxuta, como um resumo feito por quem já entendeu a essência do problema. Ambas estão certas, a diferença está em como você quer representar a função: com todos os detalhes à mostra ou com uma versão mais limpa e otimizada.
 
 
 
