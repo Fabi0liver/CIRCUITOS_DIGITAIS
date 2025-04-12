@@ -1,15 +1,33 @@
                                   FORMAS CANÔNICAS DE EXPRESSÕES LÓGICAS
 
 
-Hoje nós vamos dar os primeiros passos em um assunto fundamental na base da lógica digital: as formas canônicas. Pode parecer um nome complicado à primeira vista, mas acredite, esse conceito está mais perto do nosso dia a dia do que parece. Pense nas formas canônicas como formas organizadas e padronizadas de escrever ideias lógicas, como se estivéssemos escrevendo uma receita ou manual que qualquer pessoa pode seguir sem erro. Em um mundo onde precisamos que computadores e circuitos entendam nossas instruções com precisão, essas formas são indispensáveis.
+ Hoje nós vamos dar os primeiros passos em um assunto fundamental na base da lógica digital: as formas canônicas. 
+Pode parecer um nome complicado à primeira vista, mas acredite, esse conceito está mais perto do nosso dia a dia do 
+que parece. Pense nas formas canônicas como formas organizadas e padronizadas de escrever ideias lógicas, como se estivéssemos escrevendo uma receita ou manual que qualquer pessoa pode seguir sem erro. Em um mundo onde precisamos 
+que computadores e circuitos entendam nossas instruções com precisão, essas formas são indispensáveis.
 
-Imagine que você vai montar um móvel com peças e instruções específicas, se cada pessoa montar do seu jeito, o resultado pode variar e até dar errado. Mas se todos seguirem o mesmo manual, o resultado será sempre o mesmo, sem surpresas. As formas canônicas funcionam exatamente assim no universo da lógica booleana: elas garantem que todos os caminhos levem à mesma representação precisa de uma função lógica, independentemente de quem esteja montando ou analisando.
+ Imagine que você vai montar um móvel com peças e instruções específicas, se cada pessoa montar do seu jeito, o 
+resultado pode variar e até dar errado. Mas se todos seguirem o mesmo manual, o resultado será sempre o mesmo, sem 
+surpresas. As formas canônicas funcionam exatamente assim no universo da lógica booleana: elas garantem que todos 
+os caminhos levem à mesma representação precisa de uma função lógica, independentemente de quem esteja montando ou 
+analisando.
 
-Elas servem como uma forma “universal” de expressar uma função lógica, ou seja, uma maneira clara e sem ambiguidade de mostrar quando uma função deve ser verdadeira ou falsa. E essa clareza é essencial quando estamos lidando com a construção de circuitos, programação de sistemas digitais, ou mesmo na base de decisões lógicas de computadores e dispositivos. Se a lógica for o cérebro, as formas canônicas são a linguagem cuidadosamente estruturada com que esse cérebro pensa.
+ Elas servem como uma forma “universal” de expressar uma função lógica, ou seja, uma maneira clara e sem 
+ambiguidade de mostrar quando uma função deve ser verdadeira ou falsa. E essa clareza é essencial quando estamos 
+lidando com a construção de circuitos, programação de sistemas digitais, ou mesmo na base de decisões lógicas de 
+computadores e dispositivos. Se a lógica for o cérebro, as formas canônicas são a linguagem cuidadosamente 
+estruturada com que esse cérebro pensa.
 
-Ao longo do nosso estudo, vamos encontrar dois caminhos principais dentro das formas canônicas: a Soma de Produtos e o Produto de Somas. Esses nomes também soam técnicos, eu sei mas a gente vai destrinchar tudo com calma. Pense neles como duas maneiras diferentes de organizar as peças do mesmo quebra-cabeça, cada uma com seu estilo próprio de arrumação, mas com o mesmo objetivo: representar fielmente o comportamento de uma função lógica.
+ Ao longo do nosso estudo, vamos encontrar dois caminhos principais dentro das formas canônicas: a Soma de Produtos 
+e o Produto de Somas. Esses nomes também soam técnicos, eu sei mas a gente vai destrinchar tudo com calma. Pense 
+neles como duas maneiras diferentes de organizar as peças do mesmo quebra-cabeça, cada uma com seu estilo próprio 
+de arrumação, mas com o mesmo objetivo: representar fielmente o comportamento de uma função lógica.
 
-Então, o que vamos fazer a partir daqui é começar a entender essas formas com mais carinho e curiosidade. Como um cozinheiro que está aprendendo os cortes básicos antes de preparar pratos incríveis, ou como quem aprende acordes simples antes de tocar uma música inteira, nosso foco agora é construir uma base sólida. Porque, no fundo, entender as formas canônicas é como aprender a ler e escrever na linguagem da lógica, e isso abre portas para um mundo inteiro de possibilidades no universo da computação.
+ Então, o que vamos fazer a partir daqui é começar a entender essas formas com mais carinho e curiosidade. Como um 
+cozinheiro que está aprendendo os cortes básicos antes de preparar pratos incríveis, ou como quem aprende acordes 
+simples antes de tocar uma música inteira, nosso foco agora é construir uma base sólida. Porque, no fundo, entender 
+as formas canônicas é como aprender a ler e escrever na linguagem da lógica, e isso abre portas para um mundo 
+inteiro de possibilidades no universo da computação.
 
 
 
@@ -632,7 +650,7 @@ Dominar a PoS é como aprender mais uma chave para decifrar o comportamento dos 
 
 
 
-                           "Conversão Entre Expressões e Formas canônicas"
+                       "Conversão de Expressões Simplificadas para Formas canônicas"
 
  Antes de mergulhar de cabeça na conversão entre expressões e formas canônicas, é bom entender o porquê disso existir. Imagine que você tem várias maneiras de contar a mesma história: uma pode ser super detalhada, com cada passo do personagem, e outra pode ser mais resumida, indo direto ao ponto. Em lógica booleana, essas histórias são as expressões booleanas, e as versões detalhadas delas são as formas canônicas; que podem ser Soma de Produtos (SoP) ou Produto de Somas (PoS). A conversão, então, é como transformar um resumo em uma narrativa completa (ou vice-versa), seguindo regras para que a essência da história (ou da lógica) continue a mesma.
 
