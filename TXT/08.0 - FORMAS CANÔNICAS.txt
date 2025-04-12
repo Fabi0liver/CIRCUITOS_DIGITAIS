@@ -249,25 +249,41 @@ os comportamentos que queremos evitar.
 
  * Como Construir os Maxtermos Passo a Passo:
 
-   Montar um maxtermo é como escrever uma cláusula de contrato onde está bem claro quando não queremos que a função ative. Cada maxtermo representa uma linha da tabela-verdade em que a saída é zero — ou seja, onde o sistema não deve reagir. E a construção segue um caminho lógico simples e intuitivo, que lembra bastante o dos mintermos, só que com uma inversão de pensamento.
+   Montar um maxtermo é como escrever uma cláusula de contrato onde está bem claro quando não queremos que a função 
+  ative. Cada maxtermo representa uma linha da tabela-verdade em que a saída é zero — ou seja, onde o sistema não 
+  deve reagir. E a construção segue um caminho lógico simples e intuitivo, que lembra bastante o dos mintermos, só 
+  que com uma inversão de pensamento.
 
- Vamos ver esse processo como uma receita prática:
+   Vamos ver esse processo como uma receita prática:
 
- - Monte a Tabela-Verdade com todas as combinações possíveis: Assim como nos mintermos, o primeiro passo é listar todas as possíveis combinações de valores para as variáveis da função. Com 2 variáveis (A e B), teremos 2² = 4 linhas. Com 3 variáveis (A, B, C), serão 8 linhas, e assim por diante. Cada linha da tabela representa um cenário completo, como se estivéssemos testando todas as condições possíveis para um dispositivo.
+   - Monte a Tabela-Verdade com todas as combinações possíveis: Assim como nos mintermos, o primeiro passo é listar 
+    todas as possíveis combinações de valores para as variáveis da função. Com 2 variáveis (A e B), teremos 2² = 4 
+    linhas. Com 3 variáveis (A, B, C), serão 8 linhas, e assim por diante. Cada linha da tabela representa um 
+    cenário completo, como se estivéssemos testando todas as condições possíveis para um dispositivo.
 
- - Identifique as linhas onde a função vale 0: Agora, vamos olhar apenas para as linhas da tabela onde a saída da função é zero. Esses são os momentos em que a função não deve ser ativada. Cada uma dessas linhas será usada para construir um maxtermo específico, indicando um bloqueio lógico naquele ponto.
+   - Identifique as linhas onde a função vale 0: Agora, vamos olhar apenas para as linhas da tabela onde a saída da 
+    função é zero. Esses são os momentos em que a função não deve ser ativada. Cada uma dessas linhas será usada 
+    para construir um maxtermo específico, indicando um bloqueio lógico naquele ponto.
 
- -  Construa o Maxtermo para cada linha com saída 0: Aqui vem o diferencial. Para montar um maxtermo, olhe os valores das variáveis naquela linha e use essa regrinha:
+   - Construa o Maxtermo para cada linha com saída 0: Aqui vem o diferencial. Para montar um maxtermo, olhe os 
+    valores das variáveis naquela linha e use essa regrinha:
 
-  Se o valor é 1 → escreva a variável om o traço em cima (Barrado), como A̅ (A barrado)
+      Se o valor é 1 → escreva a variável om o traço em cima (Barrado), como A̅ (A barrado)
 
-  Se o valor é 0 → escreva a variável normalmente, como A
+      Se o valor é 0 → escreva a variável normalmente, como A
 
-Depois, junte tudo com a operação OU (representada por +), pois maxtermos são somas de variáveis. Exemplo: se numa linha A = 1, B = 0, C = 0, o maxtermo será A̅ + B + C, que representa um dos bloqueios da função.
+     Depois, junte tudo com a operação OU (representada por +), pois maxtermos são somas de variáveis. Exemplo: se 
+    numa linha A = 1, B = 0, C = 0, o maxtermo será A̅ + B + C, que representa um dos bloqueios da função.
 
- - Multiplique os maxtermos para montar a forma canônica: Depois de criar todos os maxtermos das linhas com saída 0, você multiplica todos eles com a operação E (representada por ·). Isso constrói a Forma Canônica Produto de Somas (PoS). É como criar várias cláusulas de segurança, e a função só será verdadeira se todas essas cláusulas permitirem.
+   - Multiplique os maxtermos para montar a forma canônica: Depois de criar todos os maxtermos das linhas com saída   
+    0, você multiplica todos eles com a operação E (representada por ·). Isso constrói a Forma Canônica Produto de 
+    Somas (PoS). É como criar várias cláusulas de segurança, e a função só será verdadeira se todas essas cláusulas 
+    permitirem.
 
- Em resumo, construir maxtermos é como desenhar um escudo: cada um deles bloqueia um caminho indesejado, e só quando nenhum bloqueio está ativo é que a função pode passar. Esse método dá uma visão clara dos momentos de “negação”, e se transforma em uma ferramenta super útil quando o objetivo é garantir controle absoluto sobre os cenários em que não queremos que algo aconteça.
+   Em resumo, construir maxtermos é como desenhar um escudo: cada um deles bloqueia um caminho indesejado, e só 
+  quando nenhum bloqueio está ativo é que a função pode passar. Esse método dá uma visão clara dos momentos de 
+  “negação”, e se transforma em uma ferramenta super útil quando o objetivo é garantir controle absoluto sobre os 
+  cenários em que não queremos que algo aconteça.
 
 
  * A Tabela Verdade dos Maxtermos: 
