@@ -887,23 +887,3 @@ Ao longo do aprendizado, fica claro que essas formas nos ajudam a enxergar a ló
 Mais do que isso, as formas canônicas também ensinam algo que vai além da lógica em si: o valor da organização e do detalhamento. Elas mostram como é importante representar bem as ideias antes de simplificá-las ou implementá-las. Isso vale tanto para expressões booleanas quanto para muitos momentos da vida em que precisamos dar um passo atrás, entender o todo, e só então tomar decisões mais eficientes.
 
 Por isso, ao final dessa jornada, o que fica é a certeza de que dominar as formas canônicas é como adquirir um superpoder lógico. Elas são a linguagem que traduz complexidade em clareza, e fazem parte de um alicerce que sustenta praticamente tudo o que envolve eletrônica digital. Com paciência, prática e bons exemplos, elas deixam de parecer complicadas e passam a ser aliadas indispensáveis no entendimento e criação de sistemas lógicos sólidos e bem pensados.
-
-
-
-
-
-Na Linha 0   |  A igual á 0  |  B igual á  0  |   C igual á  0  |   o  Mintermo fica igual a:  A barrado  e  B barrado e  C barrado  
-
-Na Linha 1   |  A igual á 0  |  B igual á  0  |   C igual á  1  |    o  Mintermo fica igual a:   A barrado  e  B barrado e  C 
-           
-Na  Linha 2   |  A igual á 0  |  B igual á  1  |   C igual á  0  |   o  Mintermo fica igual a:  A barrado  e  B  e  C barrado
-            
-Na Linha 3   |  A igual á 0  |  B igual á  1  |   C igual á  1  |   o  Mintermo fica igual a:    A barrado  e  B  e  C   
-            
-Na Linha 4   |  A igual á 1  |  B igual á  0  |   C igual á  0  |   o  Mintermo fica igual a:  A  e  B barrado e  C barrado 
-           
-Na  Linha 5   |  A igual á 1  |  B igual á  0  |   C igual á  1  |   o  Mintermo fica igual a:  A  e  B barrado e  C   
-            
-Na Linha 6   |  A igual á 1  |  B igual á  1  |   C igual á  0  |   o  Mintermo fica igual a:  A  e  B  e  C barrado  
-          
- Na Linha 7   |  A igual á 1  |  B igual á  1  |   C igual á  1  |   o  Mintermo fica igual a:  A  e  B  e  C   
