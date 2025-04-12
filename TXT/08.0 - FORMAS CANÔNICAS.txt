@@ -494,100 +494,136 @@ começando quanto para quem já projeta circuitos com frequência.
 
  * Como construir uma expressão SoP?
 
- Construir uma expressão na Forma Canônica Soma de Produtos é como preparar uma “mensagem perfeita” para que um robô saiba exatamente em quais situações apertar o botão. É como montar um jogo de tabuleiro em que cada casa representa um cenário diferente, e a gente precisa destacar apenas aquelas em que a luz deve acender. O legal é que esse processo tem um caminho bem claro a seguir, quase como uma receita de bolo: primeiro organizamos os ingredientes, depois escolhemos as medidas certas e, no final, temos a lógica toda servida de forma precisa.
+   Construir uma expressão na Forma Canônica Soma de Produtos é como preparar uma “mensagem perfeita” para que um 
+  robô saiba exatamente em quais situações apertar o botão. É como montar um jogo de tabuleiro em que cada casa 
+  representa um cenário diferente, e a gente precisa destacar apenas aquelas em que a luz deve acender. O legal é 
+  que esse processo tem um caminho bem claro a seguir, quase como uma receita de bolo: primeiro organizamos os 
+  ingredientes, depois escolhemos as medidas certas e, no final, temos a lógica toda servida de forma precisa.
 
- E agora que já estamos com a bancada pronta, que tal começarmos a explorar esse passo a passo juntinhos, de forma leve e bem explicadinha? Vamos lá! 
+   E agora que já estamos com a bancada pronta, que tal começarmos a explorar esse passo a passo juntinhos, de 
+  forma leve e bem explicadinha? Vamos lá! 
 
- - Identifique as variáveis da função: Antes de qualquer construção, precisamos entender com o que estamos lidando. Identificar as variáveis da função é como escolher os ingredientes antes de fazer uma receita: sem eles, não tem como cozinhar! Em lógica, cada variável representa uma entrada possível do sistema ou circuito lógico. Normalmente, elas são representadas por letras maiúsculas (como A, B, C...), e a quantidade de variáveis define quantas combinações diferentes existirão para a função.
+   - Identifique as variáveis da função: Antes de qualquer construção, precisamos entender com o que estamos 
+    lidando. Identificar as variáveis da função é como escolher os ingredientes antes de fazer uma receita: sem 
+    eles, não tem como cozinhar! Em lógica, cada variável representa uma entrada possível do sistema ou circuito 
+    lógico. Normalmente, elas são representadas por letras maiúsculas (como A, B, C...), e a quantidade de 
+    variáveis define quantas combinações diferentes existirão para a função.
 
-   Exemplo: Digamos que queremos construir uma função lógica com três entradas: A, B e C. Essas são nossas variáveis. Isso quer dizer que para cada possível valor de A, B e C (0 ou 1), a função terá um comportamento específico.
+     Exemplo: Digamos que queremos construir uma função lógica com três entradas: A, B e C. Essas são nossas 
+             variáveis. Isso quer dizer que para cada possível valor de A, B e C (0 ou 1), a função terá um 
+             comportamento específico.
 
-  Com as variáveis identificadas, já temos o alicerce da nossa construção. Agora sabemos quais são os elementos que influenciam a saída da função, como as peças de um quebra-cabeça que vamos começar a montar.
-
-
- - Construa a tabela verdade completa da SoP: A tabela verdade é o nosso mapa, ela mostra todas as combinações possíveis das variáveis e qual deve ser o resultado da função para cada uma. Para n variáveis, a tabela terá 2ⁿ linhas. Isso nos ajuda a visualizar com clareza onde a função será verdadeira (1) ou falsa (0). É como listar todos os cenários possíveis em que o sistema pode operar.
-
-   Exemplo: Com A, B e C, temos 3 variáveis. A tabela verdade terá 2³ = 8 linhas. Vamos escrever todas as combinações de 0 e 1:
-
-                     A | B | C || F
-                    ----------------
-                     0 | 0 | 0 || ?
-                     0 | 0 | 1 || ?
-                     0 | 1 | 0 || ?
-                     0 | 1 | 1 || ?
-                     1 | 0 | 0 || ?
-                     1 | 0 | 1 || ?
-                     1 | 1 | 0 || ?
-                     1 | 1 | 1 || ?
-
-  Agora temos a base visual de todas as situações possíveis. A partir daqui, vamos preencher essa tabela com os comportamentos desejados da função. É aqui que o jogo começa de verdade!
+     Com as variáveis identificadas, já temos o alicerce da nossa construção. Agora sabemos quais são os elementos 
+    que influenciam a saída da função, como as peças de um quebra-cabeça que vamos começar a montar.
 
 
- - Preencha a coluna da função F: Agora é hora de dizer, para cada linha da tabela verdade, se a função será verdadeira (1) ou falsa (0). Isso vai depender do problema que estamos tentando resolver, ou do comportamento esperado. É como marcar no mapa os locais que queremos visitar.
+   - Construa a tabela verdade completa da SoP: A tabela verdade é o nosso mapa, ela mostra todas as combinações 
+    possíveis das variáveis e qual deve ser o resultado da função para cada uma. Para n variáveis, a tabela terá 2ⁿ 
+    linhas. Isso nos ajuda a visualizar com clareza onde a função será verdadeira (1) ou falsa (0). É como listar 
+    todos os cenários possíveis em que o sistema pode operar.
 
-   Exemplo: Vamos dizer que queremos que a função seja verdadeira (F = 1) apenas quando tivermos as combinações nas linhas 3 e 5. Colocamos 1 nessas linhas:
+     Exemplo: Com A, B e C, temos 3 variáveis. A tabela verdade terá 2³ = 8 linhas. Vamos escrever todas as 
+             combinações de 0 e 1:
 
-                     A | B | C || F
-                    ----------------
-                     0 | 0 | 0 || 0
-                     0 | 0 | 1 || 0
-                     0 | 1 | 0 || 0
-                     0 | 1 | 1 || 1 ← linha 3
-                     1 | 0 | 0 || 0
-                     1 | 0 | 1 || 1 ← linha 5
-                     1 | 1 | 0 || 0
-                     1 | 1 | 1 || 0
+                        A | B | C || F
+                       ----------------
+                        0 | 0 | 0 || ?
+                        0 | 0 | 1 || ?
+                        0 | 1 | 0 || ?
+                        0 | 1 | 1 || ?
+                        1 | 0 | 0 || ?
+                        1 | 0 | 1 || ?
+                        1 | 1 | 0 || ?
+                        1 | 1 | 1 || ?
 
-   Com a coluna F preenchida, conseguimos visualizar com clareza em quais cenários a função “acende a luz”, ou seja, retorna verdadeiro. Esses são os momentos-chave que vão dar origem à nossa expressão lógica.
-
-
- - Marque apenas as linhas onde F = 1: Nesse ponto, focamos nossa atenção nas linhas onde F vale 1. Essas são as situações que vão compor nossa expressão SoP, pois são exatamente os cenários em que a saída da função deve ser verdadeira. Ignoramos todas as outras linhas, como quem escolhe só os ingredientes que vai usar numa receita.
-
-   Exemplo: No exemplo anterior, F = 1 nas linhas:
-
-             Linha 3: 0 1 1 (A=0, B=1, C=1)
-
-             Linha 5: 1 0 1 (A=1, B=0, C=1)
-
-  Essas duas linhas são tudo o que precisamos para montar nossa expressão. Elas representam os mintermos que somaremos no próximo passo.
+     Agora temos a base visual de todas as situações possíveis. A partir daqui, vamos preencher essa tabela com os 
+    comportamentos desejados da função. É aqui que o jogo começa de verdade!
 
 
- - Converta cada linha com F = 1 em um mintermo: Cada linha onde F = 1 vira um termo produto, chamado mintermo. A regra é simples: se a variável vale 1 na linha, ela aparece afirmada; se vale 0, aparece negada (com uma barra sobre ela). Esses termos dizem “se essa exata combinação acontecer, a saída será 1”.
+   - Preencha a coluna da função F: Agora é hora de dizer, para cada linha da tabela verdade, se a função será 
+    verdadeira (1) ou falsa (0). Isso vai depender do problema que estamos tentando resolver, ou do comportamento 
+    esperado. É como marcar no mapa os locais que queremos visitar.
 
-   Exemplo:
+     Exemplo: Vamos dizer que queremos que a função seja verdadeira (F = 1) apenas quando tivermos as combinações 
+             nas linhas 3 e 5. Colocamos 1 nessas linhas:
 
-            Linha 3 (A=0, B=1, C=1): A̅ · B · C
+                          A | B | C || F
+                         ----------------
+                          0 | 0 | 0 || 0
+                          0 | 0 | 1 || 0
+                          0 | 1 | 0 || 0
+                          0 | 1 | 1 || 1 ← linha 3
+                          1 | 0 | 0 || 0
+                          1 | 0 | 1 || 1 ← linha 5
+                          1 | 1 | 0 || 0
+                          1 | 1 | 1 || 0
 
-            Linha 5 (A=1, B=0, C=1): A · B̅ · C
+     Com a coluna F preenchida, conseguimos visualizar com clareza em quais cenários a função “acende a luz”, ou 
+    seja, retorna verdadeiro. Esses são os momentos-chave que vão dar origem à nossa expressão lógica.
 
 
-   Agora temos nossos mintermos, os blocos fundamentais da SoP. Cada um representa um cenário específico em que a função é verdadeira.
+   - Marque apenas as linhas onde F = 1: Nesse ponto, focamos nossa atenção nas linhas onde F vale 1. Essas são as 
+    situações que vão compor nossa expressão SoP, pois são exatamente os cenários em que a saída da função deve ser 
+    verdadeira. Ignoramos todas as outras linhas, como quem escolhe só os ingredientes que vai usar numa receita.
+
+     Exemplo: No exemplo anterior, F = 1 nas linhas:
+
+                Linha 3: 0 1 1 (A=0, B=1, C=1)
+  
+                Linha 5: 1 0 1 (A=1, B=0, C=1)
+
+     Essas duas linhas são tudo o que precisamos para montar nossa expressão. Elas representam os mintermos que 
+    somaremos no próximo passo.
 
 
- - Some todos os termos produto com o operador OU (+): Agora juntamos os mintermos com o operador lógico OU ( + ), formando a soma de produtos. É como dizer: “se isso acontecer OU aquilo acontecer, a função será verdadeira”. Essa é a essência da forma canônica SoP.
+   - Converta cada linha com F = 1 em um mintermo: Cada linha onde F = 1 vira um termo produto, chamado mintermo. A 
+    regra é simples: se a variável vale 1 na linha, ela aparece afirmada; se vale 0, aparece negada (com uma barra 
+    sobre ela). Esses termos dizem “se essa exata combinação acontecer, a saída será 1”.
 
-   Exemplo: A expressão fica:
+      Exemplo:
+
+               Linha 3 (A=0, B=1, C=1): A̅ · B · C
+
+               Linha 5 (A=1, B=0, C=1): A · B̅ · C
+
+
+     Agora temos nossos mintermos, os blocos fundamentais da SoP. Cada um representa um cenário específico em que a 
+    função é verdadeira.
+
+
+   - Some todos os termos produto com o operador OU (+): Agora juntamos os mintermos com o operador lógico 
+    OU ( + ), formando a soma de produtos. É como dizer: “se isso acontecer OU aquilo acontecer, a função será 
+    verdadeira”. Essa é a essência da forma canônica SoP.
+
+     Exemplo: A expressão fica:
    
-             A̅·B·C + A·B̅·C
+               A̅·B·C + A·B̅·C
 
-   Com essa soma de mintermos, representamos de forma clara e precisa todos os momentos em que a função deve retornar 1. A estrutura SoP começa a ganhar sua forma final.
-
-
- - Escreva a expressão final: O último passo é organizar nossa expressão com clareza, utilizando a notação adequada e deixando tudo prontinho para análise, simplificação ou implementação em circuitos. É como montar um relatório final depois de uma boa pesquisa.
+     Com essa soma de mintermos, representamos de forma clara e precisa todos os momentos em que a função deve 
+    retornar 1. A estrutura SoP começa a ganhar sua forma final.
 
 
-   Exemplo: A expressão final é:
+   - Escreva a expressão final: O último passo é organizar nossa expressão com clareza, utilizando a notação 
+    adequada e deixando tudo prontinho para análise, simplificação ou implementação em circuitos. É como montar um 
+    relatório final depois de uma boa pesquisa.
 
-             Na Forma algébrica tradicional: F(A, B, C) = A̅·B·C + A·B̅·C
+     Exemplo: A expressão final é:
+
+               Na Forma algébrica tradicional: F(A, B, C) = A̅·B·C + A·B̅·C
             
-             Na Notação com mintermos nomeados: F(m3, m5)
+               Na Notação com mintermos nomeados: F(m3, m5)
 
-             Na Forma compacta com somatório: F = Σ(3, 5)
+               Na Forma compacta com somatório: F = Σm(3, 5)
 
-  Agora temos nossa expressão SoP completa, diretamente construída a partir da tabela verdade. Pronta para ser usada, interpretada ou simplificada, e totalmente fiel ao comportamento que definimos para a função.
+     Agora temos nossa expressão SoP completa, diretamente construída a partir da tabela verdade. Pronta para ser 
+    usada, interpretada ou simplificada, e totalmente fiel ao comportamento que definimos para a função.
 
-
- Em suma, chegar à expressão final da Forma Canônica Soma de Produtos é como completar um quebra-cabeça onde cada peça representa um cenário lógico específico. Ao seguirmos o passo a passo com calma e atenção, conseguimos traduzir exatamente quando a função deve ser verdadeira ,tudo com base na lógica do problema. O mais bonito desse processo é perceber como a matemática digital se transforma em algo visual e organizado, quase como uma linguagem secreta entre nós e os circuitos. E agora que você viu como montar essa estrutura passo a passo, fica muito mais fácil entender, manipular e até simplificar expressões no mundo da lógica!
+   Em suma, chegar à expressão final da Forma Canônica Soma de Produtos é como completar um quebra-cabeça onde cada 
+  peça representa um cenário lógico específico. Ao seguirmos o passo a passo com calma e atenção, conseguimos 
+  traduzir exatamente quando a função deve ser verdadeira ,tudo com base na lógica do problema. O mais bonito desse 
+  processo é perceber como a matemática digital se transforma em algo visual e organizado, quase como uma linguagem 
+  secreta entre nós e os circuitos. E agora que você viu como montar essa estrutura passo a passo, fica muito mais 
+  fácil entender, manipular e até simplificar expressões no mundo da lógica!
 
 
  * As Vantagens da forma SoP: 
