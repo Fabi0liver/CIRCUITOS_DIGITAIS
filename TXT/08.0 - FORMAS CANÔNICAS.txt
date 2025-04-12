@@ -97,25 +97,46 @@ possibilidades.
 
  * Como Construir os Mintermos Passo a Passo?
 
-   Construir um mintermo é como criar uma ficha de identidade exata de uma linha da tabela-verdade. Cada mintermo representa um único cenário em que a função booleana deve ser verdadeira. E o processo para montar esses mintermos segue um caminho bem claro. 
+   Construir um mintermo é como criar uma ficha de identidade exata de uma linha da tabela-verdade. Cada mintermo 
+  representa um único cenário em que a função booleana deve ser verdadeira. E o processo para montar esses 
+  mintermos segue um caminho bem claro. 
 
- Vamos ver isso como se fosse uma receita simples de seguir.
+   Vamos ver isso como se fosse uma receita simples de seguir.
 
- - Monte a tabela-verdade com todas as combinações: O primeiro passo é criar uma tabela-verdade, listando todas as combinações possíveis das variáveis booleanas da sua função. Se você tiver 2 variáveis (por exemplo, A e B), terá 2² = 4 linhas. Com 3 variáveis (A, B, C), serão 2³ = 8 linhas, e assim por diante. Cada linha da tabela representa um "cenário possível", como se estivéssemos testando todos os jeitos de montar um sanduíche com os ingredientes que temos.
+   - Monte a tabela-verdade com todas as combinações: O primeiro passo é criar uma tabela-verdade, listando todas 
+    as combinações possíveis das variáveis booleanas da sua função. Se você tiver 2 variáveis (por exemplo, A e B), 
+    terá 2² = 4 linhas. Com 3 variáveis (A, B, C), serão 2³ = 8 linhas, e assim por diante. Cada linha da tabela 
+    representa um "cenário possível", como se estivéssemos testando todos os jeitos de montar um sanduíche com os 
+    ingredientes que temos.
 
- - Identifique as linhas em que a função vale 1: Agora, observe a saída (o valor da função) em cada linha. Em algumas combinações, a função vai resultar em 1 — e são essas linhas que nos interessam. Elas dizem: “Ei, nesses casos aqui a função deve ser verdadeira”. Cada uma dessas linhas será representada por um mintermo exclusivo. Você pode até pensar que cada linha onde a função vale 1 é uma senha correta que destrava um sistema.
+   - Identifique as linhas em que a função vale 1: Agora, observe a saída (o valor da função) em cada linha. Em 
+    algumas combinações, a função vai resultar em 1 — e são essas linhas que nos interessam. Elas dizem: “Ei, 
+    nesses casos aqui a função deve ser verdadeira”. Cada uma dessas linhas será representada por um mintermo 
+    exclusivo. Você pode até pensar que cada linha onde a função vale 1 é uma senha correta que destrava um 
+    sistema.
 
- - Construa o mintermo para cada linha marcada: Para montar o mintermo de uma linha onde a função é 1, basta olhar para os valores das variáveis naquela linha e escrevê-los assim:
+   - Construa o mintermo para cada linha marcada: Para montar o mintermo de uma linha onde a função é 1, basta 
+    olhar para os valores das variáveis naquela linha e escrevê-los assim:
 
-  Se o valor é 0 → escreva a variável om o traço em cima (Barrado), como A̅ (A barrado)
+      Se o valor é 0 → escreva a variável om o traço em cima (Barrado), como A̅ (A barrado)
 
-  Se o valor é 1 → escreva a variável normalmente, como A
+      Se o valor é 1 → escreva a variável normalmente, como A
 
- Depois, você liga todas as variáveis com a operação E (AND), que é representada pelo produto. Exemplo: se em uma linha A = 0, B = 1, C = 0, o mintermo será "A̅ B C̅ ", uma combinação específica e única.
+     Depois, você liga todas as variáveis com a operação E (AND), que é representada pelo produto. Exemplo: se em 
+    uma linha A = 0, B = 1, C = 0, o mintermo será "A̅ B C̅ ", uma combinação específica e única.
 
- - Some os mintermos para montar a forma canônica: Depois de construir todos os mintermos das linhas onde a função vale 1, você soma todos eles usando o operador OU (representado por +). Isso cria a chamada Forma Canônica Soma de Produtos (SoP). É como listar todos os caminhos válidos que fazem uma função funcionar. Se a função for verdadeira em 3 linhas da tabela-verdade, então sua expressão canônica terá 3 mintermos somados entre si.
+   - Some os mintermos para montar a forma canônica: Depois de construir todos os mintermos das linhas onde a 
+    função vale 1, você soma todos eles usando o operador OU (representado por +). Isso cria a chamada Forma 
+    Canônica Soma de Produtos (SoP). É como listar todos os caminhos válidos que fazem uma função funcionar. Se a 
+    função for verdadeira em 3 linhas da tabela-verdade, então sua expressão canônica terá 3 mintermos somados 
+    entre si.
 
- Em resumo, construir mintermos é um processo simples, mas extremamente poderoso. Eles nos permitem mapear com precisão cirúrgica os casos em que uma função lógica deve dizer “sim”. É como ter um mapa do tesouro onde cada mintermo é um X marcando os pontos onde a verdade está escondida. Com esse conhecimento, conseguimos transformar tabelas-verdade em expressões que descrevem com exatidão o comportamento de qualquer sistema lógico. E o melhor: uma vez que você entende o processo, ele vira quase um jogo divertido, e você se torna o arquiteto por trás das decisões do circuito.
+   Em resumo, construir mintermos é um processo simples, mas extremamente poderoso. Eles nos permitem mapear com 
+  precisão cirúrgica os casos em que uma função lógica deve dizer “sim”. É como ter um mapa do tesouro onde cada 
+  mintermo é um X marcando os pontos onde a verdade está escondida. Com esse conhecimento, conseguimos transformar  
+  tabelas-verdade em expressões que descrevem com exatidão o comportamento de qualquer sistema lógico. E o melhor:  
+  uma vez que você entende o processo, ele vira quase um jogo divertido, e você se torna o arquiteto por trás das 
+  decisões do circuito.
 
 
  * A Tabela Verdade dos Mintermos:
