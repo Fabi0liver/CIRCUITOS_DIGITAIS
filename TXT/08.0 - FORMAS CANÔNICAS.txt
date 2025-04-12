@@ -947,3 +947,14 @@ Ao longo do aprendizado, fica claro que essas formas nos ajudam a enxergar a ló
 Mais do que isso, as formas canônicas também ensinam algo que vai além da lógica em si: o valor da organização e do detalhamento. Elas mostram como é importante representar bem as ideias antes de simplificá-las ou implementá-las. Isso vale tanto para expressões booleanas quanto para muitos momentos da vida em que precisamos dar um passo atrás, entender o todo, e só então tomar decisões mais eficientes.
 
 Por isso, ao final dessa jornada, o que fica é a certeza de que dominar as formas canônicas é como adquirir um superpoder lógico. Elas são a linguagem que traduz complexidade em clareza, e fazem parte de um alicerce que sustenta praticamente tudo o que envolve eletrônica digital. Com paciência, prática e bons exemplos, elas deixam de parecer complicadas e passam a ser aliadas indispensáveis no entendimento e criação de sistemas lógicos sólidos e bem pensados.
+
+
+     A igual á:  0,   B igual á:  0,   C igual á:  0  |   F igual á:  0   
+             A igual á:  0,   B igual á:  0,   C igual á:  1  |   F igual á:  0   
+             A igual á:  0,   B igual á:  1,   C igual á:  0  |   F igual á:  0  
+             A igual á:  0,   B igual á:  1,   C igual á:  1  |   F igual á:  1 
+             A igual á:  1,   B igual á:  0,   C igual á:  0  |   F igual á:  0   
+             A igual á:  1,   B igual á:  0,   C igual á:  1  |   F igual á:  1 
+             A igual á:  1,   B igual á:  1,   C igual á:  0  |   F igual á:  0  
+             A igual á:  1,   B igual á:  1,   C igual á:  1  |   F igual á:  0   
+
