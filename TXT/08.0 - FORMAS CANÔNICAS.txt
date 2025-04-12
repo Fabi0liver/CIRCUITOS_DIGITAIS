@@ -358,78 +358,138 @@ mais entendimento do que está por trás de cada decisão lógica.
 
                                "Forma Canônica Soma de Produtos (SoP)"
 
-A Forma Canônica Soma de Produtos (SoP), ou simplesmente soma de mintermos, é uma forma padronizada de escrever expressões da lógica booleana. Pense nela como uma forma organizada e precisa de descrever quando uma função lógica deve retornar "verdadeiro". Em vez de anotar uma lógica de qualquer jeito, a forma SoP nos ajuda a representar essa lógica de forma clara, sistemática e que qualquer pessoa na área possa entender, como se fosse uma linguagem comum entre engenheiros, programadores e entusiastas da lógica.
+ A Forma Canônica Soma de Produtos (SoP), ou simplesmente soma de mintermos, é uma forma padronizada de escrever 
+expressões da lógica booleana. Pense nela como uma forma organizada e precisa de descrever quando uma função lógica 
+deve retornar "verdadeiro". Em vez de anotar uma lógica de qualquer jeito, a forma SoP nos ajuda a representar essa 
+lógica de forma clara, sistemática e que qualquer pessoa na área possa entender, como se fosse uma linguagem comum 
+entre engenheiros, programadores e entusiastas da lógica.
 
-O nome pode parecer técnico à primeira vista, mas sua ideia central é bem simples: ela reúne todas as condições específicas que tornam uma função verdadeira e as organiza em uma expressão que segue sempre o mesmo padrão. É como montar uma lista de situações exatas que fazem uma luz se acender ou um sistema tomar uma decisão. Assim, conseguimos entender, analisar e até mesmo construir circuitos eletrônicos e sistemas lógicos com mais segurança e clareza.
+ O nome pode parecer técnico à primeira vista, mas sua ideia central é bem simples: ela reúne todas as condições 
+específicas que tornam uma função verdadeira e as organiza em uma expressão que segue sempre o mesmo padrão. É como 
+montar uma lista de situações exatas que fazem uma luz se acender ou um sistema tomar uma decisão. Assim, 
+conseguimos entender, analisar e até mesmo construir circuitos eletrônicos e sistemas lógicos com mais segurança e 
+clareza.
 
-Usar a forma SoP é como transformar uma ideia lógica em um projeto bem desenhado, quase como seguir um mapa. Ela é uma ponte entre o pensamento lógico e a prática de montar sistemas digitais. Antes de entrarmos nos detalhes de como essa forma funciona, é importante ter em mente que estamos falando de uma estrutura confiável, pensada justamente para tornar o raciocínio mais limpo, visual e compreensível. E o melhor: ela serve tanto para quem está começando quanto para quem já projeta circuitos com frequência.
+ Usar a forma SoP é como transformar uma ideia lógica em um projeto bem desenhado, quase como seguir um mapa. Ela é 
+uma ponte entre o pensamento lógico e a prática de montar sistemas digitais. Antes de entrarmos nos detalhes de 
+como essa forma funciona, é importante ter em mente que estamos falando de uma estrutura confiável, pensada 
+justamente para tornar o raciocínio mais limpo, visual e compreensível. E o melhor: ela serve tanto para quem está 
+começando quanto para quem já projeta circuitos com frequência.
 
  * A estrutura de uma expressão SoP:
 
-   Quando olhamos para uma expressão em Forma Canônica Soma de Produtos (SoP), podemos imaginar que estamos organizando cenários bem específicos onde a função lógica será verdadeira. Cada cenário é como um pequeno “bloco de condições” conectadas pelo E (AND), indicando que todas elas precisam acontecer juntas. Esses blocos, chamados de termos produto, são então somados com OU (OR), formando a lógica completa: basta que um desses cenários seja verdadeiro para a saída funcionar. E cada variável nesses blocos pode estar afirmada (como A, quando vale 1) ou negada com uma barrinha (como B̅, quando vale 0), mostrando exatamente como cada variável deve se comportar em cada caso.
+   Quando olhamos para uma expressão em Forma Canônica Soma de Produtos (SoP), podemos imaginar que estamos 
+  organizando cenários bem específicos onde a função lógica será verdadeira. Cada cenário é como um pequeno “bloco 
+  de condições” conectadas pelo E (AND), indicando que todas elas precisam acontecer juntas. Esses blocos, chamados 
+  de termos produto, são então somados com OU (OR), formando a lógica completa: basta que um desses cenários seja 
+  verdadeiro para a saída funcionar. E cada variável nesses blocos pode estar afirmada (como A, quando vale 1) ou 
+  negada com uma barrinha (como B̅, quando vale 0), mostrando exatamente como cada variável deve se comportar em 
+  cada caso.
 
- Vamos ver um exemplo para visualizar isso:
+   Vamos ver um exemplo para visualizar isso:
 
-     F(A, B, C) = A·B̅·C + A̅·B·C̅
+                   F(A, B, C) = A·B̅·C + A̅·B·C̅
 
-  Aqui temos dois termos produto. No primeiro (A·B̅·C), estamos dizendo que a saída será verdadeira quando A for 1, B for 0 (representado por B̅) e C for 1. No segundo (A̅·B·C̅), a saída será 1 quando A for 0, B for 1 e C for 0. Cada termo descreve uma situação única e específica. E como usamos a operação OR para somar os termos, basta que um deles seja verdadeiro para que a função inteira dispare.
+   Aqui temos dois termos produto. No primeiro (A·B̅·C), estamos dizendo que a saída será verdadeira quando A for 1, 
+  B for 0 (representado por B̅) e C for 1. No segundo (A̅·B·C̅), a saída será 1 quando A for 0, B for 1 e C for 0. 
+  Cada termo descreve uma situação única e específica. E como usamos a operação OR para somar os termos, basta que 
+  um deles seja verdadeiro para que a função inteira dispare.
 
-Em resumo, essa forma de estrutura é como uma lista de condições bem claras e organizadas, quase como um checklist onde, se qualquer um dos itens for verdadeiro, a luz verde acende. Com o tempo, você vai perceber que expressões escritas dessa forma facilitam muito a análise de circuitos lógicos e o entendimento do funcionamento interno de sistemas digitais. E o melhor: com prática, essa linguagem vai ficando tão natural quanto montar frases com sujeito, verbo e predicado, só que no idioma da lógica!
+   Em resumo, essa forma de estrutura é como uma lista de condições bem claras e organizadas, quase como um 
+  checklist onde, se qualquer um dos itens for verdadeiro, a luz verde acende. Com o tempo, você vai perceber que 
+  expressões escritas dessa forma facilitam muito a análise de circuitos lógicos e o entendimento do funcionamento 
+  interno de sistemas digitais. E o melhor: com prática, essa linguagem vai ficando tão natural quanto montar 
+  frases com sujeito, verbo e predicado, só que no idioma da lógica!
 
 
  * Formas de representação de uma expressão SoP: 
 
-  Quando estudamos expressões em Forma Canônica Soma de Produtos, descobrimos que uma mesma lógica pode ser representada de maneiras diferentes, como se estivéssemos contando a mesma história com linguagens distintas. Essa variedade não é apenas estética, mas prática: cada forma de representação tem um foco, um propósito, e nos ajuda a enxergar a função por diferentes ângulos, seja para entender, simplificar, implementar ou projetar. É como olhar um objeto por vários lados para compreendê-lo melhor. E quanto mais familiaridade a gente tem com essas formas, mais fácil fica navegar pelo mundo da lógica digital.
+   Quando estudamos expressões em Forma Canônica Soma de Produtos, descobrimos que uma mesma lógica pode ser 
+  representada de maneiras diferentes, como se estivéssemos contando a mesma história com linguagens distintas. 
+  Essa variedade não é apenas estética, mas prática: cada forma de representação tem um foco, um propósito, e nos 
+  ajuda a enxergar a função por diferentes ângulos, seja para entender, simplificar, implementar ou projetar. É 
+  como olhar um objeto por vários lados para compreendê-lo melhor. E quanto mais familiaridade a gente tem com 
+  essas formas, mais fácil fica navegar pelo mundo da lógica digital.
 
- Então agora vamos conhecer essas diferentes formas de representar uma expressão SoP, entendendo o que cada uma oferece, como funcionam, e em que situações elas são mais úteis. 
+   Então agora vamos conhecer essas diferentes formas de representar uma expressão SoP, entendendo o que cada uma 
+  oferece, como funcionam, e em que situações elas são mais úteis. 
 
- - Tabela Verdade: Tabela Verdade: A famosa tabela verdade é como o palco onde todos os possíveis cenários das variáveis se apresentam. Cada linha da tabela mostra uma combinação diferente dos valores das variáveis (0 ou 1), e uma coluna extra indica se, naquela linha, a função retorna 1 (verdadeira) ou 0 (falsa).
+   - Tabela Verdade: Tabela Verdade: A famosa tabela verdade é como o palco onde todos os possíveis cenários das 
+    variáveis se apresentam. Cada linha da tabela mostra uma combinação diferente dos valores das variáveis (0 ou 
+    1), e uma coluna extra indica se, naquela linha, a função retorna 1 (verdadeira) ou 0 (falsa).
 
-Por exemplo, se a função é verdadeira nos mintermos 3 e 5, essas duas linhas da tabela terão F = 1, enquanto as demais terão F = 0. Dá uma olhada como isso aparece visualmente:
+     Por exemplo, se a função é verdadeira nos mintermos 3 e 5, essas duas linhas da tabela terão F = 1, enquanto 
+    as demais terão F = 0. Dá uma olhada como isso aparece visualmente:
 
-             A  B  C  |  F
-            ----------|-----
-             0  0  0  |  0   
-             0  0  1  |  0   
-             0  1  0  |  0  
-             0  1  1  |  1 ← A̅·B·C
-             1  0  0  |  0   
-             1  0  1  |  1 ← A·B̅·C
-             1  1  0  |  0  
-             1  1  1  |  0   
+                        A  B  C  |  F
+                       ----------|-----
+                        0  0  0  |  0   
+                        0  0  1  |  0   
+                        0  1  0  |  0  
+                        0  1  1  |  1 ← A̅·B·C
+                        1  0  0  |  0   
+                        1  0  1  |  1 ← A·B̅·C
+                        1  1  0  |  0  
+                        1  1  1  |  0   
 
- Essa representação é a base para todas as outras formas. Ela nos ajuda a entender o comportamento completo da função, identificar exatamente em quais situações ela é verdadeira, e a partir daí, construir expressões na forma SoP de maneira clara e direta. É como ter um mapa completo da lógica, que você pode consultar sempre que quiser verificar ou relembrar como sua função se comporta. Uma ferramenta simples, mas poderosa!
-
-
- - Forma algébrica tradicional (expressão lógica): Essa é, provavelmente, a forma mais intuitiva para começar. Aqui, a expressão é escrita de maneira direta e explícita, usando variáveis e operadores lógicos: o E (AND) para formar os termos produto, e o OU (OR) para somar esses termos. 
-
-Por exemplo:
-
-             F(A, B, C) = A̅·B·C + A·B̅·C
-
-Cada termo entre os sinais de soma representa uma situação específica em que a função é verdadeira, ou seja, é um mintermo.
-
-A grande vantagem dessa forma é a clareza: conseguimos visualizar cada condição necessária para a função ativar. No entanto, em expressões maiores, ela pode se tornar um pouco extensa, exigindo organização e atenção para manter a legibilidade. Mesmo assim, é uma das formas mais usadas quando queremos enxergar claramente os detalhes da lógica envolvida.
-
-
- - Forma com mintermos nomeados: Agora vamos dar nomes aos mintermos! Em vez de escrever os termos completos, usamos uma notação que associa cada mintermo a um número específico, baseado na linha da tabela verdade onde ele aparece. Então, por exemplo, os mintermos que representam as saídas verdadeiras nas posições 3 e 5 seriam escritos como:
-
-      F = m₃ + m₅
-
-Essa forma é bem prática quando a gente já sabe como montar a tabela verdade e entende como os números se relacionam com as combinações binárias das variáveis. É como usar apelidos para situações já conhecidas, economiza tempo e espaço, especialmente quando estamos lidando com expressões longas ou queremos simplificar etapas antes de partir para implementações mais práticas.
+     Essa representação é a base para todas as outras formas. Ela nos ajuda a entender o comportamento completo da 
+    função, identificar exatamente em quais situações ela é verdadeira, e a partir daí, construir expressões na 
+    forma SoP de maneira clara e direta. É como ter um mapa completo da lógica, que você pode consultar sempre que 
+    quiser verificar ou relembrar como sua função se comporta. Uma ferramenta simples, mas poderosa!
 
 
- - Forma compacta com somatório: Aqui temos uma notação super elegante e sintética: o uso do símbolo de somatório para indicar diretamente quais mintermos tornam a função verdadeira. 
+   - Forma algébrica tradicional (expressão lógica): Essa é, provavelmente, a forma mais intuitiva para começar. 
+    Aqui, a expressão é escrita de maneira direta e explícita, usando variáveis e operadores lógicos: o E (AND) 
+    para formar os termos produto, e o OU (OR) para somar esses termos. 
 
-Ela aparece assim:
+     Por exemplo: 
 
-                   F(A, B, C) = Σ(3, 5)
+                  F(A, B, C) = A̅·B·C + A·B̅·C
 
-Essa forma diz que a função F vale 1 nos mintermos de índice 3 e 5, simples assim!
 
-Ela é ótima para documentos técnicos, provas ou quando você precisa expressar rapidamente o comportamento de uma função sem se preocupar com a visualização detalhada de cada termo. É como dizer “essa função é verdadeira nessas duas situações específicas”, de forma direta e limpa. Muito útil para quando o foco está na estrutura lógica mais ampla.
+     Cada termo entre os sinais de soma representa uma situação específica em que a função é verdadeira, ou seja, é 
+    um mintermo.
 
-Em suma, saber representar uma expressão SoP de diferentes maneiras é como dominar vários idiomas para dizer a mesma ideia. Às vezes queremos clareza, outras vezes praticidade, ou até compactação, e cada forma atende a uma dessas necessidades. Com o tempo e a prática, você vai perceber que essas representações se complementam, tornando o seu raciocínio lógico mais versátil e afiado. E o melhor: com essa base sólida, você pode seguir com mais confiança para qualquer caminho da computação que desejar trilhar.
+     A grande vantagem dessa forma é a clareza: conseguimos visualizar cada condição necessária para a função 
+    ativar. No entanto, em expressões maiores, ela pode se tornar um pouco extensa, exigindo organização e atenção 
+    para manter a legibilidade. Mesmo assim, é uma das formas mais usadas quando queremos enxergar claramente os 
+    detalhes da lógica envolvida.
+
+
+   - Forma com mintermos nomeados: Agora vamos dar nomes aos mintermos! Em vez de escrever os termos completos, 
+    usamos uma notação que associa cada mintermo a um número específico, baseado na linha da tabela verdade onde 
+    ele aparece. 
+
+     Então, por exemplo, os mintermos que representam as saídas verdadeiras nas posições 3 e 5 seriam 
+    escritos como:
+
+                    F = m₃ + m₅
+
+     Essa forma é bem prática quando a gente já sabe como montar a tabela verdade e entende como os números se 
+    relacionam com as combinações binárias das variáveis. É como usar apelidos para situações já conhecidas, 
+    economiza tempo e espaço, especialmente quando estamos lidando com expressões longas ou queremos simplificar 
+    etapas antes de partir para implementações mais práticas.
+
+
+   - Forma compacta com somatório: Aqui temos uma notação super elegante e sintética: o uso do símbolo de somatório 
+    para indicar diretamente quais mintermos tornam a função verdadeira. 
+
+     Ela aparece assim:
+
+                        F(A, B, C) = Σ(3, 5)
+
+     Essa forma diz que a função F vale 1 nos mintermos de índice 3 e 5, simples assim!
+
+     Ela é ótima para documentos técnicos, provas ou quando você precisa expressar rapidamente o comportamento de 
+    uma função sem se preocupar com a visualização detalhada de cada termo. É como dizer “essa função é verdadeira 
+    nessas duas situações específicas”, de forma direta e limpa. Muito útil para quando o foco está na estrutura 
+    lógica mais ampla.
+
+   Em suma, saber representar uma expressão SoP de diferentes maneiras é como dominar vários idiomas para dizer a 
+  mesma ideia. Às vezes queremos clareza, outras vezes praticidade, ou até compactação, e cada forma atende a uma 
+  dessas necessidades. Com o tempo e a prática, você vai perceber que essas representações se complementam, 
+  tornando o seu raciocínio lógico mais versátil e afiado. E o melhor: com essa base sólida, você pode seguir com 
+  mais confiança para qualquer caminho da computação que desejar trilhar.
 
 
  * Como construir uma expressão SoP?
