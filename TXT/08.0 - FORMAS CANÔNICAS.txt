@@ -207,18 +207,44 @@ mintermos e lembra: cada pedacinho tem seu lugar, e cada passo bem dado constró
 
                                              "Maxtermos"
 
- Se os mintermos são as condições bem específicas onde uma função booleana responde com um “sim!”, os maxtermos fazem o trabalho inverso: eles apontam exatamente onde a resposta é “não!”. São como guardiões de cada cenário onde a função não deve ativar, mantendo a lógica no controle. Enquanto os mintermos constroem a Forma Canônica da Soma de Produtos (SoP), os maxtermos dão origem à Forma Canônica do Produto de Somas (PoS). Pode parecer um nome técnico à primeira vista, mas com o tempo você vai perceber que se trata apenas de uma forma diferente, e igualmente valiosa, de organizar as ideias dentro da lógica booleana.
+ Se os mintermos são as condições bem específicas onde uma função booleana responde com um “sim!”, os maxtermos 
+fazem o trabalho inverso: eles apontam exatamente onde a resposta é “não!”. São como guardiões de cada cenário onde a função não deve ativar, mantendo a lógica no controle. Enquanto os mintermos constroem a Forma Canônica da Soma 
+de Produtos (SoP), os maxtermos dão origem à Forma Canônica do Produto de Somas (PoS). Pode parecer um nome técnico 
+à primeira vista, mas com o tempo você vai perceber que se trata apenas de uma forma diferente, e igualmente 
+valiosa, de organizar as ideias dentro da lógica booleana.
 
- Podemos imaginar os maxtermos como “portões trancados” em um sistema. Cada um deles representa uma combinação específica de entradas em que a saída da função deve permanecer desligada, ou seja, igual a zero. E o interessante é que, assim como os mintermos formam uma lógica positiva com base nos casos verdadeiros, os maxtermos constroem uma lógica negativa a partir dos casos falsos. São duas formas complementares de descrever um mesmo comportamento, cada uma com sua estratégia: os mintermos dizem “quando a luz deve acender”, enquanto os maxtermos nos mostram “quando ela deve ficar apagada”.
+ Podemos imaginar os maxtermos como “portões trancados” em um sistema. Cada um deles representa uma combinação 
+específica de entradas em que a saída da função deve permanecer desligada, ou seja, igual a zero. E o interessante 
+é que, assim como os mintermos formam uma lógica positiva com base nos casos verdadeiros, os maxtermos constroem 
+uma lógica negativa a partir dos casos falsos. São duas formas complementares de descrever um mesmo comportamento, 
+cada uma com sua estratégia: os mintermos dizem “quando a luz deve acender”, enquanto os maxtermos nos mostram 
+“quando ela deve ficar apagada”.
 
- Ao longo da nossa jornada com os maxtermos, vamos perceber que eles são tão importantes quanto os mintermos na arte de projetar circuitos e expressar funções booleanas com clareza e precisão. Eles permitem montar expressões a partir das situações indesejadas (aquelas em que não queremos que algo aconteça), o que, em muitos contextos de engenharia, é uma abordagem mais direta e eficiente. Portanto, se os mintermos são como convites para uma festa, os maxtermos são as regras do “quem não entra”. E entender essas regras pode ser a chave para controlar com exatidão os comportamentos que queremos evitar.
+ Ao longo da nossa jornada com os maxtermos, vamos perceber que eles são tão importantes quanto os mintermos na 
+arte de projetar circuitos e expressar funções booleanas com clareza e precisão. Eles permitem montar expressões a 
+partir das situações indesejadas (aquelas em que não queremos que algo aconteça), o que, em muitos contextos de 
+engenharia, é uma abordagem mais direta e eficiente. Portanto, se os mintermos são como convites para uma festa, os 
+maxtermos são as regras do “quem não entra”. E entender essas regras pode ser a chave para controlar com exatidão 
+os comportamentos que queremos evitar.
 
 
  * Para que servem os Maxtermos?
 
-   Os maxtermos servem como uma ferramenta poderosa para representar com precisão os momentos em que uma função lógica não deve se ativar. Imagine que você está programando um alarme para só disparar quando nenhuma das janelas ou portas estiver aberta — ou seja, ele precisa ficar desligado em todas as outras situações. Os maxtermos entram exatamente aí: eles te ajudam a mapear todas as combinações de variáveis nas quais o alarme deve permanecer quietinho. Ao invés de se concentrar nos “casos certos”, como fazem os mintermos, os maxtermos listam todos os “casos errados”, e com essa lista completa em mãos, conseguimos estruturar uma função que se comporta com exatidão.
+   Os maxtermos servem como uma ferramenta poderosa para representar com precisão os momentos em que uma função 
+  lógica não deve se ativar. Imagine que você está programando um alarme para só disparar quando nenhuma das 
+  janelas ou portas estiver aberta, ou seja, ele precisa ficar desligado em todas as outras situações. Os maxtermos 
+  entram exatamente aí: eles te ajudam a mapear todas as combinações de variáveis nas quais o alarme deve 
+  permanecer quietinho. Ao invés de se concentrar nos “casos certos”, como fazem os mintermos, os maxtermos listam 
+  todos os “casos errados”, e com essa lista completa em mãos, conseguimos estruturar uma função que se comporta 
+  com exatidão.
 
- Na prática, os maxtermos são os tijolos que constroem a Forma Canônica Produto de Somas (PoS). Essa forma de escrever funções booleanas parte de uma lógica inversa: ela diz “a função será falsa quando acontecer o caso 1, e o caso 2, e o caso 3…”. Depois, usando a negação dessas condições, conseguimos deduzir os momentos em que a função finalmente deve acionar. Essa abordagem é muito útil especialmente quando estamos lidando com sistemas onde os casos de erro, exceção ou restrição são os principais focos de controle. Com os maxtermos, conseguimos traduzir essas situações em expressões claras, confiáveis e fáceis de implementar em circuitos digitais, quase como definir todas as travas de segurança de um sistema. 
+   Na prática, os maxtermos são os tijolos que constroem a Forma Canônica Produto de Somas (PoS). Essa forma de 
+  escrever funções booleanas parte de uma lógica inversa: ela diz “a função será falsa quando acontecer o caso 1, e 
+  o caso 2, e o caso 3…”. Depois, usando a negação dessas condições, conseguimos deduzir os momentos em que a 
+  função finalmente deve acionar. Essa abordagem é muito útil especialmente quando estamos lidando com sistemas 
+  onde os casos de erro, exceção ou restrição são os principais focos de controle. Com os maxtermos, conseguimos 
+  traduzir essas situações em expressões claras, confiáveis e fáceis de implementar em circuitos digitais, quase 
+  como definir todas as travas de segurança de um sistema. 
 
 
  * Como Construir os Maxtermos Passo a Passo:
