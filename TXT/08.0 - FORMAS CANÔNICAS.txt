@@ -141,38 +141,67 @@ possibilidades.
 
  * A Tabela Verdade dos Mintermos:
 
-   Quando falamos de tabela verdade, estamos basicamente criando um painel onde conseguimos ver, de forma clara, todas as possíveis combinações das variáveis booleanas e como cada uma delas gera um mintermo diferente. Cada linha dessa tabela representa uma única “situação lógica” e mostra qual mintermo está associado a ela. É como se estivéssemos listando todas as senhas possíveis para ver qual delas destrava o sistema em cada caso.
+   Quando falamos de tabela verdade, estamos basicamente criando um painel onde conseguimos ver, de forma clara, 
+  todas as possíveis combinações das variáveis booleanas e como cada uma delas gera um mintermo diferente. Cada 
+  linha dessa tabela representa uma única “situação lógica” e mostra qual mintermo está associado a ela. É como se 
+  estivéssemos listando todas as senhas possíveis para ver qual delas destrava o sistema em cada caso.
 
- Vamos visualizar isso com um exemplo prático usando três variáveis (A, B, C). Com isso, teremos 8 linhas, e cada linha trará um Mintermos diferente:
+   Vamos visualizar isso com um exemplo prático usando três variáveis (A, B, C). Com isso, teremos 8 linhas, e cada 
+  linha trará um Mintermos diferente:
 
-          Linha |  A  |  B  |  C  |  Mintermo | Nº do Mintermo
-         ------------------------------------------------------
-            0   |  0  |  0  |  0  |   A̅ B̅ C̅   |      m0
-            1   |  0  |  0  |  1  |   A̅ B̅ C   |      m1
-            2   |  0  |  1  |  0  |   A̅ B C̅   |      m2
-            3   |  0  |  1  |  1  |   A̅ B C   |      m3
-            4   |  1  |  0  |  0  |   A B̅ C̅   |      m4
-            5   |  1  |  0  |  1  |   A B̅ C   |      m5
-            6   |  1  |  1  |  0  |   A B C̅   |      m6
-            7   |  1  |  1  |  1  |   A B C   |      m7
+                   Linha |  A  |  B  |  C  |  Mintermo | Nº do Mintermo
+                  ------------------------------------------------------
+                     0   |  0  |  0  |  0  |   A̅ B̅ C̅   |      m0
+                     1   |  0  |  0  |  1  |   A̅ B̅ C   |      m1
+                     2   |  0  |  1  |  0  |   A̅ B C̅   |      m2
+                     3   |  0  |  1  |  1  |   A̅ B C   |      m3
+                     4   |  1  |  0  |  0  |   A B̅ C̅   |      m4
+                     5   |  1  |  0  |  1  |   A B̅ C   |      m5
+                     6   |  1  |  1  |  0  |   A B C̅   |      m6
+                     7   |  1  |  1  |  1  |   A B C   |      m7
 
-Nessa tabela verdade dos mintermos, cada linha representa uma combinação única das variáveis A, B e C, e mostra qual mintermo corresponde a essa situação específica. Por exemplo, na linha 2 temos A=0, B=1, C=0, o que gera o mintermo A̅ B C̅, que chamamos de m2 — esse nomezinho com “m” é só uma forma prática de numerar os mintermos com base na ordem binária da combinação. Perceba que cada linha acende a “luz” da função em um único ponto: ela só é verdadeira naquele cenário exato, e por isso o mintermo representa essa condição de forma isolada e precisa.
+   Nessa tabela verdade dos mintermos, cada linha representa uma combinação única das variáveis A, B e C, e mostra 
+  qual mintermo corresponde a essa situação específica. Por exemplo, na linha 2 temos A=0, B=1, C=0, o que gera o 
+  mintermo A̅ B C̅, que chamamos de m2 — esse nomezinho com “m” é só uma forma prática de numerar os mintermos com 
+  base na ordem binária da combinação. Perceba que cada linha acende a “luz” da função em um único ponto: ela só é 
+  verdadeira naquele cenário exato, e por isso o mintermo representa essa condição de forma isolada e precisa.
 
-Em resumo, a Tabela Verdade dos Mintermos é como um alfabeto completo da lógica, cada mintermo é uma letra, e juntos, eles nos permitem escrever qualquer mensagem (ou melhor, qualquer função booleana) que quisermos. Dominar essa tabela significa ter o poder de entender, projetar e simplificar sistemas digitais com confiança e clareza. E o mais legal? Depois que você entende essa lógica, ela começa a parecer muito natural, quase como montar peças de um quebra-cabeça onde tudo se encaixa com perfeição.
+   Em resumo, a Tabela Verdade dos Mintermos é como um alfabeto completo da lógica, cada mintermo é uma letra, e 
+  juntos, eles nos permitem escrever qualquer mensagem (ou melhor, qualquer função booleana) que quisermos. Dominar 
+  essa tabela significa ter o poder de entender, projetar e simplificar sistemas digitais com confiança e clareza. 
+  E o mais legal? Depois que você entende essa lógica, ela começa a parecer muito natural, quase como montar peças 
+  de um quebra-cabeça onde tudo se encaixa com perfeição.
 
 
  * Vantagens de Usar Mintermos:
 
-   Uma das grandes vantagens de usar mintermos é a clareza que eles trazem para a construção de funções lógicas. Como cada mintermo representa um único cenário verdadeiro, fica muito fácil “enxergar” exatamente quando uma função deve ativar. É como trabalhar com peças de LEGO: cada mintermo é uma peça específica que encaixa apenas em uma posição do modelo. Isso torna o projeto lógico modular e previsível, ideal para quem está montando circuitos digitais, escrevendo expressões booleanas ou apenas tentando organizar o pensamento com lógica pura e limpa.
+   Uma das grandes vantagens de usar mintermos é a clareza que eles trazem para a construção de funções lógicas. 
+  Como cada mintermo representa um único cenário verdadeiro, fica muito fácil “enxergar” exatamente quando uma 
+  função deve ativar. É como trabalhar com peças de LEGO: cada mintermo é uma peça específica que encaixa apenas em 
+  uma posição do modelo. Isso torna o projeto lógico modular e previsível, ideal para quem está montando circuitos 
+  digitais, escrevendo expressões booleanas ou apenas tentando organizar o pensamento com lógica pura e limpa.
 
-Outra vantagem muito bacana é que os mintermos são o caminho mais direto da tabela-verdade até a expressão lógica. Você não precisa pensar em fórmulas mágicas ou truques complicados: basta olhar quais linhas da tabela-verdade dão “1” e escrever os mintermos correspondentes. Essa abordagem direta é perfeita tanto para iniciantes quanto para profissionais que querem precisão. Além disso, como os mintermos seguem um padrão fixo, eles são altamente compatíveis com ferramentas automáticas, como Mapas de Karnaugh e software de síntese lógica — ou seja, ajudam tanto no papel quanto na prática real da engenharia.
+   Outra vantagem muito bacana é que os mintermos são o caminho mais direto da tabela-verdade até a expressão 
+  lógica. Você não precisa pensar em fórmulas mágicas ou truques complicados: basta olhar quais linhas da tabela-
+  verdade dão “1” e escrever os mintermos correspondentes. Essa abordagem direta é perfeita tanto para iniciantes 
+  quanto para profissionais que querem precisão. Além disso, como os mintermos seguem um padrão fixo, eles são 
+  altamente compatíveis com ferramentas automáticas, como Mapas de Karnaugh e software de síntese lógica — ou seja, 
+  ajudam tanto no papel quanto na prática real da engenharia.
 
 
-Em suma, o conceito de  mintermo que à primeira vista pode parecer técnico e abstrato, na verdade tem uma lógica interna muito clara e acessível. Os mintermos são como pequenas chaves exatas que revelam quando e por que uma função booleana se torna verdadeira. Eles nos ajudam a organizar a lógica digital de forma limpa, estruturada e segura, quase como montar um circuito com peças que se encaixam perfeitamente.
+ Em suma, o conceito de  mintermo que à primeira vista pode parecer técnico e abstrato, na verdade tem uma lógica 
+interna muito clara e acessível. Os mintermos são como pequenas chaves exatas que revelam quando e por que uma 
+função booleana se torna verdadeira. Eles nos ajudam a organizar a lógica digital de forma limpa, estruturada e 
+segura, quase como montar um circuito com peças que se encaixam perfeitamente.
 
-Mais do que uma simples técnica, entender mintermos é abrir espaço para pensar logicamente de maneira mais disciplinada. Eles nos convidam a olhar para cada detalhe de uma situação, identificar padrões e transformar isso tudo em expressões que fazem sentido, tanto no papel quanto no mundo real dos sistemas digitais. E o melhor de tudo: esse raciocínio pode ser aprendido, praticado e aprimorado com o tempo, como quem aprende a tocar um instrumento ou a resolver enigmas com cada vez mais confiança.
+ Mais do que uma simples técnica, entender mintermos é abrir espaço para pensar logicamente de maneira mais 
+disciplinada. Eles nos convidam a olhar para cada detalhe de uma situação, identificar padrões e transformar isso 
+tudo em expressões que fazem sentido, tanto no papel quanto no mundo real dos sistemas digitais. E o melhor de 
+tudo: esse raciocínio pode ser aprendido, praticado e aprimorado com o tempo, como quem aprende a tocar um 
+instrumento ou a resolver enigmas com cada vez mais confiança.
 
-Então, se em algum momento parecer que a lógica booleana está te dando um nó na cabeça, respira fundo, volta aos mintermos e lembra: cada pedacinho tem seu lugar, e cada passo bem dado constrói uma base sólida para o próximo. 
+ Então, se em algum momento parecer que a lógica booleana está te dando um nó na cabeça, respira fundo, volta aos 
+mintermos e lembra: cada pedacinho tem seu lugar, e cada passo bem dado constrói uma base sólida para o próximo. 
 
 
 
@@ -777,3 +806,23 @@ Ao longo do aprendizado, fica claro que essas formas nos ajudam a enxergar a ló
 Mais do que isso, as formas canônicas também ensinam algo que vai além da lógica em si: o valor da organização e do detalhamento. Elas mostram como é importante representar bem as ideias antes de simplificá-las ou implementá-las. Isso vale tanto para expressões booleanas quanto para muitos momentos da vida em que precisamos dar um passo atrás, entender o todo, e só então tomar decisões mais eficientes.
 
 Por isso, ao final dessa jornada, o que fica é a certeza de que dominar as formas canônicas é como adquirir um superpoder lógico. Elas são a linguagem que traduz complexidade em clareza, e fazem parte de um alicerce que sustenta praticamente tudo o que envolve eletrônica digital. Com paciência, prática e bons exemplos, elas deixam de parecer complicadas e passam a ser aliadas indispensáveis no entendimento e criação de sistemas lógicos sólidos e bem pensados.
+
+
+
+
+
+Na Linha 0   |  A igual á 0  |  B igual á  0  |   C igual á  0  |   o  Mintermo fica igual a:  A barrado  e  B barrado e  C barrado  
+
+Na Linha 1   |  A igual á 0  |  B igual á  0  |   C igual á  1  |    o  Mintermo fica igual a:   A barrado  e  B barrado e  C 
+           
+Na  Linha 2   |  A igual á 0  |  B igual á  1  |   C igual á  0  |   o  Mintermo fica igual a:  A barrado  e  B  e  C barrado
+            
+Na Linha 3   |  A igual á 0  |  B igual á  1  |   C igual á  1  |   o  Mintermo fica igual a:    A barrado  e  B  e  C   
+            
+Na Linha 4   |  A igual á 1  |  B igual á  0  |   C igual á  0  |   o  Mintermo fica igual a:  A  e  B barrado e  C barrado 
+           
+Na  Linha 5   |  A igual á 1  |  B igual á  0  |   C igual á  1  |   o  Mintermo fica igual a:  A  e  B barrado e  C   
+            
+Na Linha 6   |  A igual á 1  |  B igual á  1  |   C igual á  0  |   o  Mintermo fica igual a:  A  e  B  e  C barrado  
+          
+ Na Linha 7   |  A igual á 1  |  B igual á  1  |   C igual á  1  |   o  Mintermo fica igual a:  A  e  B  e  C   
