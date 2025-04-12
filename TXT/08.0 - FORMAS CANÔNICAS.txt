@@ -288,36 +288,71 @@ os comportamentos que queremos evitar.
 
  * A Tabela Verdade dos Maxtermos: 
 
-   A tabela verdade dos maxtermos é como um espelho lógico dos mintermos — só que, em vez de apontar onde a função é verdadeira, ela destaca onde a função é falsa. Cada linha dessa tabela representa uma situação específica em que não queremos que a função se ative, e cada uma dessas situações gera um maxtermo exclusivo. É como uma lista de cenários proibidos: “nessa condição aqui, nada acontece!”.
+   A tabela verdade dos maxtermos é como um espelho lógico dos mintermos — só que, em vez de apontar onde a função 
+  é verdadeira, ela destaca onde a função é falsa. Cada linha dessa tabela representa uma situação específica em 
+  que não queremos que a função se ative, e cada uma dessas situações gera um maxtermo exclusivo. É como uma lista 
+  de cenários proibidos: “nessa condição aqui, nada acontece!”.
 
- Vamos visualizar isso com um exemplo prático usando três variáveis (A, B, C). Com isso, teremos 8 linhas, e cada linha trará um maxtermo diferente:
+   Vamos visualizar isso com um exemplo prático usando três variáveis (A, B, C). Com isso, teremos 8 linhas, e cada 
+  linha trará um maxtermo diferente:
 
-          Linha |  A  |  B  |  C  |  Maxtermo   | Nº do Maxtermo
-         --------------------------------------------------------
-            0   |  0  |  0  |  0  |  A + B + C  |      M0
-            1   |  0  |  0  |  1  |  A + B + C̅  |      M1
-            2   |  0  |  1  |  0  |  A + B̅ + C  |      M2
-            3   |  0  |  1  |  1  |  A + B̅ + C̅  |      M3
-            4   |  1  |  0  |  0  |  A̅ + B + C  |      M4
-            5   |  1  |  0  |  1  |  A̅ + B + C̅  |      M5
-            6   |  1  |  1  |  0  |  A̅ + B̅ + C  |      M6
-            7   |  1  |  1  |  1  |  A̅ + B̅ + C̅  |      M7
+                   Linha |  A  |  B  |  C  |  Maxtermo   | Nº do Maxtermo
+                  --------------------------------------------------------
+                     0   |  0  |  0  |  0  |  A + B + C  |      M0
+                     1   |  0  |  0  |  1  |  A + B + C̅  |      M1
+                     2   |  0  |  1  |  0  |  A + B̅ + C  |      M2
+                     3   |  0  |  1  |  1  |  A + B̅ + C̅  |      M3
+                     4   |  1  |  0  |  0  |  A̅ + B + C  |      M4
+                     5   |  1  |  0  |  1  |  A̅ + B + C̅  |      M5
+                     6   |  1  |  1  |  0  |  A̅ + B̅ + C  |      M6
+                     7   |  1  |  1  |  1  |  A̅ + B̅ + C̅  |      M7
 
- Veja como a lógica se inverte em relação aos mintermos: quando uma variável vale 1, ela aparece negada no maxtermo; quando vale 0, aparece do jeito que é. Isso porque o maxtermo representa uma condição indesejada, e estamos descrevendo as variáveis que não devem coincidir com aquela linha da tabela. É como colocar sensores de segurança em cada porta que não deve ser aberta — e só quando nenhuma dessas portas estiver bloqueada, a função “destrava”.
+   Veja como a lógica se inverte em relação aos mintermos: quando uma variável vale 1, ela aparece negada no 
+  maxtermo; quando vale 0, aparece do jeito que é. Isso porque o maxtermo representa uma condição indesejada, e 
+  estamos descrevendo as variáveis que não devem coincidir com aquela linha da tabela. É como colocar sensores de 
+  segurança em cada porta que não deve ser aberta — e só quando nenhuma dessas portas estiver bloqueada, a função 
+  “destrava”.
 
- O número do maxtermo (M0, M1, M2…) segue a mesma lógica dos mintermos, baseado na posição binária da combinação. A grande diferença está em que os maxtermos se juntam com E (produto) em vez de OU, formando a estrutura canônica Produto de Somas. E, assim como no caso dos mintermos, essa tabela é uma ferramenta poderosa para quem quer projetar, simplificar ou até automatizar circuitos com confiança total.
+   O número do maxtermo (M0, M1, M2…) segue a mesma lógica dos mintermos, baseado na posição binária da combinação. 
+  A grande diferença está em que os maxtermos se juntam com E (produto) em vez de OU, formando a estrutura canônica 
+  Produto de Somas. E, assim como no caso dos mintermos, essa tabela é uma ferramenta poderosa para quem quer 
+  projetar, simplificar ou até automatizar circuitos com confiança total.
 
  
- * Vantagens de Usar Maxtermos: Usar maxtermos traz várias vantagens interessantes, especialmente quando lidamos 
-com funções que são mais naturalmente descritas pelo que não deve acontecer. Em muitos casos, é mais simples e direto listar as situações indesejadas do que todas aquelas em que a função é verdadeira. É como dizer: “quero que a luz fique apagada nesses cenários específicos” — e pronto, você usa os maxtermos para montar uma expressão que evita justamente esses casos. Esse tipo de pensamento é muito comum em sistemas que trabalham com restrições, alarmes ou exceções de segurança.
+ * Vantagens de Usar Maxtermos:
 
- Outra grande vantagem é que os maxtermos são perfeitos para construir a Forma Canônica Produto de Somas (PoS), que organiza a lógica de forma estruturada, com foco nas exclusões. Cada maxtermo é uma proteção contra uma combinação de entrada específica, e quando combinamos todos eles, temos uma função que responde corretamente a tudo que não deve acionar. Isso é ótimo quando se quer projetar um sistema mais robusto, que só ativa quando nenhuma das restrições for violada. Além disso, assim como os mintermos, os maxtermos são altamente compatíveis com ferramentas como Mapas de Karnaugh e softwares de automação lógica, o que torna o trabalho prático muito mais eficiente.
+   Usar maxtermos traz várias vantagens interessantes, especialmente quando lidamos 
+  com funções que são mais naturalmente descritas pelo que não deve acontecer. Em muitos casos, é mais simples e 
+  direto listar as situações indesejadas do que todas aquelas em que a função é verdadeira. É como dizer: “quero 
+  que a luz fique apagada nesses cenários específicos” — e pronto, você usa os maxtermos para montar uma expressão 
+  que evita justamente esses casos. Esse tipo de pensamento é muito comum em sistemas que trabalham com restrições, 
+  alarmes ou exceções de segurança.
 
-Em suma, apesar do nome um tanto técnico, os maxtermos fazem parte de uma lógica muito natural e até intuitiva. Eles nos ajudam a pensar nos sistemas digitais de forma preventiva, cuidando para que certas combinações indesejadas não levem à ativação de uma função. Em vez de olhar apenas para os casos positivos, os maxtermos nos ensinam a enxergar o outro lado da moeda: o que deve ser evitado, o que precisa ser bloqueado. E isso, no mundo real, é tão importante quanto saber o que queremos que aconteça.
+   Outra grande vantagem é que os maxtermos são perfeitos para construir a Forma Canônica Produto de Somas (PoS), 
+  que organiza a lógica de forma estruturada, com foco nas exclusões. Cada maxtermo é uma proteção contra uma 
+  combinação de entrada específica, e quando combinamos todos eles, temos uma função que responde corretamente a 
+  tudo que não deve acionar. Isso é ótimo quando se quer projetar um sistema mais robusto, que só ativa quando 
+  nenhuma das restrições for violada. Além disso, assim como os mintermos, os maxtermos são altamente compatíveis  
+  com ferramentas como Mapas de Karnaugh e softwares de automação lógica, o que torna o trabalho prático muito mais 
+  eficiente.
 
-Ao entender os maxtermos, ganhamos mais uma lente para observar o comportamento de sistemas lógicos. Eles ampliam nossa capacidade de análise, permitindo que a gente escolha a melhor forma de representar uma função, seja por inclusão, com os mintermos, ou por exclusão, com os maxtermos. Esse tipo de flexibilidade é valioso, porque cada problema tem sua natureza, e às vezes, o caminho mais simples está justamente em listar o que não deve ocorrer. Os maxtermos, nesse sentido, são como filtros que protegem o sistema de ruídos indesejados.
+ Em suma, apesar do nome um tanto técnico, os maxtermos fazem parte de uma lógica muito natural e até intuitiva. 
+Eles nos ajudam a pensar nos sistemas digitais de forma preventiva, cuidando para que certas combinações 
+indesejadas não levem à ativação de uma função. Em vez de olhar apenas para os casos positivos, os maxtermos nos 
+ensinam a enxergar o outro lado da moeda: o que deve ser evitado, o que precisa ser bloqueado. E isso, no mundo 
+real, é tão importante quanto saber o que queremos que aconteça.
 
-E o mais bonito de tudo isso é perceber que tanto os mintermos quanto os maxtermos nos contam a mesma história, só que por ângulos diferentes. Eles são como dois idiomas diferentes que expressam a mesma ideia, cada um com sua beleza e utilidade. Dominar os maxtermos é, portanto, completar mais uma parte desse quebra-cabeça lógico. E com esse novo olhar, fica mais fácil construir soluções digitais com mais clareza, mais segurança e, acima de tudo, com mais entendimento do que está por trás de cada decisão lógica.
+ Ao entender os maxtermos, ganhamos mais uma lente para observar o comportamento de sistemas lógicos. Eles ampliam 
+nossa capacidade de análise, permitindo que a gente escolha a melhor forma de representar uma função, seja por 
+inclusão, com os mintermos, ou por exclusão, com os maxtermos. Esse tipo de flexibilidade é valioso, porque cada 
+problema tem sua natureza, e às vezes, o caminho mais simples está justamente em listar o que não deve ocorrer. Os 
+maxtermos, nesse sentido, são como filtros que protegem o sistema de ruídos indesejados.
+
+ E o mais bonito de tudo isso é perceber que tanto os mintermos quanto os maxtermos nos contam a mesma história, só 
+que por ângulos diferentes. Eles são como dois idiomas diferentes que expressam a mesma ideia, cada um com sua 
+beleza e utilidade. Dominar os maxtermos é, portanto, completar mais uma parte desse quebra-cabeça lógico. E com 
+esse novo olhar, fica mais fácil construir soluções digitais com mais clareza, mais segurança e, acima de tudo, com 
+mais entendimento do que está por trás de cada decisão lógica.
 
 
 
