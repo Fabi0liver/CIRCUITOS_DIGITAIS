@@ -1027,11 +1027,19 @@ clareza, controle e mais liberdade para pensar, criar e até simplificar funçõ
 
                                     "Conversão entre as  Formas"
 
- Imagine que temos dois jeitos diferentes de contar como uma função booleana se comporta: um dizendo quando ela vale 1 (SoP) e o outro dizendo quando ela vale 0 (PoS). Ambos falam da mesma função, só que sob ângulos diferentes,  como duas versões de uma mesma música: uma animada (SoP) e outra mais lenta e reflexiva (PoS), mas com a mesma letra no fundo.
+ Imagine que temos dois jeitos diferentes de contar como uma função booleana se comporta: um dizendo quando ela 
+vale 1 (SoP) e o outro dizendo quando ela vale 0 (PoS). Ambos falam da mesma função, só que sob ângulos diferentes,  
+como duas versões de uma mesma música: uma animada (SoP) e outra mais lenta e reflexiva (PoS), mas com a mesma 
+letra no fundo.
 
- Converter entre SoP e PoS é como trocar a lente com a qual você olha para a função. Em vez de focar nas combinações que fazem a função ser verdadeira (SoP), você passa a olhar para as que a fazem ser falsa (PoS). Isso é super útil quando você tem apenas uma forma, mas precisa da outra, seja para análise, implementação ou simplificação de circuitos.
+ Converter entre SoP e PoS é como trocar a lente com a qual você olha para a função. Em vez de focar nas 
+combinações que fazem a função ser verdadeira (SoP), você passa a olhar para as que a fazem ser falsa (PoS). Isso é 
+super útil quando você tem apenas uma forma, mas precisa da outra, seja para análise, implementação ou 
+simplificação de circuitos.
 
- A melhor maneira de fazer essa conversão é passando pela tabela-verdade. Ela funciona como um mapa completo da função: mostra todos os caminhos possíveis e o que acontece em cada um. Com isso, conseguimos tanto os mintermos (para SoP) quanto os maxtermos (para PoS).
+ A melhor maneira de fazer essa conversão é passando pela tabela-verdade. Ela funciona como um mapa completo da 
+função: mostra todos os caminhos possíveis e o que acontece em cada um. Com isso, conseguimos tanto os mintermos 
+(para SoP) quanto os maxtermos (para PoS).
 
  Exemplo prático: Vamos pegar uma função que está em SoP.
 
@@ -1048,37 +1056,61 @@ clareza, controle e mais liberdade para pensar, criar e até simplificar funçõ
                            1 | 0 ||   0
                            1 | 1 ||   1
 
-                  - Identifique as linhas onde F = 0: Essas são as entradas que fazem a função ser falsa, e é com elas que construímos a forma PoS.
+                  - Identifique as linhas onde F = 0: Essas são as entradas que fazem a função ser falsa, e é com 
+                   elas que construímos a forma PoS.
 
-                        Linha 1: A = 0, B = 0
+                        Linha 0: A = 0, B = 0
 
-                        Linha 3: A = 1, B = 0
+                        Linha 2: A = 1, B = 0
 
-                  - Crie os Maxtermos correspondentes: Membrando que os maxtermos são somas (OR) com variáveis afirmadas ou negadas, mas com sinal invertido em relação ao valor da variável.
+                  - Crie os Maxtermos correspondentes: Membrando que os maxtermos são somas (OR) com variáveis 
+                   afirmadas ou negadas, mas com sinal invertido em relação ao valor da variável.
 
-                         Linha 1: (A=0, B=0) → (A + B)
+                         Linha 0: (A=0, B=0) → (A + B)
 
-                         Linha 3:  (A=1, B=0) → (A̅ + B)
+                         Linha 1:  (A=1, B=0) → (A̅ + B)
 
-                   - Passo 4 – Junte com produto (AND): Agora unimos os maxtermos com AND (multiplicação booleana).
+                   -  Junte com produto (AND): Agora unimos os maxtermos com AND (multiplicação booleana).
 
                           F(A, B) = (A + B) . (A̅ + B)
 
- Em suma, converter entre formas é como trocar de idioma: você está dizendo a mesma coisa, só que com outra estrutura. E ao aprender isso, você ganha fluência na linguagem da lógica, o que é fundamental para analisar e construir circuitos com precisão e eficiência.
+ Em suma, converter entre formas é como trocar de idioma: você está dizendo a mesma coisa, só que com outra 
+estrutura. E ao aprender isso, você ganha fluência na linguagem da lógica, o que é fundamental para analisar e 
+construir circuitos com precisão e eficiência.
 
- Além disso, o fato de podermos ir e voltar entre formas, nos dá um domínio completo sobre o comportamento lógico da função. E esse domínio é o que diferencia quem apenas copia fórmulas de quem realmente entende o que está fazendo.
+ Além disso, o fato de podermos ir e voltar entre formas, nos dá um domínio completo sobre o comportamento lógico 
+da função. E esse domínio é o que diferencia quem apenas copia fórmulas de quem realmente entende o que está 
+fazendo.
 
 
 
                                "Forma Canônica vs Forma Não-Canônica"
 
- Quando falamos em formas canônicas, estamos nos referindo a uma maneira padronizada e organizada de escrever funções booleanas. É como seguir uma receita exata: sabemos os ingredientes, a ordem e a quantidade certa para que o resultado final seja sempre o mesmo, sem surpresas. As formas canônicas (como a Soma de Produtos - SoP e o Produto de Somas - PoS) usam todos os termos possíveis com todas as variáveis envolvidas, sempre respeitando uma estrutura definida. Isso garante que a função represente exatamente o comportamento mostrado na tabela-verdade, sem margem para dúvida.
+ Quando falamos em formas canônicas, estamos nos referindo a uma maneira padronizada e organizada de escrever 
+funções booleanas. É como seguir uma receita exata: sabemos os ingredientes, a ordem e a quantidade certa para que 
+o resultado final seja sempre o mesmo, sem surpresas. As formas canônicas (como a Soma de Produtos - SoP e o 
+Produto de Somas - PoS) usam todos os termos possíveis com todas as variáveis envolvidas, sempre respeitando uma 
+estrutura definida. Isso garante que a função represente exatamente o comportamento mostrado na tabela-verdade, sem 
+margem para dúvida.
 
- Já as formas não-canônicas são um pouco mais livres, flexíveis. Em vez de seguir uma estrutura rígida, elas priorizam a simplicidade. Podemos dizer que são como receitas de família: cada pessoa pode escrever do seu jeito, com variações que ainda mantêm o sabor final. Nessas formas, os termos podem ser simplificados, algumas variáveis podem ser omitidas em certas partes, e o foco passa a ser a otimização da função — ou seja, torná-la mais curta, mais eficiente e fácil de implementar em circuitos reais.
+ Já as formas não-canônicas são um pouco mais livres, flexíveis. Em vez de seguir uma estrutura rígida, elas 
+priorizam a simplicidade. Podemos dizer que são como receitas de família: cada pessoa pode escrever do seu jeito, 
+com variações que ainda mantêm o sabor final. Nessas formas, os termos podem ser simplificados, algumas variáveis 
+podem ser omitidas em certas partes, e o foco passa a ser a otimização da função, ou seja, torná-la mais curta, 
+mais eficiente e fácil de implementar em circuitos reais.
 
- A grande diferença, portanto, está entre completude e eficiência. As formas canônicas são completas e descritivas: mostram todas as combinações específicas que ativam (ou desativam) a função. Isso é ótimo para entender exatamente o comportamento de uma lógica, ou quando queremos automatizar projetos com softwares que exigem precisão. Já as formas não-canônicas brilham na fase de simplificação e otimização de circuitos. Elas ajudam a reduzir o número de portas lógicas e conexões, o que é crucial em projetos práticos onde espaço, energia e tempo de processamento são limitados.
+ A grande diferença, portanto, está entre completude e eficiência. As formas canônicas são completas e descritivas: 
+mostram todas as combinações específicas que ativam (ou desativam) a função. Isso é ótimo para entender exatamente 
+o comportamento de uma lógica, ou quando queremos automatizar projetos com softwares que exigem precisão. Já as 
+formas não-canônicas brilham na fase de simplificação e otimização de circuitos. Elas ajudam a reduzir o número de 
+portas lógicas e conexões, o que é crucial em projetos práticos onde espaço, energia e tempo de processamento são 
+limitados.
 
- No fim das contas, ambas têm seu valor e servem a propósitos diferentes. A forma canônica é como a versão detalhada e acadêmica de uma função, perfeita para estudar, documentar e garantir exatidão. A forma não-canônica é como a versão enxuta e prática, ideal para engenheiros que precisam colocar o projeto para funcionar com o menor custo possível. Entender essa diferença nos dá liberdade e clareza para escolher a abordagem certa dependendo do momento e da necessidade.
+ No fim das contas, ambas têm seu valor e servem a propósitos diferentes. A forma canônica é como a versão 
+detalhada e acadêmica de uma função, perfeita para estudar, documentar e garantir exatidão. A forma não-canônica é 
+como a versão enxuta e prática, ideal para engenheiros que precisam colocar o projeto para funcionar com o menor 
+custo possível. Entender essa diferença nos dá liberdade e clareza para escolher a abordagem certa dependendo do 
+momento e da necessidade.
 
 
 
