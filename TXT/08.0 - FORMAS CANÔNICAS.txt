@@ -732,55 +732,82 @@ verificar e compartilhar — como se estivesse montando um diagrama com regras b
 
  * Formas de representação de uma expressão PoS:
 
-   Quando a gente trabalha com expressões na Forma Canônica Produto de Somas (PoS), descobre que existe mais de uma maneira de apresentar essa lógica. É como contar a mesma história usando estilos diferentes: às vezes com muitos detalhes, outras vezes de forma mais resumida, mas sempre com a mesma essência. Cada forma de representação tem sua função, e aprender a transitar entre elas é como ter uma caixa de ferramentas completa, com opções para analisar, projetar ou simplificar a lógica dependendo do momento. E quanto mais você se acostuma com essas formas, mais fluente fica em “ler” o comportamento lógico de sistemas digitais.
+   Quando a gente trabalha com expressões na Forma Canônica Produto de Somas (PoS), descobre que existe mais de uma 
+  maneira de apresentar essa lógica. É como contar a mesma história usando estilos diferentes: às vezes com muitos 
+  detalhes, outras vezes de forma mais resumida, mas sempre com a mesma essência. Cada forma de representação tem 
+  sua função, e aprender a transitar entre elas é como ter uma caixa de ferramentas completa, com opções para 
+  analisar, projetar ou simplificar a lógica dependendo do momento. E quanto mais você se acostuma com essas 
+  formas, mais fluente fica em “ler” o comportamento lógico de sistemas digitais.
 
    Agora vamos explorar essas maneiras de representar uma expressão PoS e entender o que cada uma traz de especial:
 
-   - Tabela Verdade: A tabela verdade continua sendo nossa melhor amiga aqui. Ela mostra todas as combinações possíveis das variáveis e o resultado da função para cada linha. Mas, no contexto da PoS, o que a gente observa com mais atenção são as linhas onde a função vale 0, ou seja, os cenários que fazem a função ser falsa.
+   - Tabela Verdade: A tabela verdade continua sendo nossa melhor amiga aqui. Ela mostra todas as combinações 
+    possíveis das variáveis e o resultado da função para cada linha. Mas, no contexto da PoS, o que a gente observa 
+    com mais atenção são as linhas onde a função vale 0, ou seja, os cenários que fazem a função ser falsa.
 
-  Por exemplo, se a função for falsa nos maxtermos 0, 2 e 7, essas serão as linhas onde F = 0. Dá só uma olhada nesse exemplo:
+     Por exemplo, se a função for falsa nos maxtermos 0, 2 e 7, essas serão as linhas onde F = 0. Dá só uma olhada   
+    nesse exemplo:
 
-              A  B  C  |  F
-             ----------|-----
-              0  0  0  |  0  ← A + B + C
-              0  0  1  |  1
-              0  1  0  |  0  ← A + B̅ + C
-              0  1  1  |  1
-              1  0  0  |  1
-              1  0  1  |  1
-              1  1  0  |  1
-              1  1  1  |  0  ← A̅ + B̅ + C̅
+                        A  B  C  |  F
+                       ----------|-----
+                        0  0  0  |  0  ← A + B + C
+                        0  0  1  |  1
+                        0  1  0  |  0  ← A + B̅ + C
+                        0  1  1  |  1
+                        1  0  0  |  1
+                        1  0  1  |  1
+                        1  1  0  |  1
+                        1  1  1  |  0  ← A̅ + B̅ + C̅
 
-Cada linha com F = 0 corresponde a um maxtermo que vai fazer parte da expressão. Pensando de forma simples, essa tabela é como um roteiro que mostra “em quais situações a função não pode ativar”. E isso serve como ponto de partida para construir a PoS de forma clara e organizada.
+     Cada linha com F = 0 corresponde a um maxtermo que vai fazer parte da expressão. Pensando de forma simples, 
+    essa tabela é como um roteiro que mostra “em quais situações a função não pode ativar”. E isso serve como ponto 
+    de partida para construir a PoS de forma clara e organizada.
 
 
-   - Forma algébrica tradicional (expressão lógica): Essa é a forma que mais se parece com “falar a lógica em voz alta”. Aqui, escrevemos cada maxtermo usando o operador OU (OR) dentro dos parênteses, como se estivéssemos listando as condições que tornam aquela combinação indesejada. E depois conectamos todos esses maxtermos com o operador E (AND), porque todos eles precisam ser evitados.
+   - Forma algébrica tradicional (expressão lógica): Essa é a forma que mais se parece com “falar a lógica em voz 
+    alta”. Aqui, escrevemos cada maxtermo usando o operador OU (OR) dentro dos parênteses, como se estivéssemos 
+    listando as condições que tornam aquela combinação indesejada. E depois conectamos todos esses maxtermos com o 
+    operador E (AND), porque todos eles precisam ser evitados.
 
      Por exemplo:
 
                    F(A, B, C) = (A + B + C) · (A + B̅ + C) · (A̅ + B̅ + C̅)
 
-  Cada grupo entre parênteses representa uma linha onde a função vale 0. A leitura dessa forma é bem direta: é como montar uma barreira para cada cenário que causaria um resultado falso, e só quando todas essas barreiras forem ultrapassadas, a função pode acender o sinal de “verdadeiro”.
+     Cada grupo entre parênteses representa uma linha onde a função vale 0. A leitura dessa forma é bem direta: é 
+    como montar uma barreira para cada cenário que causaria um resultado falso, e só quando todas essas barreiras 
+    forem ultrapassadas, a função pode acender o sinal de “verdadeiro”.
 
 
-   - Forma com maxtermos nomeados: Agora entramos numa forma mais prática e “apelidada”. Em vez de escrever todos os termos dentro dos parênteses, a gente usa uma notação numérica que representa cada maxtermo com base na posição dele na tabela verdade. 
+   - Forma com maxtermos nomeados: Agora entramos numa forma mais prática e “apelidada”. Em vez de escrever todos 
+    os termos dentro dos parênteses, a gente usa uma notação numérica que representa cada maxtermo com base na 
+    posição dele na tabela verdade. 
 
-   Por exemplo, se a função for falsa nos maxtermos 0, 2 e 7, podemos escrever assim:
+     Por exemplo, se a função for falsa nos maxtermos 0, 2 e 7, podemos escrever assim:
 
-                 F = M₀ · M₂ · M₇
+                   F = M₀ · M₂ · M₇
 
- Essa forma é super útil quando você já entende como os números se relacionam com as combinações das variáveis. É como usar códigos curtos para representar situações completas, mais rápido e econômico, especialmente em expressões grandes.
+     Essa forma é super útil quando você já entende como os números se relacionam com as combinações das variáveis. 
+    É como usar códigos curtos para representar situações completas, mais rápido e econômico, especialmente em 
+    expressões grandes.
 
 
-   - Forma compacta com produtório: Por fim, temos a forma mais resumida de todas: a notação com o símbolo de produtório (∏), que representa o produto lógico dos maxtermos. 
+   - Forma compacta com produtório: Por fim, temos a forma mais resumida de todas: a notação com o símbolo de 
+    produtório (∏), que representa o produto lógico dos maxtermos. 
 
      Ela aparece assim:
 
-                       F(A, B, C) = ∏(0, 2, 7)
+                   F(A, B, C) = ∏M (0, 2, 7)
 
-  Essa notação diz, de maneira bem direta, que a função vale 0 nas posições 0, 2 e 7 da tabela verdade — ou seja, esses são os maxtermos usados para montar a expressão. É como um atalho, uma linha de comando que resume tudo de forma limpa e objetiva, ideal para documentos técnicos, apresentações ou quando queremos ser rápidos sem perder a precisão.
+     Essa notação diz, de maneira bem direta, que a função vale 0 nas posições 0, 2 e 7 da tabela verdade — ou 
+    seja, esses são os maxtermos usados para montar a expressão. É como um atalho, uma linha de comando que resume 
+    tudo de forma limpa e objetiva, ideal para documentos técnicos, apresentações ou quando queremos ser rápidos 
+    sem perder a precisão.
 
- Em resumo, aprender a representar uma expressão PoS de diferentes formas é como dominar várias maneiras de se comunicar com a lógica digital. Às vezes queremos ser detalhistas, outras vezes práticos, e em alguns casos, bem econômicos no espaço. Cada estilo tem seu momento e seu valor. Com o tempo, você vai perceber que escolher a forma certa para cada situação torna seu raciocínio mais flexível, sua análise mais eficiente , e claro, seus projetos muito mais claros e seguros.
+   Em resumo, aprender a representar uma expressão PoS de diferentes formas é como dominar várias maneiras de se 
+  comunicar com a lógica digital. Às vezes queremos ser detalhistas, outras vezes práticos, e em alguns casos, bem 
+  econômicos no espaço. Cada estilo tem seu momento e seu valor. Com o tempo, você vai perceber que escolher a 
+  forma certa para cada situação torna seu raciocínio mais flexível, sua análise mais eficiente , e claro, seus 
+  projetos muito mais claros e seguros.
 
 
  * Como construir uma expressão PoS?
@@ -1041,7 +1068,7 @@ Mais do que isso, as formas canônicas também ensinam algo que vai além da ló
 Por isso, ao final dessa jornada, o que fica é a certeza de que dominar as formas canônicas é como adquirir um superpoder lógico. Elas são a linguagem que traduz complexidade em clareza, e fazem parte de um alicerce que sustenta praticamente tudo o que envolve eletrônica digital. Com paciência, prática e bons exemplos, elas deixam de parecer complicadas e passam a ser aliadas indispensáveis no entendimento e criação de sistemas lógicos sólidos e bem pensados.
 
 
-     A igual á:  0,   B igual á:  0,   C igual á:  0  |   F igual á:  0   
+             A igual á:  0,   B igual á:  0,   C igual á:  0  |   F igual á:  0   
              A igual á:  0,   B igual á:  0,   C igual á:  1  |   F igual á:  0   
              A igual á:  0,   B igual á:  1,   C igual á:  0  |   F igual á:  0  
              A igual á:  0,   B igual á:  1,   C igual á:  1  |   F igual á:  1 
