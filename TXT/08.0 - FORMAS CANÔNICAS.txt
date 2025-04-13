@@ -1116,17 +1116,29 @@ momento e da necessidade.
 
                        "Conversão de Expressões Simplificadas para Formas canônicas"
 
- Antes de mergulhar de cabeça na conversão entre expressões e formas canônicas, é bom entender o porquê disso existir. Imagine que você tem várias maneiras de contar a mesma história: uma pode ser super detalhada, com cada passo do personagem, e outra pode ser mais resumida, indo direto ao ponto. Em lógica booleana, essas histórias são as expressões booleanas, e as versões detalhadas delas são as formas canônicas; que podem ser Soma de Produtos (SoP) ou Produto de Somas (PoS). A conversão, então, é como transformar um resumo em uma narrativa completa (ou vice-versa), seguindo regras para que a essência da história (ou da lógica) continue a mesma.
+ Antes de mergulhar de cabeça na conversão entre expressões e formas canônicas, é bom entender o porquê disso 
+existir. Imagine que você tem várias maneiras de contar a mesma história: uma pode ser super detalhada, com cada 
+passo do personagem, e outra pode ser mais resumida, indo direto ao ponto. Em lógica booleana, essas histórias são 
+as expressões booleanas, e as versões detalhadas delas são as formas canônicas; que podem ser Soma de Produtos 
+(SoP) ou Produto de Somas (PoS). A conversão, então, é como transformar um resumo em uma narrativa completa (ou 
+vice-versa), seguindo regras para que a essência da história (ou da lógica) continue a mesma.
 
- Essa conversão é útil porque nem sempre recebemos uma função na forma certinha para analisar, implementar ou simplificar. Às vezes, a expressão vem meio “enxuta” demais, faltando detalhes que só a forma canônica consegue mostrar. Outras vezes, temos a tabela-verdade, mas precisamos da função algébrica. Saber fazer essa ponte entre representações é essencial para quem está aprendendo ou trabalhando com circuitos lógicos, porque garante clareza e controle sobre o comportamento da função.
+ Essa conversão é útil porque nem sempre recebemos uma função na forma certinha para analisar, implementar ou 
+simplificar. Às vezes, a expressão vem meio “enxuta” demais, faltando detalhes que só a forma canônica consegue 
+mostrar. Outras vezes, temos a tabela-verdade, mas precisamos da função algébrica. Saber fazer essa ponte entre 
+representações é essencial para quem está aprendendo ou trabalhando com circuitos lógicos, porque garante clareza e 
+controle sobre o comportamento da função.
 
- Vamos imaginar uma expressão mais simples para ilustrar tudo de forma tranquila. Suponha que temos uma função booleana:
+ Vamos imaginar uma expressão mais simples para ilustrar tudo de forma tranquila. Suponha que temos uma função 
+booleana:
          
             F(A, B) = A + A̅
 
- Essa expressão já está em forma algébrica, mas não está em forma canônica. Por quê? Porque em uma forma canônica (por exemplo a SoP), cada termo precisa conter todas as variáveis envolvidas, no caso, tanto A quanto B. E aqui temos apenas A em um termo e B’ no outro.
+ Essa expressão já está em forma algébrica, mas não está em forma canônica. Por quê? Porque em uma forma canônica 
+(por exemplo a SoP), cada termo precisa conter todas as variáveis envolvidas, no caso, tanto A quanto B. E aqui 
+temos apenas A em um termo e B’ no outro.
 
- Vamos ver o passo a passo para converter essa expressão para forma canônica SoP:
+  Vamos ver o passo a passo para converter essa expressão para forma canônica SoP:
 
   - Monte a Tabela-Verdade da função: 
 
@@ -1144,7 +1156,7 @@ momento e da necessidade.
 
      As linhas onde F = 1 são: 
 
-       linha 1 (00), linha 3 (10) e linha 4 (11)
+       linha 0 (00), linha 2 (10) e linha 3 (11)
 
 
   - Crie os mintermos correspondentes a essas linhas:
@@ -1153,24 +1165,33 @@ momento e da necessidade.
 
        Linha 1 (A=0, B=0) → A̅.B̅
 
-       Linha 3 (A=1, B=0) → A.B̅
+       Linha 2 (A=1, B=0) → A.B̅
 
-       Linha 4 (A=1, B=1) → A.B
+       Linha 3 (A=1, B=1) → A.B
 
   - Junte todos os mintermos com soma (OR):
 
       F(A, B) = A̅.B̅ + A.B̅ + A.B̅
 
- Pronto! Agora a função está em forma canônica SoP.
+  Pronto! Agora a função está em forma canônica SoP.
 
- Perceba que a nova versão é mais detalhada ela mostra exatamente quais combinações de entrada fazem a função valer 1. Isso é ótimo quando queremos analisar o comportamento completo da lógica.
+  Perceba que a nova versão é mais detalhada, ela mostra exatamente quais combinações de entrada fazem a função 
+ valer 1. Isso é ótimo quando queremos analisar o comportamento completo da lógica.
 
- Lembrando que para converter para a forma canônica PoS, o processo é parecido! A diferença é que você usa as linhas da tabela-verdade onde a função vale 0, e monta maxtermos (somas) com essas combinações. Depois, junta tudo com produto (AND). É basicamente o espelho do processo da SoP!
+  Lembrando que para converter para a forma canônica PoS, o processo é parecido! A diferença é que você usa as 
+ linhas da tabela-verdade onde a função vale 0, e monta maxtermos (somas) com essas combinações. Depois, junta tudo 
+ com produto (AND). É basicamente o espelho do processo da SoP!
 
+ Em suma, dominar essa conversão é como saber traduzir entre dois idiomas: você começa a entender melhor a lógica 
+por trás das expressões e pode até encontrar formas mais inteligentes de representá-las depois. A forma canônica te 
+mostra todos os detalhes, como se fosse uma lente de aumento sobre a função. Ela ajuda muito na hora de comparar 
+circuitos, simplificar expressões ou implementar a lógica em hardware.
 
-Em suma, dominar essa conversão é como saber traduzir entre dois idiomas: você começa a entender melhor a lógica por trás das expressões e pode até encontrar formas mais inteligentes de representá-las depois. A forma canônica te mostra todos os detalhes, como se fosse uma lente de aumento sobre a função. Ela ajuda muito na hora de comparar circuitos, simplificar expressões ou implementar a lógica em hardware.
-
-E o mais bonito é que, com a prática, esse processo vai se tornando natural. A conversão te ensina a ver a lógica como um conjunto de padrões, e isso é superpoderoso! Afinal, no mundo da eletrônica e da programação, entender padrões é o que nos permite criar sistemas mais rápidos, econômicos e eficientes. Então, sempre que você se deparar com uma expressão ou tabela-verdade, saiba que converter para a forma canônica é como decifrar o DNA daquela lógica. E uma vez que você entende esse DNA, pode manipular e moldar a função como quiser.
+ E o mais bonito é que, com a prática, esse processo vai se tornando natural. A conversão te ensina a ver a lógica 
+como um conjunto de padrões, e isso é superpoderoso! Afinal, no mundo da eletrônica e da programação, entender 
+padrões é o que nos permite criar sistemas mais rápidos, econômicos e eficientes. Então, sempre que você se deparar 
+com uma expressão ou tabela-verdade, saiba que converter para a forma canônica é como decifrar o DNA daquela 
+lógica. E uma vez que você entende esse DNA, pode manipular e moldar a função como quiser.
 
 
 
@@ -1183,14 +1204,3 @@ Ao longo do aprendizado, fica claro que essas formas nos ajudam a enxergar a ló
 Mais do que isso, as formas canônicas também ensinam algo que vai além da lógica em si: o valor da organização e do detalhamento. Elas mostram como é importante representar bem as ideias antes de simplificá-las ou implementá-las. Isso vale tanto para expressões booleanas quanto para muitos momentos da vida em que precisamos dar um passo atrás, entender o todo, e só então tomar decisões mais eficientes.
 
 Por isso, ao final dessa jornada, o que fica é a certeza de que dominar as formas canônicas é como adquirir um superpoder lógico. Elas são a linguagem que traduz complexidade em clareza, e fazem parte de um alicerce que sustenta praticamente tudo o que envolve eletrônica digital. Com paciência, prática e bons exemplos, elas deixam de parecer complicadas e passam a ser aliadas indispensáveis no entendimento e criação de sistemas lógicos sólidos e bem pensados.
-
-
-             A igual á:  0,   B igual á:  0,   C igual á:  0  |   F igual á:  0   
-             A igual á:  0,   B igual á:  0,   C igual á:  1  |   F igual á:  0   
-             A igual á:  0,   B igual á:  1,   C igual á:  0  |   F igual á:  0  
-             A igual á:  0,   B igual á:  1,   C igual á:  1  |   F igual á:  1 
-             A igual á:  1,   B igual á:  0,   C igual á:  0  |   F igual á:  0   
-             A igual á:  1,   B igual á:  0,   C igual á:  1  |   F igual á:  1 
-             A igual á:  1,   B igual á:  1,   C igual á:  0  |   F igual á:  0  
-             A igual á:  1,   B igual á:  1,   C igual á:  1  |   F igual á:  0   
-
