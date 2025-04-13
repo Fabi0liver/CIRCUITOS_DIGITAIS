@@ -1197,10 +1197,23 @@ lógica. E uma vez que você entende esse DNA, pode manipular e moldar a funçã
 
                        "Conclusão Sobre as Formas Canônicas de Expressões Lógicas"
 
-Chegar até aqui é como ter explorado os bastidores da lógica booleana com uma lanterna bem potente. As formas canônicas não são apenas ferramentas técnicas, elas são pontes que conectam clareza, estrutura e confiança dentro do mundo dos circuitos e expressões lógicas. Entendê-las é como aprender a montar uma estrutura sólida antes de construir um prédio: a base precisa estar muito bem definida para tudo funcionar de forma segura lá na frente.
+ Chegar até aqui é como ter explorado os bastidores da lógica booleana com uma lanterna bem potente. As formas 
+canônicas não são apenas ferramentas técnicas, elas são pontes que conectam clareza, estrutura e confiança dentro 
+do mundo dos circuitos e expressões lógicas. Entendê-las é como aprender a montar uma estrutura sólida antes de 
+construir um prédio: a base precisa estar muito bem definida para tudo funcionar de forma segura lá na frente.
 
-Ao longo do aprendizado, fica claro que essas formas nos ajudam a enxergar a lógica com mais nitidez. Elas revelam tudo o que uma função faz, em todas as situações possíveis, e isso é extremamente poderoso. Com elas, não estamos apenas “resolvendo expressões”, mas compreendendo o comportamento completo de sistemas digitais, algo fundamental em áreas como tecnologia, engenharia, automação e até mesmo na base de funcionamento de computadores.
+ Ao longo do aprendizado, fica claro que essas formas nos ajudam a enxergar a lógica com mais nitidez. Elas revelam 
+tudo o que uma função faz, em todas as situações possíveis, e isso é extremamente poderoso. Com elas, não estamos 
+apenas “resolvendo expressões”, mas compreendendo o comportamento completo de sistemas digitais, algo fundamental 
+em áreas como tecnologia, engenharia, automação e até mesmo na base de funcionamento de computadores.
 
-Mais do que isso, as formas canônicas também ensinam algo que vai além da lógica em si: o valor da organização e do detalhamento. Elas mostram como é importante representar bem as ideias antes de simplificá-las ou implementá-las. Isso vale tanto para expressões booleanas quanto para muitos momentos da vida em que precisamos dar um passo atrás, entender o todo, e só então tomar decisões mais eficientes.
+ Mais do que isso, as formas canônicas também ensinam algo que vai além da lógica em si: o valor da organização e 
+do detalhamento. Elas mostram como é importante representar bem as ideias antes de simplificá-las ou 
+implementá-las. Isso vale tanto para expressões booleanas quanto para muitos momentos da vida em que precisamos dar 
+um passo atrás, entender o todo, e só então tomar decisões mais eficientes.
 
-Por isso, ao final dessa jornada, o que fica é a certeza de que dominar as formas canônicas é como adquirir um superpoder lógico. Elas são a linguagem que traduz complexidade em clareza, e fazem parte de um alicerce que sustenta praticamente tudo o que envolve eletrônica digital. Com paciência, prática e bons exemplos, elas deixam de parecer complicadas e passam a ser aliadas indispensáveis no entendimento e criação de sistemas lógicos sólidos e bem pensados.
+ Por isso, ao final dessa jornada, o que fica é a certeza de que dominar as formas canônicas é como adquirir um 
+superpoder lógico. Elas são a linguagem que traduz complexidade em clareza, e fazem parte de um alicerce que 
+sustenta praticamente tudo o que envolve eletrônica digital. Com paciência, prática e bons exemplos, elas deixam de 
+parecer complicadas e passam a ser aliadas indispensáveis no entendimento e criação de sistemas lógicos sólidos e 
+bem pensados.
