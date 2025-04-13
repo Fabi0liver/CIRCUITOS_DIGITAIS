@@ -680,23 +680,54 @@ clara e estruturada.
 
                               "Forma Canônica Produto de Somas (PoS)"
 
- A Forma Canônica Produto de Somas (PoS), ou simplesmente produto de maxtermos, é uma maneira padronizada de representar funções lógicas booleanas. Se a SoP se preocupa em listar quando a função deve ser verdadeira, a PoS faz o caminho inverso: ela foca em quando a função é falsa. É como se estivéssemos marcando todos os momentos em que um sistema não deve reagir, para então construir uma expressão que funcione corretamente nos demais casos. Essa abordagem ajuda a garantir que cada possibilidade seja levada em conta, tornando a lógica mais completa e precisa — e compreensível para todos que lidam com circuitos, algoritmos ou programação.
+ A Forma Canônica Produto de Somas (PoS), ou simplesmente produto de maxtermos, é uma maneira padronizada de 
+representar funções lógicas booleanas. Se a SoP se preocupa em listar quando a função deve ser verdadeira, a PoS 
+faz o caminho inverso: ela foca em quando a função é falsa. É como se estivéssemos marcando todos os momentos em 
+que um sistema não deve reagir, para então construir uma expressão que funcione corretamente nos demais casos. Essa 
+abordagem ajuda a garantir que cada possibilidade seja levada em conta, tornando a lógica mais completa e precisa — 
+e compreensível para todos que lidam com circuitos, algoritmos ou programação.
 
- O nome pode soar um pouco técnico à primeira vista, mas sua essência é bem intuitiva. A Forma Produto de Somas pega cada condição que faz a função resultar em 0 (falso), transforma essa condição em uma soma lógica (um OU de variáveis e seus complementos), e depois junta todas essas somas com operações de E (AND). Ou seja, cada maxtermo representa uma combinação de entrada que deve impedir a saída da função, e o produto final garante que o sistema só será verdadeiro quando nenhuma dessas condições falsas estiver presente. É como cercar todas as exceções, para que o que sobra seja exatamente o comportamento desejado.
+ O nome pode soar um pouco técnico à primeira vista, mas sua essência é bem intuitiva. A Forma Produto de Somas 
+pega cada condição que faz a função resultar em 0 (falso), transforma essa condição em uma soma lógica (um OU de 
+variáveis e seus complementos), e depois junta todas essas somas com operações de E (AND). Ou seja, cada maxtermo 
+representa uma combinação de entrada que deve impedir a saída da função, e o produto final garante que o sistema só 
+será verdadeiro quando nenhuma dessas condições falsas estiver presente. É como cercar todas as exceções, para que 
+o que sobra seja exatamente o comportamento desejado.
 
- Pensar na PoS é como planejar um sistema de segurança onde você mapeia todos os acessos não permitidos e constrói barreiras para cada um. O resultado final é um circuito lógico seguro e confiável, que só ativa sua saída quando todas as situações indesejadas estão evitadas. Essa forma canônica é uma ferramenta poderosa tanto para quem está aprendendo lógica digital quanto para quem projeta circuitos complexos, pois oferece uma forma clara, organizada e universal de descrever a lógica. Em vez de um raciocínio solto, você segue um modelo estruturado, fácil de verificar e compartilhar — como se estivesse montando um diagrama com regras bem definidas.
+ Pensar na PoS é como planejar um sistema de segurança onde você mapeia todos os acessos não permitidos e constrói 
+barreiras para cada um. O resultado final é um circuito lógico seguro e confiável, que só ativa sua saída quando 
+todas as situações indesejadas estão evitadas. Essa forma canônica é uma ferramenta poderosa tanto para quem está 
+aprendendo lógica digital quanto para quem projeta circuitos complexos, pois oferece uma forma clara, organizada e 
+universal de descrever a lógica. Em vez de um raciocínio solto, você segue um modelo estruturado, fácil de 
+verificar e compartilhar — como se estivesse montando um diagrama com regras bem definidas.
 
  * A estrutura de uma expressão PoS:
 
-   Quando a gente olha para uma expressão na Forma Canônica Produto de Somas (PoS), pode imaginar que estamos montando um conjunto de “portas” que filtram tudo o que não queremos que aconteça. Cada uma dessas portas é como uma checagem rápida: “Essa combinação aqui pode passar?” — e se ela for uma situação que levaria a uma saída falsa, ela fecha a passagem. Essas checagens são chamadas de termos soma, e dentro de cada uma, usamos o OU (OR), como se estivéssemos dizendo: “se qualquer uma dessas condições aparecer, então esse caminho está bloqueado”. Depois, ligamos todas essas portas com a operação E (AND), como quem diz: só pode passar se escapar de todas as armadilhas.
+   Quando a gente olha para uma expressão na Forma Canônica Produto de Somas (PoS), pode imaginar que estamos 
+  montando um conjunto de “portas” que filtram tudo o que não queremos que aconteça. Cada uma dessas portas é como 
+  uma checagem rápida: “Essa combinação aqui pode passar?”, e se ela for uma situação que levaria a uma saída  
+  falsa, ela fecha a passagem. Essas checagens são chamadas de termos soma, e dentro de cada uma, usamos o OU (OR), 
+  como se estivéssemos dizendo: “se qualquer uma dessas condições aparecer, então esse caminho está bloqueado”. 
+  Depois, ligamos todas essas portas com a operação E (AND), como quem diz: só pode passar se escapar de todas as 
+  armadilhas.
 
-Vamos ver isso com um exemplo prático:
+   Vamos ver isso com um exemplo prático:
 
-  F(A, B, C) = (A + B̅ + C) · (A̅ + B + C̅)
+              F(A, B, C) = (A + B̅ + C) · (A̅ + B + C̅)
 
-Aqui temos dois termos soma, ou seja, duas portas de checagem. No primeiro termo (A + B̅ + C), estamos dizendo: “esse grupo representa uma situação que torna a função falsa quando A = 0, B = 1 e C = 0”. No segundo termo (A̅ + B + C̅), temos outra situação indesejada, agora com A = 1, B = 0 e C = 1. Repara como cada variável pode estar afirmada (como A) ou negada (como B̅), dependendo do valor que faria essa combinação acontecer. O que estamos fazendo, no fundo, é enumerar os casos que precisam ser evitados para que a saída seja verdadeira.
+   Aqui temos dois termos soma, ou seja, duas portas de checagem. No primeiro termo (A + B̅ + C), estamos dizendo: 
+  “esse grupo representa uma situação que torna a função falsa quando A = 0, B = 1 e C = 0”. No segundo termo 
+  (A̅ + B + C̅), temos outra situação indesejada, agora com A = 1, B = 0 e C = 1. Repara como cada variável pode 
+  estar afirmada (como A) ou negada (como B̅), dependendo do valor que faria essa combinação acontecer. O que 
+  estamos fazendo, no fundo, é enumerar os casos que precisam ser evitados para que a saída seja verdadeira.
 
-Pensando de forma mais visual, essa estrutura funciona como se estivéssemos programando um detector que só acende uma luz verde quando todas as combinações ruins forem evitadas. É como um alarme que só fica desligado se nenhum dos sensores for ativado. E isso traz uma clareza enorme para quem está projetando ou analisando sistemas lógicos: cada termo soma representa um obstáculo que precisa ser superado. E no final, se passarmos por todos eles sem tropeçar, temos a confirmação de que a saída pode ser 1. Com o tempo, esse tipo de escrita vai ficando cada vez mais natural, como aprender a montar frases simples em um novo idioma, só que aqui, o idioma é o da lógica digital.
+   Pensando de forma mais visual, essa estrutura funciona como se estivéssemos programando um detector que só 
+  acende uma luz verde quando todas as combinações ruins forem evitadas. É como um alarme que só fica desligado se 
+  nenhum dos sensores for ativado. E isso traz uma clareza enorme para quem está projetando ou analisando sistemas 
+  lógicos: cada termo soma representa um obstáculo que precisa ser superado. E no final, se passarmos por todos 
+  eles sem tropeçar, temos a confirmação de que a saída pode ser 1. Com o tempo, esse tipo de escrita vai ficando 
+  cada vez mais natural, como aprender a montar frases simples em um novo idioma, só que aqui, o idioma é o da 
+  lógica digital.
 
 
  * Formas de representação de uma expressão PoS:
