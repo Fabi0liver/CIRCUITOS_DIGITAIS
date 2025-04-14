@@ -31,7 +31,7 @@ inteiro de possibilidades no universo da computação.
 
 
 
-                            "A Importância de Entender as Formas Canônicas"
+                             "A Importância de Entender as Formas Canônicas"
 
  Entender as formas canônicas de expressões lógicas é como adquirir fluência em uma linguagem que os sistemas 
 digitais “falam” o tempo todo. Quando conseguimos enxergar essas expressões de forma organizada, clara e padronizada, abrimos as portas para compreender como funções lógicas são processadas, otimizadas e implementadas em 
@@ -55,7 +55,7 @@ organização, algo valioso tanto na carreira quanto na vida.
 
 
 
-                                             "Mintermos"
+                                            "Mintermos"
 
  Agora que já entendemos um pouco o que são as formas canônicas, é hora de conhecer um dos seus elementos mais 
 fundamentais e fascinantes: os mintermos. Eles são como as pecinhas exatas de um quebra-cabeça lógico, responsáveis 
@@ -205,7 +205,7 @@ mintermos e lembra: cada pedacinho tem seu lugar, e cada passo bem dado constró
 
 
 
-                                             "Maxtermos"
+                                              "Maxtermos"
 
  Se os mintermos são as condições bem específicas onde uma função booleana responde com um “sim!”, os maxtermos 
 fazem o trabalho inverso: eles apontam exatamente onde a resposta é “não!”. São como guardiões de cada cenário onde a função não deve ativar, mantendo a lógica no controle. Enquanto os mintermos constroem a Forma Canônica da Soma 
@@ -250,7 +250,7 @@ os comportamentos que queremos evitar.
  * Como Construir os Maxtermos Passo a Passo:
 
    Montar um maxtermo é como escrever uma cláusula de contrato onde está bem claro quando não queremos que a função 
-  ative. Cada maxtermo representa uma linha da tabela-verdade em que a saída é zero — ou seja, onde o sistema não 
+  ative. Cada maxtermo representa uma linha da tabela-verdade em que a saída é zero, ou seja, onde o sistema não 
   deve reagir. E a construção segue um caminho lógico simples e intuitivo, que lembra bastante o dos mintermos, só 
   que com uma inversão de pensamento.
 
@@ -288,7 +288,7 @@ os comportamentos que queremos evitar.
 
  * A Tabela Verdade dos Maxtermos: 
 
-   A tabela verdade dos maxtermos é como um espelho lógico dos mintermos — só que, em vez de apontar onde a função 
+   A tabela verdade dos maxtermos é como um espelho lógico dos mintermos, só que, em vez de apontar onde a função 
   é verdadeira, ela destaca onde a função é falsa. Cada linha dessa tabela representa uma situação específica em 
   que não queremos que a função se ative, e cada uma dessas situações gera um maxtermo exclusivo. É como uma lista 
   de cenários proibidos: “nessa condição aqui, nada acontece!”.
@@ -310,7 +310,7 @@ os comportamentos que queremos evitar.
    Veja como a lógica se inverte em relação aos mintermos: quando uma variável vale 1, ela aparece negada no 
   maxtermo; quando vale 0, aparece do jeito que é. Isso porque o maxtermo representa uma condição indesejada, e 
   estamos descrevendo as variáveis que não devem coincidir com aquela linha da tabela. É como colocar sensores de 
-  segurança em cada porta que não deve ser aberta — e só quando nenhuma dessas portas estiver bloqueada, a função 
+  segurança em cada porta que não deve ser aberta, e só quando nenhuma dessas portas estiver bloqueada, a função 
   “destrava”.
 
    O número do maxtermo (M0, M1, M2…) segue a mesma lógica dos mintermos, baseado na posição binária da combinação. 
@@ -321,12 +321,12 @@ os comportamentos que queremos evitar.
  
  * Vantagens de Usar Maxtermos:
 
-   Usar maxtermos traz várias vantagens interessantes, especialmente quando lidamos 
-  com funções que são mais naturalmente descritas pelo que não deve acontecer. Em muitos casos, é mais simples e 
-  direto listar as situações indesejadas do que todas aquelas em que a função é verdadeira. É como dizer: “quero 
-  que a luz fique apagada nesses cenários específicos” — e pronto, você usa os maxtermos para montar uma expressão 
-  que evita justamente esses casos. Esse tipo de pensamento é muito comum em sistemas que trabalham com restrições, 
-  alarmes ou exceções de segurança.
+   Usar maxtermos traz várias vantagens interessantes, especialmente quando lidamos com funções que são mais 
+  naturalmente descritas pelo que não deve acontecer. Em muitos casos, é mais simples e direto listar as situações 
+  indesejadas do que todas aquelas em que a função é verdadeira. É como dizer: “quero que a luz fique apagada 
+  nesses cenários específicos”, e pronto, você usa os maxtermos para montar uma expressão que evita justamente  
+  esses casos. Esse tipo de pensamento é muito comum em sistemas que trabalham com restrições, alarmes ou exceções 
+  de segurança.
 
    Outra grande vantagem é que os maxtermos são perfeitos para construir a Forma Canônica Produto de Somas (PoS), 
   que organiza a lógica de forma estruturada, com foco nas exclusões. Cada maxtermo é uma proteção contra uma 
@@ -678,7 +678,7 @@ clara e estruturada.
 
 
 
-                              "Forma Canônica Produto de Somas (PoS)"
+                               "Forma Canônica Produto de Somas (PoS)"
 
  A Forma Canônica Produto de Somas (PoS), ou simplesmente produto de maxtermos, é uma maneira padronizada de 
 representar funções lógicas booleanas. Se a SoP se preocupa em listar quando a função deve ser verdadeira, a PoS 
@@ -699,7 +699,7 @@ barreiras para cada um. O resultado final é um circuito lógico seguro e confi�
 todas as situações indesejadas estão evitadas. Essa forma canônica é uma ferramenta poderosa tanto para quem está 
 aprendendo lógica digital quanto para quem projeta circuitos complexos, pois oferece uma forma clara, organizada e 
 universal de descrever a lógica. Em vez de um raciocínio solto, você segue um modelo estruturado, fácil de 
-verificar e compartilhar — como se estivesse montando um diagrama com regras bem definidas.
+verificar e compartilhar, como se estivesse montando um diagrama com regras bem definidas.
 
  * A estrutura de uma expressão PoS:
 
@@ -1025,7 +1025,7 @@ clareza, controle e mais liberdade para pensar, criar e até simplificar funçõ
 
 
 
-                                    "Conversão entre as  Formas"
+                                     "Conversão entre as  Formas"
 
  Imagine que temos dois jeitos diferentes de contar como uma função booleana se comporta: um dizendo quando ela 
 vale 1 (SoP) e o outro dizendo quando ela vale 0 (PoS). Ambos falam da mesma função, só que sob ângulos diferentes,  
@@ -1084,7 +1084,7 @@ fazendo.
 
 
 
-                               "Forma Canônica vs Forma Não-Canônica"
+                                  "Forma Canônica vs Forma Não-Canônica"
 
  Quando falamos em formas canônicas, estamos nos referindo a uma maneira padronizada e organizada de escrever 
 funções booleanas. É como seguir uma receita exata: sabemos os ingredientes, a ordem e a quantidade certa para que 
@@ -1195,7 +1195,7 @@ lógica. E uma vez que você entende esse DNA, pode manipular e moldar a funçã
 
 
 
-                       "Conclusão Sobre as Formas Canônicas de Expressões Lógicas"
+                         "Conclusão Sobre as Formas Canônicas de Expressões Lógicas"
 
  Chegar até aqui é como ter explorado os bastidores da lógica booleana com uma lanterna bem potente. As formas 
 canônicas não são apenas ferramentas técnicas, elas são pontes que conectam clareza, estrutura e confiança dentro 
