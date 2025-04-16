@@ -107,53 +107,92 @@ mais rápido. E é isso que torna essa jornada tão fascinante: ela combina raci
 
                                  "Construção das Portas Básicas com NAND"
 
-Quando falamos que a porta NAND é universal, abrimos uma porta (sem trocadilhos!) para um novo tipo de raciocínio: como montar tudo usando só ela? Essa etapa do nosso estudo é como entrar em uma oficina de montagem de circuitos onde, por uma limitação criativa (ou estratégica), só temos um tipo de ferramenta — a porta NAND. E o desafio agora é aprender a usá-la de diferentes maneiras para simular as ferramentas que não temos mais: a AND, a OR, a NOT, e tantas outras. É quase como aprender a cozinhar uma variedade de pratos usando apenas um ingrediente base, mas mudando a forma de preparo.
+ Quando falamos que a porta NAND é universal, abrimos uma porta (sem trocadilhos!) para um novo tipo de raciocínio: 
+como montar tudo usando só ela? Essa etapa do nosso estudo é como entrar em uma oficina de montagem de circuitos 
+onde, por uma limitação criativa (ou estratégica), só temos um tipo de ferramenta — a porta NAND. E o desafio agora 
+é aprender a usá-la de diferentes maneiras para simular as ferramentas que não temos mais: a AND, a OR, a NOT, e 
+tantas outras. É quase como aprender a cozinhar uma variedade de pratos usando apenas um ingrediente base, mas 
+mudando a forma de preparo.
 
-Essa etapa é encantadora porque revela a engenhosidade por trás da construção dos circuitos. Cada porta que antes parecia uma peça única e isolada agora pode ser "imitada" com uma nova combinação da NAND. A beleza aqui está na transformação, ver como uma mesma ferramenta pode, com jeitinho, assumir várias funções. 
+ Essa etapa é encantadora porque revela a engenhosidade por trás da construção dos circuitos. Cada porta que antes 
+parecia uma peça única e isolada agora pode ser "imitada" com uma nova combinação da NAND. A beleza aqui está na 
+transformação, ver como uma mesma ferramenta pode, com jeitinho, assumir várias funções. 
 
-E é isso que vamos explorar agora: como construir as portas básicas NOT, AND e OR usando exclusivamente portas NAND.
+ E é isso que vamos explorar agora: como construir as portas básicas NOT, AND e OR usando exclusivamente portas 
+NAND.
 
 
  * NOT com NAND:
 
                                         Expressão: ¬(A · A)
 
-   Para construir uma porta NOT usando apenas NAND, precisamos explorar um detalhe interessante do comportamento da NAND: quando aplicamos a mesma entrada nas duas portas, o resultado é uma inversão. Isso acontece porque a NAND realiza a operação "¬(A · A)", e como "A · A" é igual a A, o resultado é simplesmente "¬A". É como dizer: se você der o mesmo argumento duas vezes e aplicar a regra da negação sobre o resultado, acaba invertendo o valor.
+   Para construir uma porta NOT usando apenas NAND, precisamos explorar um detalhe interessante do comportamento da 
+  NAND: quando aplicamos a mesma entrada nas duas portas, o resultado é uma inversão. Isso acontece porque a NAND 
+  realiza a operação "¬(A · A)", e como "A · A" é igual a A, o resultado é simplesmente "¬A". É como dizer: se você 
+  der o mesmo argumento duas vezes e aplicar a regra da negação sobre o resultado, acaba invertendo o valor.
 
-Vamos imaginar isso com uma analogia do dia a dia: pense que você tem um interruptor de luz com dois botões, mas ambos ligados ao mesmo fio. Toda vez que você aperta os dois ao mesmo tempo, em vez de somar suas ações, o sistema faz exatamente o oposto, se a luz estava acesa, apaga; se estava apagada, acende. Essa é a lógica da NOT com NAND. Um só tipo de botão, mas conectado de maneira astuta.
+   Vamos imaginar isso com uma analogia do dia a dia: pense que você tem um interruptor de luz com dois botões, mas 
+  ambos ligados ao mesmo fio. Toda vez que você aperta os dois ao mesmo tempo, em vez de somar suas ações, o 
+  sistema faz exatamente o oposto, se a luz estava acesa, apaga; se estava apagada, acende. Essa é a lógica da NOT 
+  com NAND. Um só tipo de botão, mas conectado de maneira astuta.
 
-Na prática, isso significa que para inverter um valor lógico com NAND, você não precisa de nada além dela mesma: basta conectar a entrada duas vezes no mesmo lugar. Simples, elegante e genial. Essa é a base de tudo, e, como veremos, também o primeiro degrau para construir portas mais complexas.
+   Na prática, isso significa que para inverter um valor lógico com NAND, você não precisa de nada além dela mesma: 
+  basta conectar a entrada duas vezes no mesmo lugar. Simples, elegante e genial. Essa é a base de tudo, e, como 
+  veremos, também o primeiro degrau para construir portas mais complexas.
 
 
  * AND com NAND:
 
                                        Expressão: ¬(¬(A · B))
 
-   Agora que já sabemos como inverter um sinal, podemos construir uma AND combinando duas NAND. A lógica aqui é bem interessante: primeiro, usamos uma NAND normal para gerar "¬(A · B)". Depois, aplicamos a técnica da NOT (que vimos antes) sobre esse resultado, conectando a saída de volta em uma segunda NAND com ela mesma. O efeito final? Dupla negação, e como "¬(¬X)" é igual a X, recuperamos o valor original de "A · B".
+   Agora que já sabemos como inverter um sinal, podemos construir uma AND combinando duas NAND. A lógica aqui é bem 
+  interessante: primeiro, usamos uma NAND normal para gerar "¬(A · B)". Depois, aplicamos a técnica da NOT (que 
+  vimos antes) sobre esse resultado, conectando a saída de volta em uma segunda NAND com ela mesma. O efeito final? 
+  Dupla negação, e como "¬(¬X)" é igual a X, recuperamos o valor original de "A · B".
 
-É como pegar um documento confidencial e aplicar dois carimbos de censura. No primeiro, você esconde o conteúdo. No segundo, você remove essa censura — e tem o texto de volta. Ou, em termos mais visuais: imagine que você fecha uma caixa, depois abre outra igual e encontra exatamente o que estava escondido. A negação da negação traz de volta o conteúdo inicial.
+   É como pegar um documento confidencial e aplicar dois carimbos de censura. No primeiro, você esconde o conteúdo. 
+  No segundo, você remove essa censura — e tem o texto de volta. Ou, em termos mais visuais: imagine que você fecha 
+  uma caixa, depois abre outra igual e encontra exatamente o que estava escondido. A negação da negação traz de 
+  volta o conteúdo inicial.
 
-Então, para montar uma porta AND com NAND, usamos dois blocos simples: primeiro, um NAND comum, depois um NOT feito com NAND. Um total de duas etapas e três portas para chegar ao comportamento de uma AND pura. A beleza está em perceber como, com um pouco de estratégia, voltamos ao comportamento original mesmo sem ter usado nenhuma AND explícita.
+   Então, para montar uma porta AND com NAND, usamos dois blocos simples: primeiro, um NAND comum, depois um NOT 
+  feito com NAND. Um total de duas etapas e três portas para chegar ao comportamento de uma AND pura. A beleza está 
+  em perceber como, com um pouco de estratégia, voltamos ao comportamento original mesmo sem ter usado nenhuma AND 
+  explícita.
 
                   
  * OR com NAND:
 
                                     Expressão: A + B = ¬(¬A · ¬B)
 
-   A OR é um pouquinho mais criativa de montar, porque precisamos de três passos. Primeiro, usamos duas portas NAND para inverter A e B separadamente, exatamente como aprendemos na implementação da NOT. Ou seja, obtemos "¬A" e "¬B". Depois, usamos uma terceira NAND para combinar esses dois resultados, o que nos dá "¬(¬A · ¬B)", que, pelas Leis de De Morgan, é exatamente o valor de "A + B". Parece mágica, mas é pura lógica.
+   A OR é um pouquinho mais criativa de montar, porque precisamos de três passos. Primeiro, usamos duas portas NAND 
+  para inverter A e B separadamente, exatamente como aprendemos na implementação da NOT. Ou seja, obtemos "¬A" e 
+  "¬B". Depois, usamos uma terceira NAND para combinar esses dois resultados, o que nos dá "¬(¬A · ¬B)", que, pelas 
+  Leis de De Morgan, é exatamente o valor de "A + B". Parece mágica, mas é pura lógica.
 
-Para facilitar, pense em dois botões novamente. Cada botão representa uma condição: “não A” e “não B”. Se ambos estiverem desligados, o sistema responde com “ligado”, porque ele inverte novamente a combinação. É como se tivéssemos dois espelhos seguidos, o primeiro inverte sua imagem, o segundo inverte de novo. E você se vê como realmente é. A OR com NAND segue essa lógica espelhada.
+   Para facilitar, pense em dois botões novamente. Cada botão representa uma condição: “não A” e “não B”. Se ambos 
+  estiverem desligados, o sistema responde com “ligado”, porque ele inverte novamente a combinação. É como se 
+  tivéssemos dois espelhos seguidos, o primeiro inverte sua imagem, o segundo inverte de novo. E você se vê como 
+  realmente é. A OR com NAND segue essa lógica espelhada.
 
-Essa construção reforça uma das ideias mais belas da lógica: a reutilização criativa. Com apenas um tipo de ferramenta (a NAND), criamos uma porta que, à primeira vista, parece muito distante dela. Três NAND, colocadas com inteligência, recriam o comportamento exato de uma OR. Uma demonstração clara de que a universalidade não é só uma ideia teórica, ela é prática, concreta e elegante.
+   Essa construção reforça uma das ideias mais belas da lógica: a reutilização criativa. Com apenas um tipo de 
+  ferramenta (a NAND), criamos uma porta que, à primeira vista, parece muito distante dela. Três NAND, colocadas 
+  com inteligência, recriam o comportamento exato de uma OR. Uma demonstração clara de que a universalidade não é 
+  só uma ideia teórica, ela é prática, concreta e elegante.
+
+ Em suma, ao explorar essas implementações, fica claro o quão poderosa é a ideia de universalidade aplicada à 
+prática. Com apenas um único tipo de porta, conseguimos montar todo o alicerce da lógica digital. E isso não é 
+apenas engenhoso, é também um exercício fantástico de pensamento criativo e estruturado. É como brincar com um cubo 
+mágico: uma única peça com movimentos limitados, mas capaz de alcançar uma enorme variedade de estados.
+
+ Mais do que aprender a montar portas com NAND, o que ganhamos aqui é uma habilidade de ver padrões, encontrar 
+soluções e criar a partir de restrições. Esse tipo de raciocínio não é útil apenas na eletrônica ou na lógica, mas 
+também no design de software, na resolução de problemas e na construção de sistemas mais eficientes. Saber que 
+"menos pode ser mais", especialmente no mundo da computação, é uma lição que se estende muito além dos circuitos.
 
 
- Em suma, ao explorar essas implementações, fica claro o quão poderosa é a ideia de universalidade aplicada à prática. Com apenas um único tipo de porta, conseguimos montar todo o alicerce da lógica digital. E isso não é apenas engenhoso, é também um exercício fantástico de pensamento criativo e estruturado. É como brincar com um cubo mágico: uma única peça com movimentos limitados, mas capaz de alcançar uma enorme variedade de estados.
 
-Mais do que aprender a montar portas com NAND, o que ganhamos aqui é uma habilidade de ver padrões, encontrar soluções e criar a partir de restrições. Esse tipo de raciocínio não é útil apenas na eletrônica ou na lógica, mas também no design de software, na resolução de problemas e na construção de sistemas mais eficientes. Saber que "menos pode ser mais", especialmente no mundo da computação, é uma lição que se estende muito além dos circuitos.
-
-
-
-                              "Construção das Portas Básicas com NOR"
+                                "Construção das Portas Básicas com NOR"
 
  Assim como fizemos com a NAND, agora vamos mergulhar na lógica por trás da porta NOR, outra estrela da universalidade. A NOR também tem o superpoder de ser capaz de formar qualquer outra porta lógica — o que significa que ela pode ser a única “peça” necessária para montar um sistema lógico completo. A ideia é exatamente a mesma: combinar instâncias de uma única porta para simular o comportamento de outras.
 
