@@ -195,7 +195,7 @@ também no design de software, na resolução de problemas e na construção de 
                                 "Construção das Portas Básicas com NOR"
 
  Assim como fizemos com a NAND, agora vamos mergulhar na lógica por trás da porta NOR, outra estrela da 
-universalidade. A NOR também tem o superpoder de ser capaz de formar qualquer outra porta lógica — o que significa 
+universalidade. A NOR também tem o superpoder de ser capaz de formar qualquer outra porta lógica, o que significa 
 que ela pode ser a única “peça” necessária para montar um sistema lógico completo. A ideia é exatamente a mesma: 
 combinar instâncias de uma única porta para simular o comportamento de outras.
 
@@ -275,7 +275,7 @@ confiança, técnica e criatividade.
 
 
 
-                                "Comparação Entre as Portas NAND e NOR"
+                                 "Comparação Entre as Portas NAND e NOR"
 
  Embora as portas NAND e NOR sejam ambas universalmente funcionais, ou seja, capazes de formar qualquer outra porta 
 lógica, na prática existe uma diferença importante: a eficiência com que isso é feito. A NAND costuma levar 
@@ -299,7 +299,7 @@ dependendo da tarefa que você precisa realizar.
 
 
 
-                           "Aplicações Práticas e Eficiência das Portas Universais"
+                          "Aplicações Práticas e Eficiência das Portas Universais"
 
  À medida que avançamos na compreensão das portas lógicas universais, começamos a enxergar que elas não são apenas 
 um conceito teórico fascinante , elas são peças fundamentais no mundo real da engenharia e da computação. Saber que 
