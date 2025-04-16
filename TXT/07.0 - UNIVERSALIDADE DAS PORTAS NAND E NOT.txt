@@ -1,4 +1,4 @@
-                                UNIVERSALIDADE DAS PORTAS NAND E NOR
+                                   UNIVERSALIDADE DAS PORTAS NAND E NOR
 
 
  Imagine que você está montando uma receita de bolo. Há vários ingredientes clássicos (farinha, ovos, leite, 
@@ -31,13 +31,28 @@ fundamental.
 
 
 
-                                  "O que torna uma porta universal"
+                                     "O que torna uma porta universal"
 
-Quando dizemos que uma porta lógica é universal, estamos afirmando que ela tem a incrível capacidade de reproduzir qualquer outra operação lógica a partir de combinações de si mesma. Ou seja, ela sozinha consegue simular uma NOT, uma AND, uma OR, e qualquer circuito que dependa dessas operações básicas. Pense em um jogo de tabuleiro onde, ao invés de precisar de várias peças diferentes para cada tipo de movimento, você tem uma única peça “coringa” que, dependendo de como é posicionada, consegue assumir qualquer função. Essa é a magia da universalidade: a simplicidade que gera complexidade.
+ Quando dizemos que uma porta lógica é universal, estamos afirmando que ela tem a incrível capacidade de reproduzir 
+qualquer outra operação lógica a partir de combinações de si mesma. Ou seja, ela sozinha consegue simular uma NOT, 
+uma AND, uma OR, e qualquer circuito que dependa dessas operações básicas. Pense em um jogo de tabuleiro onde, ao 
+invés de precisar de várias peças diferentes para cada tipo de movimento, você tem uma única peça “coringa” que, 
+dependendo de como é posicionada, consegue assumir qualquer função. Essa é a magia da universalidade: a 
+simplicidade que gera complexidade.
 
-O critério central para que uma porta seja considerada universal é a sua capacidade de formar um conjunto funcionalmente completo, ou seja, conseguir reproduzir as operações fundamentais da lógica booleana, especialmente NOT, AND e OR. É como ter os três ingredientes básicos de qualquer receita: se você consegue preparar esses elementos com um único tipo de ingrediente (como preparar um molho completo usando só tomate, em várias formas e técnicas), então você tem uma cozinha universal. No caso das portas lógicas, a cozinha é o circuito digital, e os ingredientes são as operações fundamentais.
+ O critério central para que uma porta seja considerada universal é a sua capacidade de formar um conjunto 
+funcionalmente completo, ou seja, conseguir reproduzir as operações fundamentais da lógica booleana, especialmente 
+NOT, AND e OR. É como ter os três ingredientes básicos de qualquer receita: se você consegue preparar esses 
+elementos com um único tipo de ingrediente (como preparar um molho completo usando só tomate, em várias formas e 
+técnicas), então você tem uma cozinha universal. No caso das portas lógicas, a cozinha é o circuito digital, e os 
+ingredientes são as operações fundamentais.
 
-Essa propriedade é valiosa não só do ponto de vista teórico, mas também prático. Ao usar uma única porta para construir circuitos inteiros, ganhamos simplicidade no projeto, facilidade na fabricação de chips e até economia de energia em alguns contextos. Mas antes de explorarmos essas aplicações mais a fundo, é essencial compreender bem essa base conceitual. Saber o que torna uma porta universal é como entender as regras básicas de um jogo antes de jogar: dá mais clareza e segurança para qualquer jogada que venha depois. E nas próximas aulas, vamos ver como as portas NAND e NOR brilham exatamente por essa característica.
+ Essa propriedade é valiosa não só do ponto de vista teórico, mas também prático. Ao usar uma única porta para 
+construir circuitos inteiros, ganhamos simplicidade no projeto, facilidade na fabricação de chips e até economia de 
+energia em alguns contextos. Mas antes de explorarmos essas aplicações mais a fundo, é essencial compreender bem 
+essa base conceitual. Saber o que torna uma porta universal é como entender as regras básicas de um jogo antes de 
+jogar: dá mais clareza e segurança para qualquer jogada que venha depois. E nas próximas aulas, vamos ver como as 
+portas NAND e NOR brilham exatamente por essa característica.
 
 
 
