@@ -353,9 +353,21 @@ competência real.
 
                          "Conclusão Sobre a Universalidade das Portas NAND e NOR"
 
- Encerrar o estudo da universalidade das portas NAND e NOR é como fechar um livro cheio de possibilidades, onde percebemos que a simplicidade pode ser incrivelmente poderosa. O conceito de universalidade nos mostra que não é necessário um arsenal de ferramentas para construir grandes soluções, basta compreender profundamente um único elemento e aprender a manipulá-lo com criatividade e lógica. NAND e NOR são mais do que portas lógicas: são alicerces que, sozinhos, sustentam o edifício inteiro da computação digital.
+ Encerrar o estudo da universalidade das portas NAND e NOR é como fechar um livro cheio de possibilidades, onde 
+percebemos que a simplicidade pode ser incrivelmente poderosa. O conceito de universalidade nos mostra que não é 
+necessário um arsenal de ferramentas para construir grandes soluções, basta compreender profundamente um único 
+elemento e aprender a manipulá-lo com criatividade e lógica. NAND e NOR são mais do que portas lógicas: são 
+alicerces que, sozinhos, sustentam o edifício inteiro da computação digital.
 
-Durante essa jornada, vimos que universalidade não é apenas uma ideia teórica elegante, ela carrega consigo um valor prático, educativo e conceitual imenso. É um convite a olhar para os sistemas digitais com um olhar mais essencialista: o que posso fazer com menos? Como posso transformar o básico em algo completo? Essas perguntas, provocadas pela universalidade, ampliam nossa visão não só da eletrônica, mas também da forma como raciocinamos, projetamos e solucionamos problemas.
+ Durante essa jornada, vimos que universalidade não é apenas uma ideia teórica elegante, ela carrega consigo um 
+valor prático, educativo e conceitual imenso. É um convite a olhar para os sistemas digitais com um olhar mais 
+essencialista: o que posso fazer com menos? Como posso transformar o básico em algo completo? Essas perguntas, 
+provocadas pela universalidade, ampliam nossa visão não só da eletrônica, mas também da forma como raciocinamos, 
+projetamos e solucionamos problemas.
 
-Ao entender essa base sólida, criamos um ponto de partida seguro para tudo o que vem depois: circuitos mais complexos, arquiteturas de computadores, sistemas embarcados e muito mais. A universalidade nos dá confiança para construir a partir do zero, sabendo que, com o conhecimento certo, mesmo os blocos mais simples podem dar origem às ideias mais sofisticadas. E com isso, não apenas concluímos um tema, damos o primeiro passo para dominar o universo da lógica digital com clareza e propósito.
+ Ao entender essa base sólida, criamos um ponto de partida seguro para tudo o que vem depois: circuitos mais 
+complexos, arquiteturas de computadores, sistemas embarcados e muito mais. A universalidade nos dá confiança para 
+construir a partir do zero, sabendo que, com o conhecimento certo, mesmo os blocos mais simples podem dar origem às 
+ideias mais sofisticadas. E com isso, não apenas concluímos um tema, damos o primeiro passo para dominar o universo 
+da lógica digital com clareza e propósito.
  
