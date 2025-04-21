@@ -128,4 +128,11 @@ Agora que sabemos a importância e a função dos agrupamentos, vamos mergulhar 
    E sim, é perfeitamente possível (e comum!) que um mesmo 1 participe de mais de um grupo. Isso não é erro — é estratégia. Esse recurso é usado quando queremos garantir que todos os 1s estejam cobertos com o menor número de grupos possível. Com a prática, seus olhos vão se acostumar a identificar essas possibilidades automaticamente, como quem olha um quebra-cabeça e já vê onde as peças grandes encaixam antes das pequenas.
 
 
+Em suma, os agrupamentos são, sem dúvida, a alma do Mapa de Karnaugh. São eles que permitem transformar uma função booleana cheia de termos complexos em algo muito mais limpo e eficiente. E o mais bonito de tudo é que essa simplificação não exige cálculos complicados ou manipulações longas: tudo acontece diante dos seus olhos, em um processo que lembra mais um jogo de observação do que um desafio matemático.
+
+Ao dominar os agrupamentos, você desenvolve um novo tipo de raciocínio — um olhar lógico e estratégico, que começa a enxergar padrões, possibilidades e soluções com muito mais clareza. Eles são o elo entre a tabela-verdade e o circuito final, entre a análise e a construção. E como todo bom raciocínio lógico, eles trazem consigo algo raro e precioso: a beleza da simplicidade. Agora que você entende como os agrupamentos funcionam, está pronto para explorá-los na prática e ver a mágica acontecer.
+
+
+
+
 
