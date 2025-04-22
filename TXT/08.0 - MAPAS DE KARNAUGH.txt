@@ -43,14 +43,16 @@ O que torna o K-Map especial é justamente a forma como ele apresenta visualment
 
  A partir de agora, vamos ver quais são os componentes fundamentais da estrutura de um Mapa de Karnaugh, para que você possa dominar esse tabuleiro com confiança.
 
-Variáveis
-Tudo começa com elas: as variáveis booleanas. Cada uma representa uma entrada lógica que pode assumir apenas dois valores possíveis — 0 ou 1, como um interruptor que só pode estar ligado ou desligado. Em um circuito lógico, essas variáveis representam os sinais que entram na função, e o Mapa de Karnaugh é justamente uma forma visual de organizar todas as combinações possíveis desses sinais.
+ * Variáveis:
+
+   Tudo começa com elas: as variáveis booleanas. Cada uma representa uma entrada lógica que pode assumir apenas dois valores possíveis — 0 ou 1, como um interruptor que só pode estar ligado ou desligado. Em um circuito lógico, essas variáveis representam os sinais que entram na função, e o Mapa de Karnaugh é justamente uma forma visual de organizar todas as combinações possíveis desses sinais.
 
 Podemos pensar nas variáveis como ingredientes de uma receita. Se tivermos dois ingredientes (como ovos e leite), podemos fazer combinações como: nenhum dos dois, só ovos, só leite, ou os dois juntos. Com três ingredientes, as possibilidades aumentam ainda mais. E no mapa, cada combinação desses "ingredientes" ocupa uma célula específica. Entender o papel das variáveis é o primeiro passo para compreender como o mapa é estruturado — cada variável adicionada dobra o número de possibilidades no tabuleiro.
 
 
-Tabela-Verdade
-Antes que possamos montar um Mapa de Karnaugh, precisamos conhecer o conteúdo que será colocado nele, e é aí que entra a tabela-verdade. Ela é como uma lista de todas as combinações possíveis das variáveis e os resultados que cada uma gera na função. Em outras palavras, é como um roteiro que mostra exatamente o que acontece em cada cena de um filme — onde cada linha da tabela representa um cenário diferente de valores de entrada.
+ * Tabela-Verdade
+
+   Antes que possamos montar um Mapa de Karnaugh, precisamos conhecer o conteúdo que será colocado nele, e é aí que entra a tabela-verdade. Ela é como uma lista de todas as combinações possíveis das variáveis e os resultados que cada uma gera na função. Em outras palavras, é como um roteiro que mostra exatamente o que acontece em cada cena de um filme — onde cada linha da tabela representa um cenário diferente de valores de entrada.
 
 Se a função for F(A, B) com duas variáveis, por exemplo, a tabela-verdade terá quatro linhas: 00, 01, 10 e 11. Em cada linha, analisamos se aquela combinação de A e B produz um resultado 0 ou 1. É com base nesses resultados que vamos preencher o Mapa de Karnaugh mais adiante. A tabela-verdade é como a legenda do mapa: sem ela, não saberíamos onde colocar os marcos importantes. Portanto, compreender essa base nos dá segurança para construir o restante da estrutura com clareza.
 
