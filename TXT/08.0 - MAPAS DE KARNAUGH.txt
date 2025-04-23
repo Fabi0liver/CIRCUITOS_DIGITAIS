@@ -108,7 +108,7 @@ A partir dessa fundação, abrimos caminho para aprofundamentos mais práticos e
 
                              "Mapa de Karnaugh com Apenas Duas Variáveis"
 
- Agora que você já tem uma base sólida sobre o Mapa de Karnaugh, vamos iniciar nossa jornada prática começando pelo caso mais simples — o mapa com apenas duas variáveis. Essa é a porta de entrada perfeita para entender como funciona, na prática, a organização dos valores e como podemos aplicar os princípios da simplificação. Com apenas 4 células, esse modelo pequeno funciona como um tabuleiro de treino, ideal para enxergar a lógica do método com clareza e sem complicações.
+ Agora que você já tem uma base sólida sobre o Mapa de Karnaugh, vamos iniciar nossa jornada prática começando pelo caso mais simples, o mapa com apenas duas variáveis. Essa é a porta de entrada perfeita para entender como funciona, na prática, a organização dos valores e como podemos aplicar os princípios da simplificação. Com apenas 4 células, esse modelo pequeno funciona como um tabuleiro de treino, ideal para enxergar a lógica do método com clareza e sem complicações.
 
 Podemos pensar nesse mapa como um mini tabuleiro de jogo da velha, onde cada casa representa uma combinação possível entre duas variáveis: A e B. Cada uma dessas variáveis pode assumir dois valores: 0 ou 1. Juntas, elas formam quatro cenários possíveis (2² = 4 células), que são organizados visualmente para facilitar a leitura e identificação de padrões. Mesmo sendo o menor tipo de mapa, ele já nos permite praticar a lógica dos agrupamentos e entender como os termos de uma função são distribuídos. 
 
@@ -116,16 +116,58 @@ A seguir, vamos explorar detalhadamente os componentes que estruturam esse mapa,
 
  * Tabela-verdade:
 
-   A tabela-verdade com duas variáveis, A e B, apresenta todas as combinações binárias possíveis entre essas duas entradas. Ela serve como o ponto de partida para construir o mapa de Karnaugh. Aqui está o formato básico:
+   A tabela-verdade com duas variáveis, A e B, apresenta todas as combinações binárias possíveis entre essas duas entradas. Ela serve como o ponto de partida para construir o mapa de Karnaugh. 
 
-          A | B | S
-         ------------
-          0 | 0 | m0
-          0 | 1 | m1
-          1 | 0 | m2
-          1 | 1 | m3
+   Aqui está o formato básico:
+
+                                A | B | S
+                               ------------
+                                0 | 0 | m0
+                                0 | 1 | m1
+                                1 | 0 | m2
+                                1 | 1 | m3
 
    Cada linha representa uma situação específica em que A e B assumem certos valores. O “S” representa a saída da função para essa combinação, e os termos m0, m1, m2 e m3 indicam os mintermos correspondentes. É como uma agenda onde cada entrada (combinação de A e B) tem um resultado anotado.
+
+
+ * Usando as variáveis como indicação das células:
+
+   Agora vamos montar o nosso “tabuleiro” de Karnaugh com base direta nas variáveis. Observe que colocamos A nas linhas e B nas colunas, e usamos seus valores diretamente (sem inverter a ordem ainda). 
+
+   Assim:
+
+                                 B̅  |  B
+                               |----|----|
+                             A̅ | m0 | m1 |
+                             --|----|----|
+                             A | m2 | m3 |
+                               |----|----|
+
+   Essa disposição é bem intuitiva e ajuda a visualizar a transição direta entre a tabela-verdade e o mapa. Cada célula aqui contém o valor de saída correspondente àquela combinação específica. A vantagem visual é clara: podemos identificar rapidamente onde estão os 1s ou 0s da função e planejar os agrupamentos.
+
+
+ * Usando o código Gray como indicação das células:
+
+   Mas o formato mais utilizado e fiel à lógica do mapa de Karnaugh é o que usa o código Gray para organizar as colunas. A ideia do código Gray é simples: alterar apenas um bit por vez entre uma coluna e outra, para garantir a adjacência lógica. 
+
+   Veja como isso fica:
+
+                                 ---B---
+                                 0     1
+                           |   |----|----|
+                           | 0 | m0 | m1 |
+                           A   |----|----|
+                           | 1 | m2 | m3 |
+                           |   |----|----|
+
+   Pode parecer um pequeno detalhe, mas essa organização faz toda a diferença nos agrupamentos. Ao garantir que a transição entre colunas (ou linhas) altera apenas uma variável, o mapa se torna mais fiel à ideia de proximidade lógica entre as combinações. É como organizar livros por assunto ao invés de cor, ajuda mais na hora de encontrar conexões entre os conteúdos.
+
+
+Em suma, o mapa de Karnaugh com duas variáveis é um excelente ponto de partida para quem está aprendendo. Ele é simples, visual, e nos permite aplicar os conceitos de forma muito direta. Com apenas quatro combinações possíveis, conseguimos praticar o raciocínio necessário para identificar padrões e simplificar expressões, tudo isso de maneira intuitiva e clara.
+
+Mais do que decorar fórmulas ou tabelas, o que buscamos aqui é compreender o pensamento lógico que guia os agrupamentos e a simplificação. Ao dominar esse primeiro modelo, você estará totalmente preparado para expandir esse conhecimento para mapas com 3, 4 ou até mais variáveis, e verá que a lógica permanece a mesma, apenas ganha novas camadas de desafio.
+
+
 
 
 
