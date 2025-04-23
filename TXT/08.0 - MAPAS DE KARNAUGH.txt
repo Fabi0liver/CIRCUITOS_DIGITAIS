@@ -106,6 +106,35 @@ A partir dessa fundação, abrimos caminho para aprofundamentos mais práticos e
 
 
 
+                             "Mapa de Karnaugh com Apenas Duas Variáveis"
+
+ Agora que você já tem uma base sólida sobre o Mapa de Karnaugh, vamos iniciar nossa jornada prática começando pelo caso mais simples — o mapa com apenas duas variáveis. Essa é a porta de entrada perfeita para entender como funciona, na prática, a organização dos valores e como podemos aplicar os princípios da simplificação. Com apenas 4 células, esse modelo pequeno funciona como um tabuleiro de treino, ideal para enxergar a lógica do método com clareza e sem complicações.
+
+Podemos pensar nesse mapa como um mini tabuleiro de jogo da velha, onde cada casa representa uma combinação possível entre duas variáveis: A e B. Cada uma dessas variáveis pode assumir dois valores: 0 ou 1. Juntas, elas formam quatro cenários possíveis (2² = 4 células), que são organizados visualmente para facilitar a leitura e identificação de padrões. Mesmo sendo o menor tipo de mapa, ele já nos permite praticar a lógica dos agrupamentos e entender como os termos de uma função são distribuídos. 
+
+A seguir, vamos explorar detalhadamente os componentes que estruturam esse mapa, passo a passo.
+
+ * Tabela-verdade:
+
+   A tabela-verdade com duas variáveis, A e B, apresenta todas as combinações binárias possíveis entre essas duas entradas. Ela serve como o ponto de partida para construir o mapa de Karnaugh. Aqui está o formato básico:
+
+          A | B | S
+         ------------
+          0 | 0 | m0
+          0 | 1 | m1
+          1 | 0 | m2
+          1 | 1 | m3
+
+   Cada linha representa uma situação específica em que A e B assumem certos valores. O “S” representa a saída da função para essa combinação, e os termos m0, m1, m2 e m3 indicam os mintermos correspondentes. É como uma agenda onde cada entrada (combinação de A e B) tem um resultado anotado.
+
+
+
+
+
+
+
+
+
                                       "Agrupamento no Mapa de Karnaugh"
 
  Os agrupamentos no Mapa de Karnaugh são conjuntos de células adjacentes que contêm o valor 1 (ou, futuramente, até os "X", que representam condições irrelevantes). O objetivo desses agrupamentos é reunir partes da função que compartilham características em comum, ou seja, que mudam pouquíssimo entre si. E por que isso é importante? Porque quanto mais coisas iguais conseguimos agrupar, menos variáveis precisamos manter na nossa expressão final, resultando em um circuito mais simples, mais barato e mais eficiente. É como reorganizar uma lista de tarefas para eliminar repetições, você não precisa escrever “beber água” cinco vezes ao longo do dia, pode resumir como “manter-se hidratado durante o dia”.
