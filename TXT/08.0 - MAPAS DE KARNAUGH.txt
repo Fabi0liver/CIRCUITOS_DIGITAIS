@@ -230,17 +230,89 @@ O mapa com 3 variáveis é uma espécie de ponto de transição: ele ainda é pe
 
 
 
+                                 "Mapa de Karnaugh com 4 Variáveis"
+
+ Agora que você já conhece bem os fundamentos dos Mapas de Karnaugh e compreende como os agrupamentos funcionam, chegou o momento de explorarmos uma versão mais ampla e poderosa dessa ferramenta: o Mapa de Karnaugh com 4 variáveis. Ao introduzirmos uma variável a mais em relação ao mapa de 3 variáveis, dobramos a quantidade de células, passando de 8 para 16 posições. Isso pode parecer um pouco intimidador no início, mas na verdade, essa estrutura mais ampla nos dá ainda mais liberdade para identificar padrões e realizar simplificações elegantes.
+
+ Imagine que você está organizando ingredientes para uma grande receita de família, com muitos sabores e variações. Com 4 variáveis, você pode pensar em cada célula do mapa como um “mini prato” com uma combinação única de ingredientes (valores de A, B, C e D). A missão continua a mesma: descobrir quais combinações entregam o sabor desejado (saída 1) e reunir essas combinações de forma a simplificar a receita geral, reduzindo o número de ingredientes sem perder o resultado. 
+
+Antes de explorarmos como essa nova estrutura funciona, vamos dar uma olhada mais de perto nos componentes desse mapa e como ele se organiza.
+
+ * Tabela Verdade com 4 Variáveis:
+
+   Quando trabalhamos com 4 variáveis (A, B, C e D), o número de combinações possíveis entre elas é 2⁴, ou seja, 16 combinações únicas. Cada uma dessas combinações representa uma linha na tabela-verdade e, ao mesmo tempo, uma posição no mapa de Karnaugh.
+
+
+                                    A | B | C | D |   S
+                                   ----------------------
+                                    0 | 0 | 0 | 0 |  m0
+                                    0 | 0 | 0 | 1 |  m1
+                                    0 | 0 | 1 | 0 |  m2
+                                    0 | 0 | 1 | 1 |  m3
+                                    0 | 1 | 0 | 0 |  m4
+                                    0 | 1 | 0 | 1 |  m5
+                                    0 | 1 | 1 | 0 |  m6
+                                    0 | 1 | 1 | 1 |  m7
+                                    1 | 0 | 0 | 0 |  m8
+                                    1 | 0 | 0 | 1 |  m9
+                                    1 | 0 | 1 | 0 |  m10
+                                    1 | 0 | 1 | 1 |  m11
+                                    1 | 1 | 0 | 0 |  m12
+                                    1 | 1 | 0 | 1 |  m13
+                                    1 | 1 | 1 | 0 |  m14
+                                    1 | 1 | 1 | 1 |  m15
+
+A tabela a mostra todas essas combinações. Cada linha corresponde a um mintermo (m0, m1, m2... até m15), ou seja, uma situação específica em que o valor da saída (S) pode ser 1. Essa tabela é como uma agenda que organiza todas as possibilidades de valores que nossas variáveis podem assumir, um verdadeiro cardápio lógico!
+
+
+ * Usando as Variáveis como Indicação das Células:
+
+   Uma forma bastante comum (e útil) de montar o mapa de 4 variáveis é distribuir as combinações possíveis em uma grade 4x4. Nessa disposição, escolhemos duas variáveis para representarem as linhas (por exemplo, A e B) e as outras duas para as colunas (C e D). O truque aqui é distribuir essas combinações seguindo o código Gray para manter a adjacência correta, como vimos anteriormente.
+
+   Veja como a tabela abaixo se estrutura:
+
+                                          ̅C     |     C
+                                    |-----|-----|-----|-----|
+                                    |  m0 |  m1 |  m3 |  m2 | B̅
+                                  A̅ |-----|-----|-----|-----|---
+                                    |  m4 |  m5 |  m7 |  m6 |
+                                  --|-----|-----|-----|-----| B
+                                    | m12 | m13 | m15 | m14 |
+                                  A |-----|-----|-----|-----|---
+                                    |  m8 | m9  | m11 | m10 | B̅
+                                    |-----|-----|-----|-----|
+                                       D̅  |     D     |  D̅
+
+   Essa representação, apesar de parecer confusa no começo, serve para manter os valores adjacentes logicamente ligados, mesmo quando estão em cantos opostos da matriz. Assim, é possível fazer agrupamentos que “dão a volta”, aproveitando melhor o espaço do mapa para simplificar expressões.
+
+
+ * Usando o Código de Gray como Indicação das Células:
+
+   Para uma visualização ainda mais clara e precisa, usamos o Código de Gray nas linhas e colunas. Esse código tem uma característica muito útil: apenas um bit muda de uma posição para a outra adjacente, o que preserva a lógica de vizinhança entre as células. Assim, podemos formar agrupamentos válidos e consistentes.
+
+   Aqui está como o mapa de Karnaugh de 4 variáveis se organiza usando esse código:
+
+                                         --------CD----------
+                                          00    01    11   10
+                                       |-----|-----|-----|-----|
+                                  | 00 |  m0 |  m1 |  m3 |  m2 |
+                                  |    |-----|-----|-----|-----|
+                                  | 01 |  m4 |  m5 |  m7 |  m6 |
+                                 AB    |-----|-----|-----|-----|
+                                  | 11 | m12 | m13 | m15 | m14 |
+                                  |    |-----|-----|-----|-----|
+                                  | 10 |  m8 | m9  | m11 | m10 | 
+                                       |-----|-----|-----|-----|
+
+   Essa é a estrutura mais padronizada e utilizada para mapas de 4 variáveis, pois garante que todas as células adjacentes visualmente também o sejam logicamente. Com esse layout, podemos explorar todas as estratégias de agrupamento que aprendemos anteriormente: blocos horizontais, verticais, agrupamentos envolventes, e até grupos que cruzam de um lado para o outro do mapa.
+
+ Em suma, chegar ao Mapa de Karnaugh com 4 variáveis é como subir mais um degrau importante na escada da lógica digital. Se antes estávamos lidando com mapas mais simples, agora temos uma estrutura maior, mais rica, e com muito mais possibilidades, o que significa também mais poder de análise e simplificação. Essa expansão para 16 células pode parecer desafiadora no começo, mas com a prática e a visualização correta, ela se torna uma ferramenta extremamente intuitiva. É como ter uma folha maior para desenhar, onde conseguimos enxergar padrões que antes estavam escondidos em meio aos números.
+
+ O mais bonito aqui é perceber que, mesmo com mais variáveis, a essência continua a mesma: encontrar caminhos simples dentro da complexidade. Cada agrupamento bem-feito é uma pequena vitória da clareza sobre o caos, uma maneira elegante de dizer “isso tudo pode ser resumido assim”. Com essa base sólida, você está preparado(a) para explorar expressões cada vez mais completas, e com cada novo mapa que preencher, sua intuição lógica só tende a crescer.
 
 
 
-
-
-
-
-
-
-
-                                      "Agrupamento no Mapa de Karnaugh"
+                                     "Agrupamento no Mapa de Karnaugh"
 
  Os agrupamentos no Mapa de Karnaugh são conjuntos de células adjacentes que contêm o valor 1 (ou, futuramente, até os "X", que representam condições irrelevantes). O objetivo desses agrupamentos é reunir partes da função que compartilham características em comum, ou seja, que mudam pouquíssimo entre si. E por que isso é importante? Porque quanto mais coisas iguais conseguimos agrupar, menos variáveis precisamos manter na nossa expressão final, resultando em um circuito mais simples, mais barato e mais eficiente. É como reorganizar uma lista de tarefas para eliminar repetições, você não precisa escrever “beber água” cinco vezes ao longo do dia, pode resumir como “manter-se hidratado durante o dia”.
 
