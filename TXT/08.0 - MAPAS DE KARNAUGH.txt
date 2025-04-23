@@ -169,7 +169,7 @@ Mais do que decorar fórmulas ou tabelas, o que buscamos aqui é compreender o p
 
 
 
-                                 "Mapa de Karnaugh com 3 Variáveis"
+                                "Mapa de Karnaugh com 3 Variáveis"
 
  Chegamos a um ponto muito interessante do nosso estudo: o Mapa de Karnaugh com 3 variáveis. Aqui, o mapa já começa a mostrar um pouco mais da sua complexidade e ao mesmo tempo da sua beleza. Com três variáveis (que podemos chamar de A, B e C) temos oito combinações possíveis de entradas, o que se traduz em 8 células no mapa (2³ = 8). Essa configuração nos permite exercitar mais ainda o olhar para agrupamentos e padrões, abrindo caminho para simplificações mais inteligentes e robustas.
 
