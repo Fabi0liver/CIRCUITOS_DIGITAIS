@@ -396,13 +396,13 @@ E é essa arte de observar, reconhecer padrões e reorganizar com propósito que
 
    Continuando o exemplo: Para duas variáveis (A e B), temos um mapa de 4 células:
 
-                             ---B---
-                             0     1
-                          ┌───┬───┐
-                      | 0 │  0 │  0 │
-                      A   ├───┼───┤
-                      | 1 │  1 │  0 │
-                          └───┴───┘
+                                 ──B──
+                                 0     1
+                              ┌───┬───┐
+                          | 0 │  0 │  0 │
+                          A   ├───┼───┤
+                          | 1 │  1 │  0 │
+                              └───┴───┘
 
   Observe que os valores 1 (saída verdadeira) estão dispostos em um único ponto, correspondente a A=1 e B=0. Mesmo esse pequeno mapa já nos mostra que não há agrupamentos possíveis — mas o processo visual está pronto e preparado para mapas maiores. Agora, é hora de buscar agrupamentos!
 
