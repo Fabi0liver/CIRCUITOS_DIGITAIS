@@ -390,6 +390,26 @@ Ao dominar os agrupamentos, você desenvolve um novo tipo de raciocínio, um olh
    Com a Tabela-Verdade pronta, temos agora o ponto de partida para a próxima etapa: organizar essas informações no Mapa de Karnaugh. É o momento de transformar esses dados numéricos em uma representação visual.
 
 
+ * Passo 2: Montar o Mapa de Karnaugh:
+
+   Com a Tabela-Verdade em mãos, o próximo passo é preencher o Mapa de Karnaugh com os valores da saída. Cada célula do mapa representa uma linha da Tabela-Verdade, mas organizadas de modo que os valores adjacentes diferem por apenas um bit — o que facilita a visualização de padrões.
+
+   Continuando o exemplo: Para duas variáveis (A e B), temos um mapa de 4 células:
+
+                             ---B---
+                             0     1
+                          ┌───┬───┐
+                      | 0 │  0 │  0 │
+                      A   ├───┼───┤
+                      | 1 │  1 │  0 │
+                          └───┴───┘
+
+  Observe que os valores 1 (saída verdadeira) estão dispostos em um único ponto, correspondente a A=1 e B=0. Mesmo esse pequeno mapa já nos mostra que não há agrupamentos possíveis — mas o processo visual está pronto e preparado para mapas maiores. Agora, é hora de buscar agrupamentos!
+
+
+
+
+
 
 
  
