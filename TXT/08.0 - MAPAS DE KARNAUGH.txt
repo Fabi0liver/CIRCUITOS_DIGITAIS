@@ -374,5 +374,23 @@ Ao dominar os agrupamentos, você desenvolve um novo tipo de raciocínio, um olh
 
  E é justamente esse “ver para entender” que torna o Mapa de Karnaugh tão valioso — e tão amigável. A seguir, vamos explorar passo a passo como conduzir o processo de simplificação, desde a base até a expressão final, de forma clara, lógica e envolvente.
 
+ * Passo 1: Construir a Tabela-Verdade:
+
+   Antes de mais nada, precisamos entender o comportamento lógico completo da função que desejamos simplificar. Isso é feito através da Tabela-Verdade, uma estrutura que relaciona todas as possíveis combinações de entrada com suas respectivas saídas. É como desenhar um mapa completo antes de planejar o trajeto mais curto: precisamos saber onde estão todos os caminhos.
+
+   Exemplo: Imagine uma função com duas variáveis, A e B, e que só é verdadeira (1) quando A for 1 e B for 0. A Tabela-Verdade ficaria assim:
+
+                                A | B | Saída
+                               --------------
+                                0 | 0 |   0
+                                0 | 1 |   0
+                                1 | 0 |   1
+                                1 | 1 |   0
+
+   Com a Tabela-Verdade pronta, temos agora o ponto de partida para a próxima etapa: organizar essas informações no Mapa de Karnaugh. É o momento de transformar esses dados numéricos em uma representação visual.
+
+
+
+
  
 
