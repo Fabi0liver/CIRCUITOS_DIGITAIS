@@ -416,6 +416,19 @@ Ao dominar os agrupamentos, você desenvolve um novo tipo de raciocínio, um olh
   Mesmo quando os agrupamentos são simples ou inexistentes, como neste caso, o processo de análise visual treina o nosso olhar para padrões. Essa habilidade se torna essencial à medida que avançamos para mapas maiores, onde as oportunidades de agrupamento crescem exponencialmente.
 
 
+ * Passo 4: Determinar a Expressão de Cada Grupo:
+
+   Cada agrupamento do mapa representa uma parte da expressão booleana simplificada. A lógica aqui é: quanto maior o grupo, menos variáveis aparecem na expressão. Isso porque dentro do grupo, algumas variáveis mudam de valor e por isso deixam de ser relevantes — como ingredientes que aparecem em várias receitas e, por isso, podem ser comprados em maior quantidade sem preocupação com o detalhe.
+
+   No exemplo: Como o grupo é formado apenas pela célula onde A=1 e B=0, a expressão correspondente será A · B̅ (A E B negado). Não há outras células com valor 1 para considerar.
+
+   Esse passo revela o poder da visualização: ao invés de analisar expressão por expressão, olhamos para regiões do mapa e extraímos delas uma versão mais enxuta do que antes parecia complexo. É como reconhecer atalhos em um mapa da cidade — e seguir direto ao destino.
+
+
+
+
+
+
 
 
 
