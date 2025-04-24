@@ -407,6 +407,13 @@ Ao dominar os agrupamentos, você desenvolve um novo tipo de raciocínio, um olh
   Observe que os valores 1 (saída verdadeira) estão dispostos em um único ponto, correspondente a A=1 e B=0. Mesmo esse pequeno mapa já nos mostra que não há agrupamentos possíveis — mas o processo visual está pronto e preparado para mapas maiores. Agora, é hora de buscar agrupamentos!
 
 
+ * Passo 3: Identificar os Agrupamentos Possíveis:
+
+   Agrupar significa juntar células vizinhas que contenham o valor 1, seguindo algumas regras fundamentais: os grupos devem conter 1, 2, 4, 8, etc. (potências de 2) e devem ser formados por células adjacentes, podendo “dar a volta” nas bordas do mapa. Essa etapa é o coração da simplificação: como um quebra-cabeça, buscamos peças que se encaixem.
+
+   No nosso exemplo: temos apenas um único valor 1 no mapa. Isso significa que não há agrupamento possível, então o grupo será formado por apenas uma célula isolada. Em casos mais complexos, poderíamos formar grupos de 2, 4 ou até 8 células para obter simplificações mais agressivas.
+
+  Mesmo quando os agrupamentos são simples ou inexistentes, como neste caso, o processo de análise visual treina o nosso olhar para padrões. Essa habilidade se torna essencial à medida que avançamos para mapas maiores, onde as oportunidades de agrupamento crescem exponencialmente.
 
 
 
