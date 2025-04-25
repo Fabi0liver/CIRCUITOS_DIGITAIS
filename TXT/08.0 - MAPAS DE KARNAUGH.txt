@@ -106,29 +106,54 @@ quando cada um é mais vantajoso.
 
                                     "Estrutura do Mapa de Karnaugh"
 
- Agora que já conhecemos o que é um Mapa de Karnaugh e entendemos sua origem, é hora de começar a explorar o esqueleto dessa ferramenta tão poderosa: sua estrutura. Vamos encarar isso como abrir um tabuleiro de jogo novo. Antes de saber as regras, precisamos olhar bem para o tabuleiro, entender como ele é dividido, quais são os espaços importantes e onde cada peça vai se encaixar. Da mesma forma, para trabalhar bem com o Mapa de Karnaugh, precisamos compreender como ele é organizado e por quê ele funciona tão bem para simplificar funções lógicas.
+ Agora que já conhecemos o que é um Mapa de Karnaugh e entendemos sua origem, é hora de começar a explorar o 
+esqueleto dessa ferramenta tão poderosa: sua estrutura. Vamos encarar isso como abrir um tabuleiro de jogo novo. 
+Antes de saber as regras, precisamos olhar bem para o tabuleiro, entender como ele é dividido, quais são os espaços 
+importantes e onde cada peça vai se encaixar. Da mesma forma, para trabalhar bem com o Mapa de Karnaugh, precisamos 
+compreender como ele é organizado e por quê ele funciona tão bem para simplificar funções lógicas.
 
-O que torna o K-Map especial é justamente a forma como ele apresenta visualmente as combinações possíveis das variáveis booleanas. Ele transforma o que seria uma lista linear (como em uma tabela-verdade tradicional) em uma espécie de matriz, onde a proximidade entre os elementos revela padrões. Esses padrões, que às vezes são difíceis de enxergar em uma equação escrita, ficam evidentes quando os valores são organizados de maneira estratégica. E essa organização tem nome, tem lógica e tem regra.
+ O que torna o K-Map especial é justamente a forma como ele apresenta visualmente as combinações possíveis das 
+variáveis booleanas. Ele transforma o que seria uma lista linear (como em uma tabela-verdade tradicional) em uma 
+espécie de matriz, onde a proximidade entre os elementos revela padrões. Esses padrões, que às vezes são difíceis 
+de enxergar em uma equação escrita, ficam evidentes quando os valores são organizados de maneira estratégica. E 
+essa organização tem nome, tem lógica e tem regra.
 
- A partir de agora, vamos ver quais são os componentes fundamentais da estrutura de um Mapa de Karnaugh, para que você possa dominar esse tabuleiro com confiança.
+ A partir de agora, vamos ver quais são os componentes fundamentais da estrutura de um Mapa de Karnaugh, para que 
+você possa dominar esse tabuleiro com confiança.
 
  * Variáveis:
 
-   Tudo começa com elas; as variáveis booleanas. Cada uma representa uma entrada lógica que pode assumir apenas dois valores possíveis ( 0 ou 1), como um interruptor que só pode estar ligado ou desligado. Em um circuito lógico, essas variáveis representam os sinais que entram na função, e o Mapa de Karnaugh é justamente uma forma visual de organizar todas as combinações possíveis desses sinais.
+   Tudo começa com elas; as variáveis booleanas. Cada uma representa uma entrada lógica que pode assumir apenas 
+  dois valores possíveis ( 0 ou 1), como um interruptor que só pode estar ligado ou desligado. Em um circuito 
+  lógico, essas variáveis representam os sinais que entram na função, e o Mapa de Karnaugh é justamente uma forma 
+  visual de organizar todas as combinações possíveis desses sinais.
 
-Podemos pensar nas variáveis como ingredientes de uma receita. Se tivermos dois ingredientes (como ovos e leite), podemos fazer combinações como: nenhum dos dois, só ovos, só leite, ou os dois juntos. Com três ingredientes, as possibilidades aumentam ainda mais. E no mapa de Karnaugh, cada combinação desses "ingredientes" ocupa uma célula específica. Entender o papel das variáveis é o primeiro passo para compreender como o mapa de Karnaugh é estruturado, cada variável adicionada dobra o número de possibilidades no tabuleiro.
+   Podemos pensar nas variáveis como ingredientes de uma receita. Se tivermos dois ingredientes (como ovos e 
+  leite), podemos fazer combinações como: nenhum dos dois, só ovos, só leite, ou os dois juntos. Com três 
+  ingredientes, as possibilidades aumentam ainda mais. E no mapa de Karnaugh, cada combinação desses "ingredientes" 
+  ocupa uma célula específica. Entender o papel das variáveis é o primeiro passo para compreender como o mapa de 
+  Karnaugh é estruturado, cada variável adicionada dobra o número de possibilidades no tabuleiro.
 
 
  * Tabela-Verdade
 
-   Antes que possamos montar um Mapa de Karnaugh, precisamos conhecer o conteúdo que será colocado nele, e é aí que entra a tabela-verdade. Ela é como uma lista de todas as combinações possíveis das variáveis e os resultados que cada uma gera na função. Em outras palavras, é como um roteiro que mostra exatamente o que acontece em cada cena de um filme, onde cada linha da tabela representa um cenário diferente de valores de entrada.
+   Antes que possamos montar um Mapa de Karnaugh, precisamos conhecer o conteúdo que será colocado nele, e é aí que 
+  entra a tabela-verdade. Ela é como uma lista de todas as combinações possíveis das variáveis e os resultados que 
+  cada uma gera na função. Em outras palavras, é como um roteiro que mostra exatamente o que acontece em cada cena 
+  de um filme, onde cada linha da tabela representa um cenário diferente de valores de entrada.
 
-Se a função for F(A, B) com duas variáveis, por exemplo, a tabela-verdade terá quatro linhas: 00, 01, 10 e 11. Em cada linha, analisamos se aquela combinação de A e B produz um resultado 0 ou 1. É com base nesses resultados que vamos preencher o Mapa de Karnaugh mais adiante. A tabela-verdade é como a legenda do mapa: sem ela, não saberíamos onde colocar os marcos importantes. Portanto, compreender essa base nos dá segurança para construir o restante da estrutura com clareza.
+   Se a função for F(A, B) com duas variáveis, por exemplo, a tabela-verdade terá quatro linhas: 00, 01, 10 e 11. 
+  Em cada linha, analisamos se aquela combinação de A e B produz um resultado 0 ou 1. É com base nesses resultados 
+  que vamos preencher o Mapa de Karnaugh mais adiante. A tabela-verdade é como a legenda do mapa: sem ela, não 
+  saberíamos onde colocar os marcos importantes. Portanto, compreender essa base nos dá segurança para construir o 
+  restante da estrutura com clareza.
 
 
  * Quantidade de células de acordo com o número de variáveis:
 
-   A primeira coisa que determina a aparência de um Mapa de Karnaugh é a quantidade de variáveis da função. Cada variável booleana pode assumir dois valores: 0 ou 1. Então, ao combiná-las, temos um número de possibilidades igual a 2 elevado ao número de variáveis. Com isso:
+   A primeira coisa que determina a aparência de um Mapa de Karnaugh é a quantidade de variáveis da função. Cada 
+  variável booleana pode assumir dois valores: 0 ou 1. Então, ao combiná-las, temos um número de possibilidades 
+  igual a 2 elevado ao número de variáveis. Com isso:
 
     - Uma função com 2 variáveis (A e B, por exemplo) terá 2² = 4 células.
 
@@ -138,40 +163,86 @@ Se a função for F(A, B) com duas variáveis, por exemplo, a tabela-verdade ter
 
     - E com 5 variáveis, o número sobe para 2⁵ = 32 células, geralmente organizadas em duas tabelas de 16.
 
-   Essas células são os “espaços” do nosso tabuleiro. Cada uma representa uma combinação específica de entradas (como uma linha da tabela verdade) e será usada para indicar se aquela combinação gera um resultado verdadeiro (1) ou falso (0). Conforme o número de variáveis aumenta, o mapa vai se expandindo, mas sempre mantendo a estrutura padronizada, como se fosse uma grade com linhas e colunas dobrando de tamanho. É parecido com montar uma planilha de horários: quanto mais compromissos (variáveis), mais linhas e colunas você precisa para representar tudo.
+   Essas células são os “espaços” do nosso tabuleiro. Cada uma representa uma combinação específica de entradas 
+  (como uma linha da tabela verdade) e será usada para indicar se aquela combinação gera um resultado verdadeiro 
+  (1) ou falso (0). Conforme o número de variáveis aumenta, o mapa vai se expandindo, mas sempre mantendo a 
+  estrutura padronizada, como se fosse uma grade com linhas e colunas dobrando de tamanho. É parecido com montar 
+  uma planilha de horários: quanto mais compromissos (variáveis), mais linhas e colunas você precisa para 
+  representar tudo.
 
-   A lógica de expansão do mapa garante que cada nova variável adicionada permita dobrar o número de possibilidades anteriores. Isso mantém o sistema organizado e previsível, o que é ótimo para quem está começando. Mas com o crescimento, também vem o desafio visual: identificar padrões em mapas maiores exige um olhar mais atento, por isso começamos sempre praticando com mapas de 2 ou 3 variáveis, e só depois seguimos para os maiores.
+   A lógica de expansão do mapa garante que cada nova variável adicionada permita dobrar o número de possibilidades 
+  anteriores. Isso mantém o sistema organizado e previsível, o que é ótimo para quem está começando. Mas com o 
+  crescimento, também vem o desafio visual: identificar padrões em mapas maiores exige um olhar mais atento, por 
+  isso começamos sempre praticando com mapas de 2 ou 3 variáveis, e só depois seguimos para os maiores.
 
 
  * Ordem de Gray (Gray Code):
 
-   Uma característica crucial do Mapa de Karnaugh é a forma como os valores são organizados nas linhas e colunas, e aqui entra o Código de Gray. Ao contrário da contagem binária comum (que salta de um valor para o outro com várias mudanças de bits), o Gray Code foi pensado para que cada valor consecutivo mude apenas um bit em relação ao anterior. Isso é fundamental para que células “vizinhas” do mapa sejam realmente semelhantes, quase como irmãos gêmeos com um pequeno detalhe diferente.
+   Uma característica crucial do Mapa de Karnaugh é a forma como os valores são organizados nas linhas e colunas, e 
+  aqui entra o Código de Gray. Ao contrário da contagem binária comum (que salta de um valor para o outro com 
+  várias mudanças de bits), o Gray Code foi pensado para que cada valor consecutivo mude apenas um bit em relação 
+  ao anterior. Isso é fundamental para que células “vizinhas” do mapa sejam realmente semelhantes, quase como 
+  irmãos gêmeos com um pequeno detalhe diferente.
 
-   Vamos imaginar isso como um guarda-roupa organizado por tons de cor. Em vez de colocar o branco ao lado do preto, você organiza as peças em uma sequência onde cada roupa tem só uma mudança sutil de tonalidade em relação à anterior: branco, off-white, bege, marfim, e por aí vai. Isso facilita perceber o que está mais próximo visualmente, e no K-Map, essa proximidade é o que permite a formação dos agrupamentos, base da simplificação.
+   Vamos imaginar isso como um guarda-roupa organizado por tons de cor. Em vez de colocar o branco ao lado do 
+  preto, você organiza as peças em uma sequência onde cada roupa tem só uma mudança sutil de tonalidade em relação 
+  à anterior: branco, off-white, bege, marfim, e por aí vai. Isso facilita perceber o que está mais próximo 
+  visualmente, e no K-Map, essa proximidade é o que permite a formação dos agrupamentos, base da simplificação.
 
-   Na prática, isso significa que em um mapa de 2 variáveis, por exemplo, as colunas podem ser rotuladas como 0 e 1. Mas em um mapa de 3 variáveis, você já verá colunas como 00, 01, 11, 10; uma sequência típica de Gray Code. Essa “ordem diferente” pode parecer confusa no começo, mas ela é essencial. Quando compreendida, ela se torna uma ferramenta poderosa, pois garante que termos logicamente próximos estejam lado a lado, facilitando muito o reconhecimento de padrões.
+   Na prática, isso significa que em um mapa de 2 variáveis, por exemplo, as colunas podem ser rotuladas como 0 e 
+  1. Mas em um mapa de 3 variáveis, você já verá colunas como 00, 01, 11, 10; uma sequência típica de Gray Code. 
+  Essa “ordem diferente” pode parecer confusa no começo, mas ela é essencial. Quando compreendida, ela se torna uma 
+  ferramenta poderosa, pois garante que termos logicamente próximos estejam lado a lado, facilitando muito o 
+  reconhecimento de padrões.
 
 
  * Posição correta dos termos no mapa:
 
-   Agora que já sabemos quantas células temos e como elas são ordenadas, o próximo passo é entender onde exatamente cada termo deve ser colocado dentro do mapa. Cada célula representa uma combinação única dos valores das variáveis, e isso é o que chamamos de mintermo: uma combinação completa que leva a um resultado verdadeiro (1). A posição de cada mintermo depende dos valores binários das variáveis e da sua ordem de leitura conforme o Gray Code.
+   Agora que já sabemos quantas células temos e como elas são ordenadas, o próximo passo é entender onde exatamente 
+  cada termo deve ser colocado dentro do mapa. Cada célula representa uma combinação única dos valores das 
+  variáveis, e isso é o que chamamos de mintermo: uma combinação completa que leva a um resultado verdadeiro (1). A 
+  posição de cada mintermo depende dos valores binários das variáveis e da sua ordem de leitura conforme o Gray 
+  Code.
 
-   Imagine que você está organizando os assentos de um cinema. Cada ingresso (mintermo) tem um número específico de fileira e coluna. Se você colocá-los aleatoriamente, vai bagunçar tudo, e ninguém encontrará seu lugar. No Mapa de Karnaugh, essa organização precisa ser exata. As variáveis mais significativas (como A e B) costumam ser usadas nas linhas, e as menos significativas (como C e D), nas colunas, mas essa convenção pode variar desde que a ordem seja consistente e obedeça ao código de Gray.
+   Imagine que você está organizando os assentos de um cinema. Cada ingresso (mintermo) tem um número específico de 
+  fileira e coluna. Se você colocá-los aleatoriamente, vai bagunçar tudo, e ninguém encontrará seu lugar. No Mapa 
+  de Karnaugh, essa organização precisa ser exata. As variáveis mais significativas (como A e B) costumam ser 
+  usadas nas linhas, e as menos significativas (como C e D), nas colunas, mas essa convenção pode variar desde que 
+  a ordem seja consistente e obedeça ao código de Gray.
 
-   Com a prática, essa posição se torna automática: ao bater o olho na combinação “A=0, B=1, C=1, D=0”, você já consegue encontrar a célula correspondente. Por isso, muitos mapas vêm com os rótulos binários nas margens, guiando o preenchimento. Saber posicionar corretamente cada termo é como acertar as peças de um quebra-cabeça. Se cada peça estiver no lugar certo, a imagem (no nosso caso, a lógica) começa a fazer sentido.
+   Com a prática, essa posição se torna automática: ao bater o olho na combinação “A=0, B=1, C=1, D=0”, você já 
+  consegue encontrar a célula correspondente. Por isso, muitos mapas vêm com os rótulos binários nas margens, 
+  guiando o preenchimento. Saber posicionar corretamente cada termo é como acertar as peças de um quebra-cabeça. Se 
+  cada peça estiver no lugar certo, a imagem (no nosso caso, a lógica) começa a fazer sentido.
 
 
  * Preenchimento com 1s e 0s:
 
-   Depois de montar a estrutura e entender onde cada termo deve ir, vem o momento de preencher o mapa com os valores da função. É aqui que o Mapa de Karnaugh ganha vida. Para cada célula, colocamos um 1 se aquela combinação de variáveis torna a função verdadeira, ou um 0 se for falsa. É como pintar as casas de um tabuleiro com cores diferentes conforme a regra do jogo, onde os "1s" são as casas ativas e os "0s" são as inativas.
+   Depois de montar a estrutura e entender onde cada termo deve ir, vem o momento de preencher o mapa com os 
+  valores da função. É aqui que o Mapa de Karnaugh ganha vida. Para cada célula, colocamos um 1 se aquela 
+  combinação de variáveis torna a função verdadeira, ou um 0 se for falsa. É como pintar as casas de um tabuleiro 
+  com cores diferentes conforme a regra do jogo, onde os "1s" são as casas ativas e os "0s" são as inativas.
 
-   Esses valores vêm, normalmente, de uma tabela verdade ou diretamente da descrição da função. Se você tem uma função F(A, B, C) = Σ(1, 3, 5), por exemplo, isso quer dizer que as células de número 1, 3 e 5 (que correspondem a determinadas combinações de A, B e C) devem receber 1, enquanto o resto recebe 0. Preencher corretamente é fundamental, porque é a partir disso que faremos os agrupamentos e, posteriormente, a simplificação da função.
+   Esses valores vêm, normalmente, de uma tabela verdade ou diretamente da descrição da função. Se você tem uma 
+  função F(A, B, C) = Σ(1, 3, 5), por exemplo, isso quer dizer que as células de número 1, 3 e 5 (que correspondem 
+  a determinadas combinações de A, B e C) devem receber 1, enquanto o resto recebe 0. Preencher corretamente é 
+  fundamental, porque é a partir disso que faremos os agrupamentos e, posteriormente, a simplificação da função.
 
-   Vale lembrar que, em algumas situações, também podemos usar o símbolo “X”, que representa os chamados “don’t care”, condições em que o valor da saída não importa. Mas isso é um detalhe que deixaremos para mais adiante. Por agora, o foco é entender que o preenchimento é como marcar os pontos de interesse no mapa: cada 1 representa um local importante para a lógica, e é a partir deles que todo o raciocínio da simplificação vai acontecer.
+   Vale lembrar que, em algumas situações, também podemos usar o símbolo “X”, que representa os chamados “don’t 
+  care”, condições em que o valor da saída não importa. Mas isso é um detalhe que deixaremos para mais adiante. Por 
+  agora, o foco é entender que o preenchimento é como marcar os pontos de interesse no mapa: cada 1 representa um 
+  local importante para a lógica, e é a partir deles que todo o raciocínio da simplificação vai acontecer.
 
-Em suma, compreender a estrutura do Mapa de Karnaugh é como ganhar um mapa detalhado antes de embarcar em uma jornada lógica: tudo fica mais claro, mais organizado e muito mais intuitivo. Quando sabemos onde estamos pisando, conseguimos caminhar com segurança e confiança, e é exatamente isso que essa base estrutural proporciona. Antes de aplicarmos qualquer técnica ou estratégia, precisamos entender bem o terreno que vamos explorar, e é isso que fizemos até aqui.
+ Em suma, compreender a estrutura do Mapa de Karnaugh é como ganhar um mapa detalhado antes de embarcar em uma 
+jornada lógica: tudo fica mais claro, mais organizado e muito mais intuitivo. Quando sabemos onde estamos pisando, 
+conseguimos caminhar com segurança e confiança, e é exatamente isso que essa base estrutural proporciona. Antes de 
+aplicarmos qualquer técnica ou estratégia, precisamos entender bem o terreno que vamos explorar, e é isso que 
+fizemos até aqui.
 
-A partir dessa fundação, abrimos caminho para aprofundamentos mais práticos e analíticos. Você já está com as ferramentas certas nas mãos, agora é só seguir em frente, aos poucos, explorando cada recurso e possibilidade. E o melhor de tudo: com esse olhar mais atento e compreensivo que construímos juntos, os próximos passos vão parecer muito mais naturais e acessíveis. Vamos continuar essa jornada com calma, clareza e curiosidade.
+ A partir dessa fundação, abrimos caminho para aprofundamentos mais práticos e analíticos. Você já está com as 
+ferramentas certas nas mãos, agora é só seguir em frente, aos poucos, explorando cada recurso e possibilidade. E o 
+melhor de tudo: com esse olhar mais atento e compreensivo que construímos juntos, os próximos passos vão parecer 
+muito mais naturais e acessíveis. Vamos continuar essa jornada com calma, clareza e curiosidade.
 
 
 
