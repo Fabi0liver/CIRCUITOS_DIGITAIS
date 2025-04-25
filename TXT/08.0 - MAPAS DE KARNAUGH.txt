@@ -335,15 +335,25 @@ novas camadas de desafio.
 
                                 "Mapa de Karnaugh com 3 Variáveis"
 
- Chegamos a um ponto muito interessante do nosso estudo: o Mapa de Karnaugh com 3 variáveis. Aqui, o mapa já começa a mostrar um pouco mais da sua complexidade e ao mesmo tempo da sua beleza. Com três variáveis (que podemos chamar de A, B e C) temos oito combinações possíveis de entradas, o que se traduz em 8 células no mapa (2³ = 8). Essa configuração nos permite exercitar mais ainda o olhar para agrupamentos e padrões, abrindo caminho para simplificações mais inteligentes e robustas.
+ Chegamos a um ponto muito interessante do nosso estudo: o Mapa de Karnaugh com 3 variáveis. Aqui, o mapa já começa 
+a mostrar um pouco mais da sua complexidade e ao mesmo tempo da sua beleza. Com três variáveis (que podemos chamar 
+de A, B e C) temos oito combinações possíveis de entradas, o que se traduz em 8 células no mapa (2³ = 8). Essa 
+configuração nos permite exercitar mais ainda o olhar para agrupamentos e padrões, abrindo caminho para 
+simplificações mais inteligentes e robustas.
 
-Se com duas variáveis o mapa era quase um tabuleiro de damas compacto, com 3 variáveis ele lembra um pequeno jogo de cartas com mais combinações possíveis, e justamente por isso, mais rico e divertido de explorar. A ideia agora é continuar usando os mesmos princípios que já conhecemos, como posicionar os termos corretamente, aplicar o Código de Gray, e identificar onde os agrupamentos são possíveis. Mas, claro, com um toque extra de estratégia visual.
+ Se com duas variáveis o mapa era quase um tabuleiro de damas compacto, com 3 variáveis ele lembra um pequeno jogo 
+de cartas com mais combinações possíveis, e justamente por isso, mais rico e divertido de explorar. A ideia agora é 
+continuar usando os mesmos princípios que já conhecemos, como posicionar os termos corretamente, aplicar o Código 
+de Gray, e identificar onde os agrupamentos são possíveis. Mas, claro, com um toque extra de estratégia visual.
 
-Agora que você já tem uma visão geral, vamos detalhar como o Mapa de Karnaugh com 3 variáveis é construído, começando pela tabela-verdade e seguindo com suas diferentes formas de disposição no mapa.
+ Agora que você já tem uma visão geral, vamos detalhar como o Mapa de Karnaugh com 3 variáveis é construído, 
+começando pela tabela-verdade e seguindo com suas diferentes formas de disposição no mapa.
 
  * Tabela-verdade com 3 variáveis:
 
-   A tabela-verdade é sempre nosso ponto de partida. Com 3 variáveis (A, B e C), temos 8 combinações binárias possíveis para essas entradas, numeradas de m0 a m7. Cada linha representa uma dessas combinações, e o valor de saída (S) corresponde ao comportamento da função lógica para aquele conjunto de entradas.
+   A tabela-verdade é sempre nosso ponto de partida. Com 3 variáveis (A, B e C), temos 8 combinações binárias 
+  possíveis para essas entradas, numeradas de m0 a m7. Cada linha representa uma dessas combinações, e o valor de 
+  saída (S) corresponde ao comportamento da função lógica para aquele conjunto de entradas.
 
                                     A | B | C |  S
                                    ----------------
@@ -356,12 +366,16 @@ Agora que você já tem uma visão geral, vamos detalhar como o Mapa de Karnaugh
                                     1 | 1 | 0 | m6
                                     1 | 1 | 1 | m7
 
-   Essa organização é fundamental para sabermos onde cada valor será posicionado no mapa, e para que possamos visualizar a simplificação corretamente.
+   Essa organização é fundamental para sabermos onde cada valor será posicionado no mapa, e para que possamos 
+  visualizar a simplificação corretamente.
 
 
  * Usando as variáveis como indicação das células:
 
-   Quando construímos o mapa com base direta nas variáveis A, B e C, escolhemos uma variável para controlar as linhas (geralmente A) e as outras duas (B e C) para controlar as colunas. Porém, como o mapa precisa manter a lógica de adjacência entre células, a ordem das colunas não é sequencial, e sim baseada no Código de Gray, o que garante que apenas um bit mude entre células vizinhas.
+   Quando construímos o mapa com base direta nas variáveis A, B e C, escolhemos uma variável para controlar as 
+  linhas (geralmente A) e as outras duas (B e C) para controlar as colunas. Porém, como o mapa precisa manter a 
+  lógica de adjacência entre células, a ordem das colunas não é sequencial, e sim baseada no Código de Gray, o que 
+  garante que apenas um bit mude entre células vizinhas.
 
                                        B̅    |    B
                                   |----|----|----|----|
@@ -371,12 +385,15 @@ Agora que você já tem uma visão geral, vamos detalhar como o Mapa de Karnaugh
                                   |----|----|----|----|
                                     C̅  |    C    |  C̅ 
    
-   Note como os termos m2 e m3 parecem "fora de ordem", mas essa troca é proposital para garantir que os termos estejam lateralmente adjacentes na estrutura lógica, respeitando a lógica booleana por trás.
+   Note como os termos m2 e m3 parecem "fora de ordem", mas essa troca é proposital para garantir que os termos 
+  estejam lateralmente adjacentes na estrutura lógica, respeitando a lógica booleana por trás.
 
 
  * Usando o Código de Gray como indicação das células:
 
-   Para garantir ainda mais clareza e precisão, muitos mapas utilizam explicitamente o Código de Gray na parte superior, onde os pares de bits das variáveis B e C (ou outras combinações) são mostrados em ordem 00, 01, 11, 10 — em vez da tradicional 00, 01, 10, 11 da contagem binária.
+   Para garantir ainda mais clareza e precisão, muitos mapas utilizam explicitamente o Código de Gray na parte 
+  superior, onde os pares de bits das variáveis B e C (ou outras combinações) são mostrados em ordem 00, 01, 11, 
+  10; em vez da tradicional 00, 01, 10, 11 da contagem binária.
 
                                    -------BC--------
                                    00   01   11   10
@@ -386,11 +403,18 @@ Agora que você já tem uma visão geral, vamos detalhar como o Mapa de Karnaugh
                              | 1 | m4 | m5 | m7 | m6 |
                                  |----|----|----|----|
 
-   Essa forma de representação é muito útil visualmente, pois nos permite enxergar quais células são vizinhas diretas com mais clareza. O Código de Gray é como uma regra de trânsito visual dentro do mapa: ele organiza o fluxo de agrupamentos, tornando-os possíveis e corretos.
+   Essa forma de representação é muito útil visualmente, pois nos permite enxergar quais células são vizinhas 
+  diretas com mais clareza. O Código de Gray é como uma regra de trânsito visual dentro do mapa: ele organiza o 
+  fluxo de agrupamentos, tornando-os possíveis e corretos.
 
- Em suma, com o domínio do Mapa de Karnaugh de 3 variáveis, você já entra em uma etapa onde a simplificação passa a ser ainda mais significativa. Agora, você pode identificar padrões mais complexos e tomar decisões estratégicas sobre como agrupá-los, sempre com o objetivo de obter expressões lógicas mais simples e eficazes.
+ Em suma, com o domínio do Mapa de Karnaugh de 3 variáveis, você já entra em uma etapa onde a simplificação passa a 
+ser ainda mais significativa. Agora, você pode identificar padrões mais complexos e tomar decisões estratégicas 
+sobre como agrupá-los, sempre com o objetivo de obter expressões lógicas mais simples e eficazes.
 
-O mapa com 3 variáveis é uma espécie de ponto de transição: ele ainda é pequeno o suficiente para ser fácil de visualizar, mas já traz os elementos fundamentais que vamos continuar usando quando avançarmos para mapas maiores. Ao compreender bem essa etapa, você está construindo uma base sólida para compreender funções mais complexas e realizar simplificações com confiança.
+ O mapa com 3 variáveis é uma espécie de ponto de transição: ele ainda é pequeno o suficiente para ser fácil de 
+visualizar, mas já traz os elementos fundamentais que vamos continuar usando quando avançarmos para mapas maiores. 
+Ao compreender bem essa etapa, você está construindo uma base sólida para compreender funções mais complexas e 
+realizar simplificações com confiança.
 
 
 
