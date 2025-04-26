@@ -566,43 +566,92 @@ quadrado do mapa, há lógica pura esperando para ser descomplicada.
 
                                      "Agrupamento no Mapa de Karnaugh"
 
- Os agrupamentos no Mapa de Karnaugh são conjuntos de células adjacentes que contêm o valor 1 (ou, futuramente, até os "X", que representam condições irrelevantes). O objetivo desses agrupamentos é reunir partes da função que compartilham características em comum, ou seja, que mudam pouquíssimo entre si. E por que isso é importante? Porque quanto mais coisas iguais conseguimos agrupar, menos variáveis precisamos manter na nossa expressão final, resultando em um circuito mais simples, mais barato e mais eficiente. É como reorganizar uma lista de tarefas para eliminar repetições, você não precisa escrever “beber água” cinco vezes ao longo do dia, pode resumir como “manter-se hidratado durante o dia”.
+ Os agrupamentos no Mapa de Karnaugh são conjuntos de células adjacentes que contêm o valor 1 (ou, futuramente, até 
+os "X", que representam condições irrelevantes). O objetivo desses agrupamentos é reunir partes da função que 
+compartilham características em comum, ou seja, que mudam pouquíssimo entre si. E por que isso é importante? Porque 
+quanto mais coisas iguais conseguimos agrupar, menos variáveis precisamos manter na nossa expressão final, 
+resultando em um circuito mais simples, mais barato e mais eficiente. É como reorganizar uma lista de tarefas para 
+eliminar repetições, você não precisa escrever “beber água” cinco vezes ao longo do dia, pode resumir como “manter-
+se hidratado durante o dia”.
 
- Agora que sabemos a importância e a função dos agrupamentos, vamos mergulhar nas regras que definem como agrupar corretamente. Vamos entender os tipos de grupos que podemos formar, como eles podem se estender, se dobrar, e como escolher os melhores grupos para obter a simplificação ideal. Cada escolha que fazemos dentro do mapa influencia diretamente o resultado final, por isso, conhecer bem esses componentes é essencial para quem deseja dominar o uso do K-Map. 
+ Agora que sabemos a importância e a função dos agrupamentos, vamos mergulhar nas regras que definem como agrupar 
+corretamente. Vamos entender os tipos de grupos que podemos formar, como eles podem se estender, se dobrar, e como 
+escolher os melhores grupos para obter a simplificação ideal. Cada escolha que fazemos dentro do mapa influencia 
+diretamente o resultado final, por isso, conhecer bem esses componentes é essencial para quem deseja dominar o uso 
+do K-Map. 
 
  A seguir, vamos ver cada aspecto desses agrupamentos em detalhes.
 
  * Agrupamentos válidos e ordem de uso:
 
-   A primeira regra de ouro dos agrupamentos no Mapa de Karnaugh é que eles devem conter uma quantidade de células que seja uma potência de 2. Isso significa que os grupos podem ter 1, 2, 4, 8, 16... células, dependendo do tamanho do mapa. Essa restrição não é aleatória: ela existe porque cada agrupamento deve representar um padrão lógico estável e padronizado. Se usássemos, por exemplo, 3 ou 5 células, a lógica interna dessas combinações deixaria de ser previsível, e não seria possível simplificar corretamente. É como cortar um bolo: se você tentar fazer 3 pedaços iguais de um bolo quadrado, vai se atrapalhar, mas 2, 4 ou 8 pedaços funcionam perfeitamente.
+   A primeira regra de ouro dos agrupamentos no Mapa de Karnaugh é que eles devem conter uma quantidade de células 
+  que seja uma potência de 2. Isso significa que os grupos podem ter 1, 2, 4, 8, 16... células, dependendo do 
+  tamanho do mapa. Essa restrição não é aleatória: ela existe porque cada agrupamento deve representar um padrão 
+  lógico estável e padronizado. Se usássemos, por exemplo, 3 ou 5 células, a lógica interna dessas combinações 
+  deixaria de ser previsível, e não seria possível simplificar corretamente. É como cortar um bolo: se você tentar 
+  fazer 3 pedaços iguais de um bolo quadrado, vai se atrapalhar, mas 2, 4 ou 8 pedaços funcionam perfeitamente.
 
-   Além disso, existe uma ordem de preferência ao criar os agrupamentos: quanto maior o grupo, melhor. Se puder escolher entre fazer dois grupos de 2 células ou um grupo de 4, sempre opte pelo de 4. Isso acontece porque grupos maiores representam expressões mais simplificadas, com menos variáveis. Cada passo em direção à simplificação representa economia de lógica, componentes e tempo. É como usar uma palavra só para dizer algo que você antes explicaria em três frases; elegante, direto e muito mais eficiente.
+   Além disso, existe uma ordem de preferência ao criar os agrupamentos: quanto maior o grupo, melhor. Se puder 
+  escolher entre fazer dois grupos de 2 células ou um grupo de 4, sempre opte pelo de 4. Isso acontece porque 
+  grupos maiores representam expressões mais simplificadas, com menos variáveis. Cada passo em direção à 
+  simplificação representa economia de lógica, componentes e tempo. É como usar uma palavra só para dizer algo que 
+  você antes explicaria em três frases; elegante, direto e muito mais eficiente.
 
 
  * Grupos horizontais, verticais e que “dão a volta” (wrap-around):
 
-   No Mapa de Karnaugh, os agrupamentos podem ser horizontais ou verticais, desde que as células estejam adjacentes, ou seja, lado a lado ou uma embaixo da outra, nunca em diagonal. Essa organização respeita a maneira como as combinações binárias estão distribuídas no mapa. Visualmente, parece um jogo de dominó, onde cada peça só se conecta com a outra se estiver perfeitamente alinhada. Essa limitação ajuda a manter a lógica do agrupamento intacta e clara.
+   No Mapa de Karnaugh, os agrupamentos podem ser horizontais ou verticais, desde que as células estejam 
+  adjacentes, ou seja, lado a lado ou uma embaixo da outra, nunca em diagonal. Essa organização respeita a maneira 
+  como as combinações binárias estão distribuídas no mapa. Visualmente, parece um jogo de dominó, onde cada peça só 
+  se conecta com a outra se estiver perfeitamente alinhada. Essa limitação ajuda a manter a lógica do agrupamento 
+  intacta e clara.
 
-   Mas aqui vem uma das características mais fascinantes do K-Map: ele é, de certo modo, "dobrável". Isso quer dizer que você pode formar agrupamentos que “dão a volta” no mapa, tanto pelas bordas laterais quanto pelas bordas superior e inferior. Imagine que o mapa é como um tabuleiro circular de um jogo, onde a última casa da direita encosta na primeira da esquerda. Isso permite que você forme agrupamentos que parecem distantes à primeira vista, mas que estão logicamente conectados. Essa flexibilidade é uma das grandes forças do mapa, e permite simplificações que seriam impossíveis de perceber de forma puramente algébrica.
+   Mas aqui vem uma das características mais fascinantes do K-Map: ele é, de certo modo, "dobrável". Isso quer 
+  dizer que você pode formar agrupamentos que “dão a volta” no mapa, tanto pelas bordas laterais quanto pelas 
+  bordas superior e inferior. Imagine que o mapa é como um tabuleiro circular de um jogo, onde a última casa da 
+  direita encosta na primeira da esquerda. Isso permite que você forme agrupamentos que parecem distantes à 
+  primeira vista, mas que estão logicamente conectados. Essa flexibilidade é uma das grandes forças do mapa, e 
+  permite simplificações que seriam impossíveis de perceber de forma puramente algébrica.
 
 
  * Grupos de maior tamanho possível para máxima simplificação:
 
-   Um dos princípios fundamentais do uso eficaz do Mapa de Karnaugh é buscar o maior agrupamento possível para cada conjunto de 1s. Isso quer dizer que, sempre que houver uma escolha, devemos tentar reunir o máximo de células adjacentes dentro das regras que vimos. Isso ajuda a eliminar o maior número de variáveis possível na expressão resultante. Lembre-se: cada variável que conseguimos eliminar no agrupamento é uma operação lógica a menos no circuito final.
+   Um dos princípios fundamentais do uso eficaz do Mapa de Karnaugh é buscar o maior agrupamento possível para cada 
+  conjunto de 1s. Isso quer dizer que, sempre que houver uma escolha, devemos tentar reunir o máximo de células 
+  adjacentes dentro das regras que vimos. Isso ajuda a eliminar o maior número de variáveis possível na expressão 
+  resultante. Lembre-se: cada variável que conseguimos eliminar no agrupamento é uma operação lógica a menos no 
+  circuito final.
 
-   Esse conceito pode ser comparado à ideia de consolidar informações. Imagine que você está organizando seus arquivos pessoais: se puder juntar vários documentos sob uma única pasta com um nome genérico, seu trabalho de manutenção fica muito mais simples. No K-Map, é a mesma coisa: agrupar mais significa escrever menos e pensar menos no resultado final. Um grupo de 8, por exemplo, pode reduzir uma expressão para apenas uma variável, o que é um ganho imenso em termos de simplificação.
+   Esse conceito pode ser comparado à ideia de consolidar informações. Imagine que você está organizando seus 
+  arquivos pessoais: se puder juntar vários documentos sob uma única pasta com um nome genérico, seu trabalho de 
+  manutenção fica muito mais simples. No K-Map, é a mesma coisa: agrupar mais significa escrever menos e pensar 
+  menos no resultado final. Um grupo de 8, por exemplo, pode reduzir uma expressão para apenas uma variável, o que 
+  é um ganho imenso em termos de simplificação.
 
 
  * Prioridade de agrupamento: maior grupo, menos termos:
 
-   Agora que sabemos que os agrupamentos devem ser grandes sempre que possível, precisamos entender a prioridade entre eles. Quando há sobreposição de possibilidades (ou seja, quando um mesmo 1 pode fazer parte de diferentes grupos), damos preferência ao grupo maior. Essa escolha não só reduz mais variáveis, como também evita que tenhamos múltiplos termos redundantes na função final. É como quando você organiza um evento e pode servir três tipos diferentes de sobremesa, mas escolhe uma só que agrade a maioria: simplifica e agrada, tudo ao mesmo tempo.
+   Agora que sabemos que os agrupamentos devem ser grandes sempre que possível, precisamos entender a prioridade 
+  entre eles. Quando há sobreposição de possibilidades (ou seja, quando um mesmo 1 pode fazer parte de diferentes 
+  grupos), damos preferência ao grupo maior. Essa escolha não só reduz mais variáveis, como também evita que 
+  tenhamos múltiplos termos redundantes na função final. É como quando você organiza um evento e pode servir três 
+  tipos diferentes de sobremesa, mas escolhe uma só que agrade a maioria: simplifica e agrada, tudo ao mesmo tempo.
 
-   E sim, é perfeitamente possível (e comum!) que um mesmo 1 participe de mais de um grupo. Isso não é erro, é estratégia. Esse recurso é usado quando queremos garantir que todos os 1s estejam cobertos com o menor número de grupos possível. Com a prática, seus olhos vão se acostumar a identificar essas possibilidades automaticamente, como quem olha um quebra-cabeça e já vê onde as peças grandes encaixam antes das pequenas.
+   E sim, é perfeitamente possível (e comum!) que um mesmo 1 participe de mais de um grupo. Isso não é erro, é 
+  estratégia. Esse recurso é usado quando queremos garantir que todos os 1s estejam cobertos com o menor número de 
+  grupos possível. Com a prática, seus olhos vão se acostumar a identificar essas possibilidades automaticamente, 
+  como quem olha um quebra-cabeça e já vê onde as peças grandes encaixam antes das pequenas.
 
+ Em suma, os agrupamentos são, sem dúvida, a alma do Mapa de Karnaugh. São eles que permitem transformar uma função 
+booleana cheia de termos complexos em algo muito mais limpo e eficiente. E o mais bonito de tudo é que essa 
+simplificação não exige cálculos complicados ou manipulações longas: tudo acontece diante dos seus olhos, em um 
+processo que lembra mais um jogo de observação do que um desafio matemático.
 
-Em suma, os agrupamentos são, sem dúvida, a alma do Mapa de Karnaugh. São eles que permitem transformar uma função booleana cheia de termos complexos em algo muito mais limpo e eficiente. E o mais bonito de tudo é que essa simplificação não exige cálculos complicados ou manipulações longas: tudo acontece diante dos seus olhos, em um processo que lembra mais um jogo de observação do que um desafio matemático.
-
-Ao dominar os agrupamentos, você desenvolve um novo tipo de raciocínio, um olhar lógico e estratégico, que começa a enxergar padrões, possibilidades e soluções com muito mais clareza. Eles são o elo entre a tabela-verdade e o circuito final, entre a análise e a construção. E como todo bom raciocínio lógico, eles trazem consigo algo raro e precioso: a beleza da simplicidade. Agora que você entende como os agrupamentos funcionam, está pronto para explorá-los na prática e ver a mágica acontecer.
+ Ao dominar os agrupamentos, você desenvolve um novo tipo de raciocínio, um olhar lógico e estratégico, que começa 
+a enxergar padrões, possibilidades e soluções com muito mais clareza. Eles são o elo entre a tabela-verdade e o 
+circuito final, entre a análise e a construção. E como todo bom raciocínio lógico, eles trazem consigo algo raro e 
+precioso: a beleza da simplicidade. Agora que você entende como os agrupamentos funcionam, está pronto para 
+explorá-los na prática e ver a mágica acontecer.
 
 
 
