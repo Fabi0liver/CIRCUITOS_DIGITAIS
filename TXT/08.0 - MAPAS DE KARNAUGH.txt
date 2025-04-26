@@ -839,31 +839,71 @@ depois de dominar os movimentos, você poderá explorar novas estratégias com m
 
                            "Dicas Práticas para Dominar o Mapa de Karnaugh"
 
- Simplificar expressões usando o Mapa de Karnaugh pode parecer, num primeiro olhar, um desafio cheio de regras e detalhes... Mas a verdade é que, com algumas dicas práticas, o processo se torna mais natural, prazeroso e até divertido. Pensar nos agrupamentos como peças de um quebra-cabeça ou blocos de um jogo ajuda muito, e, com tempo e prática, esses movimentos se tornam quase automáticos. 
+ Simplificar expressões usando o Mapa de Karnaugh pode parecer, num primeiro olhar, um desafio cheio de regras e 
+detalhes... Mas a verdade é que, com algumas dicas práticas, o processo se torna mais natural, prazeroso e até 
+divertido. Pensar nos agrupamentos como peças de um quebra-cabeça ou blocos de um jogo ajuda muito, e, com tempo e 
+prática, esses movimentos se tornam quase automáticos. 
 
- Nesta explicação, vamos explorar juntos algumas orientações preciosas que facilitam a leitura e o raciocínio nos mapas, para que você se sinta cada vez mais seguro(a) ao aplicar essa ferramenta poderosa.
+ Nesta explicação, vamos explorar juntos algumas orientações preciosas que facilitam a leitura e o raciocínio nos 
+mapas, para que você se sinta cada vez mais seguro(a) ao aplicar essa ferramenta poderosa.
 
- * Tenha Cuidado ao Passar da Tabela-Verdade para o Mapa: Esse é um momento delicado: quando for preencher o Mapa de Karnaugh com base na tabela-verdade, lembre-se de que a ordem das colunas e linhas segue o Código de Gray, e não a contagem binária tradicional. Um deslize aqui pode comprometer todo o processo de simplificação. Pense nisso como organizar os ingredientes de uma receita — se você trocar a ordem, o resultado pode sair completamente diferente do esperado. Então, faça esse passo com calma, atenção e, se puder, conferindo linha por linha.
+ * Tenha Cuidado ao Passar da Tabela-Verdade para o Mapa: Esse é um momento delicado: quando for preencher o Mapa 
+  de Karnaugh com base na tabela-verdade, lembre-se de que a ordem das colunas e linhas segue o Código de Gray, e 
+  não a contagem binária tradicional. Um deslize aqui pode comprometer todo o processo de simplificação. Pense 
+  nisso como organizar os ingredientes de uma receita, se você trocar a ordem, o resultado pode sair completamente 
+  diferente do esperado. Então, faça esse passo com calma, atenção e, se puder, conferindo linha por linha.
 
-* Sempre Comece pelos Maiores Agrupamentos Possíveis: Na hora de formar os grupos, comece sempre pelas maiores possibilidades: octetos (8 células), depois quartetos (4 células) e, por fim, pares (2 células). Isso porque quanto maior o agrupamento, mais simplificada será a expressão final. É como fazer um bolo usando menos ingredientes: mais simples, mais rápido e igualmente eficaz.
+ * Sempre Comece pelos Maiores Agrupamentos Possíveis: Na hora de formar os grupos, comece sempre pelas maiores 
+  possibilidades: octetos (8 células), depois quartetos (4 células) e, por fim, pares (2 células). Isso porque 
+  quanto maior o agrupamento, mais simplificada será a expressão final. É como fazer um bolo usando menos 
+  ingredientes: mais simples, mais rápido e igualmente eficaz.
 
- * Use Cores, Círculos ou Letras para Marcar Agrupamentos: Ao montar agrupamentos, principalmente em mapas maiores, a visualização pode se confundir com tanta informação. Por isso, uma dica valiosa é usar marcadores visuais: canetas coloridas, círculos em volta dos grupos ou até letras (como A, B, C...) para nomeá-los. Isso funciona como desenhar rotas num mapa geográfico, ajuda seus olhos e seu cérebro a entenderem o caminho que está sendo construído ali.
+ * Use Cores, Círculos ou Letras para Marcar Agrupamentos: Ao montar agrupamentos, principalmente em mapas maiores, 
+  a visualização pode se confundir com tanta informação. Por isso, uma dica valiosa é usar marcadores visuais: 
+  canetas coloridas, círculos em volta dos grupos ou até letras (como A, B, C...) para nomeá-los. Isso funciona 
+  como desenhar rotas num mapa geográfico, ajuda seus olhos e seu cérebro a entenderem o caminho que está sendo 
+  construído ali.
 
- * Agrupamentos Podem Ser na Vertical ou na Horizontal: Você não está preso(a) a uma única direção! Os grupos podem se formar tanto horizontalmente quanto verticalmente. O importante é que sejam conjuntos de 2ⁿ (2, 4, 8...) células adjacentes que contenham apenas 1s. Então, ao olhar para o mapa, exercite essa visão “horizontal e vertical” como se estivesse buscando padrões em um tabuleiro de jogo ou caça-palavras.
+ * Agrupamentos Podem Ser na Vertical ou na Horizontal: Você não está preso(a) a uma única direção! Os grupos podem 
+  se formar tanto horizontalmente quanto verticalmente. O importante é que sejam conjuntos de 2ⁿ (2, 4, 8...) 
+  células adjacentes que contenham apenas 1s. Então, ao olhar para o mapa, exercite essa visão “horizontal e 
+  vertical” como se estivesse buscando padrões em um tabuleiro de jogo ou caça-palavras.
 
- * As Bordas Estão Conectadas: Essa é uma das sacadas mais legais do Mapa de Karnaugh: as bordas do mapa são ligadas entre si, como se o mapa fosse dobrado em um cilindro (horizontalmente) e depois num anel (verticalmente). Isso significa que agrupamentos podem “abraçar” os cantos e formar grupos nas extremidades. É como um videogame onde você sai de um lado da tela e aparece do outro, essa conexão permite agrupamentos que, visualmente, parecem separados, mas logicamente estão lado a lado.
+ * As Bordas Estão Conectadas: Essa é uma das sacadas mais legais do Mapa de Karnaugh: as bordas do mapa são 
+  ligadas entre si, como se o mapa fosse dobrado em um cilindro (horizontalmente) e depois num anel 
+  (verticalmente). Isso significa que agrupamentos podem “abraçar” os cantos e formar grupos nas extremidades. É 
+  como um videogame onde você sai de um lado da tela e aparece do outro, essa conexão permite agrupamentos que, 
+  visualmente, parecem separados, mas logicamente estão lado a lado.
 
- * Use os Don’t Care com Sabedoria: Se houver valores que não importam (os famosos “Don’t Care” ou “X”), trate-os como curingas. Use esses valores somente se eles ajudarem a formar agrupamentos maiores e mais vantajosos. Caso contrário, é melhor ignorá-los. A ideia é tirar o máximo de proveito dessas células para tornar a expressão final ainda mais simples, como usar uma carta extra no baralho que pode ser o que você quiser.
+ * Use os Don’t Care com Sabedoria: Se houver valores que não importam (os famosos “Don’t Care” ou “X”), trate-os 
+  como curingas. Use esses valores somente se eles ajudarem a formar agrupamentos maiores e mais vantajosos. Caso 
+  contrário, é melhor ignorá-los. A ideia é tirar o máximo de proveito dessas células para tornar a expressão final 
+  ainda mais simples, como usar uma carta extra no baralho que pode ser o que você quiser.
 
- * Evite Repetições Desnecessárias: Embora um 1 possa estar em mais de um grupo, evite repetir agrupamentos que não tragam vantagens. Repetir apenas por repetir não melhora sua expressão, é como dar voltas no quarteirão sem necessidade. Se for repetir, que seja para gerar um agrupamento maior ou eliminar uma variável extra na expressão final.
+ * Evite Repetições Desnecessárias: Embora um 1 possa estar em mais de um grupo, evite repetir agrupamentos que não 
+  tragam vantagens. Repetir apenas por repetir não melhora sua expressão, é como dar voltas no quarteirão sem 
+  necessidade. Se for repetir, que seja para gerar um agrupamento maior ou eliminar uma variável extra na expressão 
+  final.
 
- * Treine com Mapas Menores Primeiro: Antes de se aventurar nos mapas com 5 ou 6 variáveis, que são visualmente mais complexos, pratique bastante com os de 2, 3 e 4 variáveis. Esses mapas são como pistas de treino, perfeitos para ganhar confiança, entender os padrões e dominar os movimentos básicos. Quando se sentir à vontade, os maiores parecerão apenas uma versão expandida do que você já conhece.
+ * Treine com Mapas Menores Primeiro: Antes de se aventurar nos mapas com 5 ou 6 variáveis, que são visualmente 
+  mais complexos, pratique bastante com os de 2, 3 e 4 variáveis. Esses mapas são como pistas de treino, perfeitos 
+  para ganhar confiança, entender os padrões e dominar os movimentos básicos. Quando se sentir à vontade, os 
+  maiores parecerão apenas uma versão expandida do que você já conhece.
 
- * Observe Padrões Simétricos: Muitas vezes, os 1s no mapa formam figuras repetidas: quadrados, retângulos, linhas. Esses padrões simétricos são atalhos visuais para identificar os agrupamentos rapidamente. Enxergar essas formas é como ver figuras escondidas em um desenho, com o tempo, seu cérebro aprende a reconhecer esses sinais quase que automaticamente.
+ * Observe Padrões Simétricos: Muitas vezes, os 1s no mapa formam figuras repetidas: quadrados, retângulos, linhas. 
+  Esses padrões simétricos são atalhos visuais para identificar os agrupamentos rapidamente. Enxergar essas formas 
+  é como ver figuras escondidas em um desenho, com o tempo, seu cérebro aprende a reconhecer esses sinais quase que 
+  automaticamente.
 
- Em suma, dominar essas dicas transforma o Mapa de Karnaugh de uma simples ferramenta em um verdadeiro aliado da lógica. Mais do que aplicar regras, você começa a desenvolver uma sensibilidade visual para padrões e estratégias — algo que não apenas acelera o raciocínio, mas torna a resolução dos problemas mais prazerosa. É como aprender a tocar um instrumento: no início é técnico, depois se transforma em música.
+ Em suma, dominar essas dicas transforma o Mapa de Karnaugh de uma simples ferramenta em um verdadeiro aliado da 
+lógica. Mais do que aplicar regras, você começa a desenvolver uma sensibilidade visual para padrões e estratégias — 
+algo que não apenas acelera o raciocínio, mas torna a resolução dos problemas mais prazerosa. É como aprender a 
+tocar um instrumento: no início é técnico, depois se transforma em música.
 
-Com prática, essas orientações deixam de ser lembretes externos e passam a fazer parte do seu raciocínio natural. E quando isso acontece, simplificar expressões não parece mais uma tarefa árida, mas um processo leve, quase como brincar com lógica. Afinal, como em todo bom jogo, entender as regras e aplicar boas estratégias é o que faz tudo fluir com leveza e criatividade.
+ Com prática, essas orientações deixam de ser lembretes externos e passam a fazer parte do seu raciocínio natural. 
+E quando isso acontece, simplificar expressões não parece mais uma tarefa árida, mas um processo leve, quase como 
+brincar com lógica. Afinal, como em todo bom jogo, entender as regras e aplicar boas estratégias é o que faz tudo 
+fluir com leveza e criatividade.
 
 
 
