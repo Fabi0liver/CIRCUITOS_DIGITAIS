@@ -537,7 +537,8 @@ crescer.
  Quando ultrapassamos a marca das quatro variáveis, os Mapas de Karnaugh começam a crescer de forma exponencial, 
 literalmente. Com cinco variáveis, por exemplo, já temos 2⁵ = 32 células, e com seis variáveis, 64 células. A 
 estrutura, embora ainda siga a mesma lógica de organização por Código de Gray e agrupamento de células com valores 
-iguais, começa a extrapolar os limites de visualização simples em uma única grade bidimensional. É como se estivéssemos tentando jogar um jogo de tabuleiro que não cabe mais em uma única mesa, precisamos encontrar maneiras 
+iguais, começa a extrapolar os limites de visualização simples em uma única grade bidimensional. É como se 
+estivéssemos tentando jogar um jogo de tabuleiro que não cabe mais em uma única mesa, precisamos encontrar maneiras 
 criativas de visualizar ou dividir o espaço.
 
  Para lidar com isso, uma técnica comum é dividir o mapa em “planos” ou “camadas”. No caso de cinco variáveis, por 
