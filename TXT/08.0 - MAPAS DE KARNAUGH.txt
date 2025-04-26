@@ -907,7 +907,7 @@ fluir com leveza e criatividade.
 
 
 
-                                   "Conclusão sobre o Mapa de Karnaugh"
+                                  "Conclusão sobre o Mapa de Karnaugh"
 
  Ao longo de nossa jornada pelo Mapa de Karnaugh, ficou evidente como essa ferramenta vai muito além de uma simples 
 técnica de simplificação. Ela representa uma ponte entre o raciocínio lógico e a intuição visual, permitindo que 
