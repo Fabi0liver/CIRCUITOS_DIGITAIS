@@ -655,7 +655,7 @@ explorá-los na prática e ver a mágica acontecer.
 
 
 
-                            "Como Fazer uma Simplificação com Mapas de Karnaugh"
+                             "Como Fazer uma Simplificação com Mapas de Karnaugh"
 
  Em essência, fazer uma simplificação usando o Mapa de Karnaugh é como pegar uma ideia complicada e encontrar uma 
 forma muito mais clara e elegante de expressá-la. Sabe quando você tem uma receita cheia de etapas repetidas ou 
@@ -783,7 +783,7 @@ técnica, você ganha mais do que soluções: ganha uma nova forma de enxergar o
 
 
 
-                       "Mapas de Karnaugh com Condições Irrelevantes (“Don’t Care”)"
+                        "Mapas de Karnaugh com Condições Irrelevantes (“Don’t Care”)"
 
  Imagine que você está organizando uma festa e tem alguns pratos na lista que talvez nem precisem ser servidos. 
 Eles estão ali como opção, mas se entrarem ou não no cardápio, tanto faz. Esses pratos são como as condições 
@@ -809,7 +809,7 @@ inteligência, clareza e otimização.
 
 
 
-               "Comparação de Simplificação entre o Mapa de Karnaugh e outros Métodos"
+                  "Comparação de Simplificação entre o Mapa de Karnaugh e outros Métodos"
 
  Quando falamos em simplificar expressões booleanas, o Mapa de Karnaugh não é o único caminho possível, mas é 
 certamente um dos mais visuais e intuitivos. Outros métodos como a simplificação algébrica e o algoritmo de Quine-
@@ -837,7 +837,7 @@ depois de dominar os movimentos, você poderá explorar novas estratégias com m
 
 
 
-                           "Dicas Práticas para Dominar o Mapa de Karnaugh"
+                            "Dicas Práticas para Dominar o Mapa de Karnaugh"
 
  Simplificar expressões usando o Mapa de Karnaugh pode parecer, num primeiro olhar, um desafio cheio de regras e 
 detalhes... Mas a verdade é que, com algumas dicas práticas, o processo se torna mais natural, prazeroso e até 
@@ -907,7 +907,7 @@ fluir com leveza e criatividade.
 
 
 
-                                  "Conclusão sobre o Mapa de Karnaugh"
+                                   "Conclusão sobre o Mapa de Karnaugh"
 
  Ao longo de nossa jornada pelo Mapa de Karnaugh, ficou evidente como essa ferramenta vai muito além de uma simples 
 técnica de simplificação. Ela representa uma ponte entre o raciocínio lógico e a intuição visual, permitindo que 
