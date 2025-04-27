@@ -75,7 +75,7 @@ história da engenharia digital, que continua relevante na era dos microprocessa
 
 
 
-                      "Diferença entre Mapa de Karnaugh e a Simplificação Algébrica"
+                        "Diferença entre Mapa de Karnaugh e a Simplificação Algébrica"
 
  A simplificação algébrica é como resolver um problema usando papel, lápis e muita atenção às regras. Trata-se de 
 aplicar as leis da álgebra booleana (como a distributiva, a comutativa, a de absorção, entre outras) para reduzir 
@@ -104,7 +104,7 @@ quando cada um é mais vantajoso.
 
 
 
-                                    "Estrutura do Mapa de Karnaugh"
+                                     "Estrutura do Mapa de Karnaugh"
 
  Agora que já conhecemos o que é um Mapa de Karnaugh e entendemos sua origem, é hora de começar a explorar o 
 esqueleto dessa ferramenta tão poderosa: sua estrutura. Vamos encarar isso como abrir um tabuleiro de jogo novo. 
