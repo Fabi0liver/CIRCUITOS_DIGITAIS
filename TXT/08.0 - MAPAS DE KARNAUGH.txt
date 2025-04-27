@@ -1,4 +1,4 @@
-                                          MAPAS DE KARNAUGH
+                                           MAPAS DE KARNAUGH
 
 
  Quando começamos a explorar o mundo da eletrônica digital, percebemos que lidar com expressões booleanas (aquelas 
@@ -40,7 +40,7 @@ conhece bem, com segurança, estratégia e criatividade.
 
 
 
-                                 "O que é, de fato, um Mapa de Karnaugh"
+                                  "O que é, de fato, um Mapa de Karnaugh"
 
  Um Mapa de Karnaugh é, essencialmente, uma forma visual de organizar e simplificar expressões lógicas, 
 especialmente aquelas usadas em circuitos digitais. Em vez de depender exclusivamente da álgebra booleana (que pode 
