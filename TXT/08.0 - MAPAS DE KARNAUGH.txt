@@ -246,7 +246,7 @@ muito mais naturais e acessíveis. Vamos continuar essa jornada com calma, clare
 
 
 
-                             "Mapa de Karnaugh com Duas Variáveis"
+                                   "Mapa de Karnaugh com Duas Variáveis"
 
  Agora que você já tem uma base sólida sobre o Mapa de Karnaugh, vamos iniciar nossa jornada prática começando pelo 
 caso mais simples, o mapa com apenas duas variáveis. Essa é a porta de entrada perfeita para entender como 
@@ -333,7 +333,7 @@ novas camadas de desafio.
 
 
 
-                                "Mapa de Karnaugh com 3 Variáveis"
+                                  "Mapa de Karnaugh com 3 Variáveis"
 
  Chegamos a um ponto muito interessante do nosso estudo: o Mapa de Karnaugh com 3 variáveis. Aqui, o mapa já começa 
 a mostrar um pouco mais da sua complexidade e ao mesmo tempo da sua beleza. Com três variáveis (que podemos chamar 
@@ -418,7 +418,7 @@ realizar simplificações com confiança.
 
 
 
-                                   "Mapa de Karnaugh com 4 Variáveis"
+                                    "Mapa de Karnaugh com 4 Variáveis"
 
  Agora que você já conhece bem os fundamentos dos Mapas de Karnaugh e compreende como os agrupamentos funcionam, 
 chegou o momento de explorarmos uma versão mais ampla e poderosa dessa ferramenta: o Mapa de Karnaugh com 4 
