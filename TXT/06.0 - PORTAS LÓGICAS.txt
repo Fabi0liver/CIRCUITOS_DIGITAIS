@@ -52,7 +52,8 @@ operações lógicas, como AND, OR, e NOT.
 invenção dos primeiros computadores digitais, essas portas começaram a ser implementadas fisicamente. Elas eram, e 
 ainda são, construídas com transistores, que funcionam como interruptores eletrônicos, ligando ou desligando sinais 
 elétricos. Foi nessa época que as portas lógicas se tornaram fundamentais para o design de computadores e sistemas 
-eletrônicos, transformando o conceito abstrato de lógica matemática em algo que poderia ser aplicado diretamente em hardware.
+eletrônicos, transformando o conceito abstrato de lógica matemática em algo que poderia ser aplicado diretamente 
+em hardware.
 
  Assim, as portas lógicas surgiram como um elo entre a matemática abstrata e as máquinas físicas, permitindo que os 
 computadores se tornassem mais rápidos, eficientes e capazes de realizar tarefas complexas. Com o tempo, elas 
