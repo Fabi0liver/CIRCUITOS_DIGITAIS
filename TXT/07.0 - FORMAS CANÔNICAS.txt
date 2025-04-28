@@ -3,7 +3,8 @@
 
  Hoje nós vamos dar os primeiros passos em um assunto fundamental na base da lógica digital: as formas canônicas. 
 Pode parecer um nome complicado à primeira vista, mas acredite, esse conceito está mais perto do nosso dia a dia do 
-que parece. Pense nas formas canônicas como formas organizadas e padronizadas de escrever ideias lógicas, como se estivéssemos escrevendo uma receita ou manual que qualquer pessoa pode seguir sem erro. Em um mundo onde precisamos 
+que parece. Pense nas formas canônicas como formas organizadas e padronizadas de escrever ideias lógicas, como se 
+estivéssemos escrevendo uma receita ou manual que qualquer pessoa pode seguir sem erro. Em um mundo onde precisamos 
 que computadores e circuitos entendam nossas instruções com precisão, essas formas são indispensáveis.
 
  Imagine que você vai montar um móvel com peças e instruções específicas, se cada pessoa montar do seu jeito, o 
