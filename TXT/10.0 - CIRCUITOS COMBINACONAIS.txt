@@ -369,12 +369,13 @@ pensar como um verdadeiro engenheiro digital. Ao enxergar os circuitos combinaci
 ser otimizados, organizados e reaproveitados, você se coloca num patamar mais criativo, analítico e produtivo. 
 
                   
+
                         "Tecnologias de Implementação dos Circuitos Combinacionais"
 
  Depois de entender como circuitos combinacionais funcionam no papel, surge uma pergunta natural: como esses 
 circuitos são implementados fisicamente no mundo real? Ou seja, como aquelas expressões lógicas que desenhamos com 
 portas AND, OR e NOT se transformam em algo concreto que possa estar dentro de um celular, de um carro ou até de um 
-robô? É aqui que entram as tecnologias de implementação — os diferentes caminhos pelos quais um circuito lógico 
+robô? É aqui que entram as tecnologias de implementação, os diferentes caminhos pelos quais um circuito lógico 
 pode ser materializado em um sistema físico.
 
  Uma das formas mais didáticas (e clássicas) de implementação é através dos circuitos com portas lógicas discretas, 
