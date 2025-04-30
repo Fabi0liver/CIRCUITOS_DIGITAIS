@@ -439,11 +439,25 @@ com a higiene, o mise en place e o tempo de preparo.
 
                                "Conclusão sobre Circuitos Combinacionais"
 
- Chegamos ao fim dessa jornada introdutória pelos circuitos combinacionais, e talvez agora você perceba que eles são muito mais do que conjuntos de portas lógicas conectadas. Eles são, na essência, o alicerce da inteligência embutida em todo sistema digital, do mais simples temporizador ao mais complexo processador. São como pequenas engrenagens de raciocínio automático, capazes de tomar decisões instantâneas com base em entradas lógicas. Estudar circuitos combinacionais é, portanto, aprender a pensar como a máquina pensa, com lógica, clareza e propósito.
+ Chegamos ao fim dessa jornada pelos circuitos combinacionais, e talvez agora você perceba que eles são muito mais 
+do que conjuntos de portas lógicas conectadas. Eles são, na essência, o alicerce da inteligência embutida em todo 
+sistema digital, do mais simples temporizador ao mais complexo processador. São como pequenas engrenagens de 
+raciocínio automático, capazes de tomar decisões instantâneas com base em entradas lógicas. Estudar circuitos 
+combinacionais é, portanto, aprender a pensar como a máquina pensa, com lógica, clareza e propósito.
 
-Mas mais do que decorar símbolos ou fórmulas, o que realmente importa aqui é desenvolver o olhar de projetista: aquele que enxerga por trás do circuito um problema sendo resolvido com criatividade e precisão. Ao longo deste caminho, vimos que cada etapa do estudo (da álgebra booleana à implementação prática) nos prepara para criar soluções que podem, literalmente, transformar o mundo à nossa volta. Circuitos não são apenas blocos funcionais, são manifestações de lógica aplicada com intenção.
+ Mas mais do que decorar símbolos ou fórmulas, o que realmente importa aqui é desenvolver o olhar de projetista: 
+aquele que enxerga por trás do circuito um problema sendo resolvido com criatividade e precisão. Ao longo deste 
+caminho, vimos que cada etapa do estudo (da álgebra booleana à implementação prática) nos prepara para criar 
+soluções que podem, literalmente, transformar o mundo à nossa volta. Circuitos não são apenas blocos funcionais, 
+são manifestações de lógica aplicada com intenção.
 
-E como todo conhecimento técnico, os circuitos combinacionais nos ensinam mais do que apenas eletrônica. Eles nos convidam à disciplina, ao raciocínio estruturado, à atenção aos detalhes e, acima de tudo, à capacidade de quebrar problemas grandes em partes compreensíveis, uma habilidade que vale ouro em qualquer área da vida. É por isso que, mesmo que você não siga carreira na engenharia digital, o que você aprende aqui ressoa muito além dos bits e fios: ele treina o seu pensamento.
+ E como todo conhecimento técnico, os circuitos combinacionais nos ensinam mais do que apenas eletrônica. Eles nos 
+convidam à disciplina, ao raciocínio estruturado, à atenção aos detalhes e, acima de tudo, à capacidade de quebrar 
+problemas grandes em partes compreensíveis, uma habilidade que vale ouro em qualquer área da vida. É por isso que, 
+mesmo que você não siga carreira na engenharia digital, o que você aprende aqui ressoa muito além dos bits e fios: 
+ele treina o seu pensamento.
 
-Portanto, leve consigo não só os conceitos, mas a confiança de que sim, você é capaz de entender, projetar e evoluir dentro desse universo. Cada circuito que você montar é uma conquista. Cada tabela-verdade que fizer sentido, um passo a mais. E quando parecer difícil, lembre-se: todo grande engenheiro um dia começou ligando sua primeira porta AND. E agora, com essa base sólida, você está mais do que pronto para continuar construindo. 
-
+ Portanto, leve consigo não só os conceitos, mas a confiança de que sim, você é capaz de entender, projetar e 
+evoluir dentro desse universo. Cada circuito que você montar é uma conquista. Cada tabela-verdade que fizer 
+sentido, um passo a mais. E quando parecer difícil, lembre-se: todo grande engenheiro um dia começou ligando sua 
+primeira porta AND. E agora, com essa base sólida, você está mais do que pronto para continuar construindo. 
