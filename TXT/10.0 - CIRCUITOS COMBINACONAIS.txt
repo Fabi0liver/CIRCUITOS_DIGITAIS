@@ -392,7 +392,7 @@ a reduzir o espaço, o consumo de energia e o tempo de montagem, sendo muito usa
 
  Mas em aplicações mais modernas e dinâmicas, especialmente em projetos que exigem personalização e flexibilidade, 
 entram em cena as tecnologias programáveis, como as PLDs (Programmable Logic Devices), FPGAs (Field-Programmable 
-Gate Arrays) e CPLDs (Complex Programmable Logic Devices). Esses dispositivos funcionam como folhas em branco — 
+Gate Arrays) e CPLDs (Complex Programmable Logic Devices). Esses dispositivos funcionam como folhas em branco, 
 você escreve a lógica que quiser (usando linguagens como VHDL ou Verilog) e "programa" o chip para que ele funcione 
 exatamente como seu circuito combinacional exige. É como ter um quadro mágico onde você pode desenhar e redesenhar 
 o que quiser, ideal para protótipos avançados, sistemas embarcados e produtos em constante evolução.
@@ -407,13 +407,33 @@ real, que você pode segurar, montar e até ver funcionando diante dos seus olho
 
                       "Considerações Práticas e de Projeto nos Circuitos Combinacionais"
 
- Quando estudamos circuitos combinacionais no papel, tudo parece limpo, exato e até poético, cada 0 e 1 perfeitamente posicionado, cada porta lógica operando como uma engrenagem bem lubrificada. Mas quando levamos esse circuito para o mundo real, descobrimos que a prática tem suas próprias exigências. Imagine que você está desenhando um sistema de irrigação para uma horta: no plano, os canos e válvulas funcionam com perfeição, mas no campo, a pressão da água, o tempo de resposta e o clima afetam tudo. Com circuitos digitais é parecido. Existem atrasos, ruídos, limitações físicas e até efeitos indesejados que podem atrapalhar o comportamento esperado do circuito.
+ Quando estudamos circuitos combinacionais no papel, tudo parece limpo, exato e até poético, cada 0 e 1 
+perfeitamente posicionado, cada porta lógica operando como uma engrenagem bem lubrificada. Mas quando levamos esse 
+circuito para o mundo real, descobrimos que a prática tem suas próprias exigências. Imagine que você está 
+desenhando um sistema de irrigação para uma horta: no plano, os canos e válvulas funcionam com perfeição, mas no 
+campo, a pressão da água, o tempo de resposta e o clima afetam tudo. Com circuitos digitais é parecido. Existem 
+atrasos, ruídos, limitações físicas e até efeitos indesejados que podem atrapalhar o comportamento esperado do 
+circuito.
 
-Um exemplo muito comum desses desafios práticos são os tempos de propagação. Toda vez que um sinal passa por uma porta lógica, ele não “teleporta” o resultado imediatamente, há um pequeno atraso, mesmo que seja na ordem dos nanossegundos. Se esse tempo não for considerado com atenção, podem surgir condições de corrida e hazards (instabilidades temporárias), que fazem com que o circuito dê respostas erradas por frações de tempo. É como acionar várias luzes com um único interruptor e algumas acenderem um pouquinho depois, isso pode gerar confusão se você estiver cronometrando tudo com precisão.
+ Um exemplo muito comum desses desafios práticos são os tempos de propagação. Toda vez que um sinal passa por uma 
+porta lógica, ele não “teleporta” o resultado imediatamente, há um pequeno atraso, mesmo que seja na ordem dos 
+nanossegundos. Se esse tempo não for considerado com atenção, podem surgir condições de corrida e hazards 
+(instabilidades temporárias), que fazem com que o circuito dê respostas erradas por frações de tempo. É como 
+acionar várias luzes com um único interruptor e algumas acenderem um pouquinho depois, isso pode gerar confusão se 
+você estiver cronometrando tudo com precisão.
 
-Outra consideração crucial é a eficiência do projeto. Em teoria, podemos montar um circuito com dezenas de portas se ele funcionar, mas em ambientes reais (como placas compactas, dispositivos móveis ou sistemas embarcados) cada porta conta: mais portas significam mais área física, mais calor, mais consumo de energia e mais chances de falha. É por isso que os engenheiros digitais sempre buscam o equilíbrio ideal entre funcionalidade e simplicidade. Projetar um circuito eficiente é como escrever um poema curto, mas com o máximo de significado, menos é mais.
+ Outra consideração crucial é a eficiência do projeto. Em teoria, podemos montar um circuito com dezenas de portas 
+se ele funcionar, mas em ambientes reais (como placas compactas, dispositivos móveis ou sistemas embarcados) cada 
+porta conta: mais portas significam mais área física, mais calor, mais consumo de energia e mais chances de falha. 
+É por isso que os engenheiros digitais sempre buscam o equilíbrio ideal entre funcionalidade e simplicidade. 
+Projetar um circuito eficiente é como escrever um poema curto, mas com o máximo de significado, menos é mais.
 
-Por fim, precisamos falar sobre a importância das boas práticas de projeto. Isso envolve documentar bem o circuito, simular antes de implementar fisicamente, seguir padrões lógicos e, quando possível, aplicar testes de robustez. Um bom circuito não é só aquele que “funciona”, mas aquele que funciona sempre, mesmo em situações inesperadas. Essa visão prática e disciplinada é o que separa o iniciante do profissional. E o melhor: você pode começar a desenvolvê-la desde já, mesmo nos seus primeiros projetos, como quem aprende a cozinhar já se preocupando com a higiene, o mise en place e o tempo de preparo.
+ Por fim, precisamos falar sobre a importância das boas práticas de projeto. Isso envolve documentar bem o 
+circuito, simular antes de implementar fisicamente, seguir padrões lógicos e, quando possível, aplicar testes de 
+robustez. Um bom circuito não é só aquele que “funciona”, mas aquele que funciona sempre, mesmo em situações 
+inesperadas. Essa visão prática e disciplinada é o que separa o iniciante do profissional. E o melhor: você pode 
+começar a desenvolvê-la desde já, mesmo nos seus primeiros projetos, como quem aprende a cozinhar já se preocupando 
+com a higiene, o mise en place e o tempo de preparo.
 
 
 
