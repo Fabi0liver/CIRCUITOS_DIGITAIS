@@ -342,17 +342,37 @@ você estará pronto para projetar e compreender circuitos com cada vez mais pro
 
                      "Técnicas Avançadas e Modularização dos Circuitos Combinacionais"
 
- À medida que avançamos no estudo dos circuitos combinacionais, começamos a perceber que construir circuitos inteiros porta por porta, fio por fio, pode ser como montar uma cidade usando apenas tijolos, possível, mas trabalhoso e nada eficiente. É nesse ponto que surgem as chamadas técnicas avançadas, que funcionam como ferramentas inteligentes para tornar nossos projetos mais rápidos, enxutos e organizados. Essas técnicas não mudam os fundamentos da lógica digital, mas nos ajudam a aplicar esses fundamentos de maneira mais estratégica, como quem aprende a cozinhar com eficiência usando utensílios certos e processos otimizados, em vez de seguir cada receita sempre do zero.
+ À medida que avançamos no estudo dos circuitos combinacionais, começamos a perceber que construir circuitos 
+inteiros porta por porta, fio por fio, pode ser como montar uma cidade usando apenas tijolos, possível, mas 
+trabalhoso e nada eficiente. É nesse ponto que surgem as chamadas técnicas avançadas, que funcionam como 
+ferramentas inteligentes para tornar nossos projetos mais rápidos, enxutos e organizados. Essas técnicas não mudam 
+os fundamentos da lógica digital, mas nos ajudam a aplicar esses fundamentos de maneira mais estratégica, como quem 
+aprende a cozinhar com eficiência usando utensílios certos e processos otimizados, em vez de seguir cada receita 
+sempre do zero.
 
-Um dos conceitos mais importantes dentro desse cenário é o da modularização. Em vez de construir um circuito grande como um único bloco complicado, podemos dividi-lo em módulos menores, cada um com uma função bem definida — como montar um robô com peças LEGO especializadas para braços, pernas e sensores. Esses blocos podem ser somadores, comparadores, multiplexadores, decodificadores, entre outros. O mais interessante é que esses módulos podem ser reutilizados em vários projetos diferentes, trazendo economia de tempo, clareza e escalabilidade. É como escrever um trecho de código de programação que você pode colar em vários lugares, só que no mundo físico dos circuitos.
+ Um dos conceitos mais importantes dentro desse cenário é o da modularização. Em vez de construir um circuito 
+grande como um único bloco complicado, podemos dividi-lo em módulos menores, cada um com uma função bem definida,
+como montar um robô com peças LEGO especializadas para braços, pernas e sensores. Esses blocos podem ser somadores, 
+comparadores, multiplexadores, decodificadores, entre outros. O mais interessante é que esses módulos podem ser 
+reutilizados em vários projetos diferentes, trazendo economia de tempo, clareza e escalabilidade. É como escrever 
+um trecho de código de programação que você pode colar em vários lugares, só que no mundo físico dos circuitos.
 
-Além da organização, essas técnicas mais avançadas também envolvem formas de tornar os circuitos mais eficientes. Isso inclui reduzir o número de portas utilizadas, o consumo de energia, o tempo que o sinal leva para se propagar de uma ponta à outra e até o custo da implementação. Pense como um arquiteto que não só desenha uma casa bonita, mas também garante que ela seja econômica, funcional e segura. Projetar um circuito com esse olhar mais estratégico nos aproxima da realidade da engenharia profissional, onde cada detalhe conta, e onde o “como” é tão importante quanto o “o quê”.
+ Além da organização, essas técnicas mais avançadas também envolvem formas de tornar os circuitos mais eficientes. 
+Isso inclui reduzir o número de portas utilizadas, o consumo de energia, o tempo que o sinal leva para se propagar 
+de uma ponta à outra e até o custo da implementação. Pense como um arquiteto que não só desenha uma casa bonita, 
+mas também garante que ela seja econômica, funcional e segura. Projetar um circuito com esse olhar mais estratégico 
+nos aproxima da realidade da engenharia profissional, onde cada detalhe conta, e onde o “como” é tão importante 
+quanto o “o quê”.
 
-Portanto, entender e aplicar essas estratégias é mais do que uma questão de avançar nos estudos, é uma forma de pensar como um verdadeiro engenheiro digital. Ao enxergar os circuitos combinacionais como blocos lógicos que podem ser otimizados, organizados e reaproveitados, você se coloca num patamar mais criativo, analítico e produtivo. Na nossa próxima etapa, vamos mergulhar fundo nesses conceitos, entender como cada técnica funciona e experimentar na prática como a modularização transforma a forma como construímos soluções digitais.
+ Portanto, entender e aplicar essas estratégias é mais do que uma questão de avançar nos estudos, é uma forma de 
+pensar como um verdadeiro engenheiro digital. Ao enxergar os circuitos combinacionais como blocos lógicos que podem 
+ser otimizados, organizados e reaproveitados, você se coloca num patamar mais criativo, analítico e produtivo. Na 
+nossa próxima etapa, vamos mergulhar fundo nesses conceitos, entender como cada técnica funciona e experimentar na 
+prática como a modularização transforma a forma como construímos soluções digitais.
 
 
                   
-                       "Tecnologias de Implementação dos Circuitos Combinacionais"
+                        "Tecnologias de Implementação dos Circuitos Combinacionais"
 
 Depois de entender como circuitos combinacionais funcionam no papel, surge uma pergunta natural: como esses circuitos são implementados fisicamente no mundo real? Ou seja, como aquelas expressões lógicas que desenhamos com portas AND, OR e NOT se transformam em algo concreto que possa estar dentro de um celular, de um carro ou até de um robô? É aqui que entram as tecnologias de implementação — os diferentes caminhos pelos quais um circuito lógico pode ser materializado em um sistema físico.
 
@@ -366,7 +386,7 @@ Cada uma dessas tecnologias tem seus pontos fortes: as portas discretas ajudam n
 
 
 
-                     "Considerações Práticas e de Projeto nos Circuitos Combinacionais"
+                      "Considerações Práticas e de Projeto nos Circuitos Combinacionais"
 
  Quando estudamos circuitos combinacionais no papel, tudo parece limpo, exato e até poético, cada 0 e 1 perfeitamente posicionado, cada porta lógica operando como uma engrenagem bem lubrificada. Mas quando levamos esse circuito para o mundo real, descobrimos que a prática tem suas próprias exigências. Imagine que você está desenhando um sistema de irrigação para uma horta: no plano, os canos e válvulas funcionam com perfeição, mas no campo, a pressão da água, o tempo de resposta e o clima afetam tudo. Com circuitos digitais é parecido. Existem atrasos, ruídos, limitações físicas e até efeitos indesejados que podem atrapalhar o comportamento esperado do circuito.
 
