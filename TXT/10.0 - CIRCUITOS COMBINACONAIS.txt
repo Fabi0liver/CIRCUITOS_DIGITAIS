@@ -157,7 +157,7 @@ um verdadeiro especialista em eletrônica digital.
 
 
 
-                         "Passos para Construção de Circuitos Combinacionais"
+                            "Passos para Construção de Circuitos Combinacionais"
 
  Projetar um circuito combinacional pode parecer, à primeira vista, como tentar montar um quebra-cabeça técnico. 
 Mas, na verdade, esse processo segue uma lógica muito clara e organizada, quase como seguir uma receita culinária. Assim como um chef reúne os ingredientes, escolhe a técnica e, passo a passo, monta um prato, ao projetar circuitos 
@@ -217,65 +217,126 @@ pequena conquista no caminho de se tornar um verdadeiro construtor do mundo digi
 
 
 
-                           "Tipos Fundamentais de Circuitos Combinacionais"
+                             "Tipos Fundamentais de Circuitos Combinacionais"
 
- Agora que já conhecemos os fundamentos e o processo de criação dos circuitos combinacionais, é hora de mergulhar em suas aplicações mais diretas, os tipos fundamentais de circuitos. Esses circuitos são como as ferramentas básicas de uma oficina digital: cada um com uma função bem definida, mas todos com potencial de se combinarem em sistemas maiores e mais complexos. Quando dominamos essas peças, conseguimos montar estruturas sofisticadas como calculadoras, processadores, controladores, roteadores e muito mais.
+ Agora que já conhecemos os fundamentos e o processo de criação dos circuitos combinacionais, é hora de mergulhar 
+em suas aplicações mais diretas, os tipos fundamentais de circuitos. Esses circuitos são como as ferramentas 
+básicas de uma oficina digital: cada um com uma função bem definida, mas todos com potencial de se combinarem em 
+sistemas maiores e mais complexos. Quando dominamos essas peças, conseguimos montar estruturas sofisticadas como 
+calculadoras, processadores, controladores, roteadores e muito mais.
 
- Entender esses circuitos é como aprender os movimentos básicos de um jogo de xadrez: no começo, cada peça tem uma função simples, mas ao combiná-las, o tabuleiro se transforma em um universo de possibilidades. Nesta parte, vamos explorar os circuitos combinacionais mais importantes (aqueles que formam o coração da lógica digital prática) e conhecer o papel que cada um deles desempenha nesse grande quebra-cabeça eletrônico.
-
-
- * Somadores: Os somadores são circuitos que realizam a operação aritmética da soma entre bits. Existem dois tipos principais: o meio somador, que soma dois bits e fornece um resultado parcial (soma e vai-um), e o somador completo, que inclui também um terceiro bit de entrada (vai-um anterior), sendo capaz de realizar somas encadeadas, como em operações com números binários maiores. Imagine o somador como um contador que sabe somar dois números simples e avisar se passou do limite, como somar 9 + 1 e informar que "virou" para 10.
-
-Esses circuitos são essenciais em qualquer sistema que lida com números, como calculadoras, processadores ou controladores. Ao encadear vários somadores completos, criamos o chamado somador paralelo, capaz de somar números binários com múltiplos bits (4, 8, 16, ou mais). Ele opera bit a bit, da direita para a esquerda, passando o vai-um de um estágio para o próximo, como uma corrente de dominós que se movimenta conforme as entradas.
-
-Além disso, a soma binária realizada pelos somadores é a base para muitas outras operações, como subtração, multiplicação e até cálculos lógicos mais avançados. Por isso, entender bem o funcionamento interno dos somadores abre portas para um entendimento mais profundo de como os computadores fazem contas, literalmente bit a bit.
-
-
- * Subtratores: Os subtratores realizam a operação de subtração entre bits e seguem uma lógica parecida com a dos somadores. Também existem dois tipos básicos: o meio subtrator, que trabalha com dois bits, e o subtrator completo, que considera também o "empréstimo" de uma subtração anterior. É como fazer contas no papel, onde, às vezes, precisamos "pegar emprestado" de uma casa decimal à esquerda para completar a operação.
-
-Na lógica digital, esse “empréstimo” é chamado de borrow, e o circuito precisa tratar não apenas o resultado da subtração, mas também indicar se foi necessário tomar emprestado da próxima casa. Em sistemas maiores, subtratores completos são encadeados da mesma forma que os somadores, formando subtratores multi-bits. Muitos processadores utilizam técnicas que convertem a subtração em adição com números negativos (usando complemento de dois), aproveitando os mesmos circuitos de soma.
-
-O estudo dos subtratores é fundamental para entender como as máquinas tratam comparações e diferenças, desde simples decrementos até operações mais complexas, como cálculos de intervalo, distância ou ajuste de valores em tempo real.
+ Entender esses circuitos é como aprender os movimentos básicos de um jogo de xadrez: no começo, cada peça tem uma 
+função simples, mas ao combiná-las, o tabuleiro se transforma em um universo de possibilidades. Nesta parte, vamos 
+explorar os circuitos combinacionais mais importantes (aqueles que formam o coração da lógica digital prática) e 
+conhecer o papel que cada um deles desempenha nesse grande quebra-cabeça eletrônico.
 
 
- * Comparadores: Comparadores são circuitos que analisam duas entradas binárias e determinam se são iguais, diferentes ou se uma é maior que a outra. Imagine um comparador como um árbitro que, ao receber dois números, aponta o resultado: "são iguais", "um é maior" ou "um é menor". Ele não realiza contas, mas sim julgamentos com base na lógica.
+ * Somadores: Os somadores são circuitos que realizam a operação aritmética da soma entre bits. Existem dois tipos 
+  principais: o meio somador, que soma dois bits e fornece um resultado parcial (soma e vai-um), e o somador  
+  completo, que inclui também um terceiro bit de entrada (vai-um anterior), sendo capaz de realizar somas 
+  encadeadas, como em operações com números binários maiores. Imagine o somador como um contador que sabe somar 
+  dois números simples e avisar se passou do limite, como somar 9 + 1 e informar que "virou" para 10.
 
-O comparador mais simples é o de 1 bit, que verifica se dois bits são iguais. A partir dele, podemos montar comparadores de múltiplos bits, verificando igualdade e magnitude entre números binários maiores. Esses circuitos são amplamente utilizados em sistemas de controle, como sensores que verificam se uma temperatura atingiu um limite, ou em unidades de decisão que escolhem entre dois caminhos diferentes.
+   Esses circuitos são essenciais em qualquer sistema que lida com números, como calculadoras, processadores ou 
+  controladores. Ao encadear vários somadores completos, criamos o chamado somador paralelo, capaz de somar números 
+  binários com múltiplos bits (4, 8, 16, ou mais). Ele opera bit a bit, da direita para a esquerda, passando o vai-
+  um de um estágio para o próximo, como uma corrente de dominós que se movimenta conforme as entradas.
 
-Comparadores também são essenciais em processos de ordenação, buscas e otimizações, onde é preciso tomar decisões com base na comparação de valores. Assim, apesar de parecerem simples, esses circuitos exercem um papel estratégico em muitas aplicações digitais.
-
-
- * Multiplexadores: O multiplexador (ou simplesmente MUX) é como um seletor de entrada. Ele recebe várias entradas de dados, mas entrega apenas uma delas como saída, de acordo com um sinal de controle. Pense nele como um interruptor rotativo: você gira o botão (sinal de seleção) e escolhe qual dos vários caminhos será ativado.
-
-Por exemplo, um MUX 4:1 possui quatro entradas de dados e uma saída. O valor enviado à saída depende da combinação dos sinais de seleção. Multiplexadores são utilizados em sistemas onde é necessário alternar entre diferentes fontes de dados, como escolher entre várias câmeras de segurança para exibir em uma única tela.
-
-Na prática, os MUXs são peças-chave na comunicação de dados, seleção de caminhos em processadores e até em lógica programável. Sua função é tão estratégica que, combinando multiplexadores, é possível montar sistemas de decisão bastante complexos com elegância e eficiência.
-
-
- * Demultiplexadores: Se o multiplexador (ou simplesmente DEMUX) escolhe uma saída entre muitas entradas, o demultiplexador faz o caminho inverso: ele distribui uma entrada para uma das várias saídas, também controlado por sinais de seleção. É como um carteiro que recebe uma carta (a entrada) e decide para qual caixa de correio (entre várias saídas) deve entregá-la.
-
-Um DEMUX 1:4, por exemplo, envia o valor da entrada para uma entre quatro possíveis saídas, dependendo do valor de controle. Isso é muito útil quando um dado precisa ser encaminhado para diferentes destinos, dependendo da situação, como em roteadores de rede, controladores ou sistemas de distribuição.
-
-Assim como os MUXs, os DEMUXs são amplamente usados em arquiteturas digitais para controlar fluxos, distribuir dados e selecionar caminhos lógicos. Eles ajudam a organizar a complexidade de um sistema, dividindo a responsabilidade entre múltiplas unidades.
+   Além disso, a soma binária realizada pelos somadores é a base para muitas outras operações, como subtração, 
+  multiplicação e até cálculos lógicos mais avançados. Por isso, entender bem o funcionamento interno dos somadores 
+  abre portas para um entendimento mais profundo de como os computadores fazem contas, literalmente bit a bit.
 
 
- * Codificadores: Os codificadores fazem o papel de transformar informações em códigos binários. Dado um conjunto de entradas, o codificador ativa uma única combinação binária correspondente à posição da entrada ativa. É como um tradutor: você pressiona um botão físico e ele gera o código binário correspondente, por exemplo, pressionar a tecla "7" e o sistema entender isso como o código "0111".
+ * Subtratores: Os subtratores realizam a operação de subtração entre bits e seguem uma lógica parecida com a dos  
+  somadores. Também existem dois tipos básicos: o meio subtrator, que trabalha com dois bits, e o subtrator 
+  completo, que considera também o "empréstimo" de uma subtração anterior. É como fazer contas no papel, onde, às 
+  vezes, precisamos "pegar emprestado" de uma casa decimal à esquerda para completar a operação.
 
-Eles são muito úteis em sistemas que precisam economizar sinais de comunicação ou representar muitos dados de forma compacta. Um codificador 8:3, por exemplo, possui 8 entradas e gera uma saída de 3 bits, representando qual das 8 entradas está ativa.
+   Na lógica digital, esse “empréstimo” é chamado de borrow, e o circuito precisa tratar não apenas o resultado da 
+  subtração, mas também indicar se foi necessário tomar emprestado da próxima casa. Em sistemas maiores, 
+  subtratores completos são encadeados da mesma forma que os somadores, formando subtratores multi-bits. Muitos 
+  processadores utilizam técnicas que convertem a subtração em adição com números negativos (usando complemento de 
+  dois), aproveitando os mesmos circuitos de soma.
 
-Codificadores são fundamentais em teclados, painéis de controle e circuitos de entrada de dados. Eles otimizam o espaço e o uso de fios ou trilhas em sistemas digitais, permitindo que muitas informações sejam representadas de forma enxuta e lógica.
+   O estudo dos subtratores é fundamental para entender como as máquinas tratam comparações e diferenças, desde 
+  simples decrementos até operações mais complexas, como cálculos de intervalo, distância ou ajuste de valores em 
+  tempo real.
 
 
- * Decodificadores: Por outro lado, os decodificadores fazem o caminho inverso: eles recebem um código binário como entrada e ativam uma única saída correspondente. É como uma central que interpreta o código "101" e diz: “Ah! Isso significa ativar a saída número 5.”
+ * Comparadores: Comparadores são circuitos que analisam duas entradas binárias e determinam se são iguais, 
+  diferentes ou se uma é maior que a outra. Imagine um comparador como um árbitro que, ao receber dois números, 
+  aponta o resultado: "são iguais", "um é maior" ou "um é menor". Ele não realiza contas, mas sim julgamentos com 
+  base na lógica.
 
-Um decodificador 3:8, por exemplo, recebe uma entrada de 3 bits e ativa uma entre 8 saídas. Eles são usados para ativar dispositivos, selecionar linhas de memória, acionar LEDs ou direcionar sinais de forma controlada.
+   O comparador mais simples é o de 1 bit, que verifica se dois bits são iguais. A partir dele, podemos montar 
+  comparadores de múltiplos bits, verificando igualdade e magnitude entre números binários maiores. Esses circuitos 
+  são amplamente utilizados em sistemas de controle, como sensores que verificam se uma temperatura atingiu um 
+  limite, ou em unidades de decisão que escolhem entre dois caminhos diferentes.
 
-Decodificadores são essenciais quando queremos transformar uma pequena quantidade de informação em comandos específicos. Eles tornam possível que um código simples gere múltiplas ações, como controlar várias partes de um sistema a partir de poucas variáveis.
+   Comparadores também são essenciais em processos de ordenação, buscas e otimizações, onde é preciso tomar 
+  decisões com base na comparação de valores. Assim, apesar de parecerem simples, esses circuitos exercem um papel 
+  estratégico em muitas aplicações digitais.
 
 
- Em suma, ao conhecer cada um desses circuitos fundamentais, você começa a enxergar o verdadeiro potencial dos circuitos combinacionais na prática. São essas estruturas que compõem o dia a dia dos sistemas digitais (dos mais simples aos mais complexos) e dominá-las é como aprender as notas musicais para depois compor sinfonias lógicas.
+ * Multiplexadores: O multiplexador (ou simplesmente MUX) é como um seletor de entrada. Ele recebe várias entradas 
+  de dados, mas entrega apenas uma delas como saída, de acordo com um sinal de controle. Pense nele como um 
+  interruptor rotativo: você gira o botão (sinal de seleção) e escolhe qual dos vários caminhos será ativado.
 
- Mais do que decorar suas funções, o importante é entender o propósito de cada um, como eles se conectam entre si e como podem ser usados em conjunto para criar soluções inteligentes. Com esses blocos na sua caixa de ferramentas, você estará pronto para projetar e compreender circuitos com cada vez mais profundidade, criatividade e clareza.
+   Por exemplo, um MUX 4:1 possui quatro entradas de dados e uma saída. O valor enviado à saída depende da 
+  combinação dos sinais de seleção. Multiplexadores são utilizados em sistemas onde é necessário alternar entre 
+  diferentes fontes de dados, como escolher entre várias câmeras de segurança para exibir em uma única tela.
+
+   Na prática, os MUXs são peças-chave na comunicação de dados, seleção de caminhos em processadores e até em 
+  lógica programável. Sua função é tão estratégica que, combinando multiplexadores, é possível montar sistemas de 
+  decisão bastante complexos com elegância e eficiência.
+
+
+ * Demultiplexadores: Se o multiplexador (ou simplesmente DEMUX) escolhe uma saída entre muitas entradas, o 
+  demultiplexador faz o caminho inverso: ele distribui uma entrada para uma das várias saídas, também controlado 
+  por sinais de seleção. É como um carteiro que recebe uma carta (a entrada) e decide para qual caixa de correio 
+  (entre várias saídas) deve entregá-la.
+
+   Um DEMUX 1:4, por exemplo, envia o valor da entrada para uma entre quatro possíveis saídas, dependendo do valor 
+  de controle. Isso é muito útil quando um dado precisa ser encaminhado para diferentes destinos, dependendo da 
+  situação, como em roteadores de rede, controladores ou sistemas de distribuição.
+
+   Assim como os MUXs, os DEMUXs são amplamente usados em arquiteturas digitais para controlar fluxos, distribuir 
+  dados e selecionar caminhos lógicos. Eles ajudam a organizar a complexidade de um sistema, dividindo a 
+  responsabilidade entre múltiplas unidades.
+
+
+ * Codificadores: Os codificadores fazem o papel de transformar informações em códigos binários. Dado um conjunto   
+  de entradas, o codificador ativa uma única combinação binária correspondente à posição da entrada ativa. É como 
+  um tradutor: você pressiona um botão físico e ele gera o código binário correspondente, por exemplo, pressionar a 
+  tecla "7" e o sistema entender isso como o código "0111".
+
+   Eles são muito úteis em sistemas que precisam economizar sinais de comunicação ou representar muitos dados de 
+  forma compacta. Um codificador 8:3, por exemplo, possui 8 entradas e gera uma saída de 3 bits, representando qual 
+  das 8 entradas está ativa.
+
+   Codificadores são fundamentais em teclados, painéis de controle e circuitos de entrada de dados. Eles otimizam o 
+  espaço e o uso de fios ou trilhas em sistemas digitais, permitindo que muitas informações sejam representadas de 
+  forma enxuta e lógica.
+
+
+ * Decodificadores: Por outro lado, os decodificadores fazem o caminho inverso: eles recebem um código binário como  
+  entrada e ativam uma única saída correspondente. É como uma central que interpreta o código "101" e diz: “Ah! 
+  Isso significa ativar a saída número 5.”
+
+   Um decodificador 3:8, por exemplo, recebe uma entrada de 3 bits e ativa uma entre 8 saídas. Eles são usados para 
+  ativar dispositivos, selecionar linhas de memória, acionar LEDs ou direcionar sinais de forma controlada.
+
+   Decodificadores são essenciais quando queremos transformar uma pequena quantidade de informação em comandos 
+  específicos. Eles tornam possível que um código simples gere múltiplas ações, como controlar várias partes de um 
+  sistema a partir de poucas variáveis.
+
+ Em suma, ao conhecer cada um desses circuitos fundamentais, você começa a enxergar o verdadeiro potencial dos 
+circuitos combinacionais na prática. São essas estruturas que compõem o dia a dia dos sistemas digitais (dos mais 
+simples aos mais complexos) e dominá-las é como aprender as notas musicais para depois compor sinfonias lógicas.
+
+ Mais do que decorar suas funções, o importante é entender o propósito de cada um, como eles se conectam entre si e 
+como podem ser usados em conjunto para criar soluções inteligentes. Com esses blocos na sua caixa de ferramentas, 
+você estará pronto para projetar e compreender circuitos com cada vez mais profundidade, criatividade e clareza.
 
 
 
