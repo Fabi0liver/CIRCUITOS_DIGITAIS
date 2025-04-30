@@ -366,10 +366,7 @@ quanto o “o quê”.
 
  Portanto, entender e aplicar essas estratégias é mais do que uma questão de avançar nos estudos, é uma forma de 
 pensar como um verdadeiro engenheiro digital. Ao enxergar os circuitos combinacionais como blocos lógicos que podem 
-ser otimizados, organizados e reaproveitados, você se coloca num patamar mais criativo, analítico e produtivo. Na 
-nossa próxima etapa, vamos mergulhar fundo nesses conceitos, entender como cada técnica funciona e experimentar na 
-prática como a modularização transforma a forma como construímos soluções digitais.
-
+ser otimizados, organizados e reaproveitados, você se coloca num patamar mais criativo, analítico e produtivo. 
 
                   
                         "Tecnologias de Implementação dos Circuitos Combinacionais"
