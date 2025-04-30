@@ -71,13 +71,31 @@ aplicar cada tipo de circuito no futuro, como escolher a ferramenta certa na hor
 
                           "Aplicações Práticas de Circuitos Combinacionais"
 
- Agora que entendemos o que são os circuitos combinacionais e como eles se diferenciam dos sequenciais, é hora de ver onde essas ideias ganham vida no mundo real. Circuitos combinacionais estão absolutamente por toda parte — em dispositivos simples e em sistemas extremamente sofisticados. A beleza está em como, a partir de blocos básicos de lógica, conseguimos construir ferramentas que impactam nosso dia a dia. É como usar peças de LEGO: com algumas formas simples, somos capazes de montar desde uma pequena casa até uma enorme cidade.
+ Agora que entendemos o que são os circuitos combinacionais e como eles se diferenciam dos sequenciais, é hora de 
+ver onde essas ideias ganham vida no mundo real. Circuitos combinacionais estão absolutamente por toda parte, em 
+dispositivos simples e em sistemas extremamente sofisticados. A beleza está em como, a partir de blocos básicos de 
+lógica, conseguimos construir ferramentas que impactam nosso dia a dia. É como usar peças de LEGO: com algumas 
+formas simples, somos capazes de montar desde uma pequena casa até uma enorme cidade.
 
- Um exemplo clássico de aplicação prática é a calculadora de bolso. Quando você pressiona dois números e escolhe uma operação, como somar ou multiplicar, a resposta que aparece no visor é gerada por circuitos combinacionais. O dispositivo lê as entradas, interpreta a operação escolhida e gera o resultado instantaneamente, sem precisar de memória sobre os cálculos anteriores. É uma relação direta e objetiva entre entrada e saída, funcionando exatamente como uma receita onde, dados os ingredientes corretos, o prato final surge imediatamente.
+ Um exemplo clássico de aplicação prática é a calculadora de bolso. Quando você pressiona dois números e escolhe 
+uma operação, como somar ou multiplicar, a resposta que aparece no visor é gerada por circuitos combinacionais. O 
+dispositivo lê as entradas, interpreta a operação escolhida e gera o resultado instantaneamente, sem precisar de 
+memória sobre os cálculos anteriores. É uma relação direta e objetiva entre entrada e saída, funcionando exatamente 
+como uma receita onde, dados os ingredientes corretos, o prato final surge imediatamente.
 
- Outro cenário onde vemos circuitos combinacionais em ação é no sistema de seleção de elevadores. Imagine que você aperte o botão para subir ou descer. O painel interno interpreta essas escolhas e, com base na combinação de andares solicitados e botões pressionados, decide a sequência de ações. Claro, sistemas de elevadores modernos podem também incluir circuitos sequenciais para acompanhar estados de movimento, mas a lógica de interpretar qual botão foi apertado naquele instante vem de circuitos combinacionais. É uma resposta rápida e lógica a eventos simples do ambiente.
+ Outro cenário onde vemos circuitos combinacionais em ação é no sistema de seleção de elevadores. Imagine que você 
+aperte o botão para subir ou descer. O painel interno interpreta essas escolhas e, com base na combinação de 
+andares solicitados e botões pressionados, decide a sequência de ações. Claro, sistemas de elevadores modernos 
+podem também incluir circuitos sequenciais para acompanhar estados de movimento, mas a lógica de interpretar qual 
+botão foi apertado naquele instante vem de circuitos combinacionais. É uma resposta rápida e lógica a eventos 
+simples do ambiente.
 
- Além disso, combinacionais são fundamentais em equipamentos de controle industrial, sistemas automotivos, eletrônicos domésticos, e até na própria arquitetura dos computadores modernos, no processamento de pequenas operações lógicas. Sem eles, nossos dispositivos seriam incapazes de realizar tarefas simples como comparar dois números, selecionar qual dado deve ser enviado para um determinado local ou converter informações de um formato para outro. Eles são, em essência, os pequenos operários invisíveis que trabalham silenciosamente para que toda a tecnologia funcione de maneira rápida e eficiente.
+ Além disso, combinacionais são fundamentais em equipamentos de controle industrial, sistemas automotivos, 
+eletrônicos domésticos, e até na própria arquitetura dos computadores modernos, no processamento de pequenas 
+operações lógicas. Sem eles, nossos dispositivos seriam incapazes de realizar tarefas simples como comparar dois 
+números, selecionar qual dado deve ser enviado para um determinado local ou converter informações de um formato 
+para outro. Eles são, em essência, os pequenos operários invisíveis que trabalham silenciosamente para que toda a 
+tecnologia funcione de maneira rápida e eficiente.
 
 
 
