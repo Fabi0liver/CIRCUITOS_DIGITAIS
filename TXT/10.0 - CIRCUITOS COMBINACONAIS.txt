@@ -371,15 +371,36 @@ ser otimizados, organizados e reaproveitados, você se coloca num patamar mais c
                   
                         "Tecnologias de Implementação dos Circuitos Combinacionais"
 
-Depois de entender como circuitos combinacionais funcionam no papel, surge uma pergunta natural: como esses circuitos são implementados fisicamente no mundo real? Ou seja, como aquelas expressões lógicas que desenhamos com portas AND, OR e NOT se transformam em algo concreto que possa estar dentro de um celular, de um carro ou até de um robô? É aqui que entram as tecnologias de implementação — os diferentes caminhos pelos quais um circuito lógico pode ser materializado em um sistema físico.
+ Depois de entender como circuitos combinacionais funcionam no papel, surge uma pergunta natural: como esses 
+circuitos são implementados fisicamente no mundo real? Ou seja, como aquelas expressões lógicas que desenhamos com 
+portas AND, OR e NOT se transformam em algo concreto que possa estar dentro de um celular, de um carro ou até de um 
+robô? É aqui que entram as tecnologias de implementação — os diferentes caminhos pelos quais um circuito lógico 
+pode ser materializado em um sistema físico.
 
-Uma das formas mais didáticas (e clássicas) de implementação é através dos circuitos com portas lógicas discretas, onde cada porta é montada separadamente com componentes eletrônicos específicos. É como montar um quebra-cabeça com peças avulsas: você liga uma porta AND aqui, uma OR ali, e vai formando seu circuito. Essa abordagem é muito usada em protótipos, no ensino e em pequenos projetos eletrônicos, especialmente com o auxílio de placas de ensaio (protoboards), que facilitam a montagem e modificação sem a necessidade de soldar.
+ Uma das formas mais didáticas (e clássicas) de implementação é através dos circuitos com portas lógicas discretas, 
+onde cada porta é montada separadamente com componentes eletrônicos específicos. É como montar um quebra-cabeça com 
+peças avulsas: você liga uma porta AND aqui, uma OR ali, e vai formando seu circuito. Essa abordagem é muito usada 
+em protótipos, no ensino e em pequenos projetos eletrônicos, especialmente com o auxílio de placas de ensaio 
+(protoboards), que facilitam a montagem e modificação sem a necessidade de soldar.
 
-À medida que os circuitos vão se tornando maiores e mais complexos, passamos a usar circuitos integrados (CIs) — chips que já contêm várias portas lógicas embutidas em um único encapsulamento. Pense neles como "blocos prontos de construção", onde você já tem várias operações agrupadas para agilizar o projeto. Existem CIs específicos para funções combinacionais bem definidas, como multiplexadores, somadores, comparadores e decodificadores. Eles ajudam a reduzir o espaço, o consumo de energia e o tempo de montagem, sendo muito usados em produtos comerciais.
+ À medida que os circuitos vão se tornando maiores e mais complexos, passamos a usar circuitos integrados (CIs), 
+chips que já contêm várias portas lógicas embutidas em um único encapsulamento. Pense neles como "blocos prontos de 
+construção", onde você já tem várias operações agrupadas para agilizar o projeto. Existem CIs específicos para 
+funções combinacionais bem definidas, como multiplexadores, somadores, comparadores e decodificadores. Eles ajudam 
+a reduzir o espaço, o consumo de energia e o tempo de montagem, sendo muito usados em produtos comerciais.
 
-Mas em aplicações mais modernas e dinâmicas, especialmente em projetos que exigem personalização e flexibilidade, entram em cena as tecnologias programáveis, como as PLDs (Programmable Logic Devices), FPGAs (Field-Programmable Gate Arrays) e CPLDs (Complex Programmable Logic Devices). Esses dispositivos funcionam como folhas em branco — você escreve a lógica que quiser (usando linguagens como VHDL ou Verilog) e "programa" o chip para que ele funcione exatamente como seu circuito combinacional exige. É como ter um quadro mágico onde você pode desenhar e redesenhar o que quiser, ideal para protótipos avançados, sistemas embarcados e produtos em constante evolução.
+ Mas em aplicações mais modernas e dinâmicas, especialmente em projetos que exigem personalização e flexibilidade, 
+entram em cena as tecnologias programáveis, como as PLDs (Programmable Logic Devices), FPGAs (Field-Programmable 
+Gate Arrays) e CPLDs (Complex Programmable Logic Devices). Esses dispositivos funcionam como folhas em branco — 
+você escreve a lógica que quiser (usando linguagens como VHDL ou Verilog) e "programa" o chip para que ele funcione 
+exatamente como seu circuito combinacional exige. É como ter um quadro mágico onde você pode desenhar e redesenhar 
+o que quiser, ideal para protótipos avançados, sistemas embarcados e produtos em constante evolução.
 
-Cada uma dessas tecnologias tem seus pontos fortes: as portas discretas ajudam no aprendizado e experimentação, os circuitos integrados facilitam montagens padronizadas e os dispositivos programáveis oferecem máxima flexibilidade. Ao longo da sua jornada, você provavelmente vai encontrar e trabalhar com todas elas, dependendo do desafio à frente. E a melhor parte é perceber que toda aquela lógica que parecia teórica no início da aula... se torna algo real, que você pode segurar, montar e até ver funcionando diante dos seus olhos.
+ Cada uma dessas tecnologias tem seus pontos fortes: as portas discretas ajudam no aprendizado e experimentação, os 
+circuitos integrados facilitam montagens padronizadas e os dispositivos programáveis oferecem máxima flexibilidade. 
+Ao longo da sua jornada, você provavelmente vai encontrar e trabalhar com todas elas, dependendo do desafio à 
+frente. E a melhor parte é perceber que toda aquela lógica que parecia teórica no início da aula... se torna algo 
+real, que você pode segurar, montar e até ver funcionando diante dos seus olhos.
 
 
 
