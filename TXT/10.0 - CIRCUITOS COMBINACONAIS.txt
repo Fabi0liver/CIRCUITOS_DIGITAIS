@@ -38,7 +38,7 @@ tão apaixonante para engenheiros, técnicos e entusiastas ao redor do mundo.
 
 
 
-                        "Diferença entre Circuitos Combinacionais e Sequenciais"
+                         "Diferença entre Circuitos Combinacionais e Sequenciais"
 
  Agora que já temos uma visão inicial dos circuitos combinacionais, é muito natural surgir uma dúvida importante: e 
 os circuitos sequenciais, onde entram nessa história? A diferença entre combinacionais e sequenciais é uma daquelas 
