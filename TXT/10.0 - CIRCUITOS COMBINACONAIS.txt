@@ -1,4 +1,4 @@
-                                        CIRCUITOS COMBINACIONAIS 
+                                         CIRCUITOS COMBINACIONAIS 
 
 
  Quando pensamos no funcionamento interno de um computador, de um controle remoto ou até mesmo de uma máquina de 
