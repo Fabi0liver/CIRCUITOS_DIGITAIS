@@ -370,7 +370,7 @@ ser otimizados, organizados e reaproveitados, você se coloca num patamar mais c
 
                   
 
-                        "Tecnologias de Implementação dos Circuitos Combinacionais"
+                          "Tecnologias de Implementação dos Circuitos Combinacionais"
 
  Depois de entender como circuitos combinacionais funcionam no papel, surge uma pergunta natural: como esses 
 circuitos são implementados fisicamente no mundo real? Ou seja, como aquelas expressões lógicas que desenhamos com 
@@ -405,7 +405,7 @@ real, que você pode segurar, montar e até ver funcionando diante dos seus olho
 
 
 
-                      "Considerações Práticas e de Projeto nos Circuitos Combinacionais"
+                       "Considerações Práticas e de Projeto nos Circuitos Combinacionais"
 
  Quando estudamos circuitos combinacionais no papel, tudo parece limpo, exato e até poético, cada 0 e 1 
 perfeitamente posicionado, cada porta lógica operando como uma engrenagem bem lubrificada. Mas quando levamos esse 
