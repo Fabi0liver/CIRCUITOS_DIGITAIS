@@ -217,7 +217,7 @@ pequena conquista no caminho de se tornar um verdadeiro construtor do mundo digi
 
 
 
-                             "Tipos Fundamentais de Circuitos Combinacionais"
+                               "Tipos Fundamentais de Circuitos Combinacionais"
 
  Agora que já conhecemos os fundamentos e o processo de criação dos circuitos combinacionais, é hora de mergulhar 
 em suas aplicações mais diretas, os tipos fundamentais de circuitos. Esses circuitos são como as ferramentas 
@@ -340,7 +340,7 @@ você estará pronto para projetar e compreender circuitos com cada vez mais pro
 
 
 
-                     "Técnicas Avançadas e Modularização dos Circuitos Combinacionais"
+                      "Técnicas Avançadas e Modularização dos Circuitos Combinacionais"
 
  À medida que avançamos no estudo dos circuitos combinacionais, começamos a perceber que construir circuitos 
 inteiros porta por porta, fio por fio, pode ser como montar uma cidade usando apenas tijolos, possível, mas 
