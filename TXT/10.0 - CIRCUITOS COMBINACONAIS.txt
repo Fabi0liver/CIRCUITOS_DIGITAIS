@@ -69,7 +69,7 @@ aplicar cada tipo de circuito no futuro, como escolher a ferramenta certa na hor
 
 
 
-                          "Aplicações Práticas de Circuitos Combinacionais"
+                           "Aplicações Práticas de Circuitos Combinacionais"
 
  Agora que entendemos o que são os circuitos combinacionais e como eles se diferenciam dos sequenciais, é hora de 
 ver onde essas ideias ganham vida no mundo real. Circuitos combinacionais estão absolutamente por toda parte, em 
