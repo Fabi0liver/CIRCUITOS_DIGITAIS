@@ -437,7 +437,7 @@ com a higiene, o mise en place e o tempo de preparo.
 
 
 
-                               "Conclusão sobre Circuitos Combinacionais"
+                                "Conclusão sobre Circuitos Combinacionais"
 
  Chegamos ao fim dessa jornada pelos circuitos combinacionais, e talvez agora você perceba que eles são muito mais 
 do que conjuntos de portas lógicas conectadas. Eles são, na essência, o alicerce da inteligência embutida em todo 
