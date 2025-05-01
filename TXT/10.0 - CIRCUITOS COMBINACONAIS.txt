@@ -99,7 +99,7 @@ tecnologia funcione de maneira rápida e eficiente.
 
 
 
-                                     Bases dos Circuitos Combinacionais
+                                      Bases dos Circuitos Combinacionais
 
  Quando começamos a trabalhar com circuitos combinacionais, é essencial entender algumas ferramentas básicas que 
 são o alicerce para qualquer projeto digital. Esses conceitos são como os blocos de construção de um grande 
@@ -157,7 +157,7 @@ um verdadeiro especialista em eletrônica digital.
 
 
 
-                            "Passos para Construção de Circuitos Combinacionais"
+                             "Passos para Construção de Circuitos Combinacionais"
 
  Projetar um circuito combinacional pode parecer, à primeira vista, como tentar montar um quebra-cabeça técnico. 
 Mas, na verdade, esse processo segue uma lógica muito clara e organizada, quase como seguir uma receita culinária. Assim como um chef reúne os ingredientes, escolhe a técnica e, passo a passo, monta um prato, ao projetar circuitos 
