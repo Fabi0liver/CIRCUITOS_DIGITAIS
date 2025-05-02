@@ -35,7 +35,8 @@ inteiro de possibilidades no universo da computação.
                              "A Importância de Entender as Formas Canônicas"
 
  Entender as formas canônicas de expressões lógicas é como adquirir fluência em uma linguagem que os sistemas 
-digitais “falam” o tempo todo. Quando conseguimos enxergar essas expressões de forma organizada, clara e padronizada, abrimos as portas para compreender como funções lógicas são processadas, otimizadas e implementadas em 
+digitais “falam” o tempo todo. Quando conseguimos enxergar essas expressões de forma organizada, clara e padronizada, 
+abrimos as portas para compreender como funções lógicas são processadas, otimizadas e implementadas em 
 circuitos e softwares. Isso significa que estamos nos aproximando de como o “pensamento” lógico acontece dentro de 
 um computador e isso, para quem está começando na área, é um passo enorme.
 
