@@ -160,7 +160,8 @@ um verdadeiro especialista em eletrônica digital.
                              "Passos para Construção de Circuitos Combinacionais"
 
  Projetar um circuito combinacional pode parecer, à primeira vista, como tentar montar um quebra-cabeça técnico. 
-Mas, na verdade, esse processo segue uma lógica muito clara e organizada, quase como seguir uma receita culinária. Assim como um chef reúne os ingredientes, escolhe a técnica e, passo a passo, monta um prato, ao projetar circuitos 
+Mas, na verdade, esse processo segue uma lógica muito clara e organizada, quase como seguir uma receita culinária. 
+Assim como um chef reúne os ingredientes, escolhe a técnica e, passo a passo, monta um prato, ao projetar circuitos 
 também seguimos uma sequência bem definida de etapas que transforma uma necessidade funcional em um sistema digital 
 que responde com precisão às entradas fornecidas.
 
