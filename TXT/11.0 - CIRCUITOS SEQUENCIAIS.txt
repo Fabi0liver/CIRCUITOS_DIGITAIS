@@ -233,7 +233,7 @@ lógica e organizada.
   - Enable (Habilitação): Autoriza um componente a realizar sua função.
 
   - Clear/Reset (Limpeza ou Reinicialização): Apaga o conteúdo armazenado, voltando o circuito para um estado 
-                                              inicial.
+                                             inicial.
 
   - Load (Carregar): Permite a entrada de novos dados em registradores ou flip-flops.
 
@@ -259,22 +259,38 @@ que permite conversar com o próprio circuito, orientando-o sobre como e quando 
 
 
 
-                               "Projeto de Circuitos Sequenciais"
+                                "Projeto de Circuitos Sequenciais"
 
- Imagine que você está dirigindo uma peça de teatro. Cada personagem tem suas falas, seu momento de entrar em cena e até mudanças de humor dependendo do que está acontecendo. Projetar um circuito sequencial é exatamente assim! Só que, em vez de atores, temos componentes eletrônicos, e, em vez de falas, temos sinais elétricos que dizem como o circuito deve reagir com o passar do tempo.
+ Imagine que você está dirigindo uma peça de teatro. Cada personagem tem suas falas, seu momento de entrar em cena 
+e até mudanças de humor dependendo do que está acontecendo. Projetar um circuito sequencial é exatamente assim! Só 
+que, em vez de atores, temos componentes eletrônicos, e, em vez de falas, temos sinais elétricos que dizem como o 
+circuito deve reagir com o passar do tempo.
 
-Esse tipo de projeto exige organização e cuidado, quase como seguir uma receita de bolo: cada passo tem sua ordem certa e, se você pular algum ingrediente ou etapa, o resultado pode não sair como o esperado. Então, vamos passear agora pelas etapas dessa “receita” que transforma ideias em circuitos vivos, que reagem, lembram e tomam decisões ao longo do tempo.
+ Esse tipo de projeto exige organização e cuidado, quase como seguir uma receita de bolo: cada passo tem sua ordem 
+certa e, se você pular algum ingrediente ou etapa, o resultado pode não sair como o esperado. Então, vamos passear 
+agora pelas etapas dessa “receita” que transforma ideias em circuitos vivos, que reagem, lembram e tomam decisões 
+ao longo do tempo.
 
- 1. Especificação do comportamento: Tudo começa com uma ideia clara: o que esse circuito precisa fazer? Essa fase é como escrever o roteiro da peça, você não está escolhendo os atores ainda, mas está imaginando as cenas. Por exemplo: “Quando apertar um botão, acenda uma luz. Se apertar duas vezes, toque um alarme.” Ainda não entramos em detalhes técnicos, mas estamos definindo o que queremos que aconteça em cada situação.
+ 1. Especificação do comportamento: Tudo começa com uma ideia clara: o que esse circuito precisa fazer? Essa fase é 
+   como escrever o roteiro da peça, você não está escolhendo os atores ainda, mas está imaginando as cenas. Por 
+   exemplo: “Quando apertar um botão, acenda uma luz. Se apertar duas vezes, toque um alarme.” Ainda não entramos 
+   em detalhes técnicos, mas estamos definindo o que queremos que aconteça em cada situação.
 
+ 2. Definição das entradas, saídas e estados: Agora que temos o roteiro, precisamos identificar os elementos da 
+   história. Quem são os personagens? Quais informações o circuito vai receber (entradas), quais respostas ele deve 
+   dar (saídas) e quais “momentos” ele pode viver (estados)? Pense nisso como um jogo de tabuleiro: as entradas são 
+   os dados que vêm do dado ou das cartas, os estados são as casas em que você pode estar, e as saídas são as ações 
+   realizadas dependendo da jogada.
 
- 2. Definição das entradas, saídas e estados: Agora que temos o roteiro, precisamos identificar os elementos da história. Quem são os personagens? Quais informações o circuito vai receber (entradas), quais respostas ele deve dar (saídas) e quais “momentos” ele pode viver (estados)? Pense nisso como um jogo de tabuleiro: as entradas são os dados que vêm do dado ou das cartas, os estados são as casas em que você pode estar, e as saídas são as ações realizadas dependendo da jogada.
+ 3. Criação da tabela de estados (ou tabela de transição): Com os personagens definidos, criamos uma tabela mágica 
+   que diz: “Se eu estiver nesse estado e acontecer isso, vá para aquele estado e faça tal coisa.” Essa tabela 
+   funciona como um GPS do circuito, mostrando os caminhos possíveis a cada bifurcação. É o coração da lógica 
+   sequencial, porque ela guia todas as reações.
 
-
- 3. Criação da tabela de estados (ou tabela de transição): Com os personagens definidos, criamos uma tabela mágica que diz: “Se eu estiver nesse estado e acontecer isso, vá para aquele estado e faça tal coisa.” Essa tabela funciona como um GPS do circuito, mostrando os caminhos possíveis a cada bifurcação. É o coração da lógica sequencial, porque ela guia todas as reações.
-
-
- 4. Desenho do diagrama de estados (opcional, mas muito útil): Para quem é mais visual, essa parte é um presente. Em vez de só tabelas, desenhamos os estados como bolhas e as transições como setas. É como um mapa de fluxo de um jogo, onde você enxerga claramente para onde pode ir a cada passo. Isso facilita muito a compreensão e até ajuda a encontrar erros lógicos antes de montar qualquer coisa.
+ 4. Desenho do diagrama de estados (opcional, mas muito útil): Para quem é mais visual, essa parte é um presente. 
+   Em vez de só tabelas, desenhamos os estados como bolhas e as transições como setas. É como um mapa de fluxo de 
+   um jogo, onde você enxerga claramente para onde pode ir a cada passo. Isso facilita muito a compreensão e até 
+   ajuda a encontrar erros lógicos antes de montar qualquer coisa.
 
 
  5. Codificação dos estados: Como os circuitos falam em binário, precisamos traduzir os nomes dos estados (como “Início”, “Esperando”, “Ativando”) para números binários (como 00, 01, 10). É como transformar nomes de variáveis em coordenadas de um tabuleiro para que o sistema possa entender e manipular. Cada estado vira uma combinação específica de bits.
