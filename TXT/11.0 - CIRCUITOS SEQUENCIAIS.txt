@@ -335,7 +335,6 @@ domina esse processo, ganha o poder de dar vida a ideias que antes estavam só n
 
                         "Tecnologias de Implementação dos Circuitos Sequenciais"
 
-
  Existem diferentes maneiras de implementar circuitos sequenciais, e a escolha da tecnologia vai depender do tipo 
 de projeto, da complexidade do circuito e até do custo envolvido. Uma das formas mais clássicas é com portas lógicas e flip-flops discretos, montados em placas físicas. É como montar um quebra-cabeça com peças individuais, 
 onde você enxerga claramente cada pedacinho funcionando. Essa abordagem é excelente para quem está aprendendo, pois 
@@ -362,15 +361,33 @@ eficiência e harmonia.
 
 
 
-                            "Aplicações Práticas de Circuitos Sequenciais"
+                             "Aplicações Práticas de Circuitos Sequenciais"
 
- Os circuitos sequenciais estão por trás de boa parte da inteligência dos dispositivos eletrônicos que usamos no dia a dia, mesmo que a gente nem perceba. Sabe quando você coloca uma senha para destravar o celular, e ele só desbloqueia se você digitar os números na ordem certa? Isso acontece porque o sistema está “lembrando” de cada número que você digitou e esperando a sequência correta. Esse tipo de memória e controle de fluxo só é possível graças aos circuitos sequenciais, que conseguem guardar estados e tomar decisões baseadas no que já aconteceu antes, não apenas no que está acontecendo agora.
+ Os circuitos sequenciais estão por trás de boa parte da inteligência dos dispositivos eletrônicos que usamos no 
+dia a dia, mesmo que a gente nem perceba. Sabe quando você coloca uma senha para destravar o celular, e ele só 
+desbloqueia se você digitar os números na ordem certa? Isso acontece porque o sistema está “lembrando” de cada 
+número que você digitou e esperando a sequência correta. Esse tipo de memória e controle de fluxo só é possível 
+graças aos circuitos sequenciais, que conseguem guardar estados e tomar decisões baseadas no que já aconteceu 
+antes, não apenas no que está acontecendo agora.
 
-Outro exemplo muito presente são os semáforos. Eles não trocam de cor aleatoriamente, seguem uma lógica temporal: verde, amarelo, vermelho... e depois tudo recomeça. Esse ciclo não é apenas uma contagem simples, mas uma sequência cuidadosamente controlada que depende do tempo e, em alguns casos, da presença de veículos ou pedestres. Por isso, circuitos sequenciais são ideais para controlar esse tipo de comportamento em etapas, como se fosse uma dança ensaiada, com cada passo vindo no momento certo.
+ Outro exemplo muito presente são os semáforos. Eles não trocam de cor aleatoriamente, seguem uma lógica temporal: 
+verde, amarelo, vermelho... e depois tudo recomeça. Esse ciclo não é apenas uma contagem simples, mas uma sequência 
+cuidadosamente controlada que depende do tempo e, em alguns casos, da presença de veículos ou pedestres. Por isso, 
+circuitos sequenciais são ideais para controlar esse tipo de comportamento em etapas, como se fosse uma dança 
+ensaiada, com cada passo vindo no momento certo.
 
-Nos eletrodomésticos modernos, como máquinas de lavar roupa ou micro-ondas, circuitos sequenciais também fazem o show acontecer nos bastidores. Eles coordenam etapas diferentes, como encher de água, lavar, enxaguar e centrifugar, tudo isso seguindo uma sequência específica de eventos. É como seguir uma receita de bolo: primeiro mistura, depois bate, depois assa... O circuito sequencial é quem garante que cada “ingrediente” entre no tempo certo, sem pular etapas.
+ Nos eletrodomésticos modernos, como máquinas de lavar roupa ou micro-ondas, circuitos sequenciais também fazem o 
+show acontecer nos bastidores. Eles coordenam etapas diferentes, como encher de água, lavar, enxaguar e 
+centrifugar, tudo isso seguindo uma sequência específica de eventos. É como seguir uma receita de bolo: primeiro 
+mistura, depois bate, depois assa... O circuito sequencial é quem garante que cada “ingrediente” entre no tempo 
+certo, sem pular etapas.
 
-E para fechar esse panorama, pense em elevadores, portas automáticas, catracas eletrônicas e sistemas de controle de acesso. Todos eles dependem de sequências de ações: apertar o botão, esperar o andar, abrir a porta, fechar... São sistemas que precisam entender o antes, o agora e o depois para funcionarem bem. Por isso, circuitos sequenciais estão presentes em praticamente todo sistema eletrônico que precisa de ordem, controle e memória para funcionar corretamente. Eles são, de fato, os condutores invisíveis por trás da sinfonia digital que toca em nossas vidas todos os dias.
+ E para fechar esse panorama, pense em elevadores, portas automáticas, catracas eletrônicas e sistemas de controle 
+de acesso. Todos eles dependem de sequências de ações: apertar o botão, esperar o andar, abrir a porta, fechar... 
+São sistemas que precisam entender o antes, o agora e o depois para funcionarem bem. Por isso, circuitos 
+sequenciais estão presentes em praticamente todo sistema eletrônico que precisa de ordem, controle e memória para 
+funcionar corretamente. Eles são, de fato, os condutores invisíveis por trás da sinfonia digital que toca em nossas 
+vidas todos os dias.
 
 
 
