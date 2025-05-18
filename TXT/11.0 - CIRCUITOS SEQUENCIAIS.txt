@@ -98,6 +98,7 @@ coreografado o outro livre, ambos expressam algo importante, mas com passos e ri
 
                              "A Importância do Clock nos Circuitos Sequenciais"
 
+
  No mundo real, estamos sempre lidando com eventos que ocorrem ao longo do tempo. Pense em um jogo de tabuleiro, 
 onde cada jogador só pode fazer seu movimento quando chegar sua vez. Se todos tentarem jogar ao mesmo tempo, o jogo 
 vira uma bagunça. Nos circuitos sequenciais, o clock funciona como esse "sinalizador de turno", ele determina 
