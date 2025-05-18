@@ -129,6 +129,7 @@ guardiões da memória digital.
 
                                 "Elementos dos Circuitos Sequenciais"
 
+
  Agora que entendemos o que são os circuitos sequenciais, como eles diferem dos combinacionais e qual é o papel 
 crucial do tempo (clock), chegou o momento de conhecer os blocos fundamentais que dão forma e funcionalidade a 
 esses circuitos. Podemos dizer que eles são como as ferramentas básicas de uma oficina: cada uma tem um papel 
