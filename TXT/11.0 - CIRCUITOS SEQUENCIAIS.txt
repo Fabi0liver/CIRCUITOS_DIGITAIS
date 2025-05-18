@@ -338,7 +338,8 @@ domina esse processo, ganha o poder de dar vida a ideias que antes estavam só n
 
 
 
-                        "Tecnologias de Implementação dos Circuitos Sequenciais"
+                         "Tecnologias de Implementação dos Circuitos Sequenciais"
+
 
  Existem diferentes maneiras de implementar circuitos sequenciais, e a escolha da tecnologia vai depender do tipo 
 de projeto, da complexidade do circuito e até do custo envolvido. Uma das formas mais clássicas é com portas lógicas e flip-flops discretos, montados em placas físicas. É como montar um quebra-cabeça com peças individuais, 
@@ -367,6 +368,7 @@ eficiência e harmonia.
 
 
                              "Aplicações Práticas de Circuitos Sequenciais"
+
 
  Os circuitos sequenciais estão por trás de boa parte da inteligência dos dispositivos eletrônicos que usamos no 
 dia a dia, mesmo que a gente nem perceba. Sabe quando você coloca uma senha para destravar o celular, e ele só 
