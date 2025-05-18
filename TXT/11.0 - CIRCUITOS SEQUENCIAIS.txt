@@ -224,6 +224,7 @@ mas enxergar como juntos eles dão vida, ritmo e inteligência a todo o universo
 
                             "Sinais de Controle nos Circuitos Sequenciais"
 
+
  Os sinais de controle são como semáforos em um cruzamento movimentado: eles dizem quem pode seguir, quem deve 
 parar e quando cada ação deve acontecer. Em um circuito sequencial, temos diversos blocos (como flip-flops, 
 registradores, contadores e máquinas de estado), e todos eles precisam trabalhar de forma coordenada. É aí que 
@@ -262,7 +263,8 @@ que permite conversar com o próprio circuito, orientando-o sobre como e quando 
 
 
 
-                                "Projeto de Circuitos Sequenciais"
+                                   "Projeto de Circuitos Sequenciais"
+
 
  Imagine que você está dirigindo uma peça de teatro. Cada personagem tem suas falas, seu momento de entrar em cena 
 e até mudanças de humor dependendo do que está acontecendo. Projetar um circuito sequencial é exatamente assim! Só 
