@@ -34,7 +34,7 @@ muitos exemplos do dia a dia, transformando a complexidade em compreensão e o a
 
 
 
-                          "Diferença entre Circuitos Combinacionais e Sequenciais"
+                            "Diferença entre Circuitos Combinacionais e Sequenciais"
 
 
  Imagine que você está numa cozinha preparando um sanduíche. Você tem pão, queijo, presunto e alface. Se você 
@@ -65,6 +65,7 @@ eletrônica digital acontece justamente quando os dois trabalham juntos em harmo
 
 
                                     "Tipos de Circuitos Sequenciais"
+
 
  Agora que já entendemos o que diferencia um circuito sequencial de um combinacional, é hora de olharmos mais de 
 perto para os dois grandes tipos de circuitos sequenciais: os síncronos e os assíncronos. Esses nomes podem parecer 
