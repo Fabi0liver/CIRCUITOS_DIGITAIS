@@ -428,7 +428,8 @@ uma obra inteligente, duradoura e bem planejada.
 
 
 
-                              "Conclusão sobre Circuitos Sequenciais"
+                               "Conclusão sobre Circuitos Sequenciais"
+
 
  Agora que percorremos juntos todo esse caminho sobre os circuitos sequenciais, é hora de fazer uma pausa e 
 refletir sobre o que construímos até aqui. Entramos em um universo que, à primeira vista, pode parecer técnico e 
