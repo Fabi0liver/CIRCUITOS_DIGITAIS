@@ -367,7 +367,7 @@ eficiência e harmonia.
 
 
 
-                             "Aplicações Práticas de Circuitos Sequenciais"
+                               "Aplicações Práticas de Circuitos Sequenciais"
 
 
  Os circuitos sequenciais estão por trás de boa parte da inteligência dos dispositivos eletrônicos que usamos no 
@@ -398,7 +398,8 @@ vidas todos os dias.
 
 
 
-                   "Considerações Práticas e de Projeto nos Circuitos Sequenciais"
+                      "Considerações Práticas e de Projeto nos Circuitos Sequenciais"
+
 
  Agora que você já conhece bem os circuitos sequenciais, suas tecnologias e aplicações, é hora de abordar um ponto 
 fundamental: as considerações práticas e de projeto. Saber desenhar um circuito no papel é apenas o começo. Quando 
