@@ -217,7 +217,8 @@ essencial para quem deseja dominar a eletrônica digital.
 
  Em suma, os elementos que compõem os circuitos sequenciais são como peças de um grande quebra-cabeça digital, cada 
 uma com um papel específico, mas todas essenciais para construir sistemas que armazenam, controlam, processam e 
-reagem ao tempo. Eles formam a base para o funcionamento de qualquer dispositivo digital moderno, desde os mais simples até os mais sofisticados. Aprender sobre cada um deles não é apenas entender como funcionam isoladamente, 
+reagem ao tempo. Eles formam a base para o funcionamento de qualquer dispositivo digital moderno, desde os mais 
+simples até os mais sofisticados. Aprender sobre cada um deles não é apenas entender como funcionam isoladamente, 
 mas enxergar como juntos eles dão vida, ritmo e inteligência a todo o universo da eletrônica digital. 
 
 
@@ -342,7 +343,8 @@ domina esse processo, ganha o poder de dar vida a ideias que antes estavam só n
 
 
  Existem diferentes maneiras de implementar circuitos sequenciais, e a escolha da tecnologia vai depender do tipo 
-de projeto, da complexidade do circuito e até do custo envolvido. Uma das formas mais clássicas é com portas lógicas e flip-flops discretos, montados em placas físicas. É como montar um quebra-cabeça com peças individuais, 
+de projeto, da complexidade do circuito e até do custo envolvido. Uma das formas mais clássicas é com portas lógicas 
+e flip-flops discretos, montados em placas físicas. É como montar um quebra-cabeça com peças individuais, 
 onde você enxerga claramente cada pedacinho funcionando. Essa abordagem é excelente para quem está aprendendo, pois 
 permite visualizar o comportamento de cada parte do circuito, mas não é muito prática para sistemas mais complexos 
 ou de produção em massa.
