@@ -217,7 +217,8 @@ essencial para quem deseja dominar a eletrônica digital.
 
  Em suma, os elementos que compõem os circuitos sequenciais são como peças de um grande quebra-cabeça digital, cada 
 uma com um papel específico, mas todas essenciais para construir sistemas que armazenam, controlam, processam e 
-reagem ao tempo. Eles formam a base para o funcionamento de qualquer dispositivo digital moderno, desde os mais simples até os mais sofisticados. Aprender sobre cada um deles não é apenas entender como funcionam isoladamente, 
+reagem ao tempo. Eles formam a base para o funcionamento de qualquer dispositivo digital moderno, desde os mais 
+simples até os mais sofisticados. Aprender sobre cada um deles não é apenas entender como funcionam isoladamente, 
 mas enxergar como juntos eles dão vida, ritmo e inteligência a todo o universo da eletrônica digital. 
 
 
