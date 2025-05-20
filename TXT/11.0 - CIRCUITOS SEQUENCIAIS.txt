@@ -343,7 +343,8 @@ domina esse processo, ganha o poder de dar vida a ideias que antes estavam só n
 
 
  Existem diferentes maneiras de implementar circuitos sequenciais, e a escolha da tecnologia vai depender do tipo 
-de projeto, da complexidade do circuito e até do custo envolvido. Uma das formas mais clássicas é com portas lógicas e flip-flops discretos, montados em placas físicas. É como montar um quebra-cabeça com peças individuais, 
+de projeto, da complexidade do circuito e até do custo envolvido. Uma das formas mais clássicas é com portas lógicas 
+e flip-flops discretos, montados em placas físicas. É como montar um quebra-cabeça com peças individuais, 
 onde você enxerga claramente cada pedacinho funcionando. Essa abordagem é excelente para quem está aprendendo, pois 
 permite visualizar o comportamento de cada parte do circuito, mas não é muito prática para sistemas mais complexos 
 ou de produção em massa.
