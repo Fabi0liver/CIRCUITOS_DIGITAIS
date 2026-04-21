@@ -1,0 +1,73 @@
+Circuitos Digitais:
+
+• O que é um circuito digital?
+
+• Sinal analógico: Assume infinitos valores de amplitude;
+
+• Sinal digital: Assume apenas finitos valores de amplitude.
+
+• Sinais Analógicos vs. Sinais Digitais
+
+• A diferença entre essas duas classes está relacionada as formas de onda que esses circuitos processam;
+  • Circuitos analógicos processam ondas analógicas e geram ondas analógicas;
+  • Circuitos digitais processam ondas digitais e geram ondas digitais.
+
+• Um circuito digital é aquele que recebe como entradas sinais digitais, processa e retorna saída
+digitais.
+
+               ----------> |             | ---------->
+ m Entrada     ----------> |   Circuito  | ---------->  n Saídas
+   Digitais    ----------> |   Digital   | ---------->    Digitais
+               ----------> |             | ---------->
+
+ obs.: A quantidade de entradas e saídas digitais, não necessariamente devem se a mesma.
+
+• Onde podemos encontrar circuitos digitais?
+  • Computadores;
+  • Alguns chips internos de telefones celulares;
+  • Câmeras digitais;
+  • Video-games;
+  • Dispositivos médicos.
+
+• Os sinais digitais mais comuns em circuitos digitais são aqueles que assumem apenas dois
+valores:
+  • 1 (ou Ligado ou ALTO);
+  • 0 (ou Desligado ou BAIXO).
+     • Este tipo de sinal é denominado de sinal binário;
+
+• Os sinais devem ser representados em uma forma de onda de tensão.
+  • O nível ALTO é representado como +5V;
+  • O nível BAIXO é representado como 0;
+
+• Vantagens dos circuitos digitais:
+  • Circuitos digitais são mais fáceis de projetar;
+  • O armazenamento da informação é feito de forma mais simples do que nos circuitos analógicos;
+  • Os sistemas digitais são mais precisos do que sistemas analógicos;
+  • Sistemas digitais são mais versáteis;
+  • Circuitos digitais são mais robustos ao efeito do ruído;
+  • Projetos digitais podem ser mais baratos do que os completamente analógicos;
+  • Permitem a utilização de novas técnicas de processamento digital de sinais.
+
+• Por quê estudar circuitos digitais?
+  • Entender o principio de funcionamento dos computadores;
+  • Projetar circuitos eletrônicos;
+  • Entre outros...
+
+• Conversão analógico-digital (A/D)
+  • A maioria dos sinais encontrados na natureza são analógicos. Exemplo: Sinal de temperatura de uma sala.  
+   Contudo, circuitos digitais processam apenas sinais digitais;
+  • Como usufruir das vantagens dos circuitos digitais para realizar o processamento desses sinais?
+  • A solução é encontrar um método para converter um sinal analógico em um correspondente digital;
+  • O processo de Conversão analógico-digital consistem em:
+    • Amostrar o sinal analógico (Amostragem);
+    • Quantizar as amostras (Quantização);
+    • Converter as amostras quantizadas em um sinal binário (Codificação).
+
+• Conversão digital-analógica (D/A)
+  • Por sua vez, muitos sistemas necessitam que suas saídas sejam analógicas. Circuitos Digitais, contudo, produzem 
+   apenas saídas digitais. Devemos, então, ter um método de converter uma onda digital em uma correspondente
+   analógica.
+  • Conversão digital-analógica (D/A): Processo no qual uma onda digital é convertida numa equivalente analógica.
+
+• Observação: Em muitos sistemas, os processos de conversão ND e DIA trabalham em conjunto. Exemplo: Sistema de 
+ ajuste de temperatura em um Ar Condicionado:
