@@ -42,18 +42,33 @@ que você avança, começa a enxergar o mundo digital com outros olhos, entenden
 
                                              "Sinais Digitais"
 
- Se circuitos digitais apareceram como os “bastidores” da tecnologia, agora podemos dar um passo adiante e olhar para aquilo que realmente circula dentro deles: os sinais digitais. Pense neles como pequenas mensagens elétricas que viajam pelos circuitos, carregando informações de um ponto a outro, quase como bilhetes sendo passados em uma sala de aula.
+ Depois da introdução onde vimos os circuitos digitais apareceram como os “bastidores” da tecnologia, agora podemos 
+dar um passo adiante e olhar para aquilo que realmente circula dentro deles: os sinais digitais. Pense neles como 
+pequenas mensagens elétricas que viajam pelos circuitos, carregando informações de um ponto a outro, quase como 
+bilhetes sendo passados em uma sala de aula.
 
-De forma bem leve e intuitiva, um sinal digital é simplesmente uma forma de representar informação usando apenas dois estados possíveis. Em vez de trabalhar com uma infinidade de valores, como acontece em outros tipos de sinais, aqui tudo se resume a duas opções: 0 e 1. É como responder uma pergunta com “sim” ou “não”, sem meio-termo — uma escolha simples, mas extremamente poderosa.
+ De forma bem leve e intuitiva, um sinal digital é simplesmente uma forma de representar informação usando apenas 
+dois estados possíveis. Em vez de trabalhar com uma infinidade de valores, como acontece em outros tipos de sinais, 
+aqui tudo se resume a duas opções: 0 e 1. É como responder uma pergunta com “sim” ou “não”, sem meio-termo; uma 
+escolha simples, mas extremamente poderosa.
 
-Uma analogia que ajuda bastante é imaginar um interruptor de luz. Ele só tem duas posições: ligado ou desligado. Os sinais digitais funcionam exatamente assim. Quando está “ligado”, representamos com 1; quando está “desligado”, representamos com 0. Essa ideia de trabalhar com apenas dois estados é o que chamamos de sistema binário, e ele é a base de toda a computação moderna.
+ Uma analogia que ajuda bastante é imaginar um interruptor de luz. Ele só tem duas posições: ligado ou desligado. 
+Os sinais digitais funcionam exatamente assim. Quando está “ligado”, representamos com 1; quando está “desligado”, 
+representamos com 0. Essa ideia de trabalhar com apenas dois estados é o que chamamos de sistema binário, e ele é a 
+base de toda a computação moderna.
 
-Mas esses sinais não são apenas números abstratos — eles existem fisicamente dentro dos circuitos. Na prática, eles são representados por níveis de tensão elétrica. Um valor alto de tensão representa o 1, enquanto um valor baixo representa o 0. É como um semáforo: quando está verde, o fluxo acontece; quando está vermelho, tudo para. Essa distinção clara facilita muito a interpretação dos sinais pelos circuitos.
+ Mas esses sinais não são apenas números abstratos: eles existem fisicamente dentro dos circuitos. Na prática, eles 
+são representados por níveis de tensão elétrica. Um valor alto de tensão representa o 1, enquanto um valor baixo 
+representa o 0. É como um semáforo: quando está verde, o fluxo acontece; quando está vermelho, tudo para. Essa 
+distinção clara facilita muito a interpretação dos sinais pelos circuitos.
 
-Um ponto importante aqui é que o sinal digital assume apenas valores finitos de amplitude. Em vez de variar continuamente, ele “salta” entre níveis bem definidos. Pense nisso como degraus de uma escada: você não fica no meio do degrau, você está ou em um degrau ou em outro. Essa característica torna os sinais digitais muito mais organizados e previsíveis.
+ Um ponto importante aqui é que o sinal digital assume apenas valores finitos de amplitude. Em vez de variar 
+continuamente, ele “salta” entre níveis bem definidos. Pense nisso como degraus de uma escada: você não fica no 
+meio do degrau, você está ou em um degrau ou em outro. Essa característica torna os sinais digitais muito mais 
+organizados e previsíveis.
 
-Essa simplicidade traz uma vantagem enorme: confiabilidade. Como existem apenas dois estados bem definidos, fica muito mais fácil para os circuitos entenderem o que está acontecendo, mesmo que haja pequenas interferências no caminho. É como ouvir alguém dizendo “sim” ou “não” em um ambiente barulhento — mesmo com ruído, ainda dá para entender a mensagem.
+ Essa simplicidade traz uma vantagem enorme: confiabilidade. Como existem apenas dois estados bem definidos, fica muito mais fácil para os circuitos entenderem o que está acontecendo, mesmo que haja pequenas interferências no caminho. É como ouvir alguém dizendo “sim” ou “não” em um ambiente barulhento, mesmo com ruído, ainda dá para entender a mensagem.
 
-E é justamente essa clareza que permite que sistemas digitais sejam tão rápidos e eficientes. Desde tarefas simples, como acender um LED, até operações complexas dentro de um processador, tudo acontece graças a essa alternância contínua entre 0 e 1. É quase como uma dança extremamente rápida entre dois estados, acontecendo milhões ou bilhões de vezes por segundo.
+ E é justamente essa clareza que permite que sistemas digitais sejam tão rápidos e eficientes. Desde tarefas simples, como acender um LED, até operações complexas dentro de um processador, tudo acontece graças a essa alternância contínua entre 0 e 1. É quase como uma dança extremamente rápida entre dois estados, acontecendo milhões ou bilhões de vezes por segundo.
 
-À medida que você avança no estudo, vai perceber que os sinais digitais são como o “idioma” que os circuitos utilizam para conversar entre si. Dominar essa linguagem é como aprender a ler e escrever no mundo da tecnologia. E o mais interessante é que, apesar de parecer simples no começo, essa base abre portas para compreender sistemas incríveis. Continue explorando com curiosidade — porque cada novo conceito que você aprende é como adicionar uma nova peça nesse grande quebra-cabeça da computação.
+ Em suma, os sinais digitais são como o “idioma” que os circuitos utilizam para conversar entre si. Dominar essa linguagem é como aprender a ler e escrever no mundo da tecnologia. E o mais interessante é que, apesar de parecer simples no começo, essa base abre portas para compreender sistemas incríveis. 
