@@ -34,4 +34,6 @@ rápidas e precisas.
 armazenemos e manipulemos informações. Isso significa que eles não só “pensam”, mas também “lembram”. É essa 
 combinação que possibilita coisas como salvar arquivos, rodar programas e até manter conversas como esta.
 
-Ao longo dos seus estudos, você vai perceber que entender circuitos digitais é como aprender o alfabeto da tecnologia. No começo, parece simples — quase básico demais — mas é exatamente essa base que sustenta tudo o que vem depois. E a parte mais interessante? À medida que você avança, começa a enxergar o mundo digital com outros olhos, entendendo como cada detalhe se conecta. Continue curioso, porque essa jornada está apenas começando — e ela é uma das mais fascinantes dentro da Ciência da Computação.
+ Em suma, entender circuitos digitais é como aprender o alfabeto da tecnologia. No começo, parece simples (quase 
+básico demais) mas é exatamente essa base que sustenta tudo o que vem depois. E a parte mais interessante? À medida 
+que você avança, começa a enxergar o mundo digital com outros olhos, entendendo como cada detalhe se conecta. 
