@@ -389,7 +389,9 @@ como aprender a linguagem fundamental das máquinas. Quando você compreende com
 um usuário de tecnologia e passa a enxergar o que está acontecendo por trás das telas. É como sair do papel de 
 jogador e começar a entender as regras e a lógica do próprio jogo.
 
- Além disso, esse conhecimento abre portas para diversas áreas. Programação, engenharia, inteligência artificial, robótica: todas essas áreas, de alguma forma, se apoiam nos conceitos que você começou a aprender aqui. É como construir uma base sólida: quanto melhor essa base, mais alto você pode ir depois.
+ Além disso, esse conhecimento abre portas para diversas áreas. Programação, engenharia, inteligência artificial, 
+robótica: todas essas áreas, de alguma forma, se apoiam nos conceitos que você começou a aprender aqui. É como 
+construir uma base sólida: quanto melhor essa base, mais alto você pode ir depois.
 
  Outro ponto interessante é perceber que, apesar de toda a complexidade que existe nos sistemas modernos, tudo 
 ainda se apoia em ideias simples e bem organizadas. Isso mostra algo poderoso: grandes sistemas não nascem 
@@ -401,5 +403,5 @@ desenvolvendo uma nova forma de enxergar o mundo. Cada conceito que você entend
 ambiente antes desconhecido. E quanto mais luz você acende, mais claro tudo se torna.
 
  Então, siga em frente com curiosidade e confiança. O que você viu até aqui é apenas o começo de um universo 
-fascinante dentro da Ciência da Computação. Continue explorando, questionando e conectando ideias — porque é assim 
+fascinante dentro da Ciência da Computação. Continue explorando, questionando e conectando ideias: porque é assim 
 que o conhecimento deixa de ser apenas teoria e passa a se transformar em algo que você realmente domina.
