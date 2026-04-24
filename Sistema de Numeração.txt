@@ -11,9 +11,17 @@ O que são os Números?
 
 Conceitos Básicos:
 
- O que são Algarismos (Dígitos)
- O que é Valor/Quantidade
- O que são Potências
+ Algarismos/Dígitos:
+  Símbolos usados para formar números (ex: 0–9 no decimal)
+ 
+ Valor/Quantidade:
+  O significado numérico representado
+ 
+ Base (ou Radix):
+  Define quantos dígitos diferentes existem em um sistema
+ 
+ Potências:
+  Usadas para determinar o peso de cada posição no número
 
 
 Notação Posicional:
@@ -24,21 +32,23 @@ Notação Posicional:
  Exemplo (decimal): 345 = 3×10² + 4×10¹ + 5×10⁰
 
 
-Bases Numéricas:
+Principais Sistemas Numéricos:
 
  Sistema Decimal (Base 10)
-  Usado no dia a dia
   Dígitos: 0–9
- 
+  Usado no dia a dia
+  
  Sistema Binário (Base 2)
-  Usado pelos computadores
   Dígitos: 0 e 1
+  Base dos computadores
 
  Sistema Octal (Base 8)
   Dígitos: 0–7
+  Forma compacta de representar binário
 
  Sistema Hexadecimal (Base 16)
   Dígitos: 0–9 e A–F
+  Muito usado em programação e eletrônica
 
 
 Contagem nos Sistemas Numéricos:
@@ -46,14 +56,17 @@ Contagem nos Sistemas Numéricos:
  Como contar em cada base
  Quando ocorre o “vai um” (carry)
 
+ Exemplo: Decimal: depois do 9 → 10
+          Binário: depois do 1 → 10
+
 
 Conversão entre Sistemas Numéricos:
 
  Essencial para entender como o computador “traduz” números.
 
- Exemplos mais comuns de Conversão: Decimal ↔ Binário
-                                    Binário ↔ Octal
-                                    Binário ↔ Hexadecimal
+ Conversões principais: Decimal ↔ Binário
+                        Binário ↔ Octal
+                        Binário ↔ Hexadecimal
 
 
 Sistemas Numéricos na Computação:
@@ -63,10 +76,25 @@ Sistemas Numéricos na Computação:
  Uso de hexadecimal para simplificar leitura
 
 
+Unidade Básica de Informação
+
+ Bit (Binary Digit):
+  Menor unidade: 0 ou 1
+
+ Byte:
+  Conjunto de 8 bits
+
+ Múltiplos comuns:
+  KB, MB, GB, TB
+
+
 Tipos de Representação Numérica:
 
- Números Sem Sinal (Unsigned): Apenas valores positivos
- Números com Sinal (Signed): Representam positivos e negativos
+ Números Sem Sinal (Unsigned): 
+  Apenas valores positivos
+ 
+ Números com Sinal (Signed): 
+  Representam positivos e negativos
 
 
 Significância dos Algarismos:
@@ -88,11 +116,11 @@ Números Fracionados:
  Exemplo: 0.25 = 2⁻² (no binário)
 
 
-Relação com Circuitos Digitais:
+Representação Física (Circuitos):
 
- Bits e bytes
- Como números viram sinais elétricos
- Representação física da informação
+ Bits são implementados com sinais elétricos
+ Transistores funcionam como “interruptores”
+ Informação vira energia elétrica organizada
 
 
 Limitações e Cuidados:
