@@ -1,0 +1,136 @@
+                                            Sistema de Numeração
+
+Introdução sobre Sistema de Numeração
+
+
+O que são os Números?
+
+ O que é representar informação
+ Por que precisamos de sistemas de numeração
+
+
+Conceitos Básicos:
+
+ Algarismos/Dígitos:
+  Símbolos usados para formar números (ex: 0–9 no decimal)
+ 
+ Valor/Quantidade:
+  O significado numérico representado
+ 
+ Base (ou Radix):
+  Define quantos dígitos diferentes existem em um sistema
+ 
+ Potências:
+  Usadas para determinar o peso de cada posição no número
+
+
+Notação Posicional:
+
+ O valor de um dígito depende da posição
+ Cada posição tem um “peso” (potência da base)
+
+ Exemplo (decimal): 345 = 3×10² + 4×10¹ + 5×10⁰
+
+
+Principais Sistemas Numéricos:
+
+ Sistema Decimal (Base 10)
+  Dígitos: 0–9
+  Usado no dia a dia
+  
+ Sistema Binário (Base 2)
+  Dígitos: 0 e 1
+  Base dos computadores
+
+ Sistema Octal (Base 8)
+  Dígitos: 0–7
+  Forma compacta de representar binário
+
+ Sistema Hexadecimal (Base 16)
+  Dígitos: 0–9 e A–F
+  Muito usado em programação e eletrônica
+
+
+Contagem nos Sistemas Numéricos:
+
+ Como contar em cada base
+ Quando ocorre o “vai um” (carry)
+
+ Exemplo: Decimal: depois do 9 → 10
+          Binário: depois do 1 → 10
+
+
+Conversão entre Sistemas Numéricos:
+
+ Essencial para entender como o computador “traduz” números.
+
+ Conversões principais: Decimal ↔ Binário
+                        Binário ↔ Octal
+                        Binário ↔ Hexadecimal
+
+
+Sistemas Numéricos na Computação:
+
+ Por que computadores usam binário
+ Relação com circuitos digitais (0 = desligado, 1 = ligado)
+ Uso de hexadecimal para simplificar leitura
+
+
+Unidade Básica de Informação
+
+ Bit (Binary Digit):
+  Menor unidade: 0 ou 1
+
+ Byte:
+  Conjunto de 8 bits
+
+ Múltiplos comuns:
+  KB, MB, GB, TB
+
+
+Tipos de Representação Numérica:
+
+ Números Sem Sinal (Unsigned): 
+  Apenas valores positivos
+ 
+ Números com Sinal (Signed): 
+  Representam positivos e negativos
+
+
+Significância dos Algarismos:
+
+ Algarismos Mais (MSD - Most Significant Digit) 
+  Dígito mais à esquerda
+  Maior peso
+
+ Menos Significativos (LSD - Least Significant Digit)
+  Dígito mais à direita
+  Menor peso
+
+
+Números Fracionados:
+
+ Representação de partes (ex: 0.5)
+ Uso de potências negativas
+
+ Exemplo: 0.25 = 2⁻² (no binário)
+
+
+Representação Física (Circuitos):
+
+ Bits são implementados com sinais elétricos
+ Transistores funcionam como “interruptores”
+ Informação vira energia elétrica organizada
+
+
+Limitações e Cuidados:
+
+ Limite de representação (overflow)
+ Precisão limitada
+ Arredondamentos
+
+
+Conclusão sobre Sistemas Numéricos
+
+
+Fiz essas anotações para uma introdução sobre Sistema de Numeração na matéria de circuitos digitais. Poderia reorganizar em tópicos e acrescentar mais alguns que faltam na introdução do estudo de Sistema de Numeração. Sempre sem se aprofundar em nenhum tópico muito técnico, somente uma apresentação antes de estudar tópicos mais a fundo.
