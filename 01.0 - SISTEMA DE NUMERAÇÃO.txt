@@ -35,4 +35,4 @@
 
  É interessante perceber que os números não são algo fixo ou limitado a uma única forma. Eles podem ser representados de diferentes maneiras, dependendo do sistema adotado. Isso mostra que, mais do que símbolos, eles são construções que se adaptam ao contexto, quase como uma linguagem flexível que muda de acordo com a necessidade.
 
- À medida que avançamos nesse estudo, você vai perceber que entender os números é como aprender a “ler” o mundo de uma nova forma. E isso é só o começo. Continue curioso, continue explorando — porque quanto mais você compreende esses fundamentos, mais preparado você estará para desvendar coisas incríveis dentro da computação e dos algoritmos.
+ Em suma, à medida que avançamos nesse estudo, você vai perceber que entender os números é como aprender a “ler” o mundo de uma nova forma. E isso é só o começo. 
