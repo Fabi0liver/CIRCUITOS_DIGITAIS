@@ -21,7 +21,7 @@ Conceitos Básicos:
   Usadas para determinar o peso de cada posição no número
 
 
-Notação Posicional (ou Regra geral de Formação):  
+Notação Posicional:  
 
  O valor de um dígito depende da posição
 
