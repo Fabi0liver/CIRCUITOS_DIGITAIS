@@ -83,3 +83,36 @@ mais pesada. Essa organização é o que permite representar números maiores de
  Ao conectar todos esses conceitos (algarismos, valor, base e potências) você começa a enxergar os números de uma 
 forma completamente nova. Não são apenas símbolos que usamos automaticamente, mas uma estrutura inteligente e bem 
 organizada. E essa é a base de tudo que vem pela frente. 
+
+
+
+                                         "Notação Posicional"
+
+À medida que avançamos, é como se estivéssemos começando a perceber um “padrão escondido” por trás dos números que usamos todos os dias. Algo que sempre esteve ali, mas que raramente paramos para observar com atenção. Esse padrão é o que chamamos de notação posicional — uma ideia simples na aparência, mas extremamente poderosa na prática.
+
+De forma bem intuitiva, a notação posicional nos diz que a posição de cada algarismo dentro de um número importa — e muito. Não basta olhar apenas para o símbolo; é preciso observar onde ele está. Pense em um número como uma fila de pessoas: cada posição na fila tem um papel diferente, e trocar alguém de lugar muda completamente o resultado final.
+
+Por exemplo, compare os números 123 e 321. Eles usam exatamente os mesmos algarismos, mas o significado muda totalmente. Isso acontece porque cada posição “dá um peso” diferente ao algarismo que está ali. É como se cada lugar tivesse uma responsabilidade específica dentro do número.
+
+Uma analogia interessante é pensar em um time de futebol. Os jogadores são importantes, mas suas posições em campo fazem toda a diferença. Um atacante jogando na defesa não terá o mesmo impacto que na sua posição original. Da mesma forma, um algarismo muda completamente seu valor dependendo de onde está no número.
+
+No sistema decimal, que usamos no dia a dia, cada posição tem um peso baseado em potências de 10. Isso pode parecer técnico à primeira vista, mas a ideia é simples: cada casa à esquerda vale 10 vezes mais do que a anterior. É como subir degraus em uma escada onde cada passo aumenta bastante a altura.
+
+Veja o número 345 como exemplo. Ele não é apenas “trezentos e quarenta e cinco” por acaso. Na verdade, ele pode ser “montado” como uma soma de partes: o 3 está em uma posição mais à esquerda e, por isso, tem mais peso; o 4 vem depois, com um peso intermediário; e o 5 está na posição mais leve. É como montar um valor total a partir de diferentes contribuições.
+
+Para representar isso de forma organizada, usamos uma regra geral que mostra exatamente como cada posição contribui para o número final:
+
+  Seja um número dₙ dₙ₋₁ ...  d₁ d₀ d₋₁ d₋₂ em uma base b. 
+
+  A regra geral fica: N = (dₙ . bⁿ) + (dₙ₋₁ . bⁿ⁻¹) + ... + (d₁ . b¹) + (d₀ . b⁰) + (d₋₁ . b⁻¹) + (d₋₂ . b⁻²) + ...
+
+ No caso do nosso sistema decimal, isso significa que cada algarismo é multiplicado por uma potência de 10, dependendo da sua posição. Por exemplo, o número 345 pode ser visto como uma soma organizada dessas contribuições:
+
+  345 = 3 . 10² + 4 . 10¹ + 5 . 10⁰
+
+ Se você pensar bem, isso é como montar um valor total a partir de peças menores, cada uma com um “peso” diferente. É semelhante a calcular o valor total de compras: cada item contribui com uma parte, e o total é a soma de tudo. A notação posicional faz exatamente isso, mas com números.
+
+E aqui está a beleza dessa ideia: com uma regra simples, conseguimos representar números pequenos e gigantescos de forma organizada e eficiente. Isso é o que torna os sistemas de numeração tão poderosos — especialmente quando pensamos em computação, onde tudo precisa ser preciso e estruturado.
+
+Ao entender essa lógica, você começa a enxergar os números de uma forma muito mais profunda. Eles deixam de ser apenas algo automático e passam a ser construções bem planejadas. Continue explorando com essa curiosidade, porque é justamente esse tipo de entendimento que vai te levar mais longe no estudo de algoritmos e da computação como um todo.
+
