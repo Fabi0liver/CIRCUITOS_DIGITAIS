@@ -5,9 +5,6 @@ Introdução sobre Sistema de Numeração
 
 O que são os Números?
 
- O que é representar informação
- Por que precisamos de sistemas de numeração
-
 
 Conceitos Básicos:
 
@@ -24,10 +21,17 @@ Conceitos Básicos:
   Usadas para determinar o peso de cada posição no número
 
 
-Notação Posicional:
+Notação Posicional (ou Regra geral de Formação):  
 
  O valor de um dígito depende da posição
+
  Cada posição tem um “peso” (potência da base)
+
+ Seja um número dₙ dₙ₋₁ ...  d₁ d₀ d₋₁ d₋₂ em uma base b. 
+
+ O seu equivalente decimal será:
+
+   N =  (dₙ x bⁿ) + (dₙ₋₁ x bⁿ⁻¹) + ... + (d₁ x b¹) + (d₀ x b⁰) + (d₋₁ x b⁻¹) + (d₋₂ x b⁻²) + ...
 
  Exemplo (decimal): 345 = 3×10² + 4×10¹ + 5×10⁰
 
