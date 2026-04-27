@@ -322,7 +322,50 @@ a estrutura dos números, algo essencial para avançar no entendimento de algori
 
 
 
-                                   "Sistemas Numéricos na Computação"
+                                   "Tipos de Representação Numérica"
+
+ Agora que já entendemos como os números são representados e utilizados dentro dos sistemas, é como se estivéssemos 
+prontos para dar mais um passo importante: perceber que nem todo número é tratado da mesma forma. Dependendo da 
+situação, precisamos representar ideias diferentes e isso exige abordagens diferentes. É aqui que entram os tipos 
+de representação numérica.
+
+ De forma bem intuitiva, podemos imaginar que existem “estilos” de representar números, assim como existem 
+diferentes formas de organizar informações no dia a dia. Às vezes, você só precisa contar coisas positivas, como 
+quantos livros tem na estante. Em outras situações, precisa representar algo que pode crescer ou diminuir, como 
+saldo bancário ou temperatura. Essas diferenças influenciam diretamente na forma como os números são representados 
+dentro de um sistema.
+
+ Começando pelos números sem sinal, podemos pensar neles como uma representação mais simples e direta. Eles são 
+usados quando só precisamos lidar com valores positivos. É como um contador de passos: você nunca dá “passos 
+negativos”, apenas soma o quanto já caminhou. Nesse tipo de representação, todo o espaço disponível é usado para 
+representar valores maiores.
+
+ Essa abordagem é eficiente quando sabemos que não existe a possibilidade de valores negativos. Por exemplo, ao 
+contar quantos usuários acessaram um site ou quantos arquivos existem em uma pasta, não faz sentido falar em 
+números negativos. Então, usar uma representação sem sinal permite aproveitar melhor os “espaços” disponíveis para 
+representar números maiores.
+
+ Por outro lado, existem situações em que precisamos lidar com valores que podem ser positivos ou negativos. É aqui 
+que entram os números com sinal. Eles são usados quando o contexto exige essa flexibilidade. Pense em algo como 
+temperatura: pode estar acima de zero ou abaixo. Ou em um jogo, onde você pode ganhar ou perder pontos.
+
+ Uma analogia interessante é pensar em uma conta bancária. Se você tem dinheiro, o valor é positivo; se está 
+devendo, ele se torna negativo. Para representar isso, precisamos de uma forma de indicar esse “lado” do número. Na 
+computação, isso é feito reservando uma parte da representação para indicar o sinal: como se fosse uma etiqueta 
+dizendo “positivo” ou “negativo”.
+
+ Isso traz uma consequência importante: quando usamos números com sinal, parte da capacidade de representação é 
+usada para indicar o sinal, e não o valor em si. É como dividir um espaço entre duas funções diferentes. Por isso, 
+em comparação com números sem sinal, a faixa de valores possíveis muda um pouco.
+
+ No fundo, a escolha entre usar números com ou sem sinal depende do problema que estamos tentando resolver. É como 
+escolher a ferramenta certa para uma tarefa: não existe uma opção “melhor” em todos os casos, mas sim a mais 
+adequada para cada situação. Entender isso é fundamental para quem quer trabalhar com computação de forma mais 
+profunda.
+
+
+
+                                     "Sistemas Numéricos na Computação"
 
  Agora chegamos a um ponto muito interessante da nossa jornada: é como se estivéssemos prestes a “olhar por trás da 
 cortina” e entender como os computadores realmente funcionam. Tudo aquilo que vemos na tela (textos, imagens, 
@@ -368,45 +411,7 @@ tudo depende dessa forma de representar informação.
 
 
 
-                               "Tipos de Representação Numérica"
 
- Agora que já entendemos como os números são representados e utilizados dentro dos sistemas, especialmente na computação, é como se estivéssemos prontos para dar mais um passo importante: perceber que nem todo número é 
-tratado da mesma forma. Dependendo da situação, precisamos representar ideias diferentes e isso exige abordagens 
-diferentes. É aqui que entram os tipos de representação numérica.
-
- De forma bem intuitiva, podemos imaginar que existem “estilos” de representar números, assim como existem 
-diferentes formas de organizar informações no dia a dia. Às vezes, você só precisa contar coisas positivas, como 
-quantos livros tem na estante. Em outras situações, precisa representar algo que pode crescer ou diminuir, como 
-saldo bancário ou temperatura. Essas diferenças influenciam diretamente na forma como os números são representados 
-dentro de um sistema.
-
- Começando pelos números sem sinal, podemos pensar neles como uma representação mais simples e direta. Eles são 
-usados quando só precisamos lidar com valores positivos. É como um contador de passos: você nunca dá “passos 
-negativos”, apenas soma o quanto já caminhou. Nesse tipo de representação, todo o espaço disponível é usado para 
-representar valores maiores.
-
- Essa abordagem é eficiente quando sabemos que não existe a possibilidade de valores negativos. Por exemplo, ao 
-contar quantos usuários acessaram um site ou quantos arquivos existem em uma pasta, não faz sentido falar em 
-números negativos. Então, usar uma representação sem sinal permite aproveitar melhor os “espaços” disponíveis para 
-representar números maiores.
-
- Por outro lado, existem situações em que precisamos lidar com valores que podem ser positivos ou negativos. É aqui 
-que entram os números com sinal. Eles são usados quando o contexto exige essa flexibilidade. Pense em algo como 
-temperatura: pode estar acima de zero ou abaixo. Ou em um jogo, onde você pode ganhar ou perder pontos.
-
- Uma analogia interessante é pensar em uma conta bancária. Se você tem dinheiro, o valor é positivo; se está 
-devendo, ele se torna negativo. Para representar isso, precisamos de uma forma de indicar esse “lado” do número. Na 
-computação, isso é feito reservando uma parte da representação para indicar o sinal: como se fosse uma etiqueta 
-dizendo “positivo” ou “negativo”.
-
- Isso traz uma consequência importante: quando usamos números com sinal, parte da capacidade de representação é 
-usada para indicar o sinal, e não o valor em si. É como dividir um espaço entre duas funções diferentes. Por isso, 
-em comparação com números sem sinal, a faixa de valores possíveis muda um pouco.
-
- No fundo, a escolha entre usar números com ou sem sinal depende do problema que estamos tentando resolver. É como 
-escolher a ferramenta certa para uma tarefa: não existe uma opção “melhor” em todos os casos, mas sim a mais 
-adequada para cada situação. Entender isso é fundamental para quem quer trabalhar com computação de forma mais 
-profunda.
 
 
 
