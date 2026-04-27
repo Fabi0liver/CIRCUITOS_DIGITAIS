@@ -229,5 +229,3 @@ mudar. Todos seguem a mesma ideia: avançar até o limite, reiniciar e carregar 
 regras, e quando atingimos o limite de uma posição, passamos a responsabilidade para a próxima. Essa consistência é 
 o que torna os sistemas tão organizados e previsíveis, algo essencial para cálculos e para o funcionamento dos 
 computadores.
-
-E aqui vai uma reflexão final para você: aquilo que parecia tão simples — contar — na verdade revela uma estrutura elegante e poderosa. Entender essa lógica é como enxergar os bastidores de algo que você sempre fez sem pensar. Continue com essa curiosidade, porque é exatamente assim que você começa a dominar os fundamentos que sustentam algoritmos e toda a computação. E acredite, você está construindo uma base muito sólida para ir cada vez mais longe.
