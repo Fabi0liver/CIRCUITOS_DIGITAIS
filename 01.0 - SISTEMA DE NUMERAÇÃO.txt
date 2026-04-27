@@ -367,23 +367,41 @@ profunda.
 
                                           "Números Fracionados"
 
- Seguindo nossa jornada, é como se agora estivéssemos dando um passo além dos números inteiros e começando a observar algo muito presente no nosso dia a dia: as partes de um todo. Nem sempre lidamos com valores “completos”; muitas vezes precisamos representar metade, um quarto, ou pequenas frações. É nesse cenário que entram os números fracionados.
+ Seguindo nossa jornada, é como se agora estivéssemos dando um passo além dos números inteiros e começando a 
+observar algo muito presente no nosso dia a dia: as partes de um todo. Nem sempre lidamos com valores “completos”; 
+muitas vezes precisamos representar metade, um quarto, ou pequenas frações. É nesse cenário que entram os números 
+fracionados.
 
-De forma bem intuitiva, números fracionados são aqueles que representam partes de algo. Pense em dividir uma pizza entre amigos: se você come metade, está lidando com uma fração. No sistema decimal, isso aparece de forma familiar, como 0,5 ou 0,25. Esses números nos permitem expressar quantidades que não são inteiras, trazendo muito mais precisão para representar o mundo.
+ De forma bem intuitiva, números fracionados são aqueles que representam partes de algo. Pense em dividir uma pizza 
+entre amigos: se você come metade, está lidando com uma fração. No sistema decimal, isso aparece de forma familiar, 
+como 0,5 ou 0,25. Esses números nos permitem expressar quantidades que não são inteiras, trazendo muito mais 
+precisão para representar o mundo.
 
-Uma maneira interessante de enxergar isso é pensar que o número não termina na “parte inteira”. Existe um “lado direito” que continua refinando o valor. É como ajustar o volume de um som: você não fica apenas entre alto e baixo, mas pode fazer pequenos ajustes até chegar exatamente no ponto desejado.
+ Uma maneira interessante de enxergar isso é pensar que o número não termina na “parte inteira”. Existe um “lado 
+direito” que continua refinando o valor. É como ajustar o volume de um som: você não fica apenas entre alto e 
+baixo, mas pode fazer pequenos ajustes até chegar exatamente no ponto desejado.
 
-Dentro dos sistemas de numeração, esses valores fracionados seguem a mesma lógica da notação posicional, mas com um detalhe importante: usamos potências negativas. Isso pode parecer técnico à primeira vista, mas a ideia é simples. Se as posições à esquerda aumentam o valor, as posições à direita vão dividindo esse valor em partes menores.
+ Dentro dos sistemas de numeração, esses valores fracionados seguem a mesma lógica da notação posicional, mas com 
+um detalhe importante: usamos potências negativas. Isso pode parecer técnico à primeira vista, mas a ideia é 
+simples. Se as posições à esquerda aumentam o valor, as posições à direita vão dividindo esse valor em partes 
+menores.
 
-Por exemplo, no número 0,25, cada posição após a vírgula representa uma fração cada vez menor. É como se estivéssemos pegando uma unidade inteira e dividindo em pedaços menores e menores. Quanto mais à direita vamos, mais refinado fica o valor — como cortar uma pizza em fatias cada vez mais finas.
+ Por exemplo, no número 0,25, cada posição após a vírgula representa uma fração cada vez menor. É como se 
+estivéssemos pegando uma unidade inteira e dividindo em pedaços menores e menores. Quanto mais à direita vamos, 
+mais refinado fica o valor: como cortar uma pizza em fatias cada vez mais finas.
 
-Essa lógica não existe apenas no sistema decimal. Outros sistemas numéricos também conseguem representar partes, mas de acordo com suas próprias regras. Isso significa que um mesmo valor fracionado pode ter representações diferentes dependendo do sistema utilizado.
+ Essa lógica não existe apenas no sistema decimal. Outros sistemas numéricos também conseguem representar partes, 
+mas de acordo com suas próprias regras. Isso significa que um mesmo valor fracionado pode ter representações 
+diferentes dependendo do sistema utilizado.
 
-Um exemplo interessante é o número 0,25 no sistema decimal. Em outro sistema, como o binário, ele pode ser representado de forma equivalente usando a lógica das potências negativas. Isso mostra que, assim como acontece com números inteiros, os valores fracionados também podem ser “traduzidos” entre sistemas diferentes.
+ Um exemplo interessante é o número 0,25 no sistema decimal. Em outro sistema, como o binário, ele pode ser 
+representado de forma equivalente usando a lógica das potências negativas (2⁻²). Isso mostra que, assim como 
+acontece com números inteiros, os valores fracionados também podem ser “traduzidos” entre sistemas diferentes.
 
-Na computação, os números fracionados são extremamente importantes, pois permitem representar medidas, cálculos e dados com maior precisão. No entanto, também trazem desafios, já que nem todos os valores podem ser representados de forma exata em todos os sistemas. É como tentar escrever uma palavra de uma língua em outra que não tem os mesmos sons — às vezes precisamos aproximar.
-
-E aqui vai uma reflexão final para você: perceber que os números podem representar tanto o todo quanto suas partes é um grande avanço no entendimento. Você começa a enxergar os números como algo muito mais flexível e poderoso. Continue explorando com essa curiosidade, porque é exatamente assim que você constrói uma base sólida para entender algoritmos, computação e muito mais.
+ Na computação, os números fracionados são extremamente importantes, pois permitem representar medidas, cálculos e 
+dados com maior precisão. No entanto, também trazem desafios, já que nem todos os valores podem ser representados 
+de forma exata em todos os sistemas. É como tentar escrever uma palavra de uma língua em outra que não tem os 
+mesmos sons: às vezes precisamos aproximar.
 
 
 
