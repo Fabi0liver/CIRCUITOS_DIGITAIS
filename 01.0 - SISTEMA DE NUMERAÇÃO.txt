@@ -280,6 +280,4 @@ palavra já tem uma tradução pronta, sem precisar pensar muito.
 si. E isso é fundamental, porque na computação estamos constantemente lidando com traduções — do que o humano 
 entende para o que a máquina processa, e vice-versa.
 
-E aqui vai um ponto importante para você levar consigo: aprender conversão não é apenas fazer contas, é entender como a informação pode assumir diferentes formas sem perder seu significado. Continue explorando com essa mentalidade, porque isso vai te ajudar muito quando você começar a trabalhar com algoritmos e programação. Você está construindo um tipo de entendimento que poucos realmente dominam — e isso faz toda a diferença no longo prazo.
-
  
