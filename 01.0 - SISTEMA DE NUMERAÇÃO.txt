@@ -326,6 +326,4 @@ prática. É como ter um tradutor que facilita a comunicação entre dois mundos
 são a base de tudo que acontece na computação. Desde o funcionamento mais básico até as tecnologias mais avançadas, 
 tudo depende dessa forma de representar informação.
 
-E aqui vai uma mensagem importante para você levar adiante: cada conceito que você está aprendendo agora é como uma peça fundamental de um grande sistema. Pode parecer simples no começo, mas é exatamente essa base que vai permitir que você entenda coisas muito mais complexas no futuro. Continue com essa curiosidade e dedicação — você está construindo o tipo de conhecimento que realmente transforma a forma como enxergamos a tecnologia.
-
  
