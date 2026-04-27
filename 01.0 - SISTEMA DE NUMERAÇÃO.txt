@@ -138,26 +138,54 @@ pensamos em computação, onde tudo precisa ser preciso e estruturado.
 
                                     "Principais Sistemas Numéricos"
 
- Agora que já construímos uma base sólida, é como se estivéssemos prontos para conhecer os “idiomas principais” que os números podem falar. Imagine que até aqui você aprendeu o alfabeto e algumas regras de formação; agora, vamos explorar diferentes formas de usar tudo isso na prática. Esses são os principais sistemas numéricos — cada um com sua lógica, seu estilo e sua utilidade.
+ Agora que já construímos uma base sólida, é como se estivéssemos prontos para conhecer os “idiomas principais” que 
+os números podem falar. Imagine que até aqui você aprendeu o alfabeto e algumas regras de formação; agora, vamos 
+explorar diferentes formas de usar tudo isso na prática. Esses são os principais sistemas numéricos: cada um com 
+sua lógica, seu estilo e sua utilidade.
 
-O primeiro deles é o sistema decimal, que é o mais familiar para todos nós. Ele está presente no nosso dia a dia o tempo inteiro: quando olhamos o preço de algo, a hora no relógio ou a quantidade de algo que temos. Esse sistema utiliza dez símbolos diferentes, indo de 0 a 9, e organiza os números de forma que já estamos acostumados desde pequenos.
+ O primeiro deles é o "Sistema Decimal", que é o mais familiar para todos nós. Ele está presente no nosso dia a dia 
+o tempo inteiro: quando olhamos o preço de algo, a hora no relógio ou a quantidade de algo que temos. Esse sistema 
+utiliza dez símbolos diferentes, indo de 0 a 9, e organiza os números de forma que já estamos acostumados desde 
+pequenos.
 
-Podemos pensar no sistema decimal como nossa “língua materna” quando falamos de números. Ele é intuitivo porque crescemos usando ele, assim como aprendemos a falar naturalmente uma língua desde a infância. Por isso, tudo parece mais simples nele — mas isso não significa que seja o único jeito de representar informações.
+ Podemos pensar no sistema decimal como nossa “língua materna” quando falamos de números. Ele é intuitivo porque 
+crescemos usando ele, assim como aprendemos a falar naturalmente uma língua desde a infância. Por isso, tudo parece 
+mais simples nele, mas isso não significa que seja o único jeito de representar informações.
 
-Agora entra um sistema que pode parecer estranho à primeira vista, mas que é essencial no mundo da computação: o sistema binário. Diferente do decimal, ele utiliza apenas dois símbolos: 0 e 1. Pode parecer limitado, como tentar escrever um livro usando apenas duas letras, mas é justamente essa simplicidade que o torna extremamente poderoso.
+ Agora entra um sistema que pode parecer estranho à primeira vista, mas que é essencial no mundo da computação; o 
+"Sistema Binário". Diferente do decimal, ele utiliza apenas dois símbolos: 0 e 1. Pode parecer limitado, como 
+tentar escrever um livro usando apenas duas letras, mas é justamente essa simplicidade que o torna extremamente 
+poderoso.
 
-Uma boa analogia para o sistema binário é pensar em um interruptor de luz: ou está ligado, ou está desligado. Não existe meio termo. Os computadores funcionam de forma semelhante, interpretando sinais elétricos que basicamente seguem essa lógica de dois estados. Por trás de tudo que você faz no celular ou no computador, existe uma enorme sequência de 0s e 1s trabalhando silenciosamente.
+ Uma boa analogia para o sistema binário é pensar em um interruptor de luz: ou está ligado, ou está desligado. Não 
+existe meio termo. Os computadores funcionam de forma semelhante, interpretando sinais elétricos que basicamente 
+seguem essa lógica de dois estados. Por trás de tudo que você faz no celular ou no computador, existe uma enorme 
+sequência de 0s e 1s trabalhando silenciosamente.
 
-Seguindo adiante, temos o sistema octal, que pode ser visto como uma espécie de “atalho” para lidar com o binário. Ele utiliza oito símbolos diferentes, de 0 a 7. Embora não seja tão comum no dia a dia, ele ajuda a representar informações de forma mais compacta quando estamos lidando com dados binários.
+ Seguindo adiante, temos o "Sistema Octal", que pode ser visto como uma espécie de “atalho” para lidar com o 
+binário. Ele utiliza oito símbolos diferentes, de 0 a 7. Embora não seja tão comum no dia a dia, ele ajuda a 
+representar informações de forma mais compacta quando estamos lidando com dados binários.
 
-Imagine que você está tentando resumir uma sequência longa de informações em algo mais fácil de ler. O sistema octal faz algo parecido, agrupando partes do binário em blocos menores e mais compreensíveis. É como transformar uma lista longa em uma versão mais organizada e enxuta.
+ Imagine que você está tentando resumir uma sequência longa de informações em algo mais fácil de ler. O sistema 
+octal faz algo parecido, agrupando partes do binário em blocos menores e mais compreensíveis. É como transformar 
+uma lista longa em uma versão mais organizada e enxuta.
 
-Por fim, temos o sistema hexadecimal, que é muito utilizado em programação e eletrônica. Ele usa dezesseis símbolos diferentes: os números de 0 a 9 e as letras de A até F. Pode parecer curioso usar letras junto com números, mas isso permite representar grandes valores de forma bem mais compacta.
+ Por fim, temos o "Sistema Hexadecimal", que é muito utilizado em programação e eletrônica. Ele usa dezesseis 
+símbolos diferentes: os números de 0 a 9 e as letras de A até F. Pode parecer curioso usar letras junto com 
+números, mas isso permite representar grandes valores de forma bem mais compacta.
 
-Uma analogia interessante para o hexadecimal é pensar em abreviações. Assim como usamos “vc” no lugar de “você” para simplificar, o hexadecimal “encurta” representações que seriam muito longas em binário. Por isso, ele é muito útil para programadores, especialmente ao lidar com cores, endereços de memória e outras estruturas internas do computador.
+ Uma analogia interessante para o hexadecimal é pensar em abreviações. Assim como usamos “vc” no lugar de “você” 
+para simplificar, o hexadecimal “encurta” representações que seriam muito longas em binário. Por isso, ele é muito 
+útil para programadores, especialmente ao lidar com cores, endereços de memória e outras estruturas internas do 
+computador.
 
-Ao observar esses sistemas lado a lado, você começa a perceber algo importante: não existe apenas uma forma “certa” de representar números. Cada sistema foi criado para atender a uma necessidade específica, assim como usamos diferentes ferramentas dependendo da tarefa. Entender isso é um grande passo para compreender como a computação funciona por dentro.
+ Ao observar esses sistemas lado a lado, você começa a perceber algo importante: não existe apenas uma forma 
+“certa” de representar números. Cada sistema foi criado para atender a uma necessidade específica, assim como 
+usamos diferentes ferramentas dependendo da tarefa. Entender isso é um grande passo para compreender como a 
+computação funciona por dentro.
 
-E aqui vai um ponto importante para você levar consigo: ao aprender esses sistemas, você não está apenas decorando formas diferentes de escrever números — você está aprendendo a pensar de maneiras diferentes. Isso expande sua visão e te aproxima ainda mais do funcionamento real dos algoritmos e das máquinas.
+ E aqui vai um ponto importante para você levar consigo: ao aprender esses sistemas, você não está apenas decorando 
+formas diferentes de escrever números: você está aprendendo a pensar de maneiras diferentes. Isso expande sua visão 
+e te aproxima ainda mais do funcionamento real dos algoritmos e das máquinas.
 
 Continue avançando com essa curiosidade que você está demonstrando. Esse é exatamente o tipo de conhecimento que constrói uma base forte em Ciência da Computação. E acredite: cada novo conceito que você entende é como adicionar uma nova peça em um grande quebra-cabeça que, aos poucos, começa a revelar uma imagem incrível.
