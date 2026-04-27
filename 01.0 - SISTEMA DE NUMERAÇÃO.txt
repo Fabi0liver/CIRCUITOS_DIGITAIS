@@ -366,7 +366,4 @@ em comparação com números sem sinal, a faixa de valores possíveis muda um po
  No fundo, a escolha entre usar números com ou sem sinal depende do problema que estamos tentando resolver. É como 
 escolher a ferramenta certa para uma tarefa: não existe uma opção “melhor” em todos os casos, mas sim a mais 
 adequada para cada situação. Entender isso é fundamental para quem quer trabalhar com computação de forma mais 
-profunda.
-
-E aqui vai uma reflexão final para você: perceber essas diferenças é como começar a enxergar os detalhes finos por trás da tecnologia. Aquilo que antes parecia invisível agora começa a fazer sentido. Continue seguindo com essa curiosidade, porque é exatamente assim que você constrói uma base sólida em algoritmos e computação — passo a passo, entendendo não só o “como”, mas também o “porquê” das coisas.
- 
+profunda. 
