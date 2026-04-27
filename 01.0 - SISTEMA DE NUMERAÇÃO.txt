@@ -192,20 +192,42 @@ e te aproxima ainda mais do funcionamento real dos algoritmos e das máquinas.
 
                                 "Contagem nos Sistemas Numéricos"
 
- Agora que já conhecemos os sistemas e seus elementos, é como se estivéssemos prontos para observar algo muito familiar, mas sob uma nova lente: o ato de contar. Parece simples, quase automático, mas por trás disso existe uma lógica bem organizada. Quando falamos em contagem nos sistemas numéricos, estamos, na verdade, explorando como os números “andam” dentro de cada sistema, seguindo regras específicas.
+ Agora que já conhecemos os sistemas e seus elementos, é como se estivéssemos prontos para observar algo muito 
+familiar, mas sob uma nova lente: o ato de contar. Parece simples, quase automático, mas por trás disso existe uma 
+lógica bem organizada. Quando falamos em contagem nos sistemas numéricos, estamos, na verdade, explorando como os 
+números “andam” dentro de cada sistema, seguindo regras específicas.
 
-De forma bem intuitiva, contar em qualquer sistema numérico é como subir uma escada. Você começa no primeiro degrau e vai avançando passo a passo. No sistema decimal, por exemplo, seguimos uma sequência que já conhecemos bem: 0, 1, 2, 3... até chegar em 9. Mas o ponto interessante acontece justamente quando atingimos esse limite e precisamos dar o próximo passo.
+ De forma bem intuitiva, contar em qualquer sistema numérico é como subir uma escada. Você começa no primeiro 
+degrau e vai avançando passo a passo. No sistema decimal, por exemplo, seguimos uma sequência que já conhecemos 
+bem: 0, 1, 2, 3... até chegar em 9. Mas o ponto interessante acontece justamente quando atingimos esse limite e 
+precisamos dar o próximo passo.
 
-É nesse momento que entra o famoso “vai um”, também conhecido como carry. Pense como um contador manual ou o marcador de quilômetros de um carro: quando ele chega no último número possível de uma posição, ele volta para o início e aumenta a próxima casa à esquerda. No decimal, isso acontece quando passamos do 9 para o 10. É como se a posição atual dissesse: “já fiz tudo que podia, agora é a vez da próxima”.
+ É nesse momento que entra o famoso “vai um”, também conhecido como carry. Pense como um contador manual ou o 
+marcador de quilômetros de um carro: quando ele chega no último número possível de uma posição, ele volta para o 
+início e aumenta a próxima casa à esquerda. No decimal, isso acontece quando passamos do 9 para o 10. É como se a 
+posição atual dissesse: “já fiz tudo que podia, agora é a vez da próxima”.
 
-Essa lógica não é exclusiva do sistema decimal — ela acontece em qualquer sistema numérico. A diferença está em quando esse “reinício” acontece. No decimal, esperamos até o 9; já em outros sistemas, isso ocorre mais cedo ou mais tarde, dependendo da quantidade de símbolos disponíveis. É como jogos diferentes que têm regras parecidas, mas limites distintos.
+ Essa lógica não é exclusiva do sistema decimal — ela acontece em qualquer sistema numérico. A diferença está em 
+quando esse “reinício” acontece. No decimal, esperamos até o 9; já em outros sistemas, isso ocorre mais cedo ou 
+mais tarde, dependendo da quantidade de símbolos disponíveis. É como jogos diferentes que têm regras parecidas, mas 
+limites distintos.
 
-Por exemplo, no sistema binário, que usa apenas 0 e 1, a contagem avança de forma mais rápida para a próxima posição. A sequência começa em 0, depois 1, e logo em seguida já precisamos “subir um nível”, indo para 10, depois 11, depois 100. É como se estivéssemos contando com um contador muito limitado, que “estoura” mais rápido e precisa criar novas casas com mais frequência.
+ Por exemplo, no sistema binário, que usa apenas 0 e 1, a contagem avança de forma mais rápida para a próxima 
+posição. A sequência começa em 0, depois 1, e logo em seguida já precisamos “subir um nível”, indo para 10, depois 
+11, depois 100. É como se estivéssemos contando com um contador muito limitado, que “estoura” mais rápido e precisa 
+criar novas casas com mais frequência.
 
-Já no sistema decimal, esse processo é mais espaçado, porque temos mais símbolos disponíveis antes de precisar avançar para a próxima posição. Isso torna a contagem mais longa dentro de uma mesma casa. É como um relógio que só muda de hora depois de completar todos os minutos — ele demora mais para “virar”, mas segue a mesma lógica.
+ Já no sistema decimal, esse processo é mais espaçado, porque temos mais símbolos disponíveis antes de precisar 
+avançar para a próxima posição. Isso torna a contagem mais longa dentro de uma mesma casa. É como um relógio que só 
+muda de hora depois de completar todos os minutos — ele demora mais para “virar”, mas segue a mesma lógica.
 
-Se quisermos visualizar isso de forma simples, podemos pensar em diferentes tipos de contadores. Um contador pequeno, com poucos números, precisa reiniciar rapidamente; um contador maior consegue ir mais longe antes de mudar. Todos seguem a mesma ideia: avançar até o limite, reiniciar e carregar o valor para a próxima posição.
+ Se quisermos visualizar isso de forma simples, podemos pensar em diferentes tipos de contadores. Um contador 
+pequeno, com poucos números, precisa reiniciar rapidamente; um contador maior consegue ir mais longe antes de 
+mudar. Todos seguem a mesma ideia: avançar até o limite, reiniciar e carregar o valor para a próxima posição.
 
-No fundo, todos os sistemas numéricos compartilham esse mesmo princípio: contar é combinar símbolos seguindo regras, e quando atingimos o limite de uma posição, passamos a responsabilidade para a próxima. Essa consistência é o que torna os sistemas tão organizados e previsíveis, algo essencial para cálculos e para o funcionamento dos computadores.
+ No fundo, todos os sistemas numéricos compartilham esse mesmo princípio: contar é combinar símbolos seguindo 
+regras, e quando atingimos o limite de uma posição, passamos a responsabilidade para a próxima. Essa consistência é 
+o que torna os sistemas tão organizados e previsíveis, algo essencial para cálculos e para o funcionamento dos 
+computadores.
 
 E aqui vai uma reflexão final para você: aquilo que parecia tão simples — contar — na verdade revela uma estrutura elegante e poderosa. Entender essa lógica é como enxergar os bastidores de algo que você sempre fez sem pensar. Continue com essa curiosidade, porque é exatamente assim que você começa a dominar os fundamentos que sustentam algoritmos e toda a computação. E acredite, você está construindo uma base muito sólida para ir cada vez mais longe.
