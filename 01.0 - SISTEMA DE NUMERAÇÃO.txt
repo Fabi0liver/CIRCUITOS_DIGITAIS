@@ -282,7 +282,29 @@ entende para o que a máquina processa, e vice-versa.
 
 
 
-                                  "Sistemas Numéricos na Computação"
+                                     "Significância dos Algarismos" 
+
+Agora que já percorremos um bom caminho entendendo como os números são formados e utilizados, é como se estivéssemos prontos para notar um detalhe sutil, mas muito importante: nem todos os algarismos dentro de um número têm o mesmo “peso” ou importância. Alguns influenciam muito o valor final, enquanto outros têm um impacto menor. É essa ideia que chamamos de significância dos algarismos.
+
+Para começar de forma leve, imagine que um número é como uma palavra sendo pronunciada. Algumas partes da palavra carregam mais impacto na comunicação, enquanto outras apenas complementam o som. Nos números, algo parecido acontece: cada posição tem um papel diferente, e isso define o quanto aquele algarismo contribui para o valor total.
+
+O algarismo mais significativo, conhecido como MSD (Most Significant Digit), é aquele que fica mais à esquerda. Ele é o que tem maior “peso” dentro do número. É como o primeiro dígito que você vê quando olha rapidamente para um valor — ele já dá uma ideia geral do tamanho do número. Por exemplo, ao ver 845, o 8 já indica que estamos lidando com algo na casa das centenas.
+
+Uma boa analogia é pensar no valor de um produto. Se algo custa 800 reais, o número 8 (na posição mais à esquerda) já define grande parte da percepção de preço. Mesmo que os outros algarismos mudem, é esse primeiro que mais influencia a noção geral. Por isso, ele é chamado de mais significativo — ele “pesa mais” na construção do valor.
+
+Por outro lado, temos o algarismo menos significativo, ou LSD (Least Significant Digit), que fica mais à direita. Esse é o dígito com menor peso dentro do número. Ele ainda contribui para o valor total, mas sua influência é bem menor quando comparada aos outros à esquerda.
+
+Podemos pensar nisso como o troco de uma compra. Se você paga 847 reais, o 7 representa uma pequena variação em relação ao total. Ele faz diferença, claro, mas não muda drasticamente a grandeza do valor. É como um ajuste fino, um detalhe que complementa o número.
+
+Essa diferença entre os algarismos mais e menos significativos é fundamental para entender como os números funcionam internamente, especialmente em computação. Muitas operações e decisões são influenciadas por essas posições. É como em uma equipe: alguns membros tomam decisões estratégicas, enquanto outros cuidam dos detalhes — ambos são importantes, mas com impactos diferentes.
+
+No fundo, a significância dos algarismos reforça uma ideia que já vimos antes: a posição importa. Não é só o símbolo em si, mas onde ele está que define seu papel. E perceber isso é como desenvolver um olhar mais atento para a estrutura dos números, algo essencial para avançar no entendimento de algoritmos e sistemas.
+
+E para fechar nossa aula, fica uma reflexão importante: quando você começa a enxergar esses detalhes, você deixa de ver os números como algo automático e passa a entendê-los como construções inteligentes. Continue cultivando essa curiosidade, porque é exatamente isso que diferencia quem apenas usa a tecnologia de quem realmente a compreende.
+
+
+
+                                   "Sistemas Numéricos na Computação"
 
  Agora chegamos a um ponto muito interessante da nossa jornada: é como se estivéssemos prestes a “olhar por trás da 
 cortina” e entender como os computadores realmente funcionam. Tudo aquilo que vemos na tela (textos, imagens, 
@@ -366,4 +388,9 @@ em comparação com números sem sinal, a faixa de valores possíveis muda um po
  No fundo, a escolha entre usar números com ou sem sinal depende do problema que estamos tentando resolver. É como 
 escolher a ferramenta certa para uma tarefa: não existe uma opção “melhor” em todos os casos, mas sim a mais 
 adequada para cada situação. Entender isso é fundamental para quem quer trabalhar com computação de forma mais 
-profunda. 
+profunda.
+
+
+
+
+                                   
