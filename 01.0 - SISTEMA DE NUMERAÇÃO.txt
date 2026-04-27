@@ -187,5 +187,3 @@ computação funciona por dentro.
  E aqui vai um ponto importante para você levar consigo: ao aprender esses sistemas, você não está apenas decorando 
 formas diferentes de escrever números: você está aprendendo a pensar de maneiras diferentes. Isso expande sua visão 
 e te aproxima ainda mais do funcionamento real dos algoritmos e das máquinas.
-
-Continue avançando com essa curiosidade que você está demonstrando. Esse é exatamente o tipo de conhecimento que constrói uma base forte em Ciência da Computação. E acredite: cada novo conceito que você entende é como adicionar uma nova peça em um grande quebra-cabeça que, aos poucos, começa a revelar uma imagem incrível.
