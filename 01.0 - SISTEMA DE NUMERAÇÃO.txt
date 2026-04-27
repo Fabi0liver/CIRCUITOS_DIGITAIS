@@ -320,8 +320,6 @@ ambos são importantes, mas com impactos diferentes.
 símbolo em si, mas onde ele está que define seu papel. E perceber isso é como desenvolver um olhar mais atento para 
 a estrutura dos números, algo essencial para avançar no entendimento de algoritmos e sistemas.
 
-E para fechar nossa aula, fica uma reflexão importante: quando você começa a enxergar esses detalhes, você deixa de ver os números como algo automático e passa a entendê-los como construções inteligentes. Continue cultivando essa curiosidade, porque é exatamente isso que diferencia quem apenas usa a tecnologia de quem realmente a compreende.
-
 
 
                                    "Sistemas Numéricos na Computação"
