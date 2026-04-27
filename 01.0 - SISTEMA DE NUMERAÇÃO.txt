@@ -280,4 +280,28 @@ palavra já tem uma tradução pronta, sem precisar pensar muito.
 si. E isso é fundamental, porque na computação estamos constantemente lidando com traduções — do que o humano 
 entende para o que a máquina processa, e vice-versa.
 
+
+
+                                  "Sistemas Numéricos na Computação"
+
+ Agora chegamos a um ponto muito interessante da nossa jornada: é como se estivéssemos prestes a “olhar por trás da cortina” e entender como os computadores realmente funcionam. Tudo aquilo que vemos na tela — textos, imagens, vídeos — parece natural para nós, mas, por dentro, a história é bem diferente. É aqui que os sistemas numéricos entram como protagonistas silenciosos.
+
+Dentro de um computador, tudo é representado por números. Mas não do jeito que estamos acostumados no dia a dia. Enquanto nós usamos o sistema decimal quase sem pensar, os computadores trabalham com um sistema muito mais simples e direto: o sistema binário. E isso não é por acaso, mas por uma questão prática ligada à própria natureza dos circuitos eletrônicos.
+
+Imagine um interruptor de luz: ele só pode estar em dois estados — ligado ou desligado. Os circuitos digitais funcionam exatamente assim. Eles reconhecem apenas dois níveis de sinal elétrico, que são representados como 1 e 0. O sistema binário se encaixa perfeitamente nisso, porque também trabalha com apenas dois símbolos. É como se o computador estivesse falando uma língua extremamente simples, mas muito eficiente.
+
+Essa simplicidade, longe de ser uma limitação, é justamente o que torna os computadores tão poderosos. Com apenas 0s e 1s, eles conseguem representar qualquer tipo de informação. É como montar infinitas palavras usando apenas duas letras. Pode parecer improvável, mas com organização e regras bem definidas, isso se torna totalmente possível.
+
+Por exemplo, quando você digita uma letra no teclado, ela não é armazenada como “A” dentro do computador. Ela é convertida em um número que representa aquela letra. O mesmo acontece com imagens e sons: tudo é transformado em sequências numéricas. É como se o computador tivesse um “dicionário interno” que traduz tudo para a linguagem que ele entende.
+
+Mas trabalhar diretamente com longas sequências de 0s e 1s pode ser difícil para nós, humanos. É aí que entra o sistema hexadecimal como um grande aliado. Ele funciona como uma forma mais compacta e legível de representar esses números binários. Em vez de lidar com uma sequência enorme, usamos uma versão “resumida”, muito mais fácil de interpretar.
+
+Uma boa analogia é pensar em abreviações ou apelidos. Em vez de escrever um nome completo toda vez, usamos uma forma mais curta para facilitar. O hexadecimal faz exatamente isso com o binário. Por isso, ele é muito usado em programação, especialmente em áreas como cores digitais, endereços de memória e sistemas internos.
+
+No fundo, todos esses sistemas trabalham juntos como uma equipe. O binário é a base, a linguagem que o hardware entende. Já o hexadecimal funciona como uma ponte, ajudando os humanos a interagir com essa linguagem de forma mais prática. É como ter um tradutor que facilita a comunicação entre dois mundos diferentes.
+
+Ao compreender isso, você começa a perceber que os sistemas numéricos não são apenas um conteúdo teórico — eles são a base de tudo que acontece na computação. Desde o funcionamento mais básico até as tecnologias mais avançadas, tudo depende dessa forma de representar informação.
+
+E aqui vai uma mensagem importante para você levar adiante: cada conceito que você está aprendendo agora é como uma peça fundamental de um grande sistema. Pode parecer simples no começo, mas é exatamente essa base que vai permitir que você entenda coisas muito mais complexas no futuro. Continue com essa curiosidade e dedicação — você está construindo o tipo de conhecimento que realmente transforma a forma como enxergamos a tecnologia.
+
  
