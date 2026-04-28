@@ -116,8 +116,9 @@ Números Fracionados:
 
  Representação de partes (ex: 0.5)
  Uso de potências negativas
+ Os números fracionados nos sistemas de numeração
 
- Exemplo: 0.25 = 2⁻² (no binário)
+ Exemplo: 0.25₁₀ = 2⁻² (no binário)
 
 
 Representação Física (Circuitos):
@@ -127,11 +128,7 @@ Representação Física (Circuitos):
  Informação vira energia elétrica organizada
 
 
-Limitações e Cuidados:
 
- Limite de representação (overflow)
- Precisão limitada
- Arredondamentos
 
 
 Conclusão sobre Sistemas Numéricos
