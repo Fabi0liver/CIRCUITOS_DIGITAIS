@@ -84,7 +84,9 @@ Conversão de Sinais:
  Amostragem
  Teorema de Nyquist 
  Quantização
+ Frequência de amostragem
  Erro de quantização
+Ideia central: O mundo é analógico, mas o computador é digital → precisa traduzir.
 
 
 Comportamento Real dos Sinais:
@@ -154,3 +156,17 @@ Sinais em Sistemas Reais:
  Sinais assíncronos
  Glitches (falhas temporárias)
  Metastabilidade 
+
+
+Aplicações dos Sinais em Diferentes Áreas:
+ Comunicações e Telecomunicações
+ Entretenimento e Áudio
+ Medicina e Diagnóstico
+ Controle e Automação
+ Redes de Computadores 
+ Internet das Coisas (IoT)
+ Segurança e Monitoramento
+ Tecnologias Emergentes
+
+
+Conclusão sobre os Sinais nos Circuitos Digitais
