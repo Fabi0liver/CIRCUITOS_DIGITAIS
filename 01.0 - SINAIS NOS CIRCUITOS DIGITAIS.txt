@@ -1,1 +1,17 @@
                                       SINAIS NOS CIRCUITOS DIGITAIS
+
+ Quando você usa um celular, assiste a um vídeo ou envia uma mensagem, existe algo invisível acontecendo nos bastidores que torna tudo isso possível. Não vemos, não tocamos, mas é justamente esse “algo” que permite que a informação viaje, seja entendida e processada. É aqui que entram os sinais, funcionando como uma espécie de linguagem silenciosa que conecta todos os componentes de um sistema.
+
+Podemos imaginar os sinais como mensageiros que carregam informações de um ponto a outro. Assim como uma conversa depende de palavras organizadas para fazer sentido, os sistemas computacionais dependem desses mensageiros para comunicar instruções, dados e decisões. Sem eles, os circuitos seriam apenas estruturas físicas sem propósito definido.
+
+No contexto da computação, esses sinais estão presentes em praticamente tudo. Eles participam desde as tarefas mais simples, como acender um LED, até operações complexas realizadas dentro de um computador. Mesmo que não percebamos, cada ação digital que realizamos depende diretamente dessa troca constante de informações.
+
+É interessante perceber que, antes mesmo de entendermos como os circuitos funcionam em detalhes, já conseguimos reconhecer que existe uma dinâmica de comunicação acontecendo. Os sinais são justamente o meio pelo qual essa comunicação ocorre, conectando diferentes partes de um sistema de forma organizada e eficiente.
+
+Pensando no cotidiano, é como o funcionamento de uma cidade: existem ruas, veículos e pessoas, mas o que realmente mantém tudo funcionando é o fluxo de movimento e informação. Da mesma forma, nos circuitos, não basta ter os componentes; é o fluxo de sinais que dá vida ao sistema.
+
+À medida que avançamos no estudo de circuitos digitais, compreender o papel dos sinais se torna essencial. Eles não são apenas um detalhe técnico, mas sim a base sobre a qual todo o restante será construído. É como aprender o alfabeto antes de formar palavras e frases mais complexas.
+
+Essa visão inicial é importante porque evita que o aprendizado se torne apenas mecânico. Em vez de decorar conceitos isolados, você começa a enxergar um sistema vivo, onde tudo está interligado por meio desses fluxos de informação. Isso facilita muito a compreensão dos próximos conteúdos.
+
+Nos próximos passos, vamos começar a olhar com mais atenção para como esses sinais se comportam, como são representados e como influenciam diretamente o funcionamento dos circuitos. Essa base que estamos construindo agora será fundamental para que tudo faça sentido daqui para frente.
