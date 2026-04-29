@@ -30,5 +30,3 @@ alfabeto antes de formar palavras e frases mais complexas.
  Essa visão inicial é importante porque evita que o aprendizado se torne apenas mecânico. Em vez de decorar 
 conceitos isolados, você começa a enxergar um sistema vivo, onde tudo está interligado por meio desses fluxos de 
 informação. Isso facilita muito a compreensão dos próximos conteúdos.
-
- Nos próximos passos, vamos começar a olhar com mais atenção para como esses sinais se comportam, como são representados e como influenciam diretamente o funcionamento dos circuitos. Essa base que estamos construindo agora será fundamental para que tudo faça sentido daqui para frente.
