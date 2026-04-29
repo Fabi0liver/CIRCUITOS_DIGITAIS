@@ -12,15 +12,15 @@ Sinal como função do tempo:
 Sinais determinísticos vs aleatórios
 
 
-Domínio do tempo vs domínio da frequência
-
-
 Representação de informação no mundo físico:
  O que é informação física
  Grandezas físicas:
   Tensão (voltagem)
   Corrente
   Tempo
+ Como um sinal existe fisicamente
+ Impedância
+ Fonte vs carga
 
 
 Sinais Analógicos:
@@ -35,24 +35,30 @@ Sinais Analógicos:
   Frequência
   Período
   Fase
- Noção de fase
+ Harmônicos (noção simples)
+ Por que onda quadrada "não é perfeita"
 Foco: Entender isso só o suficiente para compreender a origem do digital.
+
+
+Tempo vs Frequência:
+ Domínio do tempo
+ Domínio da frequência
+ Intuição da Transformada de Fourier
 
 
 Sinais Digitais:
  Definição de sinal digital
  Sinais discretos no tempo
  Sinais discretos na amplitude
- Representação binária(0 e 1)
- Pulsos digitais
- Sequências digitais
+ Bits e Representação binária (0 e 1)
+ Pulsos e Sequências digitais
 Conceitos importantes: Bit como unidade física, Forma de onda digital ideal (onda quadrada)
 
 
 Níveis Lógicos e Representação Física: 
  Nível lógico 0 e 1 (LOW / HIGH)
- Faixas de tensão (não valores exatos)
- Threshold (limiar de decisão)
+ Faixas de tensão 
+ Threshold 
  Interpretação de sinais
  Conceitos críticos:
   TTL vs CMOS 
@@ -65,9 +71,22 @@ Forma de Onda Digital:
  Tempo de descida (fall time)
  Overshoot e undershoot 
  Sinais não perfeitamente quadrados
+ Ringing
 Ideia: Na prática, sinais digitais são analógicos imperfeitos tentando parecer digitais.
- 
 
+
+Tempo em Circuitos Digitais:
+ Tempo de propagação
+ Delay 
+ Skew 
+ Clock:
+  Período
+  Frequência
+ Setup time
+ Hold time
+Insight central: Circuitos digitais são sistemas que funcionam no tempo, não só em valores.
+
+ 
 Analógico vs Digital:
  Diferenças práticas
  Vantagens e desvantagens
@@ -98,29 +117,14 @@ Comportamento Real dos Sinais:
 Importância: Grande parte dos circuitos digitais reage às mudanças, não ao estado.
 
 
-Tempo em Circuitos Digitais:
- Tempo de propagação
- Delay (atraso)
- Skew (diferença de chegada)
- Clock:
-  Período
-  Frequência
- Conceito de ciclo de clock
- Sincronização vs assincronismo
- Conceitos avançados:
-  Setup time
-  Hold time
-Insight central: Circuitos digitais são sistemas que funcionam no tempo, não só em valores.
-
-
-Ruído e Qualidade do Sinal:
+Ruído e Integridade de Sinal:
  O que é ruído
  Interferência
- Crosstalk (noção)
+ Crosstalk 
  Margem de ruído (noise margin)
  Relação sinal/ruído (SNR)
- Distorção
- Filtragem de sinais
+ Integridade de sinal (Signal Integrity)
+ Ground bounce
 Insight: Digital funciona porque aceita “imperfeições controladas”.
 
 
