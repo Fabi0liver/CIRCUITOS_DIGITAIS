@@ -1,0 +1,156 @@
+O que é um sinal?
+
+
+O que é informação?
+
+
+Sinal como função do tempo:
+ Contínuos
+ Discretos
+
+
+Sinais determinísticos vs aleatórios
+
+
+Domínio do tempo vs domínio da frequência
+
+
+Representação de informação no mundo físico:
+ O que é informação física
+ Grandezas físicas:
+  Tensão (voltagem)
+  Corrente
+  Tempo
+
+
+Sinais Analógicos:
+ Definição de sinal analógico
+ Sinais contínuos no tempo e na amplitude
+ Formas de onda:
+  Senoidal
+  Quadrada (comparação)
+  Triangular
+ Parâmetros:
+  Amplitude
+  Frequência
+  Período
+  Fase
+ Noção de fase
+Foco: Entender isso só o suficiente para compreender a origem do digital.
+
+
+Sinais Digitais:
+ Definição de sinal digital
+ Sinais discretos no tempo
+ Sinais discretos na amplitude
+ Representação binária(0 e 1)
+ Pulsos digitais
+ Sequências digitais
+Conceitos importantes: Bit como unidade física, Forma de onda digital ideal (onda quadrada)
+
+
+Níveis Lógicos e Representação Física: 
+ Nível lógico 0 e 1 (LOW / HIGH)
+ Faixas de tensão (não valores exatos)
+ Threshold (limiar de decisão)
+ Interpretação de sinais
+ Conceitos críticos:
+  TTL vs CMOS 
+  Zona indefinida
+Insight: O computador não vê “0 ou 1” — ele interpreta intervalos de tensão.
+
+
+Forma de Onda Digital: 
+ Tempo de subida (rise time)
+ Tempo de descida (fall time)
+ Overshoot e undershoot 
+ Sinais não perfeitamente quadrados
+Ideia: Na prática, sinais digitais são analógicos imperfeitos tentando parecer digitais.
+ 
+
+Analógico vs Digital:
+ Diferenças práticas
+ Vantagens e desvantagens
+ Ruído (noise)
+ Precisão vs robustez
+ Sensibilidade a interferência
+ Armazenamento e transmissão
+ Por que computadores usam digital
+
+
+Conversão de Sinais:
+ Conversão Analógico → Digital (ADC)
+ Conversão Digital → Analógico (DAC)
+ Amostragem
+ Teorema de Nyquist 
+ Quantização
+ Erro de quantização
+
+
+Comportamento Real dos Sinais:
+ Borda de subida (rising edge)
+ Borda de descida (falling edge)
+ Trigger por borda
+ Atraso de propagação
+ Sinal ideal vs sinal real
+Importância: Grande parte dos circuitos digitais reage às mudanças, não ao estado.
+
+
+Tempo em Circuitos Digitais:
+ Tempo de propagação
+ Delay (atraso)
+ Skew (diferença de chegada)
+ Clock:
+  Período
+  Frequência
+ Conceito de ciclo de clock
+ Sincronização vs assincronismo
+ Conceitos avançados:
+  Setup time
+  Hold time
+Insight central: Circuitos digitais são sistemas que funcionam no tempo, não só em valores.
+
+
+Ruído e Qualidade do Sinal:
+ O que é ruído
+ Interferência
+ Crosstalk (noção)
+ Margem de ruído (noise margin)
+ Relação sinal/ruído (SNR)
+ Distorção
+ Filtragem de sinais
+Insight: Digital funciona porque aceita “imperfeições controladas”.
+
+
+Portas Lógicas e Interpretação Digital:
+ AND, OR, NOT, NAND, NOR, XOR
+ Tabelas verdade
+ Como sinais digitais são interpretados
+ Como sinais entram e saem de portas
+ Tempo de propagação em portas
+ Cascata de portas (acúmulo de atraso)
+Insight: Lógica = transformação de sinais ao longo do tempo.
+
+
+Fundamentos Elétricos:
+ Lei de Ohm
+ Resistores, Transistor, capacitores e indutores
+ Circuitos básicos
+ CMOS
+ Como tensão vira estado lógico
+
+
+Representação e Processamento:
+ Codificação de sinais:
+  NRZ (Non-Return to Zero)
+  Clock embutido vs separado
+  Sincronização de dados
+ Bits, bytes...
+ Formatos digitais (áudio, imagem, ...)
+
+
+Sinais em Sistemas Reais: 
+ Sinais síncronos
+ Sinais assíncronos
+ Glitches (falhas temporárias)
+ Metastabilidade 
