@@ -111,16 +111,31 @@ e processar a informação.
 acrescentar uma nova camada de entendimento: será que sempre conseguimos prever exatamente como um sinal vai se 
 comportar? Essa ideia de previsibilidade é fundamental para distinguir diferentes tipos de sinais.
 
- Pense em situações do cotidiano. Há coisas que conseguimos antecipar com bastante precisão, como o nascer do sol ou o horário em que um alarme vai tocar. Por outro lado, existem situações imprevisíveis, como o resultado de um jogo ou o momento exato em que começará a chover. Essa diferença entre o previsível e o imprevisível também aparece no comportamento dos sinais.
+ Pense em situações do cotidiano. Há coisas que conseguimos antecipar com bastante precisão, como o nascer do sol 
+ou o horário em que um alarme vai tocar. Por outro lado, existem situações imprevisíveis, como o resultado de um 
+jogo ou o momento exato em que começará a chover. Essa diferença entre o previsível e o imprevisível também aparece 
+no comportamento dos sinais.
 
-Quando um sinal segue um padrão completamente definido, de modo que podemos saber exatamente qual será seu valor em qualquer instante, chamamos esse sinal de determinístico. É como uma receita de bolo: se você seguir os passos corretamente, o resultado será sempre o mesmo. O comportamento do sinal já está “determinado” desde o início.
+ Quando um sinal segue um padrão completamente definido, de modo que podemos saber exatamente qual será seu valor 
+em qualquer instante, são chamamos de "Sinais Determinísticos". É como uma receita de bolo: se você seguir 
+os passos corretamente, o resultado será sempre o mesmo. O comportamento do sinal já está “determinado” desde o 
+início.
 
-Por exemplo, imagine um sinal que oscila sempre da mesma forma, repetindo um padrão ao longo do tempo. Mesmo sem observar diretamente, conseguimos prever como ele será no próximo instante. Isso acontece porque existe uma regra clara que descreve seu comportamento, tornando-o totalmente previsível.
+ Por exemplo, imagine um sinal que oscila sempre da mesma forma, repetindo um padrão ao longo do tempo. Mesmo sem 
+observar diretamente, conseguimos prever como ele será no próximo instante. Isso acontece porque existe uma regra 
+clara que descreve seu comportamento, tornando-o totalmente previsível.
 
-Agora, considere o outro extremo. Existem sinais cujo comportamento não pode ser previsto com exatidão, mesmo que observemos seu histórico. Esses são os chamados sinais aleatórios. Eles não seguem uma regra fixa que permita antecipar seus valores de forma precisa, apenas conseguimos descrever tendências ou probabilidades.
+ Agora, considere o outro extremo. Existem sinais cujo comportamento não pode ser previsto com exatidão, mesmo que 
+observemos seu histórico. Esses são os chamados "Sinais Sleatórios". Eles não seguem uma regra fixa que permita 
+antecipar seus valores de forma precisa, apenas conseguimos descrever tendências ou probabilidades.
 
-Uma analogia simples é pensar no clima. Podemos ter uma ideia geral de que um dia será quente ou frio, mas não conseguimos prever exatamente cada variação de temperatura ao longo do dia. Da mesma forma, sinais aleatórios carregam incerteza em seu comportamento, mesmo que ainda transmitam informação.
+ Uma analogia simples é pensar no clima. Podemos ter uma ideia geral de que um dia será quente ou frio, mas não 
+conseguimos prever exatamente cada variação de temperatura ao longo do dia. Da mesma forma, sinais aleatórios 
+carregam incerteza em seu comportamento, mesmo que ainda transmitam informação.
 
-Comparando os dois tipos, percebemos que a principal diferença está no grau de previsibilidade. Sinais determinísticos são totalmente previsíveis e seguem regras bem definidas, enquanto sinais aleatórios apresentam variações que não podem ser antecipadas com precisão. Ambos são importantes e aparecem em diferentes contextos dentro da computação e da engenharia.
+ Comparando os dois tipos, percebemos que a principal diferença está no grau de previsibilidade. Sinais 
+determinísticos são totalmente previsíveis e seguem regras bem definidas, enquanto sinais aleatórios apresentam 
+variações que não podem ser antecipadas com precisão. Ambos são importantes e aparecem em diferentes contextos 
+dentro da computação e da engenharia.
 
 Com esse entendimento, ampliamos nossa visão sobre os sinais: não apenas como eles evoluem no tempo, mas também como podem variar em termos de previsibilidade. Esse será um ponto chave para os próximos estudos, onde vamos explorar como lidar com esses diferentes comportamentos e como eles influenciam o funcionamento dos sistemas digitais.
