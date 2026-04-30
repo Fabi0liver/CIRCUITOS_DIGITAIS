@@ -33,20 +33,35 @@ informação. Isso facilita muito a compreensão dos próximos conteúdos.
 
 
 
-                                           "O que é a Informação?"
+                                          "O que é a Informação?"
 
- Na nossa conversa anterior, vimos que existe algo invisível que permite que os sistemas computacionais funcionem: um fluxo constante que carrega “mensagens” entre diferentes partes. Agora, vale a pena dar um passo atrás e perguntar: afinal, o que exatamente está sendo transmitido? O que são essas “mensagens”? É aqui que entra o conceito de informação.
+ Anteriormente na nossa apresentação vimos que os sinais é algo invisível que permite que os sistemas 
+computacionais funcionem: um fluxo constante que carrega “mensagens” entre diferentes partes. Agora, vale a pena 
+dar um passo atrás e perguntar: afinal, o que exatamente está sendo transmitido? O que são essas “mensagens”? É 
+aqui que entra o conceito de informação.
 
-De forma bem intuitiva, informação é tudo aquilo que reduz dúvida ou transmite significado. Quando alguém te envia uma mensagem dizendo “cheguei”, isso muda o que você sabe sobre a situação. Antes havia incerteza; depois, há clareza. Ou seja, informação não é apenas dado solto — ela tem valor porque comunica algo relevante para quem recebe.
+ De forma bem intuitiva, informação é tudo aquilo que reduz dúvida ou transmite significado. Quando alguém te envia 
+uma mensagem dizendo “cheguei”, isso muda o que você sabe sobre a situação. Antes havia incerteza; depois, há 
+clareza. Ou seja, informação não é apenas dado solto, ela tem valor porque comunica algo relevante para quem 
+recebe.
 
-Podemos pensar na informação como o conteúdo de uma conversa. Em uma ligação telefônica, por exemplo, não é o som em si que importa, mas o que ele representa: palavras, ideias, sentimentos. O som é apenas o meio; a informação é o significado por trás dele. Essa distinção é fundamental para entender o papel dos sinais.
+ Podemos pensar na informação como o conteúdo de uma conversa. Em uma ligação telefônica, por exemplo, não é o som 
+em si que importa, mas o que ele representa: palavras, ideias, sentimentos. O som é apenas o meio; a informação é o 
+significado por trás dele. Essa distinção é fundamental para entender o papel dos sinais.
 
-Trazendo isso para o mundo dos sistemas digitais, a mesma lógica continua válida. O que os sistemas precisam trocar não são apenas variações físicas, mas sim significados: números, comandos, estados, decisões. A informação é o “conteúdo”, enquanto outra coisa será responsável por carregá-la de um lugar para outro.
+ Trazendo isso para o mundo dos sistemas digitais, a mesma lógica continua válida. O que os sistemas precisam 
+trocar não são apenas variações físicas, mas sim significados: números, comandos, estados, decisões. A informação é 
+o “conteúdo”, enquanto outra coisa será responsável por carregá-la de um lugar para outro.
 
-É justamente aí que os sinais entram em cena. Eles funcionam como o meio pelo qual a informação viaja dentro dos circuitos. Assim como o som carrega palavras em uma conversa, os sinais carregam informação entre os componentes de um sistema digital. Sem eles, a informação não teria como se deslocar.
+ É justamente aí que os sinais entram em cena. Eles funcionam como o meio pelo qual a informação viaja dentro dos 
+circuitos. Assim como o som carrega palavras em uma conversa, os sinais carregam informação entre os componentes de 
+um sistema digital. Sem eles, a informação não teria como se deslocar.
 
-Uma analogia útil é pensar em uma carta. A informação é o texto escrito no papel — a mensagem que você quer transmitir. Já o sinal seria como o envelope e o sistema de entrega, que garantem que essa mensagem saia de um ponto e chegue ao destino. Um não faz sentido sem o outro.
+ Uma analogia útil é pensar em uma carta. A informação é o texto escrito no papel: a mensagem que você quer 
+transmitir. Já o sinal seria como o envelope e o sistema de entrega, que garantem que essa mensagem saia de um 
+ponto e chegue ao destino. Um não faz sentido sem o outro.
 
-Com isso, fica mais claro perceber que sinais e informação estão profundamente conectados. Os sinais não existem por si só; eles têm um propósito muito específico: transportar informação de forma organizada e compreensível para o sistema. Sempre que há um sinal, há algo sendo comunicado.
+ Com isso, fica mais claro perceber que sinais e informação estão profundamente conectados. Os sinais não existem 
+por si só; eles têm um propósito muito específico: transportar informação de forma organizada e compreensível para 
+o sistema. Sempre que há um sinal, há algo sendo comunicado.
 
-À medida que avançamos, vamos começar a enxergar não apenas que a informação existe, mas também como ela ganha forma no mundo físico para poder ser transmitida. Esse será o próximo passo importante: entender como algo abstrato, como informação, se transforma em algo concreto dentro dos circuitos.
