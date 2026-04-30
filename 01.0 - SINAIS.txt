@@ -107,9 +107,11 @@ e processar a informação.
 
                                      "Previsibilidade  dos Sinais"
 
- Nos tópicos anteriores, vimos que os sinais carregam informação e evoluem ao longo do tempo. Agora, vamos acrescentar uma nova camada de entendimento: será que sempre conseguimos prever exatamente como um sinal vai se comportar? Essa ideia de previsibilidade é fundamental para distinguir diferentes tipos de sinais.
+ Nos tópicos anteriores, vimos que os sinais carregam informação e evoluem ao longo do tempo. Agora, vamos 
+acrescentar uma nova camada de entendimento: será que sempre conseguimos prever exatamente como um sinal vai se 
+comportar? Essa ideia de previsibilidade é fundamental para distinguir diferentes tipos de sinais.
 
-Pense em situações do cotidiano. Há coisas que conseguimos antecipar com bastante precisão, como o nascer do sol ou o horário em que um alarme vai tocar. Por outro lado, existem situações imprevisíveis, como o resultado de um jogo ou o momento exato em que começará a chover. Essa diferença entre o previsível e o imprevisível também aparece no comportamento dos sinais.
+ Pense em situações do cotidiano. Há coisas que conseguimos antecipar com bastante precisão, como o nascer do sol ou o horário em que um alarme vai tocar. Por outro lado, existem situações imprevisíveis, como o resultado de um jogo ou o momento exato em que começará a chover. Essa diferença entre o previsível e o imprevisível também aparece no comportamento dos sinais.
 
 Quando um sinal segue um padrão completamente definido, de modo que podemos saber exatamente qual será seu valor em qualquer instante, chamamos esse sinal de determinístico. É como uma receita de bolo: se você seguir os passos corretamente, o resultado será sempre o mesmo. O comportamento do sinal já está “determinado” desde o início.
 
