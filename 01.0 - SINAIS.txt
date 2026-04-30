@@ -65,3 +65,22 @@ ponto e chegue ao destino. Um não faz sentido sem o outro.
 por si só; eles têm um propósito muito específico: transportar informação de forma organizada e compreensível para 
 o sistema. Sempre que há um sinal, há algo sendo comunicado.
 
+
+
+                                      "Sinal como Função do Tempo"
+
+ Até aqui, entendemos que os sinais são responsáveis por transportar informação dentro dos sistemas. Mas existe um detalhe essencial que ainda não exploramos: essa transmissão não acontece de forma estática, ela ocorre ao longo do tempo. Ou seja, para compreender de verdade os sinais, precisamos enxergá-los como algo que evolui, muda e se comporta conforme o tempo passa.
+
+Imagine, por exemplo, o volume de uma música tocando no seu celular. Ele não fica sempre no mesmo nível; pode aumentar, diminuir ou até silenciar em certos momentos. Esse comportamento ao longo do tempo é uma boa forma de visualizar um sinal: algo que assume diferentes valores conforme o tempo avança, carregando informação nessa variação.
+
+Pensar em um sinal como “função do tempo” é justamente isso: observar como ele se comporta em cada instante. Em vez de enxergar o sinal como algo fixo, passamos a vê-lo como uma espécie de história sendo contada, onde cada momento traz um valor que contribui para o significado total da informação transmitida.
+
+A partir dessa ideia, podemos perceber que nem todos os sinais se comportam da mesma forma ao longo do tempo. Alguns variam de maneira suave e contínua, sem interrupções perceptíveis. Outros mudam em etapas bem definidas, como se dessem “saltos” de um valor para outro. Essa diferença é fundamental para entender como os sistemas lidam com a informação.
+
+Uma analogia simples ajuda bastante aqui. Pense em um vídeo: ele parece um movimento contínuo, mas na verdade é formado por uma sequência de imagens exibidas rapidamente. Se olharmos quadro a quadro, percebemos que existem “instantes” separados. Algo semelhante acontece com certos tipos de sinais, que não são contínuos, mas sim organizados em pontos específicos no tempo.
+
+Por outro lado, imagine o movimento de um ponteiro de relógio analógico, que desliza suavemente ao redor do mostrador. Esse é um exemplo de comportamento contínuo, onde não conseguimos identificar saltos bruscos entre um instante e outro. Alguns sinais seguem exatamente essa lógica, variando de forma fluida ao longo do tempo.
+
+Já em muitos sistemas digitais, o comportamento tende a ser mais parecido com o vídeo do que com o ponteiro do relógio. Os sinais são observados ou utilizados em instantes específicos, criando uma sequência de valores organizados no tempo. Essa característica torna possível tratar a informação de forma mais estruturada dentro dos circuitos.
+
+Compreender essa diferença entre o contínuo e o discreto é um passo fundamental, porque ela influencia diretamente como os circuitos são projetados e como a informação é manipulada. Nos próximos tópicos, vamos nos aproximar ainda mais dessa realidade, explorando como esses sinais se manifestam fisicamente e como são utilizados de forma prática dentro dos sistemas digitais.
