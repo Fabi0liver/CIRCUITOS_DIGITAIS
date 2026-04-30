@@ -69,19 +69,36 @@ o sistema. Sempre que há um sinal, há algo sendo comunicado.
 
                                       "Sinal como Função do Tempo"
 
- Até aqui, entendemos que os sinais carregam informação dentro dos sistemas. Mas existe um detalhe essencial que ainda não exploramos: essa informação não aparece de uma vez só, ela se manifesta ao longo do tempo. Ou seja, para compreender de fato um sinal, precisamos observar como ele se comporta enquanto o tempo passa, como se estivéssemos assistindo a uma história se desenrolando quadro a quadro.
+ Até aqui, entendemos que os sinais carregam informação dentro dos sistemas. Mas existe um detalhe essencial que 
+ainda não exploramos: essa informação não aparece de uma vez só, ela se manifesta ao longo do tempo. Ou seja, para 
+compreender de fato um sinal, precisamos observar como ele se comporta enquanto o tempo passa, como se estivéssemos 
+assistindo a uma história se desenrolando quadro a quadro.
 
-Podemos então pensar em um sinal como algo que muda com o tempo. Imagine o volume de uma música aumentando e diminuindo, ou a luz de uma lâmpada variando de intensidade. Em cada instante, há um valor específico, e o conjunto desses valores ao longo do tempo forma o que chamamos de sinal. É como acompanhar a temperatura durante o dia: não basta saber um único valor, mas sim como ela evolui.
+ Podemos então pensar em um sinal como algo que muda com o tempo. Imagine o volume de uma música aumentando e 
+diminuindo, ou a luz de uma lâmpada variando de intensidade. Em cada instante, há um valor específico, e o conjunto 
+desses valores ao longo do tempo forma o que chamamos de sinal. É como acompanhar a temperatura durante o dia: não 
+basta saber um único valor, mas sim como ela evolui.
 
-Com essa ideia em mente, começamos a perceber que existem diferentes formas desse comportamento acontecer. Alguns sinais mudam de maneira suave, sem “saltos”, enquanto outros mudam em etapas bem definidas. Essa diferença na forma como o sinal evolui ao longo do tempo é o que nos leva a distinguir dois tipos importantes: os sinais contínuos e os sinais discretos.
+ Com essa ideia em mente, começamos a perceber que existem diferentes formas desse comportamento acontecer. Alguns 
+sinais mudam de maneira suave, sem “saltos”, enquanto outros mudam em etapas bem definidas. Essa diferença na forma 
+como o sinal evolui ao longo do tempo é o que nos leva a distinguir dois tipos importantes: os sinais contínuos e 
+os sinais discretos.
 
-Os sinais contínuos são aqueles que variam de forma fluida, sem interrupções. Imagine girar o botão de volume de um rádio lentamente: o som aumenta de maneira gradual, passando por todos os níveis possíveis entre o mais baixo e o mais alto. É como uma rampa sem degraus, onde você pode parar em qualquer ponto do caminho.
+ Os "Sinais Contínuos" são aqueles que variam de forma fluida, sem interrupções. Imagine girar o botão de volume de 
+um rádio lentamente: o som aumenta de maneira gradual, passando por todos os níveis possíveis entre o mais baixo e 
+o mais alto. É como uma rampa sem degraus, onde você pode parar em qualquer ponto do caminho.
 
-Já os sinais discretos funcionam de maneira diferente. Em vez de variarem suavemente, eles assumem valores em pontos específicos, como se avançassem em “passos”. Pense em um relógio digital: ele não mostra o tempo passando de forma contínua, mas sim em mudanças bem definidas, como quando os números mudam de 12:00 para 12:01. É como subir uma escada, onde cada degrau representa um valor.
+ Já os "Sinais Discretos" funcionam de maneira diferente. Em vez de variarem suavemente, eles assumem valores em 
+pontos específicos, como se avançassem em “passos”. Pense em um relógio digital: ele não mostra o tempo passando de 
+forma contínua, mas sim em mudanças bem definidas, como quando os números mudam de 12:00 para 12:01. É como subir 
+uma escada, onde cada degrau representa um valor.
 
-Essa diferença pode ser entendida também como a distinção entre algo contínuo, como um filme fluido, e algo composto por quadros separados, como uma sequência de fotos exibidas rapidamente. Ambos representam movimento, mas de maneiras diferentes. Nos sinais contínuos, tudo está conectado; nos discretos, existem pontos específicos que representam o comportamento.
+ Essa diferença pode ser entendida também como a distinção entre algo contínuo, como um filme fluido, e algo 
+composto por quadros separados, como uma sequência de fotos exibidas rapidamente. Ambos representam movimento, mas 
+de maneiras diferentes. Nos sinais contínuos, tudo está conectado; nos discretos, existem pontos específicos que 
+representam o comportamento.
 
-Comparando os dois, percebemos que a principal diferença está justamente nessa forma de evolução no tempo. Enquanto o sinal contínuo pode assumir qualquer valor em qualquer instante, o sinal discreto só existe em momentos definidos e com valores específicos. Cada um tem seu papel e sua utilidade, dependendo de como queremos representar e processar a informação.
-
-Com essa base, começamos a enxergar os sinais não apenas como portadores de informação, mas como entidades que têm um comportamento no tempo. Esse entendimento será fundamental nos próximos estudos, quando vamos explorar com mais profundidade como esses sinais são usados na prática e como essa diferença entre contínuo e discreto impacta diretamente os circuitos digitais.
-
+ Comparando os dois, percebemos que a principal diferença está justamente nessa forma de evolução no tempo. 
+Enquanto o sinal contínuo pode assumir qualquer valor em qualquer instante, o sinal discreto só existe em momentos 
+definidos e com valores específicos. Cada um tem seu papel e sua utilidade, dependendo de como queremos representar 
+e processar a informação.
