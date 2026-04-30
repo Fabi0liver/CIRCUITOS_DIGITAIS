@@ -117,8 +117,8 @@ jogo ou o momento exato em que começará a chover. Essa diferença entre o prev
 no comportamento dos sinais.
 
  Quando um sinal segue um padrão completamente definido, de modo que podemos saber exatamente qual será seu valor 
-em qualquer instante, são chamamos de "Sinais Determinísticos". É como uma receita de bolo: se você seguir 
-os passos corretamente, o resultado será sempre o mesmo. O comportamento do sinal já está “determinado” desde o 
+em qualquer instante, chamamos de "Sinais Determinísticos". É como uma receita de bolo: se você seguir os passos 
+corretamente, o resultado será sempre o mesmo. O comportamento do sinal já está “determinado” desde o 
 início.
 
  Por exemplo, imagine um sinal que oscila sempre da mesma forma, repetindo um padrão ao longo do tempo. Mesmo sem 
@@ -137,5 +137,3 @@ carregam incerteza em seu comportamento, mesmo que ainda transmitam informação
 determinísticos são totalmente previsíveis e seguem regras bem definidas, enquanto sinais aleatórios apresentam 
 variações que não podem ser antecipadas com precisão. Ambos são importantes e aparecem em diferentes contextos 
 dentro da computação e da engenharia.
-
-Com esse entendimento, ampliamos nossa visão sobre os sinais: não apenas como eles evoluem no tempo, mas também como podem variar em termos de previsibilidade. Esse será um ponto chave para os próximos estudos, onde vamos explorar como lidar com esses diferentes comportamentos e como eles influenciam o funcionamento dos sistemas digitais.
