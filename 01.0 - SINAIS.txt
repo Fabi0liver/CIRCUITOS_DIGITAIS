@@ -180,6 +180,3 @@ pode ser perdido ou distorcido, assim como uma conversa em um ambiente com muito
 
  Quando juntamos todas essas ideias, percebemos que a informação só consegue cumprir seu papel porque existe um 
 meio físico que a sustenta. Tensão, corrente e tempo formam a base dessa existência, enquanto a interação entre fonte e carga, mediada pela impedância, garante que o sinal chegue corretamente ao seu destino.
-
- Esse entendimento marca um ponto importante na nossa jornada, pois agora não vemos mais os sinais apenas como 
-conceitos abstratos, mas como fenômenos reais que acontecem dentro dos circuitos. 
