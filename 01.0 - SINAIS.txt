@@ -230,5 +230,5 @@ transições instantâneas, seria necessário combinar uma quantidade infinita d
 no mundo real, as ondas quadradas sempre apresentam pequenas imperfeições, com bordas suavizadas em vez de mudanças 
 totalmente abruptas.
 
-Ao integrar todos esses conceitos, começamos a enxergar os sinais analógicos como representações ricas e contínuas da informação no mundo físico. Esse entendimento é essencial, pois os sistemas digitais que estudaremos a seguir surgem justamente como uma forma de simplificar, controlar e tornar mais robusto esse comportamento contínuo.
+ Ao integrar todos esses conceitos, começamos a enxergar os sinais analógicos como representações ricas e contínuas da informação no mundo físico. Esse entendimento é essencial, pois os sistemas digitais que estudaremos a seguir surgem justamente como uma forma de simplificar, controlar e tornar mais robusto esse comportamento contínuo.
 
