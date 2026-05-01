@@ -142,23 +142,45 @@ dentro da computação e da engenharia.
 
                              "Representação de Informação no Mundo Físico"
 
- Até aqui, entendemos que os sinais carregam informação e se comportam ao longo do tempo, podendo ser previsíveis ou não. Mas existe uma pergunta essencial que ainda precisamos responder: onde, de fato, essa informação “vive”? A resposta nos leva a um ponto fundamental — a informação, para existir em um sistema físico, precisa assumir uma forma concreta.
+ Até aqui, entendemos que os sinais carregam informação e se comportam ao longo do tempo, podendo ser previsíveis 
+ou não. Mas existe uma pergunta essencial que ainda precisamos responder: onde, de fato, essa informação “vive”? A 
+resposta nos leva a um ponto fundamental: a informação, para existir em um sistema físico, precisa assumir uma 
+forma concreta.
 
-Quando falamos em informação no mundo físico, estamos nos referindo à maneira como algo abstrato — como um número, uma decisão ou um comando — se manifesta em algo que pode ser medido ou observado. É como uma ideia que sai da mente e ganha forma no papel ao ser escrita. Nos circuitos, a informação também precisa de um “corpo” para existir.
+ Quando falamos em informação no mundo físico, estamos nos referindo à maneira como algo abstrato (como um número, 
+uma decisão ou um comando) se manifesta em algo que pode ser medido ou observado. É como uma ideia que sai da mente 
+e ganha forma no papel ao ser escrita. Nos circuitos, a informação também precisa de um “corpo” para existir.
 
-Esse “corpo” da informação aparece por meio de grandezas físicas. Entre as mais importantes estão a tensão, a corrente e o tempo. A tensão pode ser vista como uma espécie de “pressão elétrica”, algo que impulsiona o movimento; a corrente representa o fluxo, ou seja, o movimento efetivo dessa energia; e o tempo organiza tudo isso, indicando quando cada mudança acontece.
+ Esse “corpo” da informação aparece por meio de grandezas físicas. Entre as mais importantes estão a tensão, a 
+corrente e o tempo. A tensão pode ser vista como uma espécie de “pressão elétrica”, algo que impulsiona o 
+movimento; a corrente representa o fluxo, ou seja, o movimento efetivo dessa energia; e o tempo organiza tudo isso, 
+indicando quando cada mudança acontece.
 
-Podemos fazer uma analogia com o fluxo de água em um encanamento. A tensão seria como a pressão da água empurrando o líquido, a corrente seria o próprio fluxo passando pelos canos, e o tempo nos diria como esse fluxo varia — se aumenta, diminui ou se mantém constante. Juntas, essas grandezas permitem que a informação seja transportada de forma física.
+ Podemos fazer uma analogia com o fluxo de água em um encanamento. A tensão seria como a pressão da água empurrando 
+o líquido, a corrente seria o próprio fluxo passando pelos canos, e o tempo nos diria como esse fluxo varia: se 
+aumenta, diminui ou se mantém constante. Juntas, essas grandezas permitem que a informação seja transportada de 
+forma física.
 
-Com isso, começamos a perceber que um sinal não é apenas uma ideia abstrata, mas sim uma variação real dessas grandezas ao longo do tempo. Ele existe como mudanças de tensão e corrente que podem ser medidas em pontos específicos de um circuito. É como se o circuito “falasse” por meio dessas variações.
+ Com isso, começamos a perceber que um sinal não é apenas uma ideia abstrata, mas sim uma variação real dessas 
+grandezas ao longo do tempo. Ele existe como mudanças de tensão e corrente que podem ser medidas em pontos 
+específicos de um circuito. É como se o circuito “falasse” por meio dessas variações.
 
-No entanto, essa comunicação não acontece de forma isolada. Sempre há uma interação entre quem envia o sinal e quem o recebe. É aqui que entram os conceitos de fonte e carga. A fonte é quem gera o sinal, enquanto a carga é quem o recebe e utiliza essa informação para realizar alguma ação.
+ No entanto, essa comunicação não acontece de forma isolada. Sempre há uma interação entre quem envia o sinal e 
+quem o recebe. É aqui que entram os conceitos de fonte e carga. A fonte é quem gera o sinal, enquanto a carga é 
+quem o recebe e utiliza essa informação para realizar alguma ação.
 
-Para entender melhor essa relação, imagine uma pessoa falando e outra ouvindo. A qualidade da comunicação depende não só de quem fala, mas também de quem escuta e do ambiente entre eles. Nos circuitos, essa “qualidade de interação” está ligada a uma propriedade chamada impedância, que influencia como o sinal é transferido entre a fonte e a carga.
+ Para entender melhor essa relação, imagine uma pessoa falando e outra ouvindo. A qualidade da comunicação depende 
+não só de quem fala, mas também de quem escuta e do ambiente entre eles. Nos circuitos, essa “qualidade de 
+interação” está ligada a uma propriedade chamada impedância, que influencia como o sinal é transferido entre a 
+fonte e a carga.
 
-De forma intuitiva, a impedância pode ser vista como uma espécie de “resistência ao fluxo de informação”. Se houver um bom encaixe entre a fonte e a carga, o sinal é transmitido de forma eficiente. Caso contrário, parte dele pode ser perdido ou distorcido, assim como uma conversa em um ambiente com muito ruído.
+ De forma intuitiva, a impedância pode ser vista como uma espécie de “resistência ao fluxo de informação”. Se 
+houver um bom encaixe entre a fonte e a carga, o sinal é transmitido de forma eficiente. Caso contrário, parte dele 
+pode ser perdido ou distorcido, assim como uma conversa em um ambiente com muito ruído.
 
-Quando juntamos todas essas ideias, percebemos que a informação só consegue cumprir seu papel porque existe um meio físico que a sustenta. Tensão, corrente e tempo formam a base dessa existência, enquanto a interação entre fonte e carga, mediada pela impedância, garante que o sinal chegue corretamente ao seu destino.
+ Quando juntamos todas essas ideias, percebemos que a informação só consegue cumprir seu papel porque existe um 
+meio físico que a sustenta. Tensão, corrente e tempo formam a base dessa existência, enquanto a interação entre 
+fonte e carga, mediada pela impedância, garante que o sinal chegue corretamente ao seu destino.
 
 Esse entendimento marca um ponto importante na nossa jornada, pois agora não vemos mais os sinais apenas como conceitos abstratos, mas como fenômenos reais que acontecem dentro dos circuitos. A partir daqui, estaremos prontos para explorar como esses sinais são manipulados na prática, dando origem aos comportamentos que tornam os sistemas digitais tão poderosos.
 
