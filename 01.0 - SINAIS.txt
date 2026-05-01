@@ -180,3 +180,30 @@ pode ser perdido ou distorcido, assim como uma conversa em um ambiente com muito
 
  Quando juntamos todas essas ideias, percebemos que a informação só consegue cumprir seu papel porque existe um 
 meio físico que a sustenta. Tensão, corrente e tempo formam a base dessa existência, enquanto a interação entre fonte e carga, mediada pela impedância, garante que o sinal chegue corretamente ao seu destino.
+
+
+
+                                        "Sinais Analógicos"
+
+ Agora que entendemos como a informação ganha forma física por meio de sinais, surge uma necessidade natural: compreender os diferentes tipos de sinais que podem existir nesse mundo físico. Entre eles, os sinais analógicos ocupam um papel fundamental, pois representam a forma mais “natural” como muitos fenômenos do mundo real se manifestam.
+
+Um sinal analógico pode ser entendido, de forma intuitiva, como aquele que varia de maneira contínua, sem saltos bruscos. Pense no volume de uma música aumentando suavemente ou na luz do dia mudando ao longo do entardecer. Não há interrupções ou mudanças abruptas — tudo acontece de forma fluida. Esse tipo de comportamento é a essência dos sinais analógicos.
+
+Quando dizemos que um sinal é contínuo no tempo, estamos afirmando que ele existe em todos os instantes, sem “buracos”. Já a continuidade na amplitude significa que ele pode assumir qualquer valor dentro de um intervalo, sem ficar limitado a valores específicos. É como um dimmer de luz que permite ajustar o brilho em infinitos níveis, e não apenas em posições fixas.
+
+Para visualizar melhor esses sinais, usamos o conceito de forma de onda, que nada mais é do que o “desenho” do sinal ao longo do tempo. Entre as formas mais comuns, temos a senoidal, a quadrada e a triangular, cada uma com características próprias que ajudam a representar diferentes comportamentos.
+
+A forma senoidal é talvez a mais suave e natural de todas. Ela lembra o movimento das ondas do mar ou o subir e descer de uma montanha-russa bem tranquila. Esse tipo de forma aparece com frequência em fenômenos naturais e em sistemas físicos, justamente por sua variação contínua e equilibrada.
+
+Já a forma triangular pode ser vista como uma subida e descida em linha reta, como se você estivesse caminhando até o topo de uma montanha em um ritmo constante e depois descendo da mesma forma. Ela mantém a continuidade, mas com mudanças mais “lineares”, sem a suavidade da senoidal.
+
+A forma quadrada, por outro lado, apresenta mudanças abruptas entre níveis. É como acender e apagar uma lâmpada instantaneamente, sem transição. Apesar de parecer simples, essa forma não ocorre de maneira perfeita na natureza, justamente porque mudanças instantâneas exigiriam condições físicas ideais que não existem na prática.
+
+Para descrever qualquer uma dessas formas de onda, utilizamos alguns parâmetros fundamentais. A amplitude indica o “tamanho” do sinal, como a altura de uma onda. A frequência nos diz quantas vezes esse padrão se repete em um intervalo de tempo, enquanto o período representa o tempo necessário para completar um ciclo. Já a fase indica o ponto inicial do sinal, como se fosse o “momento de partida” dentro do ciclo.
+
+Quando observamos sinais mais complexos, percebemos que eles podem ser formados pela combinação de várias formas mais simples. Essa ideia nos leva à noção de harmônicos, que são como “componentes” adicionais que, juntos, constroem um sinal mais elaborado. É semelhante a uma música composta por várias notas tocadas ao mesmo tempo.
+
+Isso nos ajuda a entender por que a onda quadrada perfeita é difícil de existir fisicamente. Para que ela tivesse transições instantâneas, seria necessário combinar uma quantidade infinita de harmônicos. Como isso não é possível no mundo real, as ondas quadradas sempre apresentam pequenas imperfeições, com bordas suavizadas em vez de mudanças totalmente abruptas.
+
+Ao integrar todos esses conceitos, começamos a enxergar os sinais analógicos como representações ricas e contínuas da informação no mundo físico. Esse entendimento é essencial, pois os sistemas digitais que estudaremos a seguir surgem justamente como uma forma de simplificar, controlar e tornar mais robusto esse comportamento contínuo.
+
