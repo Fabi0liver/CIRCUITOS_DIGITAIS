@@ -306,5 +306,3 @@ luz que acendem e apagam em um padrão específico para transmitir uma mensagem.
 definidos, lembrando uma onda quadrada. Essa forma ideal mostra mudanças instantâneas entre os estados, embora, na 
 prática, essas transições sempre tenham pequenas variações devido às limitações físicas.
 
-Ao integrar todos esses conceitos, percebemos que os sinais digitais são uma forma estruturada e eficiente de representar informação no mundo físico. Essa base será essencial para os próximos passos, onde começaremos a entender como esses sinais são manipulados, armazenados e até convertidos quando necessário, conectando o mundo digital ao analógico.
-
