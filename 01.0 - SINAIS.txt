@@ -217,8 +217,6 @@ converte uma história contada ao longo do tempo em uma lista de ingredientes qu
 domínio do tempo mostra como o sinal acontece, enquanto o domínio da frequência revela do que ele é feito. Juntos, 
 eles oferecem uma compreensão muito mais completa do comportamento dos sinais.
 
-Com esse entendimento, você começa a perceber que analisar sinais vai muito além de simplesmente observar gráficos ao longo do tempo. Essa dualidade entre tempo e frequência será essencial quando avançarmos para aplicações práticas em circuitos digitais, onde diferentes formas de análise ajudam a projetar e compreender sistemas de maneira mais eficiente.
-
 
 
                                         "Sinais Analógicos"
