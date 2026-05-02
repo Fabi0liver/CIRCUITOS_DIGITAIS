@@ -268,3 +268,30 @@ totalmente abruptas.
 
  Ao integrar todos esses conceitos, começamos a enxergar os sinais analógicos como representações ricas e contínuas da informação no mundo físico. Esse entendimento é essencial, pois os sistemas digitais que estudaremos a seguir surgem justamente como uma forma de simplificar, controlar e tornar mais robusto esse comportamento contínuo.
 
+
+
+                                        "Sinais Digitais"
+
+ Depois de explorarmos os sinais analógicos, que variam de forma contínua e suave, surge uma pergunta importante: como transformar essa realidade rica, porém complexa, em algo mais simples e confiável para os sistemas computacionais? É justamente dessa necessidade que nascem os sinais digitais, como uma forma de representar o mundo de maneira mais controlada.
+
+De forma intuitiva, um sinal digital é aquele que não assume infinitos valores, mas sim um conjunto limitado e bem definido. Em vez de variar suavemente como um dimmer de luz, ele se comporta como um interruptor: ligado ou desligado. Essa simplificação pode parecer uma perda de informação à primeira vista, mas, na prática, ela traz robustez e facilidade de processamento.
+
+Essa transformação envolve um processo chamado discretização. Primeiro, discretizamos no tempo, ou seja, observamos o sinal apenas em instantes específicos, como tirar fotos em vez de gravar um vídeo contínuo. Depois, discretizamos na amplitude, limitando os valores possíveis que o sinal pode assumir, como arredondar medidas para níveis fixos.
+
+A partir dessa discretização, surge um conceito central: o bit. O bit é a menor unidade de informação em sistemas digitais e pode assumir dois estados distintos. Podemos pensar nele como uma escolha simples entre duas possibilidades, como “sim” ou “não”, “ligado” ou “desligado”. Essa simplicidade é o que torna os sistemas digitais tão eficientes.
+
+Quando combinamos vários bits, conseguimos representar informações mais complexas. É como formar palavras a partir de letras: cada bit isolado é simples, mas em conjunto eles conseguem descrever números, textos, imagens e muito mais. Essa forma de organização é conhecida como representação binária, base de toda a computação digital.
+
+Fisicamente, esses bits não são apenas conceitos abstratos. Eles existem como estados reais em um circuito, geralmente associados a diferentes níveis de tensão. Ou seja, o bit também é uma entidade física, representada por condições concretas que podem ser detectadas e manipuladas pelos componentes eletrônicos.
+
+Quando esses estados mudam ao longo do tempo, formam o que chamamos de pulsos digitais. Um pulso é uma transição entre níveis, e a sequência desses pulsos cria padrões que carregam informação. É como um código em que cada mudança representa parte de uma mensagem sendo transmitida.
+
+Se olharmos para a forma de onda desses sinais, a representação ideal é uma onda quadrada, com transições instantâneas entre os níveis. No entanto, assim como vimos anteriormente, essa forma perfeita não existe exatamente no mundo físico, pois toda mudança real leva um pequeno tempo para acontecer.
+
+Mesmo assim, essa ideia de forma ideal é extremamente útil, pois serve como referência para projetar e entender sistemas digitais. Ela nos permite pensar de maneira mais clara sobre como os sinais devem se comportar, mesmo sabendo que, na prática, sempre haverá pequenas imperfeições.
+
+Com isso, conseguimos enxergar os sinais digitais como uma versão simplificada e estruturada dos sinais analógicos, projetada para facilitar o processamento de informação. Esse entendimento será essencial nos próximos passos, quando começarmos a explorar como esses sinais são utilizados para construir circuitos digitais e sistemas computacionais completos.
+
+
+ 
+
