@@ -310,25 +310,47 @@ prática, essas transições sempre tenham pequenas variações devido às limit
 
                               "Níveis Lógicos e Representação Física"
 
- Depois de entendermos como os sinais digitais representam informação por meio de valores discretos, surge uma questão importante: como, fisicamente, um circuito consegue interpretar esses valores como 0 ou 1? Afinal, no mundo real, não existem números “puros”, mas sim variações de grandezas físicas, como a tensão. É essa ponte entre o abstrato e o físico que vamos explorar agora.
+ Depois de entendermos como os sinais digitais representam informação por meio de valores discretos, surge uma 
+questão importante: como, fisicamente, um circuito consegue interpretar esses valores como 0 ou 1? Afinal, no mundo 
+real, não existem números “puros”, mas sim variações de grandezas físicas, como a tensão. É essa ponte entre o 
+abstrato e o físico que vamos explorar agora.
 
-De forma intuitiva, os níveis lógicos 0 e 1 podem ser vistos como duas categorias distintas, como “desligado” e “ligado”, ou “não” e “sim”. Esses estados são a base da lógica digital, mas não existem como números isolados dentro do circuito. Em vez disso, eles são representados por condições físicas que o sistema aprende a reconhecer.
+ De forma intuitiva, os níveis lógicos 0 e 1 podem ser vistos como duas categorias distintas, como “desligado” e 
+“ligado”, ou “não” e “sim”. Esses estados são a base da lógica digital, mas não existem como números isolados 
+dentro do circuito. Em vez disso, eles são representados por condições físicas que o sistema aprende a reconhecer.
 
-Essas condições físicas aparecem como faixas de tensão. Ou seja, o circuito não espera um valor exato para identificar um 0 ou um 1, mas sim um intervalo de valores. É como um termômetro que classifica temperaturas em “frio” ou “quente”: não existe um único número que define cada categoria, mas sim uma faixa aceitável.
+ Essas condições físicas aparecem como faixas de tensão. Ou seja, o circuito não espera um valor exato para 
+identificar um 0 ou um 1, mas sim um intervalo de valores. É como um termômetro que classifica temperaturas em 
+“frio” ou “quente”: não existe um único número que define cada categoria, mas sim uma faixa aceitável.
 
-Por exemplo, tensões mais próximas de zero geralmente são interpretadas como nível lógico 0, enquanto tensões mais altas são interpretadas como nível lógico 1. Entre esses extremos, existem regiões onde o circuito consegue tomar decisões com segurança, desde que os valores estejam dentro das faixas esperadas.
+ Por exemplo, tensões mais próximas de zero (0V) geralmente são interpretadas como nível lógico 0, enquanto tensões 
+mais altas (+5V) são interpretadas como nível lógico 1. Entre esses extremos, existem regiões onde o circuito 
+consegue tomar decisões com segurança, desde que os valores estejam dentro das faixas esperadas.
 
-Para que essa decisão aconteça, entra em cena o conceito de threshold, que funciona como um limite de referência. Podemos imaginar esse limite como uma linha divisória: valores abaixo dela tendem a ser interpretados como 0, e valores acima como 1. Esse ponto ajuda o circuito a “decidir” como interpretar o sinal recebido.
+ Para que essa decisão aconteça, entra em cena o conceito de threshold, que funciona como um limite de referência. 
+Podemos imaginar esse limite como uma linha divisória: valores abaixo dela tendem a ser interpretados como 0, e 
+valores acima como 1. Esse ponto ajuda o circuito a “decidir” como interpretar o sinal recebido.
 
-No entanto, essa decisão não depende apenas de um único valor exato, mas de margens de segurança. Isso significa que o circuito foi projetado para tolerar pequenas variações, ruídos ou imperfeições no sinal. Essa tolerância é essencial para que os sistemas digitais funcionem de forma confiável no mundo real.
+ No entanto, essa decisão não depende apenas de um único valor exato, mas de margens de segurança. Isso significa 
+que o circuito foi projetado para tolerar pequenas variações, ruídos ou imperfeições no sinal. Essa tolerância é 
+essencial para que os sistemas digitais funcionem de forma confiável no mundo real.
 
-É aqui que entra uma ideia muito importante: a zona indefinida. Trata-se de uma região intermediária onde a tensão não é claramente baixa nem claramente alta. Se um sinal estiver nessa faixa, o circuito pode não conseguir interpretá-lo corretamente, levando a comportamentos imprevisíveis.
+ É aqui que entra uma ideia muito importante: a zona indefinida. Trata-se de uma região intermediária onde a tensão 
+não é claramente baixa nem claramente alta. Se um sinal estiver nessa faixa, o circuito pode não conseguir 
+interpretá-lo corretamente, levando a comportamentos imprevisíveis.
 
-Uma analogia simples é pensar em uma pessoa tentando decidir se uma sala está “clara” ou “escura”. Se estiver muito iluminada, a resposta é clara. Se estiver totalmente escura, também. Mas em um ambiente com iluminação intermediária, a decisão pode variar dependendo da percepção — essa é a zona indefinida.
+ Uma analogia simples é pensar em uma pessoa tentando decidir se uma sala está “clara” ou “escura”. Se estiver 
+muito iluminada, a resposta é clara. Se estiver totalmente escura, também. Mas em um ambiente com iluminação 
+intermediária, a decisão pode variar dependendo da percepção — essa é a zona indefinida.
 
-Além disso, diferentes tecnologias digitais interpretam essas faixas de maneiras ligeiramente distintas. Dois exemplos clássicos são TTL e CMOS. Sem entrar em muitos detalhes técnicos, podemos dizer que cada uma dessas tecnologias define suas próprias faixas de tensão e critérios de interpretação, como se fossem “regras internas” para decidir o que é 0 ou 1.
+ Além disso, diferentes tecnologias digitais interpretam essas faixas de maneiras ligeiramente distintas. Dois 
+exemplos clássicos são TTL e CMOS. Sem entrar em muitos detalhes técnicos, podemos dizer que cada uma dessas 
+tecnologias define suas próprias faixas de tensão e critérios de interpretação, como se fossem “regras internas” 
+para decidir o que é 0 ou 1.
 
-Mesmo com essas diferenças, a ideia central permanece a mesma: os circuitos digitais não trabalham com valores exatos, mas com intervalos de tensão que representam estados lógicos. Isso torna o sistema mais robusto, pois ele não depende de precisão absoluta para funcionar corretamente.
+ Mesmo com essas diferenças, a ideia central permanece a mesma: os circuitos digitais não trabalham com valores 
+exatos, mas com intervalos de tensão que representam estados lógicos. Isso torna o sistema mais robusto, pois ele 
+não depende de precisão absoluta para funcionar corretamente.
 
 Ao consolidar esse entendimento, percebemos que a lógica digital está profundamente enraizada no mundo físico. O que parece ser apenas 0 e 1, na verdade, é o resultado de interpretações cuidadosas de sinais elétricos reais. Essa base será essencial para avançarmos em aplicações mais complexas, onde a confiabilidade e a interpretação correta dos sinais fazem toda a diferença.
 
