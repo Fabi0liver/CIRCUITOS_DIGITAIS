@@ -421,7 +421,7 @@ pequena alteração pode modificar diretamente a informação, já que tudo faz 
 
  Já os sinais digitais lidam com o ruído de maneira diferente. Como trabalham com valores bem definidos, pequenas 
 variações geralmente não são suficientes para mudar a interpretação do sinal. É como ler uma palavra mesmo que 
-algumas letras estejam levemente borradas — ainda conseguimos entender o significado. Isso torna o sistema mais 
+algumas letras estejam levemente borradas: ainda conseguimos entender o significado. Isso torna o sistema mais 
 robusto.
 
  Essa diferença nos leva a uma ideia central: precisão versus robustez. O sinal analógico é mais preciso em 
@@ -440,6 +440,9 @@ significativa, desde que os níveis lógicos sejam corretamente preservados.
 ambientais. Os sinais digitais, por trabalharem com faixas de interpretação, conseguem tolerar melhor essas 
 variações, o que os torna mais adequados para ambientes complexos e sistemas de grande escala.
 
-Ao juntar todas essas ideias, fica claro por que os sistemas computacionais adotam predominantemente o digital. Mesmo não sendo perfeito na representação de detalhes, ele oferece uma combinação muito valiosa de robustez, confiabilidade e facilidade de processamento. Esse equilíbrio é o que permite que computadores, redes e dispositivos funcionem de forma consistente no mundo real.
+ Ao juntar todas essas ideias, fica claro por que os sistemas computacionais adotam predominantemente o digital. 
+Mesmo não sendo perfeito na representação de detalhes, ele oferece uma combinação muito valiosa de robustez, 
+confiabilidade e facilidade de processamento. Esse equilíbrio é o que permite que computadores, redes e 
+dispositivos funcionem de forma consistente no mundo real.
 
  
