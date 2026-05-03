@@ -77,18 +77,6 @@ Forma de Onda Digital:
 Ideia: Na prática, sinais digitais são analógicos imperfeitos tentando parecer digitais.
 
 
-Tempo em Circuitos Digitais:
- Tempo de propagação
- Delay 
- Skew 
- Clock:
-  Período
-  Frequência
- Setup time
- Hold time
-Insight central: Circuitos digitais são sistemas que funcionam no tempo, não só em valores.
-
- 
 Analógico vs Digital:
  Diferenças práticas
  Vantagens e desvantagens
@@ -108,6 +96,19 @@ Conversão de Sinais:
  Frequência de amostragem
  Erro de quantização
 Ideia central: O mundo é analógico, mas o computador é digital → precisa traduzir.
+
+
+
+Tempo em Circuitos Digitais:
+ Tempo de propagação
+ Delay 
+ Skew 
+ Clock:
+  Período
+  Frequência
+ Setup time
+ Hold time
+Insight central: Circuitos digitais são sistemas que funcionam no tempo, não só em valores.
 
 
 Comportamento Real dos Sinais:
