@@ -46,7 +46,9 @@ Tempo vs Frequência:
  Intuição da Transformada de Fourier
 
 
-Sinais Digitais:
+
+
+:
  Definição de sinal digital
  Sinais discretos no tempo
  Sinais discretos na amplitude
