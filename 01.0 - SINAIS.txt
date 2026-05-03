@@ -401,23 +401,44 @@ mundo físico em que os circuitos existem.
 
                                      "Analógico vs Digital"
 
- Depois de explorarmos os sinais analógicos e digitais separadamente, faz muito sentido colocá-los lado a lado. Essa comparação não é apenas teórica, mas prática, porque ajuda a entender por que os sistemas modernos foram projetados da forma que conhecemos hoje. Ambos representam informação, mas fazem isso de maneiras bastante diferentes.
+ Depois de explorarmos os sinais analógicos e digitais separadamente, faz muito sentido colocá-los lado a lado. 
+Essa comparação não é apenas teórica, mas prática, porque ajuda a entender por que os sistemas modernos foram 
+projetados da forma que conhecemos hoje. Ambos representam informação, mas fazem isso de maneiras bastante 
+diferentes.
 
-De forma geral, os sinais analógicos são contínuos e conseguem representar variações muito sutis do mundo real, enquanto os sinais digitais trabalham com valores discretos e bem definidos. É como comparar uma pintura cheia de nuances com um desenho feito com poucas cores bem delimitadas. Cada abordagem tem suas qualidades e limitações.
+ De forma geral, os sinais analógicos são contínuos e conseguem representar variações muito sutis do mundo real, 
+enquanto os sinais digitais trabalham com valores discretos e bem definidos. É como comparar uma pintura cheia de 
+nuances com um desenho feito com poucas cores bem delimitadas. Cada abordagem tem suas qualidades e limitações.
 
-Uma das grandes vantagens do sinal analógico é sua capacidade de representar informações com alta fidelidade. Como ele pode assumir infinitos valores dentro de um intervalo, consegue capturar detalhes muito finos, como as nuances de um som ou de uma imagem. Por outro lado, essa mesma característica o torna mais sensível a pequenas perturbações.
+ Uma das grandes vantagens do sinal analógico é sua capacidade de representar informações com alta fidelidade. Como 
+ele pode assumir infinitos valores dentro de um intervalo, consegue capturar detalhes muito finos, como as nuances 
+de um som ou de uma imagem. Por outro lado, essa mesma característica o torna mais sensível a pequenas 
+perturbações.
 
-Essas perturbações são conhecidas como ruído. Podemos imaginar o ruído como interferências indesejadas que se misturam ao sinal original, como estática em uma ligação telefônica antiga. No caso dos sinais analógicos, qualquer pequena alteração pode modificar diretamente a informação, já que tudo faz parte de um contínuo.
+ Essas perturbações são conhecidas como ruído. Podemos imaginar o ruído como interferências indesejadas que se 
+misturam ao sinal original, como estática em uma ligação telefônica antiga. No caso dos sinais analógicos, qualquer 
+pequena alteração pode modificar diretamente a informação, já que tudo faz parte de um contínuo.
 
-Já os sinais digitais lidam com o ruído de maneira diferente. Como trabalham com valores bem definidos, pequenas variações geralmente não são suficientes para mudar a interpretação do sinal. É como ler uma palavra mesmo que algumas letras estejam levemente borradas — ainda conseguimos entender o significado. Isso torna o sistema mais robusto.
+ Já os sinais digitais lidam com o ruído de maneira diferente. Como trabalham com valores bem definidos, pequenas 
+variações geralmente não são suficientes para mudar a interpretação do sinal. É como ler uma palavra mesmo que 
+algumas letras estejam levemente borradas — ainda conseguimos entender o significado. Isso torna o sistema mais 
+robusto.
 
-Essa diferença nos leva a uma ideia central: precisão versus robustez. O sinal analógico é mais preciso em representar detalhes, mas menos resistente a interferências. O sinal digital, por sua vez, abre mão de parte dessa precisão em troca de maior confiabilidade e estabilidade na presença de ruídos.
+ Essa diferença nos leva a uma ideia central: precisão versus robustez. O sinal analógico é mais preciso em 
+representar detalhes, mas menos resistente a interferências. O sinal digital, por sua vez, abre mão de parte dessa 
+precisão em troca de maior confiabilidade e estabilidade na presença de ruídos.
 
-Quando pensamos em transmissão de informação, essa distinção se torna ainda mais evidente. Um sinal analógico pode se degradar gradualmente ao longo do caminho, acumulando distorções. Já o sinal digital pode ser regenerado ao longo da transmissão, recuperando sua forma original mesmo após sofrer interferências.
+ Quando pensamos em transmissão de informação, essa distinção se torna ainda mais evidente. Um sinal analógico pode 
+se degradar gradualmente ao longo do caminho, acumulando distorções. Já o sinal digital pode ser regenerado ao 
+longo da transmissão, recuperando sua forma original mesmo após sofrer interferências.
 
-O mesmo vale para o armazenamento. Informações analógicas tendem a se deteriorar com o tempo, como uma fita antiga que perde qualidade. Em contraste, dados digitais podem ser armazenados e copiados repetidamente sem perda significativa, desde que os níveis lógicos sejam corretamente preservados.
+ O mesmo vale para o armazenamento. Informações analógicas tendem a se deteriorar com o tempo, como uma fita antiga 
+que perde qualidade. Em contraste, dados digitais podem ser armazenados e copiados repetidamente sem perda 
+significativa, desde que os níveis lógicos sejam corretamente preservados.
 
-Além disso, os sinais analógicos são mais sensíveis a interferências externas, como variações elétricas ou ruídos ambientais. Os sinais digitais, por trabalharem com faixas de interpretação, conseguem tolerar melhor essas variações, o que os torna mais adequados para ambientes complexos e sistemas de grande escala.
+ Além disso, os sinais analógicos são mais sensíveis a interferências externas, como variações elétricas ou ruídos 
+ambientais. Os sinais digitais, por trabalharem com faixas de interpretação, conseguem tolerar melhor essas 
+variações, o que os torna mais adequados para ambientes complexos e sistemas de grande escala.
 
 Ao juntar todas essas ideias, fica claro por que os sistemas computacionais adotam predominantemente o digital. Mesmo não sendo perfeito na representação de detalhes, ele oferece uma combinação muito valiosa de robustez, confiabilidade e facilidade de processamento. Esse equilíbrio é o que permite que computadores, redes e dispositivos funcionem de forma consistente no mundo real.
 
