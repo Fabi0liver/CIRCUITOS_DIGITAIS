@@ -306,3 +306,27 @@ luz que acendem e apagam em um padrão específico para transmitir uma mensagem.
 definidos, lembrando uma onda quadrada. Essa forma ideal mostra mudanças instantâneas entre os estados, embora, na 
 prática, essas transições sempre tenham pequenas variações devido às limitações físicas.
 
+
+
+                              "Níveis Lógicos e Representação Física"
+
+ Até aqui, entendemos que os sinais digitais trabalham com dois estados básicos, representados como 0 e 1. Mas surge uma pergunta essencial quando olhamos para o mundo físico: como um circuito realmente “enxerga” esses valores? Afinal, dentro de um circuito não existem números escritos, mas sim grandezas elétricas que precisam ser interpretadas.
+
+Para um sistema digital, os valores 0 e 1 são representados por níveis lógicos. De forma intuitiva, podemos associar o 0 a um nível baixo, chamado de LOW, e o 1 a um nível alto, chamado de HIGH. É como um interruptor: desligado representa uma condição, ligado representa outra. Mas, na prática, isso não é tão exato quanto parece.
+
+Em vez de valores fixos e exatos, os circuitos trabalham com faixas de tensão. Ou seja, não existe apenas um único valor que representa o 0 ou o 1, mas sim intervalos. Por exemplo, qualquer tensão dentro de uma determinada faixa pode ser interpretada como LOW, enquanto outra faixa corresponde ao HIGH. Isso torna o sistema mais tolerante a pequenas variações.
+
+Podemos pensar nisso como a interpretação de temperatura. Em vez de dizer que “frio” é exatamente 15°C, consideramos uma faixa de valores como fria. Da mesma forma, os circuitos digitais não exigem precisão absoluta; eles interpretam regiões de valores como equivalentes.
+
+Entre essas faixas, existe um ponto importante chamado de threshold, ou limiar. Esse limiar funciona como uma linha de decisão: valores abaixo dele tendem a ser interpretados como LOW, e valores acima como HIGH. É como uma fronteira que separa dois estados possíveis dentro do circuito.
+
+No entanto, essa transição não é perfeita. Existe uma região intermediária onde o sinal não é claramente baixo nem alto. Essa é a chamada zona indefinida. Nessa região, o circuito pode interpretar o valor de forma imprevisível, o que pode causar comportamentos indesejados.
+
+Para entender melhor, imagine uma conversa em um ambiente com muito ruído. Se alguém fala claramente alto ou claramente baixo, você entende. Mas se o som está no meio, confuso, pode haver dúvidas. A zona indefinida é exatamente esse “meio-termo” onde a interpretação deixa de ser confiável.
+
+Diferentes tecnologias implementam essas ideias de formas distintas. Dois exemplos importantes são o TTL e o CMOS. Sem entrar em detalhes técnicos profundos, o que importa é entender que cada um define suas próprias faixas de tensão e limiares, influenciando como os sinais são interpretados e como os circuitos se comportam.
+
+Ao integrar tudo isso, percebemos que os sistemas digitais não trabalham com valores ideais e perfeitos, mas sim com interpretações baseadas em intervalos físicos. Essa compreensão é fundamental, pois mostra que a confiabilidade dos circuitos depende de manter os sinais bem definidos dentro dessas faixas, evitando a zona indefinida e garantindo uma comunicação clara entre os componentes.
+
+
+ 
