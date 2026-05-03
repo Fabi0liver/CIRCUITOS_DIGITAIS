@@ -381,7 +381,8 @@ interpretações incorretas. Ou seja, não é apenas o valor final que importa, 
 ocorre quando o sinal ultrapassa momentaneamente o valor esperado antes de se estabilizar. É como uma mola que, ao 
 ser solta, vai além do ponto de equilíbrio antes de voltar.
 
- O oposto também pode acontecer, dando origem ao undershoot, quando o sinal desce além do nível desejado antes de retornar ao valor correto. Esses fenômenos mostram que o sistema físico responde de forma dinâmica, e não de 
+ O oposto também pode acontecer, dando origem ao undershoot, quando o sinal desce além do nível desejado antes de 
+retornar ao valor correto. Esses fenômenos mostram que o sistema físico responde de forma dinâmica, e não de 
 maneira perfeitamente controlada como nos modelos ideais.
 
  Outro efeito interessante é o chamado ringing, que pode ser imaginado como uma espécie de “vibração” após uma 
@@ -395,7 +396,4 @@ se aproximam desse comportamento, mas nunca o atingem de forma perfeita.
  Esse ponto revela algo muito importante: mesmo os sistemas digitais, que trabalham com 0 e 1, são construídos 
 sobre uma base física analógica. As imperfeições que observamos não são erros, mas sim características naturais do 
 mundo físico em que os circuitos existem.
-
-Ao compreender essas limitações e comportamentos reais, você ganha uma visão mais completa dos sinais digitais. Isso será essencial nos próximos estudos, onde essas características influenciam diretamente o desempenho, a confiabilidade e o projeto de sistemas digitais mais avançados.
-
  
