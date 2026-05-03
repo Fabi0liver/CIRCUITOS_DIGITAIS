@@ -341,7 +341,7 @@ interpretá-lo corretamente, levando a comportamentos imprevisíveis.
 
  Uma analogia simples é pensar em uma pessoa tentando decidir se uma sala está “clara” ou “escura”. Se estiver 
 muito iluminada, a resposta é clara. Se estiver totalmente escura, também. Mas em um ambiente com iluminação 
-intermediária, a decisão pode variar dependendo da percepção — essa é a zona indefinida.
+intermediária, a decisão pode variar dependendo da percepção: essa é a zona indefinida.
 
  Além disso, diferentes tecnologias digitais interpretam essas faixas de maneiras ligeiramente distintas. Dois 
 exemplos clássicos são TTL e CMOS. Sem entrar em muitos detalhes técnicos, podemos dizer que cada uma dessas 
@@ -352,8 +352,8 @@ para decidir o que é 0 ou 1.
 exatos, mas com intervalos de tensão que representam estados lógicos. Isso torna o sistema mais robusto, pois ele 
 não depende de precisão absoluta para funcionar corretamente.
 
-Ao consolidar esse entendimento, percebemos que a lógica digital está profundamente enraizada no mundo físico. O que parece ser apenas 0 e 1, na verdade, é o resultado de interpretações cuidadosas de sinais elétricos reais. Essa base será essencial para avançarmos em aplicações mais complexas, onde a confiabilidade e a interpretação correta dos sinais fazem toda a diferença.
-
+ Ao consolidar esse entendimento, percebemos que a lógica digital está profundamente enraizada no mundo físico. O 
+que parece ser apenas 0 e 1, na verdade, é o resultado de interpretações cuidadosas de sinais elétricos reais. 
 
 
  
