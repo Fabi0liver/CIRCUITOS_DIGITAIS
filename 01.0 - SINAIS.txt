@@ -449,26 +449,54 @@ dispositivos funcionem de forma consistente no mundo real.
 
                                         "Conversão entre os Sinais"
 
- Depois de entendermos as diferenças entre o mundo analógico e o digital, surge uma necessidade inevitável: como fazer esses dois mundos “conversarem”? Afinal, o mundo físico é naturalmente analógico, enquanto os sistemas computacionais operam de forma digital. Essa ponte entre os dois domínios é feita por processos de conversão, que permitem traduzir sinais de uma forma para outra.
+ Depois de entendermos as diferenças entre o mundo analógico e o digital, surge uma necessidade inevitável: como 
+fazer esses dois mundos “conversarem”? Afinal, o mundo físico é naturalmente analógico, enquanto os sistemas 
+computacionais operam de forma digital. Essa ponte entre os dois domínios é feita por processos de conversão, que 
+permitem traduzir sinais de uma forma para outra.
 
-Quando queremos levar um sinal do mundo analógico para o digital, utilizamos um processo chamado conversão analógico-digital, ou ADC. Podemos imaginar esse processo como tirar fotos de uma paisagem em movimento. Em vez de capturar tudo de forma contínua, fazemos registros em instantes específicos, transformando algo fluido em uma sequência de representações discretas.
+ Quando queremos levar um sinal do mundo analógico para o digital, utilizamos um processo chamado conversão 
+analógico-digital, ou ADC. Podemos imaginar esse processo como tirar fotos de uma paisagem em movimento. Em vez de 
+capturar tudo de forma contínua, fazemos registros em instantes específicos, transformando algo fluido em uma 
+sequência de representações discretas.
 
-Nesse processo, o primeiro passo é observar o sinal em pontos específicos no tempo. É como medir a altura de uma onda do mar em intervalos regulares. Cada uma dessas medições captura um “pedaço” da informação original, permitindo que o sistema digital comece a construir uma representação aproximada do sinal.
+ Nesse processo, o primeiro passo é observar o sinal em pontos específicos no tempo. É como medir a altura de uma 
+onda do mar em intervalos regulares. Cada uma dessas medições captura um “pedaço” da informação original, 
+permitindo que o sistema digital comece a construir uma representação aproximada do sinal.
 
-Depois disso, cada valor observado precisa ser ajustado para caber dentro de um conjunto limitado de possibilidades. Como o sistema digital não trabalha com infinitos valores, ele precisa “arredondar” essas medições para níveis definidos. É como aproximar qualquer cor para a mais próxima dentro de uma paleta limitada.
+ Depois disso, cada valor observado precisa ser ajustado para caber dentro de um conjunto limitado de 
+possibilidades. Como o sistema digital não trabalha com infinitos valores, ele precisa “arredondar” essas medições 
+para níveis definidos. É como aproximar qualquer cor para a mais próxima dentro de uma paleta limitada.
 
-No caminho inverso, quando queremos transformar um sinal digital em algo que possa existir no mundo físico, utilizamos a conversão digital-analógica, ou DAC. Nesse caso, partimos de uma sequência de valores discretos e tentamos reconstruir um comportamento contínuo a partir deles.
+ No caminho inverso, quando queremos transformar um sinal digital em algo que possa existir no mundo físico, 
+utilizamos a conversão digital-analógica, ou DAC. Nesse caso, partimos de uma sequência de valores discretos e 
+tentamos reconstruir um comportamento contínuo a partir deles.
 
-Uma boa analogia é imaginar um desenho feito com pontos. Se colocarmos muitos pontos bem próximos, conseguimos formar uma linha suave. O DAC faz algo semelhante: ele pega os valores digitais e os transforma em um sinal que varia ao longo do tempo, criando uma aproximação contínua.
+ Uma boa analogia é imaginar um desenho feito com pontos. Se colocarmos muitos pontos bem próximos, conseguimos 
+formar uma linha suave. O DAC faz algo semelhante: ele pega os valores digitais e os transforma em um sinal que 
+varia ao longo do tempo, criando uma aproximação contínua.
 
-No entanto, assim como no desenho, a qualidade dessa reconstrução depende de quão detalhada é a informação original. Se tivermos poucos pontos ou valores muito espaçados, o resultado pode parecer “quebrado”. Quanto mais refinada for a representação digital, mais fiel será o sinal reconstruído.
+ No entanto, assim como no desenho, a qualidade dessa reconstrução depende de quão detalhada é a informação 
+original. Se tivermos poucos pontos ou valores muito espaçados, o resultado pode parecer “quebrado”. Quanto mais 
+refinada for a representação digital, mais fiel será o sinal reconstruído.
 
-Voltando ao processo de captura, surge um conceito fundamental chamado amostragem. Amostrar significa justamente escolher os instantes em que vamos observar o sinal. A frequência de amostragem indica quantas vezes por segundo fazemos essa observação, e ela tem um papel crucial na qualidade da representação.
+ Voltando ao processo de captura, surge um conceito fundamental chamado amostragem. Amostrar significa justamente 
+escolher os instantes em que vamos observar o sinal. A frequência de amostragem indica quantas vezes por segundo 
+fazemos essa observação, e ela tem um papel crucial na qualidade da representação.
 
-Existe uma ideia importante associada a isso, conhecida como teorema de Nyquist. De forma intuitiva, ele nos diz que precisamos amostrar o sinal com uma frequência suficientemente alta para capturar suas variações mais rápidas. Caso contrário, podemos perder informações ou até interpretar o sinal de forma incorreta, como quando uma roda parece girar ao contrário em um vídeo.
+ Existe uma ideia importante associada a isso, conhecida como teorema de Nyquist. De forma intuitiva, ele nos diz 
+que precisamos amostrar o sinal com uma frequência suficientemente alta para capturar suas variações mais rápidas. 
+Caso contrário, podemos perder informações ou até interpretar o sinal de forma incorreta, como quando uma roda 
+parece girar ao contrário em um vídeo.
 
-Além disso, quando transformamos valores contínuos em discretos, surge a quantização. Esse processo consiste em mapear valores reais para níveis definidos, o que inevitavelmente introduz uma pequena diferença entre o valor original e o valor representado. É como arredondar números: há sempre uma pequena perda de precisão.
+ Além disso, quando transformamos valores contínuos em discretos, surge a quantização. Esse processo consiste em 
+mapear valores reais para níveis definidos, o que inevitavelmente introduz uma pequena diferença entre o valor 
+original e o valor representado. É como arredondar números: há sempre uma pequena perda de precisão.
 
-Essa diferença é chamada de erro de quantização. Embora geralmente seja pequena, ela está sempre presente e faz parte das limitações do processo de conversão. Ainda assim, com escolhas adequadas de frequência de amostragem e quantidade de níveis, esse erro pode ser reduzido a ponto de se tornar praticamente imperceptível.
+ Essa diferença é chamada de erro de quantização. Embora geralmente seja pequena, ela está sempre presente e faz 
+parte das limitações do processo de conversão. Ainda assim, com escolhas adequadas de frequência de amostragem e 
+quantidade de níveis, esse erro pode ser reduzido a ponto de se tornar praticamente imperceptível.
 
-Ao reunir todos esses conceitos, percebemos que a conversão entre sinais analógicos e digitais é, essencialmente, um processo de tradução. Estamos pegando algo contínuo e transformando em uma linguagem discreta, e depois, quando necessário, reconstruindo essa continuidade. Esse entendimento é fundamental para compreender como dispositivos digitais interagem com o mundo real de forma tão eficiente.
+ Ao reunir todos esses conceitos, percebemos que a conversão entre sinais analógicos e digitais é, essencialmente, 
+um processo de tradução. Estamos pegando algo contínuo e transformando em uma linguagem discreta, e depois, quando 
+necessário, reconstruindo essa continuidade. Esse entendimento é fundamental para compreender como dispositivos 
+digitais interagem com o mundo real de forma tão eficiente.
