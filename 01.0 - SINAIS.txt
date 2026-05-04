@@ -543,7 +543,33 @@ permanecer estável depois.
 antes e continuar estável durante o clique. Se houver movimento nesse intervalo, a imagem pode sair borrada. Nos 
 circuitos, isso se traduz em erros de interpretação dos dados.
 
-Ao integrar todos esses conceitos, fica claro que os circuitos digitais não dependem apenas de 0 e 1, mas também de quando esses valores acontecem. O tempo é um elemento fundamental para garantir que tudo funcione corretamente, e entender isso é essencial para avançar no estudo e no projeto de sistemas digitais confiáveis.
+ Ao integrar todos esses conceitos, fica claro que os circuitos digitais não dependem apenas de 0 e 1, mas também 
+de quando esses valores acontecem. O tempo é um elemento fundamental para garantir que tudo funcione corretamente, 
+e entender isso é essencial para avançar no estudo e no projeto de sistemas digitais confiáveis.
+
+
+
+                                      "Comportamento Real dos Sinais"
+
+ Quando começamos a estudar o tempo em circuitos digitais, percebemos que não é apenas o valor do sinal que importa, mas principalmente quando ele muda. Essas mudanças são momentos críticos, pois é nelas que o circuito “percebe” que algo aconteceu. Em outras palavras, os circuitos digitais não reagem apenas a estados estáveis, mas às transições entre eles.
+
+Essas transições recebem nomes específicos. Quando o sinal passa de 0 para 1, chamamos esse evento de borda de subida. Já quando ele vai de 1 para 0, temos a borda de descida. Podemos imaginar isso como acender e apagar uma luz: o instante em que a luz acende ou apaga é mais significativo do que o fato de ela já estar ligada ou desligada.
+
+Essas bordas são extremamente importantes porque muitos circuitos utilizam exatamente esses momentos para tomar decisões. Em vez de observar continuamente o sinal, eles “esperam” por uma mudança específica para agir. Isso torna o sistema mais organizado e previsível.
+
+É aqui que entra o conceito de trigger por borda. Um circuito com esse comportamento responde apenas quando detecta uma borda, seja de subida ou de descida. É como um detector de eventos que só reage quando algo muda, ignorando períodos em que tudo permanece igual.
+
+Uma analogia interessante é pensar em uma câmera configurada para tirar uma foto apenas quando detecta movimento. Enquanto nada muda, ela permanece inativa. Mas no instante em que algo se move, ela captura o momento. Da mesma forma, o trigger por borda captura o instante da transição.
+
+No entanto, assim como vimos anteriormente, essas mudanças não acontecem de forma instantânea no mundo real. Existe um pequeno intervalo entre o momento em que um sinal muda em uma parte do circuito e quando essa mudança é percebida em outra. Esse intervalo é o atraso de propagação.
+
+Podemos imaginar isso como um efeito em cadeia, como uma fila de pessoas passando uma mensagem adiante. Mesmo que a mensagem seja simples, leva um certo tempo até que ela chegue ao último da fila. Esse atraso, embora pequeno, pode impactar o funcionamento do circuito se não for considerado.
+
+Além disso, é importante lembrar que a ideia de uma transição perfeita, instantânea e sem imperfeições pertence ao mundo ideal. Na prática, as bordas de subida e descida têm duração, podem apresentar pequenas irregularidades e são influenciadas por diversos fatores físicos.
+
+Essa diferença entre o sinal ideal e o sinal real é fundamental. No modelo ideal, tudo acontece de forma perfeita e instantânea. No mundo físico, porém, lidamos com limitações, atrasos e variações que precisam ser levadas em conta no projeto dos circuitos.
+
+Ao juntar todos esses conceitos, percebemos algo essencial: os circuitos digitais são sensíveis às mudanças, aos momentos de transição. Entender como essas bordas se comportam no tempo e como os circuitos reagem a elas é fundamental para compreender o funcionamento real dos sistemas digitais e avançar para aplicações mais complexas.
 
 
 
