@@ -597,25 +597,48 @@ fundamental para compreender o funcionamento real dos sistemas digitais e avanç
 
                                     "Ruído e Integridade de Sinal"
 
-Ao longo dos últimos tópicos, vimos que os sinais digitais no mundo real não são perfeitos. Eles sofrem atrasos, têm transições não ideais e estão sujeitos a limitações físicas. Agora damos mais um passo importante: entender que, além dessas imperfeições naturais, existe também a presença constante de perturbações externas que afetam os sinais. Essas perturbações são conhecidas como ruído.
+ Ao longo dos últimos tópicos, vimos que os sinais digitais no mundo real não são perfeitos. Eles sofrem atrasos, 
+têm transições não ideais e estão sujeitos a limitações físicas. Agora damos mais um passo importante: entender 
+que, além dessas imperfeições naturais, existe também a presença constante de perturbações externas que afetam os 
+sinais. Essas perturbações são conhecidas como ruído.
 
-De forma intuitiva, o ruído pode ser visto como qualquer alteração indesejada que se mistura ao sinal original. É como tentar conversar em um ambiente barulhento: sua voz continua lá, mas outros sons interferem na clareza da mensagem. Nos circuitos, o ruído pode vir de diversas fontes, como variações elétricas, interferências externas ou até do próprio funcionamento interno dos componentes.
+ De forma intuitiva, o ruído pode ser visto como qualquer alteração indesejada que se mistura ao sinal original. É 
+como tentar conversar em um ambiente barulhento: sua voz continua lá, mas outros sons interferem na clareza da 
+mensagem. Nos circuitos, o ruído pode vir de diversas fontes, como variações elétricas, interferências externas ou 
+até do próprio funcionamento interno dos componentes.
 
-Quando esse ruído vem de outros sinais próximos, chamamos isso de interferência. Um caso muito comum é o chamado crosstalk, que acontece quando um sinal “vaza” para outro caminho próximo. Podemos imaginar dois fios passando lado a lado como duas pessoas conversando próximas: se uma fala muito alto, a outra pode acabar ouvindo parte da conversa.
+ Quando esse ruído vem de outros sinais próximos, chamamos isso de interferência. Um caso muito comum é o chamado 
+crosstalk, que acontece quando um sinal “vaza” para outro caminho próximo. Podemos imaginar dois fios passando lado 
+a lado como duas pessoas conversando próximas: se uma fala muito alto, a outra pode acabar ouvindo parte da 
+conversa.
 
-Diante disso, surge uma pergunta importante: como garantir que o circuito ainda interprete corretamente os sinais? É aqui que entra o conceito de margem de ruído. Essa margem representa uma espécie de “zona de segurança” entre os níveis lógicos, permitindo que pequenas perturbações não causem erros na interpretação.
+ Diante disso, surge uma pergunta importante: como garantir que o circuito ainda interprete corretamente os sinais? 
+É aqui que entra o conceito de margem de ruído. Essa margem representa uma espécie de “zona de segurança” entre os 
+níveis lógicos, permitindo que pequenas perturbações não causem erros na interpretação.
 
-Podemos pensar na margem de ruído como uma folga intencional no sistema. Assim como escrevemos uma letra grande o suficiente para que ainda seja legível mesmo com pequenas borradas, os circuitos digitais são projetados para tolerar variações sem perder a informação.
+ Podemos pensar na margem de ruído como uma folga intencional no sistema. Assim como escrevemos uma letra grande o 
+suficiente para que ainda seja legível mesmo com pequenas borradas, os circuitos digitais são projetados para 
+tolerar variações sem perder a informação.
 
-Outro conceito que ajuda a entender essa relação é a chamada relação sinal/ruído, ou SNR. De forma simples, ela indica o quanto o sinal útil se destaca em relação ao ruído presente. É como comparar o volume da sua voz com o barulho ao redor: quanto mais sua voz se destaca, mais fácil é entender a mensagem.
+ Outro conceito que ajuda a entender essa relação é a chamada relação sinal/ruído, ou SNR. De forma simples, ela 
+indica o quanto o sinal útil se destaca em relação ao ruído presente. É como comparar o volume da sua voz com o 
+barulho ao redor: quanto mais sua voz se destaca, mais fácil é entender a mensagem.
 
-À medida que os sistemas se tornam mais rápidos e complexos, manter essa clareza se torna um desafio maior. É aí que entra o conceito de integridade de sinal, que representa a capacidade de um sistema de transmitir sinais de forma confiável, mesmo na presença de ruídos e interferências.
+ À medida que os sistemas se tornam mais rápidos e complexos, manter essa clareza se torna um desafio maior. É aí 
+que entra o conceito de integridade de sinal, que representa a capacidade de um sistema de transmitir sinais de 
+forma confiável, mesmo na presença de ruídos e interferências.
 
-Dentro desse contexto, existem fenômenos específicos que podem afetar o comportamento dos sinais. Um exemplo é o ground bounce, que ocorre quando há variações momentâneas no nível de referência do circuito. É como se o “chão” onde medimos os sinais se movesse ligeiramente, afetando a forma como interpretamos os valores.
+ Dentro desse contexto, existem fenômenos específicos que podem afetar o comportamento dos sinais. Um exemplo é o 
+ground bounce, que ocorre quando há variações momentâneas no nível de referência do circuito. É como se o “chão” 
+onde medimos os sinais se movesse ligeiramente, afetando a forma como interpretamos os valores.
 
-Esse tipo de efeito pode parecer sutil, mas em sistemas de alta velocidade pode causar erros se não for considerado no projeto. Por isso, engenheiros precisam pensar não apenas no sinal em si, mas também no ambiente em que ele existe e nas interações entre diferentes partes do circuito.
+ Esse tipo de efeito pode parecer sutil, mas em sistemas de alta velocidade pode causar erros se não for 
+considerado no projeto. Por isso, engenheiros precisam pensar não apenas no sinal em si, mas também no ambiente em 
+que ele existe e nas interações entre diferentes partes do circuito.
 
-Ao reunir todos esses conceitos, percebemos algo essencial: os sistemas digitais não funcionam por serem perfeitos, mas por serem projetados para lidar com imperfeições. Eles incorporam tolerâncias, margens e estratégias que permitem que a informação seja transmitida de forma confiável, mesmo em um mundo físico cheio de variações.
+ Ao reunir todos esses conceitos, percebemos algo essencial: os sistemas digitais não funcionam por serem 
+perfeitos, mas por serem projetados para lidar com imperfeições. Eles incorporam tolerâncias, margens e estratégias 
+que permitem que a informação seja transmitida de forma confiável, mesmo em um mundo físico cheio de variações.
 
 
 
