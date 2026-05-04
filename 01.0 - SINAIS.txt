@@ -644,22 +644,44 @@ que permitem que a informação seja transmitida de forma confiável, mesmo em u
 
                                      "Representação e Processamento"
 
- Quando pensamos em sinais digitais viajando por um circuito ou por um meio de comunicação, surge uma necessidade fundamental: não basta apenas enviar 0s e 1s, é preciso organizar esses valores de forma que possam ser corretamente interpretados. Essa organização é o que chamamos de representação e processamento de sinais digitais.
+ Quando pensamos em sinais digitais viajando por um circuito ou por um meio de comunicação, surge uma necessidade 
+fundamental: não basta apenas enviar 0s e 1s, é preciso organizar esses valores de forma que possam ser 
+corretamente interpretados. Essa organização é o que chamamos de representação e processamento de sinais digitais.
 
-Para que essa informação seja transmitida de maneira eficiente, utilizamos formas específicas de codificação. Codificar um sinal significa definir como os valores digitais serão representados fisicamente ao longo do tempo. É como escolher um idioma ou um código para garantir que quem recebe a mensagem consiga entendê-la corretamente.
+ Para que essa informação seja transmitida de maneira eficiente, utilizamos formas específicas de codificação. 
+Codificar um sinal significa definir como os valores digitais serão representados fisicamente ao longo do tempo. É 
+como escolher um idioma ou um código para garantir que quem recebe a mensagem consiga entendê-la corretamente.
 
-Uma das formas mais simples e comuns de codificação é o NRZ, que vem de “Non-Return to Zero”. Nesse formato, o sinal permanece em um nível constante durante o intervalo de tempo de cada bit. Em termos intuitivos, é como manter uma lâmpada acesa para representar um valor e apagada para outro, sem precisar “voltar ao zero” entre cada mudança.
+ Uma das formas mais simples e comuns de codificação é o NRZ, que vem de “Non-Return to Zero”. Nesse formato, o 
+sinal permanece em um nível constante durante o intervalo de tempo de cada bit. Em termos intuitivos, é como manter 
+uma lâmpada acesa para representar um valor e apagada para outro, sem precisar “voltar ao zero” entre cada mudança.
 
-No entanto, transmitir apenas os valores não é suficiente. O receptor também precisa saber exatamente quando ler cada bit. É aqui que entra o conceito de clock, que funciona como uma referência de tempo para organizar a leitura dos dados. Sem essa referência, seria como tentar ler uma frase sem saber onde começa ou termina cada palavra.
+ No entanto, transmitir apenas os valores não é suficiente. O receptor também precisa saber exatamente quando ler 
+cada bit. É aqui que entra o conceito de clock, que funciona como uma referência de tempo para organizar a leitura 
+dos dados. Sem essa referência, seria como tentar ler uma frase sem saber onde começa ou termina cada palavra.
 
-Existem duas formas principais de lidar com isso. Em alguns casos, o clock é enviado separadamente, como um metrônomo que acompanha a música. Em outros, ele está embutido no próprio sinal de dados, como se o ritmo estivesse implícito na forma como a informação é transmitida. Cada abordagem tem suas vantagens e desafios.
+ Existem duas formas principais de lidar com isso. Em alguns casos, o clock é enviado separadamente, como um 
+metrônomo que acompanha a música. Em outros, ele está embutido no próprio sinal de dados, como se o ritmo estivesse 
+implícito na forma como a informação é transmitida. Cada abordagem tem suas vantagens e desafios.
 
-Essa necessidade de alinhar o envio e a leitura dos dados nos leva ao conceito de sincronização. Sincronizar significa garantir que quem envia e quem recebe estejam “no mesmo tempo”, interpretando os bits nos instantes corretos. Uma analogia simples é duas pessoas pulando corda: ambas precisam seguir o mesmo ritmo para que o movimento funcione.
+ Essa necessidade de alinhar o envio e a leitura dos dados nos leva ao conceito de sincronização. Sincronizar 
+significa garantir que quem envia e quem recebe estejam “no mesmo tempo”, interpretando os bits nos instantes 
+corretos. Uma analogia simples é duas pessoas pulando corda: ambas precisam seguir o mesmo ritmo para que o 
+movimento funcione.
 
-Uma vez que os bits estão sendo corretamente transmitidos e interpretados, surge a necessidade de organizá-los em estruturas maiores. O bit é a menor unidade de informação, representando um único 0 ou 1. Mas, isoladamente, ele carrega pouca informação útil.
+ Uma vez que os bits estão sendo corretamente transmitidos e interpretados, surge a necessidade de organizá-los em 
+estruturas maiores. O bit é a menor unidade de informação, representando um único 0 ou 1. Mas, isoladamente, ele 
+carrega pouca informação útil.
 
-Por isso, agrupamos bits em conjuntos chamados bytes, que normalmente contêm oito bits. Esses agrupamentos permitem representar uma variedade muito maior de informações, como letras, números e símbolos. É como juntar letras para formar palavras com significado.
+ Por isso, agrupamos bits em conjuntos chamados bytes, que normalmente contêm oito bits. Esses agrupamentos 
+permitem representar uma variedade muito maior de informações, como letras, números e símbolos. É como juntar 
+letras para formar palavras com significado.
 
-A partir desses blocos, construímos formatos digitais mais complexos. Áudios, imagens e vídeos são, no fundo, grandes sequências organizadas de bits que seguem regras específicas de interpretação. Cada formato define como esses bits devem ser lidos para reconstruir a informação original.
+ A partir desses blocos, construímos formatos digitais mais complexos. Áudios, imagens e vídeos são, no fundo, 
+grandes sequências organizadas de bits que seguem regras específicas de interpretação. Cada formato define como 
+esses bits devem ser lidos para reconstruir a informação original.
 
-Ao integrar todos esses conceitos, percebemos que a representação digital vai muito além de simplesmente trabalhar com 0 e 1. Existe toda uma estrutura por trás que organiza, sincroniza e dá significado a esses valores. Esse entendimento é essencial para compreender como os sistemas digitais conseguem armazenar, transmitir e processar informações de forma tão eficiente no mundo real.
+ Ao integrar todos esses conceitos, percebemos que a representação digital vai muito além de simplesmente trabalhar 
+com 0 e 1. Existe toda uma estrutura por trás que organiza, sincroniza e dá significado a esses valores. Esse 
+entendimento é essencial para compreender como os sistemas digitais conseguem armazenar, transmitir e processar 
+informações de forma tão eficiente no mundo real.
