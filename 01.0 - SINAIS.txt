@@ -642,4 +642,31 @@ que permitem que a informação seja transmitida de forma confiável, mesmo em u
 
 
 
+                                      "Fundamentos Elétricos"
+
+ Até agora, exploramos os sinais como portadores de informação e vimos como eles se comportam no tempo e no mundo físico. Mas, por trás de tudo isso, existe uma base ainda mais fundamental: os princípios elétricos que tornam possível a existência desses sinais. Para entender de verdade os circuitos digitais, precisamos olhar para esse “alicerce invisível”.
+
+Um dos conceitos mais importantes nesse contexto é a relação entre tensão, corrente e resistência, descrita pela Lei de Ohm. De forma intuitiva, podemos pensar na tensão como a força que empurra a corrente, enquanto a resistência é aquilo que dificulta esse movimento. É como água passando por um cano: a pressão empurra a água, mas o diâmetro do cano pode facilitar ou dificultar o fluxo.
+
+Essa relação simples ajuda a entender como a energia elétrica se comporta dentro dos circuitos. Mesmo sem entrar em detalhes matemáticos, o importante é perceber que essas três grandezas estão sempre interligadas, e qualquer mudança em uma delas afeta as outras. Isso forma a base de praticamente tudo que acontece em um sistema eletrônico.
+
+Dentro desses sistemas, encontramos alguns componentes fundamentais. O resistor, por exemplo, atua como um “controlador de fluxo”, limitando a passagem de corrente. Podemos imaginar ele como um estreitamento no cano, reduzindo a quantidade de água que consegue passar por vez.
+
+Já o capacitor funciona como uma espécie de “reservatório” temporário de energia. Ele pode armazenar carga e liberá-la depois, influenciando o comportamento do circuito ao longo do tempo. É como um pequeno tanque que enche e esvazia conforme necessário.
+
+O indutor, por sua vez, está relacionado à resistência a mudanças na corrente. Ele tende a “suavizar” variações bruscas, funcionando como uma inércia no sistema elétrico. Podemos compará-lo a um volante pesado que resiste a mudanças rápidas de velocidade.
+
+Mas talvez o componente mais importante para os circuitos digitais seja o transistor. Ele atua como uma chave controlada, capaz de ligar ou desligar o fluxo de corrente com base em um sinal de entrada. É essa capacidade que permite representar os estados lógicos dentro do circuito.
+
+Quando combinamos esses componentes, formamos circuitos capazes de realizar funções específicas. Mesmo arranjos simples já conseguem controlar sinais, armazenar informações ou tomar decisões básicas. É como montar peças de um quebra-cabeça para criar algo funcional.
+
+Dentro desse contexto, surge a tecnologia CMOS, amplamente utilizada nos circuitos digitais modernos. De forma conceitual, ela utiliza transistores organizados de maneira eficiente para controlar a passagem de corrente, garantindo baixo consumo de energia e boa confiabilidade.
+
+Por fim, todos esses elementos trabalham juntos para transformar variações de tensão em estados lógicos. O circuito “observa” a tensão em um ponto e decide se aquilo representa um 0 ou um 1, com base nas faixas que estudamos anteriormente. Assim, algo físico e contínuo se torna uma decisão lógica e discreta.
+
+Ao conectar todos esses conceitos, fica claro que a lógica digital não existe isoladamente, mas emerge diretamente de fenômenos elétricos reais. Entender essa base é essencial para enxergar os circuitos não apenas como abstrações, mas como sistemas físicos que dão vida à computação.
+
+
+
+
 
