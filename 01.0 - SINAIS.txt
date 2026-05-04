@@ -505,24 +505,43 @@ digitais interagem com o mundo real de forma tão eficiente.
 
                                        "Tempo em Circuitos Digitais"
 
+ Até aqui, falamos bastante sobre valores lógicos, níveis de tensão e formas de onda, mas existe um elemento que 
+conecta tudo isso: o tempo. Em circuitos digitais, não basta que os sinais estejam corretos; eles também precisam 
+chegar no momento certo. É como uma orquestra em que não adianta cada músico tocar a nota correta se não houver 
+sincronização.
 
- Até aqui, falamos bastante sobre valores lógicos, níveis de tensão e formas de onda, mas existe um elemento que conecta tudo isso: o tempo. Em circuitos digitais, não basta que os sinais estejam corretos; eles também precisam chegar no momento certo. É como uma orquestra em que não adianta cada músico tocar a nota correta se não houver sincronização.
+ Quando um sinal muda em um ponto do circuito, essa mudança não é percebida instantaneamente em outro ponto. Existe 
+um pequeno intervalo até que a informação “viaje” pelo circuito. Esse intervalo é chamado de tempo de propagação, e 
+ele representa o tempo que um sinal leva para ir de uma entrada até a saída.
 
-Quando um sinal muda em um ponto do circuito, essa mudança não é percebida instantaneamente em outro ponto. Existe um pequeno intervalo até que a informação “viaje” pelo circuito. Esse intervalo é chamado de tempo de propagação, e ele representa o tempo que um sinal leva para ir de uma entrada até a saída.
+ Podemos imaginar isso como uma fila de dominós sendo derrubados. Quando o primeiro cai, leva um pequeno tempo até 
+que o último também caia. Esse atraso entre causa e efeito é natural e inevitável, e nos circuitos digitais ele 
+aparece como o delay, um atraso geral associado à resposta do sistema.
 
-Podemos imaginar isso como uma fila de dominós sendo derrubados. Quando o primeiro cai, leva um pequeno tempo até que o último também caia. Esse atraso entre causa e efeito é natural e inevitável, e nos circuitos digitais ele aparece como o delay, um atraso geral associado à resposta do sistema.
+ À medida que os circuitos se tornam mais complexos, diferentes caminhos podem ter tempos de propagação diferentes. 
+Isso significa que dois sinais que deveriam chegar juntos podem acabar chegando em momentos ligeiramente distintos. 
+Essa diferença de tempo é conhecida como skew.
 
-À medida que os circuitos se tornam mais complexos, diferentes caminhos podem ter tempos de propagação diferentes. Isso significa que dois sinais que deveriam chegar juntos podem acabar chegando em momentos ligeiramente distintos. Essa diferença de tempo é conhecida como skew.
+ Uma analogia simples é pensar em pessoas saindo de pontos diferentes de uma cidade para chegar ao mesmo destino. 
+Mesmo que saiam ao mesmo tempo, podem enfrentar trajetos com durações diferentes. No circuito, isso pode causar 
+problemas se os sinais não estiverem sincronizados corretamente.
 
-Uma analogia simples é pensar em pessoas saindo de pontos diferentes de uma cidade para chegar ao mesmo destino. Mesmo que saiam ao mesmo tempo, podem enfrentar trajetos com durações diferentes. No circuito, isso pode causar problemas se os sinais não estiverem sincronizados corretamente.
+ Para lidar com essa necessidade de sincronização, entra em cena o clock. O clock funciona como um “marcador de 
+ritmo” do circuito, enviando pulsos regulares que organizam quando as operações devem acontecer. É como um maestro 
+que dita o tempo para que todos os músicos toquem juntos.
 
-Para lidar com essa necessidade de sincronização, entra em cena o clock. O clock funciona como um “marcador de ritmo” do circuito, enviando pulsos regulares que organizam quando as operações devem acontecer. É como um maestro que dita o tempo para que todos os músicos toquem juntos.
+ Esse ritmo é definido por dois conceitos importantes: o período e a frequência. O período é o intervalo entre dois 
+pulsos consecutivos do clock, enquanto a frequência indica quantas vezes esse pulso ocorre em um segundo. Quanto 
+maior a frequência, mais rápido o sistema pode operar, mas também maior é a exigência de precisão no tempo.
 
-Esse ritmo é definido por dois conceitos importantes: o período e a frequência. O período é o intervalo entre dois pulsos consecutivos do clock, enquanto a frequência indica quantas vezes esse pulso ocorre em um segundo. Quanto maior a frequência, mais rápido o sistema pode operar, mas também maior é a exigência de precisão no tempo.
+ No entanto, não basta apenas ter um clock rápido. Os circuitos precisam de condições específicas para capturar e 
+manter corretamente os dados. É aqui que entram os conceitos de setup time e hold time. O setup time é o tempo 
+mínimo que um sinal precisa estar estável antes de um evento do clock, enquanto o hold time é o tempo que ele deve 
+permanecer estável depois.
 
-No entanto, não basta apenas ter um clock rápido. Os circuitos precisam de condições específicas para capturar e manter corretamente os dados. É aqui que entram os conceitos de setup time e hold time. O setup time é o tempo mínimo que um sinal precisa estar estável antes de um evento do clock, enquanto o hold time é o tempo que ele deve permanecer estável depois.
-
-Podemos pensar nisso como tirar uma foto. Para que a imagem saia nítida, o objeto precisa estar parado um pouco antes e continuar estável durante o clique. Se houver movimento nesse intervalo, a imagem pode sair borrada. Nos circuitos, isso se traduz em erros de interpretação dos dados.
+ Podemos pensar nisso como tirar uma foto. Para que a imagem saia nítida, o objeto precisa estar parado um pouco 
+antes e continuar estável durante o clique. Se houver movimento nesse intervalo, a imagem pode sair borrada. Nos 
+circuitos, isso se traduz em erros de interpretação dos dados.
 
 Ao integrar todos esses conceitos, fica claro que os circuitos digitais não dependem apenas de 0 e 1, mas também de quando esses valores acontecem. O tempo é um elemento fundamental para garantir que tudo funcione corretamente, e entender isso é essencial para avançar no estudo e no projeto de sistemas digitais confiáveis.
 
