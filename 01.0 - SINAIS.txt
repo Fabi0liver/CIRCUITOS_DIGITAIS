@@ -589,7 +589,9 @@ influenciadas por diversos fatores físicos.
 e instantânea. No mundo físico, porém, lidamos com limitações, atrasos e variações que precisam ser levadas em 
 conta no projeto dos circuitos.
 
-Ao juntar todos esses conceitos, percebemos algo essencial: os circuitos digitais são sensíveis às mudanças, aos momentos de transição. Entender como essas bordas se comportam no tempo e como os circuitos reagem a elas é fundamental para compreender o funcionamento real dos sistemas digitais e avançar para aplicações mais complexas.
+ Ao juntar todos esses conceitos, percebemos algo essencial: os circuitos digitais são sensíveis às mudanças, aos 
+momentos de transição. Entender como essas bordas se comportam no tempo e como os circuitos reagem a elas é 
+fundamental para compreender o funcionamento real dos sistemas digitais e avançar para aplicações mais complexas.
 
 
 
