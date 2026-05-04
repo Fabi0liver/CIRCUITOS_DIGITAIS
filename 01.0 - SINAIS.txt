@@ -777,21 +777,39 @@ mundo ao nosso redor.
 
                           "Conclusão sobre os Sinais nos Circuitos Digitais"
 
- Ao longo de toda a nossa jornada pelos sinais nos circuitos digitais, construímos uma base sólida de entendimento, começando pela ideia mais abstrata de informação e chegando até o funcionamento real dos sistemas. Agora, é o momento de juntar todas essas peças e enxergar o panorama completo de forma integrada.
+ Ao longo de toda a nossa jornada pelos sinais nos circuitos digitais, construímos uma base sólida de entendimento, 
+começando pela ideia mais abstrata de informação e chegando até o funcionamento real dos sistemas. Agora, é o 
+momento de juntar todas essas peças e enxergar o panorama completo de forma integrada.
 
-Começamos entendendo que sinais são os meios pelos quais a informação se move e ganha forma no mundo físico. Em seguida, vimos como essa informação precisa de suporte material, aparecendo através de grandezas como tensão e corrente, sempre organizadas ao longo do tempo. Esse foi o primeiro passo para conectar o abstrato ao concreto.
+ Começamos entendendo que sinais são os meios pelos quais a informação se move e ganha forma no mundo físico. Em 
+seguida, vimos como essa informação precisa de suporte material, aparecendo através de grandezas como tensão e 
+corrente, sempre organizadas ao longo do tempo. Esse foi o primeiro passo para conectar o abstrato ao concreto.
 
-Depois, exploramos como os sinais podem ser contínuos ou discretos, previsíveis ou aleatórios, e como essas características influenciam sua forma de representação. Essa etapa nos ajudou a perceber que os sinais não são todos iguais, mas possuem comportamentos diferentes dependendo do contexto em que estão inseridos.
+ Depois, exploramos como os sinais podem ser contínuos ou discretos, previsíveis ou aleatórios, e como essas 
+características influenciam sua forma de representação. Essa etapa nos ajudou a perceber que os sinais não são 
+todos iguais, mas possuem comportamentos diferentes dependendo do contexto em que estão inseridos.
 
-Avançando, entramos no mundo dos sinais analógicos e digitais, entendendo suas diferenças fundamentais e por que o digital se tornou dominante em sistemas modernos. Vimos também como o mundo físico, naturalmente analógico, precisa ser traduzido para o domínio digital por meio de processos de conversão.
+ Avançando, entramos no mundo dos sinais analógicos e digitais, entendendo suas diferenças fundamentais e por que o 
+digital se tornou dominante em sistemas modernos. Vimos também como o mundo físico, naturalmente analógico, precisa 
+ser traduzido para o domínio digital por meio de processos de conversão.
 
-Nesse caminho, também entendemos que o tempo é um elemento essencial. Não basta apenas o valor do sinal, mas também o momento em que ele acontece. Conceitos como bordas, sincronização e atrasos mostraram que o comportamento dos sinais está profundamente ligado à dimensão temporal.
+ Nesse caminho, também entendemos que o tempo é um elemento essencial. Não basta apenas o valor do sinal, mas 
+também o momento em que ele acontece. Conceitos como bordas, sincronização e atrasos mostraram que o comportamento 
+dos sinais está profundamente ligado à dimensão temporal.
 
-Em seguida, percebemos que os sinais reais nunca são perfeitos. Ruídos, interferências e limitações físicas fazem parte do ambiente em que os circuitos operam. Ainda assim, os sistemas digitais são projetados para lidar com essas imperfeições, utilizando margens de segurança e regras bem definidas para manter a confiabilidade.
+ Em seguida, percebemos que os sinais reais nunca são perfeitos. Ruídos, interferências e limitações físicas fazem 
+parte do ambiente em que os circuitos operam. Ainda assim, os sistemas digitais são projetados para lidar com essas 
+imperfeições, utilizando margens de segurança e regras bem definidas para manter a confiabilidade.
 
-Mais adiante, vimos como esses sinais são organizados em estruturas digitais, como bits e bytes, e como são codificados, sincronizados e interpretados dentro dos sistemas. Essa organização permite que informações complexas sejam representadas e processadas de forma eficiente.
+ Mais adiante, vimos como esses sinais são organizados em estruturas digitais, como bits e bytes, e como são 
+codificados, sincronizados e interpretados dentro dos sistemas. Essa organização permite que informações complexas 
+sejam representadas e processadas de forma eficiente.
 
-Ao reunir todos esses conceitos, percebemos que os sinais nos circuitos digitais formam uma linguagem completa entre o mundo físico e o mundo da informação. Eles conectam fenômenos elétricos a significados lógicos, permitindo que máquinas processem, armazenem e transmitam dados com precisão e robustez.
+ Ao reunir todos esses conceitos, percebemos que os sinais nos circuitos digitais formam uma linguagem completa 
+entre o mundo físico e o mundo da informação. Eles conectam fenômenos elétricos a significados lógicos, permitindo 
+que máquinas processem, armazenem e transmitam dados com precisão e robustez.
 
-Essa compreensão não é apenas um ponto de chegada, mas um ponto de partida. A partir daqui, você não enxerga mais os sistemas digitais como caixas pretas, mas como estruturas compreensíveis, baseadas em princípios claros. Esse entendimento abre caminho para estudos mais avançados e para uma visão mais profunda da computação e da engenharia digital.
-
+ Essa compreensão não é apenas um ponto de chegada, mas um ponto de partida. A partir daqui, você não enxerga mais 
+os sistemas digitais como caixas pretas, mas como estruturas compreensíveis, baseadas em princípios claros. Esse 
+entendimento abre caminho para estudos mais avançados e para uma visão mais profunda da computação e da engenharia 
+digital.
