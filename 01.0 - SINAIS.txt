@@ -735,22 +735,42 @@ estável mesmo em um ambiente cheio de desafios.
 
                             "Aplicações dos Sinais em Diferentes Áreas"
 
- Ao longo de todo esse percurso, vimos que os sinais são muito mais do que conceitos abstratos dentro dos circuitos. Eles são a base invisível que permite que a informação exista, se mova e seja interpretada. Agora, ao olhar para o mundo ao nosso redor, começamos a perceber que esses mesmos sinais estão presentes em praticamente todas as tecnologias que usamos no dia a dia.
+ Ao longo de todo esse percurso, vimos que os sinais são muito mais do que conceitos abstratos dentro dos 
+circuitos. Eles são a base invisível que permite que a informação exista, se mova e seja interpretada. Agora, ao 
+olhar para o mundo ao nosso redor, começamos a perceber que esses mesmos sinais estão presentes em praticamente 
+todas as tecnologias que usamos no dia a dia.
 
-Na área de comunicações, por exemplo, os sinais são responsáveis por transportar mensagens entre pessoas e dispositivos. Quando você envia uma mensagem pelo celular ou participa de uma chamada de vídeo, sinais percorrem grandes distâncias carregando voz, imagem e dados, permitindo conexões que antes pareciam impossíveis.
+ Na área de comunicações, por exemplo, os sinais são responsáveis por transportar mensagens entre pessoas e 
+dispositivos. Quando você envia uma mensagem pelo celular ou participa de uma chamada de vídeo, sinais percorrem 
+grandes distâncias carregando voz, imagem e dados, permitindo conexões que antes pareciam impossíveis.
 
-No entretenimento, os sinais também desempenham um papel central. Músicas em plataformas digitais, filmes em streaming e jogos eletrônicos são todos baseados em sinais que representam sons, imagens e interações. Aquilo que vemos e ouvimos é, na essência, uma interpretação organizada desses sinais.
+ No entretenimento, os sinais também desempenham um papel central. Músicas em plataformas digitais, filmes em 
+streaming e jogos eletrônicos são todos baseados em sinais que representam sons, imagens e interações. Aquilo que 
+vemos e ouvimos é, na essência, uma interpretação organizada desses sinais.
 
-Na medicina, os sinais ajudam a salvar vidas. Equipamentos como monitores cardíacos, exames de imagem e sensores diversos capturam sinais do corpo humano e os transformam em informações úteis para diagnóstico e acompanhamento. É como se os sinais fossem uma forma de “ouvir” o funcionamento interno do organismo.
+ Na medicina, os sinais ajudam a salvar vidas. Equipamentos como monitores cardíacos, exames de imagem e sensores 
+diversos capturam sinais do corpo humano e os transformam em informações úteis para diagnóstico e acompanhamento. É 
+como se os sinais fossem uma forma de “ouvir” o funcionamento interno do organismo.
 
-No campo do controle, eles permitem que sistemas reajam ao ambiente. Desde um simples termostato que regula a temperatura até sistemas industriais complexos, os sinais são usados para monitorar condições e tomar decisões automaticamente. Eles funcionam como os sentidos e reflexos dessas máquinas.
+ No campo do controle, eles permitem que sistemas reajam ao ambiente. Desde um simples termostato que regula a 
+temperatura até sistemas industriais complexos, os sinais são usados para monitorar condições e tomar decisões 
+automaticamente. Eles funcionam como os sentidos e reflexos dessas máquinas.
 
-Quando pensamos em redes e na internet, os sinais se tornam ainda mais essenciais. Toda a troca de dados entre computadores, servidores e dispositivos depende de sinais que viajam por cabos, fibras ópticas ou pelo ar. É essa infraestrutura baseada em sinais que sustenta o mundo conectado em que vivemos.
+ Quando pensamos em redes e na internet, os sinais se tornam ainda mais essenciais. Toda a troca de dados entre 
+computadores, servidores e dispositivos depende de sinais que viajam por cabos, fibras ópticas ou pelo ar. É essa 
+infraestrutura baseada em sinais que sustenta o mundo conectado em que vivemos.
 
-Com o avanço da Internet das Coisas, os sinais estão cada vez mais presentes em objetos do cotidiano. Sensores em casas, cidades e dispositivos vestíveis coletam e transmitem informações constantemente, criando ambientes inteligentes que respondem às nossas necessidades quase em tempo real.
+ Com o avanço da Internet das Coisas, os sinais estão cada vez mais presentes em objetos do cotidiano. Sensores em 
+casas, cidades e dispositivos vestíveis coletam e transmitem informações constantemente, criando ambientes 
+inteligentes que respondem às nossas necessidades quase em tempo real.
 
-Na área de segurança, os sinais ajudam a proteger informações e sistemas. Eles são usados para autenticação, criptografia e monitoramento, garantindo que os dados sejam transmitidos de forma confiável e protegida contra interferências ou acessos indevidos.
+ Na área de segurança, os sinais ajudam a proteger informações e sistemas. Eles são usados para autenticação, 
+criptografia e monitoramento, garantindo que os dados sejam transmitidos de forma confiável e protegida contra 
+interferências ou acessos indevidos.
 
-Ao integrar todas essas aplicações, percebemos que os sinais são o elo comum entre diferentes áreas da tecnologia. Eles conectam o mundo físico ao digital, permitindo que ideias se transformem em ações concretas. Compreender os sinais não é apenas entender circuitos, mas desenvolver uma visão ampla de como a tecnologia funciona e impacta o mundo ao nosso redor.
+ Ao integrar todas essas aplicações, percebemos que os sinais são o elo comum entre diferentes áreas da tecnologia. 
+Eles conectam o mundo físico ao digital, permitindo que ideias se transformem em ações concretas. Compreender os 
+sinais não é apenas entender circuitos, mas desenvolver uma visão ampla de como a tecnologia funciona e impacta o 
+mundo ao nosso redor.
 
 
