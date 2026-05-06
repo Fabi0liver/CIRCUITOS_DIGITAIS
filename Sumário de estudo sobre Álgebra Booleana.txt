@@ -1,0 +1,83 @@
+                             Sumário de estudo sobre Álgebra Booleana
+
+
+O que é Álgebra Booleana
+
+
+Diferença entre álgebra tradicional e booleana
+
+
+Valores lógicos:
+ 0 (falso)
+ 1 (verdadeiro)
+
+
+Variáveis booleanas
+
+
+Operações Lógicas Básicas:
+ AND (E lógico)
+ OR (OU lógico)
+ NOT (NÃO / inversão)
+ Tabelas verdade dessas operações
+
+
+Expressões Booleanas
+ Como escrever expressões lógicas
+ Combinação de operações (AND, OR, NOT)
+ Ordem de avaliação
+
+
+Tabelas Verdade:
+ Construção de tabelas verdade completas
+ Avaliação de expressões
+ Interpretação de resultados
+ Tabelas verdade dessas operações
+
+
+Leis e Propriedades da Álgebra Booleana:
+ Lei da Identidade
+ Lei da Anulação
+ Lei do Idempotente
+ Lei do Complemento
+ Lei Comutativa
+ Lei Associativa
+ Lei Distributiva
+
+
+Leis de De Morgan:
+ Transformação de expressões com negação
+ Relação entre AND, OR e NOT
+
+
+Simplificação de Expressões Booleanas:
+ Redução de expressões usando leis
+ Eliminação de termos redundantes
+
+
+Funções Booleanas:
+ O que é uma função booleana
+ Representação por expressão
+ Representação por tabela verdade
+
+
+Formas Canônicas:
+ Soma de produtos (SOP)
+ Produto de somas (POS)
+
+
+Mintermos e Maxtermos:
+ O que são mintermos
+ O que são maxtermos
+ Relação com tabelas verdade
+
+
+Introdução às Portas Lógicas:
+ AND, OR, NOT como circuitos
+ Representação gráfica
+
+
+Relação entre Álgebra Booleana e Circuitos Digitais:
+ Como expressões viram circuitos
+ Como circuitos representam expressões
+
