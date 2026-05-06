@@ -1,22 +1,31 @@
                              Sumário de estudo sobre Álgebra Booleana
 
 
-O que é Álgebra Booleana
+O que é Álgebra Booleana:
+ "Sistema matemático que opera com valores lógicos (0 e 1), usado para representar decisões e lógica computacional."
 
 
-O que é lógica
+O que é lógica:
+  "Estudo do raciocínio válido — base para entender como decisões são modeladas matematicamente."
 
 
-Diferença entre álgebra tradicional e booleana
+Diferença entre álgebra tradicional e booleana:
+ Tradicional: valores numéricos contínuos
+ Booleana: valores discretos (0 e 1)
+ Operações diferentes (ex: AND ≠ multiplicação comum, apesar da analogia)
 
 
-Contexto histórico
+Contexto histórico:
+ George Boole criou o modelo lógico matemático
+ Evolução para circuitos com Claude Shannon
 
 
 Natureza da Informação Digital:
  O que é informação em sistemas digitais
  Representação binária
- Estados físicos (tensão → 0 e 1)
+ Estados físicos:
+  Tensão baixa → 0
+  Tensão alta → 1
  Relação entre bits e lógica
 
 
@@ -59,16 +68,16 @@ Expressões Booleanas
   Notação com apóstrofo (A')
 
 
-Leis e Propriedades da Álgebra Booleana:
- Lei da Identidade
- Lei da Anulação
- Lei do Idempotente
- Lei do Complemento
- Lei Comutativa
- Lei Associativa
- Lei Distributiva
- Lei da Absorção
- Lei da Dualidade
+Principais Leis e Propriedades da Álgebra Booleana:
+ Identidade
+ Anulação
+ Idempotente
+ Complemento
+ Comutativa
+ Associativa
+ Distributiva
+ Absorção
+ Dualidade
 
 
 Leis de De Morgan:
@@ -151,7 +160,7 @@ Importância da álgebra booleana na computação:
 Conclusão sobre Álgebra Booleana:
  Revisão dos conceitos principais
  Conexão entre teoria e prática
- Preparação para:
-  Circuitos digitais avançados
-  Arquitetura de computadores
+ Integra lógica + matemática + hardware
+ Permite transformar decisões em circuitos físicos
+ Base para estudos avançados
 
