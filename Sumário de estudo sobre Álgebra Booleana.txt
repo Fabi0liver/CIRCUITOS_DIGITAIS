@@ -15,24 +15,27 @@ Valores lógicos:
 Variáveis booleanas
 
 
-Operações Lógicas Básicas:
- AND (E lógico)
- OR (OU lógico)
- NOT (NÃO / inversão)
- Tabelas verdade dessas operações
-
+Operações Lógicas:
+ Básicas:
+  AND (E lógico)
+  OR (OU lógico)
+  NOT (NÃO / inversão)
+ Complementares:
+  NAND, NOR, XOR, XNOR
+ 
 
 Expressões Booleanas
  Como escrever expressões lógicas
  Combinação de operações (AND, OR, NOT)
- Ordem de avaliação
+ Ordem de precedência
+ Notações
 
 
 Tabelas Verdade:
  Construção de tabelas verdade completas
  Avaliação de expressões
  Interpretação de resultados
- Tabelas verdade dessas operações
+ Tabelas verdade nas operações lógicas
 
 
 Leis e Propriedades da Álgebra Booleana:
@@ -43,16 +46,18 @@ Leis e Propriedades da Álgebra Booleana:
  Lei Comutativa
  Lei Associativa
  Lei Distributiva
+ Lei da Dualidade
 
 
 Leis de De Morgan:
  Transformação de expressões com negação
- Relação entre AND, OR e NOT
+ Aplicações práticas
 
 
 Simplificação de Expressões Booleanas:
- Redução de expressões usando leis
- Eliminação de termos redundantes
+ Uso de leis booleanas
+ Eliminação de redundâncias
+ Mapa de Karnaugh (K-Map)
 
 
 Funções Booleanas:
@@ -72,12 +77,28 @@ Mintermos e Maxtermos:
  Relação com tabelas verdade
 
 
-Introdução às Portas Lógicas:
- AND, OR, NOT como circuitos
+Portas Lógicas:
+ AND, OR, NOT
+ NAND, NOR, XOR, XNOR
  Representação gráfica
+
+
+Portas Universais:
+ NAND como base universal
+ NOR como base universal
 
 
 Relação entre Álgebra Booleana e Circuitos Digitais:
  Como expressões viram circuitos
  Como circuitos representam expressões
+ Otimização
+
+
+Importância da álgebra booleana na computação
+
+
+Aplicações reais
+
+
+Conclusão sobre Álgebra Booleana
 
