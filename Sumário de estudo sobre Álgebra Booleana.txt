@@ -4,15 +4,28 @@
 O que é Álgebra Booleana
 
 
+O que é lógica
+
+
 Diferença entre álgebra tradicional e booleana
 
 
-Valores lógicos:
- 0 (falso)
- 1 (verdadeiro)
+Contexto histórico
 
 
-Variáveis booleanas
+Natureza da Informação Digital:
+ O que é informação em sistemas digitais
+ Representação binária
+ Estados físicos (tensão → 0 e 1)
+ Relação entre bits e lógica
+
+
+Valores e Variáveis Booleanas:
+ Valores lógicos:
+  0 (falso)
+  1 (verdadeiro)
+ Variáveis booleanas
+ Literais (variável e seu complemento)
 
 
 Operações Lógicas:
@@ -20,22 +33,30 @@ Operações Lógicas:
   AND (E lógico)
   OR (OU lógico)
   NOT (NÃO / inversão)
- Complementares:
-  NAND, NOR, XOR, XNOR
- 
+ Derivadas:
+  NAND
+  NOR
+  XOR (OU exclusivo)
+  XNOR
+
+
+Tabelas Verdade:
+ O que é uma tabela verdade
+ Construção passo a passo
+ Número de combinações (2ⁿ)
+ Avaliação de expressões
+ Tabelas das portas lógicas
+
 
 Expressões Booleanas
  Como escrever expressões lógicas
  Combinação de operações (AND, OR, NOT)
  Ordem de precedência
- Notações
-
-
-Tabelas Verdade:
- Construção de tabelas verdade completas
- Avaliação de expressões
- Interpretação de resultados
- Tabelas verdade nas operações lógicas
+ Uso de parênteses
+ Notações:
+  Algébrica
+  Barra (negação)
+  Notação com apóstrofo (A')
 
 
 Leis e Propriedades da Álgebra Booleana:
@@ -46,46 +67,57 @@ Leis e Propriedades da Álgebra Booleana:
  Lei Comutativa
  Lei Associativa
  Lei Distributiva
+ Lei da Absorção
  Lei da Dualidade
 
 
 Leis de De Morgan:
- Transformação de expressões com negação
- Aplicações práticas
+ Transformações com negação
+ Passagem de AND ↔ OR
+ Aplicações práticas em circuitos
+ Uso para simplificação
 
 
 Simplificação de Expressões Booleanas:
  Uso de leis booleanas
  Eliminação de redundâncias
+ Fatoração lógica
  Mapa de Karnaugh (K-Map)
 
 
 Funções Booleanas:
  O que é uma função booleana
- Representação por expressão
- Representação por tabela verdade
+ Relação entrada → saída
+ Representações:
+  Expressão
+  Tabela verdade
+  Circuito
 
 
 Formas Canônicas:
  Soma de produtos (SOP)
  Produto de somas (POS)
+ Forma padrão vs forma simplificada
 
 
 Mintermos e Maxtermos:
  O que são mintermos
  O que são maxtermos
  Relação com tabelas verdade
+ Conversão entre formas
 
 
 Portas Lógicas:
  AND, OR, NOT
  NAND, NOR, XOR, XNOR
  Representação gráfica
-
+ Tabelas verdade associadas
+ 
 
 Portas Universais:
  NAND como base universal
  NOR como base universal
+ Construção de qualquer circuito com NAND/NOR
 
 
 Relação entre Álgebra Booleana e Circuitos Digitais:
@@ -94,11 +126,32 @@ Relação entre Álgebra Booleana e Circuitos Digitais:
  Otimização
 
 
-Importância da álgebra booleana na computação
+Relação com Sistemas Digitais:
+ Como a álgebra booleana vira hardware
+ Relação com:
+  Processadores
+  Memórias
+  Sistemas embarcados
 
 
-Aplicações reais
+Aplicações reais:
+ Circuitos digitais
+ Computadores
+ Sistemas embarcados
+ Automação
+ Eletrônica digital
 
 
-Conclusão sobre Álgebra Booleana
+Importância da álgebra booleana na computação:
+ Base da arquitetura de computadores
+ Base da programação de baixo nível
+ Fundamenta toda a lógica digital
+
+
+Conclusão sobre Álgebra Booleana:
+ Revisão dos conceitos principais
+ Conexão entre teoria e prática
+ Preparação para:
+  Circuitos digitais avançados
+  Arquitetura de computadores
 
