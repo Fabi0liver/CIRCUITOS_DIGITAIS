@@ -83,5 +83,28 @@ Argumentos Lógicos:
 Objetivo: Aqui você começa a pensar como um sistema lógico completo
 
 
+Simplificação de Expressões Lógicas:
+ Uso das leis para simplificar
+ Redução de complexidade
+Ponte direta com: otimização de circuitos digitais
+
+
+Introdução à Lógica Booleana:
+ Álgebra booleana (visão inicial)
+ Relação direta com:
+  0 e 1
+  verdadeiro e falso
+Objetivo: Aqui você está pronto para entrar em circuitos
+
+
+Transição para Circuitos Digitais:
+ Relação entre:
+  Conectivos lógicos → portas lógicas
+ Ideia de implementação física da lógica
+Objetivo: Esse é o ponto final da base e início da aplicação
+
 
 Importância da lógica na computação
+
+
+Conclusão sobre Princípios Lógicos
