@@ -40,5 +40,29 @@ Tabelas-Verdade:
 Aqui acontece algo importante: Você começa a simular comportamento lógico, exatamente como circuitos fazem.
 
 
+Expressões Lógicas:
+ Montagem de expressões com conectivos
+ Precedência de operadores
+ Interpretação de expressões
+Objetivo: ler e escrever “fórmulas lógicas”
+
+
+Equivalência Lógica:
+ O que significa duas expressões serem equivalentes
+ Exemplos:
+  Dupla negação
+  Leis básicas
+Objetivo:Isso será crucial depois para simplificar circuitos
+
+
+Leis Fundamentais da Lógica:
+ Leis de De Morgan
+ Lei da identidade
+ Lei do complemento
+ Lei da idempotência
+ Lei da absorção
+Objetivo: Esse é um dos pontos MAIS importantes para circuitos digitais.
+
+
 
 Importância da lógica na computação
