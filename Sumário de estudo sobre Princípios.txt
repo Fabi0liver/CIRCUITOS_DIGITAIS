@@ -55,17 +55,72 @@ Objetivo: Reconhecer o elemento básico da lógica matemática.
 
 
 Valores Lógicos:
- Verdadeiro (V) e Falso (F)
- Natureza binária da lógica
+ Valores verdade:
+  Verdadeiro (V)
+  Falso (F)
+ Natureza binária da lógica:
+  Dois estados possíveis
+  Decisão lógica binária
+ Relação com computação:
+  Verdadeiro ↔ 1
+  Falso ↔ 0
+ Ponte para circuitos digitais:
+  Estados elétricos
+  Alto e baixo nível lógico
 Ponte importante: Isso já prepara sua mente para circuitos digitais → 0 e 1
 
 
 Conectivos Lógicos:
- Negação (¬)
- Conjunção (∧) → “E”
- Disjunção (∨) → “OU”
- Condicional (→) → “SE... ENTÃO”
+ 
+ Negação (¬) → “NÃO”: 
+        A negação inverte o valor lógico de uma proposição.
+        Se algo é verdadeiro, a negação torna falso.
+        Se é falso, a negação torna verdadeiro.
+        Estrutura: ¬p
+        Lê-se: “não p”
+        Ideia Intuitiva: A negação funciona como um interruptor invertendo estados: ligado → desligado ou 
+                        desligado → ligado
+
+ Conjunção (∧) → “E”: 
+        A conjunção afirma que as duas proposições precisam ser verdadeiras ao mesmo tempo.
+        Estrutura: p ∧ q
+        Lê-se: “p e q”
+        Regra Principal: Só será verdadeira quando as duas forem verdadeiras.
+        Ideia Intuitiva: Imagine duas chaves controlando uma lâmpada, as duas precisam estar ligadas para a lâmpada 
+                        acender.
+ 
+ Disjunção ou Disjunção Inclusiva (∨) → “OU”: 
+        A disjunção significa que pelo menos uma proposição deve ser verdadeira.
+        Estrutura: p ∨ q
+        Lê-se: “p ou q”
+        Regra Principal: Só será falsa quando ambas forem falsas.
+        Ideia Intuitiva: A disjunção inclusiva aceita múltiplas possibilidades. “Ou” na lógica normalmente 
+                        significa: um, outro ou ambos
+ 
+ Disjunção Exclusivo (⊕) → OU... OU:
+        A disjunção exclusiva aceita apenas uma verdadeira.
+        Estrutura: p ⊕ q
+        Lê-se: “ou p ou q”
+               “um ou outro, mas não ambos” 
+        Regra Principal: A lógica disjunção exclusivo detecta diferença.
+        Ideia Intuitiva: Só um dos dois deve acontecer, os dois juntos tornam falso.
+ 
+ Condicional (→) → “SE... ENTÃO”: 
+        A condicional representa uma relação de consequência.
+        Estrutura: p → q
+        Lê-se: “se p, então q”
+        Regra Principal: A condicional só é falsa quando: a condição acontece, mas o resultado esperado não 
+                        acontece
+        Ideia Intuitiva: Pense assim “Sempre que p acontecer, q deve acontecer.”
+ 
  Bicondicional (↔) → “SE E SOMENTE SE”
+        A bicondicional afirma equivalência total.
+        As duas proposições precisam ter o mesmo valor lógico.
+        Estrutura p ↔ q
+        Lê-se: “p se e somente se q”
+        Regra Principal: É verdadeira quando: ambas são verdadeiras ou ambas são falsas
+        Ideia Intuitiva: A bicondicional funciona como igualdade lógica. Ela verifica se os dois lados concordam.
+
 Objetivo: aprender como combinar proposições
 
 
