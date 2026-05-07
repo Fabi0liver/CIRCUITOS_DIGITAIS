@@ -64,5 +64,24 @@ Leis Fundamentais da Lógica:
 Objetivo: Esse é um dos pontos MAIS importantes para circuitos digitais.
 
 
+Tautologia, Contradição e Contingência:
+ Tautologia → sempre verdadeiro
+ Contradição → sempre falso
+ Contingência → depende
+Objetivo: entender o comportamento global de expressões
+
+
+Implicação Lógica:
+ Quando uma proposição implica outra
+ Ideia de validade lógica
+Objetivo: Base para pensamento computacional e provas
+
+
+Argumentos Lógicos:
+ Premissas e conclusão
+ Argumentos válidos vs inválidos
+Objetivo: Aqui você começa a pensar como um sistema lógico completo
+
+
 
 Importância da lógica na computação
