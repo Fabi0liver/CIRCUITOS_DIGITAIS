@@ -7,16 +7,15 @@ O que é lógica:
  Objetivo da lógica:
   analisar argumentos
   verificar coerência
+  organizar raciocínios
   distinguir conclusões válidas de inválidas
 
 
 Importância da lógica:
- Lógica no pensamento humano
- Lógica na matemática
- Lógica na programação
- Lógica na computação
- Lógica em circuitos digitais
- Lógica em inteligência artificial
+ Computadores tomam decisões lógicas
+ Relação entre lógica e programação
+ Relação entre lógica e circuitos digitais
+ Lógica como base da computação moderna
 
 
 História e fundamentos:
@@ -27,19 +26,32 @@ História e fundamentos:
  Relação entre lógica e computação moderna
 
 
-Diferença entre:
- Pensamento Intuitivo vs Pensamento lógico
+Pensamento Lógico e Estrutura do Raciocínio:
+ Pensamento intuitivo vs pensamento lógico
+ Intuição
+ Raciocínio estruturado
+ Diferença entre “achar” e “demonstrar”
+ Importância da consistência lógica
 
 
 Proposições:
- O que é uma proposição (frases que podem ser verdadeiras ou falsas)
- Exemplos:
-  “2 + 2 = 4” (verdadeiro)
-  “Hoje está chovendo” (depende → ainda é proposição)
- O que não é proposição:
+ O que é uma proposição
+  Frases que podem ser:
+   verdadeiras
+   falsas
+ Exemplos de proposições:
+  “2 + 2 = 4”
+  “O número 7 é par”
+  “Hoje está chovendo”
+ O que NÃO é proposição:
   Perguntas
   Ordens
-Objetivo: reconhecer o “bloco básico” da lógica.
+  Exclamações
+  Frases sem valor lógico definido
+ Classificação de proposições:
+  Proposição simples
+  Proposição composta
+Objetivo: Reconhecer o elemento básico da lógica matemática.
 
 
 Valores Lógicos:
