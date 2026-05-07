@@ -221,12 +221,17 @@ Simplificação de Expressões Lógicas:
   Maior eficiência
 
 
-Introdução à Lógica Booleana:
- Álgebra booleana (visão inicial)
- Relação direta com:
-  0 e 1
-  verdadeiro e falso
-Objetivo: Aqui você está pronto para entrar em circuitos
+Álgebra Booleana:
+ O que é álgebra booleana:
+  Sistema matemático da lógica
+ Relação entre:
+  Verdadeiro e falso
+  1 e 0
+ Operações booleanas básicas:
+  AND
+  OR
+  NOT
+Objetivo: Fazer a transição da lógica matemática para lógica computacional.
 
 
 Transição para Circuitos Digitais:
@@ -236,7 +241,21 @@ Transição para Circuitos Digitais:
 Objetivo: Esse é o ponto final da base e início da aplicação
 
 
-Importância da lógica na computação
+Importância da lógica no Pensamento Computacional:
+ Resolução lógica de problemas
+ Sequência lógica
+ Condições e decisões
+ Relação com algoritmos
+Objetivo do tópico: Preparar a mente para programação e sistemas digitais.
 
 
-Conclusão sobre Princípios Lógicos
+Conclusão sobre Princípios Lógicos:
+ Revisão da jornada estudada:
+  Proposições
+  Operadores lógicos
+  Tabelas-verdade
+  Leis lógicas
+  Simplificação
+  Álgebra booleana
+  Portas lógicas
+Ideia central: A lógica é a linguagem fundamental da computação e dos circuitos digitais.
