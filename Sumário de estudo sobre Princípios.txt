@@ -1,1 +1,44 @@
                                 Sumário de estudo sobre Princípios Lógicos
+
+
+Definição de lógica (ciência do raciocínio válido)
+
+
+Diferença entre:
+ Pensamento Intuitivo vs Pensamento lógico
+
+
+Proposições:
+ O que é uma proposição (frases que podem ser verdadeiras ou falsas)
+ Exemplos:
+  “2 + 2 = 4” (verdadeiro)
+  “Hoje está chovendo” (depende → ainda é proposição)
+ O que não é proposição:
+  Perguntas
+  Ordens
+Objetivo: reconhecer o “bloco básico” da lógica.
+
+
+Valores Lógicos:
+ Verdadeiro (V) e Falso (F)
+ Natureza binária da lógica
+Ponte importante: Isso já prepara sua mente para circuitos digitais → 0 e 1
+
+
+Conectivos Lógicos:
+ Negação (¬)
+ Conjunção (∧) → “E”
+ Disjunção (∨) → “OU”
+ Condicional (→) → “SE... ENTÃO”
+ Bicondicional (↔) → “SE E SOMENTE SE”
+Objetivo: aprender como combinar proposições
+
+
+Tabelas-Verdade:
+ Como construir tabelas-verdade
+ Avaliar expressões lógicas
+Aqui acontece algo importante: Você começa a simular comportamento lógico, exatamente como circuitos fazem.
+
+
+
+Importância da lógica na computação
