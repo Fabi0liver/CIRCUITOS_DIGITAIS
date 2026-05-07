@@ -125,58 +125,100 @@ Objetivo: aprender como combinar proposições
 
 
 Tabelas-Verdade:
- Como construir tabelas-verdade
- Avaliar expressões lógicas
-Aqui acontece algo importante: Você começa a simular comportamento lógico, exatamente como circuitos fazem.
+ O que é tabela-verdade:
+  Representação completa dos resultados lógicos
+ Como construir tabelas-verdade:
+  Número de combinações
+  Organização das variáveis
+ Avaliação de expressões lógicas:
+  Análise passo a passo
+ Ponte com circuitos digitais:
+  Simulação do comportamento das portas lógicas
+Objetivo: Entender como sistemas lógicos “calculam” decisões, exatamente como circuitos fazem.
 
 
 Expressões Lógicas:
- Montagem de expressões com conectivos
- Precedência de operadores
- Interpretação de expressões
-Objetivo: ler e escrever “fórmulas lógicas”
+ Construção de expressões:
+  Combinação de proposições e conectivos
+ Símbolos e notação lógica:
+  Parênteses
+  Operadores
+  Variáveis lógicas
+ Precedência de operadores:
+  Ordem de execução lógica
+ Interpretação de expressões:
+  Como “ler” fórmulas lógicas
+Objetivo: Aprender a escrever e interpretar fórmulas lógicas corretamente.
 
 
 Equivalência Lógica:
- O que significa duas expressões serem equivalentes
+ O que é equivalência lógica:
+  Expressões com mesmo comportamento lógico
  Exemplos:
   Dupla negação
+  Equivalências simples
   Leis básicas
-Objetivo:Isso será crucial depois para simplificar circuitos
+ Transformação de expressões:
+  Reescrita lógica
+Objetivo: Preparar a base para simplificação lógica e circuitos digitais.
 
 
 Leis Fundamentais da Lógica:
- Leis de De Morgan
  Lei da identidade
  Lei do complemento
+ Lei da dupla negação
  Lei da idempotência
+ Lei comutativa
+ Lei associativa
+ Lei distributiva
  Lei da absorção
-Objetivo: Esse é um dos pontos MAIS importantes para circuitos digitais.
+ Leis de De Morgan:
+  Transformação entre AND e OR
+  Inversões lógicas
+Objetivo: Dominar as regras fundamentais usadas em álgebra booleana.
 
 
 Tautologia, Contradição e Contingência:
- Tautologia → sempre verdadeiro
- Contradição → sempre falso
- Contingência → depende
+ Tautologia: sempre verdadeiro
+ Contradição: sempre falso
+ Contingência: Depende dos valores lógicos
 Objetivo: entender o comportamento global de expressões
 
 
-Implicação Lógica:
- Quando uma proposição implica outra
- Ideia de validade lógica
+Implicação e Validade Lógica:
+ Implicação lógica:
+  Quando uma proposição leva a outra
+ Ideia de consequência lógica
+ Validade lógica:
+  Raciocínio correto
 Objetivo: Base para pensamento computacional e provas
 
 
 Argumentos Lógicos:
- Premissas e conclusão
- Argumentos válidos vs inválidos
-Objetivo: Aqui você começa a pensar como um sistema lógico completo
+ Estrutura de um argumento:
+  Premissas
+  Conclusão
+ Argumentos válidos:
+  Conclusão correta a partir das premissas
+ Argumentos inválidos:
+  Erros de raciocínio
+ Formas clássicas:
+  Modus Ponens
+  Modus Tollens
+Objetivo: Aprender como sistemas lógicos “raciocinam”.
 
 
 Simplificação de Expressões Lógicas:
- Uso das leis para simplificar
- Redução de complexidade
-Ponte direta com: otimização de circuitos digitais
+ Uso das leis lógicas:
+  Redução de expressões
+ Simplificação passo a passo
+ Redução de complexidade lógica
+ Objetivo do tópico:
+  Entender a ideia de otimização lógica.
+ Ponte com circuitos digitais:
+  Circuitos menores
+  Menos portas lógicas
+  Maior eficiência
 
 
 Introdução à Lógica Booleana:
