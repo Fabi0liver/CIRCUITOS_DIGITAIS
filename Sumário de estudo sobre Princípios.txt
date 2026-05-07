@@ -1,7 +1,30 @@
                                 Sumário de estudo sobre Princípios Lógicos
 
 
-Definição de lógica (ciência do raciocínio válido)
+O que é lógica:
+ Definição de lógica
+ Lógica como ciência do raciocínio válido
+ Objetivo da lógica:
+  analisar argumentos
+  verificar coerência
+  distinguir conclusões válidas de inválidas
+
+
+Importância da lógica:
+ Lógica no pensamento humano
+ Lógica na matemática
+ Lógica na programação
+ Lógica na computação
+ Lógica em circuitos digitais
+ Lógica em inteligência artificial
+
+
+História e fundamentos:
+ Filosofia e lógica clássica
+ Aristóteles e o raciocínio formal
+ Desenvolvimento da lógica matemática
+ George Boole e a lógica booleana
+ Relação entre lógica e computação moderna
 
 
 Diferença entre:
