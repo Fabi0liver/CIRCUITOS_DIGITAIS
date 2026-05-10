@@ -131,3 +131,19 @@ Importância e Vantagens dos Circuitos Digitais:
  Processamento moderno de sinais
  Base da inteligência artificial
  Base da tecnologia moderna
+
+
+Conclusão sobre Circuitos Digitais:
+ Circuitos digitais como base tecnológica
+ Simplicidade do sistema binário
+ Integração entre analógico e digital
+ Presença dos circuitos digitais no cotidiano
+ Importância do estudo de circuitos digitais
+ Relação com:
+  Programação
+  Engenharia
+  Inteligência Artificial
+  Robótica
+ Construção de sistemas complexos a partir de regras simples
+ Desenvolvimento da visão computacional do mundo
+ Circuitos digitais como fundamento da Ciência da Computação
