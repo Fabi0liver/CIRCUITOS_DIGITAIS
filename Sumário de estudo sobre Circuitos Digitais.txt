@@ -115,3 +115,19 @@ Conversão Digital-Analógica (D/A):
  Relação entre A/D e D/A:
   Comunicação entre mundo físico e digital
   Conversão bidirecional
+
+
+Importância e Vantagens dos Circuitos Digitais:
+ Organização lógica
+ Facilidade de projeto
+ Armazenamento de informações
+ Precisão
+ Confiabilidade
+ Resistência a ruídos
+ Robustez
+ Versatilidade
+ Escalabilidade
+ Baixo custo de produção
+ Processamento moderno de sinais
+ Base da inteligência artificial
+ Base da tecnologia moderna
