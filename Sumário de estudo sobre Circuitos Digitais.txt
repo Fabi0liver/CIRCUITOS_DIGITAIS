@@ -97,3 +97,21 @@ Conversão Analógico-Digital (A/D):
  Limitações e precisão:
   Perda de precisão
   Aproximação de valores contínuos
+
+
+Conversão Digital-Analógica (D/A):
+ Necessidade da conversão D/A
+ Transformação do digital em sinais contínuos
+ Reconstrução de sinais analógicos
+ Funcionamento da Conversão D/A:
+  Sequências discretas para ondas contínuas
+  Reconstrução de sinais
+  Suavização dos dados digitais
+ Aplicações da Conversão D/A:
+  Áudio
+  Alto-falantes
+  Controle de temperatura
+  Sistemas físicos
+ Relação entre A/D e D/A:
+  Comunicação entre mundo físico e digital
+  Conversão bidirecional
