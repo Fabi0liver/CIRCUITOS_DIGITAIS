@@ -42,3 +42,19 @@ Sinais Analógicos:
  Mundo real como ambiente analógico
  Conversão entre analógico e digital
  Aplicações práticas dos sinais analógicos
+
+
+Como os Circuitos Digitais Funcionam:
+ Fluxo básico dos circuitos digitais
+ Entradas digitais
+ Saídas digitais
+ Níveis lógicos (0 e 1)
+ Representação elétrica dos sinais
+ Processamento de informações
+ Portas lógicas
+ Regras lógicas de decisão
+ Combinação de portas lógicas
+ Sistemas simples e complexos
+ Quantidade de entradas e saídas
+ Operações rápidas e precisas
+ Processamento em alta velocidade
