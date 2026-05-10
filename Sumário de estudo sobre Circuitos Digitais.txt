@@ -58,3 +58,23 @@ Como os Circuitos Digitais Funcionam:
  Quantidade de entradas e saídas
  Operações rápidas e precisas
  Processamento em alta velocidade
+
+
+Tipos de Circuitos Digitais:
+ Circuitos Combinacionais:
+  Definição
+  Dependência apenas das entradas atuais
+  Ausência de memória
+  Respostas imediatas
+  Exemplos intuitivos
+ Circuitos Sequenciais:
+  Definição
+  Dependência do estado anterior
+  Conceito de memória
+  Evolução ao longo do tempo
+  Clock
+  Sincronização
+  Aplicações em memória e processadores
+ Comparação entre os dois tipos:
+  Diferenças principais
+  Complementaridade entre combinacionais e sequenciais
