@@ -78,3 +78,22 @@ Tipos de Circuitos Digitais:
  Comparação entre os dois tipos:
   Diferenças principais
   Complementaridade entre combinacionais e sequenciais
+
+
+Conversão Analógico-Digital (A/D):
+ Necessidade da conversão A/D
+ Mundo analógico vs. sistemas digitais
+ Conversão de sinais contínuos em discretos
+ Tradução de informações para o digital
+ Etapas da Conversão A/D:
+  Amostragem
+  Quantização
+  Codificação
+ Aplicações da Conversão A/D:
+  Voz em celulares
+  Sensores
+  Câmeras digitais
+  Sistemas computacionais
+ Limitações e precisão:
+  Perda de precisão
+  Aproximação de valores contínuos
