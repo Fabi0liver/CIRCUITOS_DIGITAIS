@@ -5,6 +5,7 @@ Código: representação de números, letras, palavras, estágios, etc. por um g
  Os sistemas digitais não manipulam apenas números, mas também qualquer elementos discretos de informação.
 
  Exemplo: Sistema digital para controle de temperatura do motor do carro.
+
            120°C|------------------|        |----------------------------|
                 |    motor Quente  |        |  Para um sistema  digital: |
            100°C|------------------|        |----------------------------|
