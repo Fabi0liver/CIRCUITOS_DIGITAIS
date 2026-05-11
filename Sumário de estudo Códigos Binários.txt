@@ -7,7 +7,7 @@ O que é o Código Binário: Quando um elemento discreto de informação é repr
 
 
 Código: Representação de números, letras, palavras, estágios, etc. por um grupo especial de símbolos.
-        Os sistemas digitais não manipulam apenas números, mas também qualquer elementos discretos de informação.
+       Os sistemas digitais não manipulam apenas números, mas também qualquer elementos discretos de informação.
 
         Exemplo: Sistema digital para controle de temperatura do motor do carro.
 
@@ -19,3 +19,10 @@ Código: Representação de números, letras, palavras, estágios, etc. por um g
                 |    Motor Frio    |        |       Motor Frio = 00      |
             40°C|------------------|        |----------------------------|
 
+
+Codificação: O ato de atribuir a cada elemento discreto de informação uma sequência de bits é chamado de 
+            codificação;
+             Seja "N" a quantidade de elementos discretos a serem codificados. A quantidade mínima de bits (código  
+            de largura mínima) necessária será:
+
+                                     L = ⌈log₂(N)⌉
