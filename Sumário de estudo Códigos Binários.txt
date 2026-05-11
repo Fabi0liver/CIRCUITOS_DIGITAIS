@@ -1,0 +1,15 @@
+                                    Sumário de estudo Códigos Binários
+
+Código: representação de números, letras, palavras, estágios, etc. por um grupo especial de símbolos.
+
+ Os sistemas digitais não manipulam apenas números, mas também qualquer elementos discretos de informação.
+
+ Exemplo: Sistema digital para controle de temperatura do motor do carro.
+           120°C|------------------|        |----------------------------|
+                |    motor Quente  |        |  Para um sistema  digital: |
+           100°C|------------------|        |----------------------------|
+                |    Motor Normal  | -----> |     Motor Quente = 10      |
+            80°C|------------------|        |     Motor Normal = 01      |
+                |    Motor Frio    |        |       Motor Frio = 00      |
+            40°C|------------------|        |----------------------------|
+
