@@ -26,3 +26,12 @@ Codificação: O ato de atribuir a cada elemento discreto de informação uma se
             de largura mínima) necessária será:
 
                                      L = ⌈log₂(N)⌉
+
+             Nada impede que que se utilize mais bits do que o mínimo para a codificação dos elementos discretos;
+             Exemplo: Outra codificação para o sistema digital para controle de temperatura do motor do carro;
+                      - Motor frio: 001;
+                      - Motor Normal: 010;
+                      - Motor quente: 100;
+             Códigos de largura mínima: utilizam a menor quantidade de bits;
+
+
