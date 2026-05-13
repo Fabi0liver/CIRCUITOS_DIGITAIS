@@ -68,8 +68,18 @@ Codificação: O ato de atribuir a cada elemento discreto de informação uma se
     Aplicações do Código Gray: Sistemas de aquisição de dados, Instrumentação eletrônica, Medição de deslocamento   
                               angular, Conversores A/D...
 
+  Código one-hot:
+   Código não posicional de qualquer quantidade de bits;
+   Nesse código apenas um dos N bits do código vale 1;
+     Não é um código de largura mínima;
+   Exemplo de Código one-hot para cinco bits:    Número | Código one-hot 
+                                                --------|----------------
+                                                     0  |      00001     
+                                                     1  |      00010
+                                                     2  |      00100
+                                                     3  |      01000
+                                                     4  |      10000                                                                      
 
-  Código one-hot;
   Código Johnson;
   Código Excesso 3;
   Código ASCII.
