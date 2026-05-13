@@ -35,15 +35,16 @@ Codificação: O ato de atribuir a cada elemento discreto de informação uma se
              Códigos de largura mínima: utilizam a menor quantidade de bits;
 
 
- Códigos Padrões: Em circuitos digitais, existem alguns códigos padrões:
-  Código BCD (Binary-Coded Decimal Code): Cada dígito decimal é representado pelo seu equivalente binário.
+Códigos Padrões: Em circuitos digitais, existem alguns códigos padrões:
+  
+  Código BCD (Binary-Coded Decimal Code): 
+   Cada dígito decimal é representado pelo seu equivalente binário.
    
-                           |Dígito Decimal|   0  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |
-                           |--------------|------|------|------|------|------|------|------|------|------|------|
-                           |     BCD      | 0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 |
+    |Dígito Decimal|   0  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |
+    |--------------|------|------|------|------|------|------|------|------|------|------|
+    |     BCD      | 0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 |
 
-                                          Verifique  que os códigos 1010, 1011, 1100, 1101, 1111 não são usados no               
-                                         código BCD.
+   Verifique  que os códigos 1010, 1011, 1100, 1101, 1111 não são usados no código BCD.
 
   Código Gray (ou Código Reflexivo): 
    Código não posicional:
@@ -80,7 +81,26 @@ Codificação: O ato de atribuir a cada elemento discreto de informação uma se
                                                      3  |      01000
                                                      4  |      10000                                                                      
 
-  Código Johnson;
+  Código Johnson (ou código Moebius): 
+   É um código cíclico e ponderado usado em eletrônica digital, notavelmente em contadores, onde apenas um bit muda 
+  entre estados sucessivos. A sequência completa para representar números decimais de 0 a 9
+
+   Exemplo de Código Johnson para cinco bits:    Número | Código Johnson 
+                                                --------|----------------
+                                                     0  |      00000     
+                                                     1  |      00001
+                                                     2  |      00011
+                                                     3  |      00111
+                                                     4  |      01111 
+                                                     5  |      11111
+                                                     6  |      11110  
+                                                     7  |      11100  
+                                                     8  |      11000
+                                                     9  |      10000  
+
+     Os bits '1' são incluídos da direita para a esquerda (0 a 5) e depois retirados da direita para a esquerda 
+    (6 a 9) 
+
   Código Excesso 3;
   Código ASCII.
 
