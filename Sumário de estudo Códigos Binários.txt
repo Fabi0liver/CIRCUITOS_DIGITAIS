@@ -35,3 +35,11 @@ Codificação: O ato de atribuir a cada elemento discreto de informação uma se
              Códigos de largura mínima: utilizam a menor quantidade de bits;
 
 
+ Códigos Padrões: Em circuitos digitais, existem alguns códigos padrões:
+  Código BCD (Binary-Coded Decimal Code);
+  Código Gray (ou Código Reflexivo);
+  Código one-hot;
+  Código Johnson;
+  Código Excesso 3;
+  Código ASCII.
+
