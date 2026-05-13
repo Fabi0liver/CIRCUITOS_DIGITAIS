@@ -84,7 +84,6 @@ Códigos Padrões: Em circuitos digitais, existem alguns códigos padrões:
   Código Johnson (ou código Moebius): 
    É um código cíclico e ponderado usado em eletrônica digital, notavelmente em contadores, onde apenas um bit muda 
   entre estados sucessivos. A sequência completa para representar números decimais de 0 a 9
-
    Exemplo de Código Johnson para cinco bits:    Número | Código Johnson 
                                                 --------|----------------
                                                      0  |      00000     
@@ -101,6 +100,25 @@ Códigos Padrões: Em circuitos digitais, existem alguns códigos padrões:
      Os bits '1' são incluídos da direita para a esquerda (0 a 5) e depois retirados da direita para a esquerda 
     (6 a 9) 
 
-  Código Excesso 3;
+  Código Excesso 3:
+   Conversão de decimal para binário, somando-se ao resultado 3 unidades.
+   Exemplo: Conversão de 4 decimal para Excesso 3:  4 + 3 = 7₁₀ ( 0111₂)
+                                                    4₁₀ = 0111 (Excesso 3)
+
+   Tabela de Dígitos decimais para Código Excesso 3:     Número | Código Johnson 
+                                 		        --------|----------------
+                                       			     0  |      0011     
+                                      			     1  |      0100
+                                      			     2  |      0101
+                                      			     3  |      0110
+                                       			     4  |      0111 
+                                       			     5  |      1000
+                                      			     6  |      1001  
+                                      			     7  |      1010
+                                       			     8  |      1011
+                                      			     9  |      1100
+
+  
+
   Código ASCII.
 
