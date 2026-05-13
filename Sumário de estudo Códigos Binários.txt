@@ -36,7 +36,14 @@ Codificação: O ato de atribuir a cada elemento discreto de informação uma se
 
 
  Códigos Padrões: Em circuitos digitais, existem alguns códigos padrões:
-  Código BCD (Binary-Coded Decimal Code);
+  Código BCD (Binary-Coded Decimal Code): Cada dígito decimal é representado pelo seu equivalente binário.
+   
+                           |Dígito Decimal|   0  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |
+                           |--------------|------|------|------|------|------|------|------|------|------|------|
+                           |     BCD      | 0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 |
+
+
+
   Código Gray (ou Código Reflexivo);
   Código one-hot;
   Código Johnson;
