@@ -128,3 +128,15 @@ Códigos Padrões: Em circuitos digitais, existem alguns códigos padrões:
    Os primeiros 32 caracteres ASCII são usados para fins de controle;
    Os outros caracteres são símbolos gráficos (letras, dígitos, sinais de pontuação);
 
+
+  Código ASCII Estendido:
+   Código de 8 bits (256 dígitos, 128 a mais que o ASCII).
+   A adição de um bit permitiu incluir:
+    Caracteres alfabéticos estrangeiros (idioma diferente do inglês, como o ç);
+    Símbolos de moeda estrangeira;
+    Letras gregas;
+    Símbolos matemáticos;
+    Caracteres gráficos;
+    Caracteres de gráfico de barras;
+    Caracteres de sombreamento;
+
