@@ -42,9 +42,33 @@ Codificação: O ato de atribuir a cada elemento discreto de informação uma se
                            |--------------|------|------|------|------|------|------|------|------|------|------|
                            |     BCD      | 0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 |
 
+                                          Verifique  que os códigos 1010, 1011, 1100, 1101, 1111 não são usados no               
+                                         código BCD.
+
+  Código Gray (ou Código Reflexivo): 
+   Código não posicional:
+    Não pode ser utilizado para representar quantidades;
+    Não é permitido realizar operações matemáticas (soma, subtração, multiplicação) em cima de dados Gray.
+   Apresenta uma mudança de um único bit quando se passa de uma palavra do código para a seguinte;
+   O código Gray pode ter qualquer número de bits;
+   Exemplo de código gray com  bits: 000, 001, 011, 010, 110, 111, 101, 100
+   Refletido: O código  Gray é gerado através de um método de espelhamento, o que o torna cíclico.
+
+               1 bit  |  2 bits  |  3 bits  
+              --------|----------|---------
+                  0   |    00    |   000
+                  1   |    01    |   001
+                      |    11    |   011
+                      |    10    |   010
+                                 |   110
+                                 |   111
+                                 |   101
+                                 |   100
+
+    Aplicações do Código Gray: Sistemas de aquisição de dados, Instrumentação eletrônica, Medição de deslocamento   
+                              angular, Conversores A/D...
 
 
-  Código Gray (ou Código Reflexivo);
   Código one-hot;
   Código Johnson;
   Código Excesso 3;
