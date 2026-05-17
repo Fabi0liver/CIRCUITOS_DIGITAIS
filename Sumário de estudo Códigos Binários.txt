@@ -297,3 +297,59 @@ Código Binário na Computação:
   Executáveis
   Manipulação de dados pelo sistema
 
+
+
+Estruturas e Conceitos Avançados:
+ Complemento de 1 e Complemento de 2:
+  Representação de números negativos
+  Operações aritméticas binárias
+  Overflow
+ Ponto Flutuante:
+  Representação de números reais
+  Mantissa e expoente
+  Padrão IEEE 754
+ Compressão de Dados:
+  Compressão binária
+  Redução de redundância
+  Conceitos básicos de compactação
+ Criptografia Binária:
+  Dados codificados
+  Representação binária em segurança digital
+  Conceitos básicos de criptografia
+
+
+
+Aplicações do Código Binário:
+ Binário em Computadores:
+  Processamento digital
+  Armazenamento
+  Execução de programas
+ Binário em Redes:
+  Pacotes de dados
+  Comunicação entre dispositivos
+ Binário em Dispositivos Eletrônicos:
+  Smartphones
+  Sensores
+  Microcontroladores
+  Sistemas embarcados
+ Binário e Inteligência Artificial:
+  Representação de dados
+  Processamento computacional
+  Armazenamento de modelos
+
+
+
+Conceitos Complementares:
+ Eficiência do Sistema Binário:
+  Simplicidade eletrônica
+  Confiabilidade
+  Robustez contra ruídos
+ Limitações do Código Binário:
+  Grande quantidade de bits
+  Complexidade de representação
+  Necessidade de abstrações
+ Evolução Histórica do Código Binário:
+  Leibniz e o sistema binário
+  Desenvolvimento da computação digital
+  Evolução dos sistemas de codificação
+
