@@ -14,6 +14,7 @@ O que é o Código Binário: Quando um elemento discreto de informação é repr
  Papel do código binário na comunicação entre hardware e software
 
 
+
 Código: Representação de números, letras, palavras, estágios, etc. por um grupo especial de símbolos.
        Os sistemas digitais não manipulam apenas números, mas também qualquer elementos discretos de informação.
 
@@ -35,6 +36,7 @@ Código: Representação de números, letras, palavras, estágios, etc. por um g
  Relação entre símbolos, significado e interpretação
 
 
+
 Codificação: O ato de atribuir a cada elemento discreto de informação uma sequência de bits é chamado de 
             codificação;
              Seja "N" a quantidade de elementos discretos a serem codificados. A quantidade mínima de bits (código  
@@ -54,6 +56,36 @@ Codificação: O ato de atribuir a cada elemento discreto de informação uma se
  Codificação de dados em computação
  Diferença entre codificar e converter
  Entrada, processamento e saída de dados codificados
+
+
+
+Decodificação:
+ Conceito de decodificação
+ Interpretação de informações codificadas
+ Conversão do binário para informação compreensível
+ Relação entre codificação e decodificação
+
+
+Unidade de Informação Binária
+ Bit:
+  O que é um bit
+  Estados binários
+  Bit como menor unidade de informação
+  Representação lógica do bit
+  Bits em circuitos digitais
+ Byte:
+  O que é um byte
+  Relação entre bits e bytes
+  Agrupamento de bits
+  Capacidade de armazenamento
+ Múltiplos de Dados:
+  Nibble
+  Kilobyte (KB)
+  Megabyte (MB)
+  Gigabyte (GB)
+  Terabyte (TB)
+ Conversões entre unidades
+ Diferença entre base 2 e base 10 no armazenamento
 
 
 
