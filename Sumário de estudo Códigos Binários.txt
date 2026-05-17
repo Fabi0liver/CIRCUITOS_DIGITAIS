@@ -5,6 +5,14 @@ O que é o Código Binário: Quando um elemento discreto de informação é repr
                          "bits", temos um código binário;
                           Cada elemento é mapeado em uma sequência de bits.
 
+ O que é o código binário
+ Origem e importância do sistema binário na computação
+ Relação entre eletrônica digital e binário
+ Por que computadores utilizam apenas dois estados
+ Representação de informações usando 0 e 1
+ Diferença entre sistema binário e código binário
+ Papel do código binário na comunicação entre hardware e software
+
 
 Código: Representação de números, letras, palavras, estágios, etc. por um grupo especial de símbolos.
        Os sistemas digitais não manipulam apenas números, mas também qualquer elementos discretos de informação.
