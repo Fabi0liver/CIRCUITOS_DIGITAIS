@@ -232,6 +232,32 @@ Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padr
 
 
 
+Aritmética Binária:
+ Adição no Sistema Binário:
+  Regras:
+   0 + 0 = 0
+   0 + 1 = 1
+   1 + 0 = 1
+   1 + 1 = 0 e transporta 1
+  Exemplo:   1100 (12₁₀)
+           + 0110  (6₁₀)
+           -------
+            10010 (18₁₀)
+
+ Subtração em Binário
+  Regras:
+   0 - 0 = 0
+   0 - 1 = 1 e empresta 1
+   1 - 0 = 1
+   1 - 1 = 0
+  Exemplo:   10010 (18₁₀) 
+           - 10001 (17₁₀)
+           --------
+             00001  (1₁₀)
+
+
+
+
 Operações e Manipulação Binária:
  Operações com Bits:
   Manipulação de bits
