@@ -89,7 +89,34 @@ Unidade de Informação Binária
 
 
 
-Códigos Padrões: Em circuitos digitais, existem alguns códigos padrões:
+Representação Binária de Informações:
+ Representação de Números em Binário:
+  Números naturais em binário
+  Valor posicional dos bits
+  Peso dos bits
+  Conversão entre decimal e binário
+  Expansão polinomial binária
+ Representação de Letras e Caracteres:
+  Como letras são representadas em binário
+  Relação entre caracteres e códigos
+  Texto em linguagem de máquina
+ Representação de Imagens:
+  Pixels e binário
+  Profundidade de cor
+  Imagens em preto e branco
+  RGB em formato binário
+ Representação de Áudio:
+  Amostragem digital
+  Quantização
+  Conversão de sons para binário
+ Representação de Vídeos:
+  Quadros (frames)
+  Codificação de imagem em sequência
+  Compressão digital básica
+
+
+
+Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padrões:
   
   Código BCD (Binary-Coded Decimal Code): 
    Cada dígito decimal é representado pelo seu equivalente binário.
