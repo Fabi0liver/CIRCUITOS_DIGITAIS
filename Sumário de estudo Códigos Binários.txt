@@ -233,16 +233,19 @@ Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padr
 
 
 Aritmética Binária:
+ 
  Adição no Sistema Binário:
   Regras:
    0 + 0 = 0
    0 + 1 = 1
    1 + 0 = 1
    1 + 1 = 0 e transporta 1
-  Exemplo:   1100 (12₁₀)
-           + 0110  (6₁₀)
+  
+  Exemplo:   1100₂ (12₁₀)
+           + 0110₂  (6₁₀)
            -------
-            10010 (18₁₀)
+            10010₂ (18₁₀)
+
 
  Subtração em Binário
   Regras:
@@ -250,11 +253,59 @@ Aritmética Binária:
    0 - 1 = 1 e empresta 1
    1 - 0 = 1
    1 - 1 = 0
-  Exemplo:   10010 (18₁₀) 
-           - 10001 (17₁₀)
+  
+  Exemplo:   10010₂ (18₁₀) 
+           - 10001₂ (17₁₀)
            --------
-             00001  (1₁₀)
+             00001₂  (1₁₀)
 
+
+ Multiplicação em Binário:
+  Regras:
+   0 x 0 = 0
+   0 x 1 = 0
+   1 x 0 = 0
+   1 x 1 = 1
+  
+  Exemplo:  1010₂ (10₁₀)
+           x 101₂  (5₁₀)
+          -------
+            1010
+           0000
+          1010
+         --------
+          110010₂  (50₁₀)
+
+
+ Divisão em Binário:
+  
+  Regras:
+   A divisão binária segue a mesma lógica da divisão decimal tradicional.
+   Em cada etapa, verifica-se se o divisor “cabe” no trecho atual do dividendo.
+   Como existem apenas os dígitos 0 e 1:
+   Se o divisor cabe → coloca 1 no quociente.
+   Se o divisor não cabe → coloca 0 no quociente.
+   Quando o divisor cabe:
+   Faz-se a subtração binária.
+   Depois “desce” o próximo bit do dividendo.
+  
+  Comparação básica:
+   1 ÷ 1 = 1
+   0 ÷ 1 = 0
+   Não existe divisão por 0.
+  
+  Exemplo:  1110101 | 1001
+          - 1001↓↓↓  ------  
+           -----↓↓↓   1101  
+            01011↓↓
+           - 1001↓↓
+            -----↓↓
+             001001
+             - 1001
+             ------
+               0000
+           
+           Então: 1110101₂ (117₁₀) ÷ 1001₂ (9₁₀) = 1101₂ (13₁₀)
 
 
 
