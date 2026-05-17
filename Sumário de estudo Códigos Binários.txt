@@ -37,9 +37,9 @@ Código: Representação de números, letras, palavras, estágios, etc. por um g
 
 
 
-Codificação: O ato de atribuir a cada elemento discreto de informação uma sequência de bits é chamado de 
+Codificação: O ato de atribuir a cada elemento discreto de informação uma sequência de bits é chamado de
             codificação;
-             Seja "N" a quantidade de elementos discretos a serem codificados. A quantidade mínima de bits (código  
+             Seja "N" a quantidade de elementos discretos a serem codificados. A quantidade mínima de bits (código
             de largura mínima) necessária será:
 
                                      L = ⌈log₂(N)⌉
@@ -117,17 +117,17 @@ Representação Binária de Informações:
 
 
 Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padrões:
-  
-  Código BCD (Binary-Coded Decimal Code): 
+ 
+  Código BCD (Binary-Coded Decimal Code):
    Cada dígito decimal é representado pelo seu equivalente binário.
-   
+ 
     |Dígito Decimal|   0  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |
     |--------------|------|------|------|------|------|------|------|------|------|------|
     |     BCD      | 0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 |
 
    Verifique  que os códigos 1010, 1011, 1100, 1101, 1111 não são usados no código BCD.
 
-  Código Gray (ou Código Reflexivo): 
+  Código Gray (ou Código Reflexivo):
    Código não posicional:
     Não pode ser utilizado para representar quantidades;
     Não é permitido realizar operações matemáticas (soma, subtração, multiplicação) em cima de dados Gray.
@@ -136,7 +136,7 @@ Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padr
    Exemplo de código gray com  bits: 000, 001, 011, 010, 110, 111, 101, 100
    Refletido: O código  Gray é gerado através de um método de espelhamento, o que o torna cíclico.
 
-               1 bit  |  2 bits  |  3 bits  
+               1 bit  |  2 bits  |  3 bits
               --------|----------|---------
                   0   |    00    |   000
                   1   |    01    |   001
@@ -147,60 +147,60 @@ Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padr
                                  |   101
                                  |   100
 
-    Aplicações do Código Gray: Sistemas de aquisição de dados, Instrumentação eletrônica, Medição de deslocamento   
+    Aplicações do Código Gray: Sistemas de aquisição de dados, Instrumentação eletrônica, Medição de deslocamento
                               angular, Conversores A/D...
 
   Código one-hot:
    Código não posicional de qualquer quantidade de bits;
    Nesse código apenas um dos N bits do código vale 1;
      Não é um código de largura mínima;
-   Exemplo de Código one-hot para cinco bits:    Número | Código one-hot 
+   Exemplo de Código one-hot para cinco bits:    Número | Código one-hot
                                                 --------|----------------
-                                                     0  |      00001     
+                                                     0  |      00001
                                                      1  |      00010
                                                      2  |      00100
                                                      3  |      01000
-                                                     4  |      10000                                                                      
+                                                     4  |      10000
 
-  Código Johnson (ou código Moebius): 
-   É um código cíclico e ponderado usado em eletrônica digital, notavelmente em contadores, onde apenas um bit muda 
+  Código Johnson (ou código Moebius):
+   É um código cíclico e ponderado usado em eletrônica digital, notavelmente em contadores, onde apenas um bit muda
   entre estados sucessivos. A sequência completa para representar números decimais de 0 a 9
-   Exemplo de Código Johnson para cinco bits:    Número | Código Johnson 
+   Exemplo de Código Johnson para cinco bits:    Número | Código Johnson
                                                 --------|----------------
-                                                     0  |      00000     
+                                                     0  |      00000
                                                      1  |      00001
                                                      2  |      00011
                                                      3  |      00111
-                                                     4  |      01111 
+                                                     4  |      01111
                                                      5  |      11111
-                                                     6  |      11110  
-                                                     7  |      11100  
+                                                     6  |      11110
+                                                     7  |      11100
                                                      8  |      11000
-                                                     9  |      10000  
+                                                     9  |      10000
 
-     Os bits '1' são incluídos da direita para a esquerda (0 a 5) e depois retirados da direita para a esquerda 
-    (6 a 9) 
+     Os bits '1' são incluídos da direita para a esquerda (0 a 5) e depois retirados da direita para a esquerda
+    (6 a 9)
 
   Código Excesso 3:
    Conversão de decimal para binário, somando-se ao resultado 3 unidades.
    Exemplo: Conversão de 4 decimal para Excesso 3:  4 + 3 = 7₁₀ ( 0111₂)
                                                     4₁₀ = 0111 (Excesso 3)
 
-   Tabela de Dígitos decimais para Código Excesso 3:     Número | Código Johnson 
+   Tabela de Dígitos decimais para Código Excesso 3:     Número | Código Johnson
                                  		        --------|----------------
-                                       			     0  |      0011     
+                                       			     0  |      0011
                                       			     1  |      0100
                                       			     2  |      0101
                                       			     3  |      0110
-                                       			     4  |      0111 
+                                       			     4  |      0111
                                        			     5  |      1000
-                                      			     6  |      1001  
+                                      			     6  |      1001
                                       			     7  |      1010
                                        			     8  |      1011
                                       			     9  |      1100
 
-  
-  Código ASCII: 
+ 
+  Código ASCII:
    O Código ASCII é um código alfanumérico;
     Vem do acrônimo American Standard Code for Information Interchange (Código
     Padrão Americano para Troca de Informações).
@@ -234,40 +234,66 @@ Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padr
 
 Aritmética Binária:
  
- Adição no Sistema Binário:
-  Regras:
+ Adição no Sistema Binário: 
+  A adição binária segue a mesma lógica da soma decimal tradicional.
+  A diferença é que, no sistema binário, existem apenas dois dígitos: 0 e 1.
+  Durante a soma, cada coluna é somada separadamente, começando da direita para a esquerda.
+  Quando o resultado da soma ultrapassa o valor máximo representável em um único bit (1), ocorre o transporte de vai-um.
+  
+  Regras básicas:
    0 + 0 = 0
    0 + 1 = 1
    1 + 0 = 1
    1 + 1 = 0 e transporta 1
-  
-  Exemplo:   1100₂ (12₁₀)
+ 
+  Exemplo:  
+             1   ← transporte
+             1100₂ (12₁₀)
            + 0110₂  (6₁₀)
            -------
             10010₂ (18₁₀)
 
 
- Subtração em Binário
-  Regras:
+ Subtração em Binário:
+  A subtração binária também segue a lógica da subtração decimal tradicional.
+  Cada coluna é subtraída da direita para a esquerda.
+  Quando o bit do minuendo é menor que o bit do subtraendo, é necessário fazer um empréstimo da coluna seguinte.
+  No sistema binário, o empréstimo funciona de forma parecida com o decimal, mas com base 2
+  
+  Regras básicas:
    0 - 0 = 0
    0 - 1 = 1 e empresta 1
    1 - 0 = 1
    1 - 1 = 0
-  
-  Exemplo:   10010₂ (18₁₀) 
+ 
+  Exemplo:     
+                1 ← empresta
+             10010₂ (18₁₀)
            - 10001₂ (17₁₀)
            --------
              00001₂  (1₁₀)
 
 
  Multiplicação em Binário:
-  Regras:
+  A multiplicação binária funciona de forma semelhante à multiplicação decimal tradicional.
+  A diferença é que existem apenas os dígitos 0 e 1.
+  O processo consiste em:
+   Multiplicar o multiplicando por cada bit do multiplicador
+   Deslocar os resultados parciais para a esquerda
+   Somar todos os resultados parciais
+  Como os únicos dígitos possíveis são 0 e 1:
+   Multiplicar por 0 gera uma linha de zeros
+   Multiplicar por 1 copia o número original
+  Cada deslocamento para a esquerda equivale a multiplicar por 2.
+
+  Regras básicas:
    0 x 0 = 0
    0 x 1 = 0
    1 x 0 = 0
    1 x 1 = 1
-  
-  Exemplo:  1010₂ (10₁₀)
+ 
+  Exemplo:  
+            1010₂ (10₁₀)
            x 101₂  (5₁₀)
           -------
             1010
@@ -278,33 +304,31 @@ Aritmética Binária:
 
 
  Divisão em Binário:
+  A divisão binária segue a mesma lógica da divisão decimal tradicional.
+  Em cada etapa, verifica-se se o divisor “cabe” no trecho atual do dividendo.
+  Como existem apenas os dígitos 0 e 1:
+   Se o divisor cabe → coloca 1 no quociente
+   Se o divisor não cabe → coloca 0 no quociente
+  Quando o divisor cabe:
+   Faz-se a subtração binária
+   Depois “desce” o próximo bit do dividendo 
   
-  Regras:
-   A divisão binária segue a mesma lógica da divisão decimal tradicional.
-   Em cada etapa, verifica-se se o divisor “cabe” no trecho atual do dividendo.
-   Como existem apenas os dígitos 0 e 1:
-   Se o divisor cabe → coloca 1 no quociente.
-   Se o divisor não cabe → coloca 0 no quociente.
-   Quando o divisor cabe:
-   Faz-se a subtração binária.
-   Depois “desce” o próximo bit do dividendo.
-  
-  Comparação básica:
+  Regras básicas:
    1 ÷ 1 = 1
    0 ÷ 1 = 0
    Não existe divisão por 0.
-  
+ 
   Exemplo:  1110101 | 1001
-          - 1001↓↓↓  ------  
-           -----↓↓↓   1101  
-            01011↓↓
-           - 1001↓↓
+          - 1001|||  ------
+           -----↓||   1101
+            01011||
+           - 1001||
             -----↓↓
              001001
              - 1001
              ------
                0000
-           
+ 
            Então: 1110101₂ (117₁₀) ÷ 1001₂ (9₁₀) = 1101₂ (13₁₀)
 
 
@@ -433,5 +457,3 @@ Conceitos Complementares:
 
 
 Conclusão sobre Códigos Binários
-
-
