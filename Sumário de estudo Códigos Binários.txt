@@ -230,3 +230,38 @@ Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padr
   Representação de letras, números e símbolos
   Aplicações em sistemas computacionais
 
+
+
+Operações e Manipulação Binária:
+ Operações com Bits:
+  Manipulação de bits
+  Ligar e desligar bits
+  Máscaras binárias
+ Deslocamento de Bits:
+  Shift à esquerda
+  Shift à direita
+  Multiplicação e divisão usando deslocamento
+ Comparação Binária:
+  Igualdade
+  Diferença
+  Ordenação binária
+
+
+
+Relação com Circuitos Digitais:
+ Binário e Níveis Lógicos:
+  Nível lógico 0 e 1
+  Alta e baixa tensão
+  Relação entre sinais elétricos e bits
+ Portas Lógicas e Binário:
+  AND
+  OR
+  NOT
+  XOR
+  Relação entre lógica e código binário
+ Armazenamento Binário em Hardware:
+  Memória RAM
+  Registradores
+  Flip-flops
+  Armazenamento magnético e eletrônico
+
