@@ -209,7 +209,6 @@ Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padr
    Os primeiros 32 caracteres ASCII são usados para fins de controle;
    Os outros caracteres são símbolos gráficos (letras, dígitos, sinais de pontuação);
 
-
   Código ASCII Estendido:
    Código de 8 bits (256 dígitos, 128 a mais que o ASCII).
    A adição de um bit permitiu incluir:
@@ -220,4 +219,14 @@ Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padr
     Caracteres gráficos;
     Caracteres de gráfico de barras;
     Caracteres de sombreamento;
+
+ Unicode:
+  Limitações do ASCII
+  Objetivo do Unicode
+  UTF-8, UTF-16 e UTF-32
+  Representação de idiomas diferentes
+
+ Código Alfanumérico:
+  Representação de letras, números e símbolos
+  Aplicações em sistemas computacionais
 
