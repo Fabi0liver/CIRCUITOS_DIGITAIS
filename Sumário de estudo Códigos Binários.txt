@@ -265,3 +265,35 @@ Relação com Circuitos Digitais:
   Flip-flops
   Armazenamento magnético e eletrônico
 
+
+
+Transmissão e Comunicação de Dados:
+ Transmissão Binária:
+  Envio de bits
+  Comunicação digital
+  Serial e paralelo
+ Sincronização de Dados:
+  Clock
+  Temporização
+  Taxa de transmissão
+ Detecção de Erros:
+  Bit de paridade
+  Verificação de erros
+  Redundância básica
+
+
+
+Código Binário na Computação:
+ Linguagem de Máquina:
+  Instruções binárias
+  Execução pelo processador
+  Relação entre hardware e software
+ Binário e Programação:
+  Dados binários em programação
+  Variáveis armazenadas em memória
+  Representação interna dos dados
+ Binário e Sistemas Operacionais:
+  Arquivos binários
+  Executáveis
+  Manipulação de dados pelo sistema
+
