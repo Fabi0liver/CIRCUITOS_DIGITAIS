@@ -27,6 +27,13 @@ Código: Representação de números, letras, palavras, estágios, etc. por um g
                 |    Motor Frio    |        |       Motor Frio = 00      |
             40°C|------------------|        |----------------------------|
 
+ Definição de código
+ Código como representação de informação
+ Transformação de informações em símbolos
+ Códigos no cotidiano
+ Características de um código eficiente
+ Relação entre símbolos, significado e interpretação
+
 
 Codificação: O ato de atribuir a cada elemento discreto de informação uma sequência de bits é chamado de 
             codificação;
@@ -41,6 +48,13 @@ Codificação: O ato de atribuir a cada elemento discreto de informação uma se
                       - Motor Normal: 010;
                       - Motor quente: 100;
              Códigos de largura mínima: utilizam a menor quantidade de bits;
+
+ Conceito de codificação
+ Processo de converter informações
+ Codificação de dados em computação
+ Diferença entre codificar e converter
+ Entrada, processamento e saída de dados codificados
+
 
 
 Códigos Padrões: Em circuitos digitais, existem alguns códigos padrões:
