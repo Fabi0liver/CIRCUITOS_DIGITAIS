@@ -353,6 +353,16 @@ Aritmética Binária:
 
 
 
+
+Representação Números Negativos:
+ Magnitude e sinal
+ Complemento de 1
+ Complemento de 2
+ Intervalo representável
+ Overflow aritmético
+
+
+
 Operações e Manipulação Binária:
  Operações com Bits:
   Manipulação de bits
