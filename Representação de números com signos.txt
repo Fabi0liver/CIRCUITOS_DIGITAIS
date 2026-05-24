@@ -58,6 +58,12 @@ Representação Complemento 2:
   Apenas uma representação para o zero e ela é positiva (+0)
   Não exige um hardware dedicado para fazer a subtração
 
+ Na representação complemento 2 com N bits pode-se escrever números no seguinte intervalo:
+    
+           -(2ᴺ⁻¹) até (2ᴺ⁻¹ - 1)
+ 
+ Assimetria devido à única representação para o zero.
+
  Exemplo de Representação do número +21 e -21 em Complemento 2 de 6 bits:
                  
                       +21₁₀ = 0 10101₂
@@ -67,7 +73,27 @@ Representação Complemento 2:
                               --------
                               1 01011₂  
        
+ Conversão Complemento-2 para decimal:
+  Bit de sinal = 0: a magnitude é obtida diretamente dos outros bits;
+  Bit de sinal = 1: a magnitude é obtida realizando-se a operação de Complemento 2 de todos os bits.
+  
+  Exemplo: 
+           (i) 0 1100₂ = +12₁₀
 
+          (ii) 1 1010₂ = 0 0101
+                         +    1
+                         ------
+                         0 0110
+               
+               1 1010₂ = -6₁₀
+
+ Vantagens:
+  Representação única para o zero
+  Simplifica as operações de soma e subtração
+
+ Desvantagens:
+  Operações de multiplicação e divisão ficam mais complexas de serem feitas. Dado que boa parte das operações   
+  executadas pelo computador são operações de soma e subtração, usualmente utiliza-se notação complemento 2.
 
 
 
