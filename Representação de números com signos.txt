@@ -7,7 +7,6 @@ Representação de números com sinais em sistemas digitais:
 
 
  Representação Sinal Magnitude: 
-  
   Adiciona-se um bit, mais a esquerda, para indicar o sinal do número.
    
    Convenção:
@@ -31,3 +30,20 @@ Representação de números com sinais em sistemas digitais:
       -(2ᴺ⁻¹ - 1) até (2ᴺ⁻¹ - 1)
 
   Existem duas representações possíveis para o zero: +0 e -0;
+
+  Vantagens:
+   Pode-se inverter um número simplesmente invertendo-se o bit de sinal
+   O hardware para efetuar multiplicações e divisões é simples
+
+  Inconvenientes:
+   Duas representações possíveis para o número zero
+   O hardware para operações de soma e subtração é complexo
+
+  Exemplo de Representação do número +21  e -21 e, sinal magnitude de 6 bits:
+                 
+                      +21₁₀ = 0 10101₂
+                      -21₁₀ = 1 10101₂
+
+
+
+       
