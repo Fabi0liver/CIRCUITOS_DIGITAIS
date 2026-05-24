@@ -359,6 +359,7 @@ Representação Números Negativos:
  Complemento de 1
  Complemento de 2
  Intervalo representável
+ Operações aritméticas com números com sinal
  Overflow aritmético
 
 
