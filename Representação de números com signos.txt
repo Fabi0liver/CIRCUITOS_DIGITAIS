@@ -1,0 +1,33 @@
+                           Representação de números com signos
+
+Representação de números com sinais em sistemas digitais:
+ Magnitude e sinal
+ Complemento de 1
+ Complemento de 2
+
+
+ Representação Sinal Magnitude: 
+  
+  Adiciona-se um bit, mais a esquerda, para indicar o sinal do número.
+   
+   Convenção:
+    0 = sinal positivo;
+    1 = sinal negativo.
+  
+  Os outros bits indicam o módulo do número.
+             
+             1bit    N-1 bits
+             /  \  /          \
+            /    \/            \
+            |----|-------------|
+            |Sina|  Magnitude  |              
+            |----|-------------|  
+            \                  /
+             \________________/
+                    N bits
+
+  Com N bits pode-se escrever números no seguinte intervalo:
+    
+      -(2ᴺ⁻¹ - 1) até (2ᴺ⁻¹ - 1)
+
+  Existem duas representações possíveis para o zero: +0 e -0;
