@@ -116,6 +116,16 @@ Representação Binária de Informações:
 
 
 
+Organização de Bits:
+ Palavra (word)
+ Half word
+ Double word
+ Endianness
+ Big-endian
+ Little-endian
+
+
+
 Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padrões:
  
   Código BCD (Binary-Coded Decimal Code):
