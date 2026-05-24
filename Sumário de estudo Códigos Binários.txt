@@ -232,6 +232,16 @@ Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padr
 
 
 
+Representação Interna de Dados:
+ Inteiros sem sinal
+ Inteiros com sinal
+ Caracteres
+ Strings
+ Endereços de memória
+ Ponteiros
+ Estruturas binárias
+
+
 Aritmética Binária:
  
  Adição no Sistema Binário: 
