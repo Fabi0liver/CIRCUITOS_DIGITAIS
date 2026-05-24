@@ -93,7 +93,43 @@ Representação Complemento 2:
 
  Desvantagens:
   Operações de multiplicação e divisão ficam mais complexas de serem feitas. Dado que boa parte das operações   
-  executadas pelo computador são operações de soma e subtração, usualmente utiliza-se notação complemento 2.
+  executadas pelo computador são operações de soma e subtração, usualmente utiliza-se notação complemento 2./
+
+
+
+Aritmética Digital com Signos:
+
+ Operação de Soma:
+  Realizada de forma direta, aplicando-se a operação em todos os bits do número (inclusive nos de sinal)
+  Em todos os casos, a quantidade de bits das duas parcelas deve ser igual
+
+ Operação de Subtração:
+  Consiste em fazer a operação: A — B = A + complemento 2(B)
+
+ Overflow Aritmético:
+  Caso em que a magnitude do resultado não pode ser indicada pela quantidade de bits das parcelas
+  Sintomas:
+   Soma de dois números positivos resultado em um número menor do que ambas as parcelas
+   Operação A - B, com A > B resultar em um número negativo (com A e B ambos positivos).
+
+
+ Exemplo: Operação  9 - 4 no sistema de complemento de  dois com cinco bits:
+
+          +9₁₀ = 0 1001₂  
+                 
+          -4₁₀ = 0 0100₂ (+4)  
+                 1 1011 (Inverta os bits do número 4 positivo)
+                 +    1 (Some um bit)
+                 -------
+          -4₁₀ = 1 1100₂
+
+
+         9 - 4 =   0 1001 (+9₁₀)
+                 + 1 1100 (-4₁₀) 
+                  --------
+                   0 0101 (+5₁₀)
+
+         9 - 4 = 5
 
 
 
