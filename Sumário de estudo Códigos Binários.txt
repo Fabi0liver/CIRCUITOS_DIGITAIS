@@ -421,10 +421,6 @@ Código Binário na Computação:
 
 
 Estruturas e Conceitos Avançados:
- Complemento de 1 e Complemento de 2:
-  Representação de números negativos
-  Operações aritméticas binárias
-  Overflow
  Ponto Flutuante:
   Representação de números reais
   Mantissa e expoente
