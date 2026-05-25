@@ -1,41 +1,46 @@
                            Representação de números com signos
 
 Representação de números com sinais em sistemas digitais:
- Magnitude e sinal
- Complemento de 1
- Complemento de 2
+ Quando computadores precisam representar números negativos, não basta apenas usar os bits normalmente.
+ É necessário definir como o sinal será armazenado junto do valor numérico.
+
+ Os principais métodos são:
+  Representação por Sinal e Magnitude
+  Complemento de 1
+  Complemento de 2
+
+ O mais utilizado atualmente nos computadores é o Complemento de 2, porque simplifica muito os circuitos aritméticos.
 
 
 Representação Sinal Magnitude: 
- Adiciona-se um bit, mais a esquerda, para indicar o sinal do número.
+ Nesse método:
+  O bit mais à esquerda representa o sinal
+  Os demais bits representam a magnitude (valor absoluto)
    
-  Convenção:
-   0 = sinal positivo;
-   1 = sinal negativo.
+ Convenção do bit de sinal:
+  0 = sinal positivo
+  1 = sinal negativo
   
- Os outros bits indicam o módulo do número.
-             
-             1bit    N-1 bits
-             /  \  /          \
-            /    \/            \
-            |----|-------------|
-            |Sina|  Magnitude  |              
-            |----|-------------|  
-            \                  /
-             \________________/
-                    N bits
+ Estrutura:   1 bit       N-1 bits
+            +-------+---------------+
+            | Sinal |   Magnitude   |
+            +-------+---------------+
 
- Com N bits pode-se escrever números no seguinte intervalo:
-    
-      -(2ᴺ⁻¹ - 1) até (2ᴺ⁻¹ - 1)
+ Intervalo de valores:
+  Com N bits pode-se escrever números no seguinte intervalo: -(2ᴺ⁻¹ - 1) até (2ᴺ⁻¹ - 1)
+  Exemplo com 6 bits: -(2⁵ - 1) até (2⁵ - 1) = -31 até +31
 
- Existem duas representações possíveis para o zero: +0 e -0;
-
+ Problema do zero: 
+  Existem duas representações: 
+   +0 = 0 00000
+   -0 = 1 00000
+  Isso é um problema porque o hardware precisa tratar dois zeros diferentes.
+  
  Vantagens:
   Pode-se inverter um número simplesmente invertendo-se o bit de sinal
   O hardware para efetuar multiplicações e divisões é simples
 
- Inconvenientes:
+ Desvantagens:
   Duas representações possíveis para o número zero
   O hardware para operações de soma e subtração é complexo
 
