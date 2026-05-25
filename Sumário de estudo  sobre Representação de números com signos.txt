@@ -47,7 +47,12 @@ Representação Sinal Magnitude:
  Exemplo de Representação do número +21 e -21 em sinal magnitude de 6 bits:
                  
                       +21₁₀ = 0 10101₂
+                              0 → positivo
+                              10101₂ = 21₁₀
+                      
                       -21₁₀ = 1 10101₂
+                              1 → negativo
+                              10101₂ = 21₁₀
 
 
 
