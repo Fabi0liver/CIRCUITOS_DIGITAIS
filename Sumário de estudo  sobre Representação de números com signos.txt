@@ -56,6 +56,23 @@ Representação Sinal Magnitude:
 
 
 
+Representação Complemento de 1:
+ No complemento de 1, os números positivos permanecem iguais
+ Para obter um negativo, invertem-se todos os bits
+
+ Problema do Complemento de 1:
+  Ainda existem dois zeros:
+   00000 = +0
+   11111 = -0
+  Por isso ele praticamente não é usado atualmente.
+
+ Exemplo de Representação do número +21 e -21 em complemento de 1 de 6 bits:
+
+                        +21₁₀ = 0 10101₂
+                        -21₁₀ = 1 01010₂ (Invertendo)
+
+
+
 Representação Complemento 2:
  Um número negativo pode ser obtido através do seu equivalente positivo realizando-se o complemento-2:
   Inverter todos os bits do número
