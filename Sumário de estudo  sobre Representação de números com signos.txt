@@ -1,0 +1,138 @@
+                           Representação de números com signos
+
+Representação de números com sinais em sistemas digitais:
+ Magnitude e sinal
+ Complemento de 1
+ Complemento de 2
+
+
+Representação Sinal Magnitude: 
+ Adiciona-se um bit, mais a esquerda, para indicar o sinal do número.
+   
+  Convenção:
+   0 = sinal positivo;
+   1 = sinal negativo.
+  
+ Os outros bits indicam o módulo do número.
+             
+             1bit    N-1 bits
+             /  \  /          \
+            /    \/            \
+            |----|-------------|
+            |Sina|  Magnitude  |              
+            |----|-------------|  
+            \                  /
+             \________________/
+                    N bits
+
+ Com N bits pode-se escrever números no seguinte intervalo:
+    
+      -(2ᴺ⁻¹ - 1) até (2ᴺ⁻¹ - 1)
+
+ Existem duas representações possíveis para o zero: +0 e -0;
+
+ Vantagens:
+  Pode-se inverter um número simplesmente invertendo-se o bit de sinal
+  O hardware para efetuar multiplicações e divisões é simples
+
+ Inconvenientes:
+  Duas representações possíveis para o número zero
+  O hardware para operações de soma e subtração é complexo
+
+ Exemplo de Representação do número +21 e -21 em sinal magnitude de 6 bits:
+                 
+                      +21₁₀ = 0 10101₂
+                      -21₁₀ = 1 10101₂
+
+
+
+Representação Complemento 2:
+ Um número negativo pode ser obtido através do seu equivalente positivo realizando-se o complemento-2:
+  Inverter todos os bits do número
+  Somar +1 ao número
+
+ Propriedades da representação complemento-2:
+   O sinal pode ser determinado analisando o bit mais significativo
+    Bit 0: número positivo
+    Bit 1: número negativo
+  Apenas uma representação para o zero e ela é positiva (+0)
+  Não exige um hardware dedicado para fazer a subtração
+
+ Na representação complemento 2 com N bits pode-se escrever números no seguinte intervalo:
+    
+           -(2ᴺ⁻¹) até (2ᴺ⁻¹ - 1)
+ 
+ Assimetria devido à única representação para o zero.
+
+ Exemplo de Representação do número +21 e -21 em Complemento 2 de 6 bits:
+                 
+                      +21₁₀ = 0 10101₂
+                       
+                      -21₁₀ = 1 01010 (Inverta os bits do número positivo. Também chamado de complemento de 1)
+                              +     1 (Some um bit)
+                              --------
+                              1 01011₂  
+       
+ Conversão Complemento-2 para decimal:
+  Bit de sinal = 0: a magnitude é obtida diretamente dos outros bits;
+  Bit de sinal = 1: a magnitude é obtida realizando-se a operação de Complemento 2 de todos os bits.
+  
+  Exemplo: 
+           (i) 0 1100₂ = +12₁₀
+
+          (ii) 1 1010₂ = 0 0101
+                         +    1
+                         ------
+                         0 0110
+               
+               1 1010₂ = -6₁₀
+
+ Vantagens:
+  Representação única para o zero
+  Simplifica as operações de soma e subtração
+
+ Desvantagens:
+  Operações de multiplicação e divisão ficam mais complexas de serem feitas. Dado que boa parte das operações   
+  executadas pelo computador são operações de soma e subtração, usualmente utiliza-se notação complemento 2./
+
+
+
+Aritmética Digital com Signos:
+
+ Operação de Soma:
+  Realizada de forma direta, aplicando-se a operação em todos os bits do número (inclusive nos de sinal)
+  Em todos os casos, a quantidade de bits das duas parcelas deve ser igual
+
+ Operação de Subtração:
+  Consiste em fazer a operação: A — B = A + complemento 2(B)
+
+ Overflow Aritmético:
+  Caso em que a magnitude do resultado não pode ser indicada pela quantidade de bits das parcelas
+  Sintomas:
+   Soma de dois números positivos resultado em um número menor do que ambas as parcelas
+   Operação A - B, com A > B resultar em um número negativo (com A e B ambos positivos).
+
+
+ Exemplo: Operação  9 - 4 no sistema de complemento de  dois com cinco bits:
+
+          +9₁₀ = 0 1001₂  
+                 
+          -4₁₀ = 0 0100₂ (+4)  
+                 1 1011 (Inverta os bits do número 4 positivo)
+                 +    1 (Some um bit)
+                 -------
+          -4₁₀ = 1 1100₂
+
+
+         9 - 4 =   0 1001 (+9₁₀)
+                 + 1 1100 (-4₁₀) 
+                  --------
+                   0 0101 (+5₁₀)
+
+         9 - 4 = 5
+
+
+
+
+
+
