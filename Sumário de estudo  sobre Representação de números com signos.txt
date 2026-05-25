@@ -28,7 +28,8 @@ Representação Sinal Magnitude:
 
  Intervalo de valores:
   Com N bits pode-se escrever números no seguinte intervalo: -(2ᴺ⁻¹ - 1) até (2ᴺ⁻¹ - 1)
-  Exemplo com 6 bits: -(2⁵ - 1) até (2⁵ - 1) = -31 até +31
+  Exemplo com 6 bits: -(2⁵ - 1) até (2⁵ - 1) 
+                         -31 até +31
 
  Problema do zero: 
   Existem duas representações: 
@@ -74,6 +75,7 @@ Representação Complemento de 1:
 
 
 Representação Complemento 2:
+ É o padrão utilizado pelos computadores modernos.
  Um número negativo pode ser obtido através do seu equivalente positivo realizando-se o complemento-2:
   Inverter todos os bits do número
   Somar +1 ao número
@@ -85,11 +87,13 @@ Representação Complemento 2:
   Apenas uma representação para o zero e ela é positiva (+0)
   Não exige um hardware dedicado para fazer a subtração
 
- Na representação complemento 2 com N bits pode-se escrever números no seguinte intervalo:
-    
-           -(2ᴺ⁻¹) até (2ᴺ⁻¹ - 1)
- 
- Assimetria devido à única representação para o zero.
+ Intervalo de valores:
+  Com N bits pode-se escrever números no seguinte intervalo: -(2ᴺ⁻¹) até (2ᴺ⁻¹ - 1)
+  Exemplo com 6 bits: -(2⁵) até (2⁵ - 1) 
+                      -32 até +31
+  Observe a assimetria:
+   existe um número negativo a mais
+   porque há apenas um zero
 
  Exemplo de Representação do número +21 e -21 em Complemento 2 de 6 bits:
                  
@@ -117,10 +121,11 @@ Representação Complemento 2:
  Vantagens:
   Representação única para o zero
   Simplifica as operações de soma e subtração
+  Mesmo circuito serve para soma e subtração
 
  Desvantagens:
   Operações de multiplicação e divisão ficam mais complexas de serem feitas. Dado que boa parte das operações   
-  executadas pelo computador são operações de soma e subtração, usualmente utiliza-se notação complemento 2./
+  executadas pelo computador são operações de soma e subtração, usualmente utiliza-se notação complemento 2.
 
 
 
