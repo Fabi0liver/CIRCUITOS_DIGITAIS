@@ -137,13 +137,9 @@ Aritmética Digital com Signos:
 
  Operação de Subtração:
   Consiste em fazer a operação: A — B = A + complemento 2(B)
-
- Overflow Aritmético:
-  Caso em que a magnitude do resultado não pode ser indicada pela quantidade de bits das parcelas
-  Sintomas:
-   Soma de dois números positivos resultado em um número menor do que ambas as parcelas
-   Operação A - B, com A > B resultar em um número negativo (com A e B ambos positivos).
-
+  Ou seja:
+   transforma-se B em negativo
+   depois faz-se uma soma comum
 
  Exemplo: Operação  9 - 4 no sistema de complemento de  dois com cinco bits:
 
@@ -165,6 +161,11 @@ Aritmética Digital com Signos:
 
 
 
+Overflow Aritmético:
+  Caso em que a magnitude do resultado não pode ser indicada pela quantidade de bits das parcelas
+  Sintomas:
+   Soma de dois números positivos resultado em um número menor do que ambas as parcelas
+   Operação A - B, com A > B resultar em um número negativo (com A e B ambos positivos).
 
 
 
