@@ -1,0 +1,486 @@
+                                    Sumário de estudo Códigos Binários
+
+
+O que é o Código Binário: Quando um elemento discreto de informação é representado através de um conjunto de
+                         "bits", temos um código binário;
+                          Cada elemento é mapeado em uma sequência de bits.
+
+ O que é o código binário
+ Origem e importância do sistema binário na computação
+ Relação entre eletrônica digital e binário
+ Por que computadores utilizam apenas dois estados
+ Representação de informações usando 0 e 1
+ Diferença entre sistema binário e código binário
+ Papel do código binário na comunicação entre hardware e software
+
+
+
+Código: Representação de números, letras, palavras, estágios, etc. por um grupo especial de símbolos.
+       Os sistemas digitais não manipulam apenas números, mas também qualquer elementos discretos de informação.
+
+        Exemplo: Sistema digital para controle de temperatura do motor do carro.
+
+           120°C|------------------|        |----------------------------|
+                |    motor Quente  |        |  Para um sistema  digital: |
+           100°C|------------------|        |----------------------------|
+                |    Motor Normal  | -----> |     Motor Quente = 10      |
+            80°C|------------------|        |     Motor Normal = 01      |
+                |    Motor Frio    |        |       Motor Frio = 00      |
+            40°C|------------------|        |----------------------------|
+
+ Definição de código
+ Código como representação de informação
+ Transformação de informações em símbolos
+ Códigos no cotidiano
+ Características de um código eficiente
+ Relação entre símbolos, significado e interpretação
+
+
+
+Codificação: O ato de atribuir a cada elemento discreto de informação uma sequência de bits é chamado de
+            codificação;
+             Seja "N" a quantidade de elementos discretos a serem codificados. A quantidade mínima de bits (código
+            de largura mínima) necessária será:
+
+                                     L = ⌈log₂(N)⌉
+
+             Nada impede que que se utilize mais bits do que o mínimo para a codificação dos elementos discretos;
+             Exemplo: Outra codificação para o sistema digital para controle de temperatura do motor do carro;
+                      - Motor frio: 001;
+                      - Motor Normal: 010;
+                      - Motor quente: 100;
+             Códigos de largura mínima: utilizam a menor quantidade de bits;
+
+ Conceito de codificação
+ Processo de converter informações
+ Codificação de dados em computação
+ Diferença entre codificar e converter
+ Entrada, processamento e saída de dados codificados
+
+
+
+Decodificação:
+ Conceito de decodificação
+ Interpretação de informações codificadas
+ Conversão do binário para informação compreensível
+ Relação entre codificação e decodificação
+
+
+Unidade de Informação Binária
+ Bit:
+  O que é um bit
+  Estados binários
+  Bit como menor unidade de informação
+  Representação lógica do bit
+  Bits em circuitos digitais
+ Byte:
+  O que é um byte
+  Relação entre bits e bytes
+  Agrupamento de bits
+  Capacidade de armazenamento
+ Múltiplos de Dados:
+  Nibble
+  Kilobyte (KB)
+  Megabyte (MB)
+  Gigabyte (GB)
+  Terabyte (TB)
+ Conversões entre unidades
+ Diferença entre base 2 e base 10 no armazenamento
+
+
+
+Representação Binária de Informações:
+ Representação de Números em Binário:
+  Números naturais em binário
+  Valor posicional dos bits
+  Peso dos bits
+  Conversão entre decimal e binário
+  Expansão polinomial binária
+ Representação de Letras e Caracteres:
+  Como letras são representadas em binário
+  Relação entre caracteres e códigos
+  Texto em linguagem de máquina
+ Representação de Imagens:
+  Pixels e binário
+  Profundidade de cor
+  Imagens em preto e branco
+  RGB em formato binário
+ Representação de Áudio:
+  Amostragem digital
+  Quantização
+  Conversão de sons para binário
+ Representação de Vídeos:
+  Quadros (frames)
+  Codificação de imagem em sequência
+  Compressão digital básica
+
+
+
+Organização de Bits:
+ Palavra (word)
+ Half word
+ Double word
+ Endianness
+ Big-endian
+ Little-endian
+
+
+
+Tipos de Códigos Binários: Em circuitos digitais, existem alguns códigos padrões:
+ 
+  Código BCD (Binary-Coded Decimal Code):
+   Cada dígito decimal é representado pelo seu equivalente binário.
+ 
+    |Dígito Decimal|   0  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |
+    |--------------|------|------|------|------|------|------|------|------|------|------|
+    |     BCD      | 0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 |
+
+   Verifique  que os códigos 1010, 1011, 1100, 1101, 1111 não são usados no código BCD.
+
+  Código Gray (ou Código Reflexivo):
+   Código não posicional:
+    Não pode ser utilizado para representar quantidades;
+    Não é permitido realizar operações matemáticas (soma, subtração, multiplicação) em cima de dados Gray.
+   Apresenta uma mudança de um único bit quando se passa de uma palavra do código para a seguinte;
+   O código Gray pode ter qualquer número de bits;
+   Exemplo de código gray com  bits: 000, 001, 011, 010, 110, 111, 101, 100
+   Refletido: O código  Gray é gerado através de um método de espelhamento, o que o torna cíclico.
+
+               1 bit  |  2 bits  |  3 bits
+              --------|----------|---------
+                  0   |    00    |   000
+                  1   |    01    |   001
+                      |    11    |   011
+                      |    10    |   010
+                                 |   110
+                                 |   111
+                                 |   101
+                                 |   100
+
+    Aplicações do Código Gray: Sistemas de aquisição de dados, Instrumentação eletrônica, Medição de deslocamento
+                              angular, Conversores A/D...
+
+  Código one-hot:
+   Código não posicional de qualquer quantidade de bits;
+   Nesse código apenas um dos N bits do código vale 1;
+     Não é um código de largura mínima;
+   Exemplo de Código one-hot para cinco bits:    Número | Código one-hot
+                                                --------|----------------
+                                                     0  |      00001
+                                                     1  |      00010
+                                                     2  |      00100
+                                                     3  |      01000
+                                                     4  |      10000
+
+  Código Johnson (ou código Moebius):
+   É um código cíclico e ponderado usado em eletrônica digital, notavelmente em contadores, onde apenas um bit muda
+  entre estados sucessivos. A sequência completa para representar números decimais de 0 a 9
+   Exemplo de Código Johnson para cinco bits:    Número | Código Johnson
+                                                --------|----------------
+                                                     0  |      00000
+                                                     1  |      00001
+                                                     2  |      00011
+                                                     3  |      00111
+                                                     4  |      01111
+                                                     5  |      11111
+                                                     6  |      11110
+                                                     7  |      11100
+                                                     8  |      11000
+                                                     9  |      10000
+
+     Os bits '1' são incluídos da direita para a esquerda (0 a 5) e depois retirados da direita para a esquerda
+    (6 a 9)
+
+  Código Excesso 3:
+   Conversão de decimal para binário, somando-se ao resultado 3 unidades.
+   Exemplo: Conversão de 4 decimal para Excesso 3:  4 + 3 = 7₁₀ ( 0111₂)
+                                                    4₁₀ = 0111 (Excesso 3)
+
+   Tabela de Dígitos decimais para Código Excesso 3:     Número | Código Johnson
+                                 		        --------|----------------
+                                       			     0  |      0011
+                                      			     1  |      0100
+                                      			     2  |      0101
+                                      			     3  |      0110
+                                       			     4  |      0111
+                                       			     5  |      1000
+                                      			     6  |      1001
+                                      			     7  |      1010
+                                       			     8  |      1011
+                                      			     9  |      1100
+
+ 
+  Código ASCII:
+   O Código ASCII é um código alfanumérico;
+    Vem do acrônimo American Standard Code for Information Interchange (Código
+    Padrão Americano para Troca de Informações).
+    Representação de letras e números;
+   O ASCII tem 128 caracteres e símbolos representados por um código de 7 bits;
+   Os primeiros 32 caracteres ASCII são usados para fins de controle;
+   Os outros caracteres são símbolos gráficos (letras, dígitos, sinais de pontuação);
+
+  Código ASCII Estendido:
+   Código de 8 bits (256 dígitos, 128 a mais que o ASCII).
+   A adição de um bit permitiu incluir:
+    Caracteres alfabéticos estrangeiros (idioma diferente do inglês, como o ç);
+    Símbolos de moeda estrangeira;
+    Letras gregas;
+    Símbolos matemáticos;
+    Caracteres gráficos;
+    Caracteres de gráfico de barras;
+    Caracteres de sombreamento;
+
+ Unicode:
+  Limitações do ASCII
+  Objetivo do Unicode
+  UTF-8, UTF-16 e UTF-32
+  Representação de idiomas diferentes
+
+ Código Alfanumérico:
+  Representação de letras, números e símbolos
+  Aplicações em sistemas computacionais
+
+
+
+Representação Interna de Dados:
+ Inteiros sem sinal
+ Inteiros com sinal
+ Caracteres
+ Strings
+ Endereços de memória
+ Ponteiros
+ Estruturas binárias
+
+
+Aritmética Binária:
+ 
+ Adição no Sistema Binário: 
+  A adição binária segue a mesma lógica da soma decimal tradicional.
+  A diferença é que, no sistema binário, existem apenas dois dígitos: 0 e 1.
+  Durante a soma, cada coluna é somada separadamente, começando da direita para a esquerda.
+  Quando o resultado da soma ultrapassa o valor máximo representável em um único bit (1), ocorre o transporte de vai-um.
+  
+  Regras básicas:
+   0 + 0 = 0
+   0 + 1 = 1
+   1 + 0 = 1
+   1 + 1 = 0 e transporta 1
+ 
+  Exemplo:  
+             1   ← transporte
+             1100₂ (12₁₀)
+           + 0110₂  (6₁₀)
+           -------
+            10010₂ (18₁₀)
+
+
+ Subtração em Binário:
+  A subtração binária também segue a lógica da subtração decimal tradicional.
+  Cada coluna é subtraída da direita para a esquerda.
+  Quando o bit do minuendo é menor que o bit do subtraendo, é necessário fazer um empréstimo da coluna seguinte.
+  No sistema binário, o empréstimo funciona de forma parecida com o decimal, mas com base 2
+  
+  Regras básicas:
+   0 - 0 = 0
+   0 - 1 = 1 e empresta 1
+   1 - 0 = 1
+   1 - 1 = 0
+ 
+  Exemplo:     
+                1 ← empresta
+             10010₂ (18₁₀)
+           - 10001₂ (17₁₀)
+           --------
+             00001₂  (1₁₀)
+
+
+ Multiplicação em Binário:
+  A multiplicação binária funciona de forma semelhante à multiplicação decimal tradicional.
+  A diferença é que existem apenas os dígitos 0 e 1.
+  O processo consiste em:
+   Multiplicar o multiplicando por cada bit do multiplicador
+   Deslocar os resultados parciais para a esquerda
+   Somar todos os resultados parciais
+  Como os únicos dígitos possíveis são 0 e 1:
+   Multiplicar por 0 gera uma linha de zeros
+   Multiplicar por 1 copia o número original
+  Cada deslocamento para a esquerda equivale a multiplicar por 2.
+
+  Regras básicas:
+   0 x 0 = 0
+   0 x 1 = 0
+   1 x 0 = 0
+   1 x 1 = 1
+ 
+  Exemplo:  
+            1010₂ (10₁₀)
+           x 101₂  (5₁₀)
+          -------
+            1010
+           0000
+          1010
+         --------
+          110010₂  (50₁₀)
+
+
+ Divisão em Binário:
+  A divisão binária segue a mesma lógica da divisão decimal tradicional.
+  Em cada etapa, verifica-se se o divisor “cabe” no trecho atual do dividendo.
+  Como existem apenas os dígitos 0 e 1:
+   Se o divisor cabe → coloca 1 no quociente
+   Se o divisor não cabe → coloca 0 no quociente
+  Quando o divisor cabe:
+   Faz-se a subtração binária
+   Depois “desce” o próximo bit do dividendo 
+  
+  Regras básicas:
+   1 ÷ 1 = 1
+   0 ÷ 1 = 0
+   Não existe divisão por 0.
+ 
+  Exemplo:  1110101 | 1001
+          - 1001|||  ------
+           -----↓||   1101
+            01011||
+           - 1001||
+            -----↓↓
+             001001
+             - 1001
+             ------
+               0000
+ 
+           Então: 1110101₂ (117₁₀) ÷ 1001₂ (9₁₀) = 1101₂ (13₁₀)
+
+
+
+
+Representação Números Negativos:
+ Magnitude e sinal
+ Complemento de 1
+ Complemento de 2
+ Intervalo representável
+ Operações aritméticas com números com sinal
+ Overflow aritmético
+
+
+
+Operações e Manipulação Binária:
+ Operações com Bits:
+  Manipulação de bits
+  Ligar e desligar bits
+  Máscaras binárias
+ Deslocamento de Bits:
+  Shift à esquerda
+  Shift à direita
+  Multiplicação e divisão usando deslocamento
+ Comparação Binária:
+  Igualdade
+  Diferença
+  Ordenação binária
+
+
+
+Relação com Circuitos Digitais:
+ Binário e Níveis Lógicos:
+  Nível lógico 0 e 1
+  Alta e baixa tensão
+  Relação entre sinais elétricos e bits
+ Portas Lógicas e Binário:
+  AND
+  OR
+  NOT
+  XOR
+  Relação entre lógica e código binário
+ Armazenamento Binário em Hardware:
+  Memória RAM
+  Registradores
+  Flip-flops
+  Armazenamento magnético e eletrônico
+
+
+
+Transmissão e Comunicação de Dados:
+ Transmissão Binária:
+  Envio de bits
+  Comunicação digital
+  Serial e paralelo
+ Sincronização de Dados:
+  Clock
+  Temporização
+  Taxa de transmissão
+ Detecção de Erros:
+  Bit de paridade
+  Verificação de erros
+  Redundância básica
+
+
+
+Código Binário na Computação:
+ Linguagem de Máquina:
+  Instruções binárias
+  Execução pelo processador
+  Relação entre hardware e software
+ Binário e Programação:
+  Dados binários em programação
+  Variáveis armazenadas em memória
+  Representação interna dos dados
+ Binário e Sistemas Operacionais:
+  Arquivos binários
+  Executáveis
+  Manipulação de dados pelo sistema
+
+
+
+Estruturas e Conceitos Avançados:
+ Ponto Flutuante:
+  Representação de números reais
+  Mantissa e expoente
+  Padrão IEEE 754
+ Compressão de Dados:
+  Compressão binária
+  Redução de redundância
+  Conceitos básicos de compactação
+ Criptografia Binária:
+  Dados codificados
+  Representação binária em segurança digital
+  Conceitos básicos de criptografia
+
+
+
+Aplicações do Código Binário:
+ Binário em Computadores:
+  Processamento digital
+  Armazenamento
+  Execução de programas
+ Binário em Redes:
+  Pacotes de dados
+  Comunicação entre dispositivos
+ Binário em Dispositivos Eletrônicos:
+  Smartphones
+  Sensores
+  Microcontroladores
+  Sistemas embarcados
+ Binário e Inteligência Artificial:
+  Representação de dados
+  Processamento computacional
+  Armazenamento de modelos
+
+
+
+Conceitos Complementares:
+ Eficiência do Sistema Binário:
+  Simplicidade eletrônica
+  Confiabilidade
+  Robustez contra ruídos
+ Limitações do Código Binário:
+  Grande quantidade de bits
+  Complexidade de representação
+  Necessidade de abstrações
+ Evolução Histórica do Código Binário:
+  Leibniz e o sistema binário
+  Desenvolvimento da computação digital
+  Evolução dos sistemas de codificação
+
+
+
+Conclusão sobre Códigos Binários
