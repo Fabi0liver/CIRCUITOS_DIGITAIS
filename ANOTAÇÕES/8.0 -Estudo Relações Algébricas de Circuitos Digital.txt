@@ -1,0 +1,234 @@
+                          Relações Algébricas de Circuitos Digitais
+
+
+Fundamentos Matemáticos da Lógica Digital:
+ O que é lógica matemática
+ Verdadeiro e falso
+ Sistemas binários
+ Representação de informações em bits
+ Relação entre lógica e computação
+ Diferença entre álgebra tradicional e álgebra booleana
+
+
+Origem da Computação Digital:
+ George Boole:
+  Álgebra booleana
+  Variáveis booleanas
+  Operações lógicas
+  Verdadeiro/Falso
+ Claude Shannon
+  Aplicação da álgebra booleana em circuitos
+  Relés e interruptores
+  Representação elétrica da lógica
+  Fundação da computação digital
+
+
+Sistema Binário e Representação Física: 
+ Sinais Binários
+  Bit e byte
+  Estados binários
+  0 e 1 como representação lógica
+  Representação física do bit
+ Níveis de Tensão:
+  LOW e HIGH
+  Faixas de tensão
+  Região de indeterminação
+  Margem de ruído
+  Ruído elétrico
+  Integridade de sinal
+
+
+Abstração Lógica nos Circuitos:
+ Convenções Lógicas:
+  O que significa “ativo”
+  Convenções de representação
+  Interpretação dos sinais
+ Lógica Positiva e Negativa
+  Active High
+  Active Low
+  Sinais invertidos
+  Barramento com barra superior
+  Convenções industriais
+ Exemplos:
+  Reset ativo em nível baixo
+  Sensores de segurança
+  Circuitos de proteção
+
+
+Variáveis e Funções Booleanas:
+ Representação Algébrica:
+  Variáveis booleanas
+  Entradas e saídas
+  Funções lógicas
+  Notação algébrica
+  Exemplo: Z = ƒ(A,B,C)
+ Interpretação Física das Variáveis:
+  Sensores como entradas
+  Atuadores como saídas
+  Relação entre hardware e lógica
+
+
+Operadores Booleanos Fundamentais:
+ Operadores Básicos: AND, OR, NOT
+ Operadores Universais: NAND, NOR
+ Operadores Exclusivos: XOR, XNOR
+
+
+Tabelas Verdade:
+ Construção de tabelas verdade
+ Número de combinações possíveis
+ Relação entre entradas e saídas
+ Conversão:
+  expressão → tabela
+  tabela → expressão
+
+
+Circuitos Combinacionais:
+ Conceito:
+  Circuitos sem memória
+  Dependência apenas das entradas atuais
+  Tempo de propagação
+ Principais Circuitos:
+  Somadores
+  Meio somador
+  Somador completo
+  Subtratores
+  Comparadores
+  Codificadores
+  Decodificadores
+  Multiplexadores
+  Demultiplexadores
+
+
+Circuitos Sequenciais:
+ Conceito Fundamental:
+  Memória
+  Estado
+  Dependência temporal
+  Histórico do sistema
+ Elementos de Memória:
+  Latches
+  Flip-Flops
+  Registradores
+  Contadores
+ Clock:
+  Sinal de clock
+  Sincronismo
+  Borda de subida
+  Borda de descida
+
+
+Relação entre Álgebra e Hardware:
+ Como expressões viram portas lógicas
+ Como portas implementam funções booleanas
+ Conversão:
+  expressão lógica → circuito
+  circuito → expressão lógica
+
+
+Temporização em Circuitos Digitais:
+ Tempo de propagação
+ Delay
+ Setup time
+ Hold time
+ Glitches
+ Hazards
+ 
+
+Modelagem de Sistemas Digitais:
+ Modelagem lógica
+ Projeto digital
+ Diagramas lógicos
+ Máquinas de estados
+ FSM (Finite State Machines)
+
+
+Aplicações Reais:
+ Processadores
+ Memórias RAM
+ GPUs
+ Sistemas embarcados
+ Microcontroladores
+ Automação industrial
+ Redes digitais
+ Computadores modernos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fundamentos da Álgebra Booleana e Sinais Binários:
+ Este tópico é a base matemática de toda a computação. 
+ Você precisa entender como saímos da matemática tradicional para uma lógica de apenas dois estados.
+ 
+
+Sinais Binários e Níveis de Tensão: 
+ No mundo físico (hardware), os computadores não entendem "0" e "1" abstratos, mas sim eletricidade. O circuito define faixas de tensão elétrica. 
+ 
+ Por exemplo, em tecnologia TTL comum (5V): Nível Lógico Baixo (0 / LOW): Tensões entre 0V e 0.8V.
+                                            Nível Lógico Alto (1 / HIGH): Tensões entre 2V e 5V.
+ 
+ Nota: Qualquer valor intermediário (ex: 1.5V) é considerado uma região proibida ou de indeterminação, o que pode 
+        causar erros no circuito.
+
+
+O Casamento da Lógica com a Eletrônica: 
+ George Boole (1854): Criou um sistema matemático onde as variáveis só assumem dois valores: Veradeiro (True) 
+                     ou Falso (False).
+
+ Claude Shannon (1938): Percebeu que os conceitos de Boole podiam ser aplicados perfeitamente a relés e interruptores 
+                       elétricos (ligado/desligado). É aqui que nasce a ciência da computação digital.
+
+
+Abstração e Convenções Lógicas:
+ O projetista do circuito tem total liberdade para definir o que o 0 e o 1 significam no contexto do problema que ele está resolvendo.
+
+ Lógica Positiva vs. Lógica Negativa:
+  Lógica Positiva (Mais Comum): Associa o 1 ao estado ativo/verdadeiro e o 0 ao estado inativo/falso 
+                               (Ex: Chave fechada = 1, Chave aberta = 0).
+  Lógica Negativa: Associa o 0 ao estado ativo/verdadeiro e o 1 ao estado inativo/falso. É muito usada em sistemas de 
+                  segurança (onde a ausência de sinal/corrente indica que algo foi acionado ou cortado).
+
+ Mapeamento de Variáveis: Uma função lógica é representada como Z = f(A, B, C), onde A, B, C são as variáveis de 
+                          entrada (sensores, botões) e Z é a saída (um motor, uma lâmpada)
+
+
+Operadores Booleanos:
+ A expressão lógica pode ser descrita em função de operações lógicas
+  OR, AND, NOT, NAND, NOR, XNOR e XOR
+
+
+Circuitos Combinacionais vs. Circuitos Sequenciais:
+ Esta é a divisão mais importante da eletrônica digital. Você deve saber diferenciar claramente o comportamento e a 
+estrutura de ambos.
+
+ Circuitos Combinacionais: A saída é determinada imediatamente e apenas pela combinação atual das entradas. Ele não 
+                          tem passado. Se as entradas mudam, a saída muda logo em seguida (respeitando apenas o tempo 
+                          de propagação dos componentes).
+
+                           Exemplos Práticos: Somadores aritméticos, subtratores, codificadores, decodificadores e 
+                                             multiplexadores.
+
+ Circuitos Sequenciais: A saída depende das entradas atuais E do histórico do circuito (o que aconteceu antes). Para 
+                       isso, ele precisa de elementos de memória para armazenar o "estado atual".
+                        
+                        O Estado (S₀, S₁): São variáveis internas que guardam a história do circuito.
+
+                        Exemplos Práticos: Contadores digitais, relógios, memórias RAM e os registradores de um 
+                                          processador.
