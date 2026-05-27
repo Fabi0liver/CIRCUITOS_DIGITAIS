@@ -1,8 +1,18 @@
                              Ferramentas de Descrição
 
 
-Fundamentos:
- Para descrever o comportamento entrada/saída de um circuito digital.
+Visão Geral:
+ Em circuitos digitais, precisamos de formas diferentes para representar e analisar o comportamento de um sistema.
+ Cada ferramenta mostra o circuito sob uma perspectiva específica:
+  Algumas mostram valores lógicos.
+  Outras mostram comportamento no tempo.
+  Outras mostram a implementação física.
+  Outras descrevem o circuito matematicamente.
+ Essas ferramentas são fundamentais porque permitem:
+  analisar circuitos;
+  projetar novos sistemas;
+  detectar erros;
+  entender o funcionamento interno de computadores e dispositivos digitais.
  Pode-se usar as seguintes ferramentas:
   Tabelas da verdade
   Diagrama de temporização
@@ -13,7 +23,7 @@ Fundamentos:
 
 
 Tabela da Verdade:
- É o mapeamento estático e exaustivo do circuito.
+ Lista, em forma de uma tabela, todas as possíveis combinações de entrada com o correspondem valor e saída.
  Cálculo de Linhas: O número de combinações possíveis segue a fórmula matemática 2ⁿ, onde n é o número de entradas.
                      2 entradas (A, B): 2² = 4 linhas.
                      3 entradas (A, B, C): 2³ = 8 linhas.
