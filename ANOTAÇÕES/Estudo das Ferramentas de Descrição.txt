@@ -1,0 +1,55 @@
+                             Ferramentas de Descrição
+
+
+Fundamentos:
+ Para descrever o comportamento entrada/saída de um circuito digital.
+ Pode-se usar as seguintes ferramentas:
+  Tabelas da verdade
+  Diagrama de temporização
+  Expressões lógicas de saída
+  Diagrama de circuito lógico
+  Diagrama de transição de estados
+  Tabela de transição de estados
+
+
+Tabela da Verdade:
+ É o mapeamento estático e exaustivo do circuito.
+ Cálculo de Linhas: O número de combinações possíveis segue a fórmula matemática 2ⁿ, onde n é o número de entradas.
+                     2 entradas (A, B): 2² = 4 linhas.
+                     3 entradas (A, B, C): 2³ = 8 linhas.
+                     4 entradas (A, B, C, D): 2⁴ = 16 linhas.
+ Como estudar: Pratique a escrita binária em ordem crescente (000, 001, 010, 011...) para garantir que não esqueceu 
+              nenhuma combinação na tabela.
+
+
+Diagrama de Temporização (Cronograma):
+ É a representação gráfica do comportamento dinâmico do circuito ao longo do eixo do tempo (t).
+ Como ler: Ele mostra as entradas e saídas como ondas quadradas. Quando a linha está em cima, o valor é 1; quando está 
+          embaixo, é 0.
+ Importância: Permite enxergar o comportamento do circuito em situações reais, transições de estados e analisar 
+             problemas como "atrasos de propagação" (o tempo que um chip leva para responder).
+
+
+Expressões Lógicas (Álgebra):
+ É a representação matemática textual. Utiliza operadores booleanos para conectar as variáveis. 
+ Os operadores principais que aparecem nas fórmulas são:
+  AND (E): Multiplicação lógica (ex: A.B ou AB)
+  OR (OU): Soma lógica (ex: A + B)
+  NOT (NÃO/Inversão): Barra sobre a variável (ex: ¬A ou A')
+ Como estudar: Você precisará aprender a pegar uma linha da Tabela da Verdade e transforma-se em uma expressão (e 
+              vice-versa).
+
+
+Diagrama de Circuito Lógico (Esquemático):
+ É o desenho técnico do circuito usando símbolos padronizados para representar as "portas lógicas" (os blocos físicos que realizam as operações de AND, OR, NOT).
+ Convenção de Fluxo: O desenho deve ser lido da esquerda para a direita (entradas na esquerda, fios cruzando as portas 
+                    no meio, e saídas na extrema direita).
+
+
+Intercambialidade: 
+ Um bom estudante de circuitos digitais deve ser capaz de navegar livremente entre essas ferramentas. 
+ Esse processo divide-se em dois conceitos que você estudará no futuro:
+  Análise de Circuitos: Você recebe o Diagrama do Circuito → extrai a Expressão Lógica → monta a Tabela da Verdade.  
+                       (Descobrir o que o circuito faz).
+  Síntese de Circuitos (Projeto): Você recebe o problema (descrição textual) → monta a Tabela da Verdade → extrai a 
+                                 Expressão Lógica → desenha o Diagrama do Circuito. (Criar um circuito do zero).
