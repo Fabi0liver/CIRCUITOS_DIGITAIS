@@ -23,7 +23,26 @@ Visão Geral:
 
 
 Tabela da Verdade:
- Lista, em forma de uma tabela, todas as possíveis combinações de entrada com o correspondem valor e saída.
+ A Tabela da Verdade é uma representação tabular que mostra:
+  todas as combinações possíveis das entradas;
+  o valor correspondente das saídas para cada combinação.
+ Ela descreve completamente o comportamento lógico de um circuito combinacional.
+ Estrutura Básica: 
+                      A  |  B  | Saída
+                    -----+-----+-------
+                      0  |  0  |  ? 
+                    -----+-----+-------
+                      0  |  1  |  ?
+                    -----+-----+-------
+                      1  |  0  |  ?
+                    -----+-----+-------
+                      1  |  1  |  ?
+
+
+
+
+ 
+Lista, em forma de uma tabela, todas as possíveis combinações de entrada com o correspondem valor e saída.
  Cálculo de Linhas: O número de combinações possíveis segue a fórmula matemática 2ⁿ, onde n é o número de entradas.
                      2 entradas (A, B): 2² = 4 linhas.
                      3 entradas (A, B, C): 2³ = 8 linhas.
