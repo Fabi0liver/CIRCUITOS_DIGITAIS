@@ -66,7 +66,6 @@ Tabela da Verdade:
    identificar padrões lógicos.
 
 
-
 Diagrama de Temporização (Cronograma):
  O Diagrama de Temporização representa o comportamento do circuito ao longo do tempo.
  Ele mostra:
@@ -112,7 +111,6 @@ Diagrama de Temporização (Cronograma):
    interpretar clock e bordas de subida/descida.
    
 
-
 Expressões Lógicas (Álgebra Booleana):
  A expressão lógica é a representação matemática do circuito.
  Ela descreve as relações entre entradas e saídas usando operações booleanas.
@@ -153,9 +151,32 @@ Expressões Lógicas (Álgebra Booleana):
  
 Diagrama de Circuito Lógico (Esquemático):
  É o desenho técnico do circuito usando símbolos padronizados para representar as "portas lógicas" (os blocos físicos que realizam as operações de AND, OR, NOT).
- Convenção de Fluxo: O desenho deve ser lido da esquerda para a direita (entradas na esquerda, fios cruzando as portas 
-                    no meio, e saídas na extrema direita).
-
+ Estrutura do Fluxo:
+  O circuito normalmente é lido:
+   esquerda → direita.
+  Organização:
+   Entradas → esquerda
+   Processamento → centro
+   Saídas → direita
+ Elementos importantes:
+  Fios:
+   Representam conexões elétricas.
+  Portas Lógicas:
+   Executam operações booleanas.
+  Nós:
+   Pontos onde sinais se dividem.
+ Objetivo do Esquemático:
+  Mostrar:
+   implementação física;
+   fluxo lógico;
+   organização do hardware.
+ Como Estudar:
+  Treine:
+   desenhar portas;
+   seguir sinais;
+   identificar caminhos lógicos;
+   converter expressões em esquemáticos.
+ 
 
 Intercambialidade: 
  Um bom estudante de circuitos digitais deve ser capaz de navegar livremente entre essas ferramentas. 
