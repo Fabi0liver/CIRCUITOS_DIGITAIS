@@ -176,6 +176,47 @@ Diagrama de Circuito Lógico (Esquemático):
    seguir sinais;
    identificar caminhos lógicos;
    converter expressões em esquemáticos.
+
+
+Diagrama de Transição de Estados:
+ Usado principalmente em:
+  circuitos sequenciais;
+  máquinas de estados;
+  sistemas com memória.
+ O que representa:
+  Mostra:
+   estados possíveis do sistema;
+   transições entre estados;
+   condições que provocam mudanças.
+ Estrutura:
+  Estados:
+   Representados por círculos.
+  Transições:
+   Representadas por setas.
+  Condições:
+   Escritas sobre as setas.
+ Importância:
+  Fundamental para:
+   processadores;
+   controladores;
+   protocolos;
+   automação;
+   CPUs;
+   sistemas embarcados.
+
+
+Tabela de Transição de Estados:
+ É a versão tabular do diagrama de estados.
+ Ela organiza:
+  estado atual;
+  entradas;
+  próximo estado;
+  saída.
+ Objetivo:
+  Facilitar:
+   análise matemática;
+   implementação;
+   síntese de circuitos sequenciais.
  
 
 Intercambialidade: 
