@@ -49,8 +49,22 @@ Tabela da Verdade:
    permite verificar o comportamento completo do circuito;
    serve de ponte entre álgebra booleana e hardware;
    ajuda na criação de expressões lógicas.
- Como estudar: Pratique a escrita binária em ordem crescente (000, 001, 010, 011...) para garantir que não esqueceu 
-              nenhuma combinação na tabela.
+ Como estudar: 
+  Aprenda contagem binária
+   Pratique sequências como:
+    000
+    001
+    010
+    011
+    100
+    ...
+   Isso evita esquecer combinações.
+  Treine:
+   montar tabelas a partir de circuitos;
+   criar circuitos a partir de tabelas;
+   converter tabela em expressão booleana;
+   identificar padrões lógicos.
+
 
 
 Diagrama de Temporização (Cronograma):
