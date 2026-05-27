@@ -113,16 +113,44 @@ Diagrama de Temporização (Cronograma):
    
 
 
-Expressões Lógicas (Álgebra):
- É a representação matemática textual. Utiliza operadores booleanos para conectar as variáveis. 
- Os operadores principais que aparecem nas fórmulas são:
-  AND (E): Multiplicação lógica (ex: A.B ou AB)
-  OR (OU): Soma lógica (ex: A + B)
-  NOT (NÃO/Inversão): Barra sobre a variável (ex: ¬A ou A')
- Como estudar: Você precisará aprender a pegar uma linha da Tabela da Verdade e transforma-se em uma expressão (e 
-              vice-versa).
+Expressões Lógicas (Álgebra Booleana):
+ A expressão lógica é a representação matemática do circuito.
+ Ela descreve as relações entre entradas e saídas usando operações booleanas.
+ Operadores Fundamentais:
+  Os operadores principais que aparecem nas fórmulas são:
+   AND (E): 
+    Representa multiplicação lógica. 
+     Y = A ⋅ B ou Y = AB
+    Resultado:
+     só é 1 quando todas entradas forem 1.
+   OR (OU): 
+    Representa soma lógica.
+     Y = A + B
+    Resultado:
+     é 1 quando pelo menos uma entrada for 1.
+   NOT (NÃO/Inversão): 
+    Representa inversão lógica.
+     Y = A̅ ou Y = A′
+    Resultado:
+     inverte o valor lógico.
+ Objetivo:
+  Permitir:
+   descrever circuitos matematicamente;
+   simplificar circuitos;
+   reduzir hardware;
+   otimizar desempenho.
+ Conversões Fundamentais:
+  Você deve aprender a:
+   Tabela → Expressão
+    Encontrar a fórmula lógica.
+   Expressão → Circuito
+    Transformar álgebra em portas lógicas.
+   Circuito → Expressão
+    Descobrir a função realizada.
+   Expressão → Tabela
+    Calcular todas as saídas possíveis.
 
-
+ 
 Diagrama de Circuito Lógico (Esquemático):
  É o desenho técnico do circuito usando símbolos padronizados para representar as "portas lógicas" (os blocos físicos que realizam as operações de AND, OR, NOT).
  Convenção de Fluxo: O desenho deve ser lido da esquerda para a direita (entradas na esquerda, fios cruzando as portas 
