@@ -220,9 +220,23 @@ Tabela de Transição de Estados:
  
 
 Intercambialidade: 
- Um bom estudante de circuitos digitais deve ser capaz de navegar livremente entre essas ferramentas. 
- Esse processo divide-se em dois conceitos que você estudará no futuro:
-  Análise de Circuitos: Você recebe o Diagrama do Circuito → extrai a Expressão Lógica → monta a Tabela da Verdade.  
-                       (Descobrir o que o circuito faz).
-  Síntese de Circuitos (Projeto): Você recebe o problema (descrição textual) → monta a Tabela da Verdade → extrai a 
-                                 Expressão Lógica → desenha o Diagrama do Circuito. (Criar um circuito do zero).
+ Um estudante de circuitos digitais deve conseguir navegar entre todas as representações.
+ Isso é essencial porque todas descrevem o mesmo sistema sob perspectivas diferentes.
+ Esse processo divide-se em dois conceitos:
+  Fluxo de Análise de Circuitos:
+   Objetivo:
+    descobrir o que o circuito faz.
+    Processo
+   Diagrama do Circuito
+    → Expressão Lógica
+    → Tabela da Verdade
+    → Comportamento do Circuito
+  Fluxo de Síntese de Circuitos:
+   Objetivo:
+    criar um circuito novo.
+    Processo
+   Problema textual:
+    → Tabela da Verdade
+    → Expressão Lógica
+    → Simplificação
+    → Diagrama do Circuito
