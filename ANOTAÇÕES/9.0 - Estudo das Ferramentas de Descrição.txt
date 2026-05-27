@@ -68,11 +68,49 @@ Tabela da Verdade:
 
 
 Diagrama de Temporização (Cronograma):
- É a representação gráfica do comportamento dinâmico do circuito ao longo do eixo do tempo (t).
- Como ler: Ele mostra as entradas e saídas como ondas quadradas. Quando a linha está em cima, o valor é 1; quando está 
-          embaixo, é 0.
- Importância: Permite enxergar o comportamento do circuito em situações reais, transições de estados e analisar 
-             problemas como "atrasos de propagação" (o tempo que um chip leva para responder).
+ O Diagrama de Temporização representa o comportamento do circuito ao longo do tempo.
+ Ele mostra:
+  quando sinais mudam;
+  como entradas afetam saídas;
+  atrasos e transições.
+ Representação Visual:
+  Os sinais aparecem como ondas quadradas:
+   nível alto → 1 lógico;
+   nível baixo → 0 lógico.
+  O eixo horizontal representa:
+   tempo t.
+ O que ele permite observar:
+  Mudanças de estado:
+   Mostra exatamente quando ocorre uma transição:
+    0 → 1
+    1 → 0
+  Sincronismo:
+   Permite verificar:
+    alinhamento entre sinais;
+    funcionamento com clock;
+    resposta temporal do circuito.
+  Atraso de propagação:
+   Todo componente físico demora um pequeno tempo para responder.
+   Esse fenômeno é chamado:
+    atraso de propagação.
+   O diagrama permite visualizar:
+    glitches;
+    atrasos;
+    comportamentos temporários inesperados.
+ Onde é muito usado:
+  Flip-flops
+  Registradores
+  Memórias
+  Processadores
+  Circuitos sequenciais
+  Sistemas síncronos
+ Como Estudar:
+  Pratique:
+   desenhar ondas;
+   acompanhar mudanças de entrada;
+   prever a saída ao longo do tempo;
+   interpretar clock e bordas de subida/descida.
+   
 
 
 Expressões Lógicas (Álgebra):
