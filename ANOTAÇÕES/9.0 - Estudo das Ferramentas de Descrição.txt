@@ -37,16 +37,18 @@ Tabela da Verdade:
                       1  |  0  |  ?
                     -----+-----+-------
                       1  |  1  |  ?
-
-
-
-
- 
-Lista, em forma de uma tabela, todas as possíveis combinações de entrada com o correspondem valor e saída.
- Cálculo de Linhas: O número de combinações possíveis segue a fórmula matemática 2ⁿ, onde n é o número de entradas.
-                     2 entradas (A, B): 2² = 4 linhas.
-                     3 entradas (A, B, C): 2³ = 8 linhas.
-                     4 entradas (A, B, C, D): 2⁴ = 16 linhas.
+ Quantidade de Linhas: 
+  O número de combinações possíveis segue a fórmula matemática 2ⁿ, onde n é o número de entradas.
+   Exemplos:
+     2 entradas (A, B): 2² = 4 linhas.
+     3 entradas (A, B, C): 2³ = 8 linhas.
+     4 entradas (A, B, C, D): 2⁴ = 16 linhas.
+ Importância:
+  A Tabela da Verdade:
+   é a base da análise lógica;
+   permite verificar o comportamento completo do circuito;
+   serve de ponte entre álgebra booleana e hardware;
+   ajuda na criação de expressões lógicas.
  Como estudar: Pratique a escrita binária em ordem crescente (000, 001, 010, 011...) para garantir que não esqueceu 
               nenhuma combinação na tabela.
 
