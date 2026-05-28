@@ -49,3 +49,28 @@ Onde as Portas Lógicas São Úteis:
   Estruturas condicionais
   Operadores lógicos
   Controle de fluxo
+
+
+Formas de Representar Portas Lógicas:
+ Tabela Verdade:
+  Conceito de tabela verdade
+  Combinações de entradas
+  Saídas lógicas
+  Potências de 2 em entradas binárias
+  Análise lógica de circuitos
+ Representação Gráfica (Simbologia):
+  Símbolos das portas lógicas
+  Diagramas de circuitos
+  Padrão ANSI
+  Interpretação visual de circuitos
+ Expressão Booleana:
+  Operadores lógicos
+  Representação matemática
+  Simplificação de circuitos
+  Otimização lógica
+ Diagramas de Temporização:
+  Comportamento lógico no tempo
+  Sincronização
+  Clock
+  Sequenciamento de eventos
+  Análise temporal
