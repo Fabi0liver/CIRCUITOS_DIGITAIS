@@ -101,3 +101,33 @@ Porta OR (OU — Disjunção):
  Aplicações práticas da OR
  Sistemas de alarme
  Processamento de decisões
+
+
+Porta NOT (NÃO — Negação):
+ Conceito da porta NOT
+ Funcionamento básico
+ Inversão lógica
+ Negação booleana
+ Tabela verdade da NOT
+ Simbologia da NOT
+ Expressão booleana da NOT
+ Complemento lógico
+ Aplicações práticas da NOT
+ Complemento de 1
+ Controle de sinais
+
+
+Portas Lógicas Compostas:
+
+ Porta NAND (NOT AND):
+  Conceito da NAND
+  Negação da conjunção
+  Funcionamento básico
+  Tabela verdade da NAND
+  Simbologia da NAND
+  Expressão booleana da NAND
+  Múltiplas entradas na NAND
+  Porta universal
+  Aplicações práticas da NAND
+  Memória NAND Flash
+  Construção de outras portas lógicas
