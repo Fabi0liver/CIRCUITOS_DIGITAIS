@@ -76,45 +76,45 @@ Formas de Representar Portas Lógicas:
   Análise temporal
 
 
-Porta AND (E — Conjunção):
- Conceito da porta AND
- Funcionamento básico
- Conjunção lógica
- Tabela verdade da AND
- Simbologia da AND
- Expressão booleana da AND
- Múltiplas entradas na AND
- Aplicações práticas da AND
- Sistemas de segurança
- Controle lógico
- Somadores binários
+Portas Lógicas Básicas:
 
+ Porta AND (E — Conjunção):
+  Conceito da porta AND
+  Funcionamento básico
+  Conjunção lógica
+  Tabela verdade da AND
+  Simbologia da AND
+  Expressão booleana da AND
+  Múltiplas entradas na AND
+  Aplicações práticas da AND
+  Sistemas de segurança
+  Controle lógico
+  Somadores binários
 
-Porta OR (OU — Disjunção):
- Conceito da porta OR
- Funcionamento básico
- Disjunção lógica
- Tabela verdade da OR
- Simbologia da OR
- Expressão booleana da OR
- Múltiplas entradas na OR
- Aplicações práticas da OR
- Sistemas de alarme
- Processamento de decisões
+ Porta OR (OU — Disjunção):
+  Conceito da porta OR
+  Funcionamento básico
+  Disjunção lógica
+  Tabela verdade da OR
+  Simbologia da OR
+  Expressão booleana da OR
+  Múltiplas entradas na OR
+  Aplicações práticas da OR
+  Sistemas de alarme
+  Processamento de decisões
 
-
-Porta NOT (NÃO — Negação):
- Conceito da porta NOT
- Funcionamento básico
- Inversão lógica
- Negação booleana
- Tabela verdade da NOT
- Simbologia da NOT
- Expressão booleana da NOT
- Complemento lógico
- Aplicações práticas da NOT
- Complemento de 1
- Controle de sinais
+ Porta NOT (NÃO — Negação):
+  Conceito da porta NOT
+  Funcionamento básico
+  Inversão lógica
+  Negação booleana
+  Tabela verdade da NOT
+  Simbologia da NOT
+  Expressão booleana da NOT
+  Complemento lógico
+  Aplicações práticas da NOT
+  Complemento de 1
+  Controle de sinais
 
 
 Portas Lógicas Compostas:
