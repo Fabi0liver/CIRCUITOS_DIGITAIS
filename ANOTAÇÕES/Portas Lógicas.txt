@@ -74,3 +74,17 @@ Formas de Representar Portas Lógicas:
   Clock
   Sequenciamento de eventos
   Análise temporal
+
+
+Porta AND (E — Conjunção):
+ Conceito da porta AND
+ Funcionamento básico
+ Conjunção lógica
+ Tabela verdade da AND
+ Simbologia da AND
+ Expressão booleana da AND
+ Múltiplas entradas na AND
+ Aplicações práticas da AND
+ Sistemas de segurança
+ Controle lógico
+ Somadores binários
