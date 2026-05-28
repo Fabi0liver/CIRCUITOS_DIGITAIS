@@ -1,0 +1,13 @@
+                                            Portas Lógicas
+
+
+Introdução às Portas Lógicas:
+ O que são portas lógicas
+ Importância das portas lógicas
+ Relação com eletrônica digital
+ Relação com computação
+ Sinais binários (0 e 1)
+ Verdadeiro e falso na lógica digital
+ Álgebra Booleana
+ Portas lógicas como blocos fundamentais dos circuitos digitais
+ Papel das portas lógicas em computadores e dispositivos eletrônicos
