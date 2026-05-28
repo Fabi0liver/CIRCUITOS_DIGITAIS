@@ -88,3 +88,16 @@ Porta AND (E — Conjunção):
  Sistemas de segurança
  Controle lógico
  Somadores binários
+
+
+Porta OR (OU — Disjunção):
+ Conceito da porta OR
+ Funcionamento básico
+ Disjunção lógica
+ Tabela verdade da OR
+ Simbologia da OR
+ Expressão booleana da OR
+ Múltiplas entradas na OR
+ Aplicações práticas da OR
+ Sistemas de alarme
+ Processamento de decisões
