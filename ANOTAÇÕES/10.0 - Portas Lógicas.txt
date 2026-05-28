@@ -218,3 +218,18 @@ Aplicações das Portas Lógicas:
   Alarmes
  Jogos e Consoles:
   Sistemas eletrônicos de entretenimento
+
+
+Conceitos Relacionados:
+ Circuitos digitais
+ Sistemas digitais
+ Hardware
+ Processamento de dados
+ Computação digital
+ Sistemas eletrônicos
+ Tomada de decisão lógica
+ Automação
+ Inteligência artificial
+ Controle eletrônico
+ Arquitetura computacional
+ Tecnologia digital moderna
