@@ -25,3 +25,27 @@ Contexto Histórico das Portas Lógicas:
  Relação entre lógica matemática e hardware
  Evolução da eletrônica digital
  Expansão para telecomunicações e inteligência artificial
+
+
+Onde as Portas Lógicas São Úteis:
+ Na Eletrônica:
+  Circuitos digitais
+  Processadores
+  Somadores binários
+  Multiplicadores binários
+  Transistores como interruptores
+ Na Teoria da Computação:
+  Máquinas de Turing
+  Autômatos
+  Computabilidade
+  Complexidade computacional
+ Na Lógica Computacional:
+  Sistemas inteligentes
+  Inteligência artificial
+  Verificação de software
+  Inferência lógica
+ Na Programação:
+  Expressões lógicas
+  Estruturas condicionais
+  Operadores lógicos
+  Controle de fluxo
