@@ -11,3 +11,17 @@ Introdução às Portas Lógicas:
  Álgebra Booleana
  Portas lógicas como blocos fundamentais dos circuitos digitais
  Papel das portas lógicas em computadores e dispositivos eletrônicos
+
+
+Contexto Histórico das Portas Lógicas:
+ Origem da Álgebra Booleana
+ George Boole
+ Desenvolvimento da lógica matemática
+ Aplicação da lógica em circuitos elétricos
+ Claude Shannon
+ Relés elétricos
+ Evolução dos computadores digitais
+ Transistores
+ Relação entre lógica matemática e hardware
+ Evolução da eletrônica digital
+ Expansão para telecomunicações e inteligência artificial
