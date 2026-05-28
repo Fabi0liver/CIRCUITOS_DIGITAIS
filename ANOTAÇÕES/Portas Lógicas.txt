@@ -160,3 +160,17 @@ Portas Lógicas Compostas:
   Verificação de erros
   Criptografia
   Codificação de dados
+
+ Porta XNOR (OU Exclusivo Negado):
+  Conceito da XNOR
+  Igualdade lógica
+  Funcionamento básico
+  Comparação de igualdade
+  Tabela verdade da XNOR
+  Simbologia da XNOR
+  Expressão booleana da XNOR
+  XNOR com múltiplas entradas
+  Aplicações práticas da XNOR
+  Comparadores digitais
+  Verificação de paridade
+  Reconhecimento de padrões
