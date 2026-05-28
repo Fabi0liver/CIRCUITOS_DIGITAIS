@@ -179,3 +179,19 @@ Portas Lógicas Compostas:
   Comparadores digitais
   Verificação de paridade
   Reconhecimento de padrões
+
+
+
+Implementação Física das Portas Lógicas:
+ Implementação em hardware
+ Transistores
+ MOSFET
+ CMOS
+ Corrente elétrica
+ Circuitos semicondutores
+ Litografia
+ Chips semicondutores
+ Miniaturização
+ Processadores
+ Eficiência energética
+ Integração de circuitos
