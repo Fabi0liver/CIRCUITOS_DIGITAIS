@@ -195,3 +195,26 @@ Implementação Física das Portas Lógicas:
  Processadores
  Eficiência energética
  Integração de circuitos
+
+
+
+Aplicações das Portas Lógicas:
+ Computadores e Processadores:
+  Operações lógicas
+  Operações aritméticas
+  Execução de programas
+ Memórias:
+  RAM
+  ROM
+  Armazenamento de dados
+  Leitura e gravação de informações
+ Automação:
+  Casas inteligentes
+  Automação industrial
+  Controle automático
+ Circuitos de Decisão:
+  Sistemas de segurança
+  Controle de tráfego
+  Alarmes
+ Jogos e Consoles:
+  Sistemas eletrônicos de entretenimento
