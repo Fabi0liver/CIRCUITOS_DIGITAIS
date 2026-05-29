@@ -86,15 +86,24 @@ Portas Lógicas Básicas:
   Conceito da porta AND
   Funcionamento básico
   Conjunção lógica
-  Tabela verdade da AND
-  Simbologia da AND
-  Expressão booleana da AND
-  Múltiplas entradas na AND
-  Propriedades da porta AND:
+  Tabela verdade da AND:
+    A  |  B  | A.B
+  -----+-----+-------
+    0  |  0  |  0 
+  -----+-----+-------
+    0  |  1  |  0
+  -----+-----+-------
+    1  |  0  |  0
+  -----+-----+-------
+    1  |  1  |  1
+ Propriedades da porta AND:
    A . 0 = 0
    A . 1 = A
    A . A = A
    A . A̅ = 0
+  Simbologia da AND
+  Expressão booleana da AND
+  Múltiplas entradas na AND
   Aplicações práticas da AND
   Sistemas de segurança
   Controle lógico
