@@ -231,6 +231,15 @@ Portas Lógicas Compostas:
 
 
 
+Outras Propriedade:
+ Comutativa:
+  A . B = B . A
+  A + B = B + A
+ Associativa:
+  A . (B . C) = ( A . B) . C
+  A + (B + C) = ( A + B) + C
+
+
 Implementação Física das Portas Lógicas:
  Implementação em hardware
  Transistores
