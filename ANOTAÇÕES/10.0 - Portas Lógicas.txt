@@ -113,7 +113,21 @@ Portas Lógicas Básicas:
   Conceito da porta OR
   Funcionamento básico
   Disjunção lógica
-  Tabela verdade da OR
+  Tabela verdade da OR:
+    A  |  B  | A+B
+  -----+-----+-------
+    0  |  0  |  0 
+  -----+-----+-------
+    0  |  1  |  1
+  -----+-----+-------
+    1  |  0  |  1
+  -----+-----+-------
+    1  |  1  |  1
+  Propriedades da porta OR:
+   A + 0 = A
+   A + 1 = 1
+   A + A = A
+   A + A̅ = 1
   Simbologia da OR
   Expressão booleana da OR
   Múltiplas entradas na OR
