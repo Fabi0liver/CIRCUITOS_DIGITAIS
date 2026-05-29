@@ -90,6 +90,7 @@ Portas Lógicas Básicas:
   Simbologia da AND
   Expressão booleana da AND
   Múltiplas entradas na AND
+  Propriedades da porta AND
   Aplicações práticas da AND
   Sistemas de segurança
   Controle lógico
