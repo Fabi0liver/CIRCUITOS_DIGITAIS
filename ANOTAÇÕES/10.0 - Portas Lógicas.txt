@@ -244,7 +244,8 @@ Outras Propriedade:
  De Morgan: 
   !(A + B) = A̅ . B̅
   !(A . B) = A̅ + B̅
-
+ Cobertura:
+  A + A . B =  A . (1 + B) = A . 1 = 1
 
 
 Implementação Física das Portas Lógicas:
