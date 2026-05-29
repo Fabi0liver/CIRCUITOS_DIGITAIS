@@ -140,7 +140,14 @@ Portas Lógicas Básicas:
   Funcionamento básico
   Inversão lógica
   Negação booleana
-  Tabela verdade da NOT
+  Tabela verdade da NOT:
+    A  |  A̅
+  -----+-----
+    0  |  1  
+  -----+-----
+    1  |  0  
+  Propriedades da porta OR:
+   A̅̅ = A
   Simbologia da NOT
   Expressão booleana da NOT
   Complemento lógico
