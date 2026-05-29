@@ -231,6 +231,14 @@ Portas Lógicas Compostas:
 
 
 
+Ordem de Precedência:
+ 1°.  Parênteses
+ 2°.  NOT  (NÃO)
+ 3°.  AND  (E)
+ 4°.  OR   (OU)
+
+
+
 Outras Propriedade:
  Comutativa:
   A . B = B . A
@@ -246,6 +254,7 @@ Outras Propriedade:
   !(A . B) = A̅ + B̅
  Cobertura:
   A + A . B =  A . (1 + B) = A . 1 = 1
+
 
 
 Implementação Física das Portas Lógicas:
