@@ -253,7 +253,19 @@ Outras Propriedade:
   !(A + B) = A̅ . B̅
   !(A . B) = A̅ + B̅
  Cobertura:
-  A + A . B =  A . (1 + B) = A . 1 = 1
+  A + A . B =  A . (1 + B) = A . 1 = A
+
+
+
+Universalidade das Portas: 
+ Construção usando NAND:
+  NOT com NAND
+  AND com NAND
+  OR com NAND
+ Construção usando NOR:
+  NOT com NOR
+  AND com NOR
+  OR com NOR
 
 
 
