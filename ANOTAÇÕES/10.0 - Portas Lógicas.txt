@@ -90,7 +90,11 @@ Portas Lógicas Básicas:
   Simbologia da AND
   Expressão booleana da AND
   Múltiplas entradas na AND
-  Propriedades da porta AND
+  Propriedades da porta AND:
+   A . 0 = 0
+   A . 1 = A
+   A . A = A
+   A . A̅ = 0
   Aplicações práticas da AND
   Sistemas de segurança
   Controle lógico
