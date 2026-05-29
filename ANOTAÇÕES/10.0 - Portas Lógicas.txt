@@ -232,7 +232,7 @@ Portas Lógicas Compostas:
 
 
 Ordem de Precedência:
- 1°.  Parênteses
+ 1°.  Parênteses, colchetes e chaves (nesta ordem)
  2°.  NOT  (NÃO)
  3°.  AND  (E)
  4°.  OR   (OU)
