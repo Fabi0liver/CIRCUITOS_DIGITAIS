@@ -238,6 +238,13 @@ Outras Propriedade:
  Associativa:
   A . (B . C) = ( A . B) . C
   A + (B + C) = ( A + B) + C
+ Distributiva:
+  A . (B + C) = A . B + A . C
+  (A + B) . ( C + D) =  A . C + A . D + B . C + B . D
+ De Morgan: 
+  !(A + B) = A̅ . B̅
+  !(A . B) = A̅ + B̅
+
 
 
 Implementação Física das Portas Lógicas:
