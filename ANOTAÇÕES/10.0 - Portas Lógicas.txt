@@ -190,7 +190,21 @@ Portas Lógicas Compostas:
   Diferença lógica
   Funcionamento básico
   Comparação entre entradas
-  Tabela verdade da XOR
+  Tabela verdade da XOR:
+    A  |  B  | A⊕B
+  -----+-----+-------
+    0  |  0  |  0 
+  -----+-----+-------
+    0  |  1  |  1
+  -----+-----+-------
+    1  |  0  |  1
+  -----+-----+-------
+    1  |  1  |  0
+  Propriedades da porta OR:
+   A ⊕ 1 = A̅
+   A ⊕ 0 = A
+   A ⊕ A = 0
+   A ⊕ A̅ = 1
   Simbologia da XOR
   Expressão booleana da XOR
   XOR com múltiplas entradas
