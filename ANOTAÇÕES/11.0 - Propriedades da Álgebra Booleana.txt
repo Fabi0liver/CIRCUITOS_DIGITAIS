@@ -115,3 +115,22 @@ Teoremas Importantes:
   Inversão simultânea dos termos
   Aplicações em circuitos digitais
   Aplicações em portas NAND e NOR
+
+
+
+Propriedades Avançadas:
+
+ Princípio da Dualidade:
+  O que é dualidade
+  Como obter a expressão dual
+  Troca entre AND e OR
+  Troca entre 0 e 1
+  Verificação da dualidade
+  Importância teórica
+
+ Consenso (Teorema do Consenso):
+  Conceito de consenso
+  Forma geral do teorema
+  Eliminação de termos redundantes
+  Aplicações em simplificação
+  Exemplos práticos
