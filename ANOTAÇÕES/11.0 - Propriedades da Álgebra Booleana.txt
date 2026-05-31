@@ -21,3 +21,39 @@ Revisão dos Conceitos Básicos:
  Tabelas verdade
 
 
+Propriedades Fundamentais:
+
+ Lei da Identidade:
+  Conceito da identidade
+  Identidade da operação AND
+  Identidade da operação OR
+  Interpretação lógica
+  Aplicações práticas
+  Exemplos de simplificação
+
+ Lei da Anulação (Dominação):
+  Conceito da anulação
+  Anulação na operação AND
+  Anulação na operação OR
+  Interpretação em circuitos digitais
+  Exemplos práticos
+
+ Lei da Idempotência:
+  Conceito de idempotência
+  Idempotência do AND
+  Idempotência do OR
+  Significado lógico
+  Aplicações em simplificação
+
+ Lei do Complemento:
+  Conceito de complemento
+  Complemento em operações AND
+  Complemento em operações OR
+  Relação entre uma variável e sua negação
+  Aplicações práticas
+
+ Lei da Dupla Negação (Involução):
+  Conceito de dupla negação
+  Remoção de negações sucessivas
+  Interpretação lógica
+  Exemplos de utilização
