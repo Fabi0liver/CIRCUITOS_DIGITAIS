@@ -10,6 +10,7 @@ Introdução às Propriedades da Álgebra Booleana:
  Como as propriedades permitem reduzir expressões lógicas
 
 
+
 Revisão dos Conceitos Básicos:
  Variáveis booleanas
  Valores lógicos (0 e 1)
@@ -19,6 +20,7 @@ Revisão dos Conceitos Básicos:
  Operador NOT (NÃO)
  Expressões booleanas
  Tabelas verdade
+
 
 
 Propriedades Fundamentais:
@@ -57,3 +59,45 @@ Propriedades Fundamentais:
   Remoção de negações sucessivas
   Interpretação lógica
   Exemplos de utilização
+
+
+
+Propriedades de Reorganização:
+
+ Lei Comutativa:
+  Conceito de comutatividade
+  Comutatividade do AND
+  Comutatividade do OR
+  Importância para reorganização de expressões
+  Exemplos
+
+ Lei Associativa:
+  Conceito de associatividade
+  Associatividade do AND
+  Associatividade do OR
+  Agrupamento de operações
+  Aplicações práticas
+
+ Lei Distributiva:
+  Conceito de distributividade
+  Distribuição do AND sobre OR
+  Distribuição do OR sobre AND
+  Expansão de expressões booleanas
+  Simplificação utilizando distributividade
+
+
+
+Propriedades de Simplificação:
+
+ Lei da Absorção:
+  Conceito de absorção
+  Absorção envolvendo AND e OR
+  Interpretação lógica
+  Identificação de padrões de absorção
+  Aplicações práticas
+
+ Lei da Redução:
+  Conceito de redução
+  Casos especiais de simplificação
+  Aplicação combinada com absorção
+  Exemplos resolvidos
