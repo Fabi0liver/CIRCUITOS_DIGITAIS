@@ -101,3 +101,17 @@ Propriedades de Simplificação:
   Casos especiais de simplificação
   Aplicação combinada com absorção
   Exemplos resolvidos
+
+
+
+Teoremas Importantes:
+
+ Teoremas de De Morgan:
+  Histórico dos Teoremas de De Morgan
+  Primeiro Teorema de De Morgan
+  Segundo Teorema de De Morgan
+  Transformação de AND em OR
+  Transformação de OR em AND
+  Inversão simultânea dos termos
+  Aplicações em circuitos digitais
+  Aplicações em portas NAND e NOR
