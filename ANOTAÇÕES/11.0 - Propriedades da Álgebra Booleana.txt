@@ -2,23 +2,43 @@
 
 
 Introdução às Propriedades da Álgebra Booleana:
- O que são propriedades booleanas
- Importância das propriedades na simplificação lógica
+ 
+ O que são propriedades booleanas:
+  Definição de propriedade booleana
+  Papel das propriedades na manipulação de expressões lógicas
+  Origem matemática das propriedades
+ 
+ Importância das propriedades na simplificação lógica:
+  Simplificação de expressões lógicas
+  Análise de funções booleanas
+  Projeto de circuitos digitais
+  Otimização de sistemas computacionais
+ 
  Relação entre propriedades e circuitos digitais
+ 
  Relação entre propriedades e programação
+ 
  Papel das propriedades no projeto de sistemas digitais
+ 
  Como as propriedades permitem reduzir expressões lógicas
 
 
 
 Revisão dos Conceitos Básicos:
+ 
  Variáveis booleanas
+ 
  Valores lógicos (0 e 1)
+ 
  Conceito de verdadeiro e falso
- Operador AND (E)
- Operador OR (OU)
- Operador NOT (NÃO)
+ 
+ Operadores Fundamentais:
+  Operador AND (E)
+  Operador OR (OU)
+  Operador NOT (NÃO)
+ 
  Expressões booleanas
+ 
  Tabelas verdade
 
 
