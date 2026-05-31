@@ -250,10 +250,26 @@ Erros Comuns:
    Dualidade
    Consenso
 
-  Domínio Completo do Tema:
-   Identificação de propriedades
-   Simplificação direta
-   Simplificação avançada
+  Conhecimento Conceitual:
+   Compreensão das propriedades
+   Identificação das leis
+
+  Conhecimento Operacional:
+   Aplicação das propriedades
+   Simplificação de expressões
+
+  Conhecimento Avançado:
    Demonstrações algébricas
+   Demonstrações por tabela verdade
+   Teoremas derivados
+   Equivalência lógica
+
+  Aplicação Prática:
    Conversão para circuitos
-   Análise de circuitos simplificados
+   Otimização de circuitos digitais
+   Análise de projetos lógicos
+
+ Integração do Conhecimento
+  Relação entre todas as propriedades
+  Uso combinado das leis
+  Resolução eficiente de problemas booleanos
