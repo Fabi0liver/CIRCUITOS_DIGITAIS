@@ -159,3 +159,27 @@ Aplicação das Propriedades:
   Comparação de expressões
   Verificação por tabela verdade
   Verificação algébrica
+
+
+
+Integração com Outros Tópicos:
+
+ Relação com Portas Lógicas:
+  Implementação física das propriedades
+  AND, OR e NOT em circuitos
+  Simplificação de redes lógicas
+  Otimização de projetos digitais
+
+ Relação com Circuitos Combinacionais:
+  Simplificação de funções lógicas
+  Projeto de circuitos combinacionais
+  Decodificadores
+  Codificadores
+  Multiplexadores
+  Comparadores
+
+ Relação com Mapas de Karnaugh:
+  Como as propriedades aparecem nos mapas
+  Simplificação visual
+  Agrupamentos equivalentes
+  Confirmação algébrica dos resultados
