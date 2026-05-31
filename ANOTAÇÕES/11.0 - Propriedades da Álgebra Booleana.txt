@@ -8,3 +8,16 @@ Introdução às Propriedades da Álgebra Booleana:
  Relação entre propriedades e programação
  Papel das propriedades no projeto de sistemas digitais
  Como as propriedades permitem reduzir expressões lógicas
+
+
+Revisão dos Conceitos Básicos:
+ Variáveis booleanas
+ Valores lógicos (0 e 1)
+ Conceito de verdadeiro e falso
+ Operador AND (E)
+ Operador OR (OU)
+ Operador NOT (NÃO)
+ Expressões booleanas
+ Tabelas verdade
+
+
