@@ -134,3 +134,28 @@ Propriedades Avançadas:
   Eliminação de termos redundantes
   Aplicações em simplificação
   Exemplos práticos
+
+
+
+Aplicação das Propriedades:
+
+ Simplificação de Expressões Booleanas:
+  Objetivos da simplificação
+  Métodos de simplificação algébrica
+  Reconhecimento de padrões
+  Aplicação sequencial das propriedades
+  Estratégias de simplificação
+
+ Simplificação de Circuitos Digitais:
+  Relação entre expressão e circuito
+  Redução do número de portas lógicas
+  Redução de custos de hardware
+  Melhoria de desempenho
+  Redução do consumo de energia
+
+ Verificação de Equivalência Lógica:
+  O que é equivalência lógica
+  Uso das propriedades para demonstrar equivalência
+  Comparação de expressões
+  Verificação por tabela verdade
+  Verificação algébrica
