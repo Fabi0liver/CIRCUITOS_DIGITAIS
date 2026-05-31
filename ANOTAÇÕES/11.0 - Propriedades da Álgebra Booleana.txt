@@ -221,12 +221,16 @@ Integração com Outros Tópicos:
 
 
  
- Erros Comuns:
+Erros Comuns:
+ Erros de Operação:
   Confundir AND com OR
-  Aplicar De Morgan incorretamente
-  Erros na absorção
-  Erros na distributividade
-  Uso incorreto da dualidade
+  Aplicar operadores incorretamente
+ Aplicar De Morgan incorretamente:
+  Negação incompleta
+  Inversão incorreta das operações
+ Erros na absorção
+ Erros na distributividade
+ Uso incorreto da dualidade
 
 
  Conclusão geral sobre as Propriedades da Álgebra Booleana:
